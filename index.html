@@ -140,8 +140,11 @@ function list(){
     }
     return true;
   });
-  const pages=Math.max(1,Math.ceil(rows.length/SIZE));page=Math.min(page,pages-1);
-  $('rows').innerHTML=rows.slice(page*SIZE,(page+1)*SIZE).map(p=>{
+  const pages=Math.max(1,Math.ceil(rows.length/SIZE));
+  if(page>pages-1)page=pages-1;
+  if(page<0)page=0;
+  const visible=rows.slice(page*SIZE,(page+1)*SIZE);
+  $('rows').innerHTML=visible.map(p=>{
     const idx=D.pages.indexOf(p);
     const bad=[];
     for(const [k,cs] of Object.entries(p.dimensions)){
@@ -185,6 +188,7 @@ window.showDetail=function(idx){
 };
 $('close').onclick=()=>$('detail').close();
 ['fMarket','fFamily','fDim','fProbe','fSearch'].forEach(id=>$(id).addEventListener('input',()=>{page=0;list();}));
+['fMarket','fFamily','fDim','fProbe'].forEach(id=>$(id).addEventListener('change',()=>{page=0;list();}));
 $('prev').onclick=()=>{page--;list();};$('next').onclick=()=>{page++;list();};
 render();
 </script></body></html>
