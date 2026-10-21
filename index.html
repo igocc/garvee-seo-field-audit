@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GARVEE 三站 SEO / SSR / 结构化数据审计</title>
+<style>
+:root{--bg:#f5f6f8;--ink:#16202e;--muted:#5b6878;--line:#dde3ea;--card:#fff;--accent:#6b46c1;
+--red:#b02a2e;--amber:#8a5a04;--green:#136c4d;--gray:#6b7684;
+--redbg:#fbeaea;--amberbg:#fdf3dd;--greenbg:#e6f4ee;--graybg:#eef1f4;--blue:#1d4ed8;--bluebg:#e8eefc;
+font-family:system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;color:var(--ink);background:var(--bg)}
+*{box-sizing:border-box}body{margin:0}
+header{background:#16202e;color:#fff;padding:24px max(16px,calc((100vw - 1520px)/2))}
+header h1{margin:7px 0 5px;font-size:clamp(19px,3.1vw,28px)}
+header p{margin:0;color:#bcc7d6;font-size:13px}
+.brand{font-size:12px;letter-spacing:.08em;color:#c3b3ea;font-weight:700}
+main{max-width:1520px;margin:0 auto;padding:18px 16px 70px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:11px;margin-bottom:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:13px}
+.card .k{font-size:12px;color:var(--muted)}.card .v{font-size:23px;font-weight:700;margin-top:4px}
+section{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;margin-bottom:16px}
+h2{font-size:15px;margin:0 0 12px}h3{font-size:13px;margin:14px 0 8px;color:var(--muted)}
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:12px}
+input,select,button,a.dl{font:inherit;font-size:13px;border:1px solid var(--line);border-radius:7px;padding:7px 10px;background:#fff;color:var(--ink)}
+input{min-width:160px}button{cursor:pointer}button:hover{border-color:var(--accent)}
+a.dl{text-decoration:none;margin-left:auto}a{color:var(--accent)}
+table{border-collapse:collapse;width:100%;font-size:12.5px}
+th{background:#f2f4f7;color:var(--muted);font-size:11.5px;text-align:left;white-space:nowrap;position:sticky;top:0;z-index:2}
+td,th{padding:8px;border-bottom:1px solid var(--line);vertical-align:top}
+.scroll{overflow:auto;max-height:600px}
+td.u{max-width:280px;overflow-wrap:anywhere}td.u small{display:block;color:var(--muted);margin-top:2px}
+.tag{display:inline-block;border-radius:4px;padding:1px 6px;font-size:11px;white-space:nowrap;font-weight:600}
+.s-未处理{background:var(--redbg);color:var(--red)}
+.s-值错误{background:var(--amberbg);color:var(--amber)}
+.s-建议补充{background:var(--bluebg);color:var(--blue)}
+.s-内容为空{background:var(--graybg);color:var(--gray)}
+.s-正确{background:var(--greenbg);color:var(--green)}
+.s-未直出{background:var(--redbg);color:var(--red)}
+.s-部分直出{background:var(--amberbg);color:var(--amber)}
+.t-fatal{background:var(--redbg);color:var(--red)}.t-warn{background:var(--amberbg);color:var(--amber)}.t-ok{background:var(--greenbg);color:var(--green)}
+.muted{color:var(--muted);font-size:11.5px}
+.pager{display:flex;justify-content:flex-end;gap:9px;align-items:center;margin-top:12px}
+code{background:#f2f4f7;padding:1px 4px;border-radius:3px;font-size:11.5px;word-break:break-all}
+.legend{font-size:12px;color:var(--muted);line-height:1.9;margin-bottom:11px}
+dialog{width:min(1150px,97vw);max-height:93vh;border:1px solid var(--line);border-radius:12px;padding:20px}
+dialog::backdrop{background:#10172480}.close{float:right}
+footer{font-size:11.5px;color:var(--muted);padding-top:6px;line-height:1.8}
+@media(max-width:760px){.cards{grid-template-columns:repeat(2,1fr)}main{padding:13px 8px 50px}section{padding:11px}a.dl{margin-left:0}input{width:100%;min-width:0}}
+</style></head><body>
+<header><div class="brand">GARVEE · SEO / SSR / STRUCTURED DATA</div><h1>三站逐页审计与字段级整改清单</h1>
+<p id="sub">加载中</p></header>
+<main>
+<div class="cards">
+  <div class="card"><div class="k">审计页面</div><div class="v" id="nTotal">—</div></div>
+  <div class="card"><div class="k">基础 / 加参</div><div class="v" id="nBase" style="font-size:18px">—</div></div>
+  <div class="card"><div class="k">致命缺陷</div><div class="v" id="nFatal" style="color:var(--red)">—</div></div>
+  <div class="card"><div class="k">HTTP 4xx</div><div class="v" id="n404">—</div></div>
+  <div class="card"><div class="k">检查字段总数</div><div class="v" id="nFields">—</div></div>
+</div>
+
+<section><h2>字段级问题排行（按影响页数）</h2>
+<div class="legend">「未处理」= 源码缺失；「值错误」= 有值但违规；「部分直出」= 服务端输出不完整；「建议补充」= 非阻断但影响体验或富结果。</div>
+<div class="scroll"><table><thead><tr><th>维度 · 字段</th><th>未处理</th><th>值错误</th><th>部分直出</th><th>建议补充</th><th>正确</th></tr></thead><tbody id="fieldTable"></tbody></table></div>
+</section>
+
+<section><h2>逐页整改清单</h2>
+<div class="bar">
+  <label>市场 <select id="fMarket"><option value="">全部</option></select></label>
+  <label>页面类型 <select id="fFamily"><option value="">全部</option></select></label>
+  <label>维度 <select id="fDim"><option value="">全部</option></select></label>
+  <label>页面性质 <select id="fProbe"><option value="">全部</option><option value="0">基础页</option><option value="1">加参探测页</option></select></label>
+  <label>查找 <input id="fSearch" type="search" placeholder="URL / 字段 / 问题"></label>
+  <a class="dl" href="action-plan.csv" download>逐页整改 CSV</a><a class="dl" href="field-issues.csv" download style="margin-left:8px">字段级明细 CSV</a>
+</div>
+<div class="scroll"><table><thead><tr><th>市场 / 类型</th><th>URL</th><th>HTTP</th><th>结论</th><th>问题摘要</th><th></th></tr></thead><tbody id="rows"></tbody></table></div>
+<div class="pager"><span class="muted" id="info"></span><button id="prev">上一页</button><button id="next">下一页</button></div>
+</section>
+
+<footer>
+数据来源：测试站原始 HTTP 源码 + 无头浏览器完整渲染 DOM（含滚动），共 574 页（287 基础 + 287 个 ?12345 加参探测页）。<br>
+七个维度：基础 Head / TDK / Canonical·Robots / Hreflang / 社会化分享 / 结构化数据 / SSR 模块直出。<br>
+Canonical 规则：搜索页保留 q 并剥离其余参数；其余页面一律剥离全部查询参数。加参页 robots 必须 noindex,follow。<br>
+SSR 判定基于源码与渲染 DOM 的模块级对比；数据本身缺失标为「内容为空」，不按技术故障处理。
+</footer>
+</main>
+<dialog id="detail"><button class="close" id="close">关闭</button><h2 id="dTitle">页面详情</h2><div id="dBody"></div></dialog>
+<script src="audit-data.js"></script>
+<script>
+'use strict';
+const D=window.AUDIT,$=id=>document.getElementById(id);
+let page=0;const SIZE=25;
+const MARKET={us:'美国站',uk:'英国站',ca:'加拿大站'};
+const FAMILY={home:'首页',footer:'底部页',campaign:'短期活动',regular_campaign:'常规活动',
+ blog_home:'博客首页',blog_list:'博客列表',article:'博客文章',cart:'购物车',search:'搜索',
+ category_L1:'一级类目',category_L2:'二级类目',category_L3:'三级类目',product:'商品详情'};
+const DIMNAME={basic_head:'基础 Head',tdk:'TDK',canonical_robots:'Canonical/Robots',
+ hreflang:'Hreflang',social:'社会化分享',structured:'结构化数据',ssr:'SSR 模块'};
+const VERDICT={'致命缺陷':['t-fatal','致命缺陷']};
+
+function render(){
+  const s=D.stats;
+  $('sub').textContent=`共 ${s.total} 页 · ${s.base} 基础页 + ${s.probe} 加参探测页 · ${s.http_errors} 页 HTTP 4xx · 七个检查维度`;
+  $('nTotal').textContent=s.total;
+  $('nBase').textContent=`${s.base} / ${s.probe}`;
+  $('nFatal').textContent=s.by_verdict['致命缺陷']||0;
+  $('n404').textContent=s.http_errors;
+  $('nFields').textContent=Object.keys(D.fieldStats).length;
+
+  const rows=Object.entries(D.fieldStats).map(([k,v])=>{
+    const miss=v['未处理']||0,wrong=(v['值错误']||0),part=(v['部分直出']||0),
+          sug=v['建议补充']||0,okv=v['正确']||0;
+    return {k,miss,wrong,part,sug,okv,bad:miss+wrong+part};
+  }).filter(r=>r.bad>0||r.sug>0).sort((a,b)=>b.bad-a.bad||b.sug-a.sug);
+  $('fieldTable').innerHTML=rows.map(r=>`<tr>
+    <td><b>${r.k}</b></td>
+    <td>${r.miss?`<span class="tag s-未处理">${r.miss}</span>`:'—'}</td>
+    <td>${r.wrong?`<span class="tag s-值错误">${r.wrong}</span>`:'—'}</td>
+    <td>${r.part?`<span class="tag s-部分直出">${r.part}</span>`:'—'}</td>
+    <td>${r.sug?`<span class="tag s-建议补充">${r.sug}</span>`:'—'}</td>
+    <td>${r.okv?`<span class="tag s-正确">${r.okv}</span>`:'—'}</td></tr>`).join('');
+
+  const opts=(el,vals,fn)=>{const cur=el.value;el.length=1;
+    [...new Set(vals)].sort().forEach(v=>el.add(new Option(fn?fn(v):v,v)));el.value=cur;};
+  opts($('fMarket'),D.pages.map(p=>p.market),v=>MARKET[v]||v);
+  opts($('fFamily'),D.pages.map(p=>p.family),v=>FAMILY[v]||v);
+  opts($('fDim'),Object.keys(DIMNAME),v=>DIMNAME[v]||v);
+  list();
+}
+
+function list(){
+  const m=$('fMarket').value,f=$('fFamily').value,dim=$('fDim').value,
+        pr=$('fProbe').value,q=$('fSearch').value.toLowerCase();
+  const rows=D.pages.filter(p=>{
+    if(m&&p.market!==m)return false;
+    if(f&&p.family!==f)return false;
+    if(pr!==''&&String(+p.is_probe)!==pr)return false;
+    if(dim&&!(p.dimensions[dim]||[]).some(c=>c.status!=='正确'))return false;
+    if(q){
+      const hay=JSON.stringify([p.url,(p.dimensions[dim]||[]).map(c=>c.field+' '+c.fix)]);
+      if(!hay.toLowerCase().includes(q))return false;
+    }
+    return true;
+  });
+  const pages=Math.max(1,Math.ceil(rows.length/SIZE));page=Math.min(page,pages-1);
+  $('rows').innerHTML=rows.slice(page*SIZE,(page+1)*SIZE).map(p=>{
+    const idx=D.pages.indexOf(p);
+    const bad=[];
+    for(const [k,cs] of Object.entries(p.dimensions)){
+      for(const c of cs) if(['未处理','值错误','未直出','部分直出'].includes(c.status)) bad.push(`${c.field}（${c.status}）`);
+    }
+    const u=p.url.split('.run.app').pop()||'/';
+    return `<tr>
+      <td>${MARKET[p.market]||p.market}<small class="muted">${FAMILY[p.family]||p.family}</small>
+        ${p.is_probe?'<small class="muted">加参探测</small>':''}</td>
+      <td class="u">${u}</td>
+      <td>${p.status??'—'}</td>
+      <td><span class="tag t-fatal">${bad.length} 项</span></td>
+      <td class="muted">${bad.slice(0,4).join('；')||'无'}</td>
+      <td><button onclick="showDetail(${idx})">详情</button></td></tr>`;}).join('');
+  $('info').textContent=`第 ${page+1} / ${pages} 页 · 共 ${rows.length} 条`;
+  $('prev').disabled=page===0;$('next').disabled=page>=pages-1;
+}
+
+window.showDetail=function(idx){
+  const p=D.pages[idx];
+  $('dTitle').textContent=(MARKET[p.market]||p.market)+' · '+(FAMILY[p.family]||p.family);
+  let html=`<p><a href="${p.url}" target="_blank" rel="noopener noreferrer">${p.url}</a></p>
+    <p class="muted">HTTP ${p.status} · ${p.is_probe?'加参探测页（源：'+p.probe_of+'）':'基础页'} · 结构化数据类型：${(p.structured_types||[]).join(', ')||'无'}</p>`;
+  for(const [dim,checks] of Object.entries(p.dimensions)){
+    if(!checks.length)continue;
+    const badCount=checks.filter(c=>c.status!=='正确').length;
+    html+=`<h3>${DIMNAME[dim]||dim} <span class="muted">(${checks.length} 项检查，${badCount} 项需处理)</span></h3>
+      <div class="scroll"><table><thead><tr><th>字段</th><th>状态</th><th>实际值</th><th>预期 / 修复建议</th></tr></thead><tbody>`;
+    for(const c of checks){
+      html+=`<tr><td><b>${c.field}</b>${c.note?`<br><small class="muted">${c.note}</small>`:''}</td>
+        <td><span class="tag s-${c.status}">${c.status}</span></td>
+        <td><code>${String(c.actual||'（空）').slice(0,110)}</code></td>
+        <td style="font-size:11.5px">${c.status==='正确'?'—':
+          `${c.fix?`<div style="color:var(--blue)">→ ${c.fix}</div>`:''}
+           ${c.expected?`<div class="muted">预期：${String(c.expected).slice(0,110)}</div>`:''}`}</td></tr>`;
+    }
+    html+='</tbody></table></div>';
+  }
+  $('dBody').innerHTML=html;
+  $('detail').showModal();
+};
+$('close').onclick=()=>$('detail').close();
+['fMarket','fFamily','fDim','fProbe','fSearch'].forEach(id=>$(id).addEventListener('input',()=>{page=0;list();}));
+$('prev').onclick=()=>{page--;list();};$('next').onclick=()=>{page++;list();};
+render();
+</script></body></html>
