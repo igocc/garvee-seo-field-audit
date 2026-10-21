@@ -52,7 +52,9 @@ footer{font-size:11.5px;color:var(--muted);padding-top:6px;line-height:1.8}
   <div class="card"><div class="k">基础 / 加参</div><div class="v" id="nBase" style="font-size:18px">—</div></div>
   <div class="card"><div class="k">致命缺陷</div><div class="v" id="nFatal" style="color:var(--red)">—</div></div>
   <div class="card"><div class="k">HTTP 4xx</div><div class="v" id="n404">—</div></div>
-  <div class="card"><div class="k">检查字段总数</div><div class="v" id="nFields">—</div></div>
+  <div class="card"><div class="k">SEO 问题</div><div class="v" id="nSeo" style="color:var(--red)">—</div></div>
+  <div class="card"><div class="k">GEO 问题</div><div class="v" id="nGeo" style="color:var(--blue)">—</div></div>
+  <div class="card"><div class="k">检查字段</div><div class="v" id="nFields">—</div></div>
 </div>
 
 <section><h2>字段级问题排行（按影响页数）</h2>
@@ -64,6 +66,7 @@ footer{font-size:11.5px;color:var(--muted);padding-top:6px;line-height:1.8}
 <div class="bar">
   <label>市场 <select id="fMarket"><option value="">全部</option></select></label>
   <label>页面类型 <select id="fFamily"><option value="">全部</option></select></label>
+  <label>赛道 <select id="fTrack"><option value="">全部</option><option value="SEO">SEO</option><option value="GEO">GEO</option></select></label>
   <label>维度 <select id="fDim"><option value="">全部</option></select></label>
   <label>页面性质 <select id="fProbe"><option value="">全部</option><option value="0">基础页</option><option value="1">加参探测页</option></select></label>
   <label>查找 <input id="fSearch" type="search" placeholder="URL / 字段 / 问题"></label>
@@ -94,6 +97,8 @@ const FAMILY={home:'首页',footer:'底部页',campaign:'短期活动',regular_c
 const DIMNAME={basic_head:'基础 Head',tdk:'TDK',canonical_robots:'Canonical/Robots',
  hreflang:'Hreflang',social:'社会化分享',structured:'结构化数据',
  ai_readiness:'AI 搜索就绪',ssr:'SSR 模块'};
+const TRACK={basic_head:'SEO',tdk:'SEO',canonical_robots:'SEO',hreflang:'SEO',
+ social:'SEO',structured:'SEO',ssr:'SEO',ai_readiness:'GEO'};
 const VERDICT={'致命缺陷':['t-fatal','致命缺陷']};
 
 function render(){
@@ -104,6 +109,14 @@ function render(){
   $('nFatal').textContent=s.by_verdict['致命缺陷']||0;
   $('n404').textContent=s.http_errors;
   $('nFields').textContent=Object.keys(D.fieldStats).length;
+  let seoN=0,geoN=0;
+  for(const p of D.pages){
+    for(const [dim,cs] of Object.entries(p.dimensions)){
+      const bad=cs.filter(c=>c.status!=='正确'&&c.status!=='内容为空').length;
+      if(TRACK[dim]==='GEO')geoN+=bad; else seoN+=bad;
+    }
+  }
+  $('nSeo').textContent=seoN;$('nGeo').textContent=geoN;
 
   const rows=Object.entries(D.fieldStats).map(([k,v])=>{
     const miss=v['未处理']||0,wrong=(v['值错误']||0),part=(v['部分直出']||0),
@@ -128,11 +141,12 @@ function render(){
 
 function list(){
   const m=$('fMarket').value,f=$('fFamily').value,dim=$('fDim').value,
-        pr=$('fProbe').value,q=$('fSearch').value.toLowerCase();
+        tr=$('fTrack').value,pr=$('fProbe').value,q=$('fSearch').value.toLowerCase();
   const rows=D.pages.filter(p=>{
     if(m&&p.market!==m)return false;
     if(f&&p.family!==f)return false;
     if(pr!==''&&String(+p.is_probe)!==pr)return false;
+    if(tr&&!(Object.entries(p.dimensions).some(([d,cs])=>TRACK[d]===tr&&cs.some(c=>c.status!=='正确'))))return false;
     if(dim&&!(p.dimensions[dim]||[]).some(c=>c.status!=='正确'))return false;
     if(q){
       const all = dim ? (p.dimensions[dim]||[])
@@ -191,7 +205,7 @@ window.showDetail=function(idx){
   $('detail').showModal();
 };
 $('close').onclick=()=>$('detail').close();
-['fMarket','fFamily','fDim','fProbe','fSearch'].forEach(id=>$(id).addEventListener('input',()=>{page=0;list();}));
+['fMarket','fFamily','fDim','fProbe','fSearch','fTrack'].forEach(id=>$(id).addEventListener('input',()=>{page=0;list();}));
 ['fMarket','fFamily','fDim','fProbe'].forEach(id=>$(id).addEventListener('change',()=>{page=0;list();}));
 $('prev').onclick=()=>{page--;list();};$('next').onclick=()=>{page++;list();};
 render();
