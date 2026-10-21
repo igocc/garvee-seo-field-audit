@@ -85,13 +85,15 @@ SSR 判定基于源码与渲染 DOM 的模块级对比；数据本身缺失标�
 <script>
 'use strict';
 const D=window.AUDIT,$=id=>document.getElementById(id);
+const esc=v=>String(v==null?'':v).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 let page=0;const SIZE=25;
 const MARKET={us:'美国站',uk:'英国站',ca:'加拿大站'};
 const FAMILY={home:'首页',footer:'底部页',campaign:'短期活动',regular_campaign:'常规活动',
  blog_home:'博客首页',blog_list:'博客列表',article:'博客文章',cart:'购物车',search:'搜索',
  category_L1:'一级类目',category_L2:'二级类目',category_L3:'三级类目',product:'商品详情'};
 const DIMNAME={basic_head:'基础 Head',tdk:'TDK',canonical_robots:'Canonical/Robots',
- hreflang:'Hreflang',social:'社会化分享',structured:'结构化数据',ssr:'SSR 模块'};
+ hreflang:'Hreflang',social:'社会化分享',structured:'结构化数据',
+ ai_readiness:'AI 搜索就绪',ssr:'SSR 模块'};
 const VERDICT={'致命缺陷':['t-fatal','致命缺陷']};
 
 function render(){
@@ -166,20 +168,22 @@ function list(){
 window.showDetail=function(idx){
   const p=D.pages[idx];
   $('dTitle').textContent=(MARKET[p.market]||p.market)+' · '+(FAMILY[p.family]||p.family);
-  let html=`<p><a href="${p.url}" target="_blank" rel="noopener noreferrer">${p.url}</a></p>
-    <p class="muted">HTTP ${p.status} · ${p.is_probe?'加参探测页（源：'+p.probe_of+'）':'基础页'} · 结构化数据类型：${(p.structured_types||[]).join(', ')||'无'}</p>`;
+  let html=`<p><a href="${esc(p.url)}" target="_blank" rel="noopener noreferrer">${esc(p.url)}</a></p>
+    <p class="muted">HTTP ${esc(p.status)} · ${p.is_probe?'加参探测页（源：'+esc(p.probe_of)+'）':'基础页'} · 结构化数据类型：${esc((p.structured_types||[]).join(', ')||'无')}</p>`;
   for(const [dim,checks] of Object.entries(p.dimensions)){
     if(!checks.length)continue;
     const badCount=checks.filter(c=>c.status!=='正确').length;
     html+=`<h3>${DIMNAME[dim]||dim} <span class="muted">(${checks.length} 项检查，${badCount} 项需处理)</span></h3>
       <div class="scroll"><table><thead><tr><th>字段</th><th>状态</th><th>实际值</th><th>预期 / 修复建议</th></tr></thead><tbody>`;
     for(const c of checks){
-      html+=`<tr><td><b>${c.field}</b>${c.note?`<br><small class="muted">${c.note}</small>`:''}</td>
-        <td><span class="tag s-${c.status}">${c.status}</span></td>
-        <td><code>${String(c.actual||'（空）').slice(0,110)}</code></td>
+      const SEV={'值错误':'P0','未直出':'P0','未处理':'P1','部分直出':'P1','建议补充':'P2'};
+      const sev=SEV[c.status]||'';
+      html+=`<tr><td><b>${esc(c.field)}</b>${sev?` <span class="tag" style="background:#eef;color:#33c">${sev}</span>`:''}${c.note?`<br><small class="muted">${esc(c.note)}</small>`:''}</td>
+        <td><span class="tag s-${esc(c.status)}">${esc(c.status)}</span></td>
+        <td><code>${esc(String(c.actual||'—').slice(0,160))}</code></td>
         <td style="font-size:11.5px">${c.status==='正确'?'—':
-          `${c.fix?`<div style="color:var(--blue)">→ ${c.fix}</div>`:''}
-           ${c.expected?`<div class="muted">预期：${String(c.expected).slice(0,110)}</div>`:''}`}</td></tr>`;
+          `${c.fix?`<div style="color:var(--blue)">→ ${esc(c.fix)}</div>`:''}
+           ${c.expected?`<div class="muted">预期：${esc(String(c.expected).slice(0,160))}</div>`:''}`}</td></tr>`;
     }
     html+='</tbody></table></div>';
   }
