@@ -67,7 +67,7 @@ footer{font-size:11.5px;color:var(--muted);padding-top:6px;line-height:1.8}
   <label>维度 <select id="fDim"><option value="">全部</option></select></label>
   <label>页面性质 <select id="fProbe"><option value="">全部</option><option value="0">基础页</option><option value="1">加参探测页</option></select></label>
   <label>查找 <input id="fSearch" type="search" placeholder="URL / 字段 / 问题"></label>
-  <a class="dl" href="action-plan.csv" download>逐页整改 CSV</a><a class="dl" href="field-issues.csv" download style="margin-left:8px">字段级明细 CSV</a>
+  <a class="dl" href="action-plan.csv" download>下载整改 CSV</a>
 </div>
 <div class="scroll"><table><thead><tr><th>市场 / 类型</th><th>URL</th><th>HTTP</th><th>结论</th><th>问题摘要</th><th></th></tr></thead><tbody id="rows"></tbody></table></div>
 <div class="pager"><span class="muted" id="info"></span><button id="prev">上一页</button><button id="next">下一页</button></div>
@@ -133,7 +133,9 @@ function list(){
     if(pr!==''&&String(+p.is_probe)!==pr)return false;
     if(dim&&!(p.dimensions[dim]||[]).some(c=>c.status!=='正确'))return false;
     if(q){
-      const hay=JSON.stringify([p.url,(p.dimensions[dim]||[]).map(c=>c.field+' '+c.fix)]);
+      const all = dim ? (p.dimensions[dim]||[])
+                       : Object.values(p.dimensions).flat();
+      const hay=JSON.stringify([p.url, all.map(c=>c.field+' '+c.status+' '+(c.fix||'')+' '+(c.actual||''))]);
       if(!hay.toLowerCase().includes(q))return false;
     }
     return true;
