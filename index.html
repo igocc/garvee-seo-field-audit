@@ -7,101 +7,134 @@
 --redbg:#fbeaea;--amberbg:#fdf3dd;--greenbg:#e6f4ee;--bluebg:#e8eefc;--graybg:#eef1f4;
 font-family:system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;color:var(--ink);background:var(--bg)}
 *{box-sizing:border-box}body{margin:0}
-header{background:#16202e;color:#fff;padding:22px max(16px,calc((100vw - 1480px)/2))}
+header{background:#16202e;color:#fff;padding:22px max(16px,calc((100vw - 1500px)/2))}
 header h1{margin:6px 0 4px;font-size:clamp(19px,3vw,27px)}
 header p{margin:0;color:#bcc7d6;font-size:13px}
 .brand{font-size:12px;letter-spacing:.08em;color:#c3b3ea;font-weight:700}
-main{max-width:1480px;margin:0 auto;padding:18px 16px 70px}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:11px;margin-bottom:18px}
+main{max-width:1500px;margin:0 auto;padding:18px 16px 70px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(125px,1fr));gap:11px;margin-bottom:18px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:13px}
-.card .k{font-size:12px;color:var(--muted)}.card .v{font-size:23px;font-weight:700;margin-top:4px}
+.card .k{font-size:12px;color:var(--muted)}.card .v{font-size:22px;font-weight:700;margin-top:4px}
 section{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;margin-bottom:16px}
 h2{font-size:15px;margin:0 0 12px}
 .bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:12px}
 input,select,button,a.dl{font:inherit;font-size:13px;border:1px solid var(--line);border-radius:7px;padding:7px 10px;background:#fff;color:var(--ink)}
-input{min-width:150px}button{cursor:pointer}button:hover{border-color:var(--purple)}
+input{min-width:140px}button{cursor:pointer}button:hover{border-color:var(--purple)}
 a.dl{text-decoration:none;margin-left:auto}a{color:var(--purple)}
 table{border-collapse:collapse;width:100%;font-size:12.5px}
 th{background:#f2f4f7;color:var(--muted);font-size:11.5px;text-align:left;white-space:nowrap;position:sticky;top:0;z-index:2}
 td,th{padding:8px;border-bottom:1px solid var(--line);vertical-align:top}
-.scroll{overflow:auto;max-height:560px}
+.scroll{overflow:auto;max-height:580px}
 .tag{display:inline-block;border-radius:4px;padding:1px 6px;font-size:11px;white-space:nowrap;font-weight:600}
 .P0{background:var(--redbg);color:var(--red)}.P1{background:var(--amberbg);color:var(--amber)}.P2{background:var(--bluebg);color:var(--blue)}
-.t-ok{background:var(--greenbg);color:var(--green)}
 .muted{color:var(--muted);font-size:11.5px}
 code,pre{background:#f2f4f7;border-radius:4px;font-size:11.5px;font-family:ui-monospace,Menlo,monospace}
 code{padding:1px 4px;word-break:break-all}
-pre{padding:10px;overflow:auto;white-space:pre;margin:4px 0;max-height:260px;line-height:1.5}
+pre{padding:10px;overflow:auto;white-space:pre;margin:4px 0;max-height:240px;line-height:1.5}
 tr.mod{cursor:pointer}tr.mod:hover{background:#faf8ff}
 .expand{color:var(--purple);font-weight:600}
-dialog{width:min(1200px,97vw);max-height:93vh;border:1px solid var(--line);border-radius:12px;padding:20px}
+.num{text-align:right;font-variant-numeric:tabular-nums}
+.zero{color:#c8cdd4}
+dialog{width:min(1250px,97vw);max-height:93vh;border:1px solid var(--line);border-radius:12px;padding:20px}
 dialog::backdrop{background:#10172480}.close{float:right}
+.pill{display:inline-block;border:1px solid var(--line);border-radius:20px;padding:3px 10px;font-size:12px;margin:2px;cursor:pointer;background:#fff}
+.pill.on{background:var(--purple);color:#fff;border-color:var(--purple)}
 footer{font-size:11.5px;color:var(--muted);padding-top:6px;line-height:1.8}
 @media(max-width:760px){.cards{grid-template-columns:repeat(2,1fr)}main{padding:12px 8px 50px}section{padding:11px}a.dl{margin-left:0}input{width:100%;min-width:0}}
 </style></head><body>
-<header><div class="brand">GARVEE · SEO / GEO</div><h1>三站整改清单 · 模块 → 明细</h1>
+<header><div class="brand">GARVEE · SEO / GEO</div><h1>三站整改清单 · 模块 × 站点 × 页面类型</h1>
 <p id="sub">加载中</p></header>
 <main>
 <div class="cards">
-  <div class="card"><div class="k">审计页面</div><div class="v" id="nPages">—</div></div>
+  <div class="card"><div class="k">审计页面</div><div class="v" id="nPages">604</div></div>
   <div class="card"><div class="k">问题模块</div><div class="v" id="nModules">—</div></div>
   <div class="card"><div class="k">P0 模块</div><div class="v" id="nP0" style="color:var(--red)">—</div></div>
-  <div class="card"><div class="k">问题明细</div><div class="v" id="nDetails">—</div></div>
+  <div class="card"><div class="k">美国站</div><div class="v" id="nUS" style="color:var(--red)">—</div></div>
+  <div class="card"><div class="k">英国站</div><div class="v" id="nUK" style="color:var(--amber)">—</div></div>
+  <div class="card"><div class="k">加拿大站</div><div class="v" id="nCA" style="color:var(--blue)">—</div></div>
 </div>
 
-<section><h2>模块级整改清单</h2>
-<div class="muted" style="margin-bottom:10px">点击任一模块行展开该模块下的全部明细（含实际值、预期值、可复制代码）。</div>
+<section><h2>模块 × 站点分布</h2>
+<div class="muted" style="margin-bottom:10px">数字为该模块在各站的问题条数。点击模块行展开：站点 → 页面类型 → 具体问题点。</div>
 <div class="bar">
   <label>赛道 <select id="fTrack"><option value="">全部</option><option value="SEO">SEO</option><option value="GEO">GEO</option></select></label>
   <label>优先级 <select id="fSev"><option value="">全部</option><option value="P0">P0</option><option value="P1">P1</option><option value="P2">P2</option></select></label>
-  <label>查找 <input id="fSearch" type="search" placeholder="模块名 / 字段"></label>
-  <a class="dl" href="module-summary.csv" download>模块汇总 CSV</a>
-  <a class="dl" href="detail-issues.csv" download style="margin-left:6px">明细 CSV</a>
+  <label>站点 <select id="fMarket"><option value="">全部</option><option value="us">美国站</option><option value="uk">英国站</option><option value="ca">加拿大站</option></select></label>
+  <label>页面类型 <select id="fFamily"><option value="">全部</option></select></label>
+  <label>查找 <input id="fSearch" type="search" placeholder="模块 / 问题点"></label>
+  <a class="dl" href="module-summary.csv" download>模块汇总</a>
+  <a class="dl" href="detail-issues.csv" download style="margin-left:6px">完整明细</a>
   <a class="dl" href="整改清单.xlsx" download style="margin-left:6px">Excel</a>
 </div>
-<div class="scroll"><table><thead><tr><th>优先级</th><th>赛道</th><th>模块</th><th>影响页数</th><th>问题条数</th><th>主要问题</th></tr></thead><tbody id="modRows"></tbody></table></div>
+<div class="scroll"><table><thead><tr>
+  <th>优先级</th><th>赛道</th><th>模块</th>
+  <th class="num">美国站</th><th class="num">英国站</th><th class="num">加拿大站</th><th class="num">合计</th>
+</tr></thead><tbody id="modRows"></tbody></table></div>
 </section>
+
 <footer>
 数据来源：604 页（302 基础 + 302 加参）的原始 HTTP 源码与无头浏览器渲染 DOM。<br>
-规则：元素缺失时给出可复制示例代码；元素已存在则只给校验结果，不再给示例。<br>
+元素缺失时给出可复制示例代码；元素已存在则只给校验结果。<br>
 hreflang 按六市场互指（en-US / en-GB / en-CA / de-DE / es-ES / it-IT），x-default 指向美国站同页。<br>
 结构化数据以 Schema.org 官方定义为准；所有 URL 属性必须为绝对路径。
 </footer>
 </main>
 <dialog id="detail"><button class="close" id="close">关闭</button><h2 id="dTitle">模块明细</h2><div id="dBody"></div></dialog>
-<script src="modules.js"></script>
+<script src="matrix.js"></script>
 <script>
 'use strict';
-const M=window.MODULES,$=id=>document.getElementById(id);
+const M=window.MATRIX,$=id=>document.getElementById(id);
 const esc=v=>String(v==null?'':v).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
-const TRACK={'基础Head':'SEO','TDK':'SEO','Canonical/Robots':'SEO','Hreflang':'SEO','社会化分享':'SEO','结构化数据':'SEO','SSR模块':'SEO','AI搜索就绪':'GEO'};
-const MK={us:'美国站',uk:'英国站',ca:'加拿大站'};
-const FM={home:'首页',footer:'底部页',campaign:'短期活动',regular_campaign:'常规活动',blog_home:'博客首页',blog_list:'博客列表',article:'博客文章',cart:'购物车',search:'搜索',category_L1:'一级类目',category_L2:'二级类目',category_L3:'三级类目',product:'商品详情'};
-const SEVLABEL={'值错误':'值错误','未直出':'未直出','未处理':'未处理','部分直出':'部分直出','建议补充':'建议补充','内容为空':'内容为空'};
-
-function trackOf(m){return TRACK[m.dimension]||'SEO';}
+const MKT={us:'美国站',uk:'英国站',ca:'加拿大站'};
 
 function render(){
-  $('nPages').textContent='604';
   $('nModules').textContent=M.length;
   $('nP0').textContent=M.filter(m=>m.worst==='P0').length;
-  $('nDetails').textContent=M.reduce((a,m)=>a+m.occurrences,0).toLocaleString();
+  for(const mk of ['us','uk','ca']){
+    const t=M.reduce((a,m)=>a+(m.markets[mk]?.total||0),0);
+    $('n'+mk.toUpperCase()).textContent=t.toLocaleString();
+  }
+  // family options from all modules
+  const fams=new Set();
+  for(const m of M) for(const mk in m.markets) for(const f in m.markets[mk].families) fams.add(f);
+  const sel=$('fFamily');
+  [...fams].sort().forEach(f=>{
+    const label=M.flatMap(m=>Object.values(m.markets)).flatMap(x=>Object.entries(x.families)).find(([k])=>k===f)?.[1].label||f;
+    sel.add(new Option(label,f));
+  });
   list();
 }
 
 function list(){
-  const tr=$('fTrack').value,sev=$('fSev').value,q=$('fSearch').value.toLowerCase();
-  const rows=M.filter(m=>(!tr||trackOf(m)===tr)&&(!sev||m.worst===sev)&&
-    (!q||JSON.stringify([m.module,m.sampleFix,m.note]).toLowerCase().includes(q)));
+  const tr=$('fTrack').value,sev=$('fSev').value,mk=$('fMarket').value,fam=$('fFamily').value,
+        q=$('fSearch').value.toLowerCase();
+  const rows=M.filter(m=>{
+    if(tr&&m.track!==tr)return false;
+    if(sev&&m.worst!==sev)return false;
+    if(mk&&!(m.markets[mk]?.total))return false;
+    if(fam){
+      const has=Object.values(m.markets).some(x=>x.families[fam]);
+      if(!has)return false;
+    }
+    if(q&&!JSON.stringify([m.module]).toLowerCase().includes(q))return false;
+    return true;
+  });
   $('modRows').innerHTML=rows.map(m=>{
-    const st=Object.entries(m.statuses).map(([k,v])=>`${SEVLABEL[k]||k} ${v}`).join('，');
+    // a cell is: this market x this family (either may be unfiltered)
+    const get=k=>{
+      const mkt=m.markets[k];
+      if(!mkt)return 0;
+      if(fam)return mkt.families[fam]?.count||0;
+      return mkt.total||0;
+    };
+    const us=get('us'),uk=get('uk'),ca=get('ca');
+    const total=us+uk+ca;
+    const cell=v=>v?`<td class="num">${v}</td>`:`<td class="num zero">0</td>`;
     return `<tr class="mod" onclick="showModule('${esc(m.module).replace(/'/g,'')}')">
       <td><span class="tag ${m.worst}">${m.worst}</span></td>
-      <td>${trackOf(m)}</td>
+      <td>${m.track}</td>
       <td><b>${esc(m.module)}</b></td>
-      <td>${m.pages}</td>
-      <td>${m.occurrences}</td>
-      <td class="muted">${esc(st)} <span class="expand">展开 →</span></td>
+      ${cell(us)}${cell(uk)}${cell(ca)}<td class="num"><b>${total}</b></td>
     </tr>`;}).join('');
 }
 
@@ -109,30 +142,23 @@ window.showModule=function(name){
   const m=M.find(x=>x.module===name);
   if(!m)return;
   $('dTitle').textContent=m.module;
-  let html=`<p class="muted">优先级 ${m.worst} · 影响 ${m.pages} 页 · 共 ${m.occurrences} 条
-    ${m.detailTotal>m.details.length?`（下列展示前 ${m.details.length} 条）`:''}</p>`;
-  if(m.note) html+=`<p class="muted">${esc(m.note)}</p>`;
-  html+=`<div class="scroll"><table><thead><tr>
-    <th>优先级</th><th>市场/类型</th><th>URL</th><th>具体字段</th><th>状态</th><th>实际值</th><th>预期/修复</th><th>代码</th>
-  </tr></thead><tbody>`;
-  for(const d of m.details){
-    html+=`<tr>
-      <td><span class="tag ${d.severity}">${d.severity}</span></td>
-      <td>${MK[d.market]||d.market}<br><small class="muted">${FM[d.family]||d.family}</small></td>
-      <td style="max-width:200px;overflow-wrap:anywhere"><code>${esc((d.url||'').split('.run.app').pop())}</code></td>
-      <td><b>${esc(d.field)}</b></td>
-      <td>${esc(d.status)}</td>
-      <td style="max-width:180px"><code>${esc(String(d.actual||'—').slice(0,120))}</code></td>
-      <td style="max-width:220px;font-size:11.5px">${d.fix?`<div style="color:var(--blue)">→ ${esc(d.fix)}</div>`:''}
-        ${d.expected?`<div class="muted">预期：${esc(String(d.expected).slice(0,100))}</div>`:''}</td>
-      <td style="max-width:320px">${d.code?`<pre>${esc(d.code)}</pre>`:'<span class="muted">—</span>'}</td>
-    </tr>`;
+  let html=`<p class="muted">优先级 ${m.worst} · 合计 ${m.total} 条。按站点 → 页面类型 → 问题点展开。</p>`;
+  for(const mk of ['us','uk','ca']){
+    const d=m.markets[mk];
+    if(!d||!d.total)continue;
+    html+=`<h3 style="margin:14px 0 6px;font-size:14px">${d.label} <span class="muted">（${d.total} 条）</span></h3>`;
+    html+=`<table style="margin-bottom:6px"><thead><tr><th>页面类型</th><th class="num">条数</th><th>具体问题点</th></tr></thead><tbody>`;
+    const fams=Object.entries(d.families).sort((a,b)=>b[1].count-a[1].count);
+    for(const [fk,fv] of fams){
+      const pts=fv.points.map(p=>`<span class="pill">${esc(p.point)} <b>${p.count}</b></span>`).join('');
+      html+=`<tr><td><b>${fv.label}</b></td><td class="num">${fv.count}</td><td>${pts}</td></tr>`;
+    }
+    html+='</tbody></table>';
   }
-  html+='</tbody></table></div>';
   $('dBody').innerHTML=html;
   $('detail').showModal();
 };
 $('close').onclick=()=>$('detail').close();
-['fTrack','fSev','fSearch'].forEach(id=>$(id).addEventListener('input',list));
+['fTrack','fSev','fMarket','fFamily','fSearch'].forEach(id=>$(id).addEventListener('input',list));
 render();
 </script></body></html>
