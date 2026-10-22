@@ -1,139 +1,107 @@
-# GARVEE 三站 SEO / GEO 分轨审计
+# GARVEE 三站 SEO / GEO 整改清单（模块 → 明细）
 
-对 GARVEE 美国站、英国站、加拿大站测试环境的字段级审计。
-**SEO 与 GEO 拆成两条独立赛道**，各自有独立的证据和判定标准。
+对 GARVEE 美国站、英国站、加拿大站测试环境的审计，**SEO 与 GEO 分两条赛道**。
+报告按「模块 → 明细」两级组织，不再按数组下标把同类问题拆散。
 
-## 为什么拆开
+## 组织方式
 
-| 赛道 | 回答的问题 | 证据 |
-|---|---|---|
-| **SEO** | 搜索引擎能否抓取、索引、排名 | meta 标签、canonical、robots、hreflang、结构化数据、服务端直出 HTML |
-| **GEO** | 生成式答案引擎能否读懂、信任、引用 | 内容可提取性、事实密度、答案结构、实体清晰度、可引用性、语义结构 |
+```
+38 个问题模块  →  20,144 条明细
+```
 
-共有的东西（如 title、结构化数据）**不在两条赛道重复计分**：它们归 SEO，GEO 只在“能否被引用”这个不同的问题上单独判定。
+例如面包屑的相对路径问题，过去会输出成
+`BreadcrumbList[1].item.@id`、`BreadcrumbList[2].item.@id`… 数百行；
+现在聚合为**一个模块**「导航 · BreadcrumbList（面包屑）」，展开后才是逐条明细。
+
+## 代码规则（按你的要求）
+
+| 元素状态 | 输出 |
+|---|---|
+| **未处理**（源码没有） | 给出**可直接复制的示例代码** |
+| **值错误**（有值但错） | 只给**校验结果**与正确值，不给示例 |
+| **未直出 / 部分直出** | 给出模块名与服务端需补的内容 |
+
+示例：hreflang 缺失时，直接生成该页面对应的六市场互指代码。
+
+## Hreflang：六市场互指
+
+依据站点现有标记与会话确认：
+
+| 代码 | 站点 |
+|---|---|
+| `en-US` | https://www.garvee.com |
+| `en-GB` | https://garvee.co.uk |
+| `en-CA` | https://www.garvee.ca |
+| `de-DE` | https://www.garvee.de |
+| `es-ES` | https://www.garvee.es |
+| `it-IT` | https://garvee.it |
+| `x-default` | 指向美国站同页 |
+
+规则：当其它站点存在同样的分类页或商品页时，本页必须完整声明全部市场互指。
 
 ## 覆盖
 
 **604 页** = 302 基础页 + 302 个 `?12345` 加参探测页
 
-| 页面类型 | 数量 | 内容 |
-|---|---|---|
-| 首页 | 3 | 三站根路径 |
-| 商品详情 | 15 | 从商品 sitemap 抽样，覆盖不同品类 |
-| 类目 L1/L2/L3 | 120 | 2 个完整体系，每级含默认/排序/翻页/筛选 |
-| 搜索 | 36 | 3 关键词 × 4 状态 |
-| 底部页 | 57 | About、Terms、Privacy、Shipping、Refund、Affiliate、Warranty、Wholesale 等 |
-| 短期活动 | 36 | 所有 `/pages/activity-*` |
-| 常规活动 | 9 | new-arrivals、best-sellers、flash-deals、clearance-sale |
-| 博客首页/列表/文章 | 23 | `/pages/diy-ideas`、列表页、真实文章 |
-
-## 结构化数据依据：Schema.org 官方
-
-不以某家搜索引擎的富结果取舍为准。已核对类型层级：
-
-| 类型 | 层级 |
+| 页面类型 | 数量 |
 |---|---|
-| `OnlineStore` | Thing > Organization > OnlineBusiness > OnlineStore |
-| `CollectionPage` | Thing > CreativeWork > WebPage > CollectionPage |
-| `ItemPage` | Thing > CreativeWork > WebPage > ItemPage |
-| `SearchResultsPage` | Thing > CreativeWork > WebPage > SearchResultsPage |
-| `Blog` | Thing > CreativeWork > Blog |
-| `BlogPosting` | Thing > CreativeWork > Article > SocialMediaPosting > BlogPosting |
-| `Product` | Thing > Product |
-| `Offer` | Thing > Intangible > Offer |
+| 首页 | 3 |
+| 商品详情 | 15 |
+| 类目 L1/L2/L3 | 120 |
+| 搜索 | 36 |
+| 底部页 | 57 |
+| 短期活动 | 36 |
+| 常规活动 | 9 |
+| 博客首页/列表/文章 | 23 |
 
-### URL 必须绝对路径（强制）
+## 模块级清单（P0 共 18 个）
 
-所有 URL 属性用相对路径一律判为「值错误」，并给出绝对路径示例：
+| 优先级 | 模块 | 影响页数 | 条数 |
+|---|---|---|---|
+| P0 | 基础Head | 604 | 3,020 |
+| P0 | 社会化分享 | 604 | 2,776 |
+| P0 | Canonical/Robots | 604 | 925 |
+| P0 | Hreflang | 604 | 612 |
+| P0 | 导航 · BreadcrumbList（面包屑） | 598 | 5,682 |
+| P0 | AI搜索就绪 | 560 | 3,286 |
+| P0 | TDK | 510 | 760 |
+| P0 | SSR · 结果数 | 108 | 108 |
+| P0 | SSR · 商品卡列表 | 46 | 46 |
+| P0 | SSR · 带图标的子类目横条 | 36 | 36 |
+| P0 | SSR · Description 正文 | 10 | 10 |
+| P0 | SSR · 首页轮播 Banner | 10 | 10 |
+| P0 | SSR · Compare with Similar Items | 10 | 10 |
+| P0 | SSR · Best Sellers in This Category | 10 | 10 |
+| P0 | SSR · People Who Bought This Item Also Bought | 10 | 10 |
+| P0 | SSR · 类目底部文本描述 | 8 | 8 |
+| P0 | SSR · Key Features | 6 | 6 |
+| P0 | SSR · 主图与缩略图 | 2 | 2 |
 
-| 字段 | 当前值（错误） | 应改为 |
+## 结构化数据依据
+
+以 **Schema.org 官方定义**为准，不以某家搜索引擎的富结果取舍为准。
+
+**URL 必须绝对路径**，相对路径一律判错并给出绝对形式：
+
+| 字段 | 当前（错） | 应改为 |
 |---|---|---|
-| `BreadcrumbList[1].item.@id` | `/` | `https://<测试域名>/` |
-| `BreadcrumbList[2].item.@id` | `/blogs/buying-guides` | `https://<测试域名>/blogs/buying-guides` |
-
-覆盖属性：`url`、`@id`、`item`、`image`、`logo`、`sameAs`、`mainEntityOfPage`、`isPartOf`、`breadcrumb`、`primaryImageOfPage`、`contentUrl`、`embedUrl`、`thumbnailUrl`、`publisher`、`author`、`seller`、`itemReviewed`、`about`、`mainEntity`、`potentialAction`、`target`、`shippingDestination`、`blogPost`。
-
-## 页面类型应有的结构化数据
-
-| 页面 | 必须有 | 建议有 |
-|---|---|---|
-| 首页 | `OnlineStore`、`WebSite` | `WebPage` |
-| 类目页 | `CollectionPage`、`BreadcrumbList` | `ItemList`、`WebPage` |
-| 搜索页 | `SearchResultsPage`、`BreadcrumbList` | `ItemList`、`WebPage` |
-| 博客首页/列表 | `Blog`、`BreadcrumbList` | `CollectionPage`、`ItemList`、`WebPage` |
-| 博客文章 | `BlogPosting`、`BreadcrumbList` | `WebPage`、`OnlineStore`、`Person` |
-| 商品详情 | `Product`、`Offer`、`BreadcrumbList` | `ItemPage`、`AggregateRating`、`Review`、`OnlineStore`、`OfferShippingDetails`、`MerchantReturnPolicy` |
-
-## 主要发现
-
-### SEO（16,982 条）
-
-| 问题 | 条数 | 优先级 |
-|---|---|---|
-| 结构化数据 URL 使用相对路径 | 3,522 | P0 |
-| `html lang` 三站统一 `en` | 604 | P0 |
-| `og:locale` 统一 `en` | 366 | P0 |
-| 加参页 robots 非 `noindex,follow` | 321 | P0 |
-| 标题跨页重复 | 278 | P0 |
-| `og:type` 不符 | 118 | P0 |
-| 结果数未直出 | 108 | P0 |
-| 缺 `og:image` / `twitter:image` | 各 540 | P1 |
-
-### GEO（3,286 条）
-
-| 问题 | 页数 | 优先级 |
-|---|---|---|
-| **主区 `<main>` 源码为空** | 408 | P0 |
-| `llms.txt` 缺失 | 604 | P1 |
-| 缺实体节点（Organization/OnlineStore） | 556 | P2 |
-| 缺 `speakable` | 604 | P2 |
-| 缺问答结构 | 604 | P2 |
-| 语义标签不完整 | 304 | P2 |
-
-### 商品详情页（本次新增覆盖）
-
-| 模块 | 判定 |
-|---|---|
-| 主图与缩略图 | 28/30 正确，2 页未直出 |
-| 评分与评论数 | 28/30 正确 |
-| 价格区 | 15 正确，15 部分直出（源码价格数量少于渲染后） |
-| 库存与送达 | 30/30 正确 |
-| 保障方案 | 30/30 正确 |
-| 信任保障图标 | 20 正确，10 空 |
-| Security & Privacy 弹窗 | 30/30 正确 |
-| Key Features | 12 正确，6 未直出，12 空 |
-| Description 正文 | 20 正确，10 未直出 |
-| **关联推荐（3 个模块）** | **各 10 页未直出** |
-| **商品结构化数据 `Product`** | **15 页全部缺失** |
+| `BreadcrumbList[1].item.@id` | `/` | `https://<域名>/` |
+| `BreadcrumbList[2].item.@id` | `/blogs/buying-guides` | `https://<域名>/blogs/buying-guides` |
 
 ## 文件
 
 | 文件 | 说明 |
 |---|---|
-| `index.html` | 交互看板，可按赛道/维度/市场/类型筛选 |
-| **`整改清单.xlsx`** | **三个工作表：SEO问题、GEO问题、逐页汇总（推荐）** |
-| `page-issues.csv` | 完整问题明细，20,268 行，含赛道列 |
-| `page-summary.csv` | 逐页汇总，604 行 |
-| `audit-data.json` | 完整结构化数据 |
-
-## 优先级
-
-| 优先级 | 含义 | 数量 |
-|---|---|---|
-| **P0** | 值错误 / 未直出 | 6,081 |
-| **P1** | 未处理 / 部分直出 | 6,095 |
-| **P2** | 建议补充 | 8,092 |
-
-## 方法
-
-- 每页采集原始 HTTP 源码 + 无头浏览器完整渲染 DOM（含滚动）
-- 4xx 页面不做内容评估，只判状态码与 canonical/robots
-- 价格用「货币符号+数字」识别，不依赖 class 名
-- 数据缺失标为「内容为空」，不误判为技术屏蔽
+| `index.html` | 交互看板：模块列表 → 点击展开明细，含可复制代码 |
+| **`整改清单.xlsx`** | **三个工作表：①模块汇总 38 行 / ②完整明细 20,144 行 / ③逐页汇总 604 行** |
+| `module-summary.csv` | 模块汇总 |
+| `detail-issues.csv` | 完整明细，含代码列 |
+| `page-summary.csv` | 逐页汇总 |
+| `modules.json` / `modules.js` | 看板数据 |
 
 ## 已知边界
 
 - 测试环境结果，不等同生产现状
-- 44 页返回 4xx，为站点自身路由问题
+- 44 页返回 4xx，为站点自身路由问题；错误页只判标题与 robots
 - `llms.txt` 为站点级文件，需单独 GET 验证
-- 未覆盖：hreflang 三站互返验证、JSON-LD 值与页面实际内容逐项比对、Core Web Vitals
+- 未覆盖：hreflang 三站互返的**实际抓取验证**（当前按标记判定）、JSON-LD 值与页面实际内容逐项比对、Core Web Vitals
