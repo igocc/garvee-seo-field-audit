@@ -1,39 +1,48 @@
-﻿优先级,赛道,维度,模块,影响页数,问题条数,主要状态,问题说明,示例预期值,示例修复,依据
-P0,SEO,基础Head,基础Head,604,3020,建议补充,,en-CA,"三站均输出 ""en""，应按市场区分：US=en-US, UK=en-GB, CA=en-CA",影响区域定向与 hreflang 一致性
-P0,SEO,社会化分享,社会化分享,604,2776,未处理,,article,"补 <meta property=""og:type"" content=""article"">",
-P0,SEO,Canonical/Robots,Canonical/Robots,604,925,未处理,,https://garvee-ca-test-resolve-547493248390.us-east4.run.app/blogs/buying-guides/chafing-dish-fuel-vs-electrice-warmers,"补 <link rel=""canonical"" href=""https://garvee-ca-test-resolve-547493248390.us-east4.run.app/blogs/buying-guides/chafing-dish-fuel-vs-electrice-warmers"">",
-P0,SEO,Hreflang,Hreflang,604,612,未处理,,en-US、en-GB、en-CA、de-DE、es-ES、it-IT + x-default,补齐全部市场的互指 hreflang，x-default 指向美国站同页,跨市场存在同类页面时必须完整声明；缺失会导致各站互相竞争同一查询
-P0,SEO,结构化数据,导航 · BreadcrumbList（面包屑）,598,5682,值错误,,https://garvee-ca-test-resolve-547493248390.us-east4.run.app/,改为绝对 URL：https://garvee-ca-test-resolve-547493248390.us-east4.run.app/,这是全站性问题：面包屑 item 必须是绝对 URL
-P0,GEO,AI搜索就绪,AI搜索就绪,560,3286,建议补充,,/llms.txt（Markdown 站点索引）,在站点根目录提供 /llms.txt（Markdown），列出站点结构、关键页面链接与简短说明,llms.txt 是给 AI 代理的站点索引（llmstxt.org v2，2026-08 更新）。Chrome Lighthouse 的 agentic browsing 检查已包含此项。
-P0,SEO,TDK,TDK,510,760,未处理,,页面专属标题,补 <title>，建议格式：核心关键词 | 品牌名，长度 30-60 字符,
-P0,SEO,SSR模块,SSR · 结果数,108,108,未直出,,服务端直出,结果数 必须由服务端渲染进 HTML 源码,附件4
-P0,SEO,SSR模块,SSR · 商品卡列表,46,46,部分直出,,服务端直出,商品卡列表 必须由服务端渲染进 HTML 源码,附件4
-P0,SEO,SSR模块,SSR · 带图标的子类目横条,36,36,未直出,,服务端直出,带图标的子类目横条 必须由服务端渲染进 HTML 源码,附件3
-P0,SEO,SSR模块,SSR · Description 正文,10,10,未直出,,服务端直出,Description 正文 必须由服务端渲染进 HTML 源码,附件9
-P0,SEO,SSR模块,SSR · 首页轮播 Banner,10,10,未直出,,服务端直出,首页轮播 Banner 必须由服务端渲染进 HTML 源码,附件2
-P0,SEO,SSR模块,SSR · Compare with Similar Items,10,10,未直出,,服务端直出,Compare with Similar Items 必须由服务端渲染进 HTML 源码,附件11
-P0,SEO,SSR模块,SSR · Best Sellers in This Category,10,10,未直出,,服务端直出,Best Sellers in This Category 必须由服务端渲染进 HTML 源码,附件11
-P0,SEO,SSR模块,SSR · People Who Bought This Item Also Bought,10,10,未直出,,服务端直出,People Who Bought This Item Also Bought 必须由服务端渲染进 HTML 源码,附件11
-P0,SEO,SSR模块,SSR · 类目底部文本描述,8,8,未直出,,服务端直出,类目底部文本描述 必须由服务端渲染进 HTML 源码,附件5
-P0,SEO,SSR模块,SSR · Key Features,6,6,未直出,,服务端直出,Key Features 必须由服务端渲染进 HTML 源码,附件8
-P0,SEO,SSR模块,SSR · 主图与缩略图,2,2,未直出,,服务端直出,主图与缩略图 必须由服务端渲染进 HTML 源码,附件6
-P1,SEO,结构化数据,页面 · WebPage,574,736,建议补充,,必填属性,补 WebPage.url（所有页面的基础页面实体；@id 应与 canonical 一致）,Thing > CreativeWork > WebPage
-P1,SEO,SSR模块,SSR · 全局导航,560,560,部分直出,,源码完整输出,全局导航 服务端输出不完整，需补齐,附件1
-P1,SEO,结构化数据,页面 · CollectionPage（列表页）,276,276,未处理,,CollectionPage 结构化数据,建议为 blog_list 页面输出 CollectionPage,schema.org: Web page type: Collection page. 类目/列表/搜索聚合页
-P1,SEO,结构化数据,实体 · OnlineStore（电商站点实体）,256,256,建议补充,,OnlineStore 结构化数据,建议为 article 页面输出 OnlineStore,schema.org: An eCommerce site. 电商站点的组织实体应使用此类型
-P1,SEO,结构化数据,页面 · SearchResultsPage（搜索结果页）,72,72,未处理,,SearchResultsPage 结构化数据,为 search 页面输出 SearchResultsPage,schema.org: Web page type: Search results page
-P1,SEO,结构化数据,内容 · Blog（博客）,46,46,未处理,,BlogPosting 结构化数据,为 article 页面输出 BlogPosting,schema.org: A blog post. 博客文章首选此类型
-P1,SEO,SSR模块,SSR · 楼层板块,36,36,部分直出,,源码完整输出,楼层板块 服务端输出不完整，需补齐,附件2
-P1,SEO,结构化数据,商品 · Offer（报价）,30,60,未处理,,Offer 结构化数据,为 product 页面输出 Offer,schema.org: An offer to transfer some rights to an item
-P1,SEO,结构化数据,商品 · Product（商品）,30,30,未处理,,Product 结构化数据,为 product 页面输出 Product,schema.org: Any offered product or service
-P1,SEO,结构化数据,实体 · Organization,18,108,建议补充,,必填属性,补 Organization.url（通用组织实体；电商站优先 OnlineStore）,Thing > Organization
-P1,SEO,SSR模块,SSR · 价格区,15,15,部分直出,,源码完整输出,价格区 服务端输出不完整，需补齐,附件6
-P1,SEO,结构化数据,实体 · WebSite（站点）,6,6,未处理,,WebSite 结构化数据,为 home 页面输出 WebSite,站点级实体
-P1,SEO,SSR模块,SSR · 文章正文,4,4,部分直出,,源码完整输出,文章正文 服务端输出不完整，需补齐,附件4
-P2,SEO,结构化数据,列表 · ItemList（条目列表）,348,348,建议补充,,ItemList 结构化数据,建议为 blog_list 页面输出 ItemList,列表页表达有序条目
-P2,SEO,结构化数据,页面 · ItemPage（单品页）,30,30,建议补充,,ItemPage 结构化数据,建议为 product 页面输出 ItemPage,"schema.org: A page devoted to a single item, such as a particular product"
-P2,SEO,结构化数据,商品 · AggregateRating（评分汇总）,30,30,建议补充,,AggregateRating 结构化数据,建议为 product 页面输出 AggregateRating,评分汇总；须来自真实评论
-P2,SEO,结构化数据,商品 · Review（评论）,30,30,建议补充,,Review 结构化数据,建议为 product 页面输出 Review,单条评论实体
-P2,SEO,结构化数据,商品 · 退货政策,30,30,建议补充,,MerchantReturnPolicy 结构化数据,建议为 product 页面输出 MerchantReturnPolicy,退货政策
-P2,SEO,结构化数据,实体 · Person（人物/作者）,28,82,建议补充,,推荐属性,补 Person.url（作者/人物实体）,Thing > Person
-P2,SEO,结构化数据,内容 · Article（文章）,18,72,建议补充,,推荐属性,"补 Article.dateModified（schema.org: An article, such as a news article）",Thing > CreativeWork > Article
+﻿优先级,赛道,模块,美国站,英国站,加拿大站,合计,涉及页面类型数
+P0,SEO,导航 · BreadcrumbList（面包屑）,1596,1858,2228,5682,11
+P0,SEO,基础 Head,1220,910,890,3020,12
+P0,SEO,社会化分享,1204,816,756,2776,12
+P0,SEO,Canonical/Robots,371,279,275,925,12
+P0,SEO,TDK,320,304,268,892,12
+P0,GEO,GEO · 正文可提取性,120,150,138,408,11
+P0,SEO,SSR · 结果数,0,108,0,108,5
+P0,SEO,SSR · 商品卡列表,44,0,2,46,3
+P0,SEO,SSR · 带图标的子类目横条,34,0,2,36,3
+P0,SEO,SSR · Description 正文,0,10,0,10,1
+P0,SEO,SSR · 首页轮播 Banner,10,0,0,10,1
+P0,SEO,SSR · Compare with Similar Items,10,0,0,10,1
+P0,SEO,SSR · Best Sellers in This Category,10,0,0,10,1
+P0,SEO,SSR · People Who Bought This Item Also Bought,10,0,0,10,1
+P0,SEO,SSR · 类目底部文本描述,8,0,0,8,1
+P0,SEO,SSR · Key Features,0,6,0,6,1
+P0,SEO,SSR · 主图与缩略图,0,0,2,2,1
+P1,SEO,页面 · WebPage,324,172,240,736,11
+P1,SEO,Hreflang,244,182,178,604,12
+P1,GEO,GEO · llms.txt（站点索引）,228,168,164,560,12
+P1,SEO,SSR · 全局导航,228,168,164,560,12
+P1,GEO,GEO · 机器可读事实,98,124,114,336,6
+P1,SEO,页面 · CollectionPage（列表页）,92,92,92,276,5
+P1,SEO,实体 · OnlineStore（电商站点实体）,128,66,62,256,6
+P1,SEO,实体 · Organization,60,0,48,108,1
+P1,SEO,页面 · SearchResultsPage（搜索结果页）,24,24,24,72,1
+P1,SEO,SSR · 楼层板块,36,0,0,36,2
+P1,SEO,商品 · Product（商品）,10,10,10,30,1
+P1,SEO,商品 · Offer（报价）,10,10,10,30,1
+P1,SEO,内容 · BlogPosting（博客文章）,10,10,8,28,1
+P1,SEO,内容 · Blog（博客）,6,6,6,18,1
+P1,SEO,SSR · 价格区,5,0,10,15,1
+P1,SEO,实体 · WebSite（站点）,2,2,2,6,1
+P1,SEO,SSR · 文章正文,0,0,4,4,1
+P2,GEO,GEO · 问答结构,228,168,164,560,12
+P2,GEO,GEO · speakable（可朗读段落）,228,168,164,560,12
+P2,GEO,GEO · 实体清晰度,218,168,156,542,12
+P2,SEO,列表 · ItemList（条目列表）,116,116,116,348,6
+P2,GEO,GEO · 语义结构,68,112,110,290,10
+P2,SEO,实体 · Person（人物/作者）,40,10,32,82,1
+P2,SEO,内容 · Article（文章）,40,0,32,72,1
+P2,SEO,页面 · ItemPage（单品页）,10,10,10,30,1
+P2,SEO,商品 · AggregateRating（评分汇总）,10,10,10,30,1
+P2,SEO,商品 · Review（评论）,10,10,10,30,1
+P2,SEO,商品 · 配送明细,10,10,10,30,1
+P2,SEO,商品 · 退货政策,10,10,10,30,1
+P2,GEO,GEO · 退换与配送政策,10,10,10,30,1
