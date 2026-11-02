@@ -1,48 +1,9 @@
-﻿优先级,赛道,模块,美国站,英国站,加拿大站,合计,涉及页面类型数
-P0,SEO,导航 · BreadcrumbList（面包屑）,1596,1858,2228,5682,11
-P0,SEO,基础 Head,1220,910,890,3020,12
-P0,SEO,社会化分享,1204,816,756,2776,12
-P0,SEO,Canonical/Robots,371,279,275,925,12
-P0,SEO,TDK,320,304,268,892,12
-P0,GEO,GEO · 正文可提取性,120,150,138,408,11
-P0,SEO,SSR · 结果数,0,108,0,108,5
-P0,SEO,SSR · 商品卡列表,44,0,2,46,3
-P0,SEO,SSR · 带图标的子类目横条,34,0,2,36,3
-P0,SEO,SSR · Description 正文,0,10,0,10,1
-P0,SEO,SSR · 首页轮播 Banner,10,0,0,10,1
-P0,SEO,SSR · Compare with Similar Items,10,0,0,10,1
-P0,SEO,SSR · Best Sellers in This Category,10,0,0,10,1
-P0,SEO,SSR · People Who Bought This Item Also Bought,10,0,0,10,1
-P0,SEO,SSR · 类目底部文本描述,8,0,0,8,1
-P0,SEO,SSR · Key Features,0,6,0,6,1
-P0,SEO,SSR · 主图与缩略图,0,0,2,2,1
-P1,SEO,页面 · WebPage,324,172,240,736,11
-P1,SEO,Hreflang,244,182,178,604,12
-P1,GEO,GEO · llms.txt（站点索引）,228,168,164,560,12
-P1,SEO,SSR · 全局导航,228,168,164,560,12
-P1,GEO,GEO · 机器可读事实,98,124,114,336,6
-P1,SEO,页面 · CollectionPage（列表页）,92,92,92,276,5
-P1,SEO,实体 · OnlineStore（电商站点实体）,128,66,62,256,6
-P1,SEO,实体 · Organization,60,0,48,108,1
-P1,SEO,页面 · SearchResultsPage（搜索结果页）,24,24,24,72,1
-P1,SEO,SSR · 楼层板块,36,0,0,36,2
-P1,SEO,商品 · Product（商品）,10,10,10,30,1
-P1,SEO,商品 · Offer（报价）,10,10,10,30,1
-P1,SEO,内容 · BlogPosting（博客文章）,10,10,8,28,1
-P1,SEO,内容 · Blog（博客）,6,6,6,18,1
-P1,SEO,SSR · 价格区,5,0,10,15,1
-P1,SEO,实体 · WebSite（站点）,2,2,2,6,1
-P1,SEO,SSR · 文章正文,0,0,4,4,1
-P2,GEO,GEO · 问答结构,228,168,164,560,12
-P2,GEO,GEO · speakable（可朗读段落）,228,168,164,560,12
-P2,GEO,GEO · 实体清晰度,218,168,156,542,12
-P2,SEO,列表 · ItemList（条目列表）,116,116,116,348,6
-P2,GEO,GEO · 语义结构,68,112,110,290,10
-P2,SEO,实体 · Person（人物/作者）,40,10,32,82,1
-P2,SEO,内容 · Article（文章）,40,0,32,72,1
-P2,SEO,页面 · ItemPage（单品页）,10,10,10,30,1
-P2,SEO,商品 · AggregateRating（评分汇总）,10,10,10,30,1
-P2,SEO,商品 · Review（评论）,10,10,10,30,1
-P2,SEO,商品 · 配送明细,10,10,10,30,1
-P2,SEO,商品 · 退货政策,10,10,10,30,1
-P2,GEO,GEO · 退换与配送政策,10,10,10,30,1
+﻿模块,赛道,影响URL数,字段问题次数,US,UK,CA
+SEO 字段,SEO,550,2792,226,160,164
+结构化 · 面包屑,SEO,544,1945,224,158,162
+结构化 · 页面与列表,SEO,344,588,108,116,120
+结构化 · 产品数据,SEO,240,8674,62,86,92
+HTTP 路由,SEO,54,54,18,22,14
+结构化 · 文章,SEO,28,28,10,10,8
+结构化 · 在线店铺信息,SEO,6,24,2,2,2
+SSR 可见性,SEO,3,3,1,1,1

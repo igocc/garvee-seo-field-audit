@@ -1,0 +1,48 @@
+{
+  "expected": 604,
+  "captured": 604,
+  "unique_urls": 604,
+  "effective_nojs_success": 604,
+  "effective_js_success": 604,
+  "hash_checks": 2416,
+  "hash_failed": 0,
+  "source_comparison": {
+    "canonical_literal_changed": 546,
+    "jsonld_block_count_changed": 284,
+    "http_status_changed": 10
+  },
+  "http_by_market": {
+    "ca": {
+      "200": 164,
+      "404": 14
+    },
+    "uk": {
+      "200": 160,
+      "404": 22
+    },
+    "us": {
+      "200": 226,
+      "404": 18
+    }
+  },
+  "canonical_by_market": {
+    "ca": {
+      "canonical_correct": 156,
+      "canonical_missing": 0,
+      "canonical_alias_pending": 8,
+      "nojs_blank": 42
+    },
+    "uk": {
+      "canonical_correct": 160,
+      "canonical_missing": 0,
+      "canonical_alias_pending": 0,
+      "nojs_blank": 56
+    },
+    "us": {
+      "canonical_correct": 222,
+      "canonical_missing": 4,
+      "canonical_alias_pending": 0,
+      "nojs_blank": 63
+    }
+  }
+}
