@@ -28,7 +28,6 @@
       "share-and-win",
       "mygarvees-rewards",
       "business",
-      "category",
       "faqs"
     ],
     "source": "https://schema.org/Answer"
@@ -84,6 +83,7 @@
       "refund-policy",
       "carebox-package-protection",
       "extended-service-protection",
+      "category",
       "product",
       "product-reviews",
       "faqs",
@@ -122,10 +122,21 @@
     "definition": "A contact point&#x2014;for example, a Customer Complaints department.",
     "state": "实际输出",
     "pages": [
+      "homepage",
       "about-garvee",
       "contact"
     ],
     "source": "https://schema.org/ContactPoint"
+  },
+  {
+    "type": "EntryPoint",
+    "meaning": "动作入口及其URL模板",
+    "definition": "An entry point, within some Web-based protocol.",
+    "state": "实际输出",
+    "pages": [
+      "homepage"
+    ],
+    "source": "https://schema.org/EntryPoint"
   },
   {
     "type": "Event",
@@ -159,6 +170,7 @@
     "definition": "An image file.",
     "state": "实际输出",
     "pages": [
+      "homepage",
       "about-garvee",
       "contact",
       "article"
@@ -171,7 +183,7 @@
     "definition": "A list of items of any sort&#x2014;for example, Top 10 Movies About Weathermen, or Top 100 Party Songs. Not to be confused with HTML lists, which are often used only for formatting.",
     "state": "实际输出",
     "pages": [
-      "category",
+      "homepage",
       "diy-ideas",
       "blog-list",
       "campaign"
@@ -194,6 +206,7 @@
     "definition": "An list item, e.g. a step in a checklist or how-to description.",
     "state": "实际输出",
     "pages": [
+      "homepage",
       "about-garvee",
       "contact",
       "terms-of-service",
@@ -243,6 +256,7 @@
     "definition": "A MerchantReturnPolicy provides information about product return policies associated with an [[Organization]], [[Product]], or [[Offer]].",
     "state": "实际输出",
     "pages": [
+      "homepage",
       "about-garvee",
       "contact",
       "refund-policy"
@@ -263,7 +277,6 @@
     "definition": "An offer to transfer some rights to an item or to provide a service — for example, an offer to sell tickets to an event, to rent the DVD of a movie, to stream a TV show over the internet, to repair a motorcycle, or to loan a book.\\n\\nNote: As the [[businessFunction]] property, which identifies the form of offer (e.g. sell, lease, repair, dispose), defaults to http://purl.org/goodrelations/v1#Sell; an Offer without a defined businessFunction value can be assumed to be an offer to sell.\\n\\nFor [GTIN](http://www.gs1.org/barcodes/technical/idkeys/gtin)-related fields, see [Check Digit calculator](http://www.gs1.org/barcodes/support/check_digit_calculator) and [validation guide](http://www.gs1us.org/resources/standards/gtin-validation-guide) from [GS1](http://www.gs1.org/).",
     "state": "实际输出",
     "pages": [
-      "category",
       "product",
       "campaign"
     ],
@@ -283,6 +296,7 @@
     "definition": "An eCommerce site.",
     "state": "实际输出",
     "pages": [
+      "homepage",
       "about-garvee",
       "contact",
       "payments-policy",
@@ -297,6 +311,7 @@
     "definition": "A structured value providing information about the opening hours of a place or a certain service inside a place.\\n\\n\nThe place is __open__ if the [[opens]] property is specified, and __closed__ otherwise.\\n\\nIf the value for the [[closes]] property is less than the value for the [[opens]] property then the hour range is assumed to span over the next day.\n      ",
     "state": "实际输出",
     "pages": [
+      "homepage",
       "about-garvee",
       "contact"
     ],
@@ -344,6 +359,7 @@
     "definition": "The mailing address.",
     "state": "实际输出",
     "pages": [
+      "homepage",
       "about-garvee",
       "contact"
     ],
@@ -355,7 +371,6 @@
     "definition": "Any offered product or service. For example: a pair of shoes; a concert ticket; the rental of a car; a haircut; or an episode of a TV show streamed online.",
     "state": "实际输出",
     "pages": [
-      "category",
       "product",
       "campaign"
     ],
@@ -411,7 +426,6 @@
       "share-and-win",
       "mygarvees-rewards",
       "business",
-      "category",
       "faqs"
     ],
     "source": "https://schema.org/Question"
@@ -435,6 +449,16 @@
       "product"
     ],
     "source": "https://schema.org/Review"
+  },
+  {
+    "type": "SearchAction",
+    "meaning": "真实搜索动作；Google站点链接搜索框已退役",
+    "definition": "The act of searching for an object.\\n\\nRelated actions:\\n\\n* [[FindAction]]: SearchAction generally leads to a FindAction, but not necessarily.",
+    "state": "实际输出",
+    "pages": [
+      "homepage"
+    ],
+    "source": "https://schema.org/SearchAction"
   },
   {
     "type": "Service",
@@ -511,6 +535,7 @@
     "definition": "A web page. Every web page is implicitly assumed to be declared to be of type WebPage, so the various properties about that webpage, such as <code>breadcrumb</code> may be used. We recommend explicit declaration if these properties are specified, but if they are found outside of an itemscope, they will be assumed to be about the page.",
     "state": "实际输出",
     "pages": [
+      "homepage",
       "terms-of-service",
       "privacy-policy",
       "accessibility-statement",
@@ -542,7 +567,6 @@
       "share-and-win",
       "mygarvees-rewards",
       "business",
-      "category",
       "campaign"
     ],
     "source": "https://schema.org/WebPageElement"
@@ -553,6 +577,7 @@
     "definition": "A WebSite is a set of related web pages and other items typically served from a single web domain and accessible via URLs.",
     "state": "实际输出",
     "pages": [
+      "homepage",
       "help-center"
     ],
     "source": "https://schema.org/WebSite"

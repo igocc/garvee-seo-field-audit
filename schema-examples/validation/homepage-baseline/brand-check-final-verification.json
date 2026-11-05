@@ -1,0 +1,31 @@
+{
+  "file": "garvee-homepage-brand-complete.html",
+  "sha256": "2de548399b67e47c4429e62311e64a0c617d71dd1ae20671e5059a823fd84dc1",
+  "submitted_code_matches_file": true,
+  "json_parse": true,
+  "primary_categories": 19,
+  "category_urls_unique": true,
+  "sameAs_profiles": 6,
+  "sameAs_unique": true,
+  "contacts": 2,
+  "single_logo_object": true,
+  "google_result_url": "https://search.google.com/test/rich-results/result?id=BcKsyNs99AFCMQfjaq9kJg",
+  "google_valid_items": 4,
+  "google_summary_errors": 0,
+  "google_summary_noncritical_warnings": 0,
+  "test_mode": "code",
+  "schema_validator": {
+    "mode": "code",
+    "editor_matches_artifact": true,
+    "errors": 0,
+    "warnings": 0,
+    "root_items": 2,
+    "receipt": "schema-check/result.json",
+    "submission": "schema-check/submission.json",
+    "screenshot": "schema-check/result-summary.png",
+    "same_sha256_as_google_test": true
+  },
+  "deployed": false,
+  "provenance": "brand-check/field-provenance.json",
+  "remaining": "No tax or registration IDs/founding date invented; detailed shipping model deferred due to incomplete rates and conflicting delivery ranges."
+}

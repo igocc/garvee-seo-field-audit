@@ -1,0 +1,13 @@
+{
+  "key": "homepage",
+  "tool": "Google Rich Results Test",
+  "mode": "code",
+  "sha256": "2de548399b67e47c4429e62311e64a0c617d71dd1ae20671e5059a823fd84dc1",
+  "editor_matches": true,
+  "result_url": "https://search.google.com/test/rich-results/result?id=BcKsyNs99AFCMQfjaq9kJg",
+  "valid_items": 4,
+  "errors": 0,
+  "warnings": 0,
+  "origin_receipt": "validation/homepage-baseline/brand-check-final-verification.json",
+  "note": "Imported unchanged baseline receipt, not a new test; original summary did not provide capture time."
+}

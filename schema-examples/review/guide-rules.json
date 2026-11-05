@@ -16,7 +16,7 @@
   {
     "topic": "面包屑",
     "guide": "breadcrumb",
-    "rule": "只从本页实际用户导航取值；末级可以是父类目，不一律追加当前商品。无组件不借用别页。",
+    "rule": "依据真实分类/典型用户导航关系，而非仅镜像URL。现状未呈现组件不等于推荐实现不能提供；示例必须明确标成目标实现并建议同步可见导航。末级可以是父类目，不借用别页路径。",
     "source_url": "https://developers.google.com/search/docs/appearance/structured-data/breadcrumb",
     "source_sha256": "60043c5c22977e7a1ab0f1c1c1efbb2c147b47a67a9f640ba85d6a6e29d2cf0b"
   },

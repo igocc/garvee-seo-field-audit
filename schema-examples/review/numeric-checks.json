@@ -1,19 +1,11 @@
 [
   {
-    "page": "category",
+    "page": "homepage",
     "field": "ItemList.numberOfItems / ListItem.position",
-    "value": 84,
+    "value": 19,
     "status": "已核本次输出长度和连续位置",
     "meaning": "已加载去重快照；不是总目录/库存",
-    "evidence": "evidence/category.browser.json"
-  },
-  {
-    "page": "category",
-    "field": "Product.offers.price",
-    "value": 84,
-    "status": "逐卡片同商品 URL 对照渲染价格通过",
-    "meaning": "只核快照，不证明未来价格/库存",
-    "evidence": "evidence/category.browser.json"
+    "evidence": "evidence/homepage.browser.json"
   },
   {
     "page": "product",

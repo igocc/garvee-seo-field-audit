@@ -1,5 +1,125 @@
 [
   {
+    "page": "homepage",
+    "label": "首页",
+    "type": "ContactPoint",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "嵌套语境支持，依赖所属功能",
+    "guide": "organization",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "homepage",
+    "label": "首页",
+    "type": "EntryPoint",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 站点搜索框功能已于 2024-11-21 移除；保留 Schema 搜索动作语义",
+    "guide": "site-names",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "homepage",
+    "label": "首页",
+    "type": "ImageObject",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 在 logo / image 嵌套语境接受 ImageObject；不是独立富结果",
+    "guide": "organization",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "homepage",
+    "label": "首页",
+    "type": "ItemList",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "条件支持：限文档规定的轮播／面包屑场景，不代表任意列表可展示",
+    "guide": "carousel",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "homepage",
+    "label": "首页",
+    "type": "ListItem",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "条件支持：限文档规定的轮播／面包屑场景，不代表任意列表可展示",
+    "guide": "breadcrumb",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "homepage",
+    "label": "首页",
+    "type": "MerchantReturnPolicy",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "return-policy",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "homepage",
+    "label": "首页",
+    "type": "OnlineStore",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "organization",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "homepage",
+    "label": "首页",
+    "type": "OpeningHoursSpecification",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "homepage",
+    "label": "首页",
+    "type": "PostalAddress",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "嵌套语境支持，依赖所属功能",
+    "guide": "organization",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "homepage",
+    "label": "首页",
+    "type": "SearchAction",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 站点搜索框功能已于 2024-11-21 移除；保留 Schema 搜索动作语义",
+    "guide": "site-names",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "homepage",
+    "label": "首页",
+    "type": "WebPage",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "homepage",
+    "label": "首页",
+    "type": "WebSite",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 网站名称功能支持（主要部署首页）；此处为同一 WebSite 的共享定义",
+    "guide": "site-names",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
     "page": "about-garvee",
     "label": "页脚：关于我们",
     "type": "AboutPage",
@@ -942,11 +1062,11 @@
   {
     "page": "category",
     "label": "类目样本",
-    "type": "Answer",
+    "type": "BreadcrumbList",
     "state": "已输出",
     "schema": "支持",
-    "google": "FAQ 富结果已移除；QAPage 为另一个受限功能",
-    "guide": "faq",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "breadcrumb",
     "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
   },
   {
@@ -962,61 +1082,11 @@
   {
     "page": "category",
     "label": "类目样本",
-    "type": "ItemList",
-    "state": "已输出",
-    "schema": "支持",
-    "google": "条件支持：限文档规定的轮播／面包屑场景，不代表任意列表可展示",
-    "guide": "carousel",
-    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
-  },
-  {
-    "page": "category",
-    "label": "类目样本",
     "type": "ListItem",
     "state": "已输出",
     "schema": "支持",
     "google": "条件支持：限文档规定的轮播／面包屑场景，不代表任意列表可展示",
     "guide": "breadcrumb",
-    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
-  },
-  {
-    "page": "category",
-    "label": "类目样本",
-    "type": "Offer",
-    "state": "已输出",
-    "schema": "支持",
-    "google": "支持商品功能；列表页不等同于单商品落地页资格",
-    "guide": "merchant-listing",
-    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
-  },
-  {
-    "page": "category",
-    "label": "类目样本",
-    "type": "Product",
-    "state": "已输出",
-    "schema": "支持",
-    "google": "支持商品功能；列表页不等同于单商品落地页资格",
-    "guide": "merchant-listing",
-    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
-  },
-  {
-    "page": "category",
-    "label": "类目样本",
-    "type": "Question",
-    "state": "已输出",
-    "schema": "支持",
-    "google": "FAQ 富结果已移除；QAPage 为另一个受限功能",
-    "guide": "faq",
-    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
-  },
-  {
-    "page": "category",
-    "label": "类目样本",
-    "type": "WebPageElement",
-    "state": "已输出",
-    "schema": "支持",
-    "google": "未见该类型的独立 Google 富结果文档",
-    "guide": null,
     "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
   },
   {
@@ -1612,11 +1682,41 @@
   {
     "page": "category",
     "label": "类目样本",
-    "type": "BreadcrumbList",
+    "type": "ItemList",
     "state": "条件项／本样本未输出",
     "schema": "支持",
-    "google": "Google 官方指南支持；仍须满足内容和资格条件",
-    "guide": "breadcrumb",
-    "requirement": "必须存在真实导航路径；不从 URL 猜层级"
+    "google": "条件支持：限文档规定的轮播／面包屑场景，不代表任意列表可展示",
+    "guide": "carousel",
+    "requirement": "可选模块按真实单一区块输出URL/名称/位置；不要求全类目商品详情"
+  },
+  {
+    "page": "category",
+    "label": "类目样本",
+    "type": "WebPageElement",
+    "state": "条件项／本样本未输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "可选的真实FAQ/列表区块，非类目必需项"
+  },
+  {
+    "page": "category",
+    "label": "类目样本",
+    "type": "Question",
+    "state": "条件项／本样本未输出",
+    "schema": "支持",
+    "google": "FAQ 富结果已移除；QAPage 为另一个受限功能",
+    "guide": "faq",
+    "requirement": "Rugs页6问有可见来源；模板可选，不承诺Google FAQ富结果"
+  },
+  {
+    "page": "category",
+    "label": "类目样本",
+    "type": "Answer",
+    "state": "条件项／本样本未输出",
+    "schema": "支持",
+    "google": "FAQ 富结果已移除；QAPage 为另一个受限功能",
+    "guide": "faq",
+    "requirement": "逐问对应真实可访问正文，见category-faq-source.json"
   }
 ]

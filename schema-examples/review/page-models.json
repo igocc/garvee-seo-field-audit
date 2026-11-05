@@ -1,5 +1,37 @@
 [
   {
+    "page": "homepage",
+    "label": "首页",
+    "url": "https://www.garvee.com/",
+    "primary_type": "WebPage",
+    "emitted_types": [
+      "ContactPoint",
+      "EntryPoint",
+      "ImageObject",
+      "ItemList",
+      "ListItem",
+      "MerchantReturnPolicy",
+      "OnlineStore",
+      "OpeningHoursSpecification",
+      "PostalAddress",
+      "SearchAction",
+      "WebPage",
+      "WebSite"
+    ],
+    "identity": "首页完整品牌/站点及19项一级导航，原字节复用",
+    "breadcrumbs": [],
+    "guide_keys": [
+      "carousel",
+      "organization",
+      "return-policy",
+      "site-names"
+    ],
+    "rendered_evidence": "evidence/homepage.browser.json",
+    "capture": "2026-11-05T04:39:47.808Z",
+    "source_sha256": "5d1652359384fbc66207caa5f48317545c098484d0d5e63ca300cd0806e16992",
+    "unresolved_fields": []
+  },
+  {
     "page": "about-garvee",
     "label": "页脚：关于我们",
     "url": "https://www.garvee.com/pages/about-garvee",
@@ -492,33 +524,25 @@
     "url": "https://www.garvee.com/collections/rugs",
     "primary_type": "CollectionPage",
     "emitted_types": [
-      "Answer",
+      "BreadcrumbList",
       "CollectionPage",
-      "ItemList",
-      "ListItem",
-      "Offer",
-      "Product",
-      "Question",
-      "WebPageElement"
+      "ListItem"
     ],
     "identity": "只按关系引用稳定共享 ID；不完整重复品牌",
-    "breadcrumbs": [],
+    "breadcrumbs": [
+      "Home",
+      "Rugs"
+    ],
     "guide_keys": [
-      "carousel",
-      "faq",
-      "merchant-listing"
+      "breadcrumb"
     ],
     "rendered_evidence": "evidence/category.browser.json",
     "capture": "2026-11-04T13:48:13.067Z",
     "source_sha256": "05c174d6edc6c1f77862f9e3cabe63950ab2fa5acf0be32e38983c4ef877f39c",
     "unresolved_fields": [
-      "Product.offers.seller",
-      "Product.name（Google 历史非严重长度建议）",
-      "ShippingService / OfferShippingDetails.shippingRate / deliveryTime",
       "BreadcrumbList",
-      "ItemList.numberOfItems / inventory total",
-      "Offer.seller",
-      "Product card availability / sku / GTIN / aggregateRating"
+      "ItemList / Product / FAQ 可选增强",
+      "BreadcrumbList / visible navigation"
     ]
   },
   {

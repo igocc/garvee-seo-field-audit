@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "https://www.garvee.com/collections/rugs#webpage",
+      "hasPart": {
+        "@id": "https://www.garvee.com/collections/rugs#faq"
+      }
+    },
+    {
+      "@type": "WebPageElement",
+      "@id": "https://www.garvee.com/collections/rugs#faq",
+      "name": "Frequently Asked Questions",
+      "hasPart": [
+        {
+          "@type": "Question",
+          "name": "What rug size should I use in a living room?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Measure the seating group, not just the room. Common layouts place all legs or only the front legs on the rug; leave a deliberate, even border where possible."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much larger should a dining rug be than the table?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It should extend far enough for chair legs to remain on the rug when chairs are pulled out. Measure your chairs in use because table shape and chair depth vary."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does a non-slip backing replace a rug pad?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not always. Floor finish, rug size, traffic, backing condition, and manufacturer instructions determine whether an additional compatible pad is appropriate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can every low-pile rug be machine washed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. “Low pile” describes profile, not washability. Follow the care label and confirm that your washer can handle the rug’s size and wet weight."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I remove a spot without damaging the rug?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Follow the care label, remove solids gently, pretest the cleaner, and blot from the outside toward the center. Avoid aggressive scrubbing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will the color match what I see on screen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Screens, lighting, pile direction, and surrounding colors affect appearance. Use product images and stated colors as guidance and review the return policy before ordering."
+          }
+        }
+      ]
+    }
+  ]
+}

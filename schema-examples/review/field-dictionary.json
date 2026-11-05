@@ -164,10 +164,46 @@
   {
     "field": "breadcrumb",
     "meaning": "本页导航面包屑",
-    "required_value": "来自本页可见导航的 BreadcrumbList，不能复制其他页面路径",
+    "required_value": "表示真实分类/用户导航关系；区分已存在组件与推荐实现，不复制其他页面路径",
     "range": "BreadcrumbList / Text",
     "schema_definition": "A set of links that can help a user understand and navigate a website hierarchy.",
     "schema_url": "https://schema.org/breadcrumb",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "potentialAction",
+    "meaning": "实体支持的动作",
+    "required_value": "真实站内搜索等动作；语义支持不等于Google搜索功能展示",
+    "range": "Action",
+    "schema_definition": "Indicates a potential Action, which describes an idealized action in which this thing would play an 'object' role.",
+    "schema_url": "https://schema.org/potentialAction",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "target",
+    "meaning": "动作入口",
+    "required_value": "EntryPoint或真实动作目标URL",
+    "range": "EntryPoint / URL",
+    "schema_definition": "Indicates a target EntryPoint, or url, for an Action.",
+    "schema_url": "https://schema.org/target",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "urlTemplate",
+    "meaning": "动作URL模板",
+    "required_value": "真实搜索入口加已定义的参数占位符，例如 q={search_term_string}",
+    "range": "Text",
+    "schema_definition": "An url template (RFC6570) that will be used to construct the target of the execution of the action.",
+    "schema_url": "https://schema.org/urlTemplate",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "query-input",
+    "meaning": "SearchAction输入约束标注",
+    "required_value": "required name=search_term_string；Schema Action输入注解，不是普通业务属性；Google站点链接搜索框已退役",
+    "range": "Action input annotation",
+    "schema_definition": "Schema Action input annotation, not an ordinary property",
+    "schema_url": "https://schema.org/docs/actions.html",
     "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
   },
   {

@@ -1,22 +1,22 @@
 # GARVEE 页面类型 JSON-LD 复查版
 
-本版提供 26 页完整代码及 1 个商品保守版；没有部署到 GARVEE 官网。按官方指南 → 页面模型 → 渲染/交互事实 → 明确缺口 → 验证的顺序复查，不把词汇支持或验证器通过当成真实业务证明。
+本版提供 27 页完整代码及 1 个商品保守版，含首页；没有部署到 GARVEE 官网。按官方指南 → 页面模型 → 渲染/交互事实 → 明确缺口 → 验证的顺序复查，不把词汇支持或验证器通过当成真实业务证明。
 
 ## 本版核对范围
 
-- 26/26 页有渲染证据；补齐联系、服务条款、隐私、配送、退货页的证据。原始响应、渲染 DOM 和交互展开证据分别保存。
-- 3,745 条已输出属性路径，附字段含义、当前值、来源、证据级别、建议值类型和所需业务值。93 项字段字典、70 条逐页数据要求；见 `逐页字段数值复查与补数要求.xlsx`。
-- Schema 全量库为 47 类（含条件类型）、3,407 条继承属性记录；它不是全页必填清单。
-- 本地类型/属性所属类型检查无问题；另有 1297 次已解析嵌套/引用实体的建议 range 继承检查，无不匹配。未称完整闭合语义验证；引用实体、字面量、事实、Google 功能资格仍按上下文审查。
+- 27/27 页有渲染证据；首页一级导航/品牌补充历史实测来源。补齐联系、服务条款、隐私、配送、退货页的证据。原始响应、渲染 DOM 和交互展开证据分别保存。
+- 3,082 条已输出属性路径，附字段含义、当前值、来源、证据级别、建议值类型和所需业务值。97 项字段字典、66 条逐页数据要求；见 `逐页字段数值复查与补数要求.xlsx`。
+- Schema 全量库为 49 类（含条件类型）、3,454 条继承属性记录；它不是全页必填清单。
+- 本地类型/属性所属类型检查无问题；另有 1065 次已解析嵌套/引用实体的建议 range 继承检查，无不匹配。未称完整闭合语义验证；引用实体、字面量、事实、Google 功能资格仍按上下文审查。
 - 官方资料 30 入口中 29 个 HTTP200；旧 carousel-beta 地址 404，明确不作为已取得指导正文。有效 carousel 指南另有当前 200 来源。来源完整性核对无 SHA 不一致。
 
 ## 共享实体与面包屑
 
-Google Organization 指南不要求每页完整重复组织。WebSite 网站名称定义部署在域/子域首页；support.garvee.com/ 是独立子域首页，可定义自己的 WebSite。此前完成验证的主站首页保持原样，放在 `shared/homepage-previously-validated.html`，不是本版26页之一。
+Google Organization 指南不要求每页完整重复组织。WebSite 网站名称定义部署在域/子域首页；support.garvee.com/ 是独立子域首页，可定义自己的 WebSite。此前完成验证的主站首页保持原字节，现以 `code/homepage.html` 作为第一项完整示例，并保留基准副本。它的19项ItemList是一级分类导航，不是商品清单；SearchAction不再对应Google已退役的站点链接搜索框。
 
 介绍/联系页保留完整组织；会员/退货/支付页包含相应所属组织关系；服务和文章页按 provider/publisher 用精简 Organization；其他页使用稳定 @id 关联。完整品牌配置 `shared/site-identity.jsonld` 是配置与首页基准，不是要求逐页粘贴的模块。外部 @id 用于稳定关联，不保证验证器会自动抓取首页补全实体。
 
-类目样本没有可见面包屑，也没有生成 BreadcrumbList，不能借用 PDP 路径。PDP 的两套响应式路径中按 body.innerText 对应链选择，去掉隐藏版本多出的 Products 层。末级可以是父类目，不强行追加当前商品。联系页按真实 Home → Customer Service 导航取值。
+类目官网当前未呈现面包屑，但新示例按真实首页→一级Rugs关系提供推荐目标BreadcrumbList；应同步实现可见导航。这是目标示例，不冒称已抽取现有组件，不能借用PDP路径。默认不输出全页商品详情。真实六问FAQ和单独Best Sellers区块列表的可选模块、来源与媒体建议见 `页面类型建议与来源.md`。PDP 的两套响应式路径中按 body.innerText 对应链选择，去掉隐藏版本多出的 Products 层。末级可以是父类目，不强行追加当前商品。联系页按真实 Home → Customer Service 导航取值。
 
 ## 本轮修正
 
@@ -24,7 +24,7 @@ Google Organization 指南不要求每页完整重复组织。WebSite 网站名�
 2. 支付政策按真实正文列 PayPal、Visa、MasterCard、Klarna，并保留 Klarna 的美国居民资格；采用 Organization.acceptedPaymentMethod，不误用仅 LocalBusiness 域的 paymentAccepted。
 3. 保修 12 MON；延保计划仅声明额外 6–12 MON 范围及资格/注册/条款限制，不据此推每个 SKU 的实际期限。
 4. 隐私政策实际 Last updated 规范为 2026-09-09；配送页 UPDATED 为 2025-06-28。无时间级证据时不造时间/时区。
-5. 288 个类目/活动卡片价格按各自商品 URL 与真实渲染价格核对；ItemList 条目 84/204、文章卡片 36/12 是本次已加载去重快照，不是全库总数或库存量。
+5. 历史核对曾覆盖类目84/活动204个卡片价格。当前类目默认移除Product/Offer并集，可选ItemList只示范真实Best Sellers区块的URL/名称/位置；活动204和文章卡片36/12仍是加载快照，不是全库或库存。
 6. seller 不再按站点品牌一律推为 GARVEE。合同卖方须按商品商家主数据确认；品牌和组织发布方不是 seller 的替代证据。
 7. 商品描述改为可见 Key Features；分类对齐本页可见导航；旧元数据中的 NewCondition 缺可见证明，暂省略。32.4 lb 的净重/包装范围及两张表 Tufted/Flat Woven 冲突仍须业务核实。
 8. 文章旧元数据有 yang yu，但正文无署名，已省略 author；要求 CMS 提供真实署名和作者页。文章完整正文与渲染文本连续词序核对，内联标签引起的标点空白差异不误判为内容缺失。
@@ -47,20 +47,20 @@ Google Organization 指南不要求每页完整重复组织。WebSite 网站名�
 
 ## 在线验证与历史基准
 
-当前完整 HTML 与回执 SHA256 一致的在线回执 0/54：Google 0/27，Schema 0/27。完整清单见 `review/validation-freshness.json`。本轮变更使旧回执过期，不以旧结果装作新代码已通过。原 Schema 任务仍等人工验证码；Google 页面可打开，但当前 Paseo 工具读取被 Trusted Types 阻断，未提交本版代码。既有 Ego 空间已交还人工处理，不自动绕过或恢复控制。
+当前完整 HTML 与回执 SHA256 一致的在线回执 2/56：Google 1/28，Schema 1/28。首页复用相同字节的原始回执，不表示本轮新测；其余待测。完整清单见 `review/validation-freshness.json`。本轮变更使旧回执过期，不以旧结果装作新代码已通过。原 Schema 任务仍等人工验证码；Google 页面可打开，但当前 Paseo 工具读取被 Trusted Types 阻断，未提交本版代码。既有 Ego 空间已交还人工处理，不自动绕过或恢复控制。
 
 旧版 11 页 Schema 0 错误/0 警告、27 份 Google 代码测试保存在 validation/，只是历史。新回执存放在对应 `*-current` 目录。本地检查、来源核对和可访问页面不替代在线代码模式；上线后 URL 模式另行验收。
 
 ## 文件与验收
 
-`index.html` 按页可搜索、展开完整代码和本页补数表。`页面实现与验收清单.xlsx` 只有一个工作表、26 行、最终确认列真正留空。详细来源、数值、缺口和字典放在支持工作簿/CSV/JSON。`review/baseline/` 是改前留档，不作为本版通过证据。所有重要数据生产中应与正文同源，在首个完整 SSR HTML 输出并动态同步；静态示例中的价格库存不是长期常量。包内 `package-files.json` 提供文件哈希。
+`index.html` 按页可搜索、展开完整代码和本页补数表。`页面实现与验收清单.xlsx` 只有一个工作表、27 行、最终确认列真正留空。详细来源、数值、缺口和字典放在支持工作簿/CSV/JSON。`review/baseline/` 是改前留档，不作为本版通过证据。所有重要数据生产中应与正文同源，在首个完整 SSR HTML 输出并动态同步；静态示例中的价格库存不是长期常量。包内 `package-files.json` 提供文件哈希。
 
 
 ## GitHub 公开发布
 
 资料入口：https://igocc.github.io/garvee-seo-field-audit/schema-examples/ 。这是文档与示例公开发布，不是向 GARVEE 官网部署。
 
-[下载公开交付包](https://igocc.github.io/garvee-seo-field-audit/schema-examples/downloads/GARVEE_JSONLD_examples_reviewed_20261105_public.zip)。26 页完整代码及商品保守版与本地复查版逐字节一致；工作簿、字段映射、数据要求及官方来源一并提供。
+[下载公开交付包](https://igocc.github.io/garvee-seo-field-audit/schema-examples/downloads/GARVEE_JSONLD_examples_reviewed_20261105_public.zip)。27 页完整代码（含首页）、商品保守版及可选增强模块与本地复查版逐字节一致；工作簿、字段映射、数据要求及官方来源一并提供。
 
 公开取证文件是去除浏览器运行信息、脚本、表单值和跟踪参数后的摘录，不冒称原始响应。原始证据与公开摘录的哈希对照见 public-evidence-provenance.json；原始完整 HTML、截图和运行记录本地归档。来源审查中的原始哈希针对原始文件，公开包文件哈希另见 package-files.json。原验证码入口、浏览器任务信息、本机路径及记忆记录不发布。
 

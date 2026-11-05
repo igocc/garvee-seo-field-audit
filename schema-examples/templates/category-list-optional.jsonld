@@ -1,0 +1,118 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "https://www.garvee.com/collections/rugs#webpage",
+      "hasPart": {
+        "@id": "https://www.garvee.com/collections/rugs#best-sellers"
+      }
+    },
+    {
+      "@type": "WebPageElement",
+      "@id": "https://www.garvee.com/collections/rugs#best-sellers",
+      "name": "Best Sellers",
+      "mainEntity": {
+        "@id": "https://www.garvee.com/collections/rugs#best-sellers-items"
+      }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://www.garvee.com/collections/rugs#best-sellers-items",
+      "name": "Best Sellers",
+      "numberOfItems": 15,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Garvee Bordered Reddish Brown 10x13 Washable Area Rug, Farmhouse Neutral Low Pile Carpet, Stain Resistant Non Slip Soft Rug for Living Room Bedroom Dining Room",
+          "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Garvee 10' x 13' Navy Blue Vintage Bordered Area Rug, Extra Large Washable Non Slip Soft Low Pile Carpet with Floral Geometric Border for Living Room, Bedroom & Dining Room",
+          "url": "https://www.garvee.com/products/garvee-10x13-area-rug-living-room-pho-16khgs2q"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Garvee 10' x 20' Moroccan Outdoor Rug, Waterproof Reversible Plastic Straw Patio Mat with Stakes, Lightweight UV Fade-Resistant Rug for Patio, RV, Deck & Camping, Gray",
+          "url": "https://www.garvee.com/products/garvee-outdoor-rug-10x20-reversible-waterproof-pho-0ztkxkx7"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Garvee Bordered Brown 10x13 Boho Printed Washable Rug, Modern Braided Low Pile Polyester Area Rug Non-Slip Non-Shedding for Living Room Bedroom Office",
+          "url": "https://www.garvee.com/products/garvee-gaomon-washable-rug-10x13-large-pho-1168kbxz"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Garvee 8' x 10' Farmhouse Scalloped Area Rug, Washable Faux Braided Print Carpet, Soft Non Slip Low Pile Indoor Rug with TPR Backing for Living Room, Bedroom, Dining Room, Beige Gray",
+          "url": "https://www.garvee.com/products/garvee-area-rug-8x10-washable-soft-living-room-phk_35mc8qam"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Garvee Bordered Grey 8x10 Machine Washable Modern Area Rug, Stain Resistant Non-Slip Accent Rug Minimalist Border Floor Cover Farmhouse Carpet Rug for Living Room Decor",
+          "url": "https://www.garvee.com/products/garvee-8x10-area-rug-machine-washable-pho-16n7pymv"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "Garvee Dark Gray Washable Bordered Area Rug 8' × 10', Non Slip Low Pile Non Shedding Stain Resistant Rug, Modern Distressed Geometric Rug for Living Room Bedroom Dining Room",
+          "url": "https://www.garvee.com/products/garvee-washable-area-rug-8x10-living-pho-16kh790w"
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "Garvee Bordered Natural 8x10 Washable Area Rug for Living Room with Rubber Backing Boho Rug Stain Resistant Large Bedroom Throw Carpet Modern Geometric Floor Cover Bohemian Border Rug for Home Decor Office",
+          "url": "https://www.garvee.com/products/garvee-8x10-washable-area-rug-for-phk-347x7mjr"
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "name": "Garvee Bordered Dark Blue 8x10 Area Rug Machine Washable Rug Modern Bordered Area Rug, Stain Resistant Non-Slip Accent Rug Minimalist Border Floor Cover Farmhouse Carpet Rug for Living Room Decor",
+          "url": "https://www.garvee.com/products/garvee-8x10-area-rug-machine-washable-pho-16n7v351"
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "name": "Garvee Bordered Green 8x10 Modern Distressed Border Design Washable Area Rug , Soft Non-Slip Low-Pile Carpet, Non-Shedding Indoor Green Rug for Home Decor",
+          "url": "https://www.garvee.com/products/garvee-8x10-large-washable-area-rug-pho-33j9at63"
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "name": "Garvee Bordered Red 8x10 Machine Washable Rug Modern Area Rug, Stain Resistant Non-Slip Accent Rug Minimalist Border Floor Cover Farmhouse Carpet Rug for Living Room Decor",
+          "url": "https://www.garvee.com/products/garvee-8x10-area-rug-machine-washable-pho-16n7f79y"
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "name": "Garvee 9' x 12' Brown Vintage Bordered Area Rug, Machine Washable Non Slip Soft Low Pile Carpet, Distressed Geometric Rug for Living Room, Bedroom & Dining Room",
+          "url": "https://www.garvee.com/products/garvee-9x12-large-modern-brown-area-pho-33j9brng"
+        },
+        {
+          "@type": "ListItem",
+          "position": 13,
+          "name": "Garvee 8' × 10' Modern Scalloped Edge Area Rug – Soft Low-Pile Washable Non-Slip Stain Resistant Carpet for Living Room, Bedroom, or Nursery, Cream White",
+          "url": "https://www.garvee.com/products/garvee-modern-abstract-area-rug-8x10-phk-33jp8ule"
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "name": "Garvee Outdoor Rug 10x14 Large Waterproof Reversible Plastic Straw Rug for Patio, RV, Balcony, Beige Panel",
+          "url": "https://www.garvee.com/products/garvee-outdoor-rug-10x14-waterproof-plastic-straw-patio-pho_156lu32g"
+        },
+        {
+          "@type": "ListItem",
+          "position": 15,
+          "name": "Garvee Imitation Braided Collection-Print Farmhouse Living Room Area Rug 8x10, Non-Slip Washable Scalloped Large Carpet, Stain Resistant Ultra-Thin Foldable Floor Cover for Nursery Dining Room",
+          "url": "https://www.garvee.com/products/garvee-area-rug-8x10-nonslip-washable-living-room-phk_35mcalel"
+        }
+      ]
+    }
+  ]
+}

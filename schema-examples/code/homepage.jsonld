@@ -1,0 +1,230 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "OnlineStore",
+      "@id": "https://www.garvee.com/#organization",
+      "name": "GARVEE",
+      "url": "https://www.garvee.com/",
+      "sameAs": [
+        "https://www.pinterest.com/garvee_official/",
+        "https://www.facebook.com/garveeglobal",
+        "https://www.instagram.com/garvee_official/",
+        "https://www.youtube.com/channel/UCvt0kZI7qgY2leAZrwI9DKA",
+        "https://www.tiktok.com/@garvee_official",
+        "https://www.google.com/storepages?q=garvee.com&c=US&v=19"
+      ],
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://www.garvee.com/#logo",
+        "url": "https://cdn.shopify.com/s/files/1/0724/6698/9369/files/7_b376f5da-2df9-46dc-b361-030a8faa697a.webp?v=1746696639&width=1200",
+        "contentUrl": "https://cdn.shopify.com/s/files/1/0724/6698/9369/files/7_b376f5da-2df9-46dc-b361-030a8faa697a.webp?v=1746696639&width=1200",
+        "width": 1200,
+        "height": 675
+      },
+      "image": {
+        "@id": "https://www.garvee.com/#logo"
+      },
+      "legalName": "GARVEE INNOVATION INC.",
+      "description": "GARVEE offers practical products for homes and businesses, including furniture, toys, automotive tools, and commercial equipment.",
+      "slogan": "Your next best partner.",
+      "telephone": "+18888912855",
+      "email": "support@garvee.com",
+      "address": {
+        "@type": "PostalAddress",
+        "name": "Headquarters",
+        "streetAddress": "4215 E Airport Dr",
+        "addressLocality": "Ontario",
+        "addressRegion": "CA",
+        "postalCode": "91761",
+        "addressCountry": "US"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "customer service",
+          "url": "https://www.garvee.com/pages/contact",
+          "telephone": "+18888912855",
+          "email": "support@garvee.com",
+          "hoursAvailable": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "https://schema.org/Monday",
+              "https://schema.org/Tuesday",
+              "https://schema.org/Wednesday",
+              "https://schema.org/Thursday",
+              "https://schema.org/Friday"
+            ],
+            "opens": "09:00:00",
+            "closes": "17:00:00",
+            "description": "Mon - Fri from 9AM to 5PM (PST)"
+          }
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "media and collaboration inquiries",
+          "url": "https://www.garvee.com/pages/contact",
+          "email": "branding@garvee.com"
+        }
+      ],
+      "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "merchantReturnLink": "https://www.garvee.com/policies/refund-policy"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.garvee.com/#website",
+      "name": "GARVEE",
+      "url": "https://www.garvee.com/",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://www.garvee.com/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.garvee.com/search?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.garvee.com/#webpage",
+      "url": "https://www.garvee.com/",
+      "name": "GARVEE - Home Improvement, Automotive, Food Service, Power Tools",
+      "description": "Shop GARVEE for commercial equipment, power tools, auto parts, restaurant equipment, farm and garden supplies and more—great prices with free shipping.",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://www.garvee.com/#website"
+      },
+      "about": {
+        "@id": "https://www.garvee.com/#organization"
+      }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://www.garvee.com/#primary-categories",
+      "name": "Categories",
+      "numberOfItems": 19,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Air Conditioners & Accessories",
+          "url": "https://www.garvee.com/collections/air-conditioners-accessories"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Ride On Toy",
+          "url": "https://www.garvee.com/collections/ride-ons"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Lawn & Garden",
+          "url": "https://www.garvee.com/collections/lawn-garden"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Home & Furniture",
+          "url": "https://www.garvee.com/collections/home-furniture"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Rugs",
+          "url": "https://www.garvee.com/collections/rugs"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Agriculture & Forestry Equipment",
+          "url": "https://www.garvee.com/collections/agriculture-forestry-equipment"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "Restaurant & Food Service",
+          "url": "https://www.garvee.com/collections/restaurant-food-service"
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "Automotive",
+          "url": "https://www.garvee.com/collections/automotive"
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "name": "Appliances",
+          "url": "https://www.garvee.com/collections/appliances"
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "name": "Power & Hand Tools",
+          "url": "https://www.garvee.com/collections/power-hand-tools"
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "name": "Material Handling",
+          "url": "https://www.garvee.com/collections/material-handling"
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "name": "Sports & Outdoors",
+          "url": "https://www.garvee.com/collections/sports-recreation"
+        },
+        {
+          "@type": "ListItem",
+          "position": 13,
+          "name": "Toys & Games",
+          "url": "https://www.garvee.com/collections/toys-games"
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "name": "Plumbing",
+          "url": "https://www.garvee.com/collections/plumbing"
+        },
+        {
+          "@type": "ListItem",
+          "position": 15,
+          "name": "Building & Construction",
+          "url": "https://www.garvee.com/collections/building-construction"
+        },
+        {
+          "@type": "ListItem",
+          "position": 16,
+          "name": "Security",
+          "url": "https://www.garvee.com/collections/security"
+        },
+        {
+          "@type": "ListItem",
+          "position": 17,
+          "name": "Pumps",
+          "url": "https://www.garvee.com/collections/pumps"
+        },
+        {
+          "@type": "ListItem",
+          "position": 18,
+          "name": "Arts & Crafts & Sewing",
+          "url": "https://www.garvee.com/collections/arts-crafts-sewing"
+        },
+        {
+          "@type": "ListItem",
+          "position": 19,
+          "name": "Electrical",
+          "url": "https://www.garvee.com/collections/electrical"
+        }
+      ]
+    }
+  ]
+}

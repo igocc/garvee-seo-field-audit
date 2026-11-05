@@ -1,0 +1,254 @@
+[
+  {
+    "page": "homepage",
+    "url": "https://www.garvee.com/",
+    "evidence": "evidence/homepage.browser.json",
+    "video_evidence": [],
+    "ignored_nonvideo_iframes": 2,
+    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
+  },
+  {
+    "page": "about-garvee",
+    "url": "https://www.garvee.com/pages/about-garvee",
+    "evidence": "evidence/about-garvee.browser.json",
+    "video_evidence": [],
+    "ignored_nonvideo_iframes": 1,
+    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
+  },
+  {
+    "page": "contact",
+    "url": "https://www.garvee.com/pages/contact",
+    "evidence": "evidence/contact.browser.json",
+    "video_evidence": [],
+    "ignored_nonvideo_iframes": 0,
+    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
+  },
+  {
+    "page": "terms-of-service",
+    "url": "https://www.garvee.com/policies/terms-of-service",
+    "evidence": "evidence/terms-of-service.browser.json",
+    "video_evidence": [],
+    "ignored_nonvideo_iframes": 0,
+    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
+  },
+  {
+    "page": "privacy-policy",
+    "url": "https://www.garvee.com/policies/privacy-policy",
+    "evidence": "evidence/privacy-policy.browser.json",
+    "video_evidence": [],
+    "ignored_nonvideo_iframes": 0,
+    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
+  },
+  {
+    "page": "accessibility-statement",
+    "url": "https://www.garvee.com/pages/accessibility-statement",
+    "evidence": "evidence/accessibility-statement.browser.json",
+    "video_evidence": [],
+    "ignored_nonvideo_iframes": 1,
+    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
+  },
+  {
+    "page": "track-your-order",
+    "url": "https://www.garvee.com/pages/track-your-order",
+    "evidence": "evidence/track-your-order.browser.json",
+    "video_evidence": [],
+    "ignored_nonvideo_iframes": 1,
+    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
+  },
+  {
+    "page": "payments-policy",
+    "url": "https://www.garvee.com/pages/payments-policy",
+    "evidence": "evidence/payments-policy.browser.json",
+    "video_evidence": [],
+    "ignored_nonvideo_iframes": 1,
+    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
+  },
+  {
+    "page": "shipping-policy",
+    "url": "https://www.garvee.com/policies/shipping-policy",
+    "evidence": "evidence/shipping-policy.browser.json",
+    "video_evidence": [],
+    "ignored_nonvideo_iframes": 0,
+    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
+  },
+  {
+    "page": "warranty-policy",
+    "url": "https://www.garvee.com/pages/warranty-policy",
+    "evidence": "evidence/warranty-policy.browser.json",
+    "video_evidence": [],
+    "ignored_nonvideo_iframes": 1,
+    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
+  },
+  {
+    "page": "refund-policy",
+    "url": "https://www.garvee.com/policies/refund-policy",
+    "evidence": "evidence/refund-policy.browser.json",
+    "video_evidence": [],
+    "ignored_nonvideo_iframes": 0,
+    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
+  },
+  {
+    "page": "carebox-package-protection",
+    "url": "https://www.garvee.com/pages/carebox-package-protection",
+    "evidence": "evidence/carebox-package-protection.browser.json",
+    "video_evidence": [],
+    "ignored_nonvideo_iframes": 1,
+    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
+  },
+  {
+    "page": "affiliate",
+    "url": "https://www.garvee.com/pages/affiliate",
+    "evidence": "evidence/affiliate.browser.json",
+    "video_evidence": [],
+    "ignored_nonvideo_iframes": 1,
+    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
+  },
+  {
+    "page": "influencer-program",
+    "url": "https://www.garvee.com/pages/influencer-program",
+    "evidence": "evidence/influencer-program.browser.json",
+    "video_evidence": [],
+    "ignored_nonvideo_iframes": 1,
+    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
+  },
+  {
+    "page": "share-and-win",
+    "url": "https://www.garvee.com/pages/share-and-win",
+    "evidence": "evidence/share-and-win.browser.json",
+    "video_evidence": [],
+    "ignored_nonvideo_iframes": 1,
+    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
+  },
+  {
+    "page": "mygarvees-rewards",
+    "url": "https://www.garvee.com/pages/mygarvees-rewards",
+    "evidence": "evidence/mygarvees-rewards.browser.json",
+    "video_evidence": [],
+    "ignored_nonvideo_iframes": 1,
+    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
+  },
+  {
+    "page": "extended-service-protection",
+    "url": "https://www.garvee.com/pages/extended-service-protection",
+    "evidence": "evidence/extended-service-protection.browser.json",
+    "video_evidence": [],
+    "ignored_nonvideo_iframes": 1,
+    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
+  },
+  {
+    "page": "business",
+    "url": "https://www.garvee.com/pages/business",
+    "evidence": "evidence/business.browser.json",
+    "video_evidence": [],
+    "ignored_nonvideo_iframes": 1,
+    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
+  },
+  {
+    "page": "help-center",
+    "url": "https://support.garvee.com/",
+    "evidence": "evidence/help-center.browser.json",
+    "video_evidence": [],
+    "ignored_nonvideo_iframes": 0,
+    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
+  },
+  {
+    "page": "category",
+    "url": "https://www.garvee.com/collections/rugs",
+    "evidence": "evidence/category.browser.json",
+    "video_evidence": [],
+    "ignored_nonvideo_iframes": 2,
+    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
+  },
+  {
+    "page": "product",
+    "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy",
+    "evidence": "evidence/product.browser.json",
+    "video_evidence": [],
+    "ignored_nonvideo_iframes": 1,
+    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
+  },
+  {
+    "page": "product-reviews",
+    "url": "https://www.garvee.com/pages/product-reviews",
+    "evidence": "evidence/product-reviews.browser.json",
+    "video_evidence": [],
+    "ignored_nonvideo_iframes": 2,
+    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
+  },
+  {
+    "page": "faqs",
+    "url": "https://www.garvee.com/pages/faqs",
+    "evidence": "evidence/faqs.browser.json",
+    "video_evidence": [],
+    "ignored_nonvideo_iframes": 1,
+    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
+  },
+  {
+    "page": "diy-ideas",
+    "url": "https://www.garvee.com/pages/diy-ideas",
+    "evidence": "evidence/diy-ideas.browser.json",
+    "video_evidence": [],
+    "ignored_nonvideo_iframes": 1,
+    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
+  },
+  {
+    "page": "blog-list",
+    "url": "https://www.garvee.com/blogs/buying-guides",
+    "evidence": "evidence/blog-list.browser.json",
+    "video_evidence": [],
+    "ignored_nonvideo_iframes": 1,
+    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
+  },
+  {
+    "page": "article",
+    "url": "https://www.garvee.com/blogs/buying-guides/everything-you-need-to-know-about-rug-sizes-and-placement",
+    "evidence": "evidence/article.browser.json",
+    "video_evidence": [
+      {
+        "element": "iframe",
+        "urls": [
+          "https://www.youtube.com/embed/3fvnbOjAzfA?si=w8k2HlsX2LJ8G26V"
+        ],
+        "poster": null,
+        "title_attribute": "YouTube video player"
+      }
+    ],
+    "ignored_nonvideo_iframes": 0,
+    "video_advice": "已有真实VideoObject，保留平台名称/缩略图/上传时间/时长；文章嵌入不代表watch page",
+    "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
+  },
+  {
+    "page": "campaign",
+    "url": "https://www.garvee.com/pages/activity-fall-home-sale",
+    "evidence": "evidence/campaign.browser.json",
+    "video_evidence": [],
+    "ignored_nonvideo_iframes": 4,
+    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
+  }
+]

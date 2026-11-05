@@ -1,6 +1,5 @@
 ﻿page,field,value,status,meaning,evidence
-category,ItemList.numberOfItems / ListItem.position,84,已核本次输出长度和连续位置,已加载去重快照；不是总目录/库存,evidence/category.browser.json
-category,Product.offers.price,84,逐卡片同商品 URL 对照渲染价格通过,只核快照，不证明未来价格/库存,evidence/category.browser.json
+homepage,ItemList.numberOfItems / ListItem.position,19,已核本次输出长度和连续位置,已加载去重快照；不是总目录/库存,evidence/homepage.browser.json
 product,Product.offers.price,127.99 USD,可见普通价；会员价另为 115.20,不可相互替换；需价格系统实时绑定,evidence/product.browser.json
 product,Product.review,5,5 条可见样本，不是总量,评论与评分聚合口径尚未统一,evidence/product.browser.json
 diy-ideas,ItemList.numberOfItems / ListItem.position,36,已核本次输出长度和连续位置,已加载去重快照；不是总目录/库存,evidence/diy-ideas.browser.json

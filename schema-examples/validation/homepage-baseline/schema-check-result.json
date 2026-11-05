@@ -1,0 +1,34 @@
+{
+  "tool": "https://validator.schema.org/",
+  "mode": "code",
+  "capturedAt": "2026-11-04T12:32:47.363Z",
+  "url": "https://validator.schema.org/",
+  "file": "garvee-homepage-brand-complete.html",
+  "sha256": "2de548399b67e47c4429e62311e64a0c617d71dd1ae20671e5059a823fd84dc1",
+  "editorMatchesArtifact": true,
+  "errors": 0,
+  "warnings": 0,
+  "rootItems": 2,
+  "rootTypes": [
+    "WebPage",
+    "ItemList"
+  ],
+  "nestedTypesObserved": [
+    "WebPage",
+    "WebSite",
+    "OnlineStore",
+    "ImageObject",
+    "PostalAddress",
+    "Country",
+    "ContactPoint",
+    "OpeningHoursSpecification",
+    "MerchantReturnPolicy",
+    "SearchAction",
+    "EntryPoint",
+    "PropertyValueSpecification"
+  ],
+  "summaryEvidence": "result-summary.txt",
+  "detailEvidence": "webpage-details.txt",
+  "screenshot": "result-summary.png",
+  "note": "Code-mode validation; no persistent result URL generated. Root-item count reflects linked graph grouping, not total node or type count."
+}

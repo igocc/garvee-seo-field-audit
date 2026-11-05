@@ -1,0 +1,139 @@
+{
+  "url": "https://www.garvee.com/",
+  "links": [
+    {
+      "name": "Air Conditioners & Accessories",
+      "url": "https://www.garvee.com/collections/air-conditioners-accessories",
+      "html": "<a class=\"px-4 py-3 cursor-pointer flex items-center justify-between text-base font-medium transition-colors bg-white text-[#003D7A] font-bold border-l-4 border-[#003D7A]\" href=\"/collections/air-conditioners-accessories\"><span class=\"flex items-center gap-2 flex-1 min-w-0 mr-2\"><span class=\"truncate\">Air Conditioners &amp; Accessories</span></span><svg aria-hidden=\"true\" class=\"lucide lucide-chevron-right w-4 h-4 flex-shrink-0\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"m9 18 6-6-6-6\"></path></svg></a>",
+      "rendered": true,
+      "parent": "<div class=\"w-[300px] shrink-0 bg-gray-50 py-2 border-r border-gray-200 overflow-y-auto max-h-[600px]\"><a class=\"px-4 py-3 cursor-pointer flex items-center justify-between text-base font-medium transition-colors bg-white text-[#003D7A] font-bold border-l-4 border-[#003D7A]\" href=\"/collections/air-conditioners-accessories\"><span class=\"flex items-center gap-2 flex-1 min-w-0 mr-2\"><span class=\"truncate\">Air Conditioners &amp; Accessories</span></span><svg aria-hidden=\"true\" class=\"lucide lucide-chevron-right w-4 h-4 flex-shrink-0\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"m9 18 6-6-6-6\"></path></svg></a></div>"
+    },
+    {
+      "name": "Ride On Toy",
+      "url": "https://www.garvee.com/collections/ride-ons",
+      "html": "<a class=\"px-4 py-3 cursor-pointer flex items-center justify-between text-base font-medium transition-colors text-gray-700 hover:bg-gray-100 border-l-4 border-transparent\" href=\"/collections/ride-ons\"><span class=\"flex items-center gap-2 flex-1 min-w-0 mr-2\"><span class=\"truncate\">Ride On Toy</span></span></a>",
+      "rendered": true,
+      "parent": "<div class=\"w-[300px] shrink-0 bg-gray-50 py-2 border-r border-gray-200 overflow-y-auto max-h-[600px]\"><a class=\"px-4 py-3 cursor-pointer flex items-center justify-between text-base font-medium transition-colors bg-white text-[#003D7A] font-bold border-l-4 border-[#003D7A]\" href=\"/collections/air-conditioners-accessories\"><span class=\"flex items-center gap-2 flex-1 min-w-0 mr-2\"><span class=\"truncate\">Air Conditioners &amp; Accessories</span></span><svg aria-hidden=\"true\" class=\"lucide lucide-chevron-right w-4 h-4 flex-shrink-0\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"m9 18 6-6-6-6\"></path></svg></a></div>"
+    },
+    {
+      "name": "Lawn & Garden",
+      "url": "https://www.garvee.com/collections/lawn-garden",
+      "html": "<a class=\"px-4 py-3 cursor-pointer flex items-center justify-between text-base font-medium transition-colors text-gray-700 hover:bg-gray-100 border-l-4 border-transparent\" href=\"/collections/lawn-garden\"><span class=\"flex items-center gap-2 flex-1 min-w-0 mr-2\"><span class=\"truncate\">Lawn &amp; Garden</span></span></a>",
+      "rendered": true,
+      "parent": "<div class=\"w-[300px] shrink-0 bg-gray-50 py-2 border-r border-gray-200 overflow-y-auto max-h-[600px]\"><a class=\"px-4 py-3 cursor-pointer flex items-center justify-between text-base font-medium transition-colors bg-white text-[#003D7A] font-bold border-l-4 border-[#003D7A]\" href=\"/collections/air-conditioners-accessories\"><span class=\"flex items-center gap-2 flex-1 min-w-0 mr-2\"><span class=\"truncate\">Air Conditioners &amp; Accessories</span></span><svg aria-hidden=\"true\" class=\"lucide lucide-chevron-right w-4 h-4 flex-shrink-0\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"m9 18 6-6-6-6\"></path></svg></a></div>"
+    },
+    {
+      "name": "Home & Furniture",
+      "url": "https://www.garvee.com/collections/home-furniture",
+      "html": "<a class=\"px-4 py-3 cursor-pointer flex items-center justify-between text-base font-medium transition-colors text-gray-700 hover:bg-gray-100 border-l-4 border-transparent\" href=\"/collections/home-furniture\"><span class=\"flex items-center gap-2 flex-1 min-w-0 mr-2\"><span class=\"truncate\">Home &amp; Furniture</span></span></a>",
+      "rendered": true,
+      "parent": "<div class=\"w-[300px] shrink-0 bg-gray-50 py-2 border-r border-gray-200 overflow-y-auto max-h-[600px]\"><a class=\"px-4 py-3 cursor-pointer flex items-center justify-between text-base font-medium transition-colors bg-white text-[#003D7A] font-bold border-l-4 border-[#003D7A]\" href=\"/collections/air-conditioners-accessories\"><span class=\"flex items-center gap-2 flex-1 min-w-0 mr-2\"><span class=\"truncate\">Air Conditioners &amp; Accessories</span></span><svg aria-hidden=\"true\" class=\"lucide lucide-chevron-right w-4 h-4 flex-shrink-0\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"m9 18 6-6-6-6\"></path></svg></a></div>"
+    },
+    {
+      "name": "Rugs",
+      "url": "https://www.garvee.com/collections/rugs",
+      "html": "<a class=\"px-4 py-3 cursor-pointer flex items-center justify-between text-base font-medium transition-colors text-gray-700 hover:bg-gray-100 border-l-4 border-transparent\" href=\"/collections/rugs\"><span class=\"flex items-center gap-2 flex-1 min-w-0 mr-2\"><span class=\"truncate\">Rugs</span></span></a>",
+      "rendered": true,
+      "parent": "<div class=\"w-[300px] shrink-0 bg-gray-50 py-2 border-r border-gray-200 overflow-y-auto max-h-[600px]\"><a class=\"px-4 py-3 cursor-pointer flex items-center justify-between text-base font-medium transition-colors bg-white text-[#003D7A] font-bold border-l-4 border-[#003D7A]\" href=\"/collections/air-conditioners-accessories\"><span class=\"flex items-center gap-2 flex-1 min-w-0 mr-2\"><span class=\"truncate\">Air Conditioners &amp; Accessories</span></span><svg aria-hidden=\"true\" class=\"lucide lucide-chevron-right w-4 h-4 flex-shrink-0\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"m9 18 6-6-6-6\"></path></svg></a></div>"
+    },
+    {
+      "name": "Agriculture & Forestry Equipment",
+      "url": "https://www.garvee.com/collections/agriculture-forestry-equipment",
+      "html": "<a class=\"px-4 py-3 cursor-pointer flex items-center justify-between text-base font-medium transition-colors text-gray-700 hover:bg-gray-100 border-l-4 border-transparent\" href=\"/collections/agriculture-forestry-equipment\"><span class=\"flex items-center gap-2 flex-1 min-w-0 mr-2\"><span class=\"truncate\">Agriculture &amp; Forestry Equipment</span></span></a>",
+      "rendered": true,
+      "parent": "<div class=\"w-[300px] shrink-0 bg-gray-50 py-2 border-r border-gray-200 overflow-y-auto max-h-[600px]\"><a class=\"px-4 py-3 cursor-pointer flex items-center justify-between text-base font-medium transition-colors bg-white text-[#003D7A] font-bold border-l-4 border-[#003D7A]\" href=\"/collections/air-conditioners-accessories\"><span class=\"flex items-center gap-2 flex-1 min-w-0 mr-2\"><span class=\"truncate\">Air Conditioners &amp; Accessories</span></span><svg aria-hidden=\"true\" class=\"lucide lucide-chevron-right w-4 h-4 flex-shrink-0\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"m9 18 6-6-6-6\"></path></svg></a></div>"
+    },
+    {
+      "name": "Restaurant & Food Service",
+      "url": "https://www.garvee.com/collections/restaurant-food-service",
+      "html": "<a class=\"px-4 py-3 cursor-pointer flex items-center justify-between text-base font-medium transition-colors text-gray-700 hover:bg-gray-100 border-l-4 border-transparent\" href=\"/collections/restaurant-food-service\"><span class=\"flex items-center gap-2 flex-1 min-w-0 mr-2\"><span class=\"truncate\">Restaurant &amp; Food Service</span></span></a>",
+      "rendered": true,
+      "parent": "<div class=\"w-[300px] shrink-0 bg-gray-50 py-2 border-r border-gray-200 overflow-y-auto max-h-[600px]\"><a class=\"px-4 py-3 cursor-pointer flex items-center justify-between text-base font-medium transition-colors bg-white text-[#003D7A] font-bold border-l-4 border-[#003D7A]\" href=\"/collections/air-conditioners-accessories\"><span class=\"flex items-center gap-2 flex-1 min-w-0 mr-2\"><span class=\"truncate\">Air Conditioners &amp; Accessories</span></span><svg aria-hidden=\"true\" class=\"lucide lucide-chevron-right w-4 h-4 flex-shrink-0\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"m9 18 6-6-6-6\"></path></svg></a></div>"
+    },
+    {
+      "name": "Automotive",
+      "url": "https://www.garvee.com/collections/automotive",
+      "html": "<a class=\"px-4 py-3 cursor-pointer flex items-center justify-between text-base font-medium transition-colors text-gray-700 hover:bg-gray-100 border-l-4 border-transparent\" href=\"/collections/automotive\"><span class=\"flex items-center gap-2 flex-1 min-w-0 mr-2\"><span class=\"truncate\">Automotive</span></span></a>",
+      "rendered": true,
+      "parent": "<div class=\"w-[300px] shrink-0 bg-gray-50 py-2 border-r border-gray-200 overflow-y-auto max-h-[600px]\"><a class=\"px-4 py-3 cursor-pointer flex items-center justify-between text-base font-medium transition-colors bg-white text-[#003D7A] font-bold border-l-4 border-[#003D7A]\" href=\"/collections/air-conditioners-accessories\"><span class=\"flex items-center gap-2 flex-1 min-w-0 mr-2\"><span class=\"truncate\">Air Conditioners &amp; Accessories</span></span><svg aria-hidden=\"true\" class=\"lucide lucide-chevron-right w-4 h-4 flex-shrink-0\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"m9 18 6-6-6-6\"></path></svg></a></div>"
+    },
+    {
+      "name": "Appliances",
+      "url": "https://www.garvee.com/collections/appliances",
+      "html": "<a class=\"px-4 py-3 cursor-pointer flex items-center justify-between text-base font-medium transition-colors text-gray-700 hover:bg-gray-100 border-l-4 border-transparent\" href=\"/collections/appliances\"><span class=\"flex items-center gap-2 flex-1 min-w-0 mr-2\"><span class=\"truncate\">Appliances</span></span></a>",
+      "rendered": true,
+      "parent": "<div class=\"w-[300px] shrink-0 bg-gray-50 py-2 border-r border-gray-200 overflow-y-auto max-h-[600px]\"><a class=\"px-4 py-3 cursor-pointer flex items-center justify-between text-base font-medium transition-colors bg-white text-[#003D7A] font-bold border-l-4 border-[#003D7A]\" href=\"/collections/air-conditioners-accessories\"><span class=\"flex items-center gap-2 flex-1 min-w-0 mr-2\"><span class=\"truncate\">Air Conditioners &amp; Accessories</span></span><svg aria-hidden=\"true\" class=\"lucide lucide-chevron-right w-4 h-4 flex-shrink-0\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"m9 18 6-6-6-6\"></path></svg></a></div>"
+    },
+    {
+      "name": "Power & Hand Tools",
+      "url": "https://www.garvee.com/collections/power-hand-tools",
+      "html": "<a class=\"px-4 py-3 cursor-pointer flex items-center justify-between text-base font-medium transition-colors text-gray-700 hover:bg-gray-100 border-l-4 border-transparent\" href=\"/collections/power-hand-tools\"><span class=\"flex items-center gap-2 flex-1 min-w-0 mr-2\"><span class=\"truncate\">Power &amp; Hand Tools</span></span></a>",
+      "rendered": true,
+      "parent": "<div class=\"w-[300px] shrink-0 bg-gray-50 py-2 border-r border-gray-200 overflow-y-auto max-h-[600px]\"><a class=\"px-4 py-3 cursor-pointer flex items-center justify-between text-base font-medium transition-colors bg-white text-[#003D7A] font-bold border-l-4 border-[#003D7A]\" href=\"/collections/air-conditioners-accessories\"><span class=\"flex items-center gap-2 flex-1 min-w-0 mr-2\"><span class=\"truncate\">Air Conditioners &amp; Accessories</span></span><svg aria-hidden=\"true\" class=\"lucide lucide-chevron-right w-4 h-4 flex-shrink-0\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"m9 18 6-6-6-6\"></path></svg></a></div>"
+    },
+    {
+      "name": "Material Handling",
+      "url": "https://www.garvee.com/collections/material-handling",
+      "html": "<a class=\"px-4 py-3 cursor-pointer flex items-center justify-between text-base font-medium transition-colors text-gray-700 hover:bg-gray-100 border-l-4 border-transparent\" href=\"/collections/material-handling\"><span class=\"flex items-center gap-2 flex-1 min-w-0 mr-2\"><span class=\"truncate\">Material Handling</span></span></a>",
+      "rendered": true,
+      "parent": "<div class=\"w-[300px] shrink-0 bg-gray-50 py-2 border-r border-gray-200 overflow-y-auto max-h-[600px]\"><a class=\"px-4 py-3 cursor-pointer flex items-center justify-between text-base font-medium transition-colors bg-white text-[#003D7A] font-bold border-l-4 border-[#003D7A]\" href=\"/collections/air-conditioners-accessories\"><span class=\"flex items-center gap-2 flex-1 min-w-0 mr-2\"><span class=\"truncate\">Air Conditioners &amp; Accessories</span></span><svg aria-hidden=\"true\" class=\"lucide lucide-chevron-right w-4 h-4 flex-shrink-0\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"m9 18 6-6-6-6\"></path></svg></a></div>"
+    },
+    {
+      "name": "Sports & Outdoors",
+      "url": "https://www.garvee.com/collections/sports-recreation",
+      "html": "<a class=\"px-4 py-3 cursor-pointer flex items-center justify-between text-base font-medium transition-colors text-gray-700 hover:bg-gray-100 border-l-4 border-transparent\" href=\"/collections/sports-recreation\"><span class=\"flex items-center gap-2 flex-1 min-w-0 mr-2\"><span class=\"truncate\">Sports &amp; Outdoors</span></span></a>",
+      "rendered": true,
+      "parent": "<div class=\"w-[300px] shrink-0 bg-gray-50 py-2 border-r border-gray-200 overflow-y-auto max-h-[600px]\"><a class=\"px-4 py-3 cursor-pointer flex items-center justify-between text-base font-medium transition-colors bg-white text-[#003D7A] font-bold border-l-4 border-[#003D7A]\" href=\"/collections/air-conditioners-accessories\"><span class=\"flex items-center gap-2 flex-1 min-w-0 mr-2\"><span class=\"truncate\">Air Conditioners &amp; Accessories</span></span><svg aria-hidden=\"true\" class=\"lucide lucide-chevron-right w-4 h-4 flex-shrink-0\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"m9 18 6-6-6-6\"></path></svg></a></div>"
+    },
+    {
+      "name": "Toys & Games",
+      "url": "https://www.garvee.com/collections/toys-games",
+      "html": "<a class=\"px-4 py-3 cursor-pointer flex items-center justify-between text-base font-medium transition-colors text-gray-700 hover:bg-gray-100 border-l-4 border-transparent\" href=\"/collections/toys-games\"><span class=\"flex items-center gap-2 flex-1 min-w-0 mr-2\"><span class=\"truncate\">Toys &amp; Games</span></span></a>",
+      "rendered": true,
+      "parent": "<div class=\"w-[300px] shrink-0 bg-gray-50 py-2 border-r border-gray-200 overflow-y-auto max-h-[600px]\"><a class=\"px-4 py-3 cursor-pointer flex items-center justify-between text-base font-medium transition-colors bg-white text-[#003D7A] font-bold border-l-4 border-[#003D7A]\" href=\"/collections/air-conditioners-accessories\"><span class=\"flex items-center gap-2 flex-1 min-w-0 mr-2\"><span class=\"truncate\">Air Conditioners &amp; Accessories</span></span><svg aria-hidden=\"true\" class=\"lucide lucide-chevron-right w-4 h-4 flex-shrink-0\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"m9 18 6-6-6-6\"></path></svg></a></div>"
+    },
+    {
+      "name": "Plumbing",
+      "url": "https://www.garvee.com/collections/plumbing",
+      "html": "<a class=\"px-4 py-3 cursor-pointer flex items-center justify-between text-base font-medium transition-colors text-gray-700 hover:bg-gray-100 border-l-4 border-transparent\" href=\"/collections/plumbing\"><span class=\"flex items-center gap-2 flex-1 min-w-0 mr-2\"><span class=\"truncate\">Plumbing</span></span></a>",
+      "rendered": true,
+      "parent": "<div class=\"w-[300px] shrink-0 bg-gray-50 py-2 border-r border-gray-200 overflow-y-auto max-h-[600px]\"><a class=\"px-4 py-3 cursor-pointer flex items-center justify-between text-base font-medium transition-colors bg-white text-[#003D7A] font-bold border-l-4 border-[#003D7A]\" href=\"/collections/air-conditioners-accessories\"><span class=\"flex items-center gap-2 flex-1 min-w-0 mr-2\"><span class=\"truncate\">Air Conditioners &amp; Accessories</span></span><svg aria-hidden=\"true\" class=\"lucide lucide-chevron-right w-4 h-4 flex-shrink-0\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"m9 18 6-6-6-6\"></path></svg></a></div>"
+    },
+    {
+      "name": "Building & Construction",
+      "url": "https://www.garvee.com/collections/building-construction",
+      "html": "<a class=\"px-4 py-3 cursor-pointer flex items-center justify-between text-base font-medium transition-colors text-gray-700 hover:bg-gray-100 border-l-4 border-transparent\" href=\"/collections/building-construction\"><span class=\"flex items-center gap-2 flex-1 min-w-0 mr-2\"><span class=\"truncate\">Building &amp; Construction</span></span></a>",
+      "rendered": true,
+      "parent": "<div class=\"w-[300px] shrink-0 bg-gray-50 py-2 border-r border-gray-200 overflow-y-auto max-h-[600px]\"><a class=\"px-4 py-3 cursor-pointer flex items-center justify-between text-base font-medium transition-colors bg-white text-[#003D7A] font-bold border-l-4 border-[#003D7A]\" href=\"/collections/air-conditioners-accessories\"><span class=\"flex items-center gap-2 flex-1 min-w-0 mr-2\"><span class=\"truncate\">Air Conditioners &amp; Accessories</span></span><svg aria-hidden=\"true\" class=\"lucide lucide-chevron-right w-4 h-4 flex-shrink-0\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"m9 18 6-6-6-6\"></path></svg></a></div>"
+    },
+    {
+      "name": "Security",
+      "url": "https://www.garvee.com/collections/security",
+      "html": "<a class=\"px-4 py-3 cursor-pointer flex items-center justify-between text-base font-medium transition-colors text-gray-700 hover:bg-gray-100 border-l-4 border-transparent\" href=\"/collections/security\"><span class=\"flex items-center gap-2 flex-1 min-w-0 mr-2\"><span class=\"truncate\">Security</span></span></a>",
+      "rendered": true,
+      "parent": "<div class=\"w-[300px] shrink-0 bg-gray-50 py-2 border-r border-gray-200 overflow-y-auto max-h-[600px]\"><a class=\"px-4 py-3 cursor-pointer flex items-center justify-between text-base font-medium transition-colors bg-white text-[#003D7A] font-bold border-l-4 border-[#003D7A]\" href=\"/collections/air-conditioners-accessories\"><span class=\"flex items-center gap-2 flex-1 min-w-0 mr-2\"><span class=\"truncate\">Air Conditioners &amp; Accessories</span></span><svg aria-hidden=\"true\" class=\"lucide lucide-chevron-right w-4 h-4 flex-shrink-0\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"m9 18 6-6-6-6\"></path></svg></a></div>"
+    },
+    {
+      "name": "Pumps",
+      "url": "https://www.garvee.com/collections/pumps",
+      "html": "<a class=\"px-4 py-3 cursor-pointer flex items-center justify-between text-base font-medium transition-colors text-gray-700 hover:bg-gray-100 border-l-4 border-transparent\" href=\"/collections/pumps\"><span class=\"flex items-center gap-2 flex-1 min-w-0 mr-2\"><span class=\"truncate\">Pumps</span></span></a>",
+      "rendered": true,
+      "parent": "<div class=\"w-[300px] shrink-0 bg-gray-50 py-2 border-r border-gray-200 overflow-y-auto max-h-[600px]\"><a class=\"px-4 py-3 cursor-pointer flex items-center justify-between text-base font-medium transition-colors bg-white text-[#003D7A] font-bold border-l-4 border-[#003D7A]\" href=\"/collections/air-conditioners-accessories\"><span class=\"flex items-center gap-2 flex-1 min-w-0 mr-2\"><span class=\"truncate\">Air Conditioners &amp; Accessories</span></span><svg aria-hidden=\"true\" class=\"lucide lucide-chevron-right w-4 h-4 flex-shrink-0\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"m9 18 6-6-6-6\"></path></svg></a></div>"
+    },
+    {
+      "name": "Arts & Crafts & Sewing",
+      "url": "https://www.garvee.com/collections/arts-crafts-sewing",
+      "html": "<a class=\"px-4 py-3 cursor-pointer flex items-center justify-between text-base font-medium transition-colors text-gray-700 hover:bg-gray-100 border-l-4 border-transparent\" href=\"/collections/arts-crafts-sewing\"><span class=\"flex items-center gap-2 flex-1 min-w-0 mr-2\"><span class=\"truncate\">Arts &amp; Crafts &amp; Sewing</span></span></a>",
+      "rendered": true,
+      "parent": "<div class=\"w-[300px] shrink-0 bg-gray-50 py-2 border-r border-gray-200 overflow-y-auto max-h-[600px]\"><a class=\"px-4 py-3 cursor-pointer flex items-center justify-between text-base font-medium transition-colors bg-white text-[#003D7A] font-bold border-l-4 border-[#003D7A]\" href=\"/collections/air-conditioners-accessories\"><span class=\"flex items-center gap-2 flex-1 min-w-0 mr-2\"><span class=\"truncate\">Air Conditioners &amp; Accessories</span></span><svg aria-hidden=\"true\" class=\"lucide lucide-chevron-right w-4 h-4 flex-shrink-0\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"m9 18 6-6-6-6\"></path></svg></a></div>"
+    },
+    {
+      "name": "Electrical",
+      "url": "https://www.garvee.com/collections/electrical",
+      "html": "<a class=\"px-4 py-3 cursor-pointer flex items-center justify-between text-base font-medium transition-colors text-gray-700 hover:bg-gray-100 border-l-4 border-transparent\" href=\"/collections/electrical\"><span class=\"flex items-center gap-2 flex-1 min-w-0 mr-2\"><span class=\"truncate\">Electrical</span></span></a>",
+      "rendered": true,
+      "parent": "<div class=\"w-[300px] shrink-0 bg-gray-50 py-2 border-r border-gray-200 overflow-y-auto max-h-[600px]\"><a class=\"px-4 py-3 cursor-pointer flex items-center justify-between text-base font-medium transition-colors bg-white text-[#003D7A] font-bold border-l-4 border-[#003D7A]\" href=\"/collections/air-conditioners-accessories\"><span class=\"flex items-center gap-2 flex-1 min-w-0 mr-2\"><span class=\"truncate\">Air Conditioners &amp; Accessories</span></span><svg aria-hidden=\"true\" class=\"lucide lucide-chevron-right w-4 h-4 flex-shrink-0\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"m9 18 6-6-6-6\"></path></svg></a></div>"
+    }
+  ],
+  "capturedAt": "2026-11-04T10:54:21.664Z"
+}

@@ -1,5 +1,25 @@
 [
   {
+    "page": "homepage",
+    "tool": "schema",
+    "current_sha256": "2de548399b67e47c4429e62311e64a0c617d71dd1ae20671e5059a823fd84dc1",
+    "receipt_sha256": "2de548399b67e47c4429e62311e64a0c617d71dd1ae20671e5059a823fd84dc1",
+    "receipt": "validation/schema-current/homepage.json",
+    "current": true,
+    "status": "当前字节已有在线回执",
+    "historical_result_url": null
+  },
+  {
+    "page": "homepage",
+    "tool": "google",
+    "current_sha256": "2de548399b67e47c4429e62311e64a0c617d71dd1ae20671e5059a823fd84dc1",
+    "receipt_sha256": "2de548399b67e47c4429e62311e64a0c617d71dd1ae20671e5059a823fd84dc1",
+    "receipt": "validation/google-current/homepage.json",
+    "current": true,
+    "status": "当前字节已有在线回执",
+    "historical_result_url": "https://search.google.com/test/rich-results/result?id=BcKsyNs99AFCMQfjaq9kJg"
+  },
+  {
     "page": "about-garvee",
     "tool": "schema",
     "current_sha256": "bf06bad398c46b4fa3197543e2f6319a61a8724c656f63353cd796762c504f71",
@@ -362,7 +382,7 @@
   {
     "page": "category",
     "tool": "schema",
-    "current_sha256": "cd4026ad681f24b65eedb175df829529f0939079eee25c7d47598ccaab408405",
+    "current_sha256": "8a0480834c7e7ff9e8732835aab7400885ef889330759f73c7a89a8b2b44198e",
     "receipt_sha256": null,
     "receipt": null,
     "current": false,
@@ -372,7 +392,7 @@
   {
     "page": "category",
     "tool": "google",
-    "current_sha256": "cd4026ad681f24b65eedb175df829529f0939079eee25c7d47598ccaab408405",
+    "current_sha256": "8a0480834c7e7ff9e8732835aab7400885ef889330759f73c7a89a8b2b44198e",
     "receipt_sha256": "a96b8a55f33899e0de7524d986283adbbad763b3524c000a67b85b6cb74d50f3",
     "receipt": "validation/google/category.json",
     "current": false,

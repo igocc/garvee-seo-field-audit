@@ -252,6 +252,18 @@
     "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
   },
   {
+    "file": "evidence/category-current-source.json",
+    "original_sha256": "e2db962f2d56765ea9007cb7acf3a385f4deafbaba40060edd37bab2659b5c16",
+    "public_sha256": "e2db962f2d56765ea9007cb7acf3a385f4deafbaba40060edd37bab2659b5c16",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/category-faq-source.json",
+    "original_sha256": "c34c91f80871c30be2efa74d6fdb19203842c7524c824a4e7c31bd1b4ef77e4d",
+    "public_sha256": "4b879fafe3e66c5195d6f65dfead864f03da3517b6c9b59b1d51c1d8fe4f36ec",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
     "file": "evidence/category.browser.html",
     "original_sha256": "4deef6139034d711069b6783da42cf5e2b2147b1515f4c0aecf2c431ca536912",
     "public_sha256": "0546e0bc6f807324328f0459c06dfda1acf50b9e919ac66ee367004b1ce2116b",
@@ -408,6 +420,24 @@
     "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
   },
   {
+    "file": "evidence/homepage-navigation.json",
+    "original_sha256": "42bd468fc1ad556d8a6c4659bd05f2dde6a8f6c27fc28ba97079187c4c71dbbc",
+    "public_sha256": "935988a0b10b8f565bfb227b56f3174a4b06071d0ee1eb9a1086aa44ff68456a",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/homepage.browser.html",
+    "original_sha256": "b044829e2ce557adb48527b7b087f8e259a462a831c214e1c0ad10bc9346e38d",
+    "public_sha256": "a3f9c86fb0c4a0f56699bbd2b531486ae063364629ceb9fcab81868829d6b483",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/homepage.browser.json",
+    "original_sha256": "5d1652359384fbc66207caa5f48317545c098484d0d5e63ca300cd0806e16992",
+    "public_sha256": "620719a76d36679ccb6d4567301b8dbc59b1f2ace8f1a542b83a5285f31541c0",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
     "file": "evidence/homepage.html",
     "original_sha256": "a0cb2c60b389d71c5b8cce9ab4765366482109b47272e829e4c6bbefd8d41c88",
     "public_sha256": "79a022d21dff1152cf719d0522b8ad54630035c30da9960b77a925a23cb28016",
@@ -500,7 +530,7 @@
   {
     "file": "evidence/privacy-policy.browser.json",
     "original_sha256": "de1ab32d9ab293b245f0dc5734762407ac9836ddba9d8ab1e71dba7c8e9fe4bc",
-    "public_sha256": "e5ddfb898ee2b89ea5e2682662701fade1b70854ffa1009d085a8b18245842b9",
+    "public_sha256": "07a2a9e19e9652647e4db464c87ef80aac13da4c983ef4e96ca0f81a3b73ec87",
     "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
   },
   {
@@ -518,7 +548,7 @@
   {
     "file": "evidence/product-qa.json",
     "original_sha256": "695f4f19251b7bd0b475c496433b1f8a26777c031c0bd1cc87a786fa3e7bffed",
-    "public_sha256": "695f4f19251b7bd0b475c496433b1f8a26777c031c0bd1cc87a786fa3e7bffed",
+    "public_sha256": "eb58b4de6658f3fcc27ace5ef3b884b4f6dfc673bcd02985963286c2e3ea25c1",
     "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
   },
   {
@@ -578,7 +608,7 @@
   {
     "file": "evidence/refund-policy.browser.json",
     "original_sha256": "161f9b090da56430328d30624ca91f92e1dbc84f306b57447ac6710b8378acc4",
-    "public_sha256": "b5e7aab9cd54a2f7413563749e361aba7870329a664fcaf89be5fdf36a3d7b63",
+    "public_sha256": "4ae0158a0d8458a1e3e61081ca367fbd5aafeee349bf7fcc6e3667fb95de399f",
     "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
   },
   {
@@ -632,7 +662,7 @@
   {
     "file": "evidence/shipping-policy.browser.json",
     "original_sha256": "a5c2213961f3f393c204e5da9f8e17467cd494c1468850885673c1526693b5e6",
-    "public_sha256": "4b174e4a3c56eac668fb9707847a17a0d0a3acafc47449d49a74a7321e48a452",
+    "public_sha256": "30d166c8e467ed71e8eab4fd2be1ce85f2977005047e0f156f7b08e69057d52f",
     "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
   },
   {
@@ -668,7 +698,7 @@
   {
     "file": "evidence/terms-of-service.browser.json",
     "original_sha256": "3f9575f630b9e77e8a03cea7a075259922b5b520642e845ee4a2a80b9425d5f5",
-    "public_sha256": "cf6b96810782e1ac0b891cdb5d13b24889a8466bf5f0b0408f84c6441cbb2489",
+    "public_sha256": "79f8a0658bd88f6de802e0580d81ebcdecd405229ce863358ce10cc86da0b0f7",
     "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
   },
   {

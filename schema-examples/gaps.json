@@ -19,15 +19,9 @@
   },
   {
     "page": "category",
-    "field": "Offer.seller",
-    "reason": "站点品牌身份不等于每个商品的合同卖方；服务条款声称平台作为第三方。",
-    "requirement": "逐商品提供真实 seller 商家名称、身份 ID 与 URL；未确认前省略 seller，不统一写 GARVEE。"
-  },
-  {
-    "page": "category",
-    "field": "Product card availability / sku / GTIN / aggregateRating",
-    "reason": "列表只使用卡片可核实的名称、图片、链接及当前美元价格；不从商品名称推 SKU/GTIN，不继承有冲突的评分。",
-    "requirement": "生产接入实际商品源后补全真实适用字段；列表语义有效不等于商品详情富结果资格。"
+    "field": "BreadcrumbList / visible navigation",
+    "reason": "官网当前未呈现面包屑；本例按已核实的首页→一级Rugs类目关系提供推荐目标导航，不冒称已抽取到现有组件。",
+    "requirement": "实施本例时同步提供可见 Home → Rugs 导览；深层级类目取真实分类主数据，不能借用商品路径或按URL硬猜。"
   },
   {
     "page": "product",

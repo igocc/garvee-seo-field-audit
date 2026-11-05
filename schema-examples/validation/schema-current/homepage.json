@@ -1,0 +1,12 @@
+{
+  "key": "homepage",
+  "tool": "https://validator.schema.org/",
+  "mode": "code",
+  "sha256": "2de548399b67e47c4429e62311e64a0c617d71dd1ae20671e5059a823fd84dc1",
+  "editor_matches": true,
+  "captured_at": "2026-11-04T12:32:47.363Z",
+  "errors": 0,
+  "warnings": 0,
+  "origin_receipt": "validation/homepage-baseline/schema-check-result.json",
+  "note": "Imported unchanged baseline receipt, not a new test."
+}
