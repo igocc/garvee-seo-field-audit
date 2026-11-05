@@ -1,0 +1,17 @@
+{
+  "source": "evidence/product.browser.json",
+  "source_sha256": "8dd42956703a67e94b04cdb47786b828cfc41477cacf81c47fb32c40d5f3cf81",
+  "displayed_rating": "4.77",
+  "rendered_total": 200,
+  "raw_jsonld_total": 166,
+  "distribution_percent": {
+    "5": "69.5",
+    "4": "18.5",
+    "3": "4.0",
+    "2": "1.0",
+    "1": "7.0"
+  },
+  "calculation": "sum(stars * displayed_percentage) / 100",
+  "distribution_implied_mean": "4.425",
+  "interpretation": "按页面展示的分布计算，与展示均值不一致；这不是独立数据库审计。应核查统计范围与主数据，不能任选一组当作已确认的真实汇总。"
+}

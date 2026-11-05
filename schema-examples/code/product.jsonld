@@ -1,0 +1,261 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.garvee.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Rugs",
+          "item": "https://www.garvee.com/collections/rugs"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Area Rugs",
+          "item": "https://www.garvee.com/collections/area-rugs"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Bordered Rugs",
+          "item": "https://www.garvee.com/collections/bordered-rugs"
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "name": "Garvee Bordered Reddish Brown 10x13 Washable Area Rug, Farmhouse Neutral Low Pile Carpet, Stain Resistant Non Slip Soft Rug for Living Room Bedroom Dining Room",
+      "description": "Modern Vintage Aesthetic: Intricate floral patterns in muted tones blend vintage elegance with contemporary design. Premium soft fibers ensure cloud-like comfort underfoot. Pet-Safe Low Pile: 0.4” pile resists pet claws and minimizes dirt buildup. Easy to vacuum fur/hair, ideal for households with pets. TPR Non-Slip Base: Textured backing grips floors securely, reducing tripping risks. Ensure surfaces are dry for optimal adhesion. Multi-Room Adaptability:  Fits living rooms, bedrooms, kitchens, dorms, or home offices seamlessly. Machine-Wash Ready: Cold gentle cycle + air-dry flat. Reverse-roll stored rugs to eliminate fold marks within 72 hours.",
+      "image": [
+        "https://cdn.shopify.com/s/files/1/0724/6698/9369/files/91XT9i_WfpL.jpg?v=1737359872",
+        "https://cdn.shopify.com/s/files/1/0724/6698/9369/files/fe17266442560951224_66c467f1-4ea6-4adc-9e10-1bc378ef632b.jpg?v=1774253093",
+        "https://cdn.shopify.com/s/files/1/0724/6698/9369/files/810rxOiCpVL.jpg?v=1774253061",
+        "https://cdn.shopify.com/s/files/1/0724/6698/9369/files/81SUnpUK7DL.jpg?v=1774253061",
+        "https://cdn.shopify.com/s/files/1/0724/6698/9369/files/81QIMGrUqTL.jpg?v=1774253061",
+        "https://cdn.shopify.com/s/files/1/0724/6698/9369/files/9182-7IUfVL.jpg?v=1774253061",
+        "https://cdn.shopify.com/s/files/1/0724/6698/9369/files/919b2tNxLQL.jpg?v=1774253061",
+        "https://cdn.shopify.com/s/files/1/0724/6698/9369/files/91l3So80wTL.jpg?v=1774253061"
+      ],
+      "brand": {
+        "@type": "Brand",
+        "name": "Garvee"
+      },
+      "sku": "PHO_16KHFWWY",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "127.99",
+        "availability": "https://schema.org/InStock",
+        "@id": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy#offer",
+        "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy"
+      },
+      "@id": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy#product",
+      "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy",
+      "mainEntityOfPage": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy",
+      "material": "Polyester",
+      "size": "10' × 13'",
+      "color": "Reddish Brown",
+      "category": "Rugs > Area Rugs > Bordered Rugs",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Pile Height",
+          "value": "Low Pile"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Backing Material",
+          "value": "Thermoplastic Rubber (TPR)"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Construction",
+          "value": "Machine Made"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Design Style",
+          "value": "Traditional Bordered, Vintage-Inspired, Distressed"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Key Features",
+          "value": "Machine Washable, Non-Slip Backing, Stain Resistant, Low-Profile Design"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Care Instructions",
+          "value": "Machine Wash Cold, Vacuum Regularly, Spot Clean as Needed"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Construction Type",
+          "value": "Machine Made"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Back Material Type",
+          "value": "Thermoplastic Rubber (TPR)"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Theme",
+          "value": "Welcome"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Is Stain Resistant",
+          "value": "Yes"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Product Care Instructions",
+          "value": "Machine Wash"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Pattern",
+          "value": "Solid"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Special Feature",
+          "value": "Spill Resistant, Non Slip"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Rug Form Type",
+          "value": "Area Rug"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Style",
+          "value": "Modern"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Occasion",
+          "value": "Housewarming"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Water Resistance Level",
+          "value": "Water Resistant"
+        }
+      ],
+      "weight": {
+        "@type": "QuantitativeValue",
+        "value": 32.4,
+        "unitCode": "LBR"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "@id": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy#review-b644beb52168",
+          "author": {
+            "@type": "Person",
+            "name": "Denise W."
+          },
+          "datePublished": "2026-10-03",
+          "reviewBody": "This is my second rug from this company and I totally recommend them.  Great quality and nice and cushiony!",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": 5,
+            "bestRating": 5,
+            "worstRating": 1
+          }
+        },
+        {
+          "@type": "Review",
+          "@id": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy#review-a27ffab21438",
+          "author": {
+            "@type": "Person",
+            "name": "Cassandra Glendenning"
+          },
+          "datePublished": "2026-09-01",
+          "reviewBody": "Love the color and everything about these!  Perfect for what I needed. Washes well.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": 5,
+            "bestRating": 5,
+            "worstRating": 1
+          }
+        },
+        {
+          "@type": "Review",
+          "@id": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy#review-8dc73576f8ac",
+          "author": {
+            "@type": "Person",
+            "name": "Austin Hall"
+          },
+          "datePublished": "2026-08-17",
+          "reviewBody": "The rug looks nicer in person than I expected. The navy blue tones are easy to coordinate, and the pattern adds just enough interest.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": 5,
+            "bestRating": 5,
+            "worstRating": 1
+          }
+        },
+        {
+          "@type": "Review",
+          "@id": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy#review-e2f6545c22bf",
+          "author": {
+            "@type": "Person",
+            "name": "Noah Baker"
+          },
+          "datePublished": "2026-08-14",
+          "reviewBody": "The rug looks nicer in person than I expected. The reddish brown tones are easy to coordinate and the pattern adds just enough interest.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": 5,
+            "bestRating": 5,
+            "worstRating": 1
+          }
+        },
+        {
+          "@type": "Review",
+          "@id": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy#review-1a96f54745e8",
+          "author": {
+            "@type": "Person",
+            "name": "Sydney Gomez"
+          },
+          "datePublished": "2026-08-14",
+          "reviewBody": "The rug arrived folded and needed a little time to relax, but once it settled it looked much better. The size and overall appearance work well for our room.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": 5,
+            "bestRating": 5,
+            "worstRating": 1
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ItemPage",
+      "@id": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy#webpage",
+      "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy",
+      "name": "Bordered Rug with Low Pile - Machine Made | GARVEE",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://www.garvee.com/#website"
+      },
+      "description": "Bordered Rug features Low Pile, Machine Made, Machine Washable, Non Slip, Stain Resistant, Foldable, Polyester, Housewarming, and Red-Brown. Choose yours at GARVEE.",
+      "breadcrumb": {
+        "@id": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy#product"
+      }
+    }
+  ]
+}

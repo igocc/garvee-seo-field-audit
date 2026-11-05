@@ -1,0 +1,2037 @@
+[
+  {
+    "path": "README.md",
+    "bytes": 8737,
+    "sha256": "4c363e4588c8b3512ed56a4992968469cafa785a42b01c8484ac895035fa19c6"
+  },
+  {
+    "path": "code/about-garvee.html",
+    "bytes": 7489,
+    "sha256": "bf06bad398c46b4fa3197543e2f6319a61a8724c656f63353cd796762c504f71"
+  },
+  {
+    "path": "code/about-garvee.jsonld",
+    "bytes": 4011,
+    "sha256": "69b2d1def1068eead8f279e26159d896f76f5306cffb1eb830ff0ff64752b776"
+  },
+  {
+    "path": "code/about-garvee.snippet.html",
+    "bytes": 4057,
+    "sha256": "98d85c93620729177d3bed705398a4f553b7daac76fbc40d1128afd5f01c4bbe"
+  },
+  {
+    "path": "code/accessibility-statement.html",
+    "bytes": 5261,
+    "sha256": "5d2a6b13ce21c3fb0e8a8383a9ee4ecfa2840347deae758081f5476570376963"
+  },
+  {
+    "path": "code/accessibility-statement.jsonld",
+    "bytes": 1089,
+    "sha256": "5b1b762b964c62b970354c5b3040e74c4f0558d3634b0358c2e3400b8e67ca5d"
+  },
+  {
+    "path": "code/accessibility-statement.snippet.html",
+    "bytes": 1135,
+    "sha256": "7058d1eea7ac12db8ab430d2be651a699a437134b5f83565dc35588566b2634d"
+  },
+  {
+    "path": "code/affiliate.html",
+    "bytes": 9168,
+    "sha256": "722b040cf7dc671c7fa8571087895812ed816583db03f238ecdc1b662080c1e5"
+  },
+  {
+    "path": "code/affiliate.jsonld",
+    "bytes": 4267,
+    "sha256": "243660b31f3fc0188ddb66b0b53bb52fa14a4a54e03da934c74779dd8535c26e"
+  },
+  {
+    "path": "code/affiliate.snippet.html",
+    "bytes": 4313,
+    "sha256": "044d259c8ba316232169cc79135ccf4c547a53b04b2c8b868d2e4ffb437b3c72"
+  },
+  {
+    "path": "code/article.html",
+    "bytes": 25906,
+    "sha256": "8a02f73fe2de272967d26a026b2c8a1f1d8ea453fcf4934ccd70e70acea8a224"
+  },
+  {
+    "path": "code/article.jsonld",
+    "bytes": 13868,
+    "sha256": "5acb834996329962ac65f649e50c4566473f72a795cdde9698d19e7bbcaa3a10"
+  },
+  {
+    "path": "code/article.snippet.html",
+    "bytes": 13914,
+    "sha256": "1b5386acc4f8a642651cd54809880b1e5e037ff737e3e2f6cbbe4720fdd0c3a3"
+  },
+  {
+    "path": "code/blog-list.html",
+    "bytes": 16526,
+    "sha256": "378aff9539e99bc02101759b0a8046a6152cc3d5f0ccee73247c57a1d475e571"
+  },
+  {
+    "path": "code/blog-list.jsonld",
+    "bytes": 12973,
+    "sha256": "61644528134c2e5d40709251011d28a2b83861e3e82257173c926a1eab474978"
+  },
+  {
+    "path": "code/blog-list.snippet.html",
+    "bytes": 13019,
+    "sha256": "0096b5e7f08a4943a0684bbe8035bc158df79427d54c4477725c23e751e977d5"
+  },
+  {
+    "path": "code/business.html",
+    "bytes": 18070,
+    "sha256": "13f76550a69d23da38379b8ffdb168ab0c04887554dfe090a94e5f2f384ebbec"
+  },
+  {
+    "path": "code/business.jsonld",
+    "bytes": 4960,
+    "sha256": "578ee74dfb650a4e49242e9f91f8c8079fff430a37683d5da5fd51b8aadfa324"
+  },
+  {
+    "path": "code/business.snippet.html",
+    "bytes": 5006,
+    "sha256": "2d9ebead93ef36347a318e8ce394cebbf0acabbd5f82d383ebce5d17fd4bafd6"
+  },
+  {
+    "path": "code/campaign.html",
+    "bytes": 307840,
+    "sha256": "866fd895e5f5a0fd98ad476b9672785a46e9611d64cfb9c6cb12f98ff46d8160"
+  },
+  {
+    "path": "code/campaign.jsonld",
+    "bytes": 200186,
+    "sha256": "2bb707c5c1791aeb2d22243b29a1d81ed24d8d332dd842f38a65270f1536cd66"
+  },
+  {
+    "path": "code/campaign.snippet.html",
+    "bytes": 200232,
+    "sha256": "8b59dbb89abf897e953555fbf06e2f2853e153e48128e34bc1306f38c675f1a4"
+  },
+  {
+    "path": "code/carebox-package-protection.html",
+    "bytes": 4937,
+    "sha256": "d9a559b956c83c51b7ea0edf81a98c4d0731d98cb805cc622ba7a139791b0cca"
+  },
+  {
+    "path": "code/carebox-package-protection.jsonld",
+    "bytes": 1427,
+    "sha256": "a56d8badea414d9ff62df59dbc2013152efd10661579ca8ca397c9f3475f9518"
+  },
+  {
+    "path": "code/carebox-package-protection.snippet.html",
+    "bytes": 1473,
+    "sha256": "b0a3ebcaa892cb513bf52c323c5afd790abb8a27f0bef4f2caee36f1192c8bb9"
+  },
+  {
+    "path": "code/category.html",
+    "bytes": 133448,
+    "sha256": "cd4026ad681f24b65eedb175df829529f0939079eee25c7d47598ccaab408405"
+  },
+  {
+    "path": "code/category.jsonld",
+    "bytes": 85595,
+    "sha256": "a6eddbfecfc7472c7b8c0583aca689b07b399f63f83ed4300e0ba786237b732e"
+  },
+  {
+    "path": "code/category.snippet.html",
+    "bytes": 85641,
+    "sha256": "81cc2cf899a0ce1a2269a045a3190cd32ed714415ef78e679271d1933f8725dc"
+  },
+  {
+    "path": "code/contact.html",
+    "bytes": 6113,
+    "sha256": "5ee0c47ab76465eed583fa213687965982f1dd122c436a4e5adcc90d3acc81be"
+  },
+  {
+    "path": "code/contact.jsonld",
+    "bytes": 4023,
+    "sha256": "fcfe4eace8e81442c46cafa8e96b10c70c1b23cd4f07b18ca3c0993a910df14f"
+  },
+  {
+    "path": "code/contact.snippet.html",
+    "bytes": 4069,
+    "sha256": "a73b5cb710a05b40ce8fd38e498b390abc2d5af307f9b5b159db89811836f4ee"
+  },
+  {
+    "path": "code/diy-ideas.html",
+    "bytes": 35250,
+    "sha256": "ddfec254d47eb76cb25bb679d07a79c5137f92ce74e6724514ee7e146150612d"
+  },
+  {
+    "path": "code/diy-ideas.jsonld",
+    "bytes": 31925,
+    "sha256": "497daab1f29770c64d3c6d226c04bd125d18788b6f67f1bc4f5fc1bc9c1a2731"
+  },
+  {
+    "path": "code/diy-ideas.snippet.html",
+    "bytes": 31971,
+    "sha256": "bee2725e4ac6e48dc658c09d737a189d470daedadefb0451601a88609538272a"
+  },
+  {
+    "path": "code/extended-service-protection.html",
+    "bytes": 5717,
+    "sha256": "1f312830faafe4736cbd6ee539f4e129f2075551e89f397b8080d2df5fa20264"
+  },
+  {
+    "path": "code/extended-service-protection.jsonld",
+    "bytes": 2444,
+    "sha256": "4423a032ccd19c7f40a82ad2c84b0adb1ae3236e7e1a56f6c3e371f50225cee7"
+  },
+  {
+    "path": "code/extended-service-protection.snippet.html",
+    "bytes": 2490,
+    "sha256": "5ca780334a8f22c365689a84b92f4d2039cbfd35cbf9c73c16af982ec992a5c5"
+  },
+  {
+    "path": "code/faqs.html",
+    "bytes": 12884,
+    "sha256": "76080b4d1529dea11683f81d98946013d0305f8438b008fd4e27d6bfab2eeefe"
+  },
+  {
+    "path": "code/faqs.jsonld",
+    "bytes": 8563,
+    "sha256": "c07c77717c00451b2dc610b66bf9a1b54336b19df92fd43268e435b5fc5b0aa0"
+  },
+  {
+    "path": "code/faqs.snippet.html",
+    "bytes": 8609,
+    "sha256": "d8870b2687b9afc44a7989d39b3490486ee41c32a862e1c3962b3b55a2b7aa6b"
+  },
+  {
+    "path": "code/help-center.html",
+    "bytes": 2501,
+    "sha256": "bd8ae868447bb456b2048fbdaa56013afadb17286e3bbe4e61aabeef9516bcef"
+  },
+  {
+    "path": "code/help-center.jsonld",
+    "bytes": 1537,
+    "sha256": "30305525128c2e64b49f2e930066d6dee09f0ebb67c389258a31a5dadd69591b"
+  },
+  {
+    "path": "code/help-center.snippet.html",
+    "bytes": 1583,
+    "sha256": "69d324f4e43f8858a6edab6284f7581be650c3de3ec8cf5a769141af0c166316"
+  },
+  {
+    "path": "code/influencer-program.html",
+    "bytes": 4979,
+    "sha256": "a87c10ca5e11a64355a7ba56447695f42ab07fe6d516bced75c064202e290fee"
+  },
+  {
+    "path": "code/influencer-program.jsonld",
+    "bytes": 3089,
+    "sha256": "f6c22e5d9326db20018e717237e254486962569199a2a375f2877d1635d2cd33"
+  },
+  {
+    "path": "code/influencer-program.snippet.html",
+    "bytes": 3135,
+    "sha256": "b1848ce7973eb98840c4c9bb243859d0b82d2c2bc0aabb715561f4821663c2c7"
+  },
+  {
+    "path": "code/mygarvees-rewards.html",
+    "bytes": 8753,
+    "sha256": "12f737d67398768558bf53c5629fa077890db613150a729902db9536b7df1bde"
+  },
+  {
+    "path": "code/mygarvees-rewards.jsonld",
+    "bytes": 6256,
+    "sha256": "ceed0c4ec13cf55f0848934a015a89201b445c87d1076107478357ae81abc9a4"
+  },
+  {
+    "path": "code/mygarvees-rewards.snippet.html",
+    "bytes": 6302,
+    "sha256": "06c0f793f7fa5bd9756e24d71cb9373b1c974a42cc6e94e46278bb6e15ad0d41"
+  },
+  {
+    "path": "code/payments-policy.html",
+    "bytes": 4545,
+    "sha256": "d3646f1fe22300fe676c17f54babc74822d81d42bb18b181f2daf0d303959a5f"
+  },
+  {
+    "path": "code/payments-policy.jsonld",
+    "bytes": 1363,
+    "sha256": "60dfeed3a326b66683579a64a617fcc2d9d6f5875ca6dc9514b3d33d9b0ee84e"
+  },
+  {
+    "path": "code/payments-policy.snippet.html",
+    "bytes": 1409,
+    "sha256": "9b60eefcd1cf99fe4ca565b575e3ec31840be214e47dd8dd0363430d5d3fafc4"
+  },
+  {
+    "path": "code/privacy-policy.html",
+    "bytes": 22458,
+    "sha256": "837b9bcd3bc60bf66f9876018a1d962f2ad1e5f362110e08bbab9deb8317b2eb"
+  },
+  {
+    "path": "code/privacy-policy.jsonld",
+    "bytes": 1132,
+    "sha256": "635f34db5506c518ed7811366325fa3695b182b1e6263ee91d51e26e501996a3"
+  },
+  {
+    "path": "code/privacy-policy.snippet.html",
+    "bytes": 1178,
+    "sha256": "5afa8a137064ab37739f7e1b5d055bb63997c99732644bbbbea9e974abaaa655"
+  },
+  {
+    "path": "code/product-google-ready.html",
+    "bytes": 17657,
+    "sha256": "59f11cfc22155500351507bade98128f718502a8fd8879e5216db1adb74d21ed"
+  },
+  {
+    "path": "code/product-google-ready.jsonld",
+    "bytes": 6933,
+    "sha256": "08d127561e974394c3aa95181a4310954220f342362f1ee7855b1836d31c4695"
+  },
+  {
+    "path": "code/product-google-ready.snippet.html",
+    "bytes": 6979,
+    "sha256": "6beec6b6d8ba19014f5ad99ef973ec2a6f49e39ed53890a2bf5d25ff0a2e6ba8"
+  },
+  {
+    "path": "code/product-reviews.html",
+    "bytes": 1584,
+    "sha256": "642d13a5de009a8bbdf4a76d4b7e57241ffa08b5ccc619c9f133794a3b35d87f"
+  },
+  {
+    "path": "code/product-reviews.jsonld",
+    "bytes": 960,
+    "sha256": "231f88a3937e083cd40cf4ddcfb1068848465a70058beef0045a3a47948e9753"
+  },
+  {
+    "path": "code/product-reviews.snippet.html",
+    "bytes": 1006,
+    "sha256": "d08eafeef380b0dd1ff458aaae36891e5c05a67c2bc1998729e64859b21f1949"
+  },
+  {
+    "path": "code/product.html",
+    "bytes": 20816,
+    "sha256": "4af2c5ed4493a0ac42724c1d1b55883606a38b6d3aa2b73fbb7b65f1efbd37c8"
+  },
+  {
+    "path": "code/product.jsonld",
+    "bytes": 10092,
+    "sha256": "b0bd63c96f232461593997e65f30396512e79bf7b72cfc18f1f2e00daaaa1b70"
+  },
+  {
+    "path": "code/product.snippet.html",
+    "bytes": 10138,
+    "sha256": "86cfd99120661abb787aad2f465d33ae85d674c0e1a9fc9343be58babbbb25fd"
+  },
+  {
+    "path": "code/refund-policy.html",
+    "bytes": 9316,
+    "sha256": "73a9dfe7836f06c17ac3a6d9e1f3984e728f2418c290126466d0525e4a5da638"
+  },
+  {
+    "path": "code/refund-policy.jsonld",
+    "bytes": 1502,
+    "sha256": "e2e86e42ffbad9e35f5ba8ca9d625af98f7dfa222f73bade8534b77e15fa1db1"
+  },
+  {
+    "path": "code/refund-policy.snippet.html",
+    "bytes": 1548,
+    "sha256": "9ef9c4943daa6fda018e7740a61881c71244353cebd360f8152be7af4afa9638"
+  },
+  {
+    "path": "code/share-and-win.html",
+    "bytes": 6870,
+    "sha256": "897bd00e7333af1be5f1ae49db715932e9f2271d535437873c2f554ab0e267ec"
+  },
+  {
+    "path": "code/share-and-win.jsonld",
+    "bytes": 3193,
+    "sha256": "40a03277b97c4a085339b030da56002cb1811a04430a947587fd667f69a8fa7c"
+  },
+  {
+    "path": "code/share-and-win.snippet.html",
+    "bytes": 3239,
+    "sha256": "3668df40a83ecaf76388732114b825ce182ab9a49eba50ccb53674c28bec8ab1"
+  },
+  {
+    "path": "code/shipping-policy.html",
+    "bytes": 8491,
+    "sha256": "09fc4d07b7234adaeb91fe0edce76ba8f77a9f2ec58f7f832d45371edf765423"
+  },
+  {
+    "path": "code/shipping-policy.jsonld",
+    "bytes": 1140,
+    "sha256": "5603a8d37cd85036fea8fc603ca17f6f96c63f5306d3e2520e159c01276121ed"
+  },
+  {
+    "path": "code/shipping-policy.snippet.html",
+    "bytes": 1186,
+    "sha256": "a1cffbd7549594f3feabc0b1c15cdf0c47caf4c8e1267f83a8f2187e28b52d20"
+  },
+  {
+    "path": "code/terms-of-service.html",
+    "bytes": 38868,
+    "sha256": "daae1d4dcb993190e863b548292149f791818ad9998174bdaf6c2793202003d9"
+  },
+  {
+    "path": "code/terms-of-service.jsonld",
+    "bytes": 1112,
+    "sha256": "b26be3b420b00c5d09b129242d59576ffd5f39b08047f6874662eb7a8c0f2ba2"
+  },
+  {
+    "path": "code/terms-of-service.snippet.html",
+    "bytes": 1158,
+    "sha256": "025f175a0bbf93dfde87e4ed19d1d68aa21a78467396115760dfa80be55b5bbe"
+  },
+  {
+    "path": "code/track-your-order.html",
+    "bytes": 2603,
+    "sha256": "6b6146bb1cc5ecca3ca89d860a6724652749843c395e28c89bbbd914d992bd68"
+  },
+  {
+    "path": "code/track-your-order.jsonld",
+    "bytes": 1902,
+    "sha256": "31b7c8ca7b3aa2b1ee9d5194ebd772d75fa50297010d3e99b1b5f9a285882747"
+  },
+  {
+    "path": "code/track-your-order.snippet.html",
+    "bytes": 1948,
+    "sha256": "9ee7b25ca4daa68c816060f8e6206814e2975f6c7efd4f61b4aa2ca7e657e551"
+  },
+  {
+    "path": "code/warranty-policy.html",
+    "bytes": 6086,
+    "sha256": "95259beabbaeac0cf0f529c501f5db0d8fd6c9cb76e7ae64e6ae8b00c0162a47"
+  },
+  {
+    "path": "code/warranty-policy.jsonld",
+    "bytes": 1579,
+    "sha256": "86490911df260a6f38872972d22d6d722b75b021f1e7f298c2a26411d1286701"
+  },
+  {
+    "path": "code/warranty-policy.snippet.html",
+    "bytes": 1625,
+    "sha256": "344d06cc577e89c604aea4b5e68e001062b4e20e7204f3b11c9ef7c561744976"
+  },
+  {
+    "path": "delivery-manifest.json",
+    "bytes": 127508,
+    "sha256": "7897649aac1bae8ba76748d82e738dbe64bb30cdce86610d29e00f5021fe988d"
+  },
+  {
+    "path": "evidence/about-garvee.browser.html",
+    "bytes": 118132,
+    "sha256": "02250affc6929c051c46eb5cefe8e7c62f5b6a1c1e2c0e7b23a01864ffb6ace6"
+  },
+  {
+    "path": "evidence/about-garvee.browser.json",
+    "bytes": 35190,
+    "sha256": "8a22399a27588a0fb7c5bdda8ad32a8e1a4eaa7a5d0c02a8b7861401ee6fe4b2"
+  },
+  {
+    "path": "evidence/about-garvee.html",
+    "bytes": 101780,
+    "sha256": "34409d544650bbb1f293b1db8231bf814f9a26ddb2e135cf466ed88c2060f4cd"
+  },
+  {
+    "path": "evidence/about-garvee.json",
+    "bytes": 25000,
+    "sha256": "eb13d4743becfb3dc52ed88109ddd96bf098480c62575de7e346f334da9902b2"
+  },
+  {
+    "path": "evidence/accessibility-statement.browser.html",
+    "bytes": 105444,
+    "sha256": "407f11abe3ac26555f33e04085964d3d41353d189477f3b0b154f43c1a771193"
+  },
+  {
+    "path": "evidence/accessibility-statement.browser.json",
+    "bytes": 30801,
+    "sha256": "aae1069e4c3d106b4a76652d8d867c26c6ef0853c1ec4a5a878a1bd19f008c4e"
+  },
+  {
+    "path": "evidence/accessibility-statement.html",
+    "bytes": 82334,
+    "sha256": "369f34706db8ae5910ec9fe7252cb03e89182e8704b3c0d3032865efa1d8e618"
+  },
+  {
+    "path": "evidence/accessibility-statement.json",
+    "bytes": 17402,
+    "sha256": "89c01ee9e5a3001a44726f19e72c13abdddee3d32c87f088d1fc3e5c9f6a4c61"
+  },
+  {
+    "path": "evidence/affiliate.browser.html",
+    "bytes": 111239,
+    "sha256": "b8d89a15949879f18cac5af973547f30d6a6ca94b91a0230ecceb858fb1e0415"
+  },
+  {
+    "path": "evidence/affiliate.browser.json",
+    "bytes": 24878,
+    "sha256": "2e694674e544bef4ae52530752d644aee1aca4605f71f39a5cd341bc902a2c29"
+  },
+  {
+    "path": "evidence/affiliate.expanded-faq.json",
+    "bytes": 11412,
+    "sha256": "37f76553950c3d68f79e809dcdc1d8b82769befaee2be8b36e9ff83fecd10aba"
+  },
+  {
+    "path": "evidence/affiliate.html",
+    "bytes": 109971,
+    "sha256": "d2f13e59edca4b96f0f3d57e7bdb70b3aa4e7c5a8c9d234a1f3c49a422d5e7d9"
+  },
+  {
+    "path": "evidence/affiliate.json",
+    "bytes": 20204,
+    "sha256": "62215d0da44052871d123770c51276f9064251e73f720cec172a8710163d046d"
+  },
+  {
+    "path": "evidence/article-video-oembed.json",
+    "bytes": 440,
+    "sha256": "b96506df616487dfc32834884cae5f0b90540e204ba2a8c8c26a63fb976c1013"
+  },
+  {
+    "path": "evidence/article-video-source.html",
+    "bytes": 24038,
+    "sha256": "c3160ebffc8a4cb0bfd1795151e9c2107783c8100bc9fe8136dfaa3f3640c4ff"
+  },
+  {
+    "path": "evidence/article.browser.html",
+    "bytes": 134878,
+    "sha256": "ddf85c1c16dfc7a770025630cc57829ac0d7415759f0f12916da176b62817f21"
+  },
+  {
+    "path": "evidence/article.browser.json",
+    "bytes": 63356,
+    "sha256": "a7c6e368db158c8271c81c925bdeab6dcb56da512f515b54b0e0283948f4381b"
+  },
+  {
+    "path": "evidence/article.html",
+    "bytes": 134123,
+    "sha256": "0e18a644d7525f77fc9305bbeb59d7476a18165ac19960aba3c9b1fd82a63743"
+  },
+  {
+    "path": "evidence/article.json",
+    "bytes": 39743,
+    "sha256": "c4599e3486bcbd443454ef7a7ba8dd9d2b5fd6dab3e4d9cd56405f77088f0231"
+  },
+  {
+    "path": "evidence/blog-list.browser.html",
+    "bytes": 107348,
+    "sha256": "9b869f8e269f35c80479f7da488f859803ba69941787fe74ba4bf0f93d0a087d"
+  },
+  {
+    "path": "evidence/blog-list.browser.json",
+    "bytes": 35215,
+    "sha256": "134381511736ba73c4299129baca146ee6602fa8e029e70bc56ce08187ec05ef"
+  },
+  {
+    "path": "evidence/blog-list.html",
+    "bytes": 106111,
+    "sha256": "d804e88fef3b8e9191bc81179c9d177c4f8a549b65b73730cf0e0b6cab40d4f5"
+  },
+  {
+    "path": "evidence/blog-list.json",
+    "bytes": 32332,
+    "sha256": "4ec7839d6eb3fe449ff108b4ecdefa9efdd9e0c17a5e78049aba449e472e666f"
+  },
+  {
+    "path": "evidence/blog-parent-how-tos.html",
+    "bytes": 105225,
+    "sha256": "7421e50ab6258d66b525813687fcd1f7bf4fc7a4ebecfe3328db78175788a303"
+  },
+  {
+    "path": "evidence/blog-parent-how-tos.json",
+    "bytes": 30940,
+    "sha256": "4ed578c2d322cb502777f43d41d973982bf3ea539c5d03bd87edadf6ea7275c6"
+  },
+  {
+    "path": "evidence/blog-parent-news.html",
+    "bytes": 142860,
+    "sha256": "613e3329d8256da8759e7a2ab74f674248852d2d55c592cd26a740f61052a049"
+  },
+  {
+    "path": "evidence/blog-parent-news.json",
+    "bytes": 72357,
+    "sha256": "ff869126f9745a9511f675cac53964643cdac66030b3739fe0d469936096ada5"
+  },
+  {
+    "path": "evidence/blog-parent-trending-now.html",
+    "bytes": 107374,
+    "sha256": "42c1170bde97991c219bf65087975e414a981584a266665087664f4b24eeeaa4"
+  },
+  {
+    "path": "evidence/blog-parent-trending-now.json",
+    "bytes": 22699,
+    "sha256": "dc4b23eae0863200dfbecd746786edc98354a1be4b9345df3d53a00efac36e9c"
+  },
+  {
+    "path": "evidence/business.browser.html",
+    "bytes": 57506,
+    "sha256": "c630ce2524df8c001dca37827dcb59b036718c5a5d91da183727383f830e51e7"
+  },
+  {
+    "path": "evidence/business.browser.json",
+    "bytes": 18284,
+    "sha256": "9b7711015189a10a4b22cd998262f9b58fd33d0353014dd23a7082e28851524f"
+  },
+  {
+    "path": "evidence/business.expanded-faq.json",
+    "bytes": 7515,
+    "sha256": "291e7a13d91762d1f65163ce03bbf4d6282f6b14c48e12864f22f072fbd54632"
+  },
+  {
+    "path": "evidence/business.html",
+    "bytes": 56269,
+    "sha256": "b0cb0e9dc77a67c89ed6a29d4d422c1862db096b449eff39d9d78430b80b1036"
+  },
+  {
+    "path": "evidence/business.json",
+    "bytes": 17361,
+    "sha256": "db7f5b8f91fc8ef14d1fe54ee1b36ca27edaaf6b5119e05e94629d3b3de935f7"
+  },
+  {
+    "path": "evidence/campaign.browser.html",
+    "bytes": 3365757,
+    "sha256": "b696dfc1f13d63d3c8150408c90c9f1ed215e87650df5b90b7598993c693452e"
+  },
+  {
+    "path": "evidence/campaign.browser.json",
+    "bytes": 1053938,
+    "sha256": "a8cf0255efe1d2e71af9b60365950a6f158455fbf904af4255979e034f64c770"
+  },
+  {
+    "path": "evidence/campaign.html",
+    "bytes": 164815,
+    "sha256": "daeabc5de4a38ae48549017f6b3c398a5f9638fd93115828b74f0f5f6df2cff4"
+  },
+  {
+    "path": "evidence/campaign.json",
+    "bytes": 17729,
+    "sha256": "f14df3e624d7d023c8d3a88ab752fb6a496752bf7cccc38153b6530fc2ad15a1"
+  },
+  {
+    "path": "evidence/carebox-package-protection.browser.html",
+    "bytes": 102718,
+    "sha256": "c8cbd05bf4c19e88da19cff3c3f6ab1dcdd258560904fea8fcb48bdb1bd5d622"
+  },
+  {
+    "path": "evidence/carebox-package-protection.browser.json",
+    "bytes": 29672,
+    "sha256": "a34eb4c1bd18d5d9f97790a4b4917c97db5fb60f3bd5e5ccbe6c12ebee89a5c4"
+  },
+  {
+    "path": "evidence/carebox-package-protection.html",
+    "bytes": 82264,
+    "sha256": "68f77803310d3c862584ff7b4ce599666638ba8d8b7de7cbd9031d93415dd75e"
+  },
+  {
+    "path": "evidence/carebox-package-protection.json",
+    "bytes": 17111,
+    "sha256": "6ddb80725241be9a8542474097deff18da3a63e570992e08079a8aa100674a49"
+  },
+  {
+    "path": "evidence/category.browser.html",
+    "bytes": 1454633,
+    "sha256": "0546e0bc6f807324328f0459c06dfda1acf50b9e919ac66ee367004b1ce2116b"
+  },
+  {
+    "path": "evidence/category.browser.json",
+    "bytes": 470554,
+    "sha256": "05c174d6edc6c1f77862f9e3cabe63950ab2fa5acf0be32e38983c4ef877f39c"
+  },
+  {
+    "path": "evidence/category.html",
+    "bytes": 152124,
+    "sha256": "c99e8b36de5f4d1a516d838e04d963271794aa6ebbb9184e29d92455f78e6ea7"
+  },
+  {
+    "path": "evidence/category.json",
+    "bytes": 30558,
+    "sha256": "d6826dc732cc6ac3fac1998e3c33211b038415f28a0443fccba2d7a64ed4cd67"
+  },
+  {
+    "path": "evidence/contact.browser.html",
+    "bytes": 16977,
+    "sha256": "47fc47698f103fc0b4c22f8236c8804cfdcd1b0530144bc700243da2b64febf8"
+  },
+  {
+    "path": "evidence/contact.browser.json",
+    "bytes": 5728,
+    "sha256": "93306dcc0c66ac5977fa754015df64f74b1ec37c8958a89dfd1380934f2dfca0"
+  },
+  {
+    "path": "evidence/contact.html",
+    "bytes": 94170,
+    "sha256": "417a74f0a63524fcf24ad158eb286397720c0c88377810383b0466a9fe605d9e"
+  },
+  {
+    "path": "evidence/contact.json",
+    "bytes": 20034,
+    "sha256": "8876c70811d6ca4ace9ebadcaafda0df4b5ef3ddcbfc5276f549c1945640562d"
+  },
+  {
+    "path": "evidence/diy-ideas.browser.html",
+    "bytes": 142556,
+    "sha256": "b160e57235c8614f5906f0ac0f0f68f0b740bb3eb90938efff3d5c496dadd6e5"
+  },
+  {
+    "path": "evidence/diy-ideas.browser.json",
+    "bytes": 52093,
+    "sha256": "d07cb24a696087496edddc371cb0d33cc939683e8f6b7853bada0592973721d9"
+  },
+  {
+    "path": "evidence/diy-ideas.html",
+    "bytes": 144305,
+    "sha256": "5098ccf5ab2333b375d643d7214a3253ccaf68cd87c3c0aab7c3392f810f1d4f"
+  },
+  {
+    "path": "evidence/diy-ideas.json",
+    "bytes": 29989,
+    "sha256": "ab4b77c77ca502ad20928c680b4a86d7b3a2d5482f76031d2164d4e43ec95e65"
+  },
+  {
+    "path": "evidence/extended-service-protection.browser.html",
+    "bytes": 104060,
+    "sha256": "7c02d852f20f2aeb36a441493bf09cff30d5e2b836e48a32aaab9a3bb17380fb"
+  },
+  {
+    "path": "evidence/extended-service-protection.browser.json",
+    "bytes": 30098,
+    "sha256": "c434fea696362acf741a27b5578aaea47b270d00fe1fb52fc869616bf8da2202"
+  },
+  {
+    "path": "evidence/extended-service-protection.html",
+    "bytes": 105447,
+    "sha256": "55c34e9670b6263024ef23e3453b0284fa3f680ba8084e46be04d6ab194b2046"
+  },
+  {
+    "path": "evidence/extended-service-protection.json",
+    "bytes": 23623,
+    "sha256": "97d740877271ba971a3a7086d29fb0450c3a0dcf6ea33fccfb17288615230621"
+  },
+  {
+    "path": "evidence/faqs.browser.html",
+    "bytes": 104221,
+    "sha256": "e33f2614d82c91dc8d99ba063aec425304ddcb9977b8cbb07bbbb5c6af99f798"
+  },
+  {
+    "path": "evidence/faqs.browser.json",
+    "bytes": 30425,
+    "sha256": "598a5997bda7956d14905d4221ad9cfa66da401177856b73fa3a533cdcfe9fa7"
+  },
+  {
+    "path": "evidence/faqs.html",
+    "bytes": 80923,
+    "sha256": "7548e67ee9c64206cef0830e9bca68f933a2e6424b636cce0dba9e81f8b6c84f"
+  },
+  {
+    "path": "evidence/faqs.json",
+    "bytes": 16890,
+    "sha256": "34a464444ac8c1dea686afc85bcd48d3f0311f07bdb27dae819e3e49cbbea4e9"
+  },
+  {
+    "path": "evidence/footer-clearance.html",
+    "bytes": 770222,
+    "sha256": "1efcea466c156b217b85886126a26d44915006eaf19b4c8ca22ae65131cc39d4"
+  },
+  {
+    "path": "evidence/footer-clearance.json",
+    "bytes": 55667,
+    "sha256": "4352b26564c2e26e22239d4117cf2bae29b2adc83acd03de88676d203055dc8f"
+  },
+  {
+    "path": "evidence/help-center.browser.html",
+    "bytes": 68392,
+    "sha256": "e8bdd2ceea03173d64862c45bea9c3d750327bae25c37878fcf0fbebce17b300"
+  },
+  {
+    "path": "evidence/help-center.browser.json",
+    "bytes": 16217,
+    "sha256": "1c53fc4d111516d0c5c648fb56de393259e920d3cb26c3a0cf100d62a3ace720"
+  },
+  {
+    "path": "evidence/help-center.html",
+    "bytes": 33025,
+    "sha256": "60c924201373cdfefa692342070ac4c3f6f09b10ea92f7d396d79d985654a291"
+  },
+  {
+    "path": "evidence/help-center.json",
+    "bytes": 3283,
+    "sha256": "d589924ded60c8687b4d157493c3144e111fd45fb32dd103b2b8d45ff6cee177"
+  },
+  {
+    "path": "evidence/homepage.html",
+    "bytes": 128755,
+    "sha256": "79a022d21dff1152cf719d0522b8ad54630035c30da9960b77a925a23cb28016"
+  },
+  {
+    "path": "evidence/homepage.json",
+    "bytes": 20711,
+    "sha256": "71300e3f13bfc01fced8f6c1314279133c08c9dae48f906dc26b73290366cc70"
+  },
+  {
+    "path": "evidence/influencer-program.browser.html",
+    "bytes": 84258,
+    "sha256": "2ec71473b8e7c82d4cb457e9ec5a36833b88a165ed1eca576becde744e0f82bd"
+  },
+  {
+    "path": "evidence/influencer-program.browser.json",
+    "bytes": 21607,
+    "sha256": "22ecfcc76072cc67296067996fea74b32d270e46d5b243708d392bf0c3e4db01"
+  },
+  {
+    "path": "evidence/influencer-program.html",
+    "bytes": 85554,
+    "sha256": "29f0ccc42660cf506110f137064c977d78bbba0ec7ff3003824275170734a173"
+  },
+  {
+    "path": "evidence/influencer-program.json",
+    "bytes": 18127,
+    "sha256": "5f87129e6b9d8695b8bc5bb82e1a5777bbd4f3f0e1b81b8f4377e4a2dab39cd3"
+  },
+  {
+    "path": "evidence/mygarvees-rewards.browser.html",
+    "bytes": 105698,
+    "sha256": "ca89d6f0fc6893ff7ae85895fd5b675d87fe722deaf2fc7df24d6530ac12e884"
+  },
+  {
+    "path": "evidence/mygarvees-rewards.browser.json",
+    "bytes": 25264,
+    "sha256": "e595ab6184a72b0a7a639fb8727be7dfd63f7855f968c2691c8f3e555a726d39"
+  },
+  {
+    "path": "evidence/mygarvees-rewards.html",
+    "bytes": 107054,
+    "sha256": "f4312667cce355973742cbb18c0b00cbbfda6bcab5e5558dc15358eef70a7060"
+  },
+  {
+    "path": "evidence/mygarvees-rewards.json",
+    "bytes": 19506,
+    "sha256": "46f3990da6273685853e9bbac24328bd9da41bd609ce9ca21d4304d6abb80e9f"
+  },
+  {
+    "path": "evidence/payments-policy.browser.html",
+    "bytes": 96286,
+    "sha256": "22682a90b0cf26340c6bba15b4761544f213aafe978d66da91b5aa8536cd2b4c"
+  },
+  {
+    "path": "evidence/payments-policy.browser.json",
+    "bytes": 29243,
+    "sha256": "c927b9d11a8e181c714d7d7173e42b279d9dd33cdc8a2e8b555baa3f23f30036"
+  },
+  {
+    "path": "evidence/payments-policy.html",
+    "bytes": 83284,
+    "sha256": "098a6277e9e16ef687863101c84481ed07a7a1ac81348415cd542899bc34e92d"
+  },
+  {
+    "path": "evidence/payments-policy.json",
+    "bytes": 17424,
+    "sha256": "14acddb314116e71d54a4b542ad27d3915d5ab2ba25268dd05cb396bc4da326d"
+  },
+  {
+    "path": "evidence/privacy-policy.browser.html",
+    "bytes": 26002,
+    "sha256": "52364eda0a44e4363ee35cd879d9ab60c88e30d59e7d5082de26359fa0197c72"
+  },
+  {
+    "path": "evidence/privacy-policy.browser.json",
+    "bytes": 45216,
+    "sha256": "e5ddfb898ee2b89ea5e2682662701fade1b70854ffa1009d085a8b18245842b9"
+  },
+  {
+    "path": "evidence/privacy-policy.html",
+    "bytes": 104025,
+    "sha256": "99285d5fdcf2542836e10b8f06e55de771956af4d9215a066cb476f4985f87cd"
+  },
+  {
+    "path": "evidence/privacy-policy.json",
+    "bytes": 40817,
+    "sha256": "afff7c6dc087faafa2e9a474d5935d74ff671c017141619b840375ff72ea3c94"
+  },
+  {
+    "path": "evidence/product-qa.json",
+    "bytes": 13234,
+    "sha256": "695f4f19251b7bd0b475c496433b1f8a26777c031c0bd1cc87a786fa3e7bffed"
+  },
+  {
+    "path": "evidence/product-reviews.browser.html",
+    "bytes": 100696,
+    "sha256": "a15a9240fdf33fb36223540fa5ecbdd927f66ab13116bb9a496d4fa1f0eccaf5"
+  },
+  {
+    "path": "evidence/product-reviews.browser.json",
+    "bytes": 26699,
+    "sha256": "ba2687e6b5b0f2e09fb6de983cc3bcd90d43a0a1b7b010cd4bac153721b7bee2"
+  },
+  {
+    "path": "evidence/product-reviews.html",
+    "bytes": 76562,
+    "sha256": "c702f2de0905ae9bd5cf67b2094bf059239b1fcd098ed60e10bfe772de9c7171"
+  },
+  {
+    "path": "evidence/product-reviews.json",
+    "bytes": 16990,
+    "sha256": "af33889b29806ca1ab60bb2cfc4afecd5c9d990fa731b335122d4ed0ba6e3ed6"
+  },
+  {
+    "path": "evidence/product.browser.html",
+    "bytes": 293255,
+    "sha256": "419a9cd79acb2a24e9b7e59fac4b5153feffeadc3d9f6c78b4fd31f43eb024d4"
+  },
+  {
+    "path": "evidence/product.browser.json",
+    "bytes": 98724,
+    "sha256": "e567e04c0a35000ed0a3a46ddae70de702228df765068377e1a9880832cd7422"
+  },
+  {
+    "path": "evidence/product.html",
+    "bytes": 206555,
+    "sha256": "a1282bee10e19bee4e34d78e348fbdb7515166a83b99e1cbf4f2ab4e45755815"
+  },
+  {
+    "path": "evidence/product.json",
+    "bytes": 42085,
+    "sha256": "541ba4224fb2641c47a8f96f681066475e9d7a328da5e8c0d981e6198121c31f"
+  },
+  {
+    "path": "evidence/refund-policy.browser.html",
+    "bytes": 13169,
+    "sha256": "ff9bd100f8b7a7bdc417d4f241d58001fcfe8c8cc4731e1ecc9a0e2e5338f25f"
+  },
+  {
+    "path": "evidence/refund-policy.browser.json",
+    "bytes": 18368,
+    "sha256": "b5e7aab9cd54a2f7413563749e361aba7870329a664fcaf89be5fdf36a3d7b63"
+  },
+  {
+    "path": "evidence/refund-policy.html",
+    "bytes": 91022,
+    "sha256": "6825ad6117e2b0c3681e9d78bc4b8cd9b678a590493fbb4fb10fc64f45276962"
+  },
+  {
+    "path": "evidence/refund-policy.json",
+    "bytes": 26440,
+    "sha256": "63b892d7841aaf381c542de12044b8f4b4399bd4c1a186966aae3f4911498bbf"
+  },
+  {
+    "path": "evidence/share-and-win.browser.html",
+    "bytes": 91561,
+    "sha256": "eeed1e3e4db23f9cc625fdf950b729ab50f53ee2f02c13ef1ac13d14fbb62da0"
+  },
+  {
+    "path": "evidence/share-and-win.browser.json",
+    "bytes": 20897,
+    "sha256": "9f30747e285ba473bc43131645870f5f79c1004c6cc17a294b1004e04a01c10c"
+  },
+  {
+    "path": "evidence/share-and-win.expanded-faq.json",
+    "bytes": 9185,
+    "sha256": "93f7efedfb7886b7d5fe02bba3b8a79af79887987145d545d27134be76d208fa"
+  },
+  {
+    "path": "evidence/share-and-win.html",
+    "bytes": 92917,
+    "sha256": "a7240d035475ed9fb403619121d3e6c390a66fca565baca9519354e493aaaa52"
+  },
+  {
+    "path": "evidence/share-and-win.json",
+    "bytes": 18356,
+    "sha256": "2a80576a68ab6e081ef92240d75bb5aea5f6d2d4f1cc507d1e31a6b17300c619"
+  },
+  {
+    "path": "evidence/shipping-policy.browser.html",
+    "bytes": 10739,
+    "sha256": "b48a90aea3960bb1b9193d7e10d26a7518433f15d0ea36f3a4974526e942ac4d"
+  },
+  {
+    "path": "evidence/shipping-policy.browser.json",
+    "bytes": 17378,
+    "sha256": "4b174e4a3c56eac668fb9707847a17a0d0a3acafc47449d49a74a7321e48a452"
+  },
+  {
+    "path": "evidence/shipping-policy.html",
+    "bytes": 86202,
+    "sha256": "5eadd2321223e22ea4bbe393699402844a1a94d4b3bb892a33a9434644bf1496"
+  },
+  {
+    "path": "evidence/shipping-policy.json",
+    "bytes": 25802,
+    "sha256": "90ada22d4070a8024421e5b26370fd28bcbadb02376599041b5a9e21eb3b24c2"
+  },
+  {
+    "path": "evidence/sitemap-pages-0.xml",
+    "bytes": 18064,
+    "sha256": "843081261dc8cb6ab95a32469c10cceaa7764338b7b6584d8c9b4f58497ac04a"
+  },
+  {
+    "path": "evidence/sitemap.xml",
+    "bytes": 7480,
+    "sha256": "94f96243ff6c700ec5832b68c5a41e40852855253d343ffd2e500cbf2a950471"
+  },
+  {
+    "path": "evidence/terms-of-service.browser.html",
+    "bytes": 43688,
+    "sha256": "db15234fa32816aaa36c5458e70c43b2153d3629b06eadcf1fbce8a3776dfd9c"
+  },
+  {
+    "path": "evidence/terms-of-service.browser.json",
+    "bytes": 78478,
+    "sha256": "cf6b96810782e1ac0b891cdb5d13b24889a8466bf5f0b0408f84c6441cbb2489"
+  },
+  {
+    "path": "evidence/terms-of-service.html",
+    "bytes": 121719,
+    "sha256": "369a1b9fdbd2d5354ae2ea14ff71e5279be30a174512aa9ab6e5f077db559725"
+  },
+  {
+    "path": "evidence/terms-of-service.json",
+    "bytes": 56888,
+    "sha256": "3afcd98110efb815104e5bfa13dfb573486281fda7dfb667acb8dc4e32c98b0d"
+  },
+  {
+    "path": "evidence/track-your-order.browser.html",
+    "bytes": 83001,
+    "sha256": "9fa50228ac551745caafacb72db092b6fa1f80f7d554ba4ad382152dc7a9a502"
+  },
+  {
+    "path": "evidence/track-your-order.browser.json",
+    "bytes": 18728,
+    "sha256": "575856a6c78a0093d3892b7d8a5317d6c7cb3f46fa9903ce39be3c9ec4ba6876"
+  },
+  {
+    "path": "evidence/track-your-order.html",
+    "bytes": 84388,
+    "sha256": "4a9ac70e82133663e723f31f62718975faa12ef91160802b76293de9d8061614"
+  },
+  {
+    "path": "evidence/track-your-order.json",
+    "bytes": 17320,
+    "sha256": "a5de3f5a235bb35da180575a9bdd38a7feadbc5ae00ef45841eb602176134018"
+  },
+  {
+    "path": "evidence/warranty-policy.browser.html",
+    "bytes": 104565,
+    "sha256": "491f62ad0ddedfb5a13e9267a307bd00ea1f6c9bd20a76e6d8258307db6695d7"
+  },
+  {
+    "path": "evidence/warranty-policy.browser.json",
+    "bytes": 30842,
+    "sha256": "6adf49815322eb4f9e5470f368036205207f364584c34fb5d3c8a5ed106d66e6"
+  },
+  {
+    "path": "evidence/warranty-policy.html",
+    "bytes": 84231,
+    "sha256": "21b59140de91b9afffabfca88127a4d572b231d72ceda298465765a86ec34d0d"
+  },
+  {
+    "path": "evidence/warranty-policy.json",
+    "bytes": 17080,
+    "sha256": "5356f831f41712e98bddd0f1d92ff9dcd2bbdf7e457643b9c03258e69ca57515"
+  },
+  {
+    "path": "field-mapping.csv",
+    "bytes": 1362989,
+    "sha256": "00387fd2795b663685d0121d0269aac25ac082d93cdd37ead71155c7de8d4baa"
+  },
+  {
+    "path": "field-mapping.json",
+    "bytes": 2053506,
+    "sha256": "a32687be590a91d689f0ff7a1036d735c3937d53a5d2fae1e7077c641fa65dcc"
+  },
+  {
+    "path": "footer-coverage.json",
+    "bytes": 6335,
+    "sha256": "130e159f5703ced4e1deff866329d9b016861ea5e70dd08531702a89c4258a0e"
+  },
+  {
+    "path": "gaps.json",
+    "bytes": 6769,
+    "sha256": "4a54273e8b9a0ef425a9f9b0e9e8e45b82ef63d1f9b5b66010c3e3516821e59e"
+  },
+  {
+    "path": "guides/article.html",
+    "bytes": 205931,
+    "sha256": "275a9df852e881c48674a040115d773f7c5a3483202a79f34b1fe23df7ecaecd"
+  },
+  {
+    "path": "guides/article.txt",
+    "bytes": 15477,
+    "sha256": "bddf07adc523d255354ee32ee2cfb8b8435dd970b6b916cea46309607b7db2c3"
+  },
+  {
+    "path": "guides/breadcrumb.html",
+    "bytes": 214347,
+    "sha256": "60043c5c22977e7a1ab0f1c1c1efbb2c147b47a67a9f640ba85d6a6e29d2cf0b"
+  },
+  {
+    "path": "guides/breadcrumb.txt",
+    "bytes": 25048,
+    "sha256": "598779f57bafd380b24389952058ebf4da2c10dd8ab49cd07b88d520cbace169"
+  },
+  {
+    "path": "guides/carousel-beta.html",
+    "bytes": 47517,
+    "sha256": "9438395a7c0f030bf8d74d55f53f17405b00b0b66ca57ad252772c0ed7e4ce55"
+  },
+  {
+    "path": "guides/carousel-beta.txt",
+    "bytes": 89,
+    "sha256": "b46aed08a30844bc4cc2a33fd05302ee9ef086c8878078b947a84e7031d3e9b2"
+  },
+  {
+    "path": "guides/carousel.html",
+    "bytes": 221384,
+    "sha256": "c310e7d965b0c0dd3d518a3135072ba8b1bc6f81e21c5ef9efbcf788f7b800fe"
+  },
+  {
+    "path": "guides/carousel.txt",
+    "bytes": 35722,
+    "sha256": "4254bff8151ae039caf410b10af57e888aea12437972394ce907eb961b45b1a7"
+  },
+  {
+    "path": "guides/discussion-forum.html",
+    "bytes": 242364,
+    "sha256": "53a64b3d8d09c8c4d7d58c3b96d087e5a9f2123d020ce143e8f3af14f0ac9274"
+  },
+  {
+    "path": "guides/discussion-forum.txt",
+    "bytes": 34086,
+    "sha256": "50c686d4f5541ea14fc10df266d6154d7a55e948998bad194c2f82c67be7ba7e"
+  },
+  {
+    "path": "guides/event.html",
+    "bytes": 257579,
+    "sha256": "21cf3ad0f4326c0f4d1df0890ed68897a00ace2e086f078d4db0caa840f7206a"
+  },
+  {
+    "path": "guides/event.txt",
+    "bytes": 38150,
+    "sha256": "df45083446cdb50414d89bfd43600a5f657f26f94b9324f85a6174461aafe10f"
+  },
+  {
+    "path": "guides/faq.html",
+    "bytes": 389270,
+    "sha256": "0346440ae9757fd53a47256ee64e248482e656ac4a3cbf0279485664c7cb75a6"
+  },
+  {
+    "path": "guides/faq.txt",
+    "bytes": 123879,
+    "sha256": "74359ab431d0bef2eadd6c44c3de0d82fb26ba25f57bef0e41d2934e2bdb2682"
+  },
+  {
+    "path": "guides/general.html",
+    "bytes": 197283,
+    "sha256": "b2e82d8f8b249f054d94f7248af49d06071f905c2e4866ea261e234a5f636398"
+  },
+  {
+    "path": "guides/general.txt",
+    "bytes": 10579,
+    "sha256": "9c3ac5eee2c935ca991adf8b4124e03c7a975cd2f797d7f94b6b65e6c7a857f3"
+  },
+  {
+    "path": "guides/google-property-tables.json",
+    "bytes": 195063,
+    "sha256": "fa4874d84a234e26d1c89dce8281ba0a59eeafd0b3dcd8fcefaf0bee32439f15"
+  },
+  {
+    "path": "guides/javascript-structured-data.html",
+    "bytes": 184775,
+    "sha256": "e254982d0a0b48bca4474596af6b926a4859d78824912cd1595cafb2fb620994"
+  },
+  {
+    "path": "guides/javascript-structured-data.txt",
+    "bytes": 4585,
+    "sha256": "1949b9513a2735382f982498ed0cef4b7abc6629caf010e69c066c2ef9187727"
+  },
+  {
+    "path": "guides/loyalty-program.html",
+    "bytes": 196241,
+    "sha256": "400c7cbd33059e88c06e63acb009c0ababc6f9a64f44f255dbb6d2b409638895"
+  },
+  {
+    "path": "guides/loyalty-program.txt",
+    "bytes": 12751,
+    "sha256": "799763feb0c7481be0b0e640f74afbbe0683cc3098f7d82938cf176df7ca2ccd"
+  },
+  {
+    "path": "guides/merchant-listing.html",
+    "bytes": 417939,
+    "sha256": "e568dca41139a8edaa4c17b06d3a16ef2ca38c2e14a680b352c39b28572297dd"
+  },
+  {
+    "path": "guides/merchant-listing.txt",
+    "bytes": 92017,
+    "sha256": "71a613c2627c2f3b3543e7fb6c1c1c8d19372097a3eb9a84f196d9db59821542"
+  },
+  {
+    "path": "guides/organization.html",
+    "bytes": 213903,
+    "sha256": "0477e22c07aac61ce0d6819524ce564767c4ca8a7c72eddcddfd00ee4c148e69"
+  },
+  {
+    "path": "guides/organization.txt",
+    "bytes": 21337,
+    "sha256": "3a457703ea3d3280249d674df3ec4584275f107f614418d6a67ebee2b098c804"
+  },
+  {
+    "path": "guides/product-overview.html",
+    "bytes": 179618,
+    "sha256": "1369fb72ba2e0013537d44cfb71215af635f27985f4b719934f42fd7a86e9807"
+  },
+  {
+    "path": "guides/product-overview.txt",
+    "bytes": 4818,
+    "sha256": "7480d1951c412a84c2aa17eeaa3e1946acbbbf0c5407da72b0ba4ebb54eee533"
+  },
+  {
+    "path": "guides/product-snippet.html",
+    "bytes": 259999,
+    "sha256": "94864e8de5bb2a2d9307b807354e28bec0c252ba5c6ae8da638a6a0dba91a8ca"
+  },
+  {
+    "path": "guides/product-snippet.txt",
+    "bytes": 48235,
+    "sha256": "5a4ff8f2c435c9d1cdecdfb033d21cf69041298a1cf1a7a12a8c4590edc8d435"
+  },
+  {
+    "path": "guides/product-variants.html",
+    "bytes": 241370,
+    "sha256": "0028fcf7f17bdb32a7620eb00c3a8deffe01a4e04bb72c9a53de0a7bacc4795a"
+  },
+  {
+    "path": "guides/product-variants.txt",
+    "bytes": 53166,
+    "sha256": "23d310e62a3af68c40fc2b67e1fd17f9696805e675f5e4cb43f8d126832c9e1b"
+  },
+  {
+    "path": "guides/profile-page.html",
+    "bytes": 204739,
+    "sha256": "719e6c49b4bda2c2de866c80df730a046bb5843092dd1eace2699ea2dbc75dd8"
+  },
+  {
+    "path": "guides/profile-page.txt",
+    "bytes": 18161,
+    "sha256": "c31195bb8932201edf694dc6593eeafe756fb315a0b5ddb7ed0a2e84b7bc9512"
+  },
+  {
+    "path": "guides/qapage.html",
+    "bytes": 226649,
+    "sha256": "0075ec647329be02f4d0c3e03650d90ae7ff8187325a7f34e5537d9e52b5dce5"
+  },
+  {
+    "path": "guides/qapage.txt",
+    "bytes": 32187,
+    "sha256": "2695452e47c2434903bbedc71927331c632491215c1ca3f509b046ab15bae07c"
+  },
+  {
+    "path": "guides/return-policy.html",
+    "bytes": 219959,
+    "sha256": "46a6533feeb3bec0cb55239f3c760bec95a317d498c18261cac31ffec0844e30"
+  },
+  {
+    "path": "guides/return-policy.txt",
+    "bytes": 21583,
+    "sha256": "22a858af2155e3cf4c7a170d77154fc7416ce4efb88e7ae555091ef50d918434"
+  },
+  {
+    "path": "guides/review-snippet.html",
+    "bytes": 256409,
+    "sha256": "f71c6b20096113c7b28d5c987c4f510b0f0a08e6e0ae41efb09e5263e3266983"
+  },
+  {
+    "path": "guides/review-snippet.txt",
+    "bytes": 48066,
+    "sha256": "c7baa9c28e9bf6227e0053957fccf7eb7bd69c78010b559da31deb8be5caa973"
+  },
+  {
+    "path": "guides/schema-action-input.html",
+    "bytes": 28217,
+    "sha256": "e7fe16824fedb728216c89e4822644d1d486d636d9dcaf2a39fbb4bd8f2f1f6e"
+  },
+  {
+    "path": "guides/schema-action-input.txt",
+    "bytes": 8184,
+    "sha256": "4018fd9a383ccff8941a6de7404b37c3824af5cf651128726253cd099a5d49f9"
+  },
+  {
+    "path": "guides/schema-data-model.html",
+    "bytes": 21643,
+    "sha256": "aa397d32d2b50ecfe94b6d2c03d269e2a72426bffed38c4b6c66e50a95a73406"
+  },
+  {
+    "path": "guides/schema-data-model.txt",
+    "bytes": 12348,
+    "sha256": "d2a3a6510ccb5b45c61e10b72556f51c7ce2874cdc5ab7ab7182ff2f07c08500"
+  },
+  {
+    "path": "guides/schema-getting-started.html",
+    "bytes": 25985,
+    "sha256": "f60c48508f257561b11b833ee13f94c6e41c29d069917d348f2f1a18ab9df3b2"
+  },
+  {
+    "path": "guides/schema-getting-started.txt",
+    "bytes": 12388,
+    "sha256": "9ac059abe5f68fc0c82d09fe8a3cb18fd1c408df8640d1a06a43d278b51e289d"
+  },
+  {
+    "path": "guides/schema-getting-started.wire.gz",
+    "bytes": 8913,
+    "sha256": "8e6bc8f1794ba67e829c1bcab886b8ba759c79e5cddda547a4d868b2fd365619"
+  },
+  {
+    "path": "guides/schema-vocabulary.jsonld",
+    "bytes": 1521575,
+    "sha256": "0a4b8c4c910fc831ec8695196510973390906a5ee34dc6b862dfec4d21a12f74"
+  },
+  {
+    "path": "guides/search-gallery.html",
+    "bytes": 192006,
+    "sha256": "a15989292362069c8180b0330914ae5b3ad65af468ad759a5c8c4d1a8eccd78a"
+  },
+  {
+    "path": "guides/search-gallery.txt",
+    "bytes": 6002,
+    "sha256": "d50d35cca6637ac348e092c6c6408e3bd29da8ee8860e73628983dd73e2c5288"
+  },
+  {
+    "path": "guides/searchbox-retirement.html",
+    "bytes": 621088,
+    "sha256": "9df223502d4748f25b3ce80f44c98585660ba30c1db6b099833ade3574bd68c8"
+  },
+  {
+    "path": "guides/searchbox-retirement.txt",
+    "bytes": 1323,
+    "sha256": "97ce6781e823d80967a370b7d6b03990816d4cbf5c2ed6b0522b1abe5769081b"
+  },
+  {
+    "path": "guides/shipping-policy.html",
+    "bytes": 243241,
+    "sha256": "4dea0cee54975f155b20810f11b1d9d1f29556958505f6941e3ae5019fba461e"
+  },
+  {
+    "path": "guides/shipping-policy.txt",
+    "bytes": 35578,
+    "sha256": "caf930d732c637d6e776707e68e76cb0900e44d083d2bbe0f8fd56852d962c3b"
+  },
+  {
+    "path": "guides/site-names.html",
+    "bytes": 208992,
+    "sha256": "9061ac04e4caf1f1b0e130c10d4ed6e0822cc446d2e2d8c598174fdd7c26a98e"
+  },
+  {
+    "path": "guides/site-names.txt",
+    "bytes": 13566,
+    "sha256": "96e2a1d35979edf5df36a7ca504ae5e9268ed6fed56a737239be36bb65153520"
+  },
+  {
+    "path": "guides/sources.json",
+    "bytes": 12449,
+    "sha256": "87b69bb921844083cfc934006243eb59f9f76a18a2de33605730c8d8aab858c7"
+  },
+  {
+    "path": "guides/structured-data-intro.html",
+    "bytes": 186674,
+    "sha256": "9d09e7c67e4225ca14f4b4761914c637f3284b5b62e2c4d91259a8fd82307ae8"
+  },
+  {
+    "path": "guides/structured-data-intro.txt",
+    "bytes": 8457,
+    "sha256": "a3ebc1cd62e5a320cc1b3e02279abfc0a81b08a43e1cefaa711f4192af8dea8e"
+  },
+  {
+    "path": "guides/video-indexing.html",
+    "bytes": 205194,
+    "sha256": "6d1c3c58c54e045813c234000e59ae94074c70ea8a682e6fc60a5f179795b1cb"
+  },
+  {
+    "path": "guides/video-indexing.txt",
+    "bytes": 17173,
+    "sha256": "8a98a14b686476f4fda42a7c901e70adf9bfa88ba74855f5ba53adaae846528f"
+  },
+  {
+    "path": "guides/video.html",
+    "bytes": 255040,
+    "sha256": "4f2e872932d3842ca06153a0af66720d590e011b6a9883695c2c73cb7d4dac6e"
+  },
+  {
+    "path": "guides/video.txt",
+    "bytes": 44340,
+    "sha256": "1dffbc21d1a15710f8d8f459011322ace7a5c5f669bcf15a594e0c174fa58744"
+  },
+  {
+    "path": "index.html",
+    "bytes": 588454,
+    "sha256": "6972849e59ae2024d683f0ec397874fd35be61c0523313e577dd61c5f3411776"
+  },
+  {
+    "path": "initial-inventory.json",
+    "bytes": 5566,
+    "sha256": "99dca4778be785debe84d1cfef291991159f878c3bda8dc1d2d220dea57d73eb"
+  },
+  {
+    "path": "local-validation-issues.json",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "path": "node-mapping.csv",
+    "bytes": 38704,
+    "sha256": "0acbfaf0bdf6421f66cad9f28de915058b8590bfe064044c0665257fdff531da"
+  },
+  {
+    "path": "node-mapping.json",
+    "bytes": 61749,
+    "sha256": "99f849994ba4d6478672c91f815848613680d93f09605847ff0d01e91fb8dc8d"
+  },
+  {
+    "path": "page-property-applicability.csv",
+    "bytes": 2936777,
+    "sha256": "bd7c5b923ab3198b31aff1eacdc5398bb80c745647a39edeb8ccbd76a09e8258"
+  },
+  {
+    "path": "pages.json",
+    "bytes": 34956,
+    "sha256": "6b39df0b7e946855583a5194d09c051644916f1ebe849f0865fbd8813122ed41"
+  },
+  {
+    "path": "product-variants.json",
+    "bytes": 829,
+    "sha256": "00aa63c0383e3ab8cadcdaf6aa9b14946c9d833c50535486ae8f841471d3f05a"
+  },
+  {
+    "path": "public-evidence-provenance.json",
+    "bytes": 41863,
+    "sha256": "aa176e811c6f832ed5339d2eec95b0417904c55ac29acd9c0d188cd762ebe6be"
+  },
+  {
+    "path": "publication.json",
+    "bytes": 420,
+    "sha256": "1eb378978e1e4bb1d9e038483f1daaa266361ac72b8ad5308fa8c81880f87e9c"
+  },
+  {
+    "path": "rating-consistency.json",
+    "bytes": 634,
+    "sha256": "6b8a8d972421d37c4dd3f83abde7095a3ec10fdd7e9adc747d8d1cab354148e4"
+  },
+  {
+    "path": "review/data-needs.csv",
+    "bytes": 36072,
+    "sha256": "7efc2702f1fd5436f4dd5822b57b5081abe5091a5aa9c0004c2de0280fc6be15"
+  },
+  {
+    "path": "review/data-needs.json",
+    "bytes": 51783,
+    "sha256": "b59cdbee452f4d40f8cbbadc5b4d28651b994c50a0c299b1e1cdff333ecafdaf"
+  },
+  {
+    "path": "review/field-dictionary.csv",
+    "bytes": 35939,
+    "sha256": "349449215bfd36400df048659353960e8d13d21fd01cf2da22ed3ee0e756607c"
+  },
+  {
+    "path": "review/field-dictionary.json",
+    "bytes": 49949,
+    "sha256": "e30eefa5b20da9f380da0d26e475363bf054541711c0ab12fe86f02834633e4c"
+  },
+  {
+    "path": "review/field-value-audit.csv",
+    "bytes": 3770704,
+    "sha256": "05bad7cbf83714df0b0041fd47eba5a36b6c4c7b48975e3dc4757f32b0eecaa3"
+  },
+  {
+    "path": "review/field-value-audit.json",
+    "bytes": 5202561,
+    "sha256": "8034a999342689a98ed6beb3bb79ee879bb103a84b370b38aa2b86b24b726585"
+  },
+  {
+    "path": "review/guide-article.txt",
+    "bytes": 7846,
+    "sha256": "cf44f26cd76498ead7aed9985977099e703d9ea7b28c6a08349886b8c2fa5bf0"
+  },
+  {
+    "path": "review/guide-breadcrumb.txt",
+    "bytes": 6120,
+    "sha256": "13ac12504dae69aa13ef9adadc83bec5432bd647f27ee84ee812cf717cdfea28"
+  },
+  {
+    "path": "review/guide-carousel.txt",
+    "bytes": 8472,
+    "sha256": "8f89ab58170e4566bae930ca9759e8c696b08dfa709ae2c0e738508be1ffab06"
+  },
+  {
+    "path": "review/guide-discussion-forum.txt",
+    "bytes": 15801,
+    "sha256": "0bb922354c203f9b65d7e7ffcaef394e7bb02757b5bbb84703a5d781a6a95dbb"
+  },
+  {
+    "path": "review/guide-event.txt",
+    "bytes": 18237,
+    "sha256": "ff6ded2005dda4130e85c9541837243640aa68894a9001999cf9dbbc2e86d94a"
+  },
+  {
+    "path": "review/guide-general.txt",
+    "bytes": 8461,
+    "sha256": "8497ec56b1b340f5e236e88781cfc35423200a93ca3840ba379df402b7510621"
+  },
+  {
+    "path": "review/guide-loyalty-program.txt",
+    "bytes": 7115,
+    "sha256": "126b5aea7dea313d70a9852c48631f293ad884a0617db19a0968ea04adacbfae"
+  },
+  {
+    "path": "review/guide-merchant-listing.txt",
+    "bytes": 47400,
+    "sha256": "4cf307f1348c380c257ad8225ddac8dd8ff5f565f9fe01bd77f5831b92c00b22"
+  },
+  {
+    "path": "review/guide-organization.txt",
+    "bytes": 11193,
+    "sha256": "d67e3b3d47ff3027fc962f181c05a917cce2feab5c42e29dda6fb5733190d654"
+  },
+  {
+    "path": "review/guide-product-snippet.txt",
+    "bytes": 13327,
+    "sha256": "6e51af86f94e00bed5d8783c7117fdb1d392c5df3fcd2837e789b6af544055d4"
+  },
+  {
+    "path": "review/guide-product-variants.txt",
+    "bytes": 14030,
+    "sha256": "16a562aeda079cf184fc8c9201da48346b4ac74f168114dd05283f1f96e51e71"
+  },
+  {
+    "path": "review/guide-profile-page.txt",
+    "bytes": 7391,
+    "sha256": "b664ebe7b8768f0bb2ae6ab5b8130ee3b0d1f512e3cdcbdbe3f5c19c99d5039b"
+  },
+  {
+    "path": "review/guide-qapage.txt",
+    "bytes": 16578,
+    "sha256": "fce242fd4e49b0d79635fe0036b2cac384d390b546761ed2e84478e0f3c08000"
+  },
+  {
+    "path": "review/guide-return-policy.txt",
+    "bytes": 13799,
+    "sha256": "af0f2fb2101d2170a0a3acbc9bee8221dbef3581901dfe5c29727663deb0752a"
+  },
+  {
+    "path": "review/guide-review-snippet.txt",
+    "bytes": 12237,
+    "sha256": "3f8e4e41d382f6a241906fd7c5c55192ab75fcef4bacb131d151e2cf7ae6a7d2"
+  },
+  {
+    "path": "review/guide-rules.json",
+    "bytes": 7280,
+    "sha256": "888cd945a414b4db55d77f5ab668426bc9f14db8cf3b722eb1a65559c2f42d14"
+  },
+  {
+    "path": "review/guide-search-gallery.txt",
+    "bytes": 5614,
+    "sha256": "370c2c362099b70c5bc94fcac68d308791647d84ac0843a336320d56d07f6299"
+  },
+  {
+    "path": "review/guide-shipping-policy.txt",
+    "bytes": 21281,
+    "sha256": "2481ac404f25e468db4a9cc5f056f5aa9d16a99e8a6fb9731747a939621cb1e0"
+  },
+  {
+    "path": "review/guide-site-names.txt",
+    "bytes": 11283,
+    "sha256": "963e70013d19229778c176e2d1147a2fbf70d33152871606d1931ebb08c5fc51"
+  },
+  {
+    "path": "review/guide-video.txt",
+    "bytes": 18357,
+    "sha256": "0e24551ebbecbedb001004bd04121047ece7e0412432c4bf9add9253f36b0316"
+  },
+  {
+    "path": "review/numeric-checks.csv",
+    "bytes": 3072,
+    "sha256": "6b45c1dfde324c47c7b087379e7e22336dea4573bd0cf795db456e840131729f"
+  },
+  {
+    "path": "review/numeric-checks.json",
+    "bytes": 4583,
+    "sha256": "cbb5919fdbbfa1f2d8663af52b4ef8ae7af881174b0dfe28e48561fec178d0af"
+  },
+  {
+    "path": "review/page-models.csv",
+    "bytes": 14812,
+    "sha256": "14b27a143c472018bbd9c8368a7202252370f59d76f3ff4d1f0668a5f37a1a6b"
+  },
+  {
+    "path": "review/page-models.json",
+    "bytes": 22847,
+    "sha256": "62481f7f1dbcc2e5907ee220e8379205645996f3bc2fbe09612908e588bbd47c"
+  },
+  {
+    "path": "review/range-checks.json",
+    "bytes": 180,
+    "sha256": "6d3d075c811761e4165ebc82b43de5bc1e1539ee1619bc5bb61787a5e23dc93d"
+  },
+  {
+    "path": "review/review-summary.json",
+    "bytes": 1243,
+    "sha256": "605a6eead781eab95a288154a1a33fea3c584a9e547197b47fc2517d95820bbc"
+  },
+  {
+    "path": "review/source-integrity.json",
+    "bytes": 12178,
+    "sha256": "6cb09db66fbd4400bcf2405bdd50d1ba2e97995c9291dc1f71a0dc74b4ad5810"
+  },
+  {
+    "path": "review/type-dictionary.csv",
+    "bytes": 16194,
+    "sha256": "4706305c3018081dc1029f36f9292a4e465bdacfce5c27a46c7c5b196d8cd811"
+  },
+  {
+    "path": "review/type-dictionary.json",
+    "bytes": 21970,
+    "sha256": "c3c03be194b0f0ad81bee384acea10e882c85880af31b5e31998028536fef4d9"
+  },
+  {
+    "path": "review/validation-freshness.json",
+    "bytes": 22720,
+    "sha256": "1e3f2ea23f30af73451ea58938c6635c75b12d86e85ac25410eeadde622d2a8c"
+  },
+  {
+    "path": "schema-full-property-library.csv",
+    "bytes": 1713149,
+    "sha256": "04f34c6c494a57fd73b934dce74dc8e99737ca7962ba93a5b992459a83f85049"
+  },
+  {
+    "path": "schema-full-property-library.json",
+    "bytes": 2428560,
+    "sha256": "a86741c45dda88dff4430edc67eb7cb8957311cb2e51dd62f027b2bb712836cf"
+  },
+  {
+    "path": "shared/brand-field-provenance.json",
+    "bytes": 3063,
+    "sha256": "1ff9c444821f06e63302851c9fa9e93ec51a9268c8259c117670c928e42d767c"
+  },
+  {
+    "path": "shared/homepage-previous-validation.json",
+    "bytes": 1136,
+    "sha256": "7e389023c186542b25f020236e27576645e973dc06f0572d3449faa1c598813d"
+  },
+  {
+    "path": "shared/homepage-previously-validated.html",
+    "bytes": 7642,
+    "sha256": "2de548399b67e47c4429e62311e64a0c617d71dd1ae20671e5059a823fd84dc1"
+  },
+  {
+    "path": "shared/site-identity.jsonld",
+    "bytes": 3343,
+    "sha256": "498c57a0ee33fea19600d8eb90fcd9cf6d73cf199150e7f2dc310002c112d223"
+  },
+  {
+    "path": "templates/product-aggregate-rating.mjs",
+    "bytes": 3507,
+    "sha256": "bb17e5daa67b6f9b5f0ef4e3520d4919362d4a1559e8e2b5b7f1efacd75ae96f"
+  },
+  {
+    "path": "templates/product-rating-input.json",
+    "bytes": 601,
+    "sha256": "b22ee99f314fbebc872ac5bb0e46b751119da6af82cea1823ab2e65664def00c"
+  },
+  {
+    "path": "templates/product-rating-rendered-input.json",
+    "bytes": 348,
+    "sha256": "b3aed1848598cc2cc6142d228a1c3a8b5ea1fcd9d8a837d65b58138143ed81fb"
+  },
+  {
+    "path": "validation/google/about-garvee.json",
+    "bytes": 854,
+    "sha256": "98337553c12d80d44fc1a031db3aca6bef9ee64b99cf22b2c1b7c161d4173f9c"
+  },
+  {
+    "path": "validation/google/about-garvee.submission.json",
+    "bytes": 197,
+    "sha256": "8436a85aa671b6da8f8b8b07e0544c4870b7a6e54df9832636ffd3febcddaff4"
+  },
+  {
+    "path": "validation/google/accessibility-statement.json",
+    "bytes": 877,
+    "sha256": "9de53a19c9754241ea8efdb0f9454424e7af7edd5f11bdda3cf2171c34488806"
+  },
+  {
+    "path": "validation/google/accessibility-statement.submission.json",
+    "bytes": 208,
+    "sha256": "1ada0730705cae162d171e480129033b85882bc13210f45cc94ec7d5cd780716"
+  },
+  {
+    "path": "validation/google/affiliate.json",
+    "bytes": 804,
+    "sha256": "5813558b4e44ab1a12a3c6156b3d2fdb7f6ccffebc51f85b4818cc1088e3cc2e"
+  },
+  {
+    "path": "validation/google/affiliate.submission.json",
+    "bytes": 194,
+    "sha256": "f9abd35c6b94852c44b805392d77de76f8c8edd7ad06e842b46336ce2fabfc83"
+  },
+  {
+    "path": "validation/google/article.json",
+    "bytes": 1005,
+    "sha256": "f4945beb5ce058870b8d67c8e06cb1c39eb792e0ec6c535bee5f8800f5ab025d"
+  },
+  {
+    "path": "validation/google/article.submission.json",
+    "bytes": 192,
+    "sha256": "8fa8b8737135fc51ec1698f6914f1bc1e862d452a7db6c3f3235bb978ce33720"
+  },
+  {
+    "path": "validation/google/blog-list.json",
+    "bytes": 950,
+    "sha256": "ffbe13a98a3bdcce84feb91d90c9364a3ab320a5fb7211a4d81781b462bb99d7"
+  },
+  {
+    "path": "validation/google/blog-list.submission.json",
+    "bytes": 194,
+    "sha256": "1b1fd3085417208a8fbd5181d655e10792f463afbd543461c8e503bdb2ccb213"
+  },
+  {
+    "path": "validation/google/business.json",
+    "bytes": 803,
+    "sha256": "96bec66cdeaca5923ee26d36b24c7732024d408a5b1a4dc227c133d6b56af635"
+  },
+  {
+    "path": "validation/google/business.submission.json",
+    "bytes": 193,
+    "sha256": "661aaab82965761ff9cfca3ce2e41debf63f4a6d096749cb6278ccc0364059ab"
+  },
+  {
+    "path": "validation/google/campaign.json",
+    "bytes": 991,
+    "sha256": "4c1cae605cbfccc2ad45560ae6404afb0f90d0184f9e48640d422ae38ae141ec"
+  },
+  {
+    "path": "validation/google/campaign.submission.json",
+    "bytes": 193,
+    "sha256": "d79164f8509a04c5a5d7f871a84788fb4292aa635870c20cdba585f937834049"
+  },
+  {
+    "path": "validation/google/carebox-package-protection.json",
+    "bytes": 880,
+    "sha256": "4f7590ba1ef13e498de2a1f3381107dc6cb749eacb0ea9139e3e180e7e03f4b3"
+  },
+  {
+    "path": "validation/google/carebox-package-protection.submission.json",
+    "bytes": 211,
+    "sha256": "0a2b3a4325e151ac0f18b281da7cdf1d2636a01cab2d3c234ea90c46f0b15063"
+  },
+  {
+    "path": "validation/google/category.json",
+    "bytes": 989,
+    "sha256": "bf79649cd872e5f16cbf329dddffb54ab310013f57650e81d8f917411f154175"
+  },
+  {
+    "path": "validation/google/category.submission.json",
+    "bytes": 193,
+    "sha256": "d8cf44146ab203786de4fd05067dffbfa27a6fd84d64c18703a9925096c00523"
+  },
+  {
+    "path": "validation/google/contact.json",
+    "bytes": 802,
+    "sha256": "1a3248be6821da6536fd8055086c1db2f93f6c0df0c90a53bdd684d77946b025"
+  },
+  {
+    "path": "validation/google/contact.submission.json",
+    "bytes": 192,
+    "sha256": "c2a1b302baefe35273fb5029210a9a20c86498f6ee530cb14fc8591b9bd56835"
+  },
+  {
+    "path": "validation/google/diy-ideas.json",
+    "bytes": 891,
+    "sha256": "3a64e161c0383b84e9b3edc093e1884098d491ef04312ab188558a0c86aae2a9"
+  },
+  {
+    "path": "validation/google/diy-ideas.submission.json",
+    "bytes": 194,
+    "sha256": "ab748c9b07adb178480d8a118e00f5e5cf6407d182067a3dd53227d35b06eb8a"
+  },
+  {
+    "path": "validation/google/extended-service-protection.json",
+    "bytes": 881,
+    "sha256": "78b7a283938585e366145df643ca80d475c2363c3d7a3d2fc1e3087251d9ebe9"
+  },
+  {
+    "path": "validation/google/extended-service-protection.submission.json",
+    "bytes": 212,
+    "sha256": "548dd700a9232b52e9481e96cb7d329feb91d91f19cdbdc71a3a3eda5fad10b7"
+  },
+  {
+    "path": "validation/google/faqs.json",
+    "bytes": 858,
+    "sha256": "18e5934b5786115a63aea06fc7c0899eac79c79497bfd27b4b0d22fa6601d5d3"
+  },
+  {
+    "path": "validation/google/faqs.submission.json",
+    "bytes": 189,
+    "sha256": "6fc918f4a900f4822787d0d920c9ff1d342e6413b467463e756a750ab13a55da"
+  },
+  {
+    "path": "validation/google/help-center.json",
+    "bytes": 806,
+    "sha256": "d7bf6f439694e61f3eea662a1cace937e8f678ec215551e40a80a9912ca27e63"
+  },
+  {
+    "path": "validation/google/help-center.submission.json",
+    "bytes": 196,
+    "sha256": "cb8b8bade1a8994e0c08699be0887d62dd5f8d68f313938ca433eb1ed18eb557"
+  },
+  {
+    "path": "validation/google/influencer-program.json",
+    "bytes": 813,
+    "sha256": "d42a634582e527c29834f459d2acdc0d9b800a16c5e82a1b54cf4a25f1ec496a"
+  },
+  {
+    "path": "validation/google/influencer-program.submission.json",
+    "bytes": 203,
+    "sha256": "9ed3101fedc8bd949cbf817069ffd6818dab146cde28ed83f106a38bbc9155d2"
+  },
+  {
+    "path": "validation/google/mygarvees-rewards.json",
+    "bytes": 812,
+    "sha256": "a4f9ecd44214a38cfa788e6e2ba124a72c02a8dbcabed83324da4879735d7fc8"
+  },
+  {
+    "path": "validation/google/mygarvees-rewards.submission.json",
+    "bytes": 202,
+    "sha256": "735b937353d42c1993734500d714f03d5ce68efc2e5eaaba4c45ec38bc3ed6a5"
+  },
+  {
+    "path": "validation/google/payments-policy.json",
+    "bytes": 869,
+    "sha256": "32144fdcd08579c4f1c47d2c4a8121ccd2fb42497eacb93451dd4288f6f2d0df"
+  },
+  {
+    "path": "validation/google/payments-policy.submission.json",
+    "bytes": 200,
+    "sha256": "8a948fb58f8240fb9dae1fc8e13c219f49bb3894052fd96cf45f292c4387fd37"
+  },
+  {
+    "path": "validation/google/privacy-policy.json",
+    "bytes": 868,
+    "sha256": "82a31ac4a367ebaa36018ef696311f597870c0f301493013872804f4b20adcf7"
+  },
+  {
+    "path": "validation/google/privacy-policy.submission.json",
+    "bytes": 199,
+    "sha256": "524491cdd9279ea74fce9a52a6c87ad65ab63db7d074dd140bc48139255baeae"
+  },
+  {
+    "path": "validation/google/product-google-ready.json",
+    "bytes": 1056,
+    "sha256": "388c94ff45a59446da57fb157e650ec3a1e69bc6576a75fff10fb7ed9e83aa3b"
+  },
+  {
+    "path": "validation/google/product-google-ready.submission.json",
+    "bytes": 205,
+    "sha256": "947aa1d06aa0a3391e5df6856b768871bbdc4e5216a17133ff187777c53687c8"
+  },
+  {
+    "path": "validation/google/product-reviews.json",
+    "bytes": 869,
+    "sha256": "7007d57ec42a6a6dc9daca90615b9b4516eea85efe8a23b4591103820c48f731"
+  },
+  {
+    "path": "validation/google/product-reviews.submission.json",
+    "bytes": 200,
+    "sha256": "01d271a48de7fc5803f7e7df45f2ab9e2359a91977faea142692943350eed512"
+  },
+  {
+    "path": "validation/google/product.json",
+    "bytes": 1113,
+    "sha256": "be6af004fe98fff947298fd1ffada2cbbaf2e44e44711eaa939a0226af5b93ed"
+  },
+  {
+    "path": "validation/google/product.submission.json",
+    "bytes": 192,
+    "sha256": "ae26a2ac5c81a72fe9fa0219b77317c1c069fee708288526f631e1c3e0175de9"
+  },
+  {
+    "path": "validation/google/refund-policy.json",
+    "bytes": 867,
+    "sha256": "4fff525969a7d751e1682904592c895c3fc985d8c623489191d1a51446acf3b6"
+  },
+  {
+    "path": "validation/google/refund-policy.submission.json",
+    "bytes": 198,
+    "sha256": "c6dac77838cc054fe170ea3cd4a69e2d929cb142490c02302322c62ef3a588b1"
+  },
+  {
+    "path": "validation/google/share-and-win.json",
+    "bytes": 808,
+    "sha256": "b2ed13f1bc77be5557492b258a2f1ff85ec1546a80cfce6327672617dbccb029"
+  },
+  {
+    "path": "validation/google/share-and-win.submission.json",
+    "bytes": 198,
+    "sha256": "bba15991979752ef600c9e9f1e080ed27066b3297999eacd8dc8a7af57b95dc5"
+  },
+  {
+    "path": "validation/google/shipping-policy.json",
+    "bytes": 869,
+    "sha256": "135f7dd989e07963bcab78d334c4e6fe8b0529c2c4430b4e099752a2549d9253"
+  },
+  {
+    "path": "validation/google/shipping-policy.submission.json",
+    "bytes": 200,
+    "sha256": "6dcdb4954e3acc97773ca322ddde1d6fe63ed165056f2501bd57f1c20e87cc99"
+  },
+  {
+    "path": "validation/google/terms-of-service.json",
+    "bytes": 870,
+    "sha256": "c40b58144ba982ead2ca8522cc3111985beb3fe8ee91bcd4bd9ef4f6c9444717"
+  },
+  {
+    "path": "validation/google/terms-of-service.submission.json",
+    "bytes": 201,
+    "sha256": "7999070d58381fbbd5f858a9349cafde94332fb8b789e6af26e656c1b4da1ce9"
+  },
+  {
+    "path": "validation/google/track-your-order.json",
+    "bytes": 870,
+    "sha256": "34cbdadf515e617be42723aeb5d33528db65daa42f48b0613387516992694a52"
+  },
+  {
+    "path": "validation/google/track-your-order.submission.json",
+    "bytes": 201,
+    "sha256": "2029804d0c95d67c85aaf1409f30b8362b5d024ec5f18519fdcc5f81b0448a66"
+  },
+  {
+    "path": "validation/google/warranty-policy.json",
+    "bytes": 869,
+    "sha256": "141a6029a51b4df30cd3eb548bc4a836bd95204937c89b2f22a1221dbbb9d554"
+  },
+  {
+    "path": "validation/google/warranty-policy.submission.json",
+    "bytes": 200,
+    "sha256": "71e80e6001fe6bd6f93acd8fa85823601428b8a4d8dfcb0a6af3d275eeadc0f4"
+  },
+  {
+    "path": "validation/schema/about-garvee.json",
+    "bytes": 10007,
+    "sha256": "0df2b77504ab5f0c59b2980a94aa8ec28008e9cbe201e08287fff73a23bd8dc3"
+  },
+  {
+    "path": "validation/schema/about-garvee.submission.json",
+    "bytes": 197,
+    "sha256": "978cac73de390d2bcffae5730b1c67ff8d8540db8363423c765a1a2641a2c682"
+  },
+  {
+    "path": "validation/schema/accessibility-statement.json",
+    "bytes": 9571,
+    "sha256": "f18ce138d24154e7efdfdb0630841a5fdef8de0da272ecb1949731aa8108fac4"
+  },
+  {
+    "path": "validation/schema/accessibility-statement.submission.json",
+    "bytes": 208,
+    "sha256": "91daf1c7074948d3811293da2b034ea6b51297dfad6ec144b43e00b0aa3730ee"
+  },
+  {
+    "path": "validation/schema/affiliate.submission.json",
+    "bytes": 194,
+    "sha256": "6b8c157c16c730887052054d0ca1e31da7077b2b8427528161735b22ce949752"
+  },
+  {
+    "path": "validation/schema/carebox-package-protection.json",
+    "bytes": 7177,
+    "sha256": "67e07b9ff9817bc8078e1ce581897b7f63a27966e087020d601396b0e96060a9"
+  },
+  {
+    "path": "validation/schema/carebox-package-protection.submission.json",
+    "bytes": 211,
+    "sha256": "e9ab2a401320e6d05857aac0d12a16e565483428a54bd39b5e7d6a70e24513c3"
+  },
+  {
+    "path": "validation/schema/contact.json",
+    "bytes": 11862,
+    "sha256": "4eb69748b33e0802ace35eec05c422d08418085b99e78a05b0ae341bb538b094"
+  },
+  {
+    "path": "validation/schema/contact.submission.json",
+    "bytes": 192,
+    "sha256": "e2369288d090dfdde117494040c231fabc7b3deaa794f53c9e99983c6c644142"
+  },
+  {
+    "path": "validation/schema/payments-policy.json",
+    "bytes": 9507,
+    "sha256": "557855bb1ff2d06ce1e1c32a960471b6ae5833d684f49f99b8c52d9adaf00fd4"
+  },
+  {
+    "path": "validation/schema/payments-policy.submission.json",
+    "bytes": 200,
+    "sha256": "6f7b28f8cdcfde5cd88d5d9cb47bed1e5850892315055b4b10fa48c290ec4d60"
+  },
+  {
+    "path": "validation/schema/privacy-policy.json",
+    "bytes": 9563,
+    "sha256": "fe630084fc471dd8dd758e7b065bd10104386d0db83c08c9033f7e76fc9c72ec"
+  },
+  {
+    "path": "validation/schema/privacy-policy.submission.json",
+    "bytes": 199,
+    "sha256": "7cd92fa5176a394dd7c273a0e00647239d89c73dbe9926b7c5846e46b057d8c1"
+  },
+  {
+    "path": "validation/schema/refund-policy.json",
+    "bytes": 7060,
+    "sha256": "b15ea5dc6eabc36d28cea11d912519bd765f9909a379781adc8d2e1323706fce"
+  },
+  {
+    "path": "validation/schema/refund-policy.submission.json",
+    "bytes": 198,
+    "sha256": "0fbfbf938e0d98633bcdac88b2fcea04be48f4334911f4f83a23d7685c4cb34a"
+  },
+  {
+    "path": "validation/schema/shipping-policy.json",
+    "bytes": 9572,
+    "sha256": "a68e5e6e30fb07fcd9942ae0808e245dfce126edb3324e27714824fd34f00a45"
+  },
+  {
+    "path": "validation/schema/shipping-policy.submission.json",
+    "bytes": 200,
+    "sha256": "9e4564ba8599a059ab5ec0696c7c5b37c3ad732f1c38485205d17643875ffd0a"
+  },
+  {
+    "path": "validation/schema/terms-of-service.json",
+    "bytes": 9581,
+    "sha256": "6def389e0a940b39dae4c36915465f11cb02ce9bd5d3471fdead2c272f9557cb"
+  },
+  {
+    "path": "validation/schema/terms-of-service.submission.json",
+    "bytes": 201,
+    "sha256": "a6bb44d01929088d9fc904c90d664bee8adca9f293992bd147d7d78058e1e462"
+  },
+  {
+    "path": "validation/schema/track-your-order.json",
+    "bytes": 10077,
+    "sha256": "b355751721c55acb4170ea9568d64c887a88c92584ac51cc8a1095671edf8083"
+  },
+  {
+    "path": "validation/schema/track-your-order.submission.json",
+    "bytes": 201,
+    "sha256": "28e89a1c1af0c44573dd6682c16f86e814a4c0d8e9a47eb437d008cf7deb82d5"
+  },
+  {
+    "path": "validation/schema/warranty-policy.json",
+    "bytes": 7298,
+    "sha256": "05dc6c73da3c733d13c901eaadb9906d011581740ba5c4bc2c9bc58122491365"
+  },
+  {
+    "path": "validation/schema/warranty-policy.submission.json",
+    "bytes": 200,
+    "sha256": "2b64141988c3e6feb3e3317feeca89c121c969a0ac1ada5524df6e478b5e4e27"
+  },
+  {
+    "path": "字段支持映射与Schema全量属性.xlsx",
+    "bytes": 680719,
+    "sha256": "30e3148601e6b998a4253b80a0d521a52c323dcfe2c37ef5fd930a2a10804a81"
+  },
+  {
+    "path": "逐页字段数值复查与补数要求.xlsx",
+    "bytes": 487011,
+    "sha256": "db706c20565841f9da2320b815c56c706ead2861f250aa47bf9b13ea23772b9a"
+  },
+  {
+    "path": "页面实现与验收清单.xlsx",
+    "bytes": 15262,
+    "sha256": "52967a2ce54616204223b22c4cb7a6e256dfdd9c6cdbb9d8ff451080b9ab49ff"
+  }
+]

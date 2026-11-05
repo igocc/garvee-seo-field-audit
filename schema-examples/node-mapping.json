@@ -1,0 +1,1622 @@
+[
+  {
+    "page": "about-garvee",
+    "label": "页脚：关于我们",
+    "type": "AboutPage",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "about-garvee",
+    "label": "页脚：关于我们",
+    "type": "BreadcrumbList",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "breadcrumb",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "about-garvee",
+    "label": "页脚：关于我们",
+    "type": "ContactPoint",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "嵌套语境支持，依赖所属功能",
+    "guide": "organization",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "about-garvee",
+    "label": "页脚：关于我们",
+    "type": "ImageObject",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 在 logo / image 嵌套语境接受 ImageObject；不是独立富结果",
+    "guide": "organization",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "about-garvee",
+    "label": "页脚：关于我们",
+    "type": "ListItem",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "条件支持：限文档规定的轮播／面包屑场景，不代表任意列表可展示",
+    "guide": "breadcrumb",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "about-garvee",
+    "label": "页脚：关于我们",
+    "type": "MerchantReturnPolicy",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "return-policy",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "about-garvee",
+    "label": "页脚：关于我们",
+    "type": "OnlineStore",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "organization",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "about-garvee",
+    "label": "页脚：关于我们",
+    "type": "OpeningHoursSpecification",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "about-garvee",
+    "label": "页脚：关于我们",
+    "type": "PostalAddress",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "嵌套语境支持，依赖所属功能",
+    "guide": "organization",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "contact",
+    "label": "页脚：联系我们",
+    "type": "BreadcrumbList",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "breadcrumb",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "contact",
+    "label": "页脚：联系我们",
+    "type": "ContactPage",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "contact",
+    "label": "页脚：联系我们",
+    "type": "ContactPoint",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "嵌套语境支持，依赖所属功能",
+    "guide": "organization",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "contact",
+    "label": "页脚：联系我们",
+    "type": "ImageObject",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 在 logo / image 嵌套语境接受 ImageObject；不是独立富结果",
+    "guide": "organization",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "contact",
+    "label": "页脚：联系我们",
+    "type": "ListItem",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "条件支持：限文档规定的轮播／面包屑场景，不代表任意列表可展示",
+    "guide": "breadcrumb",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "contact",
+    "label": "页脚：联系我们",
+    "type": "MerchantReturnPolicy",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "return-policy",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "contact",
+    "label": "页脚：联系我们",
+    "type": "OnlineStore",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "organization",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "contact",
+    "label": "页脚：联系我们",
+    "type": "OpeningHoursSpecification",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "contact",
+    "label": "页脚：联系我们",
+    "type": "PostalAddress",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "嵌套语境支持，依赖所属功能",
+    "guide": "organization",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "terms-of-service",
+    "label": "页脚：服务条款",
+    "type": "BreadcrumbList",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "breadcrumb",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "terms-of-service",
+    "label": "页脚：服务条款",
+    "type": "ListItem",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "条件支持：限文档规定的轮播／面包屑场景，不代表任意列表可展示",
+    "guide": "breadcrumb",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "terms-of-service",
+    "label": "页脚：服务条款",
+    "type": "WebPage",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "privacy-policy",
+    "label": "页脚：隐私政策",
+    "type": "BreadcrumbList",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "breadcrumb",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "privacy-policy",
+    "label": "页脚：隐私政策",
+    "type": "ListItem",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "条件支持：限文档规定的轮播／面包屑场景，不代表任意列表可展示",
+    "guide": "breadcrumb",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "privacy-policy",
+    "label": "页脚：隐私政策",
+    "type": "WebPage",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "accessibility-statement",
+    "label": "页脚：无障碍声明",
+    "type": "BreadcrumbList",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "breadcrumb",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "accessibility-statement",
+    "label": "页脚：无障碍声明",
+    "type": "ListItem",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "条件支持：限文档规定的轮播／面包屑场景，不代表任意列表可展示",
+    "guide": "breadcrumb",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "accessibility-statement",
+    "label": "页脚：无障碍声明",
+    "type": "WebPage",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "track-your-order",
+    "label": "页脚：订单查询",
+    "type": "BreadcrumbList",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "breadcrumb",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "track-your-order",
+    "label": "页脚：订单查询",
+    "type": "ListItem",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "条件支持：限文档规定的轮播／面包屑场景，不代表任意列表可展示",
+    "guide": "breadcrumb",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "track-your-order",
+    "label": "页脚：订单查询",
+    "type": "Organization",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "organization",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "track-your-order",
+    "label": "页脚：订单查询",
+    "type": "Service",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "track-your-order",
+    "label": "页脚：订单查询",
+    "type": "WebPage",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "payments-policy",
+    "label": "页脚：支付政策",
+    "type": "BreadcrumbList",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "breadcrumb",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "payments-policy",
+    "label": "页脚：支付政策",
+    "type": "ListItem",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "条件支持：限文档规定的轮播／面包屑场景，不代表任意列表可展示",
+    "guide": "breadcrumb",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "payments-policy",
+    "label": "页脚：支付政策",
+    "type": "OnlineStore",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "organization",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "payments-policy",
+    "label": "页脚：支付政策",
+    "type": "WebPage",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "shipping-policy",
+    "label": "页脚：配送政策",
+    "type": "BreadcrumbList",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "breadcrumb",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "shipping-policy",
+    "label": "页脚：配送政策",
+    "type": "ListItem",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "条件支持：限文档规定的轮播／面包屑场景，不代表任意列表可展示",
+    "guide": "breadcrumb",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "shipping-policy",
+    "label": "页脚：配送政策",
+    "type": "WebPage",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "warranty-policy",
+    "label": "页脚：保修政策",
+    "type": "BreadcrumbList",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "breadcrumb",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "warranty-policy",
+    "label": "页脚：保修政策",
+    "type": "ListItem",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "条件支持：限文档规定的轮播／面包屑场景，不代表任意列表可展示",
+    "guide": "breadcrumb",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "warranty-policy",
+    "label": "页脚：保修政策",
+    "type": "QuantitativeValue",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "嵌套语境支持，依赖所属功能",
+    "guide": "merchant-listing",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "warranty-policy",
+    "label": "页脚：保修政策",
+    "type": "WarrantyPromise",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "warranty-policy",
+    "label": "页脚：保修政策",
+    "type": "WebPage",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "refund-policy",
+    "label": "页脚：退货退款政策",
+    "type": "BreadcrumbList",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "breadcrumb",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "refund-policy",
+    "label": "页脚：退货退款政策",
+    "type": "ListItem",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "条件支持：限文档规定的轮播／面包屑场景，不代表任意列表可展示",
+    "guide": "breadcrumb",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "refund-policy",
+    "label": "页脚：退货退款政策",
+    "type": "MerchantReturnPolicy",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "return-policy",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "refund-policy",
+    "label": "页脚：退货退款政策",
+    "type": "OnlineStore",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "organization",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "refund-policy",
+    "label": "页脚：退货退款政策",
+    "type": "WebPage",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "carebox-package-protection",
+    "label": "页脚：包裹保障",
+    "type": "BreadcrumbList",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "breadcrumb",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "carebox-package-protection",
+    "label": "页脚：包裹保障",
+    "type": "ListItem",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "条件支持：限文档规定的轮播／面包屑场景，不代表任意列表可展示",
+    "guide": "breadcrumb",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "carebox-package-protection",
+    "label": "页脚：包裹保障",
+    "type": "Service",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "carebox-package-protection",
+    "label": "页脚：包裹保障",
+    "type": "WebPage",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "affiliate",
+    "label": "页脚：联盟计划",
+    "type": "Answer",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "FAQ 富结果已移除；QAPage 为另一个受限功能",
+    "guide": "faq",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "affiliate",
+    "label": "页脚：联盟计划",
+    "type": "Organization",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "organization",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "affiliate",
+    "label": "页脚：联盟计划",
+    "type": "Question",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "FAQ 富结果已移除；QAPage 为另一个受限功能",
+    "guide": "faq",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "affiliate",
+    "label": "页脚：联盟计划",
+    "type": "Service",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "affiliate",
+    "label": "页脚：联盟计划",
+    "type": "WebPage",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "affiliate",
+    "label": "页脚：联盟计划",
+    "type": "WebPageElement",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "influencer-program",
+    "label": "页脚：达人合作",
+    "type": "Answer",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "FAQ 富结果已移除；QAPage 为另一个受限功能",
+    "guide": "faq",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "influencer-program",
+    "label": "页脚：达人合作",
+    "type": "Organization",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "organization",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "influencer-program",
+    "label": "页脚：达人合作",
+    "type": "Question",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "FAQ 富结果已移除；QAPage 为另一个受限功能",
+    "guide": "faq",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "influencer-program",
+    "label": "页脚：达人合作",
+    "type": "Service",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "influencer-program",
+    "label": "页脚：达人合作",
+    "type": "WebPage",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "influencer-program",
+    "label": "页脚：达人合作",
+    "type": "WebPageElement",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "share-and-win",
+    "label": "页脚：分享有奖",
+    "type": "Answer",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "FAQ 富结果已移除；QAPage 为另一个受限功能",
+    "guide": "faq",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "share-and-win",
+    "label": "页脚：分享有奖",
+    "type": "Question",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "FAQ 富结果已移除；QAPage 为另一个受限功能",
+    "guide": "faq",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "share-and-win",
+    "label": "页脚：分享有奖",
+    "type": "WebPage",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "share-and-win",
+    "label": "页脚：分享有奖",
+    "type": "WebPageElement",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "mygarvees-rewards",
+    "label": "页脚：会员积分",
+    "type": "Answer",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "FAQ 富结果已移除；QAPage 为另一个受限功能",
+    "guide": "faq",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "mygarvees-rewards",
+    "label": "页脚：会员积分",
+    "type": "MemberProgram",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "loyalty-program",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "mygarvees-rewards",
+    "label": "页脚：会员积分",
+    "type": "MemberProgramTier",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "loyalty-program",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "mygarvees-rewards",
+    "label": "页脚：会员积分",
+    "type": "OnlineStore",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "organization",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "mygarvees-rewards",
+    "label": "页脚：会员积分",
+    "type": "QuantitativeValue",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "嵌套语境支持，依赖所属功能",
+    "guide": "merchant-listing",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "mygarvees-rewards",
+    "label": "页脚：会员积分",
+    "type": "Question",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "FAQ 富结果已移除；QAPage 为另一个受限功能",
+    "guide": "faq",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "mygarvees-rewards",
+    "label": "页脚：会员积分",
+    "type": "WebPage",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "mygarvees-rewards",
+    "label": "页脚：会员积分",
+    "type": "WebPageElement",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "extended-service-protection",
+    "label": "页脚：延长保障",
+    "type": "BreadcrumbList",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "breadcrumb",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "extended-service-protection",
+    "label": "页脚：延长保障",
+    "type": "ListItem",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "条件支持：限文档规定的轮播／面包屑场景，不代表任意列表可展示",
+    "guide": "breadcrumb",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "extended-service-protection",
+    "label": "页脚：延长保障",
+    "type": "Organization",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "organization",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "extended-service-protection",
+    "label": "页脚：延长保障",
+    "type": "QuantitativeValue",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "嵌套语境支持，依赖所属功能",
+    "guide": "merchant-listing",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "extended-service-protection",
+    "label": "页脚：延长保障",
+    "type": "Service",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "extended-service-protection",
+    "label": "页脚：延长保障",
+    "type": "WarrantyPromise",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "extended-service-protection",
+    "label": "页脚：延长保障",
+    "type": "WebPage",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "business",
+    "label": "页脚：批发业务",
+    "type": "Answer",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "FAQ 富结果已移除；QAPage 为另一个受限功能",
+    "guide": "faq",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "business",
+    "label": "页脚：批发业务",
+    "type": "Organization",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "organization",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "business",
+    "label": "页脚：批发业务",
+    "type": "Question",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "FAQ 富结果已移除；QAPage 为另一个受限功能",
+    "guide": "faq",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "business",
+    "label": "页脚：批发业务",
+    "type": "Service",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "business",
+    "label": "页脚：批发业务",
+    "type": "WebPage",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "business",
+    "label": "页脚：批发业务",
+    "type": "WebPageElement",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "help-center",
+    "label": "页脚：帮助中心",
+    "type": "Organization",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "organization",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "help-center",
+    "label": "页脚：帮助中心",
+    "type": "Service",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "help-center",
+    "label": "页脚：帮助中心",
+    "type": "WebPage",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "help-center",
+    "label": "页脚：帮助中心",
+    "type": "WebSite",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 网站名称功能支持（主要部署首页）；此处为同一 WebSite 的共享定义",
+    "guide": "site-names",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "category",
+    "label": "类目样本",
+    "type": "Answer",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "FAQ 富结果已移除；QAPage 为另一个受限功能",
+    "guide": "faq",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "category",
+    "label": "类目样本",
+    "type": "CollectionPage",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "category",
+    "label": "类目样本",
+    "type": "ItemList",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "条件支持：限文档规定的轮播／面包屑场景，不代表任意列表可展示",
+    "guide": "carousel",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "category",
+    "label": "类目样本",
+    "type": "ListItem",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "条件支持：限文档规定的轮播／面包屑场景，不代表任意列表可展示",
+    "guide": "breadcrumb",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "category",
+    "label": "类目样本",
+    "type": "Offer",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "支持商品功能；列表页不等同于单商品落地页资格",
+    "guide": "merchant-listing",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "category",
+    "label": "类目样本",
+    "type": "Product",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "支持商品功能；列表页不等同于单商品落地页资格",
+    "guide": "merchant-listing",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "category",
+    "label": "类目样本",
+    "type": "Question",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "FAQ 富结果已移除；QAPage 为另一个受限功能",
+    "guide": "faq",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "category",
+    "label": "类目样本",
+    "type": "WebPageElement",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "product",
+    "label": "商品详情及评论模块",
+    "type": "Brand",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "merchant-listing",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "product",
+    "label": "商品详情及评论模块",
+    "type": "BreadcrumbList",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "breadcrumb",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "product",
+    "label": "商品详情及评论模块",
+    "type": "ItemPage",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "product",
+    "label": "商品详情及评论模块",
+    "type": "ListItem",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "条件支持：限文档规定的轮播／面包屑场景，不代表任意列表可展示",
+    "guide": "breadcrumb",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "product",
+    "label": "商品详情及评论模块",
+    "type": "Offer",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "支持商品功能；列表页不等同于单商品落地页资格",
+    "guide": "merchant-listing",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "product",
+    "label": "商品详情及评论模块",
+    "type": "Person",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "嵌套语境支持，依赖所属功能",
+    "guide": "article",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "product",
+    "label": "商品详情及评论模块",
+    "type": "Product",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "支持商品功能；列表页不等同于单商品落地页资格",
+    "guide": "merchant-listing",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "product",
+    "label": "商品详情及评论模块",
+    "type": "PropertyValue",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "product",
+    "label": "商品详情及评论模块",
+    "type": "QuantitativeValue",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "嵌套语境支持，依赖所属功能",
+    "guide": "merchant-listing",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "product",
+    "label": "商品详情及评论模块",
+    "type": "Rating",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "嵌套语境支持，依赖所属功能",
+    "guide": "review-snippet",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "product",
+    "label": "商品详情及评论模块",
+    "type": "Review",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "review-snippet",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "product-reviews",
+    "label": "独立评论页",
+    "type": "BreadcrumbList",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "breadcrumb",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "product-reviews",
+    "label": "独立评论页",
+    "type": "CollectionPage",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "product-reviews",
+    "label": "独立评论页",
+    "type": "ListItem",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "条件支持：限文档规定的轮播／面包屑场景，不代表任意列表可展示",
+    "guide": "breadcrumb",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "faqs",
+    "label": "官方问答页",
+    "type": "Answer",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "FAQ 富结果已移除；QAPage 为另一个受限功能",
+    "guide": "faq",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "faqs",
+    "label": "官方问答页",
+    "type": "BreadcrumbList",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "breadcrumb",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "faqs",
+    "label": "官方问答页",
+    "type": "FAQPage",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "已移除：2026-05-07 起不展示 FAQ 富结果",
+    "guide": "faq",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "faqs",
+    "label": "官方问答页",
+    "type": "ListItem",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "条件支持：限文档规定的轮播／面包屑场景，不代表任意列表可展示",
+    "guide": "breadcrumb",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "faqs",
+    "label": "官方问答页",
+    "type": "Question",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "FAQ 富结果已移除；QAPage 为另一个受限功能",
+    "guide": "faq",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "diy-ideas",
+    "label": "博客首页／内容聚合",
+    "type": "BlogPosting",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "article",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "diy-ideas",
+    "label": "博客首页／内容聚合",
+    "type": "CollectionPage",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "diy-ideas",
+    "label": "博客首页／内容聚合",
+    "type": "ItemList",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "条件支持：限文档规定的轮播／面包屑场景，不代表任意列表可展示",
+    "guide": "carousel",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "diy-ideas",
+    "label": "博客首页／内容聚合",
+    "type": "ListItem",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "条件支持：限文档规定的轮播／面包屑场景，不代表任意列表可展示",
+    "guide": "breadcrumb",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "diy-ideas",
+    "label": "博客首页／内容聚合",
+    "type": "Organization",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "organization",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "blog-list",
+    "label": "博客列表",
+    "type": "Blog",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "blog-list",
+    "label": "博客列表",
+    "type": "BlogPosting",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "article",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "blog-list",
+    "label": "博客列表",
+    "type": "BreadcrumbList",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "breadcrumb",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "blog-list",
+    "label": "博客列表",
+    "type": "CollectionPage",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "blog-list",
+    "label": "博客列表",
+    "type": "ItemList",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "条件支持：限文档规定的轮播／面包屑场景，不代表任意列表可展示",
+    "guide": "carousel",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "blog-list",
+    "label": "博客列表",
+    "type": "ListItem",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "条件支持：限文档规定的轮播／面包屑场景，不代表任意列表可展示",
+    "guide": "breadcrumb",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "blog-list",
+    "label": "博客列表",
+    "type": "Organization",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "organization",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "article",
+    "label": "博客文章",
+    "type": "Blog",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "article",
+    "label": "博客文章",
+    "type": "BlogPosting",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "article",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "article",
+    "label": "博客文章",
+    "type": "BreadcrumbList",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "breadcrumb",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "article",
+    "label": "博客文章",
+    "type": "ImageObject",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 在 logo / image 嵌套语境接受 ImageObject；不是独立富结果",
+    "guide": "organization",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "article",
+    "label": "博客文章",
+    "type": "ListItem",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "条件支持：限文档规定的轮播／面包屑场景，不代表任意列表可展示",
+    "guide": "breadcrumb",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "article",
+    "label": "博客文章",
+    "type": "Organization",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "organization",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "article",
+    "label": "博客文章",
+    "type": "VideoObject",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "video",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "article",
+    "label": "博客文章",
+    "type": "WebPage",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "campaign",
+    "label": "活动／专题页",
+    "type": "CollectionPage",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "campaign",
+    "label": "活动／专题页",
+    "type": "ItemList",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "条件支持：限文档规定的轮播／面包屑场景，不代表任意列表可展示",
+    "guide": "carousel",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "campaign",
+    "label": "活动／专题页",
+    "type": "ListItem",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "条件支持：限文档规定的轮播／面包屑场景，不代表任意列表可展示",
+    "guide": "breadcrumb",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "campaign",
+    "label": "活动／专题页",
+    "type": "Offer",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "支持商品功能；列表页不等同于单商品落地页资格",
+    "guide": "merchant-listing",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "campaign",
+    "label": "活动／专题页",
+    "type": "Product",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "支持商品功能；列表页不等同于单商品落地页资格",
+    "guide": "merchant-listing",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "campaign",
+    "label": "活动／专题页",
+    "type": "WebPageElement",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "product",
+    "label": "商品详情及评论模块",
+    "type": "ProductGroup",
+    "state": "条件项／本样本未输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "product-variants",
+    "requirement": "颜色/尺寸选择已存在；待真实组 ID 与变体映射"
+  },
+  {
+    "page": "product",
+    "label": "商品详情及评论模块",
+    "type": "AggregateRating",
+    "state": "条件项／本样本未输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "review-snippet",
+    "requirement": "评论数与均值证据冲突，先统一主数据"
+  },
+  {
+    "page": "product",
+    "label": "商品详情及评论模块",
+    "type": "OfferShippingDetails",
+    "state": "条件项／本样本未输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "merchant-listing",
+    "requirement": "待真实配送规则"
+  },
+  {
+    "page": "product",
+    "label": "商品详情及评论模块",
+    "type": "QAPage",
+    "state": "条件项／本样本未输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "qapage",
+    "requirement": "本商品 0 问答且主内容非单一问题，不适用 QAPage"
+  },
+  {
+    "page": "product-reviews",
+    "label": "独立评论页",
+    "type": "Review",
+    "state": "条件项／本样本未输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "review-snippet",
+    "requirement": "空评论页先恢复真实评论及 itemReviewed"
+  },
+  {
+    "page": "product-reviews",
+    "label": "独立评论页",
+    "type": "AggregateRating",
+    "state": "条件项／本样本未输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "review-snippet",
+    "requirement": "不从其他页面挪用评分或数量"
+  },
+  {
+    "page": "shipping-policy",
+    "label": "页脚：配送政策",
+    "type": "ShippingService",
+    "state": "条件项／本样本未输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "shipping-policy",
+    "requirement": "待统一卡车时效和费率"
+  },
+  {
+    "page": "shipping-policy",
+    "label": "页脚：配送政策",
+    "type": "ShippingConditions",
+    "state": "条件项／本样本未输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "shipping-policy",
+    "requirement": "待完整国家/地区及费用条件"
+  },
+  {
+    "page": "shipping-policy",
+    "label": "页脚：配送政策",
+    "type": "ServicePeriod",
+    "state": "条件项／本样本未输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "shipping-policy",
+    "requirement": "待 handling/transit 与工作日口径"
+  },
+  {
+    "page": "shipping-policy",
+    "label": "页脚：配送政策",
+    "type": "MonetaryAmount",
+    "state": "条件项／本样本未输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "shipping-policy",
+    "requirement": "真实费率；不默认免费"
+  },
+  {
+    "page": "shipping-policy",
+    "label": "页脚：配送政策",
+    "type": "ShippingRateSettings",
+    "state": "条件项／本样本未输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "shipping-policy",
+    "requirement": "按重量/金额费率仅业务实际存在时"
+  },
+  {
+    "page": "track-your-order",
+    "label": "页脚：订单查询",
+    "type": "ParcelDelivery",
+    "state": "条件项／本样本未输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "仅真实授权订单上下文；公共查询页不输出客户包裹"
+  },
+  {
+    "page": "campaign",
+    "label": "活动／专题页",
+    "type": "Event",
+    "state": "条件项／本样本未输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "event",
+    "requirement": "仅真实事件才适用；普通商品促销不套 Event"
+  },
+  {
+    "page": "article",
+    "label": "博客文章",
+    "type": "HowTo",
+    "state": "条件项／本样本未输出",
+    "schema": "支持",
+    "google": "未见该类型的独立 Google 富结果文档",
+    "guide": null,
+    "requirement": "该样本为文章，不强行转成步骤教程；Google 无当前独立 HowTo 富结果"
+  },
+  {
+    "page": "category",
+    "label": "类目样本",
+    "type": "BreadcrumbList",
+    "state": "条件项／本样本未输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "breadcrumb",
+    "requirement": "必须存在真实导航路径；不从 URL 猜层级"
+  }
+]

@@ -1,0 +1,1290 @@
+{
+  "requested_url": "https://www.garvee.com/collections/clearance-sale?filter.v.availability=1",
+  "url": "https://www.garvee.com/collections/clearance-sale?filter.v.availability=1",
+  "status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "captured_at": "2026-11-04T14:36:46.623702+00:00",
+  "sha256": "abb8d7cd4100c0724d7ce5fdb582b5dfe13cb9f6a10aed36f2af1b0cbccf62e1",
+  "title": "GARVEE Clearance for Home, Garden, Auto & Workshop Gear",
+  "canonical": "https://www.garvee.com/collections/clearance-sale",
+  "description": "Explore the GARVEE Don’t Miss Out – Prices Slashed! collection. Find your options at GARVEE.",
+  "lang": "en",
+  "h1": [
+    "Don't Miss Out – Prices Slashed!"
+  ],
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "/",
+            "name": "Home"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "/collections/clearance-sale",
+            "name": "Clearance"
+          }
+        }
+      ]
+    }
+  ],
+  "jsonld_parse_errors": [],
+  "main_links": [],
+  "footer_links": [
+    {
+      "text": "About Garvee",
+      "label": null,
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Special Outlets",
+      "label": null,
+      "url": "https://www.garvee.com/collections/clearance-sale?filter.v.availability=1"
+    },
+    {
+      "text": "DIY Projects & Ideas",
+      "label": null,
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "Terms Of Service",
+      "label": null,
+      "url": "https://www.garvee.com/policies/terms-of-service"
+    },
+    {
+      "text": "Privacy Policy",
+      "label": null,
+      "url": "https://www.garvee.com/policies/privacy-policy"
+    },
+    {
+      "text": "Accessibility",
+      "label": null,
+      "url": "https://www.garvee.com/pages/accessibility-statement "
+    },
+    {
+      "text": "Track Your Order",
+      "label": null,
+      "url": "https://www.garvee.com/pages/track-your-order"
+    },
+    {
+      "text": "Payments Policy",
+      "label": null,
+      "url": "https://www.garvee.com/pages/payments-policy"
+    },
+    {
+      "text": "Shipping Policy",
+      "label": null,
+      "url": "https://www.garvee.com/policies/shipping-policy"
+    },
+    {
+      "text": "Warranty Policy",
+      "label": null,
+      "url": "https://www.garvee.com/pages/warranty-policy"
+    },
+    {
+      "text": "Refund & Return Policy",
+      "label": null,
+      "url": "https://www.garvee.com/policies/refund-policy"
+    },
+    {
+      "text": "Worry-Free Purchase",
+      "label": null,
+      "url": "https://www.garvee.com/pages/carebox-package-protection"
+    },
+    {
+      "text": "Contact Us",
+      "label": null,
+      "url": "https://www.garvee.com/pages/contact"
+    },
+    {
+      "text": "Affiliate Program",
+      "label": null,
+      "url": "https://www.garvee.com/pages/affiliate"
+    },
+    {
+      "text": "Influencer Program",
+      "label": null,
+      "url": "https://www.garvee.com/pages/influencer-program"
+    },
+    {
+      "text": "Share and Win",
+      "label": null,
+      "url": "https://www.garvee.com/pages/share-and-win"
+    },
+    {
+      "text": "Garvee Rewards",
+      "label": null,
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "Protection Plans",
+      "label": null,
+      "url": "https://www.garvee.com/pages/extended-service-protection"
+    },
+    {
+      "text": "Help Center",
+      "label": null,
+      "url": "https://support.garvee.com/"
+    },
+    {
+      "text": "WholeSale Program",
+      "label": null,
+      "url": "https://www.garvee.com/pages/business"
+    },
+    {
+      "text": "",
+      "label": "Pinterest",
+      "url": "https://www.pinterest.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/garveeglobal"
+    },
+    {
+      "text": "",
+      "label": "Instagram",
+      "url": "https://www.instagram.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/channel/UCvt0kZI7qgY2leAZrwI9DKA"
+    },
+    {
+      "text": "",
+      "label": "TikTok",
+      "url": "https://www.tiktok.com/@garvee_official"
+    },
+    {
+      "text": "",
+      "label": "Google Customer Reviews",
+      "url": "https://www.google.com/storepages?q=garvee.com&c=US&v=19"
+    },
+    {
+      "text": "About Garvee",
+      "label": null,
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Special Outlets",
+      "label": null,
+      "url": "https://www.garvee.com/collections/clearance-sale?filter.v.availability=1"
+    },
+    {
+      "text": "DIY Projects & Ideas",
+      "label": null,
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "Terms Of Service",
+      "label": null,
+      "url": "https://www.garvee.com/policies/terms-of-service"
+    },
+    {
+      "text": "Privacy Policy",
+      "label": null,
+      "url": "https://www.garvee.com/policies/privacy-policy"
+    },
+    {
+      "text": "Accessibility",
+      "label": null,
+      "url": "https://www.garvee.com/pages/accessibility-statement "
+    },
+    {
+      "text": "Track Your Order",
+      "label": null,
+      "url": "https://www.garvee.com/pages/track-your-order"
+    },
+    {
+      "text": "Payments Policy",
+      "label": null,
+      "url": "https://www.garvee.com/pages/payments-policy"
+    },
+    {
+      "text": "Shipping Policy",
+      "label": null,
+      "url": "https://www.garvee.com/policies/shipping-policy"
+    },
+    {
+      "text": "Warranty Policy",
+      "label": null,
+      "url": "https://www.garvee.com/pages/warranty-policy"
+    },
+    {
+      "text": "Refund & Return Policy",
+      "label": null,
+      "url": "https://www.garvee.com/policies/refund-policy"
+    },
+    {
+      "text": "Worry-Free Purchase",
+      "label": null,
+      "url": "https://www.garvee.com/pages/carebox-package-protection"
+    },
+    {
+      "text": "Contact Us",
+      "label": null,
+      "url": "https://www.garvee.com/pages/contact"
+    },
+    {
+      "text": "Affiliate Program",
+      "label": null,
+      "url": "https://www.garvee.com/pages/affiliate"
+    },
+    {
+      "text": "Influencer Program",
+      "label": null,
+      "url": "https://www.garvee.com/pages/influencer-program"
+    },
+    {
+      "text": "Share and Win",
+      "label": null,
+      "url": "https://www.garvee.com/pages/share-and-win"
+    },
+    {
+      "text": "Garvee Rewards",
+      "label": null,
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "Protection Plans",
+      "label": null,
+      "url": "https://www.garvee.com/pages/extended-service-protection"
+    },
+    {
+      "text": "Help Center",
+      "label": null,
+      "url": "https://support.garvee.com/"
+    },
+    {
+      "text": "WholeSale Program",
+      "label": null,
+      "url": "https://www.garvee.com/pages/business"
+    },
+    {
+      "text": "",
+      "label": "Pinterest",
+      "url": "https://www.pinterest.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/garveeglobal"
+    },
+    {
+      "text": "",
+      "label": "Instagram",
+      "url": "https://www.instagram.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/channel/UCvt0kZI7qgY2leAZrwI9DKA"
+    },
+    {
+      "text": "",
+      "label": "TikTok",
+      "url": "https://www.tiktok.com/@garvee_official"
+    },
+    {
+      "text": "",
+      "label": "Google Customer Reviews",
+      "url": "https://www.google.com/storepages?q=garvee.com&c=US&v=19"
+    }
+  ],
+  "all_links": [
+    {
+      "text": "",
+      "url": "https://www.pinterest.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "url": "https://www.facebook.com/garveeglobal"
+    },
+    {
+      "text": "",
+      "url": "https://www.instagram.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "url": "https://www.youtube.com/channel/UCvt0kZI7qgY2leAZrwI9DKA"
+    },
+    {
+      "text": "",
+      "url": "https://www.tiktok.com/@garvee_official"
+    },
+    {
+      "text": "Join Free",
+      "url": "https://www.garvee.com/collections/clearance-sale?filter.v.availability=1#login"
+    },
+    {
+      "text": "Get My Discount",
+      "url": "https://www.garvee.com/collections/clearance-sale?filter.v.availability=1#login"
+    },
+    {
+      "text": "Unlock Savings",
+      "url": "https://www.garvee.com/collections/clearance-sale?filter.v.availability=1#login"
+    },
+    {
+      "text": "Join Free",
+      "url": "https://www.garvee.com/collections/clearance-sale?filter.v.availability=1#login"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/"
+    },
+    {
+      "text": "New Arrivals",
+      "url": "https://www.garvee.com/collections/new-arrivals"
+    },
+    {
+      "text": "Best Sellers🔥",
+      "url": "https://www.garvee.com/collections/best-sellers"
+    },
+    {
+      "text": "Flash Deals⚡",
+      "url": "https://www.garvee.com/collections/flash-deals"
+    },
+    {
+      "text": "Clearance",
+      "url": "https://www.garvee.com/collections/clearance-sale"
+    },
+    {
+      "text": "DIY Projects & Ideas",
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "About Us",
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Rewards & Points",
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/"
+    },
+    {
+      "text": "New Arrivals",
+      "url": "https://www.garvee.com/collections/new-arrivals"
+    },
+    {
+      "text": "Best Sellers🔥",
+      "url": "https://www.garvee.com/collections/best-sellers"
+    },
+    {
+      "text": "Flash Deals⚡",
+      "url": "https://www.garvee.com/collections/flash-deals"
+    },
+    {
+      "text": "Clearance",
+      "url": "https://www.garvee.com/collections/clearance-sale"
+    },
+    {
+      "text": "DIY Projects & Ideas",
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "Everything You Need to Know About Rug Sizes and Placement",
+      "url": "https://www.garvee.com/blogs/buying-guides/everything-you-need-to-know-about-rug-sizes-and-placement"
+    },
+    {
+      "text": "Find the Right One for Your Business Needs",
+      "url": "https://www.garvee.com/blogs/buying-guides/utility-cart-buying-guide-finding-the-correct-one-for-your-business-needs"
+    },
+    {
+      "text": "Power Tools Vs. Hand Tools: What You Need to Know",
+      "url": "https://www.garvee.com/blogs/buying-guides/power-tools-vs-hand-tools-what-you-need-to-know"
+    },
+    {
+      "text": "Everything You Should Know About Wine Cooler",
+      "url": "https://www.garvee.com/blogs/buying-guides/everything-you-should-know-about-wine-cooler"
+    },
+    {
+      "text": "Difference Between a Dresser and a Chest of Drawers",
+      "url": "https://www.garvee.com/blogs/buying-guides/what-is-the-difference-between-a-dresser-and-a-chest-of-drawers-a-comprehensive-comparison"
+    },
+    {
+      "text": "Cheap Home Improvement Ideas Boost Your Home's Value",
+      "url": "https://www.garvee.com/blogs/buying-guides/cheap-home-improvement-ideas-boost-your-homes-value-on-a-budget"
+    },
+    {
+      "text": "About Us",
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Rewards & Points",
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "About Garvee",
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Special Outlets",
+      "url": "https://www.garvee.com/collections/clearance-sale?filter.v.availability=1"
+    },
+    {
+      "text": "DIY Projects & Ideas",
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "Terms Of Service",
+      "url": "https://www.garvee.com/policies/terms-of-service"
+    },
+    {
+      "text": "Privacy Policy",
+      "url": "https://www.garvee.com/policies/privacy-policy"
+    },
+    {
+      "text": "Accessibility",
+      "url": "https://www.garvee.com/pages/accessibility-statement "
+    },
+    {
+      "text": "Track Your Order",
+      "url": "https://www.garvee.com/pages/track-your-order"
+    },
+    {
+      "text": "Payments Policy",
+      "url": "https://www.garvee.com/pages/payments-policy"
+    },
+    {
+      "text": "Shipping Policy",
+      "url": "https://www.garvee.com/policies/shipping-policy"
+    },
+    {
+      "text": "Warranty Policy",
+      "url": "https://www.garvee.com/pages/warranty-policy"
+    },
+    {
+      "text": "Refund & Return Policy",
+      "url": "https://www.garvee.com/policies/refund-policy"
+    },
+    {
+      "text": "Worry-Free Purchase",
+      "url": "https://www.garvee.com/pages/carebox-package-protection"
+    },
+    {
+      "text": "Contact Us",
+      "url": "https://www.garvee.com/pages/contact"
+    },
+    {
+      "text": "Affiliate Program",
+      "url": "https://www.garvee.com/pages/affiliate"
+    },
+    {
+      "text": "Influencer Program",
+      "url": "https://www.garvee.com/pages/influencer-program"
+    },
+    {
+      "text": "Share and Win",
+      "url": "https://www.garvee.com/pages/share-and-win"
+    },
+    {
+      "text": "Garvee Rewards",
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "Protection Plans",
+      "url": "https://www.garvee.com/pages/extended-service-protection"
+    },
+    {
+      "text": "Help Center",
+      "url": "https://support.garvee.com/"
+    },
+    {
+      "text": "WholeSale Program",
+      "url": "https://www.garvee.com/pages/business"
+    },
+    {
+      "text": "",
+      "url": "https://www.pinterest.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "url": "https://www.facebook.com/garveeglobal"
+    },
+    {
+      "text": "",
+      "url": "https://www.instagram.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "url": "https://www.youtube.com/channel/UCvt0kZI7qgY2leAZrwI9DKA"
+    },
+    {
+      "text": "",
+      "url": "https://www.tiktok.com/@garvee_official"
+    },
+    {
+      "text": "",
+      "url": "https://www.google.com/storepages?q=garvee.com&c=US&v=19"
+    },
+    {
+      "text": "About Garvee",
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Special Outlets",
+      "url": "https://www.garvee.com/collections/clearance-sale?filter.v.availability=1"
+    },
+    {
+      "text": "DIY Projects & Ideas",
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "Terms Of Service",
+      "url": "https://www.garvee.com/policies/terms-of-service"
+    },
+    {
+      "text": "Privacy Policy",
+      "url": "https://www.garvee.com/policies/privacy-policy"
+    },
+    {
+      "text": "Accessibility",
+      "url": "https://www.garvee.com/pages/accessibility-statement "
+    },
+    {
+      "text": "Track Your Order",
+      "url": "https://www.garvee.com/pages/track-your-order"
+    },
+    {
+      "text": "Payments Policy",
+      "url": "https://www.garvee.com/pages/payments-policy"
+    },
+    {
+      "text": "Shipping Policy",
+      "url": "https://www.garvee.com/policies/shipping-policy"
+    },
+    {
+      "text": "Warranty Policy",
+      "url": "https://www.garvee.com/pages/warranty-policy"
+    },
+    {
+      "text": "Refund & Return Policy",
+      "url": "https://www.garvee.com/policies/refund-policy"
+    },
+    {
+      "text": "Worry-Free Purchase",
+      "url": "https://www.garvee.com/pages/carebox-package-protection"
+    },
+    {
+      "text": "Contact Us",
+      "url": "https://www.garvee.com/pages/contact"
+    },
+    {
+      "text": "Affiliate Program",
+      "url": "https://www.garvee.com/pages/affiliate"
+    },
+    {
+      "text": "Influencer Program",
+      "url": "https://www.garvee.com/pages/influencer-program"
+    },
+    {
+      "text": "Share and Win",
+      "url": "https://www.garvee.com/pages/share-and-win"
+    },
+    {
+      "text": "Garvee Rewards",
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "Protection Plans",
+      "url": "https://www.garvee.com/pages/extended-service-protection"
+    },
+    {
+      "text": "Help Center",
+      "url": "https://support.garvee.com/"
+    },
+    {
+      "text": "WholeSale Program",
+      "url": "https://www.garvee.com/pages/business"
+    },
+    {
+      "text": "",
+      "url": "https://www.pinterest.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "url": "https://www.facebook.com/garveeglobal"
+    },
+    {
+      "text": "",
+      "url": "https://www.instagram.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "url": "https://www.youtube.com/channel/UCvt0kZI7qgY2leAZrwI9DKA"
+    },
+    {
+      "text": "",
+      "url": "https://www.tiktok.com/@garvee_official"
+    },
+    {
+      "text": "",
+      "url": "https://www.google.com/storepages?q=garvee.com&c=US&v=19"
+    },
+    {
+      "text": "Home",
+      "url": "https://www.garvee.com/"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/log-lifting-tongs-4-claw-pho-0zj3"
+    },
+    {
+      "text": "Deals Garvee 28\" 4-Claw Log Lifting Tongs, 5500 lb Static / 4409 lb Dynamic Steel Log Grapple with 32\" Opening for Tractor, ATV, Skid Steer & Forestry",
+      "url": "https://www.garvee.com/products/log-lifting-tongs-4-claw-pho-0zj3"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/log-lifting-tongs-4-claw-pho-0zj3-sold-out-1"
+    },
+    {
+      "text": "Deals Garvee Heavy Duty Log Lifting Tongs: 36 inch 4 Claw Log Grapple for Logging Tongs,Eagle Claws Design , Lumber Skidding Logging Grabber",
+      "url": "https://www.garvee.com/products/log-lifting-tongs-4-claw-pho-0zj3-sold-out-1"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-electric-oil-drain-pan-pau-0hsm"
+    },
+    {
+      "text": "Deals Garvee 20 Gallon Electric Oil Drain Pan with 110V Pump & 8 Ft Hose, Low Profile & T Folding Handle Oil Drain Cart for Truck, Cars, SUVs",
+      "url": "https://www.garvee.com/products/garvee-electric-oil-drain-pan-pau-0hsm"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-42inch-bucket-clamp-pau-0hlgu4qh"
+    },
+    {
+      "text": "Deals GARVEE 42\" Clamp-On Debris Forks, 2500 lb 5-Tine Q235 Steel Attachment with Pull-Out Screws, Fits 42-48\" Buckets",
+      "url": "https://www.garvee.com/products/garvee-42inch-bucket-clamp-pau-0hlgu4qh"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-3-point-quick-hitch-3000-pho-10mk8kti"
+    },
+    {
+      "text": "Deals Garvee 3 Point Quick Hitch 3000 LBS Lifting Capacity Tractor - Orange",
+      "url": "https://www.garvee.com/products/garvee-3-point-quick-hitch-3000-pho-10mk8kti"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-tire-moving-tool-500lbs-heavy-pau-0l5oeo8o"
+    },
+    {
+      "text": "Deals Garvee Heavy Duty Adjustable Tire Wheel Dolly for Workshop, Garage, 500 LBS Capacity, Tire  Moving Tool Dollies for Truck Car Vehicle Tire",
+      "url": "https://www.garvee.com/products/garvee-tire-moving-tool-500lbs-heavy-pau-0l5oeo8o"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-garveelife-pool-vacuum-powerful-suction-pho-134ol06z"
+    },
+    {
+      "text": "Deals Garvee Cordless Pool Vacuum, 18.5 GPM Suction, 60 Min Runtime, Handheld Rechargeable Pool Cleaner with Telescopic Pole, Quick Charge for Above & Inground Pools, Spas & Hot Tubs",
+      "url": "https://www.garvee.com/products/garvee-garveelife-pool-vacuum-powerful-suction-pho-134ol06z"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-espresso-machine-coffee-maker-pst-02tzn2nu"
+    },
+    {
+      "text": "Deals Garvee All-in-One Espresso Machine with Milk Frother, Cappuccino Latte Coffee Maker for Home Barista, Built-In Bean Grinder,85oz Removable Water Tank,Gifts for Dad,Mom,Coffee Lover",
+      "url": "https://www.garvee.com/products/garvee-espresso-machine-coffee-maker-pst-02tzn2nu"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-ultra-lightweight-elderly-transport-wheelchair-pbe-0bz8sff3"
+    },
+    {
+      "text": "Deals Garvee Lightweight Folding Wheelchair for Seniors – Aviation Aluminum, Flip Armrests, Secure Brakes & Spacious Seating for Effortless Mobility, Safe Transfers Indoors & Outdoors, Gray Orange",
+      "url": "https://www.garvee.com/products/garvee-ultra-lightweight-elderly-transport-wheelchair-pbe-0bz8sff3"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-gaomon-60-4000lbs-clamp-on-pho-15g5ugrf"
+    },
+    {
+      "text": "Deals Garvee 60\" 4000 lb Clamp on Pallet Forks Heavy Duty Tractor Forks with Adjustable Stabilizer Bar Quick Attach Pallet Fork for Bucket Tractor Loader Skid Steer",
+      "url": "https://www.garvee.com/products/garvee-gaomon-60-4000lbs-clamp-on-pho-15g5ugrf"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-garveetech-drag-harrow-driveway-grader-pho-15ey5veq"
+    },
+    {
+      "text": "Deals Garvee 8' Drag Harrow Driveway Grader, Heavy-Duty Steel Driveway Drag with 6' Chain for ATV, UTV, Tractor, Gravel, Sand & Soil",
+      "url": "https://www.garvee.com/products/garvee-garveetech-drag-harrow-driveway-grader-pho-15ey5veq"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy"
+    },
+    {
+      "text": "Deals Garvee Bordered Reddish Brown 10x13 Washable Area Rug, Farmhouse Neutral Low Pile Carpet, Stain Resistant Non Slip Soft Rug for Living Room Bedroom Dining Room",
+      "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-43-to-60-4000-lbs-pau-0hkxwowr"
+    },
+    {
+      "text": "Deals Garvee 43\" 2000 LB Fork lift attachments, Clamp on Pallet Forks, Heavy Duty Quick Attach Bucket Fork for Tractor Bucket Loader Skid Steer with Adjustable Stabilizer Bar (13\"-23\")",
+      "url": "https://www.garvee.com/products/garvee-43-to-60-4000-lbs-pau-0hkxwowr"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-clamp-on-debris-forks-42-pho-0xpg5aro"
+    },
+    {
+      "text": "Deals GARVEE 2500 lb Clip-On Debris Forks - Fits 42-48\" Buckets, Heavy-Duty Steel Quick-Mount Forks for Loaders/Skid Steers",
+      "url": "https://www.garvee.com/products/garvee-clamp-on-debris-forks-42-pho-0xpg5aro"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-portable-folding-wheelchair-travel-wheelchair-pbe-0bz7gv85"
+    },
+    {
+      "text": "Deals Garvee Ultra-Light Portable Folding Wheelchair, Travel-Friendly with Handbrake, 220 lbs Capacity, Ideal for Elderly & Children, 35.4\"x21.3\" Unfolded Dimensions",
+      "url": "https://www.garvee.com/products/garvee-portable-folding-wheelchair-travel-wheelchair-pbe-0bz7gv85"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-garveetech-43-2500lbs-clamp-on-pho-15g5s31x"
+    },
+    {
+      "text": "Deals Garvee 43\" 2000 lb Clamp on Pallet Forks Heavy Duty Tractor Forks with Adjustable Stabilizer Bar Quick Attach Pallet Fork for Bucket Tractor Loader Skid Steer",
+      "url": "https://www.garvee.com/products/garvee-garveetech-43-2500lbs-clamp-on-pho-15g5s31x"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-roof-rack-basket-64x39-waterproof-suvs-trucks-pau_0l2u71w9"
+    },
+    {
+      "text": "Deals Garvee 64\"x39\"x6\"  Universal Roof Rack Basket - 200 lbs Capacity Rooftop Cargo Carrier with 21 Cubic Feet Waterproof Luggage Bag (52\"x39\") for SUVs, Trucks, and Vehicles",
+      "url": "https://www.garvee.com/products/garvee-roof-rack-basket-64x39-waterproof-suvs-trucks-pau_0l2u71w9"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/raised-toilet-seat-pho-0xtfkt95"
+    },
+    {
+      "text": "Deals Garvee Raised Toilet Seat with Handles for Seniors, Supports Up to 350lbs, Adjustable Height Toilet Chair for Elderly and Disabled, Adult Potty Chair Bedside Commodes for Seniors",
+      "url": "https://www.garvee.com/products/raised-toilet-seat-pho-0xtfkt95"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-nesting-boxes-for-chickens-6-pho-15fe0p1u"
+    },
+    {
+      "text": "Deals Garvee 6 Compartment Chicken Nesting Boxes, Roll Away Egg Collection Nest Box with Perch and Lid, Green",
+      "url": "https://www.garvee.com/products/garvee-nesting-boxes-for-chickens-6-pho-15fe0p1u"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-wheel-dolly-heavy-duty-adjustable-workshop-pau_0l4jcq9o"
+    },
+    {
+      "text": "Deals Garvee Tire Wheel Dolly, 330 LBS Adjustable Rolling Truck Tire Cart with 9.6in Rollers, 360° Rotation, Fits 6.5-24.5in Wide Tires for Workshop Garage, Orange",
+      "url": "https://www.garvee.com/products/garvee-wheel-dolly-heavy-duty-adjustable-workshop-pau_0l4jcq9o"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/engine-creeper-pau-0hffav4e"
+    },
+    {
+      "text": "Deals Garvee Heavy-Duty Topside Creeper | 400 LBS Capacity & Adjustable Height (47.7\"-65.2\"), Padded Deck with 4 Swivel Casters for Auto Repair and Maintenance , Black",
+      "url": "https://www.garvee.com/products/engine-creeper-pau-0hffav4e"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-24v-ride-on-car-4wd-ptg-334vd46m"
+    },
+    {
+      "text": "Deals Garvee Ride - P Series: 24V Ride On Car, 4WD 2 Seater Kids' Electric Vehicle Truck with Remote Control, Adjustable Footwell Ride On Truck, 3 Speeds, Led Lights, Bluetooth, Pink",
+      "url": "https://www.garvee.com/products/garvee-24v-ride-on-car-4wd-ptg-334vd46m"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-modern-washable-rug-8x10-rug-pho-16kh57tf"
+    },
+    {
+      "text": "Deals Garvee Reddish Brown Washable Bordered Area Rug 8' × 10', Non Slip Low Pile Non Shedding Stain Resistant Rug, Modern Distressed Geometric Rug for Living Room Bedroom Dining Room",
+      "url": "https://www.garvee.com/products/garvee-modern-washable-rug-8x10-rug-pho-16kh57tf"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-3-point-quick-hitch-for-pho-100ag5yn"
+    },
+    {
+      "text": "Deals Garvee 3 Point Quick Hitch for Category 0 & 1 Tractors, 3000 LBS Lift, Heavy-Duty Steel, Easy Install, Dual Receivers, Black, Farm Use",
+      "url": "https://www.garvee.com/products/garvee-3-point-quick-hitch-for-pho-100ag5yn"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-tractor-grab-hooks-heavy-duty-pho-13cabh8e"
+    },
+    {
+      "text": "Deals Garvee Tractor Grab Hooks Heavy Duty Bolt On Compact Tractor Bucket Hooks 2\" Receiver Compatible with John Deere 1025R 2320 2520 2720 2025R 2032R 2038R 3032E 4010 4100 4110 4115 (4100Z)",
+      "url": "https://www.garvee.com/products/garvee-tractor-grab-hooks-heavy-duty-pho-13cabh8e"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-washable-area-rugs-9x12-living-pho-16khd6hv"
+    },
+    {
+      "text": "Deals Garvee Bordered Reddish Brown 9x12 Washable Area Rug – Modern Solid Design, Stain-Resistant, Low-Pile, Non-Slip Carpet for Living Room, Bedroom, or Dining Room",
+      "url": "https://www.garvee.com/products/garvee-washable-area-rugs-9x12-living-pho-16khd6hv"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-heavy-duty-dog-ramp-for-cars-71-20-inches-pps-333h4j3p"
+    },
+    {
+      "text": "Garvee Upgraded Heavy Duty Dog Ramp for Cars, 71\" x20\" Folding Pet Ramp for Large Dogs with Non-Slip Surface Portable Dog Car Ramp for SUV Car, RVs & Truck, Outdoor Dog Ramp Up to 300 LBS",
+      "url": "https://www.garvee.com/products/garvee-heavy-duty-dog-ramp-for-cars-71-20-inches-pps-333h4j3p"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/miter-saw-stand-pho_0ypep6dd"
+    },
+    {
+      "text": "Deals Garvee 440Lbs Portable Miter Saw Stand, Folding Universal Saw Stand, 76-4/5'' Adjustable Stainless Steel Table, Compatible with Most Table Saws",
+      "url": "https://www.garvee.com/products/miter-saw-stand-pho_0ypep6dd"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-foldable-topside-automotive-creeper-45-pae-336qtyp8"
+    },
+    {
+      "text": "Deals Garvee Foldable Topside Automotive Creeper, 45.7\"-66.3\" Adjustable Height 400lbs Capacity Engine Creeper with Padded Deck & Locking Swivel Casters for Garage Workshop Repair Maintenance, H-Base",
+      "url": "https://www.garvee.com/products/garvee-foldable-topside-automotive-creeper-45-pae-336qtyp8"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-all-terrain-2-in-1-pou-0agjye1g"
+    },
+    {
+      "text": "Deals Garvee 2-in-1 Rollator Walker & Transport Wheelchair | 300lbs Capacity | Adjustable Height Mobility Aid for Seniors with Padded Seat & Foldable Footrest, Blue",
+      "url": "https://www.garvee.com/products/garvee-all-terrain-2-in-1-pou-0agjye1g"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-6ft-drag-harrow-for-atv-pho-15eyonh3"
+    },
+    {
+      "text": "Deals Garvee 6FT Drag Harrow Driveway Grader for ATV, UTV & Tractor, Heavy-Duty Steel Tow Behind Landscape Rake with 6FT Chain for Gravel, Soil, Yard & Field Leveling",
+      "url": "https://www.garvee.com/products/garvee-6ft-drag-harrow-for-atv-pho-15eyonh3"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-automotive-engine-creeper-adjustable-height-pae-33cavve3"
+    },
+    {
+      "text": "Deals Garvee Automotive Engine Creeper, 48-66\" Adjustable Height, Foldable Steel Frame Thick Cushion 6 Swivel Wheels Tool Pouch for Car Repair, Black",
+      "url": "https://www.garvee.com/products/garvee-automotive-engine-creeper-adjustable-height-pae-33cavve3"
+    },
+    {
+      "text": "Deals Garvee 28\" 4-Claw Log Lifting Tongs, 5500 lb Static / 4409 lb Dynamic Steel Log Grapple with 32\" Opening for Tractor, ATV, Skid Steer & Forestry ( 132 ) $ 113 99 In Stock Delivery: as soon as Sat. Nov. 07 Add to cart",
+      "url": "https://www.garvee.com/products/log-lifting-tongs-4-claw-pho-0zj3"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/log-lifting-tongs-4-claw-pho-0zj3"
+    },
+    {
+      "text": "Deals Garvee 28\" 4-Claw Log Lifting Tongs, 5500 lb Static / 4409 lb Dynamic Steel Log Grapple with 32\" Opening for Tractor, ATV, Skid Steer & Forestry",
+      "url": "https://www.garvee.com/products/log-lifting-tongs-4-claw-pho-0zj3"
+    },
+    {
+      "text": "Deals Garvee Heavy Duty Log Lifting Tongs: 36 inch 4 Claw Log Grapple for Logging Tongs,Eagle Claws Design , Lumber Skidding Logging Grabber ( 132 ) $ 123 99 In Stock Delivery: as soon as Sat. Nov. 07 Add to cart",
+      "url": "https://www.garvee.com/products/log-lifting-tongs-4-claw-pho-0zj3-sold-out-1"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/log-lifting-tongs-4-claw-pho-0zj3-sold-out-1"
+    },
+    {
+      "text": "Deals Garvee Heavy Duty Log Lifting Tongs: 36 inch 4 Claw Log Grapple for Logging Tongs,Eagle Claws Design , Lumber Skidding Logging Grabber",
+      "url": "https://www.garvee.com/products/log-lifting-tongs-4-claw-pho-0zj3-sold-out-1"
+    },
+    {
+      "text": "Deals Garvee 20 Gallon Electric Oil Drain Pan with 110V Pump & 8 Ft Hose, Low Profile & T Folding Handle Oil Drain Cart for Truck, Cars, SUVs ( 368 ) $ 160 99 $20 with coupon In Stock Delivery: as soon as Sat. Nov. 07 Add to cart",
+      "url": "https://www.garvee.com/products/garvee-electric-oil-drain-pan-pau-0hsm"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-electric-oil-drain-pan-pau-0hsm"
+    },
+    {
+      "text": "Deals Garvee 20 Gallon Electric Oil Drain Pan with 110V Pump & 8 Ft Hose, Low Profile & T Folding Handle Oil Drain Cart for Truck, Cars, SUVs",
+      "url": "https://www.garvee.com/products/garvee-electric-oil-drain-pan-pau-0hsm"
+    },
+    {
+      "text": "Deals GARVEE 42\" Clamp-On Debris Forks, 2500 lb 5-Tine Q235 Steel Attachment with Pull-Out Screws, Fits 42-48\" Buckets ( 127 ) $ 186 99 In Stock Delivery: as soon as Sat. Nov. 07 Add to cart",
+      "url": "https://www.garvee.com/products/garvee-42inch-bucket-clamp-pau-0hlgu4qh"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-42inch-bucket-clamp-pau-0hlgu4qh"
+    },
+    {
+      "text": "Deals GARVEE 42\" Clamp-On Debris Forks, 2500 lb 5-Tine Q235 Steel Attachment with Pull-Out Screws, Fits 42-48\" Buckets",
+      "url": "https://www.garvee.com/products/garvee-42inch-bucket-clamp-pau-0hlgu4qh"
+    },
+    {
+      "text": "Deals Garvee 3 Point Quick Hitch 3000 LBS Lifting Capacity Tractor - Orange ( 126 ) $ 157 99 In Stock Delivery: as soon as Sat. Nov. 07 Add to cart",
+      "url": "https://www.garvee.com/products/garvee-3-point-quick-hitch-3000-pho-10mk8kti"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-3-point-quick-hitch-3000-pho-10mk8kti"
+    },
+    {
+      "text": "Deals Garvee 3 Point Quick Hitch 3000 LBS Lifting Capacity Tractor - Orange",
+      "url": "https://www.garvee.com/products/garvee-3-point-quick-hitch-3000-pho-10mk8kti"
+    },
+    {
+      "text": "Deals Garvee Heavy Duty Adjustable Tire Wheel Dolly for Workshop, Garage, 500 LBS Capacity, Tire  Moving Tool Dollies for Truck Car Vehicle Tire ( 278 ) $ 89 99 $20 with coupon In Stock Delivery: as soon as Sat. Nov. 07 Add to cart",
+      "url": "https://www.garvee.com/products/garvee-tire-moving-tool-500lbs-heavy-pau-0l5oeo8o"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-tire-moving-tool-500lbs-heavy-pau-0l5oeo8o"
+    },
+    {
+      "text": "Deals Garvee Heavy Duty Adjustable Tire Wheel Dolly for Workshop, Garage, 500 LBS Capacity, Tire  Moving Tool Dollies for Truck Car Vehicle Tire",
+      "url": "https://www.garvee.com/products/garvee-tire-moving-tool-500lbs-heavy-pau-0l5oeo8o"
+    },
+    {
+      "text": "Deals Garvee Cordless Pool Vacuum, 18.5 GPM Suction, 60 Min Runtime, Handheld Rechargeable Pool Cleaner with Telescopic Pole, Quick Charge for Above & Inground Pools, Spas & Hot Tubs ( 97 ) $ 112 99 In Stock Delivery: as soon as Sat. Nov. 07 Add to cart",
+      "url": "https://www.garvee.com/products/garvee-garveelife-pool-vacuum-powerful-suction-pho-134ol06z"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-garveelife-pool-vacuum-powerful-suction-pho-134ol06z"
+    },
+    {
+      "text": "Deals Garvee Cordless Pool Vacuum, 18.5 GPM Suction, 60 Min Runtime, Handheld Rechargeable Pool Cleaner with Telescopic Pole, Quick Charge for Above & Inground Pools, Spas & Hot Tubs",
+      "url": "https://www.garvee.com/products/garvee-garveelife-pool-vacuum-powerful-suction-pho-134ol06z"
+    },
+    {
+      "text": "Deals Garvee All-in-One Espresso Machine with Milk Frother, Cappuccino Latte Coffee Maker for Home Barista, Built-In Bean Grinder,85oz Removable Water Tank,Gifts for Dad,Mom,Coffee Lover ( 547 ) $ 314 99 In Stock Delivery: as soon as Sat. Nov. 07 Add to cart",
+      "url": "https://www.garvee.com/products/garvee-espresso-machine-coffee-maker-pst-02tzn2nu"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-espresso-machine-coffee-maker-pst-02tzn2nu"
+    },
+    {
+      "text": "Deals Garvee All-in-One Espresso Machine with Milk Frother, Cappuccino Latte Coffee Maker for Home Barista, Built-In Bean Grinder,85oz Removable Water Tank,Gifts for Dad,Mom,Coffee Lover",
+      "url": "https://www.garvee.com/products/garvee-espresso-machine-coffee-maker-pst-02tzn2nu"
+    },
+    {
+      "text": "Deals Garvee Lightweight Folding Wheelchair for Seniors – Aviation Aluminum, Flip Armrests, Secure Brakes & Spacious Seating for Effortless Mobility, Safe Transfers Indoors & Outdoors, Gray Orange ( 491 ) $ 189 99 In Stock Delivery: as soon as Sat. Nov. 07 Add to cart",
+      "url": "https://www.garvee.com/products/garvee-ultra-lightweight-elderly-transport-wheelchair-pbe-0bz8sff3"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-ultra-lightweight-elderly-transport-wheelchair-pbe-0bz8sff3"
+    },
+    {
+      "text": "Deals Garvee Lightweight Folding Wheelchair for Seniors – Aviation Aluminum, Flip Armrests, Secure Brakes & Spacious Seating for Effortless Mobility, Safe Transfers Indoors & Outdoors, Gray Orange",
+      "url": "https://www.garvee.com/products/garvee-ultra-lightweight-elderly-transport-wheelchair-pbe-0bz8sff3"
+    },
+    {
+      "text": "Deals Garvee 60\" 4000 lb Clamp on Pallet Forks Heavy Duty Tractor Forks with Adjustable Stabilizer Bar Quick Attach Pallet Fork for Bucket Tractor Loader Skid Steer ( 136 ) $ 148 99 In Stock Delivery: as soon as Sat. Nov. 07 Add to cart",
+      "url": "https://www.garvee.com/products/garvee-gaomon-60-4000lbs-clamp-on-pho-15g5ugrf"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-gaomon-60-4000lbs-clamp-on-pho-15g5ugrf"
+    },
+    {
+      "text": "Deals Garvee 60\" 4000 lb Clamp on Pallet Forks Heavy Duty Tractor Forks with Adjustable Stabilizer Bar Quick Attach Pallet Fork for Bucket Tractor Loader Skid Steer",
+      "url": "https://www.garvee.com/products/garvee-gaomon-60-4000lbs-clamp-on-pho-15g5ugrf"
+    },
+    {
+      "text": "Deals Garvee 8' Drag Harrow Driveway Grader, Heavy-Duty Steel Driveway Drag with 6' Chain for ATV, UTV, Tractor, Gravel, Sand & Soil ( 282 ) $ 137 99 In Stock Delivery: as soon as Sat. Nov. 07 Add to cart",
+      "url": "https://www.garvee.com/products/garvee-garveetech-drag-harrow-driveway-grader-pho-15ey5veq"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-garveetech-drag-harrow-driveway-grader-pho-15ey5veq"
+    },
+    {
+      "text": "Deals Garvee 8' Drag Harrow Driveway Grader, Heavy-Duty Steel Driveway Drag with 6' Chain for ATV, UTV, Tractor, Gravel, Sand & Soil",
+      "url": "https://www.garvee.com/products/garvee-garveetech-drag-harrow-driveway-grader-pho-15ey5veq"
+    },
+    {
+      "text": "Deals Garvee Bordered Reddish Brown 10x13 Washable Area Rug, Farmhouse Neutral Low Pile Carpet, Stain Resistant Non Slip Soft Rug for Living Room Bedroom Dining Room ( 200 ) $ 127 99 $20 with coupon In Stock Delivery: as soon as Sat. Nov. 07 Add to cart",
+      "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy"
+    },
+    {
+      "text": "Deals Garvee Bordered Reddish Brown 10x13 Washable Area Rug, Farmhouse Neutral Low Pile Carpet, Stain Resistant Non Slip Soft Rug for Living Room Bedroom Dining Room",
+      "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy"
+    },
+    {
+      "text": "Deals Garvee 43\" 2000 LB Fork lift attachments, Clamp on Pallet Forks, Heavy Duty Quick Attach Bucket Fork for Tractor Bucket Loader Skid Steer with Adjustable Stabilizer Bar (13\"-23\") ( 248 ) $ 119 99 In Stock Delivery: as soon as Sat. Nov. 07 Add to cart",
+      "url": "https://www.garvee.com/products/garvee-43-to-60-4000-lbs-pau-0hkxwowr"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-43-to-60-4000-lbs-pau-0hkxwowr"
+    },
+    {
+      "text": "Deals Garvee 43\" 2000 LB Fork lift attachments, Clamp on Pallet Forks, Heavy Duty Quick Attach Bucket Fork for Tractor Bucket Loader Skid Steer with Adjustable Stabilizer Bar (13\"-23\")",
+      "url": "https://www.garvee.com/products/garvee-43-to-60-4000-lbs-pau-0hkxwowr"
+    },
+    {
+      "text": "Deals GARVEE 2500 lb Clip-On Debris Forks - Fits 42-48\" Buckets, Heavy-Duty Steel Quick-Mount Forks for Loaders/Skid Steers ( 92 ) $ 179 99 In Stock Delivery: as soon as Sat. Nov. 07 Add to cart",
+      "url": "https://www.garvee.com/products/garvee-clamp-on-debris-forks-42-pho-0xpg5aro"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-clamp-on-debris-forks-42-pho-0xpg5aro"
+    },
+    {
+      "text": "Deals GARVEE 2500 lb Clip-On Debris Forks - Fits 42-48\" Buckets, Heavy-Duty Steel Quick-Mount Forks for Loaders/Skid Steers",
+      "url": "https://www.garvee.com/products/garvee-clamp-on-debris-forks-42-pho-0xpg5aro"
+    },
+    {
+      "text": "Deals Garvee Ultra-Light Portable Folding Wheelchair, Travel-Friendly with Handbrake, 220 lbs Capacity, Ideal for Elderly & Children, 35.4\"x21.3\" Unfolded Dimensions ( 491 ) $ 170 99 In Stock Delivery: as soon as Sat. Nov. 07 Add to cart",
+      "url": "https://www.garvee.com/products/garvee-portable-folding-wheelchair-travel-wheelchair-pbe-0bz7gv85"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-portable-folding-wheelchair-travel-wheelchair-pbe-0bz7gv85"
+    },
+    {
+      "text": "Deals Garvee Ultra-Light Portable Folding Wheelchair, Travel-Friendly with Handbrake, 220 lbs Capacity, Ideal for Elderly & Children, 35.4\"x21.3\" Unfolded Dimensions",
+      "url": "https://www.garvee.com/products/garvee-portable-folding-wheelchair-travel-wheelchair-pbe-0bz7gv85"
+    },
+    {
+      "text": "Deals Garvee 43\" 2000 lb Clamp on Pallet Forks Heavy Duty Tractor Forks with Adjustable Stabilizer Bar Quick Attach Pallet Fork for Bucket Tractor Loader Skid Steer ( 136 ) $ 93 99 In Stock Delivery: as soon as Sat. Nov. 07 Add to cart",
+      "url": "https://www.garvee.com/products/garvee-garveetech-43-2500lbs-clamp-on-pho-15g5s31x"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-garveetech-43-2500lbs-clamp-on-pho-15g5s31x"
+    },
+    {
+      "text": "Deals Garvee 43\" 2000 lb Clamp on Pallet Forks Heavy Duty Tractor Forks with Adjustable Stabilizer Bar Quick Attach Pallet Fork for Bucket Tractor Loader Skid Steer",
+      "url": "https://www.garvee.com/products/garvee-garveetech-43-2500lbs-clamp-on-pho-15g5s31x"
+    },
+    {
+      "text": "Deals Garvee 64\"x39\"x6\"  Universal Roof Rack Basket - 200 lbs Capacity Rooftop Cargo Carrier with 21 Cubic Feet Waterproof Luggage Bag (52\"x39\") for SUVs, Trucks, and Vehicles ( 474 ) $ 225 99 $20 with coupon In Stock Delivery: as soon as Sat. Nov. 07 Add to cart",
+      "url": "https://www.garvee.com/products/garvee-roof-rack-basket-64x39-waterproof-suvs-trucks-pau_0l2u71w9"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-roof-rack-basket-64x39-waterproof-suvs-trucks-pau_0l2u71w9"
+    },
+    {
+      "text": "Deals Garvee 64\"x39\"x6\"  Universal Roof Rack Basket - 200 lbs Capacity Rooftop Cargo Carrier with 21 Cubic Feet Waterproof Luggage Bag (52\"x39\") for SUVs, Trucks, and Vehicles",
+      "url": "https://www.garvee.com/products/garvee-roof-rack-basket-64x39-waterproof-suvs-trucks-pau_0l2u71w9"
+    },
+    {
+      "text": "Deals Garvee Raised Toilet Seat with Handles for Seniors, Supports Up to 350lbs, Adjustable Height Toilet Chair for Elderly and Disabled, Adult Potty Chair Bedside Commodes for Seniors ( 220 ) $ 63 99 $20 with coupon In Stock Delivery: as soon as Sat. Nov. 07 Add to cart",
+      "url": "https://www.garvee.com/products/raised-toilet-seat-pho-0xtfkt95"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/raised-toilet-seat-pho-0xtfkt95"
+    },
+    {
+      "text": "Deals Garvee Raised Toilet Seat with Handles for Seniors, Supports Up to 350lbs, Adjustable Height Toilet Chair for Elderly and Disabled, Adult Potty Chair Bedside Commodes for Seniors",
+      "url": "https://www.garvee.com/products/raised-toilet-seat-pho-0xtfkt95"
+    },
+    {
+      "text": "Deals Garvee 6 Compartment Chicken Nesting Boxes, Roll Away Egg Collection Nest Box with Perch and Lid, Green ( 262 ) $ 93 99 In Stock Delivery: as soon as Sat. Nov. 07 Add to cart",
+      "url": "https://www.garvee.com/products/garvee-nesting-boxes-for-chickens-6-pho-15fe0p1u"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-nesting-boxes-for-chickens-6-pho-15fe0p1u"
+    },
+    {
+      "text": "Deals Garvee 6 Compartment Chicken Nesting Boxes, Roll Away Egg Collection Nest Box with Perch and Lid, Green",
+      "url": "https://www.garvee.com/products/garvee-nesting-boxes-for-chickens-6-pho-15fe0p1u"
+    },
+    {
+      "text": "Deals Garvee Tire Wheel Dolly, 330 LBS Adjustable Rolling Truck Tire Cart with 9.6in Rollers, 360° Rotation, Fits 6.5-24.5in Wide Tires for Workshop Garage, Orange ( 278 ) $ 75 99 $20 with coupon In Stock Delivery: as soon as Sat. Nov. 07 Add to cart",
+      "url": "https://www.garvee.com/products/garvee-wheel-dolly-heavy-duty-adjustable-workshop-pau_0l4jcq9o"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-wheel-dolly-heavy-duty-adjustable-workshop-pau_0l4jcq9o"
+    },
+    {
+      "text": "Deals Garvee Tire Wheel Dolly, 330 LBS Adjustable Rolling Truck Tire Cart with 9.6in Rollers, 360° Rotation, Fits 6.5-24.5in Wide Tires for Workshop Garage, Orange",
+      "url": "https://www.garvee.com/products/garvee-wheel-dolly-heavy-duty-adjustable-workshop-pau_0l4jcq9o"
+    },
+    {
+      "text": "Deals Garvee Heavy-Duty Topside Creeper | 400 LBS Capacity & Adjustable Height (47.7\"-65.2\"), Padded Deck with 4 Swivel Casters for Auto Repair and Maintenance , Black ( 712 ) $ 202 99 $20 with coupon In Stock Delivery: as soon as Sat. Nov. 07 Add to cart",
+      "url": "https://www.garvee.com/products/engine-creeper-pau-0hffav4e"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/engine-creeper-pau-0hffav4e"
+    },
+    {
+      "text": "Deals Garvee Heavy-Duty Topside Creeper | 400 LBS Capacity & Adjustable Height (47.7\"-65.2\"), Padded Deck with 4 Swivel Casters for Auto Repair and Maintenance , Black",
+      "url": "https://www.garvee.com/products/engine-creeper-pau-0hffav4e"
+    },
+    {
+      "text": "Deals Garvee Ride - P Series: 24V Ride On Car, 4WD 2 Seater Kids' Electric Vehicle Truck with Remote Control, Adjustable Footwell Ride On Truck, 3 Speeds, Led Lights, Bluetooth, Pink ( 136 ) $ 369 99 In Stock Delivery: as soon as Sat. Nov. 07 Add to cart",
+      "url": "https://www.garvee.com/products/garvee-24v-ride-on-car-4wd-ptg-334vd46m"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-24v-ride-on-car-4wd-ptg-334vd46m"
+    },
+    {
+      "text": "Deals Garvee Ride - P Series: 24V Ride On Car, 4WD 2 Seater Kids' Electric Vehicle Truck with Remote Control, Adjustable Footwell Ride On Truck, 3 Speeds, Led Lights, Bluetooth, Pink",
+      "url": "https://www.garvee.com/products/garvee-24v-ride-on-car-4wd-ptg-334vd46m"
+    },
+    {
+      "text": "Deals Garvee Reddish Brown Washable Bordered Area Rug 8' × 10', Non Slip Low Pile Non Shedding Stain Resistant Rug, Modern Distressed Geometric Rug for Living Room Bedroom Dining Room ( 200 ) $ 84 99 $20 with coupon In Stock Delivery: as soon as Sat. Nov. 07 Add to cart",
+      "url": "https://www.garvee.com/products/garvee-modern-washable-rug-8x10-rug-pho-16kh57tf"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-modern-washable-rug-8x10-rug-pho-16kh57tf"
+    },
+    {
+      "text": "Deals Garvee Reddish Brown Washable Bordered Area Rug 8' × 10', Non Slip Low Pile Non Shedding Stain Resistant Rug, Modern Distressed Geometric Rug for Living Room Bedroom Dining Room",
+      "url": "https://www.garvee.com/products/garvee-modern-washable-rug-8x10-rug-pho-16kh57tf"
+    },
+    {
+      "text": "Deals Garvee 3 Point Quick Hitch for Category 0 & 1 Tractors, 3000 LBS Lift, Heavy-Duty Steel, Easy Install, Dual Receivers, Black, Farm Use ( 141 ) $ 188 99 In Stock Delivery: as soon as Sat. Nov. 07 Add to cart",
+      "url": "https://www.garvee.com/products/garvee-3-point-quick-hitch-for-pho-100ag5yn"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-3-point-quick-hitch-for-pho-100ag5yn"
+    },
+    {
+      "text": "Deals Garvee 3 Point Quick Hitch for Category 0 & 1 Tractors, 3000 LBS Lift, Heavy-Duty Steel, Easy Install, Dual Receivers, Black, Farm Use",
+      "url": "https://www.garvee.com/products/garvee-3-point-quick-hitch-for-pho-100ag5yn"
+    },
+    {
+      "text": "Deals Garvee Tractor Grab Hooks Heavy Duty Bolt On Compact Tractor Bucket Hooks 2\" Receiver Compatible with John Deere 1025R 2320 2520 2720 2025R 2032R 2038R 3032E 4010 4100 4110 4115 (4100Z) ( 69 ) $ 45 99 In Stock Delivery: as soon as Sat. Nov. 07 Add to cart",
+      "url": "https://www.garvee.com/products/garvee-tractor-grab-hooks-heavy-duty-pho-13cabh8e"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-tractor-grab-hooks-heavy-duty-pho-13cabh8e"
+    },
+    {
+      "text": "Deals Garvee Tractor Grab Hooks Heavy Duty Bolt On Compact Tractor Bucket Hooks 2\" Receiver Compatible with John Deere 1025R 2320 2520 2720 2025R 2032R 2038R 3032E 4010 4100 4110 4115 (4100Z)",
+      "url": "https://www.garvee.com/products/garvee-tractor-grab-hooks-heavy-duty-pho-13cabh8e"
+    },
+    {
+      "text": "Deals Garvee Bordered Reddish Brown 9x12 Washable Area Rug – Modern Solid Design, Stain-Resistant, Low-Pile, Non-Slip Carpet for Living Room, Bedroom, or Dining Room ( 200 ) $ 114 99 $20 with coupon In Stock Delivery: as soon as Sat. Nov. 07 Add to cart",
+      "url": "https://www.garvee.com/products/garvee-washable-area-rugs-9x12-living-pho-16khd6hv"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-washable-area-rugs-9x12-living-pho-16khd6hv"
+    },
+    {
+      "text": "Deals Garvee Bordered Reddish Brown 9x12 Washable Area Rug – Modern Solid Design, Stain-Resistant, Low-Pile, Non-Slip Carpet for Living Room, Bedroom, or Dining Room",
+      "url": "https://www.garvee.com/products/garvee-washable-area-rugs-9x12-living-pho-16khd6hv"
+    },
+    {
+      "text": "Garvee Upgraded Heavy Duty Dog Ramp for Cars, 71\" x20\" Folding Pet Ramp for Large Dogs with Non-Slip Surface Portable Dog Car Ramp for SUV Car, RVs & Truck, Outdoor Dog Ramp Up to 300 LBS ( 115 ) $ 114 99 In Stock Delivery: as soon as Sat. Nov. 07 Add to cart",
+      "url": "https://www.garvee.com/products/garvee-heavy-duty-dog-ramp-for-cars-71-20-inches-pps-333h4j3p"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-heavy-duty-dog-ramp-for-cars-71-20-inches-pps-333h4j3p"
+    },
+    {
+      "text": "Garvee Upgraded Heavy Duty Dog Ramp for Cars, 71\" x20\" Folding Pet Ramp for Large Dogs with Non-Slip Surface Portable Dog Car Ramp for SUV Car, RVs & Truck, Outdoor Dog Ramp Up to 300 LBS",
+      "url": "https://www.garvee.com/products/garvee-heavy-duty-dog-ramp-for-cars-71-20-inches-pps-333h4j3p"
+    },
+    {
+      "text": "Deals Garvee 440Lbs Portable Miter Saw Stand, Folding Universal Saw Stand, 76-4/5'' Adjustable Stainless Steel Table, Compatible with Most Table Saws ( 195 ) $ 95 99 $20 with coupon In Stock Delivery: as soon as Sat. Nov. 07 Add to cart",
+      "url": "https://www.garvee.com/products/miter-saw-stand-pho_0ypep6dd"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/miter-saw-stand-pho_0ypep6dd"
+    },
+    {
+      "text": "Deals Garvee 440Lbs Portable Miter Saw Stand, Folding Universal Saw Stand, 76-4/5'' Adjustable Stainless Steel Table, Compatible with Most Table Saws",
+      "url": "https://www.garvee.com/products/miter-saw-stand-pho_0ypep6dd"
+    },
+    {
+      "text": "Deals Garvee Foldable Topside Automotive Creeper, 45.7\"-66.3\" Adjustable Height 400lbs Capacity Engine Creeper with Padded Deck & Locking Swivel Casters for Garage Workshop Repair Maintenance, H-Base ( 712 ) $ 192 99 $20 with coupon In Stock Delivery: as soon as Sat. Nov. 07 Add to cart",
+      "url": "https://www.garvee.com/products/garvee-foldable-topside-automotive-creeper-45-pae-336qtyp8"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-foldable-topside-automotive-creeper-45-pae-336qtyp8"
+    },
+    {
+      "text": "Deals Garvee Foldable Topside Automotive Creeper, 45.7\"-66.3\" Adjustable Height 400lbs Capacity Engine Creeper with Padded Deck & Locking Swivel Casters for Garage Workshop Repair Maintenance, H-Base",
+      "url": "https://www.garvee.com/products/garvee-foldable-topside-automotive-creeper-45-pae-336qtyp8"
+    },
+    {
+      "text": "Deals Garvee 2-in-1 Rollator Walker & Transport Wheelchair | 300lbs Capacity | Adjustable Height Mobility Aid for Seniors with Padded Seat & Foldable Footrest, Blue ( 333 ) $ 91 99 In Stock Delivery: as soon as Sat. Nov. 07 Add to cart",
+      "url": "https://www.garvee.com/products/garvee-all-terrain-2-in-1-pou-0agjye1g"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-all-terrain-2-in-1-pou-0agjye1g"
+    },
+    {
+      "text": "Deals Garvee 2-in-1 Rollator Walker & Transport Wheelchair | 300lbs Capacity | Adjustable Height Mobility Aid for Seniors with Padded Seat & Foldable Footrest, Blue",
+      "url": "https://www.garvee.com/products/garvee-all-terrain-2-in-1-pou-0agjye1g"
+    },
+    {
+      "text": "Deals Garvee 6FT Drag Harrow Driveway Grader for ATV, UTV & Tractor, Heavy-Duty Steel Tow Behind Landscape Rake with 6FT Chain for Gravel, Soil, Yard & Field Leveling ( 282 ) $ 118 99 In Stock Delivery: as soon as Sat. Nov. 07 Add to cart",
+      "url": "https://www.garvee.com/products/garvee-6ft-drag-harrow-for-atv-pho-15eyonh3"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-6ft-drag-harrow-for-atv-pho-15eyonh3"
+    },
+    {
+      "text": "Deals Garvee 6FT Drag Harrow Driveway Grader for ATV, UTV & Tractor, Heavy-Duty Steel Tow Behind Landscape Rake with 6FT Chain for Gravel, Soil, Yard & Field Leveling",
+      "url": "https://www.garvee.com/products/garvee-6ft-drag-harrow-for-atv-pho-15eyonh3"
+    },
+    {
+      "text": "Deals Garvee Automotive Engine Creeper, 48-66\" Adjustable Height, Foldable Steel Frame Thick Cushion 6 Swivel Wheels Tool Pouch for Car Repair, Black ( 712 ) $ 184 99 $20 with coupon In Stock Delivery: as soon as Sat. Nov. 07 Add to cart",
+      "url": "https://www.garvee.com/products/garvee-automotive-engine-creeper-adjustable-height-pae-33cavve3"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-automotive-engine-creeper-adjustable-height-pae-33cavve3"
+    },
+    {
+      "text": "Deals Garvee Automotive Engine Creeper, 48-66\" Adjustable Height, Foldable Steel Frame Thick Cushion 6 Swivel Wheels Tool Pouch for Car Repair, Black",
+      "url": "https://www.garvee.com/products/garvee-automotive-engine-creeper-adjustable-height-pae-33cavve3"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/collections/clearance-sale?filter.v.availability=1&after=eyJsYXN0X3ZhbHVlIjoiMzEiLCJsYXN0X2lkIjo5OTU0NTQ1MzY5NDAxLCJvZmZzZXQiOjMxfQ%3D%3D"
+    }
+  ],
+  "main_text": ""
+}

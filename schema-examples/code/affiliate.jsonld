@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.garvee.com/#organization",
+      "name": "GARVEE",
+      "url": "https://www.garvee.com/"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.garvee.com/pages/affiliate#service",
+      "name": "Garvee Affiliate Program",
+      "url": "https://www.garvee.com/pages/affiliate",
+      "serviceType": "Garvee Affiliate Program",
+      "provider": {
+        "@id": "https://www.garvee.com/#organization"
+      },
+      "description": "Join the GARVEE Affiliate Program and earn competitive commissions by partnering with us."
+    },
+    {
+      "@type": "WebPageElement",
+      "@id": "https://www.garvee.com/pages/affiliate#faq",
+      "name": "Frequently asked questions",
+      "hasPart": [
+        {
+          "@type": "Question",
+          "name": "Q：Who can join the Garvee affiliate program?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We welcome all website operators who operate friendly websites (Do not involve pornography, gambling and drugs) and mainly have a US audience to join. But they must abide by the terms and conditions of the program."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Q：Are there any fees or costs for becoming a member of Garvee Affiliate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, we promise it is completely free to become a publisher through our Advertising Affiliate Network and there will be no costs during your affiliate marketing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Q：How often are commissions paid?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can get your commissions which according to your previous month sales once a month; and the commission rate you get is based on your total sales in the previous quarter."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Q：Will Garvee provide promotion banners or text links?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, of course. We will update promotion banners and text links every week in order to make our publishers get better click-through rate and conversions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Q：How many products, banners, text links and other creatives can I place on my site?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It's up to you. Actually, after investigation, we found that a creative banner along with a text link can effectively increase the user's click-through rate and conversion rate, so we encourage you to use as much creative content as necessary and appropriate for your affiliate marketing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Q：Can I use Garvee graphics and content from the target website?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The entire Garvee website and contents are protected by copyright. You can use the images and contents on our website to promote products on your own website, but all images must be used in product sales through the affiliate program and attributed to us. If you have special circumstances that need to use any graphics, product images or content in a manner that is inconsistent with the above, you must contact us for written approval before using any such content."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.garvee.com/pages/affiliate#webpage",
+      "url": "https://www.garvee.com/pages/affiliate",
+      "name": "Affiliate | GARVEE",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://www.garvee.com/#website"
+      },
+      "description": "Join the GARVEE Affiliate Program and earn competitive commissions by partnering with us.",
+      "mainEntity": {
+        "@id": "https://www.garvee.com/pages/affiliate#service"
+      },
+      "hasPart": {
+        "@id": "https://www.garvee.com/pages/affiliate#faq"
+      }
+    }
+  ]
+}

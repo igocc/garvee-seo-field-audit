@@ -1,0 +1,734 @@
+[
+  {
+    "file": "evidence/about-garvee.browser.html",
+    "original_sha256": "43727dd5f848232e5935c0719edf62a79a55bef1dc2dafcd2067c78afd5df923",
+    "public_sha256": "02250affc6929c051c46eb5cefe8e7c62f5b6a1c1e2c0e7b23a01864ffb6ace6",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/about-garvee.browser.json",
+    "original_sha256": "8a22399a27588a0fb7c5bdda8ad32a8e1a4eaa7a5d0c02a8b7861401ee6fe4b2",
+    "public_sha256": "8a22399a27588a0fb7c5bdda8ad32a8e1a4eaa7a5d0c02a8b7861401ee6fe4b2",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/about-garvee.html",
+    "original_sha256": "29d636060c1767f7d9d46811d182dc1cad259dfb33eb6ba16ee815d8c795d7c8",
+    "public_sha256": "34409d544650bbb1f293b1db8231bf814f9a26ddb2e135cf466ed88c2060f4cd",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/about-garvee.json",
+    "original_sha256": "eb13d4743becfb3dc52ed88109ddd96bf098480c62575de7e346f334da9902b2",
+    "public_sha256": "eb13d4743becfb3dc52ed88109ddd96bf098480c62575de7e346f334da9902b2",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/accessibility-statement.browser.html",
+    "original_sha256": "0c225631b9ac7b9e39b33093a6552a8ea524c958965647bc4f6cff7875ea4512",
+    "public_sha256": "407f11abe3ac26555f33e04085964d3d41353d189477f3b0b154f43c1a771193",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/accessibility-statement.browser.json",
+    "original_sha256": "aae1069e4c3d106b4a76652d8d867c26c6ef0853c1ec4a5a878a1bd19f008c4e",
+    "public_sha256": "aae1069e4c3d106b4a76652d8d867c26c6ef0853c1ec4a5a878a1bd19f008c4e",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/accessibility-statement.html",
+    "original_sha256": "8e2f83ecf4ccb9394efe4d53dc46865994c7f0540797864a0c155f1af92084cd",
+    "public_sha256": "369f34706db8ae5910ec9fe7252cb03e89182e8704b3c0d3032865efa1d8e618",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/accessibility-statement.json",
+    "original_sha256": "89c01ee9e5a3001a44726f19e72c13abdddee3d32c87f088d1fc3e5c9f6a4c61",
+    "public_sha256": "89c01ee9e5a3001a44726f19e72c13abdddee3d32c87f088d1fc3e5c9f6a4c61",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/affiliate.browser.html",
+    "original_sha256": "dc97ffc92b535e4f9853d6710403b8ea618a938f28d947249e2103fde8f9d8bd",
+    "public_sha256": "b8d89a15949879f18cac5af973547f30d6a6ca94b91a0230ecceb858fb1e0415",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/affiliate.browser.json",
+    "original_sha256": "2e694674e544bef4ae52530752d644aee1aca4605f71f39a5cd341bc902a2c29",
+    "public_sha256": "2e694674e544bef4ae52530752d644aee1aca4605f71f39a5cd341bc902a2c29",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/affiliate.expanded-faq.json",
+    "original_sha256": "c646770e007f8a7323a9c6bac4b09ac341f7e0198903709b7cf85d7efbe3d11c",
+    "public_sha256": "37f76553950c3d68f79e809dcdc1d8b82769befaee2be8b36e9ff83fecd10aba",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/affiliate.html",
+    "original_sha256": "6bd58ffff92fc81df6b5ae1ee6d2ca974aefc0d09dea4e55331f03c5e9617056",
+    "public_sha256": "d2f13e59edca4b96f0f3d57e7bdb70b3aa4e7c5a8c9d234a1f3c49a422d5e7d9",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/affiliate.json",
+    "original_sha256": "62215d0da44052871d123770c51276f9064251e73f720cec172a8710163d046d",
+    "public_sha256": "62215d0da44052871d123770c51276f9064251e73f720cec172a8710163d046d",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/article-video-oembed.json",
+    "original_sha256": "862b6f3c71c0b0728cbec99673fe38629ee4fa7b64745739cb001143c56bc0bf",
+    "public_sha256": "b96506df616487dfc32834884cae5f0b90540e204ba2a8c8c26a63fb976c1013",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/article-video-source.html",
+    "original_sha256": "33334d91e0e0026439acd1c0afc523c1eafbd9beb6befd0034bc2fb47a6e0c08",
+    "public_sha256": "c3160ebffc8a4cb0bfd1795151e9c2107783c8100bc9fe8136dfaa3f3640c4ff",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/article.browser.html",
+    "original_sha256": "6f1e7a30f8f0e618991246b2f84fc307feddfda1a8799b954067ec80214a4bd2",
+    "public_sha256": "ddf85c1c16dfc7a770025630cc57829ac0d7415759f0f12916da176b62817f21",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/article.browser.json",
+    "original_sha256": "1648152f88ddac9fbea2b469a4a7a33764b7046613cf807e877ae9f71599756f",
+    "public_sha256": "a7c6e368db158c8271c81c925bdeab6dcb56da512f515b54b0e0283948f4381b",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/article.html",
+    "original_sha256": "b7afd9f777981d1823fa85481f9f7d0f4a7dd98cd49515af92e17746858d1e1d",
+    "public_sha256": "0e18a644d7525f77fc9305bbeb59d7476a18165ac19960aba3c9b1fd82a63743",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/article.json",
+    "original_sha256": "33957c77ea94c3bc716b2a3046e1882fe37ebeb525925ab4779d3911cdc64b62",
+    "public_sha256": "c4599e3486bcbd443454ef7a7ba8dd9d2b5fd6dab3e4d9cd56405f77088f0231",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/blog-list.browser.html",
+    "original_sha256": "605e5c23d830ccb1a231cd540c67c61497d9bd0782c429bea9276b507674ae9b",
+    "public_sha256": "9b869f8e269f35c80479f7da488f859803ba69941787fe74ba4bf0f93d0a087d",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/blog-list.browser.json",
+    "original_sha256": "134381511736ba73c4299129baca146ee6602fa8e029e70bc56ce08187ec05ef",
+    "public_sha256": "134381511736ba73c4299129baca146ee6602fa8e029e70bc56ce08187ec05ef",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/blog-list.html",
+    "original_sha256": "d80bb918dfb5e029d83fc9806e7c6b6f86cadb787136c16d91022157d37dbdbd",
+    "public_sha256": "d804e88fef3b8e9191bc81179c9d177c4f8a549b65b73730cf0e0b6cab40d4f5",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/blog-list.json",
+    "original_sha256": "4ec7839d6eb3fe449ff108b4ecdefa9efdd9e0c17a5e78049aba449e472e666f",
+    "public_sha256": "4ec7839d6eb3fe449ff108b4ecdefa9efdd9e0c17a5e78049aba449e472e666f",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/blog-parent-how-tos.html",
+    "original_sha256": "d233a553bf3a0a0f0768657bc27230b77531ccc210c95385f64fe54d3a07d861",
+    "public_sha256": "7421e50ab6258d66b525813687fcd1f7bf4fc7a4ebecfe3328db78175788a303",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/blog-parent-how-tos.json",
+    "original_sha256": "4ed578c2d322cb502777f43d41d973982bf3ea539c5d03bd87edadf6ea7275c6",
+    "public_sha256": "4ed578c2d322cb502777f43d41d973982bf3ea539c5d03bd87edadf6ea7275c6",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/blog-parent-news.html",
+    "original_sha256": "263961a74fdc3ec0c9c77ff2ad1c097084d3d3c8321602f23d344ee43cb35cbe",
+    "public_sha256": "613e3329d8256da8759e7a2ab74f674248852d2d55c592cd26a740f61052a049",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/blog-parent-news.json",
+    "original_sha256": "ff869126f9745a9511f675cac53964643cdac66030b3739fe0d469936096ada5",
+    "public_sha256": "ff869126f9745a9511f675cac53964643cdac66030b3739fe0d469936096ada5",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/blog-parent-trending-now.html",
+    "original_sha256": "134f7cb148a82a83050f942db404ebca542f689fabc6387e91078a11de7698e7",
+    "public_sha256": "42c1170bde97991c219bf65087975e414a981584a266665087664f4b24eeeaa4",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/blog-parent-trending-now.json",
+    "original_sha256": "dc4b23eae0863200dfbecd746786edc98354a1be4b9345df3d53a00efac36e9c",
+    "public_sha256": "dc4b23eae0863200dfbecd746786edc98354a1be4b9345df3d53a00efac36e9c",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/business.browser.html",
+    "original_sha256": "e977720022db011ce6efaf4a5dfbc35e8ea8fc33a4ad6a0a9544dc1008cc5548",
+    "public_sha256": "c630ce2524df8c001dca37827dcb59b036718c5a5d91da183727383f830e51e7",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/business.browser.json",
+    "original_sha256": "9b7711015189a10a4b22cd998262f9b58fd33d0353014dd23a7082e28851524f",
+    "public_sha256": "9b7711015189a10a4b22cd998262f9b58fd33d0353014dd23a7082e28851524f",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/business.expanded-faq.json",
+    "original_sha256": "e0854fd2eaf5bd6c05a3ad840f97582a0ac7a93cd75a3e496e6f70f2bf600f8b",
+    "public_sha256": "291e7a13d91762d1f65163ce03bbf4d6282f6b14c48e12864f22f072fbd54632",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/business.html",
+    "original_sha256": "e6461408d3db290f4f9c0ee27c098a871df3b301a151e3535817e2d32a96478a",
+    "public_sha256": "b0cb0e9dc77a67c89ed6a29d4d422c1862db096b449eff39d9d78430b80b1036",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/business.json",
+    "original_sha256": "db7f5b8f91fc8ef14d1fe54ee1b36ca27edaaf6b5119e05e94629d3b3de935f7",
+    "public_sha256": "db7f5b8f91fc8ef14d1fe54ee1b36ca27edaaf6b5119e05e94629d3b3de935f7",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/campaign.browser.html",
+    "original_sha256": "f83b32e59431597c996f8d7654463997d38eb8deb28201cae96b5fe174fbc21b",
+    "public_sha256": "b696dfc1f13d63d3c8150408c90c9f1ed215e87650df5b90b7598993c693452e",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/campaign.browser.json",
+    "original_sha256": "a8cf0255efe1d2e71af9b60365950a6f158455fbf904af4255979e034f64c770",
+    "public_sha256": "a8cf0255efe1d2e71af9b60365950a6f158455fbf904af4255979e034f64c770",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/campaign.html",
+    "original_sha256": "2b3144e97ec208d2404a94d4664fa3408c0854057140856f6c3b2122826baa6f",
+    "public_sha256": "daeabc5de4a38ae48549017f6b3c398a5f9638fd93115828b74f0f5f6df2cff4",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/campaign.json",
+    "original_sha256": "f14df3e624d7d023c8d3a88ab752fb6a496752bf7cccc38153b6530fc2ad15a1",
+    "public_sha256": "f14df3e624d7d023c8d3a88ab752fb6a496752bf7cccc38153b6530fc2ad15a1",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/carebox-package-protection.browser.html",
+    "original_sha256": "2635a676d2177b8bdc8066019918f5da863273e05e52ba6affec8845f10c920e",
+    "public_sha256": "c8cbd05bf4c19e88da19cff3c3f6ab1dcdd258560904fea8fcb48bdb1bd5d622",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/carebox-package-protection.browser.json",
+    "original_sha256": "a34eb4c1bd18d5d9f97790a4b4917c97db5fb60f3bd5e5ccbe6c12ebee89a5c4",
+    "public_sha256": "a34eb4c1bd18d5d9f97790a4b4917c97db5fb60f3bd5e5ccbe6c12ebee89a5c4",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/carebox-package-protection.html",
+    "original_sha256": "efdb4780587eb1119e4ff299f1dc15147dfde077c1f9114ead0909aa5ff2effa",
+    "public_sha256": "68f77803310d3c862584ff7b4ce599666638ba8d8b7de7cbd9031d93415dd75e",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/carebox-package-protection.json",
+    "original_sha256": "6ddb80725241be9a8542474097deff18da3a63e570992e08079a8aa100674a49",
+    "public_sha256": "6ddb80725241be9a8542474097deff18da3a63e570992e08079a8aa100674a49",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/category.browser.html",
+    "original_sha256": "4deef6139034d711069b6783da42cf5e2b2147b1515f4c0aecf2c431ca536912",
+    "public_sha256": "0546e0bc6f807324328f0459c06dfda1acf50b9e919ac66ee367004b1ce2116b",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/category.browser.json",
+    "original_sha256": "05c174d6edc6c1f77862f9e3cabe63950ab2fa5acf0be32e38983c4ef877f39c",
+    "public_sha256": "05c174d6edc6c1f77862f9e3cabe63950ab2fa5acf0be32e38983c4ef877f39c",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/category.html",
+    "original_sha256": "3200489af3006dff90e547baba77aaed3623e365d78115ec8a592f85f982e100",
+    "public_sha256": "c99e8b36de5f4d1a516d838e04d963271794aa6ebbb9184e29d92455f78e6ea7",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/category.json",
+    "original_sha256": "d6826dc732cc6ac3fac1998e3c33211b038415f28a0443fccba2d7a64ed4cd67",
+    "public_sha256": "d6826dc732cc6ac3fac1998e3c33211b038415f28a0443fccba2d7a64ed4cd67",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/contact.browser.html",
+    "original_sha256": "15012065a4fd2ac3b593a2d3c007047fb98f9039b3a4240faf64d1cada967ab3",
+    "public_sha256": "47fc47698f103fc0b4c22f8236c8804cfdcd1b0530144bc700243da2b64febf8",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/contact.browser.json",
+    "original_sha256": "5ae385254d37c7d67e0c3327944af9f09758f4dac8837be648cd9b65505b9a22",
+    "public_sha256": "93306dcc0c66ac5977fa754015df64f74b1ec37c8958a89dfd1380934f2dfca0",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/contact.html",
+    "original_sha256": "601e23891ace913cf3c3e6f6a4424527132aa6dcb0d7353fe83cca16fcea1fd1",
+    "public_sha256": "417a74f0a63524fcf24ad158eb286397720c0c88377810383b0466a9fe605d9e",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/contact.json",
+    "original_sha256": "4bb18e1c567ab08daff40cf2fa4301005c035f334c71e5484bf9099afe800bde",
+    "public_sha256": "8876c70811d6ca4ace9ebadcaafda0df4b5ef3ddcbfc5276f549c1945640562d",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/diy-ideas.browser.html",
+    "original_sha256": "cff690f53e009bef1c506c521f8feeeb65a17f372fb9bdd3b8dad7940c871d55",
+    "public_sha256": "b160e57235c8614f5906f0ac0f0f68f0b740bb3eb90938efff3d5c496dadd6e5",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/diy-ideas.browser.json",
+    "original_sha256": "d07cb24a696087496edddc371cb0d33cc939683e8f6b7853bada0592973721d9",
+    "public_sha256": "d07cb24a696087496edddc371cb0d33cc939683e8f6b7853bada0592973721d9",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/diy-ideas.html",
+    "original_sha256": "8f21a2d9a69ab3ae5019ddf699c6aa961cfe9b7c7a74e3975dc10ee7c5bd3057",
+    "public_sha256": "5098ccf5ab2333b375d643d7214a3253ccaf68cd87c3c0aab7c3392f810f1d4f",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/diy-ideas.json",
+    "original_sha256": "ab4b77c77ca502ad20928c680b4a86d7b3a2d5482f76031d2164d4e43ec95e65",
+    "public_sha256": "ab4b77c77ca502ad20928c680b4a86d7b3a2d5482f76031d2164d4e43ec95e65",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/extended-service-protection.browser.html",
+    "original_sha256": "1d2639b0d1644a8f2a37206fd10f6285e754be8a5eee48836af78a04958a76b2",
+    "public_sha256": "7c02d852f20f2aeb36a441493bf09cff30d5e2b836e48a32aaab9a3bb17380fb",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/extended-service-protection.browser.json",
+    "original_sha256": "981bb69fb85021d91fdf4b9186537200be6d9ca54295da1f0fcb4b7444b5a2b3",
+    "public_sha256": "c434fea696362acf741a27b5578aaea47b270d00fe1fb52fc869616bf8da2202",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/extended-service-protection.html",
+    "original_sha256": "66a7b5527539b3c5d60be47957ee04de9c9ce1de3b2f4ed75d8031afc6e46eea",
+    "public_sha256": "55c34e9670b6263024ef23e3453b0284fa3f680ba8084e46be04d6ab194b2046",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/extended-service-protection.json",
+    "original_sha256": "c10456b275ea969bb66956165b75cb54372d35bc3f394d1c318e5bdf735f6687",
+    "public_sha256": "97d740877271ba971a3a7086d29fb0450c3a0dcf6ea33fccfb17288615230621",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/faqs.browser.html",
+    "original_sha256": "62a51f4eda177b2cb96e13c900c843f1f6354cf3ca06949375c9f0b916081177",
+    "public_sha256": "e33f2614d82c91dc8d99ba063aec425304ddcb9977b8cbb07bbbb5c6af99f798",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/faqs.browser.json",
+    "original_sha256": "598a5997bda7956d14905d4221ad9cfa66da401177856b73fa3a533cdcfe9fa7",
+    "public_sha256": "598a5997bda7956d14905d4221ad9cfa66da401177856b73fa3a533cdcfe9fa7",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/faqs.html",
+    "original_sha256": "61a39ecdbb0a9b800cde82f25b75c5cd427e6e654123ba9f994d6bb424dae107",
+    "public_sha256": "7548e67ee9c64206cef0830e9bca68f933a2e6424b636cce0dba9e81f8b6c84f",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/faqs.json",
+    "original_sha256": "34a464444ac8c1dea686afc85bcd48d3f0311f07bdb27dae819e3e49cbbea4e9",
+    "public_sha256": "34a464444ac8c1dea686afc85bcd48d3f0311f07bdb27dae819e3e49cbbea4e9",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/footer-clearance.html",
+    "original_sha256": "abb8d7cd4100c0724d7ce5fdb582b5dfe13cb9f6a10aed36f2af1b0cbccf62e1",
+    "public_sha256": "1efcea466c156b217b85886126a26d44915006eaf19b4c8ca22ae65131cc39d4",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/footer-clearance.json",
+    "original_sha256": "4352b26564c2e26e22239d4117cf2bae29b2adc83acd03de88676d203055dc8f",
+    "public_sha256": "4352b26564c2e26e22239d4117cf2bae29b2adc83acd03de88676d203055dc8f",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/help-center.browser.html",
+    "original_sha256": "0d169e62f5b8d66a762d3197a25891882536ddbfb4abc7960d841dd36074c787",
+    "public_sha256": "e8bdd2ceea03173d64862c45bea9c3d750327bae25c37878fcf0fbebce17b300",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/help-center.browser.json",
+    "original_sha256": "1c53fc4d111516d0c5c648fb56de393259e920d3cb26c3a0cf100d62a3ace720",
+    "public_sha256": "1c53fc4d111516d0c5c648fb56de393259e920d3cb26c3a0cf100d62a3ace720",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/help-center.html",
+    "original_sha256": "b1542a6fdd1fea8296155a6b2d1c02badd83e0e94586e2491e069fc275f502ad",
+    "public_sha256": "60c924201373cdfefa692342070ac4c3f6f09b10ea92f7d396d79d985654a291",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/help-center.json",
+    "original_sha256": "d589924ded60c8687b4d157493c3144e111fd45fb32dd103b2b8d45ff6cee177",
+    "public_sha256": "d589924ded60c8687b4d157493c3144e111fd45fb32dd103b2b8d45ff6cee177",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/homepage.html",
+    "original_sha256": "a0cb2c60b389d71c5b8cce9ab4765366482109b47272e829e4c6bbefd8d41c88",
+    "public_sha256": "79a022d21dff1152cf719d0522b8ad54630035c30da9960b77a925a23cb28016",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/homepage.json",
+    "original_sha256": "4b02e4c0205fb332cb60a18c6f0577c98d7862ec3c58f67070cdb924930d4730",
+    "public_sha256": "71300e3f13bfc01fced8f6c1314279133c08c9dae48f906dc26b73290366cc70",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/influencer-program.browser.html",
+    "original_sha256": "3ae1be05c38dc7caae818a82859ff865fd9cf1c8681f075de3f5f76662e04007",
+    "public_sha256": "2ec71473b8e7c82d4cb457e9ec5a36833b88a165ed1eca576becde744e0f82bd",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/influencer-program.browser.json",
+    "original_sha256": "22ecfcc76072cc67296067996fea74b32d270e46d5b243708d392bf0c3e4db01",
+    "public_sha256": "22ecfcc76072cc67296067996fea74b32d270e46d5b243708d392bf0c3e4db01",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/influencer-program.html",
+    "original_sha256": "aae03685667507a6fcfe1b95696102cda35fc92ee1f14623f27da909712c9bed",
+    "public_sha256": "29f0ccc42660cf506110f137064c977d78bbba0ec7ff3003824275170734a173",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/influencer-program.json",
+    "original_sha256": "5f87129e6b9d8695b8bc5bb82e1a5777bbd4f3f0e1b81b8f4377e4a2dab39cd3",
+    "public_sha256": "5f87129e6b9d8695b8bc5bb82e1a5777bbd4f3f0e1b81b8f4377e4a2dab39cd3",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/mygarvees-rewards.browser.html",
+    "original_sha256": "fa71ea7c61dd270f21e18cfb58fbb8753e4f75304220231afaa32ad311c33c03",
+    "public_sha256": "ca89d6f0fc6893ff7ae85895fd5b675d87fe722deaf2fc7df24d6530ac12e884",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/mygarvees-rewards.browser.json",
+    "original_sha256": "e595ab6184a72b0a7a639fb8727be7dfd63f7855f968c2691c8f3e555a726d39",
+    "public_sha256": "e595ab6184a72b0a7a639fb8727be7dfd63f7855f968c2691c8f3e555a726d39",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/mygarvees-rewards.html",
+    "original_sha256": "a42b097768ae56551e74c9479ec46d10b5f3993e0a9c30f0592ce53eb84177b3",
+    "public_sha256": "f4312667cce355973742cbb18c0b00cbbfda6bcab5e5558dc15358eef70a7060",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/mygarvees-rewards.json",
+    "original_sha256": "46f3990da6273685853e9bbac24328bd9da41bd609ce9ca21d4304d6abb80e9f",
+    "public_sha256": "46f3990da6273685853e9bbac24328bd9da41bd609ce9ca21d4304d6abb80e9f",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/payments-policy.browser.html",
+    "original_sha256": "559984ced4ddcca88b813a2074516020dcb21415ad9615f7cddd058b56381cb7",
+    "public_sha256": "22682a90b0cf26340c6bba15b4761544f213aafe978d66da91b5aa8536cd2b4c",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/payments-policy.browser.json",
+    "original_sha256": "c927b9d11a8e181c714d7d7173e42b279d9dd33cdc8a2e8b555baa3f23f30036",
+    "public_sha256": "c927b9d11a8e181c714d7d7173e42b279d9dd33cdc8a2e8b555baa3f23f30036",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/payments-policy.html",
+    "original_sha256": "f654761f514b41a4c7e78b8ca7327659bdb2d84937ed16b84c7830db9acedbbb",
+    "public_sha256": "098a6277e9e16ef687863101c84481ed07a7a1ac81348415cd542899bc34e92d",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/payments-policy.json",
+    "original_sha256": "14acddb314116e71d54a4b542ad27d3915d5ab2ba25268dd05cb396bc4da326d",
+    "public_sha256": "14acddb314116e71d54a4b542ad27d3915d5ab2ba25268dd05cb396bc4da326d",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/privacy-policy.browser.html",
+    "original_sha256": "e568c9af16d1d3a35399bb4b896c1c98032b0a4bf699e4b4a8955a6d01a12cdf",
+    "public_sha256": "52364eda0a44e4363ee35cd879d9ab60c88e30d59e7d5082de26359fa0197c72",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/privacy-policy.browser.json",
+    "original_sha256": "de1ab32d9ab293b245f0dc5734762407ac9836ddba9d8ab1e71dba7c8e9fe4bc",
+    "public_sha256": "e5ddfb898ee2b89ea5e2682662701fade1b70854ffa1009d085a8b18245842b9",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/privacy-policy.html",
+    "original_sha256": "a1a79d0f36188acef832408ac2d72afccc9cea2b8a9d7f358581a3d34cea2937",
+    "public_sha256": "99285d5fdcf2542836e10b8f06e55de771956af4d9215a066cb476f4985f87cd",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/privacy-policy.json",
+    "original_sha256": "afff7c6dc087faafa2e9a474d5935d74ff671c017141619b840375ff72ea3c94",
+    "public_sha256": "afff7c6dc087faafa2e9a474d5935d74ff671c017141619b840375ff72ea3c94",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/product-qa.json",
+    "original_sha256": "695f4f19251b7bd0b475c496433b1f8a26777c031c0bd1cc87a786fa3e7bffed",
+    "public_sha256": "695f4f19251b7bd0b475c496433b1f8a26777c031c0bd1cc87a786fa3e7bffed",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/product-reviews.browser.html",
+    "original_sha256": "afc10fdbc042d3911468d645595523d13b45224ea6db56091af35936ea2ac9ae",
+    "public_sha256": "a15a9240fdf33fb36223540fa5ecbdd927f66ab13116bb9a496d4fa1f0eccaf5",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/product-reviews.browser.json",
+    "original_sha256": "ba2687e6b5b0f2e09fb6de983cc3bcd90d43a0a1b7b010cd4bac153721b7bee2",
+    "public_sha256": "ba2687e6b5b0f2e09fb6de983cc3bcd90d43a0a1b7b010cd4bac153721b7bee2",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/product-reviews.html",
+    "original_sha256": "21afc3a979cfe1cee60b6844737932bbdbf86c20a66117ab4a5f272bb25b77db",
+    "public_sha256": "c702f2de0905ae9bd5cf67b2094bf059239b1fcd098ed60e10bfe772de9c7171",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/product-reviews.json",
+    "original_sha256": "af33889b29806ca1ab60bb2cfc4afecd5c9d990fa731b335122d4ed0ba6e3ed6",
+    "public_sha256": "af33889b29806ca1ab60bb2cfc4afecd5c9d990fa731b335122d4ed0ba6e3ed6",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/product.browser.html",
+    "original_sha256": "d387e361c25b17392de95067b40a898d857eba2ccc81908848b867d14ea59a9e",
+    "public_sha256": "419a9cd79acb2a24e9b7e59fac4b5153feffeadc3d9f6c78b4fd31f43eb024d4",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/product.browser.json",
+    "original_sha256": "8dd42956703a67e94b04cdb47786b828cfc41477cacf81c47fb32c40d5f3cf81",
+    "public_sha256": "e567e04c0a35000ed0a3a46ddae70de702228df765068377e1a9880832cd7422",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/product.html",
+    "original_sha256": "66925a7b7b13cc2043bc9a2567a861038330c1ba7011b68af0e048d91fb9594f",
+    "public_sha256": "a1282bee10e19bee4e34d78e348fbdb7515166a83b99e1cbf4f2ab4e45755815",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/product.json",
+    "original_sha256": "541ba4224fb2641c47a8f96f681066475e9d7a328da5e8c0d981e6198121c31f",
+    "public_sha256": "541ba4224fb2641c47a8f96f681066475e9d7a328da5e8c0d981e6198121c31f",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/refund-policy.browser.html",
+    "original_sha256": "d23244debfdfb794e0a0ae7833ca5878a04269bc5f01a284b5557cf8571291f8",
+    "public_sha256": "ff9bd100f8b7a7bdc417d4f241d58001fcfe8c8cc4731e1ecc9a0e2e5338f25f",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/refund-policy.browser.json",
+    "original_sha256": "161f9b090da56430328d30624ca91f92e1dbc84f306b57447ac6710b8378acc4",
+    "public_sha256": "b5e7aab9cd54a2f7413563749e361aba7870329a664fcaf89be5fdf36a3d7b63",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/refund-policy.html",
+    "original_sha256": "752403478eb20eff122dfa1997d1abee5dc1903aad113b1b8d2287a4f10ba5cc",
+    "public_sha256": "6825ad6117e2b0c3681e9d78bc4b8cd9b678a590493fbb4fb10fc64f45276962",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/refund-policy.json",
+    "original_sha256": "63b892d7841aaf381c542de12044b8f4b4399bd4c1a186966aae3f4911498bbf",
+    "public_sha256": "63b892d7841aaf381c542de12044b8f4b4399bd4c1a186966aae3f4911498bbf",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/share-and-win.browser.html",
+    "original_sha256": "66dbe082c6af66e1e1851a052ec18b35f34f60d96828d5b001e279f687cb9447",
+    "public_sha256": "eeed1e3e4db23f9cc625fdf950b729ab50f53ee2f02c13ef1ac13d14fbb62da0",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/share-and-win.browser.json",
+    "original_sha256": "10eb8677b0cd779bda69edc80b9f8f4e19da6e02a43f724c2b24840a108d9987",
+    "public_sha256": "9f30747e285ba473bc43131645870f5f79c1004c6cc17a294b1004e04a01c10c",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/share-and-win.expanded-faq.json",
+    "original_sha256": "61e6d9fb0532f11fd75b5385213baa0c1d2f697c155919944aaaf279f3fc413d",
+    "public_sha256": "93f7efedfb7886b7d5fe02bba3b8a79af79887987145d545d27134be76d208fa",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/share-and-win.html",
+    "original_sha256": "545594524f78b0df4fd77106817161e17a4e8fa28c5d5ecdf6555e48800dc398",
+    "public_sha256": "a7240d035475ed9fb403619121d3e6c390a66fca565baca9519354e493aaaa52",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/share-and-win.json",
+    "original_sha256": "8926ca203e44ea3fefc0bd4e27191b54c77aebad6020be47c0174b4570b665fa",
+    "public_sha256": "2a80576a68ab6e081ef92240d75bb5aea5f6d2d4f1cc507d1e31a6b17300c619",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/shipping-policy.browser.html",
+    "original_sha256": "60aacc953a314e6ce039725d156af6254332c69a70af4d95525a86fa422c775a",
+    "public_sha256": "b48a90aea3960bb1b9193d7e10d26a7518433f15d0ea36f3a4974526e942ac4d",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/shipping-policy.browser.json",
+    "original_sha256": "a5c2213961f3f393c204e5da9f8e17467cd494c1468850885673c1526693b5e6",
+    "public_sha256": "4b174e4a3c56eac668fb9707847a17a0d0a3acafc47449d49a74a7321e48a452",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/shipping-policy.html",
+    "original_sha256": "8c0d88b1f12074656c6ff825108f70309240a1a4d274aefd1c47a3a725763480",
+    "public_sha256": "5eadd2321223e22ea4bbe393699402844a1a94d4b3bb892a33a9434644bf1496",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/shipping-policy.json",
+    "original_sha256": "90ada22d4070a8024421e5b26370fd28bcbadb02376599041b5a9e21eb3b24c2",
+    "public_sha256": "90ada22d4070a8024421e5b26370fd28bcbadb02376599041b5a9e21eb3b24c2",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/sitemap-pages-0.xml",
+    "original_sha256": "843081261dc8cb6ab95a32469c10cceaa7764338b7b6584d8c9b4f58497ac04a",
+    "public_sha256": "843081261dc8cb6ab95a32469c10cceaa7764338b7b6584d8c9b4f58497ac04a",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/sitemap.xml",
+    "original_sha256": "94f96243ff6c700ec5832b68c5a41e40852855253d343ffd2e500cbf2a950471",
+    "public_sha256": "94f96243ff6c700ec5832b68c5a41e40852855253d343ffd2e500cbf2a950471",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/terms-of-service.browser.html",
+    "original_sha256": "4d8e5d06abf527c1f188a80f73bd791f208b6604e2f4744422bc9bcc04dedb28",
+    "public_sha256": "db15234fa32816aaa36c5458e70c43b2153d3629b06eadcf1fbce8a3776dfd9c",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/terms-of-service.browser.json",
+    "original_sha256": "3f9575f630b9e77e8a03cea7a075259922b5b520642e845ee4a2a80b9425d5f5",
+    "public_sha256": "cf6b96810782e1ac0b891cdb5d13b24889a8466bf5f0b0408f84c6441cbb2489",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/terms-of-service.html",
+    "original_sha256": "07fd3a934a48ea5410b1f7264382eb299195fc6031e8dd6980bce9c45d35beeb",
+    "public_sha256": "369a1b9fdbd2d5354ae2ea14ff71e5279be30a174512aa9ab6e5f077db559725",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/terms-of-service.json",
+    "original_sha256": "3afcd98110efb815104e5bfa13dfb573486281fda7dfb667acb8dc4e32c98b0d",
+    "public_sha256": "3afcd98110efb815104e5bfa13dfb573486281fda7dfb667acb8dc4e32c98b0d",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/track-your-order.browser.html",
+    "original_sha256": "e082bf62737ff73a4a6ed41561a03fabc4db514c05988d6b8ec99c423b5da57e",
+    "public_sha256": "9fa50228ac551745caafacb72db092b6fa1f80f7d554ba4ad382152dc7a9a502",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/track-your-order.browser.json",
+    "original_sha256": "575856a6c78a0093d3892b7d8a5317d6c7cb3f46fa9903ce39be3c9ec4ba6876",
+    "public_sha256": "575856a6c78a0093d3892b7d8a5317d6c7cb3f46fa9903ce39be3c9ec4ba6876",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/track-your-order.html",
+    "original_sha256": "1e6f2fa03209654ee66ee130e2ade795907a2bceba278f6878626e128bae88c5",
+    "public_sha256": "4a9ac70e82133663e723f31f62718975faa12ef91160802b76293de9d8061614",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/track-your-order.json",
+    "original_sha256": "a5de3f5a235bb35da180575a9bdd38a7feadbc5ae00ef45841eb602176134018",
+    "public_sha256": "a5de3f5a235bb35da180575a9bdd38a7feadbc5ae00ef45841eb602176134018",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/warranty-policy.browser.html",
+    "original_sha256": "39bc4673e867dcb69aaf2ccdf41fd96fd5f932aca9665be3678fc36ba42c969d",
+    "public_sha256": "491f62ad0ddedfb5a13e9267a307bd00ea1f6c9bd20a76e6d8258307db6695d7",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/warranty-policy.browser.json",
+    "original_sha256": "6adf49815322eb4f9e5470f368036205207f364584c34fb5d3c8a5ed106d66e6",
+    "public_sha256": "6adf49815322eb4f9e5470f368036205207f364584c34fb5d3c8a5ed106d66e6",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/warranty-policy.html",
+    "original_sha256": "a78c530f9fc907f58cedab02737b1709af06f420dad2a3faa27e67405294032c",
+    "public_sha256": "21b59140de91b9afffabfca88127a4d572b231d72ceda298465765a86ec34d0d",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/warranty-policy.json",
+    "original_sha256": "5356f831f41712e98bddd0f1d92ff9dcd2bbdf7e457643b9c03258e69ca57515",
+    "public_sha256": "5356f831f41712e98bddd0f1d92ff9dcd2bbdf7e457643b9c03258e69ca57515",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  }
+]

@@ -1,0 +1,794 @@
+{
+  "requested_url": "https://www.garvee.com/blogs/trending-now",
+  "url": "https://www.garvee.com/blogs/trending-now",
+  "status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "captured_at": "2026-11-04T14:53:01.887807+00:00",
+  "sha256": "134f7cb148a82a83050f942db404ebca542f689fabc6387e91078a11de7698e7",
+  "title": "Trending Now - GARVEE",
+  "canonical": "https://www.garvee.com/blogs/trending-now",
+  "description": null,
+  "lang": "en",
+  "h1": [
+    "Trending Now"
+  ],
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "/",
+            "name": "Home"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "/blogs/trending-now",
+            "name": "Trending Now"
+          }
+        }
+      ]
+    }
+  ],
+  "jsonld_parse_errors": [],
+  "main_links": [],
+  "footer_links": [
+    {
+      "text": "About Garvee",
+      "label": null,
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Special Outlets",
+      "label": null,
+      "url": "https://www.garvee.com/collections/clearance-sale?filter.v.availability=1"
+    },
+    {
+      "text": "DIY Projects & Ideas",
+      "label": null,
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "Terms Of Service",
+      "label": null,
+      "url": "https://www.garvee.com/policies/terms-of-service"
+    },
+    {
+      "text": "Privacy Policy",
+      "label": null,
+      "url": "https://www.garvee.com/policies/privacy-policy"
+    },
+    {
+      "text": "Accessibility",
+      "label": null,
+      "url": "https://www.garvee.com/pages/accessibility-statement "
+    },
+    {
+      "text": "Track Your Order",
+      "label": null,
+      "url": "https://www.garvee.com/pages/track-your-order"
+    },
+    {
+      "text": "Payments Policy",
+      "label": null,
+      "url": "https://www.garvee.com/pages/payments-policy"
+    },
+    {
+      "text": "Shipping Policy",
+      "label": null,
+      "url": "https://www.garvee.com/policies/shipping-policy"
+    },
+    {
+      "text": "Warranty Policy",
+      "label": null,
+      "url": "https://www.garvee.com/pages/warranty-policy"
+    },
+    {
+      "text": "Refund & Return Policy",
+      "label": null,
+      "url": "https://www.garvee.com/policies/refund-policy"
+    },
+    {
+      "text": "Worry-Free Purchase",
+      "label": null,
+      "url": "https://www.garvee.com/pages/carebox-package-protection"
+    },
+    {
+      "text": "Contact Us",
+      "label": null,
+      "url": "https://www.garvee.com/pages/contact"
+    },
+    {
+      "text": "Affiliate Program",
+      "label": null,
+      "url": "https://www.garvee.com/pages/affiliate"
+    },
+    {
+      "text": "Influencer Program",
+      "label": null,
+      "url": "https://www.garvee.com/pages/influencer-program"
+    },
+    {
+      "text": "Share and Win",
+      "label": null,
+      "url": "https://www.garvee.com/pages/share-and-win"
+    },
+    {
+      "text": "Garvee Rewards",
+      "label": null,
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "Protection Plans",
+      "label": null,
+      "url": "https://www.garvee.com/pages/extended-service-protection"
+    },
+    {
+      "text": "Help Center",
+      "label": null,
+      "url": "https://support.garvee.com/"
+    },
+    {
+      "text": "WholeSale Program",
+      "label": null,
+      "url": "https://www.garvee.com/pages/business"
+    },
+    {
+      "text": "",
+      "label": "Pinterest",
+      "url": "https://www.pinterest.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/garveeglobal"
+    },
+    {
+      "text": "",
+      "label": "Instagram",
+      "url": "https://www.instagram.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/channel/UCvt0kZI7qgY2leAZrwI9DKA"
+    },
+    {
+      "text": "",
+      "label": "TikTok",
+      "url": "https://www.tiktok.com/@garvee_official"
+    },
+    {
+      "text": "",
+      "label": "Google Customer Reviews",
+      "url": "https://www.google.com/storepages?q=garvee.com&c=US&v=19"
+    },
+    {
+      "text": "About Garvee",
+      "label": null,
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Special Outlets",
+      "label": null,
+      "url": "https://www.garvee.com/collections/clearance-sale?filter.v.availability=1"
+    },
+    {
+      "text": "DIY Projects & Ideas",
+      "label": null,
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "Terms Of Service",
+      "label": null,
+      "url": "https://www.garvee.com/policies/terms-of-service"
+    },
+    {
+      "text": "Privacy Policy",
+      "label": null,
+      "url": "https://www.garvee.com/policies/privacy-policy"
+    },
+    {
+      "text": "Accessibility",
+      "label": null,
+      "url": "https://www.garvee.com/pages/accessibility-statement "
+    },
+    {
+      "text": "Track Your Order",
+      "label": null,
+      "url": "https://www.garvee.com/pages/track-your-order"
+    },
+    {
+      "text": "Payments Policy",
+      "label": null,
+      "url": "https://www.garvee.com/pages/payments-policy"
+    },
+    {
+      "text": "Shipping Policy",
+      "label": null,
+      "url": "https://www.garvee.com/policies/shipping-policy"
+    },
+    {
+      "text": "Warranty Policy",
+      "label": null,
+      "url": "https://www.garvee.com/pages/warranty-policy"
+    },
+    {
+      "text": "Refund & Return Policy",
+      "label": null,
+      "url": "https://www.garvee.com/policies/refund-policy"
+    },
+    {
+      "text": "Worry-Free Purchase",
+      "label": null,
+      "url": "https://www.garvee.com/pages/carebox-package-protection"
+    },
+    {
+      "text": "Contact Us",
+      "label": null,
+      "url": "https://www.garvee.com/pages/contact"
+    },
+    {
+      "text": "Affiliate Program",
+      "label": null,
+      "url": "https://www.garvee.com/pages/affiliate"
+    },
+    {
+      "text": "Influencer Program",
+      "label": null,
+      "url": "https://www.garvee.com/pages/influencer-program"
+    },
+    {
+      "text": "Share and Win",
+      "label": null,
+      "url": "https://www.garvee.com/pages/share-and-win"
+    },
+    {
+      "text": "Garvee Rewards",
+      "label": null,
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "Protection Plans",
+      "label": null,
+      "url": "https://www.garvee.com/pages/extended-service-protection"
+    },
+    {
+      "text": "Help Center",
+      "label": null,
+      "url": "https://support.garvee.com/"
+    },
+    {
+      "text": "WholeSale Program",
+      "label": null,
+      "url": "https://www.garvee.com/pages/business"
+    },
+    {
+      "text": "",
+      "label": "Pinterest",
+      "url": "https://www.pinterest.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/garveeglobal"
+    },
+    {
+      "text": "",
+      "label": "Instagram",
+      "url": "https://www.instagram.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/channel/UCvt0kZI7qgY2leAZrwI9DKA"
+    },
+    {
+      "text": "",
+      "label": "TikTok",
+      "url": "https://www.tiktok.com/@garvee_official"
+    },
+    {
+      "text": "",
+      "label": "Google Customer Reviews",
+      "url": "https://www.google.com/storepages?q=garvee.com&c=US&v=19"
+    }
+  ],
+  "all_links": [
+    {
+      "text": "",
+      "url": "https://www.pinterest.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "url": "https://www.facebook.com/garveeglobal"
+    },
+    {
+      "text": "",
+      "url": "https://www.instagram.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "url": "https://www.youtube.com/channel/UCvt0kZI7qgY2leAZrwI9DKA"
+    },
+    {
+      "text": "",
+      "url": "https://www.tiktok.com/@garvee_official"
+    },
+    {
+      "text": "Join Free",
+      "url": "https://www.garvee.com/blogs/trending-now#login"
+    },
+    {
+      "text": "Get My Discount",
+      "url": "https://www.garvee.com/blogs/trending-now#login"
+    },
+    {
+      "text": "Unlock Savings",
+      "url": "https://www.garvee.com/blogs/trending-now#login"
+    },
+    {
+      "text": "Join Free",
+      "url": "https://www.garvee.com/blogs/trending-now#login"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/"
+    },
+    {
+      "text": "New Arrivals",
+      "url": "https://www.garvee.com/collections/new-arrivals"
+    },
+    {
+      "text": "Best Sellers🔥",
+      "url": "https://www.garvee.com/collections/best-sellers"
+    },
+    {
+      "text": "Flash Deals⚡",
+      "url": "https://www.garvee.com/collections/flash-deals"
+    },
+    {
+      "text": "Clearance",
+      "url": "https://www.garvee.com/collections/clearance-sale"
+    },
+    {
+      "text": "DIY Projects & Ideas",
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "About Us",
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Rewards & Points",
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/"
+    },
+    {
+      "text": "New Arrivals",
+      "url": "https://www.garvee.com/collections/new-arrivals"
+    },
+    {
+      "text": "Best Sellers🔥",
+      "url": "https://www.garvee.com/collections/best-sellers"
+    },
+    {
+      "text": "Flash Deals⚡",
+      "url": "https://www.garvee.com/collections/flash-deals"
+    },
+    {
+      "text": "Clearance",
+      "url": "https://www.garvee.com/collections/clearance-sale"
+    },
+    {
+      "text": "DIY Projects & Ideas",
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "Everything You Need to Know About Rug Sizes and Placement",
+      "url": "https://www.garvee.com/blogs/buying-guides/everything-you-need-to-know-about-rug-sizes-and-placement"
+    },
+    {
+      "text": "Find the Right One for Your Business Needs",
+      "url": "https://www.garvee.com/blogs/buying-guides/utility-cart-buying-guide-finding-the-correct-one-for-your-business-needs"
+    },
+    {
+      "text": "Power Tools Vs. Hand Tools: What You Need to Know",
+      "url": "https://www.garvee.com/blogs/buying-guides/power-tools-vs-hand-tools-what-you-need-to-know"
+    },
+    {
+      "text": "Everything You Should Know About Wine Cooler",
+      "url": "https://www.garvee.com/blogs/buying-guides/everything-you-should-know-about-wine-cooler"
+    },
+    {
+      "text": "Difference Between a Dresser and a Chest of Drawers",
+      "url": "https://www.garvee.com/blogs/buying-guides/what-is-the-difference-between-a-dresser-and-a-chest-of-drawers-a-comprehensive-comparison"
+    },
+    {
+      "text": "Cheap Home Improvement Ideas Boost Your Home's Value",
+      "url": "https://www.garvee.com/blogs/buying-guides/cheap-home-improvement-ideas-boost-your-homes-value-on-a-budget"
+    },
+    {
+      "text": "About Us",
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Rewards & Points",
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "About Garvee",
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Special Outlets",
+      "url": "https://www.garvee.com/collections/clearance-sale?filter.v.availability=1"
+    },
+    {
+      "text": "DIY Projects & Ideas",
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "Terms Of Service",
+      "url": "https://www.garvee.com/policies/terms-of-service"
+    },
+    {
+      "text": "Privacy Policy",
+      "url": "https://www.garvee.com/policies/privacy-policy"
+    },
+    {
+      "text": "Accessibility",
+      "url": "https://www.garvee.com/pages/accessibility-statement "
+    },
+    {
+      "text": "Track Your Order",
+      "url": "https://www.garvee.com/pages/track-your-order"
+    },
+    {
+      "text": "Payments Policy",
+      "url": "https://www.garvee.com/pages/payments-policy"
+    },
+    {
+      "text": "Shipping Policy",
+      "url": "https://www.garvee.com/policies/shipping-policy"
+    },
+    {
+      "text": "Warranty Policy",
+      "url": "https://www.garvee.com/pages/warranty-policy"
+    },
+    {
+      "text": "Refund & Return Policy",
+      "url": "https://www.garvee.com/policies/refund-policy"
+    },
+    {
+      "text": "Worry-Free Purchase",
+      "url": "https://www.garvee.com/pages/carebox-package-protection"
+    },
+    {
+      "text": "Contact Us",
+      "url": "https://www.garvee.com/pages/contact"
+    },
+    {
+      "text": "Affiliate Program",
+      "url": "https://www.garvee.com/pages/affiliate"
+    },
+    {
+      "text": "Influencer Program",
+      "url": "https://www.garvee.com/pages/influencer-program"
+    },
+    {
+      "text": "Share and Win",
+      "url": "https://www.garvee.com/pages/share-and-win"
+    },
+    {
+      "text": "Garvee Rewards",
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "Protection Plans",
+      "url": "https://www.garvee.com/pages/extended-service-protection"
+    },
+    {
+      "text": "Help Center",
+      "url": "https://support.garvee.com/"
+    },
+    {
+      "text": "WholeSale Program",
+      "url": "https://www.garvee.com/pages/business"
+    },
+    {
+      "text": "",
+      "url": "https://www.pinterest.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "url": "https://www.facebook.com/garveeglobal"
+    },
+    {
+      "text": "",
+      "url": "https://www.instagram.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "url": "https://www.youtube.com/channel/UCvt0kZI7qgY2leAZrwI9DKA"
+    },
+    {
+      "text": "",
+      "url": "https://www.tiktok.com/@garvee_official"
+    },
+    {
+      "text": "",
+      "url": "https://www.google.com/storepages?q=garvee.com&c=US&v=19"
+    },
+    {
+      "text": "About Garvee",
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Special Outlets",
+      "url": "https://www.garvee.com/collections/clearance-sale?filter.v.availability=1"
+    },
+    {
+      "text": "DIY Projects & Ideas",
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "Terms Of Service",
+      "url": "https://www.garvee.com/policies/terms-of-service"
+    },
+    {
+      "text": "Privacy Policy",
+      "url": "https://www.garvee.com/policies/privacy-policy"
+    },
+    {
+      "text": "Accessibility",
+      "url": "https://www.garvee.com/pages/accessibility-statement "
+    },
+    {
+      "text": "Track Your Order",
+      "url": "https://www.garvee.com/pages/track-your-order"
+    },
+    {
+      "text": "Payments Policy",
+      "url": "https://www.garvee.com/pages/payments-policy"
+    },
+    {
+      "text": "Shipping Policy",
+      "url": "https://www.garvee.com/policies/shipping-policy"
+    },
+    {
+      "text": "Warranty Policy",
+      "url": "https://www.garvee.com/pages/warranty-policy"
+    },
+    {
+      "text": "Refund & Return Policy",
+      "url": "https://www.garvee.com/policies/refund-policy"
+    },
+    {
+      "text": "Worry-Free Purchase",
+      "url": "https://www.garvee.com/pages/carebox-package-protection"
+    },
+    {
+      "text": "Contact Us",
+      "url": "https://www.garvee.com/pages/contact"
+    },
+    {
+      "text": "Affiliate Program",
+      "url": "https://www.garvee.com/pages/affiliate"
+    },
+    {
+      "text": "Influencer Program",
+      "url": "https://www.garvee.com/pages/influencer-program"
+    },
+    {
+      "text": "Share and Win",
+      "url": "https://www.garvee.com/pages/share-and-win"
+    },
+    {
+      "text": "Garvee Rewards",
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "Protection Plans",
+      "url": "https://www.garvee.com/pages/extended-service-protection"
+    },
+    {
+      "text": "Help Center",
+      "url": "https://support.garvee.com/"
+    },
+    {
+      "text": "WholeSale Program",
+      "url": "https://www.garvee.com/pages/business"
+    },
+    {
+      "text": "",
+      "url": "https://www.pinterest.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "url": "https://www.facebook.com/garveeglobal"
+    },
+    {
+      "text": "",
+      "url": "https://www.instagram.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "url": "https://www.youtube.com/channel/UCvt0kZI7qgY2leAZrwI9DKA"
+    },
+    {
+      "text": "",
+      "url": "https://www.tiktok.com/@garvee_official"
+    },
+    {
+      "text": "",
+      "url": "https://www.google.com/storepages?q=garvee.com&c=US&v=19"
+    },
+    {
+      "text": "Home",
+      "url": "https://www.garvee.com/"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/blogs/trending-now/laundry-room-storage-ideas"
+    },
+    {
+      "text": "Laundry Room Storage Ideas for a Functional Utility Space",
+      "url": "https://www.garvee.com/blogs/trending-now/laundry-room-storage-ideas"
+    },
+    {
+      "text": "Read More",
+      "url": "https://www.garvee.com/blogs/trending-now/laundry-room-storage-ideas"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/blogs/trending-now/smart-storage-solutions-for-small-spaces"
+    },
+    {
+      "text": "Smart Storage Solutions for Small Spaces: How to Create a More Organized Home",
+      "url": "https://www.garvee.com/blogs/trending-now/smart-storage-solutions-for-small-spaces"
+    },
+    {
+      "text": "Read More",
+      "url": "https://www.garvee.com/blogs/trending-now/smart-storage-solutions-for-small-spaces"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/blogs/trending-now/how-to-keep-a-small-patio-cool-in-summer"
+    },
+    {
+      "text": "How To Keep A Small Patio Cool In Summer: 10 Shade, Airflow, And Cooling Ideas",
+      "url": "https://www.garvee.com/blogs/trending-now/how-to-keep-a-small-patio-cool-in-summer"
+    },
+    {
+      "text": "Read More",
+      "url": "https://www.garvee.com/blogs/trending-now/how-to-keep-a-small-patio-cool-in-summer"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/blogs/trending-now/complete-summer-camping-guide"
+    },
+    {
+      "text": "Complete Summer Camping Guide: How To Stay Comfortable In Hot And Changing Weather",
+      "url": "https://www.garvee.com/blogs/trending-now/complete-summer-camping-guide"
+    },
+    {
+      "text": "Read More",
+      "url": "https://www.garvee.com/blogs/trending-now/complete-summer-camping-guide"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/blogs/trending-now/camp-kitchen-table-ideas"
+    },
+    {
+      "text": "Camp Kitchen Table Ideas: How To Organize A Portable Outdoor Cooking Station",
+      "url": "https://www.garvee.com/blogs/trending-now/camp-kitchen-table-ideas"
+    },
+    {
+      "text": "Read More",
+      "url": "https://www.garvee.com/blogs/trending-now/camp-kitchen-table-ideas"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/blogs/trending-now/complete-camping-setup-guide"
+    },
+    {
+      "text": "Complete Camping Setup Guide: Build A Comfortable, Organized, And Efficient Campsite",
+      "url": "https://www.garvee.com/blogs/trending-now/complete-camping-setup-guide"
+    },
+    {
+      "text": "Read More",
+      "url": "https://www.garvee.com/blogs/trending-now/complete-camping-setup-guide"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/blogs/trending-now/15-refreshing-beverage-dispenser-recipes"
+    },
+    {
+      "text": "15 Refreshing Beverage Dispenser Recipes For Summer Parties And Backyard Gatherings",
+      "url": "https://www.garvee.com/blogs/trending-now/15-refreshing-beverage-dispenser-recipes"
+    },
+    {
+      "text": "Read More",
+      "url": "https://www.garvee.com/blogs/trending-now/15-refreshing-beverage-dispenser-recipes"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/blogs/trending-now/beverage-dispenser-ideas-and-setup-tips"
+    },
+    {
+      "text": "Beverage Dispenser Ideas And Setup Tips For Events, Backyard Parties, And Buffet Restaurants",
+      "url": "https://www.garvee.com/blogs/trending-now/beverage-dispenser-ideas-and-setup-tips"
+    },
+    {
+      "text": "Read More",
+      "url": "https://www.garvee.com/blogs/trending-now/beverage-dispenser-ideas-and-setup-tips"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/blogs/trending-now/how-much-profit-can-a-slushy-machine-generate-for-your-business"
+    },
+    {
+      "text": "How Much Profit Can A Slushy Machine Generate for Your Business？",
+      "url": "https://www.garvee.com/blogs/trending-now/how-much-profit-can-a-slushy-machine-generate-for-your-business"
+    },
+    {
+      "text": "Read More",
+      "url": "https://www.garvee.com/blogs/trending-now/how-much-profit-can-a-slushy-machine-generate-for-your-business"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/blogs/trending-now/can-one-weight-bench-work-for-the-whole-family"
+    },
+    {
+      "text": "Can One Weight Bench Work For The Whole Family? How Simple Equipment Can Build Healthy Habits That Last",
+      "url": "https://www.garvee.com/blogs/trending-now/can-one-weight-bench-work-for-the-whole-family"
+    },
+    {
+      "text": "Read More",
+      "url": "https://www.garvee.com/blogs/trending-now/can-one-weight-bench-work-for-the-whole-family"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/blogs/trending-now/best-bedding-for-nesting-boxes"
+    },
+    {
+      "text": "Best Bedding For Nesting Boxes: What Keeps Eggs Clean And Safe?",
+      "url": "https://www.garvee.com/blogs/trending-now/best-bedding-for-nesting-boxes"
+    },
+    {
+      "text": "Read More",
+      "url": "https://www.garvee.com/blogs/trending-now/best-bedding-for-nesting-boxes"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/blogs/trending-now/outdoor-games-for-teens"
+    },
+    {
+      "text": "Outdoor Games For Teens That Actually Get Kids Off Screens This Summer",
+      "url": "https://www.garvee.com/blogs/trending-now/outdoor-games-for-teens"
+    },
+    {
+      "text": "Read More",
+      "url": "https://www.garvee.com/blogs/trending-now/outdoor-games-for-teens"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/blogs/trending-now?direction=next&cursor=eyJsYXN0X2lkIjo2ODk2NjcyNDQzNDUsImxhc3RfdmFsdWUiOiIyMDI2LTA2LTI0IDA5OjE5OjI1LjAwMDAwMCIsIm9mZnNldCI6MTF9"
+    }
+  ],
+  "main_text": ""
+}

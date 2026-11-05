@@ -1,0 +1,69 @@
+{
+  "name": {
+    "value": "GARVEE",
+    "source": "Homepage branding"
+  },
+  "legalName": {
+    "value": "GARVEE INNOVATION INC.",
+    "source": "https://www.garvee.com/pages/contact",
+    "label": "Company Name",
+    "note": "Official site disclosure, not an independent company-registry verification."
+  },
+  "telephone": {
+    "value": "+18888912855",
+    "source": "https://www.garvee.com/pages/contact",
+    "label": "Customer Phone Service",
+    "normalization": "US number normalized to international format"
+  },
+  "email": {
+    "value": "support@garvee.com",
+    "source": "https://www.garvee.com/pages/contact",
+    "label": "Support Email",
+    "mailto_matches": true
+  },
+  "contactPoint": {
+    "source": "https://www.garvee.com/pages/contact",
+    "customer_service": "Same verified primary support fields",
+    "media": "Public Media & Collaboration Inquiries email; mailto verified",
+    "hours": "Exact Mon - Fri 9AM to 5PM (PST) schedule; original timezone wording retained, no DST rule invented"
+  },
+  "address": {
+    "source": "https://www.garvee.com/pages/contact",
+    "label": "Headquarters",
+    "original": "4215 E Airport Dr, Ontario, CA 91761, USA",
+    "note": "Public company address, not a return address or government-registry verification."
+  },
+  "description": {
+    "source": "https://www.garvee.com/pages/about-garvee",
+    "note": "Summary of publicly described product scope; no founding year inferred."
+  },
+  "slogan": {
+    "source": "https://www.garvee.com/pages/about-garvee"
+  },
+  "hasMerchantReturnPolicy": {
+    "source": "https://www.garvee.com/policies/refund-policy",
+    "official_option": "Google Organization-level return-policy Option B: merchantReturnLink only",
+    "reason": "Policy has eligibility and fee exceptions; no unconditional free returns or guessed terms encoded."
+  },
+  "old_legal_name": "Homepage JSON-LD said Garvee Inc.; not reused due to difference from current contact-page disclosure.",
+  "logo_image": {
+    "source": "Homepage og:image",
+    "verified_resource": {
+      "url": "https://cdn.shopify.com/s/files/1/0724/6698/9369/files/7_b376f5da-2df9-46dc-b361-030a8faa697a.webp?v=1746696639&width=1200",
+      "status": 200,
+      "content_type": "image/png",
+      "format": "PNG",
+      "width": 1200,
+      "height": 675
+    },
+    "visual_check": "Dark blue GARVEE wordmark on transparent background; suitable contrast on white.",
+    "identity": "One ImageObject identified by #logo; image references it."
+  },
+  "review_profile": {
+    "source": "Homepage footer Google Customer Reviews link",
+    "value": "https://www.google.com/storepages?q=garvee.com&c=US&v=19"
+  },
+  "omitted": "No taxID/vatID/DUNS/foundingDate without evidence. Detailed ShippingService omitted because rate/condition data is incomplete and published truck-transit ranges conflict (7-10 vs 10-15 business days). Other international addresses not assumed to belong to the same legal entity.",
+  "html_sha256": "2de548399b67e47c4429e62311e64a0c617d71dd1ae20671e5059a823fd84dc1",
+  "category_count": 19
+}

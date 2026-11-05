@@ -1,0 +1,723 @@
+{
+  "requested_url": "https://www.garvee.com/policies/shipping-policy",
+  "url": "https://www.garvee.com/policies/shipping-policy",
+  "status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "captured_at": "2026-11-04T13:34:33.934464+00:00",
+  "sha256": "8c0d88b1f12074656c6ff825108f70309240a1a4d274aefd1c47a3a725763480",
+  "title": "Shipping Policy - GARVEE - GARVEE",
+  "canonical": "https://www.garvee.com/policies/shipping-policy",
+  "description": "GARVEE Shipping Policy",
+  "lang": "en",
+  "h1": [
+    "Shipping Policy"
+  ],
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "/",
+            "name": "Home"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "/policies/shipping-policy",
+            "name": "Shipping Policy"
+          }
+        }
+      ]
+    }
+  ],
+  "jsonld_parse_errors": [],
+  "main_links": [
+    {
+      "text": "Home",
+      "url": "https://www.garvee.com/"
+    },
+    {
+      "text": "About GARVEE",
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Terms Of Service",
+      "url": "https://www.garvee.com/policies/terms-of-service"
+    },
+    {
+      "text": "Privacy Policy",
+      "url": "https://www.garvee.com/policies/privacy-policy"
+    },
+    {
+      "text": "Accessibility Statement",
+      "url": "https://www.garvee.com/pages/accessibility-statement"
+    },
+    {
+      "text": "Contact Us",
+      "url": "https://www.garvee.com/pages/contact"
+    },
+    {
+      "text": "Payments Policy",
+      "url": "https://www.garvee.com/pages/payments-policy"
+    },
+    {
+      "text": "Shipping Policy",
+      "url": "https://www.garvee.com/policies/shipping-policy"
+    },
+    {
+      "text": "Refund & Return Policy",
+      "url": "https://www.garvee.com/policies/refund-policy"
+    },
+    {
+      "text": "Warranty Policy",
+      "url": "https://www.garvee.com/pages/warranty-policy"
+    }
+  ],
+  "footer_links": [
+    {
+      "text": "About Garvee",
+      "label": null,
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Special Outlets",
+      "label": null,
+      "url": "https://www.garvee.com/collections/clearance-sale?filter.v.availability=1"
+    },
+    {
+      "text": "DIY Projects & Ideas",
+      "label": null,
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "Terms Of Service",
+      "label": null,
+      "url": "https://www.garvee.com/policies/terms-of-service"
+    },
+    {
+      "text": "Privacy Policy",
+      "label": null,
+      "url": "https://www.garvee.com/policies/privacy-policy"
+    },
+    {
+      "text": "Accessibility",
+      "label": null,
+      "url": "https://www.garvee.com/pages/accessibility-statement "
+    },
+    {
+      "text": "Track Your Order",
+      "label": null,
+      "url": "https://www.garvee.com/pages/track-your-order"
+    },
+    {
+      "text": "Payments Policy",
+      "label": null,
+      "url": "https://www.garvee.com/pages/payments-policy"
+    },
+    {
+      "text": "Shipping Policy",
+      "label": null,
+      "url": "https://www.garvee.com/policies/shipping-policy"
+    },
+    {
+      "text": "Warranty Policy",
+      "label": null,
+      "url": "https://www.garvee.com/pages/warranty-policy"
+    },
+    {
+      "text": "Refund & Return Policy",
+      "label": null,
+      "url": "https://www.garvee.com/policies/refund-policy"
+    },
+    {
+      "text": "Worry-Free Purchase",
+      "label": null,
+      "url": "https://www.garvee.com/pages/carebox-package-protection"
+    },
+    {
+      "text": "Contact Us",
+      "label": null,
+      "url": "https://www.garvee.com/pages/contact"
+    },
+    {
+      "text": "Affiliate Program",
+      "label": null,
+      "url": "https://www.garvee.com/pages/affiliate"
+    },
+    {
+      "text": "Influencer Program",
+      "label": null,
+      "url": "https://www.garvee.com/pages/influencer-program"
+    },
+    {
+      "text": "Share and Win",
+      "label": null,
+      "url": "https://www.garvee.com/pages/share-and-win"
+    },
+    {
+      "text": "Garvee Rewards",
+      "label": null,
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "Protection Plans",
+      "label": null,
+      "url": "https://www.garvee.com/pages/extended-service-protection"
+    },
+    {
+      "text": "Help Center",
+      "label": null,
+      "url": "https://support.garvee.com/"
+    },
+    {
+      "text": "WholeSale Program",
+      "label": null,
+      "url": "https://www.garvee.com/pages/business"
+    },
+    {
+      "text": "",
+      "label": "Pinterest",
+      "url": "https://www.pinterest.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/garveeglobal"
+    },
+    {
+      "text": "",
+      "label": "Instagram",
+      "url": "https://www.instagram.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/channel/UCvt0kZI7qgY2leAZrwI9DKA"
+    },
+    {
+      "text": "",
+      "label": "TikTok",
+      "url": "https://www.tiktok.com/@garvee_official"
+    },
+    {
+      "text": "",
+      "label": "Google Customer Reviews",
+      "url": "https://www.google.com/storepages?q=garvee.com&c=US&v=19"
+    },
+    {
+      "text": "About Garvee",
+      "label": null,
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Special Outlets",
+      "label": null,
+      "url": "https://www.garvee.com/collections/clearance-sale?filter.v.availability=1"
+    },
+    {
+      "text": "DIY Projects & Ideas",
+      "label": null,
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "Terms Of Service",
+      "label": null,
+      "url": "https://www.garvee.com/policies/terms-of-service"
+    },
+    {
+      "text": "Privacy Policy",
+      "label": null,
+      "url": "https://www.garvee.com/policies/privacy-policy"
+    },
+    {
+      "text": "Accessibility",
+      "label": null,
+      "url": "https://www.garvee.com/pages/accessibility-statement "
+    },
+    {
+      "text": "Track Your Order",
+      "label": null,
+      "url": "https://www.garvee.com/pages/track-your-order"
+    },
+    {
+      "text": "Payments Policy",
+      "label": null,
+      "url": "https://www.garvee.com/pages/payments-policy"
+    },
+    {
+      "text": "Shipping Policy",
+      "label": null,
+      "url": "https://www.garvee.com/policies/shipping-policy"
+    },
+    {
+      "text": "Warranty Policy",
+      "label": null,
+      "url": "https://www.garvee.com/pages/warranty-policy"
+    },
+    {
+      "text": "Refund & Return Policy",
+      "label": null,
+      "url": "https://www.garvee.com/policies/refund-policy"
+    },
+    {
+      "text": "Worry-Free Purchase",
+      "label": null,
+      "url": "https://www.garvee.com/pages/carebox-package-protection"
+    },
+    {
+      "text": "Contact Us",
+      "label": null,
+      "url": "https://www.garvee.com/pages/contact"
+    },
+    {
+      "text": "Affiliate Program",
+      "label": null,
+      "url": "https://www.garvee.com/pages/affiliate"
+    },
+    {
+      "text": "Influencer Program",
+      "label": null,
+      "url": "https://www.garvee.com/pages/influencer-program"
+    },
+    {
+      "text": "Share and Win",
+      "label": null,
+      "url": "https://www.garvee.com/pages/share-and-win"
+    },
+    {
+      "text": "Garvee Rewards",
+      "label": null,
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "Protection Plans",
+      "label": null,
+      "url": "https://www.garvee.com/pages/extended-service-protection"
+    },
+    {
+      "text": "Help Center",
+      "label": null,
+      "url": "https://support.garvee.com/"
+    },
+    {
+      "text": "WholeSale Program",
+      "label": null,
+      "url": "https://www.garvee.com/pages/business"
+    },
+    {
+      "text": "",
+      "label": "Pinterest",
+      "url": "https://www.pinterest.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/garveeglobal"
+    },
+    {
+      "text": "",
+      "label": "Instagram",
+      "url": "https://www.instagram.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/channel/UCvt0kZI7qgY2leAZrwI9DKA"
+    },
+    {
+      "text": "",
+      "label": "TikTok",
+      "url": "https://www.tiktok.com/@garvee_official"
+    },
+    {
+      "text": "",
+      "label": "Google Customer Reviews",
+      "url": "https://www.google.com/storepages?q=garvee.com&c=US&v=19"
+    }
+  ],
+  "all_links": [
+    {
+      "text": "",
+      "url": "https://www.pinterest.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "url": "https://www.facebook.com/garveeglobal"
+    },
+    {
+      "text": "",
+      "url": "https://www.instagram.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "url": "https://www.youtube.com/channel/UCvt0kZI7qgY2leAZrwI9DKA"
+    },
+    {
+      "text": "",
+      "url": "https://www.tiktok.com/@garvee_official"
+    },
+    {
+      "text": "Join Free",
+      "url": "https://www.garvee.com/policies/shipping-policy#login"
+    },
+    {
+      "text": "Get My Discount",
+      "url": "https://www.garvee.com/policies/shipping-policy#login"
+    },
+    {
+      "text": "Unlock Savings",
+      "url": "https://www.garvee.com/policies/shipping-policy#login"
+    },
+    {
+      "text": "Join Free",
+      "url": "https://www.garvee.com/policies/shipping-policy#login"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/"
+    },
+    {
+      "text": "New Arrivals",
+      "url": "https://www.garvee.com/collections/new-arrivals"
+    },
+    {
+      "text": "Best Sellers🔥",
+      "url": "https://www.garvee.com/collections/best-sellers"
+    },
+    {
+      "text": "Flash Deals⚡",
+      "url": "https://www.garvee.com/collections/flash-deals"
+    },
+    {
+      "text": "Clearance",
+      "url": "https://www.garvee.com/collections/clearance-sale"
+    },
+    {
+      "text": "DIY Projects & Ideas",
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "About Us",
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Rewards & Points",
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/"
+    },
+    {
+      "text": "New Arrivals",
+      "url": "https://www.garvee.com/collections/new-arrivals"
+    },
+    {
+      "text": "Best Sellers🔥",
+      "url": "https://www.garvee.com/collections/best-sellers"
+    },
+    {
+      "text": "Flash Deals⚡",
+      "url": "https://www.garvee.com/collections/flash-deals"
+    },
+    {
+      "text": "Clearance",
+      "url": "https://www.garvee.com/collections/clearance-sale"
+    },
+    {
+      "text": "DIY Projects & Ideas",
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "Everything You Need to Know About Rug Sizes and Placement",
+      "url": "https://www.garvee.com/blogs/buying-guides/everything-you-need-to-know-about-rug-sizes-and-placement"
+    },
+    {
+      "text": "Find the Right One for Your Business Needs",
+      "url": "https://www.garvee.com/blogs/buying-guides/utility-cart-buying-guide-finding-the-correct-one-for-your-business-needs"
+    },
+    {
+      "text": "Power Tools Vs. Hand Tools: What You Need to Know",
+      "url": "https://www.garvee.com/blogs/buying-guides/power-tools-vs-hand-tools-what-you-need-to-know"
+    },
+    {
+      "text": "Everything You Should Know About Wine Cooler",
+      "url": "https://www.garvee.com/blogs/buying-guides/everything-you-should-know-about-wine-cooler"
+    },
+    {
+      "text": "Difference Between a Dresser and a Chest of Drawers",
+      "url": "https://www.garvee.com/blogs/buying-guides/what-is-the-difference-between-a-dresser-and-a-chest-of-drawers-a-comprehensive-comparison"
+    },
+    {
+      "text": "Cheap Home Improvement Ideas Boost Your Home's Value",
+      "url": "https://www.garvee.com/blogs/buying-guides/cheap-home-improvement-ideas-boost-your-homes-value-on-a-budget"
+    },
+    {
+      "text": "About Us",
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Rewards & Points",
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "Home",
+      "url": "https://www.garvee.com/"
+    },
+    {
+      "text": "About GARVEE",
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Terms Of Service",
+      "url": "https://www.garvee.com/policies/terms-of-service"
+    },
+    {
+      "text": "Privacy Policy",
+      "url": "https://www.garvee.com/policies/privacy-policy"
+    },
+    {
+      "text": "Accessibility Statement",
+      "url": "https://www.garvee.com/pages/accessibility-statement"
+    },
+    {
+      "text": "Contact Us",
+      "url": "https://www.garvee.com/pages/contact"
+    },
+    {
+      "text": "Payments Policy",
+      "url": "https://www.garvee.com/pages/payments-policy"
+    },
+    {
+      "text": "Shipping Policy",
+      "url": "https://www.garvee.com/policies/shipping-policy"
+    },
+    {
+      "text": "Refund & Return Policy",
+      "url": "https://www.garvee.com/policies/refund-policy"
+    },
+    {
+      "text": "Warranty Policy",
+      "url": "https://www.garvee.com/pages/warranty-policy"
+    },
+    {
+      "text": "About Garvee",
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Special Outlets",
+      "url": "https://www.garvee.com/collections/clearance-sale?filter.v.availability=1"
+    },
+    {
+      "text": "DIY Projects & Ideas",
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "Terms Of Service",
+      "url": "https://www.garvee.com/policies/terms-of-service"
+    },
+    {
+      "text": "Privacy Policy",
+      "url": "https://www.garvee.com/policies/privacy-policy"
+    },
+    {
+      "text": "Accessibility",
+      "url": "https://www.garvee.com/pages/accessibility-statement "
+    },
+    {
+      "text": "Track Your Order",
+      "url": "https://www.garvee.com/pages/track-your-order"
+    },
+    {
+      "text": "Payments Policy",
+      "url": "https://www.garvee.com/pages/payments-policy"
+    },
+    {
+      "text": "Shipping Policy",
+      "url": "https://www.garvee.com/policies/shipping-policy"
+    },
+    {
+      "text": "Warranty Policy",
+      "url": "https://www.garvee.com/pages/warranty-policy"
+    },
+    {
+      "text": "Refund & Return Policy",
+      "url": "https://www.garvee.com/policies/refund-policy"
+    },
+    {
+      "text": "Worry-Free Purchase",
+      "url": "https://www.garvee.com/pages/carebox-package-protection"
+    },
+    {
+      "text": "Contact Us",
+      "url": "https://www.garvee.com/pages/contact"
+    },
+    {
+      "text": "Affiliate Program",
+      "url": "https://www.garvee.com/pages/affiliate"
+    },
+    {
+      "text": "Influencer Program",
+      "url": "https://www.garvee.com/pages/influencer-program"
+    },
+    {
+      "text": "Share and Win",
+      "url": "https://www.garvee.com/pages/share-and-win"
+    },
+    {
+      "text": "Garvee Rewards",
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "Protection Plans",
+      "url": "https://www.garvee.com/pages/extended-service-protection"
+    },
+    {
+      "text": "Help Center",
+      "url": "https://support.garvee.com/"
+    },
+    {
+      "text": "WholeSale Program",
+      "url": "https://www.garvee.com/pages/business"
+    },
+    {
+      "text": "",
+      "url": "https://www.pinterest.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "url": "https://www.facebook.com/garveeglobal"
+    },
+    {
+      "text": "",
+      "url": "https://www.instagram.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "url": "https://www.youtube.com/channel/UCvt0kZI7qgY2leAZrwI9DKA"
+    },
+    {
+      "text": "",
+      "url": "https://www.tiktok.com/@garvee_official"
+    },
+    {
+      "text": "",
+      "url": "https://www.google.com/storepages?q=garvee.com&c=US&v=19"
+    },
+    {
+      "text": "About Garvee",
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Special Outlets",
+      "url": "https://www.garvee.com/collections/clearance-sale?filter.v.availability=1"
+    },
+    {
+      "text": "DIY Projects & Ideas",
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "Terms Of Service",
+      "url": "https://www.garvee.com/policies/terms-of-service"
+    },
+    {
+      "text": "Privacy Policy",
+      "url": "https://www.garvee.com/policies/privacy-policy"
+    },
+    {
+      "text": "Accessibility",
+      "url": "https://www.garvee.com/pages/accessibility-statement "
+    },
+    {
+      "text": "Track Your Order",
+      "url": "https://www.garvee.com/pages/track-your-order"
+    },
+    {
+      "text": "Payments Policy",
+      "url": "https://www.garvee.com/pages/payments-policy"
+    },
+    {
+      "text": "Shipping Policy",
+      "url": "https://www.garvee.com/policies/shipping-policy"
+    },
+    {
+      "text": "Warranty Policy",
+      "url": "https://www.garvee.com/pages/warranty-policy"
+    },
+    {
+      "text": "Refund & Return Policy",
+      "url": "https://www.garvee.com/policies/refund-policy"
+    },
+    {
+      "text": "Worry-Free Purchase",
+      "url": "https://www.garvee.com/pages/carebox-package-protection"
+    },
+    {
+      "text": "Contact Us",
+      "url": "https://www.garvee.com/pages/contact"
+    },
+    {
+      "text": "Affiliate Program",
+      "url": "https://www.garvee.com/pages/affiliate"
+    },
+    {
+      "text": "Influencer Program",
+      "url": "https://www.garvee.com/pages/influencer-program"
+    },
+    {
+      "text": "Share and Win",
+      "url": "https://www.garvee.com/pages/share-and-win"
+    },
+    {
+      "text": "Garvee Rewards",
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "Protection Plans",
+      "url": "https://www.garvee.com/pages/extended-service-protection"
+    },
+    {
+      "text": "Help Center",
+      "url": "https://support.garvee.com/"
+    },
+    {
+      "text": "WholeSale Program",
+      "url": "https://www.garvee.com/pages/business"
+    },
+    {
+      "text": "",
+      "url": "https://www.pinterest.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "url": "https://www.facebook.com/garveeglobal"
+    },
+    {
+      "text": "",
+      "url": "https://www.instagram.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "url": "https://www.youtube.com/channel/UCvt0kZI7qgY2leAZrwI9DKA"
+    },
+    {
+      "text": "",
+      "url": "https://www.tiktok.com/@garvee_official"
+    },
+    {
+      "text": "",
+      "url": "https://www.google.com/storepages?q=garvee.com&c=US&v=19"
+    }
+  ],
+  "main_text": "Shipping Policy\nUPDATED: June 28, 2025\nDelivery Times\nDelivery times are estimates and not guaranteed. We strive to ship as quickly as possible; however, shipping carrier delays, weather conditions, and other unforeseen circumstances may affect delivery times. Please note that deliveries to rural areas may take longer than expected.\nTotal Delivery Time = Processing Time + Shipping Time\nProcessing Time\nBefore shipping your order, we typically need 1-2 business days to prepare your products. Our daily cutoff time is 5:00 PM (PST) from Monday to Friday. This time includes strict quality control tests and careful packaging of items, and is separate from the shipping time.\nShipping Time\n- Express Shipping: 3-5 Business Days\n- Truck Shipping (for Overweight Items): 7-10 Business Days\nShipping Rates\nGarvee utilizes UPS, USPS, FedEx, and truck freight lines for order shipments. You will receive a shipping confirmation email detailing the carrier and estimated delivery date.\nShipping Notice\nA shipping confirmation with a tracking number will be sent immediately after your order is shipped. Please note that some shipping companies may take up to 48 hours to update tracking information after receiving the package. Upon delivery, we will also send a reminder email. We recommend signing for your package to avoid loss. If you notice any discrepancies upon receipt, please contact our customer service team at support@Garvee.com.\nShipping Fees\n1. Shipping Restrictions: We currently do not ship to the U.S. Virgin Islands, Puerto Rico, Hawaii, Guam, or Alaska.\n2. Address Change After Shipment: If you request an address change after your order has been shipped, the shipping carrier may impose a fee. Garvee will inform you of the cost and request payment for the associated fee. If the address change is unsuccessful, no fee will be charged. Garvee is not liable for losses resulting from failure to modify the address.\n3. Reshipment Due to Delivery Failure: If the original delivery address is undeliverable, a reshipment fee will apply for the second delivery attempt, which will be your responsibility. Garvee is not liable for losses incurred due to undeliverable addresses.\n4. Missed Delivery Appointment: If you miss a scheduled delivery appointment, a reshipment fee will apply for the second attempt, which will also be your responsibility. Garvee is not liable for losses due to missed appointments.\n5. Additional Fees for Restricted Locations: Deliveries to locations with restricted access, such as universities, prisons, or country clubs, may incur additional fees, which will be your responsibility.\nThings to Know\n- Garvee cannot ship to P.O. Box addresses.\n- We do not ship to Alaska or Hawaii.\n- Some orders may be shipped in multiple packages.\n- Garvee does not currently ship to APO or FPO addresses due to export requirements.\n- Some gas-powered or volatile items (e.g., generators, engines, spray paint) cannot be shipped by air or express service due to regulations.\n- Title and risk of loss pass to you upon Garvee's transfer of the product to the shipping carrier.\n- Garvee only offers product sales services within the United States; sales services are not available in other countries.\nBackordered Items\nWhile we do our best to prevent backorders, they may occasionally occur. Items will be shipped as soon as our warehouse receives a new shipment. If a backordered item is discontinued or unavailable, it will be canceled from your order, and you will not be charged. Comparable or upgraded items may be available; please check our website or contact Customer Support at +1 888 891 2855 for assistance.\nOrdering Gifts\nDue to the size of some of our products, larger items will arrive in their original manufacturer’s packaging. Please be aware that the packaging may reveal the product contents.\nDescription of Abnormal Logistics Situations\n1. Package Stagnation\nIf your package has been stagnant for more than 3 business days with the status “Shipment Information Sent to FedEx,” please contact us with your order number. If your package is in transit but stuck at a station for more than 7 business days, please contact the carrier first for status updates, and then reach out to us at support@Garvee.com with your order number. If tracking shows your package was delivered but you cannot find it, we recommend contacting the carrier to inquire about the delivery address. Please submit a case to let them locate your package, then contact us at support@Garvee.com with your case number and order number.\n2. Lost Packages\nIf a package is lost during transit (before delivery), we will confirm the loss and compensate you based on your preference (resend or refund).\n3. Package Delays\nGarvee is not responsible for delays or rejections due to remote transportation delays, issues related to the consignee (e.g., address changes after shipment, incorrect addresses, incorrect contact information, refusal to receive), force majeure events (such as national or regional transportation interruptions due to weather, government actions, or natural disasters), or non-deliverable addresses during weekends or holidays.\nGarvee will reject any return requests arising from logistics delays (Express Shipping: 3-5 Business Days / Truck Shipping10-15 Business Days) for the reasons outlined above, categorizing such cases as \"customer no longer needs the product.\" If a customer insists on returning the item under these circumstances, return shipping costs will be the customer’s responsibility. Furthermore, upon return of the package to our warehouse, the original shipping fee will not be refunded, and a 20% restocking fee will be deducted from the refund amount. Thank you for your understanding.\n4. Package Damage\nWhile Garvee makes every effort to ensure prompt shipping and safe delivery, unforeseen circumstances may result in shipping damage. If any part of your order is damaged upon delivery and you did not note any damages on the delivery receipt, Garvee cannot guarantee compensation for such damages. Signing the delivery receipt without noting damage indicates that you have received the items in good condition.\nIf you encounter damaged products upon delivery, please follow these steps:\n- Clearly indicate the condition of the damaged package on the delivery receipt before signing.\n- Retain a copy of the delivery receipt.\n- Contact our customer service within 1 business day at support@garvee.com.\n- Keep the damaged packaging materials for inspection, ensuring they include shipping label information.\n- Take photographs of the damaged items and packaging.\nThank you for your cooperation in helping us resolve any shipping issues promptly."
+}

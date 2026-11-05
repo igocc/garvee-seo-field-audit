@@ -1,0 +1,11 @@
+{
+  "page": "product",
+  "schema_complete": "code/product.html",
+  "google_conservative": "code/product-google-ready.html",
+  "difference": "保守版暂不输出 Product.review / AggregateRating。完整 Schema 示例保留 5 条真实评论，但 Google 要求多条评论配套 aggregateRating；官网评分主数据存在冲突，不能猜填。",
+  "google_initial_result": "https://search.google.com/test/rich-results/result?id=SPpWoqj4SAk5sbqFAjTa7A",
+  "review_count_in_complete_example": 5,
+  "review_count_is_not_total_reviews": true,
+  "google_conservative_sha256": "59f11cfc22155500351507bade98128f718502a8fd8879e5216db1adb74d21ed",
+  "production_requirement": "业务统一评分均值、总评论数、星级分布与商品/变体统计范围后，重新启用真实评论及汇总评分，并重新双验证。"
+}

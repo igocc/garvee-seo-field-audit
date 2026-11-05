@@ -1,0 +1,128 @@
+[
+  {
+    "topic": "组织与站点",
+    "guide": "organization",
+    "rule": "Google：不必每页完整重复 Organization；首页或介绍组织的页面适合定义。其他页按角色引用同一 @id。",
+    "source_url": "https://developers.google.com/search/docs/appearance/structured-data/organization",
+    "source_sha256": "0477e22c07aac61ce0d6819524ce564767c4ca8a7c72eddcddfd00ee4c148e69"
+  },
+  {
+    "topic": "站点名称",
+    "guide": "site-names",
+    "rule": "WebSite 站点名称标记位于域／子域首页。support.garvee.com 的首页可定义它自己的 WebSite。",
+    "source_url": "https://developers.google.com/search/docs/appearance/site-names",
+    "source_sha256": "9061ac04e4caf1f1b0e130c10d4ed6e0822cc446d2e2d8c598174fdd7c26a98e"
+  },
+  {
+    "topic": "面包屑",
+    "guide": "breadcrumb",
+    "rule": "只从本页实际用户导航取值；末级可以是父类目，不一律追加当前商品。无组件不借用别页。",
+    "source_url": "https://developers.google.com/search/docs/appearance/structured-data/breadcrumb",
+    "source_sha256": "60043c5c22977e7a1ab0f1c1c1efbb2c147b47a67a9f640ba85d6a6e29d2cf0b"
+  },
+  {
+    "topic": "商品与报价",
+    "guide": "merchant-listing",
+    "rule": "Product/Offer 需要真实商品、价格和币种。Google 商家商品信息针对可购买的单商品／其变体页；卡片被识别不证明类目页资格。",
+    "source_url": "https://developers.google.com/search/docs/appearance/structured-data/merchant-listing",
+    "source_sha256": "e568dca41139a8edaa4c17b06d3a16ef2ca38c2e14a680b352c39b28572297dd"
+  },
+  {
+    "topic": "商品摘要",
+    "guide": "product-snippet",
+    "rule": "商品摘要需 name，及 review/aggregateRating/offers 至少一种等功能条件；不能据支持字段强行造评分。",
+    "source_url": "https://developers.google.com/search/docs/appearance/structured-data/product-snippet",
+    "source_sha256": "94864e8de5bb2a2d9307b807354e28bec0c252ba5c6ae8da638a6a0dba91a8ca"
+  },
+  {
+    "topic": "商品变体",
+    "guide": "product-variants",
+    "rule": "ProductGroup/hasVariant/variesBy、分组 ID 与各变体身份和报价必须真实；颜色尺寸选项不是完整变体数据。",
+    "source_url": "https://developers.google.com/search/docs/appearance/structured-data/product-variants",
+    "source_sha256": "0028fcf7f17bdb32a7620eb00c3a8deffe01a4e04bb72c9a53de0a7bacc4795a"
+  },
+  {
+    "topic": "评价汇总",
+    "guide": "review-snippet",
+    "rule": "多个评论需要可信 AggregateRating 配套。ratingCount 与 reviewCount 是不同计数，不能转换为人数。",
+    "source_url": "https://developers.google.com/search/docs/appearance/structured-data/review-snippet",
+    "source_sha256": "f71c6b20096113c7b28d5c987c4f510b0f0a08e6e0ae41efb09e5263e3266983"
+  },
+  {
+    "topic": "组织级退货",
+    "guide": "return-policy",
+    "rule": "Option B 允许仅 merchantReturnLink；Option A 详细政策必需项、条件项不能强加给链接方案。商品级例外单独处理。",
+    "source_url": "https://developers.google.com/search/docs/appearance/structured-data/return-policy",
+    "source_sha256": "46a6533feeb3bec0cb55239f3c760bec95a317d498c18261cac31ffec0844e30"
+  },
+  {
+    "topic": "会员计划",
+    "guide": "loyalty-program",
+    "rule": "MemberProgramTier.membershipPointsEarned 的 Google 形式为 QuantitativeValue，应说明每一单位消费货币的积分；等级优惠价需 validForMemberTier。",
+    "source_url": "https://developers.google.com/search/docs/appearance/structured-data/loyalty-program",
+    "source_sha256": "400c7cbd33059e88c06e63acb009c0ababc6f9a64f44f255dbb6d2b409638895"
+  },
+  {
+    "topic": "文章",
+    "guide": "article",
+    "rule": "真实标题、图片、发布日期与作者由 CMS/正文核对；没有可见署名不能只因旧 JSON-LD 有名字就当已验证作者。",
+    "source_url": "https://developers.google.com/search/docs/appearance/structured-data/article",
+    "source_sha256": "275a9df852e881c48674a040115d773f7c5a3483202a79f34b1fe23df7ecaecd"
+  },
+  {
+    "topic": "FAQ",
+    "guide": "faq",
+    "rule": "Schema FAQ 语义仍有效；当前指南记载 Google FAQ 富结果自 2026-05-07 停止。模块采用 WebPageElement + Question/Answer，独立 FAQ 页采用 FAQPage。此为本项目建模选择，不是 Schema 禁令。",
+    "source_url": "https://developers.google.com/search/docs/appearance/structured-data/faqpage",
+    "source_sha256": "0346440ae9757fd53a47256ee64e248482e656ac4a3cbf0279485664c7cb75a6"
+  },
+  {
+    "topic": "用户问答",
+    "guide": "qapage",
+    "rule": "单一问题页及用户可提交的多个答案才考虑 QAPage；商品页 Q&A 为 0 时不造问题，不把多问题 FAQ 标为 QAPage。",
+    "source_url": "https://developers.google.com/search/docs/appearance/structured-data/qapage",
+    "source_sha256": "0075ec647329be02f4d0c3e03650d90ae7ff8187325a7f34e5537d9e52b5dce5"
+  },
+  {
+    "topic": "活动",
+    "guide": "event",
+    "rule": "普通销售活动不是自动符合 Google Event 的公开事件；没有真实起止时间和事件性质不标 Event。",
+    "source_url": "https://developers.google.com/search/docs/appearance/structured-data/event",
+    "source_sha256": "21cf3ad0f4326c0f4d1df0890ed68897a00ace2e086f078d4db0caa840f7206a"
+  },
+  {
+    "topic": "视频",
+    "guide": "video",
+    "rule": "VideoObject 需要真实视频元数据；本文内嵌视频不证明文章是主视频 watch page。",
+    "source_url": "https://developers.google.com/search/docs/appearance/structured-data/video",
+    "source_sha256": "4f2e872932d3842ca06153a0af66720d590e011b6a9883695c2c73cb7d4dac6e"
+  },
+  {
+    "topic": "列表",
+    "guide": "carousel",
+    "rule": "ItemList 可表达实际条目；Google 轮播仅支持指南规定的类型和场景。条目数不等于全库库存。",
+    "source_url": "https://developers.google.com/search/docs/appearance/structured-data/carousel",
+    "source_sha256": "c310e7d965b0c0dd3d518a3135072ba8b1bc6f81e21c5ef9efbcf788f7b800fe"
+  },
+  {
+    "topic": "通用政策",
+    "guide": "general",
+    "rule": "标记内容须真实、相关且用户可访问；验证器通过不证明事实真实、合法身份、实时库存或搜索展示。",
+    "source_url": "https://developers.google.com/search/docs/appearance/structured-data/sd-policies",
+    "source_sha256": "b2e82d8f8b249f054d94f7248af49d06071f905c2e4866ea261e234a5f636398"
+  },
+  {
+    "topic": "动态页面",
+    "guide": "javascript-structured-data",
+    "rule": "Google 能处理 JS 不替代本项目首个完整 SSR HTML 的交付要求；取值、正文和标记同源同步。",
+    "source_url": "https://developers.google.com/search/docs/appearance/structured-data/generate-structured-data-with-javascript",
+    "source_sha256": "e254982d0a0b48bca4474596af6b926a4859d78824912cd1595cafb2fb620994"
+  },
+  {
+    "topic": "Schema 数据模型",
+    "guide": "schema-data-model",
+    "rule": "Schema 开放、多值且继承；domain/range 是词汇建议，不能构造成全站闭合必填清单。",
+    "source_url": "https://schema.org/docs/datamodel.html",
+    "source_sha256": "aa397d32d2b50ecfe94b6d2c03d269e2a72426bffed38c4b6c66e50a95a73406"
+  }
+]

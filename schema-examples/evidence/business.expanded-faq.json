@@ -1,0 +1,56 @@
+{
+  "url": "https://www.garvee.com/pages/business?source=aw&sv1=affiliate&sv_campaign_id=1300047&sscid=52725_1793847563_548d3992ecf5a921e5852c315e80cf3c&awc=52725_1793847563_548d3992ecf5a921e5852c315e80cf3c&irpid=1216682&irgwc=1&transaction_id=8881384fa4d3487eae09367ab1878123&clickref=8881384fa4d3487eae09367ab1878123",
+  "canonical": "https://www.garvee.com/pages/business",
+  "captured_at": "2026-11-05T03:42:05.733Z",
+  "interaction": "Opened each actual details/summary FAQ",
+  "pairs": [
+    {
+      "question": "Which purchasing path should I choose?",
+      "answer": "Choose Business Purchasing if you will use the products in your operations, facilities or projects. Choose Wholesale for Retailers if you are buying inventory to sell through your store or online business. You can request a quote and apply for GARVEE Business membership with either option.",
+      "open": true,
+      "html": "<details class=\"group rounded-lg border border-slate-200 bg-white px-5\" open=\"\"><summary class=\"cursor-pointer list-none py-4 font-semibold text-sky-900 marker:content-none\">Which purchasing path should I choose?</summary><p class=\"mb-5 leading-relaxed text-slate-500\">Choose Business Purchasing if you will use the products in your operations, facilities or projects. Choose Wholesale for Retailers if you are buying inventory to sell through your store or online business. You can request a quote and apply for GARVEE Business membership with either option.</p></details>"
+    },
+    {
+      "question": "Can I request a quote without an account?",
+      "answer": "Yes. Provide your work email and purchasing requirements through our quick inquiry form. An EIN is not required to request a quote.",
+      "open": true,
+      "html": "<details class=\"group rounded-lg border border-slate-200 bg-white px-5\" open=\"\"><summary class=\"cursor-pointer list-none py-4 font-semibold text-sky-900 marker:content-none\">Can I request a quote without an account?</summary><p class=\"mb-5 leading-relaxed text-slate-500\">Yes. Provide your work email and purchasing requirements through our quick inquiry form. An EIN is not required to request a quote.</p></details>"
+    },
+    {
+      "question": "What savings are available?",
+      "answer": "Approved business accounts receive 10% off at 50+ units, 12% off at 100+ units and 15% off at 300+ units per eligible SKU. These volume discounts do not require a custom quote. Ordering more than 300 units? You can request Contract Pricing with savings up to 25%, subject to an individual quote.",
+      "open": true,
+      "html": "<details class=\"group rounded-lg border border-slate-200 bg-white px-5\" open=\"\"><summary class=\"cursor-pointer list-none py-4 font-semibold text-sky-900 marker:content-none\">What savings are available?</summary><p class=\"mb-5 leading-relaxed text-slate-500\">Approved business accounts receive 10% off at 50+ units, 12% off at 100+ units and 15% off at 300+ units per eligible SKU. These volume discounts do not require a custom quote. Ordering more than 300 units? You can request Contract Pricing with savings up to 25%, subject to an individual quote.</p></details>"
+    },
+    {
+      "question": "What do I need for business verification?",
+      "answer": "GARVEE requires your work email, legal business name, registered business address and Employer Identification Number (EIN). Use the business name shown on your EIN documentation. We may request an EIN confirmation letter or business registration documents if additional review is needed.",
+      "open": true,
+      "html": "<details class=\"group rounded-lg border border-slate-200 bg-white px-5\" open=\"\"><summary class=\"cursor-pointer list-none py-4 font-semibold text-sky-900 marker:content-none\">What do I need for business verification?</summary><p class=\"mb-5 leading-relaxed text-slate-500\">GARVEE requires your work email, legal business name, registered business address and Employer Identification Number (EIN). Use the business name shown on your EIN documentation. We may request an EIN confirmation letter or business registration documents if additional review is needed.</p></details>"
+    },
+    {
+      "question": "Does entering an EIN verify my account?",
+      "answer": "No. Checking the nine-digit format is only the first step. Your business information must be reviewed before member pricing is activated.",
+      "open": true,
+      "html": "<details class=\"group rounded-lg border border-slate-200 bg-white px-5\" open=\"\"><summary class=\"cursor-pointer list-none py-4 font-semibold text-sky-900 marker:content-none\">Does entering an EIN verify my account?</summary><p class=\"mb-5 leading-relaxed text-slate-500\">No. Checking the nine-digit format is only the first step. Your business information must be reviewed before member pricing is activated.</p></details>"
+    },
+    {
+      "question": "Does business membership include tax-exempt purchasing?",
+      "answer": "Business verification and tax exemption are separate reviews. An EIN alone does not establish tax-exempt eligibility. Contact the business team about any applicable exemption documentation.",
+      "open": true,
+      "html": "<details class=\"group rounded-lg border border-slate-200 bg-white px-5\" open=\"\"><summary class=\"cursor-pointer list-none py-4 font-semibold text-sky-900 marker:content-none\">Does business membership include tax-exempt purchasing?</summary><p class=\"mb-5 leading-relaxed text-slate-500\">Business verification and tax exemption are separate reviews. An EIN alone does not establish tax-exempt eligibility. <a class=\"font-semibold text-sky-900 underline underline-offset-4\" href=\"/pages/contact\">Contact the business team</a> about any applicable exemption documentation.</p></details>"
+    },
+    {
+      "question": "Can I pick up my order from a warehouse?",
+      "answer": "Pickup may be available for eligible products at select warehouse locations. Share your SKUs, quantities and ZIP code, and our team will confirm stock, the pickup address and any appointment requirements.",
+      "open": true,
+      "html": "<details class=\"group rounded-lg border border-slate-200 bg-white px-5\" open=\"\"><summary class=\"cursor-pointer list-none py-4 font-semibold text-sky-900 marker:content-none\">Can I pick up my order from a warehouse?</summary><p class=\"mb-5 leading-relaxed text-slate-500\">Pickup may be available for eligible products at select warehouse locations. Share your SKUs, quantities and ZIP code, and our team will confirm stock, the pickup address and any appointment requirements.</p></details>"
+    },
+    {
+      "question": "Which payment options are available?",
+      "answer": "Depending on your approved order, options include card payment via Stripe, ACH and wire transfer, with invoicing via QuickBooks. Purchase orders can be referenced on your invoice. Your quote confirms the available payment methods.",
+      "open": true,
+      "html": "<details class=\"group rounded-lg border border-slate-200 bg-white px-5\" open=\"\"><summary class=\"cursor-pointer list-none py-4 font-semibold text-sky-900 marker:content-none\">Which payment options are available?</summary><p class=\"mb-5 leading-relaxed text-slate-500\">Depending on your approved order, options include card payment via Stripe, ACH and wire transfer, with invoicing via QuickBooks. Purchase orders can be referenced on your invoice. Your quote confirms the available payment methods.</p></details>"
+    }
+  ]
+}

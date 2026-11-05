@@ -1,0 +1,1219 @@
+{
+  "requested_url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy",
+  "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy",
+  "status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "captured_at": "2026-11-04T13:39:07.827014+00:00",
+  "sha256": "66925a7b7b13cc2043bc9a2567a861038330c1ba7011b68af0e048d91fb9594f",
+  "title": "Bordered Rug with Low Pile - Machine Made | GARVEE",
+  "canonical": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy",
+  "description": "Bordered Rug features Low Pile, Machine Made, Machine Washable, Non Slip, Stain Resistant, Foldable, Polyester, Housewarming, and Red-Brown. Choose yours at GARVEE.",
+  "lang": "en",
+  "h1": [
+    "Customer Reviews 4.77",
+    "Fall Upgrade Sale Deals Garvee Bordered Reddish Brown 10x13 Washable Area Rug, Farmhouse Neutral Low Pile Carpet, Stain Resistant Non Slip Soft Rug for Living Room Bedroom Dining Room"
+  ],
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Garvee Bordered Reddish Brown 10x13 Washable Area Rug, Farmhouse Neutral Low Pile Carpet, Stain Resistant Non Slip Soft Rug for Living Room Bedroom Dining Room",
+      "description": "Bordered Rug features Low Pile, Machine Made, Machine Washable, Non Slip, Stain Resistant, Foldable, Polyester, Housewarming, and Red-Brown. Choose yours at GARVEE.",
+      "image": [
+        "https://cdn.shopify.com/s/files/1/0724/6698/9369/files/91XT9i_WfpL.jpg?v=1737359872",
+        "https://cdn.shopify.com/s/files/1/0724/6698/9369/files/fe17266442560951224_66c467f1-4ea6-4adc-9e10-1bc378ef632b.jpg?v=1774253093",
+        "https://cdn.shopify.com/s/files/1/0724/6698/9369/files/810rxOiCpVL.jpg?v=1774253061",
+        "https://cdn.shopify.com/s/files/1/0724/6698/9369/files/81SUnpUK7DL.jpg?v=1774253061",
+        "https://cdn.shopify.com/s/files/1/0724/6698/9369/files/81QIMGrUqTL.jpg?v=1774253061",
+        "https://cdn.shopify.com/s/files/1/0724/6698/9369/files/9182-7IUfVL.jpg?v=1774253061",
+        "https://cdn.shopify.com/s/files/1/0724/6698/9369/files/919b2tNxLQL.jpg?v=1774253061",
+        "https://cdn.shopify.com/s/files/1/0724/6698/9369/files/91l3So80wTL.jpg?v=1774253061"
+      ],
+      "brand": {
+        "@type": "Brand",
+        "name": "Garvee"
+      },
+      "sku": "PHO_16KHFWWY",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "127.99",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.77",
+        "reviewCount": "166"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "/",
+            "name": "Home"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "/collections/all",
+            "name": "Products"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@id": "/collections/rugs",
+            "name": "Rugs"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@id": "/collections/area-rugs",
+            "name": "Area Rugs"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@id": "/collections/bordered-rugs",
+            "name": "Bordered Rugs"
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "/",
+            "name": "Home"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "/collections/rugs",
+            "name": "Rugs"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@id": "/collections/area-rugs",
+            "name": "Area Rugs"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@id": "/collections/bordered-rugs",
+            "name": "Bordered Rugs"
+          }
+        }
+      ]
+    }
+  ],
+  "jsonld_parse_errors": [],
+  "main_links": [
+    {
+      "text": "Home",
+      "url": "https://www.garvee.com/"
+    },
+    {
+      "text": "Products",
+      "url": "https://www.garvee.com/collections/all"
+    },
+    {
+      "text": "Rugs",
+      "url": "https://www.garvee.com/collections/rugs"
+    },
+    {
+      "text": "Area Rugs",
+      "url": "https://www.garvee.com/collections/area-rugs"
+    },
+    {
+      "text": "Bordered Rugs",
+      "url": "https://www.garvee.com/collections/bordered-rugs"
+    },
+    {
+      "text": "#1 Best Seller in Rugs",
+      "url": "https://www.garvee.com/collections/best-sellers-in-rugs"
+    },
+    {
+      "text": "4.77 200 Reviews",
+      "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy#reviews"
+    },
+    {
+      "text": "Earn $ 1.28 ( 128 points) when you buy this item.",
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-area-rug-runner-soft-washable-2x6-pink-nonslip-pho-16khlmrx"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-large-living-room-rug-10x13-pho-16khtmjf"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-area-rug-soft-runner-2x6-light-blue-modern-pho-16kh5okw"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-10x13-area-rug-living-room-pho-16khgs2q"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-ultra-large-thin-rug-10x13-pho-16khaixo"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-runner-rug-modern-washable-soft-nonslip-kitchen-pho-16khw6xd"
+    },
+    {
+      "text": "2' × 6'",
+      "url": "https://www.garvee.com/products/garvee-washable-kitchen-rug-runner-2x6-pho-16kha4fn"
+    },
+    {
+      "text": "2' × 8'",
+      "url": "https://www.garvee.com/products/garvee-washable-runner-rug-2x8-non-pho-16kh6i2u"
+    },
+    {
+      "text": "2' × 10'",
+      "url": "https://www.garvee.com/products/garvee-runner-rug-distressed-bordered-2x10-terracotta-pho-16khe8hx"
+    },
+    {
+      "text": "3' Round",
+      "url": "https://www.garvee.com/products/garvee-round-rug-distressed-bordered-3x3-terracotta-pho-16khyr7n"
+    },
+    {
+      "text": "3' × 5'",
+      "url": "https://www.garvee.com/products/garvee-area-rug-distressed-bordered-3x5-terracotta-pho-16khx8cj"
+    },
+    {
+      "text": "4' Square",
+      "url": "https://www.garvee.com/products/garvee-square-rug-distressed-bordered-4x4-terracotta-pho-16kh9doy"
+    },
+    {
+      "text": "4' Round",
+      "url": "https://www.garvee.com/products/garvee-round-rug-distressed-bordered-4x4-terracotta-pho-16kh53cv"
+    },
+    {
+      "text": "4' × 6'",
+      "url": "https://www.garvee.com/products/garvee-washable-modern-geometric-rug-4x6-pho-16kh12v8"
+    },
+    {
+      "text": "5' Square",
+      "url": "https://www.garvee.com/products/garvee-square-rug-distressed-bordered-5x5-terracotta-pho-16khm5y6"
+    },
+    {
+      "text": "5' Round",
+      "url": "https://www.garvee.com/products/garvee-round-rug-distressed-bordered-5x5-terracotta-pho-16kh653b"
+    },
+    {
+      "text": "5' × 7'",
+      "url": "https://www.garvee.com/products/garvee-modern-washable-rug-5x7-rug-pho-16kh8udv"
+    },
+    {
+      "text": "6' × 9'",
+      "url": "https://www.garvee.com/products/garvee-modern-washable-rug-6x9-brown-pho-16khi91p"
+    },
+    {
+      "text": "8' × 10'",
+      "url": "https://www.garvee.com/products/garvee-modern-washable-rug-8x10-rug-pho-16kh57tf"
+    },
+    {
+      "text": "9' × 12'",
+      "url": "https://www.garvee.com/products/garvee-washable-area-rugs-9x12-living-pho-16khd6hv"
+    },
+    {
+      "text": "10' × 13'",
+      "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy"
+    },
+    {
+      "text": "Write a review",
+      "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy/reviews/write"
+    },
+    {
+      "text": "See all 200 reviews",
+      "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy/reviews"
+    },
+    {
+      "text": "Home",
+      "url": "https://www.garvee.com/"
+    },
+    {
+      "text": "Rugs",
+      "url": "https://www.garvee.com/collections/rugs"
+    },
+    {
+      "text": "Area Rugs",
+      "url": "https://www.garvee.com/collections/area-rugs"
+    },
+    {
+      "text": "Bordered Rugs",
+      "url": "https://www.garvee.com/collections/bordered-rugs"
+    },
+    {
+      "text": "#1 Best Seller in Rugs",
+      "url": "https://www.garvee.com/collections/best-sellers-in-rugs"
+    },
+    {
+      "text": "Earn $ 1.28 ( 128 points) when you buy this item.",
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-area-rug-runner-soft-washable-2x6-pink-nonslip-pho-16khlmrx"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-large-living-room-rug-10x13-pho-16khtmjf"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-area-rug-soft-runner-2x6-light-blue-modern-pho-16kh5okw"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-10x13-area-rug-living-room-pho-16khgs2q"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-ultra-large-thin-rug-10x13-pho-16khaixo"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-runner-rug-modern-washable-soft-nonslip-kitchen-pho-16khw6xd"
+    },
+    {
+      "text": "2' × 6'",
+      "url": "https://www.garvee.com/products/garvee-washable-kitchen-rug-runner-2x6-pho-16kha4fn"
+    },
+    {
+      "text": "2' × 8'",
+      "url": "https://www.garvee.com/products/garvee-washable-runner-rug-2x8-non-pho-16kh6i2u"
+    },
+    {
+      "text": "2' × 10'",
+      "url": "https://www.garvee.com/products/garvee-runner-rug-distressed-bordered-2x10-terracotta-pho-16khe8hx"
+    },
+    {
+      "text": "3' Round",
+      "url": "https://www.garvee.com/products/garvee-round-rug-distressed-bordered-3x3-terracotta-pho-16khyr7n"
+    },
+    {
+      "text": "3' × 5'",
+      "url": "https://www.garvee.com/products/garvee-area-rug-distressed-bordered-3x5-terracotta-pho-16khx8cj"
+    },
+    {
+      "text": "4' Square",
+      "url": "https://www.garvee.com/products/garvee-square-rug-distressed-bordered-4x4-terracotta-pho-16kh9doy"
+    },
+    {
+      "text": "4' Round",
+      "url": "https://www.garvee.com/products/garvee-round-rug-distressed-bordered-4x4-terracotta-pho-16kh53cv"
+    },
+    {
+      "text": "4' × 6'",
+      "url": "https://www.garvee.com/products/garvee-washable-modern-geometric-rug-4x6-pho-16kh12v8"
+    },
+    {
+      "text": "5' Square",
+      "url": "https://www.garvee.com/products/garvee-square-rug-distressed-bordered-5x5-terracotta-pho-16khm5y6"
+    },
+    {
+      "text": "5' Round",
+      "url": "https://www.garvee.com/products/garvee-round-rug-distressed-bordered-5x5-terracotta-pho-16kh653b"
+    },
+    {
+      "text": "5' × 7'",
+      "url": "https://www.garvee.com/products/garvee-modern-washable-rug-5x7-rug-pho-16kh8udv"
+    },
+    {
+      "text": "6' × 9'",
+      "url": "https://www.garvee.com/products/garvee-modern-washable-rug-6x9-brown-pho-16khi91p"
+    },
+    {
+      "text": "8' × 10'",
+      "url": "https://www.garvee.com/products/garvee-modern-washable-rug-8x10-rug-pho-16kh57tf"
+    },
+    {
+      "text": "9' × 12'",
+      "url": "https://www.garvee.com/products/garvee-washable-area-rugs-9x12-living-pho-16khd6hv"
+    },
+    {
+      "text": "10' × 13'",
+      "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy"
+    }
+  ],
+  "footer_links": [
+    {
+      "text": "About Garvee",
+      "label": null,
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Special Outlets",
+      "label": null,
+      "url": "https://www.garvee.com/collections/clearance-sale?filter.v.availability=1"
+    },
+    {
+      "text": "DIY Projects & Ideas",
+      "label": null,
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "Terms Of Service",
+      "label": null,
+      "url": "https://www.garvee.com/policies/terms-of-service"
+    },
+    {
+      "text": "Privacy Policy",
+      "label": null,
+      "url": "https://www.garvee.com/policies/privacy-policy"
+    },
+    {
+      "text": "Accessibility",
+      "label": null,
+      "url": "https://www.garvee.com/pages/accessibility-statement "
+    },
+    {
+      "text": "Track Your Order",
+      "label": null,
+      "url": "https://www.garvee.com/pages/track-your-order"
+    },
+    {
+      "text": "Payments Policy",
+      "label": null,
+      "url": "https://www.garvee.com/pages/payments-policy"
+    },
+    {
+      "text": "Shipping Policy",
+      "label": null,
+      "url": "https://www.garvee.com/policies/shipping-policy"
+    },
+    {
+      "text": "Warranty Policy",
+      "label": null,
+      "url": "https://www.garvee.com/pages/warranty-policy"
+    },
+    {
+      "text": "Refund & Return Policy",
+      "label": null,
+      "url": "https://www.garvee.com/policies/refund-policy"
+    },
+    {
+      "text": "Worry-Free Purchase",
+      "label": null,
+      "url": "https://www.garvee.com/pages/carebox-package-protection"
+    },
+    {
+      "text": "Contact Us",
+      "label": null,
+      "url": "https://www.garvee.com/pages/contact"
+    },
+    {
+      "text": "Affiliate Program",
+      "label": null,
+      "url": "https://www.garvee.com/pages/affiliate"
+    },
+    {
+      "text": "Influencer Program",
+      "label": null,
+      "url": "https://www.garvee.com/pages/influencer-program"
+    },
+    {
+      "text": "Share and Win",
+      "label": null,
+      "url": "https://www.garvee.com/pages/share-and-win"
+    },
+    {
+      "text": "Garvee Rewards",
+      "label": null,
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "Protection Plans",
+      "label": null,
+      "url": "https://www.garvee.com/pages/extended-service-protection"
+    },
+    {
+      "text": "Help Center",
+      "label": null,
+      "url": "https://support.garvee.com/"
+    },
+    {
+      "text": "WholeSale Program",
+      "label": null,
+      "url": "https://www.garvee.com/pages/business"
+    },
+    {
+      "text": "",
+      "label": "Pinterest",
+      "url": "https://www.pinterest.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/garveeglobal"
+    },
+    {
+      "text": "",
+      "label": "Instagram",
+      "url": "https://www.instagram.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/channel/UCvt0kZI7qgY2leAZrwI9DKA"
+    },
+    {
+      "text": "",
+      "label": "TikTok",
+      "url": "https://www.tiktok.com/@garvee_official"
+    },
+    {
+      "text": "",
+      "label": "Google Customer Reviews",
+      "url": "https://www.google.com/storepages?q=garvee.com&c=US&v=19"
+    },
+    {
+      "text": "About Garvee",
+      "label": null,
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Special Outlets",
+      "label": null,
+      "url": "https://www.garvee.com/collections/clearance-sale?filter.v.availability=1"
+    },
+    {
+      "text": "DIY Projects & Ideas",
+      "label": null,
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "Terms Of Service",
+      "label": null,
+      "url": "https://www.garvee.com/policies/terms-of-service"
+    },
+    {
+      "text": "Privacy Policy",
+      "label": null,
+      "url": "https://www.garvee.com/policies/privacy-policy"
+    },
+    {
+      "text": "Accessibility",
+      "label": null,
+      "url": "https://www.garvee.com/pages/accessibility-statement "
+    },
+    {
+      "text": "Track Your Order",
+      "label": null,
+      "url": "https://www.garvee.com/pages/track-your-order"
+    },
+    {
+      "text": "Payments Policy",
+      "label": null,
+      "url": "https://www.garvee.com/pages/payments-policy"
+    },
+    {
+      "text": "Shipping Policy",
+      "label": null,
+      "url": "https://www.garvee.com/policies/shipping-policy"
+    },
+    {
+      "text": "Warranty Policy",
+      "label": null,
+      "url": "https://www.garvee.com/pages/warranty-policy"
+    },
+    {
+      "text": "Refund & Return Policy",
+      "label": null,
+      "url": "https://www.garvee.com/policies/refund-policy"
+    },
+    {
+      "text": "Worry-Free Purchase",
+      "label": null,
+      "url": "https://www.garvee.com/pages/carebox-package-protection"
+    },
+    {
+      "text": "Contact Us",
+      "label": null,
+      "url": "https://www.garvee.com/pages/contact"
+    },
+    {
+      "text": "Affiliate Program",
+      "label": null,
+      "url": "https://www.garvee.com/pages/affiliate"
+    },
+    {
+      "text": "Influencer Program",
+      "label": null,
+      "url": "https://www.garvee.com/pages/influencer-program"
+    },
+    {
+      "text": "Share and Win",
+      "label": null,
+      "url": "https://www.garvee.com/pages/share-and-win"
+    },
+    {
+      "text": "Garvee Rewards",
+      "label": null,
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "Protection Plans",
+      "label": null,
+      "url": "https://www.garvee.com/pages/extended-service-protection"
+    },
+    {
+      "text": "Help Center",
+      "label": null,
+      "url": "https://support.garvee.com/"
+    },
+    {
+      "text": "WholeSale Program",
+      "label": null,
+      "url": "https://www.garvee.com/pages/business"
+    },
+    {
+      "text": "",
+      "label": "Pinterest",
+      "url": "https://www.pinterest.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/garveeglobal"
+    },
+    {
+      "text": "",
+      "label": "Instagram",
+      "url": "https://www.instagram.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/channel/UCvt0kZI7qgY2leAZrwI9DKA"
+    },
+    {
+      "text": "",
+      "label": "TikTok",
+      "url": "https://www.tiktok.com/@garvee_official"
+    },
+    {
+      "text": "",
+      "label": "Google Customer Reviews",
+      "url": "https://www.google.com/storepages?q=garvee.com&c=US&v=19"
+    }
+  ],
+  "all_links": [
+    {
+      "text": "",
+      "url": "https://www.pinterest.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "url": "https://www.facebook.com/garveeglobal"
+    },
+    {
+      "text": "",
+      "url": "https://www.instagram.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "url": "https://www.youtube.com/channel/UCvt0kZI7qgY2leAZrwI9DKA"
+    },
+    {
+      "text": "",
+      "url": "https://www.tiktok.com/@garvee_official"
+    },
+    {
+      "text": "Join Free",
+      "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy#login"
+    },
+    {
+      "text": "Get My Discount",
+      "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy#login"
+    },
+    {
+      "text": "Unlock Savings",
+      "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy#login"
+    },
+    {
+      "text": "Join Free",
+      "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy#login"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/"
+    },
+    {
+      "text": "New Arrivals",
+      "url": "https://www.garvee.com/collections/new-arrivals"
+    },
+    {
+      "text": "Best Sellers🔥",
+      "url": "https://www.garvee.com/collections/best-sellers"
+    },
+    {
+      "text": "Flash Deals⚡",
+      "url": "https://www.garvee.com/collections/flash-deals"
+    },
+    {
+      "text": "Clearance",
+      "url": "https://www.garvee.com/collections/clearance-sale"
+    },
+    {
+      "text": "DIY Projects & Ideas",
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "About Us",
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Rewards & Points",
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/"
+    },
+    {
+      "text": "New Arrivals",
+      "url": "https://www.garvee.com/collections/new-arrivals"
+    },
+    {
+      "text": "Best Sellers🔥",
+      "url": "https://www.garvee.com/collections/best-sellers"
+    },
+    {
+      "text": "Flash Deals⚡",
+      "url": "https://www.garvee.com/collections/flash-deals"
+    },
+    {
+      "text": "Clearance",
+      "url": "https://www.garvee.com/collections/clearance-sale"
+    },
+    {
+      "text": "DIY Projects & Ideas",
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "Everything You Need to Know About Rug Sizes and Placement",
+      "url": "https://www.garvee.com/blogs/buying-guides/everything-you-need-to-know-about-rug-sizes-and-placement"
+    },
+    {
+      "text": "Find the Right One for Your Business Needs",
+      "url": "https://www.garvee.com/blogs/buying-guides/utility-cart-buying-guide-finding-the-correct-one-for-your-business-needs"
+    },
+    {
+      "text": "Power Tools Vs. Hand Tools: What You Need to Know",
+      "url": "https://www.garvee.com/blogs/buying-guides/power-tools-vs-hand-tools-what-you-need-to-know"
+    },
+    {
+      "text": "Everything You Should Know About Wine Cooler",
+      "url": "https://www.garvee.com/blogs/buying-guides/everything-you-should-know-about-wine-cooler"
+    },
+    {
+      "text": "Difference Between a Dresser and a Chest of Drawers",
+      "url": "https://www.garvee.com/blogs/buying-guides/what-is-the-difference-between-a-dresser-and-a-chest-of-drawers-a-comprehensive-comparison"
+    },
+    {
+      "text": "Cheap Home Improvement Ideas Boost Your Home's Value",
+      "url": "https://www.garvee.com/blogs/buying-guides/cheap-home-improvement-ideas-boost-your-homes-value-on-a-budget"
+    },
+    {
+      "text": "About Us",
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Rewards & Points",
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "Home",
+      "url": "https://www.garvee.com/"
+    },
+    {
+      "text": "Products",
+      "url": "https://www.garvee.com/collections/all"
+    },
+    {
+      "text": "Rugs",
+      "url": "https://www.garvee.com/collections/rugs"
+    },
+    {
+      "text": "Area Rugs",
+      "url": "https://www.garvee.com/collections/area-rugs"
+    },
+    {
+      "text": "Bordered Rugs",
+      "url": "https://www.garvee.com/collections/bordered-rugs"
+    },
+    {
+      "text": "#1 Best Seller in Rugs",
+      "url": "https://www.garvee.com/collections/best-sellers-in-rugs"
+    },
+    {
+      "text": "4.77 200 Reviews",
+      "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy#reviews"
+    },
+    {
+      "text": "Earn $ 1.28 ( 128 points) when you buy this item.",
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-area-rug-runner-soft-washable-2x6-pink-nonslip-pho-16khlmrx"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-large-living-room-rug-10x13-pho-16khtmjf"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-area-rug-soft-runner-2x6-light-blue-modern-pho-16kh5okw"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-10x13-area-rug-living-room-pho-16khgs2q"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-ultra-large-thin-rug-10x13-pho-16khaixo"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-runner-rug-modern-washable-soft-nonslip-kitchen-pho-16khw6xd"
+    },
+    {
+      "text": "2' × 6'",
+      "url": "https://www.garvee.com/products/garvee-washable-kitchen-rug-runner-2x6-pho-16kha4fn"
+    },
+    {
+      "text": "2' × 8'",
+      "url": "https://www.garvee.com/products/garvee-washable-runner-rug-2x8-non-pho-16kh6i2u"
+    },
+    {
+      "text": "2' × 10'",
+      "url": "https://www.garvee.com/products/garvee-runner-rug-distressed-bordered-2x10-terracotta-pho-16khe8hx"
+    },
+    {
+      "text": "3' Round",
+      "url": "https://www.garvee.com/products/garvee-round-rug-distressed-bordered-3x3-terracotta-pho-16khyr7n"
+    },
+    {
+      "text": "3' × 5'",
+      "url": "https://www.garvee.com/products/garvee-area-rug-distressed-bordered-3x5-terracotta-pho-16khx8cj"
+    },
+    {
+      "text": "4' Square",
+      "url": "https://www.garvee.com/products/garvee-square-rug-distressed-bordered-4x4-terracotta-pho-16kh9doy"
+    },
+    {
+      "text": "4' Round",
+      "url": "https://www.garvee.com/products/garvee-round-rug-distressed-bordered-4x4-terracotta-pho-16kh53cv"
+    },
+    {
+      "text": "4' × 6'",
+      "url": "https://www.garvee.com/products/garvee-washable-modern-geometric-rug-4x6-pho-16kh12v8"
+    },
+    {
+      "text": "5' Square",
+      "url": "https://www.garvee.com/products/garvee-square-rug-distressed-bordered-5x5-terracotta-pho-16khm5y6"
+    },
+    {
+      "text": "5' Round",
+      "url": "https://www.garvee.com/products/garvee-round-rug-distressed-bordered-5x5-terracotta-pho-16kh653b"
+    },
+    {
+      "text": "5' × 7'",
+      "url": "https://www.garvee.com/products/garvee-modern-washable-rug-5x7-rug-pho-16kh8udv"
+    },
+    {
+      "text": "6' × 9'",
+      "url": "https://www.garvee.com/products/garvee-modern-washable-rug-6x9-brown-pho-16khi91p"
+    },
+    {
+      "text": "8' × 10'",
+      "url": "https://www.garvee.com/products/garvee-modern-washable-rug-8x10-rug-pho-16kh57tf"
+    },
+    {
+      "text": "9' × 12'",
+      "url": "https://www.garvee.com/products/garvee-washable-area-rugs-9x12-living-pho-16khd6hv"
+    },
+    {
+      "text": "10' × 13'",
+      "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy"
+    },
+    {
+      "text": "Write a review",
+      "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy/reviews/write"
+    },
+    {
+      "text": "See all 200 reviews",
+      "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy/reviews"
+    },
+    {
+      "text": "Home",
+      "url": "https://www.garvee.com/"
+    },
+    {
+      "text": "Rugs",
+      "url": "https://www.garvee.com/collections/rugs"
+    },
+    {
+      "text": "Area Rugs",
+      "url": "https://www.garvee.com/collections/area-rugs"
+    },
+    {
+      "text": "Bordered Rugs",
+      "url": "https://www.garvee.com/collections/bordered-rugs"
+    },
+    {
+      "text": "#1 Best Seller in Rugs",
+      "url": "https://www.garvee.com/collections/best-sellers-in-rugs"
+    },
+    {
+      "text": "Earn $ 1.28 ( 128 points) when you buy this item.",
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-area-rug-runner-soft-washable-2x6-pink-nonslip-pho-16khlmrx"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-large-living-room-rug-10x13-pho-16khtmjf"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-area-rug-soft-runner-2x6-light-blue-modern-pho-16kh5okw"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-10x13-area-rug-living-room-pho-16khgs2q"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-ultra-large-thin-rug-10x13-pho-16khaixo"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/products/garvee-runner-rug-modern-washable-soft-nonslip-kitchen-pho-16khw6xd"
+    },
+    {
+      "text": "2' × 6'",
+      "url": "https://www.garvee.com/products/garvee-washable-kitchen-rug-runner-2x6-pho-16kha4fn"
+    },
+    {
+      "text": "2' × 8'",
+      "url": "https://www.garvee.com/products/garvee-washable-runner-rug-2x8-non-pho-16kh6i2u"
+    },
+    {
+      "text": "2' × 10'",
+      "url": "https://www.garvee.com/products/garvee-runner-rug-distressed-bordered-2x10-terracotta-pho-16khe8hx"
+    },
+    {
+      "text": "3' Round",
+      "url": "https://www.garvee.com/products/garvee-round-rug-distressed-bordered-3x3-terracotta-pho-16khyr7n"
+    },
+    {
+      "text": "3' × 5'",
+      "url": "https://www.garvee.com/products/garvee-area-rug-distressed-bordered-3x5-terracotta-pho-16khx8cj"
+    },
+    {
+      "text": "4' Square",
+      "url": "https://www.garvee.com/products/garvee-square-rug-distressed-bordered-4x4-terracotta-pho-16kh9doy"
+    },
+    {
+      "text": "4' Round",
+      "url": "https://www.garvee.com/products/garvee-round-rug-distressed-bordered-4x4-terracotta-pho-16kh53cv"
+    },
+    {
+      "text": "4' × 6'",
+      "url": "https://www.garvee.com/products/garvee-washable-modern-geometric-rug-4x6-pho-16kh12v8"
+    },
+    {
+      "text": "5' Square",
+      "url": "https://www.garvee.com/products/garvee-square-rug-distressed-bordered-5x5-terracotta-pho-16khm5y6"
+    },
+    {
+      "text": "5' Round",
+      "url": "https://www.garvee.com/products/garvee-round-rug-distressed-bordered-5x5-terracotta-pho-16kh653b"
+    },
+    {
+      "text": "5' × 7'",
+      "url": "https://www.garvee.com/products/garvee-modern-washable-rug-5x7-rug-pho-16kh8udv"
+    },
+    {
+      "text": "6' × 9'",
+      "url": "https://www.garvee.com/products/garvee-modern-washable-rug-6x9-brown-pho-16khi91p"
+    },
+    {
+      "text": "8' × 10'",
+      "url": "https://www.garvee.com/products/garvee-modern-washable-rug-8x10-rug-pho-16kh57tf"
+    },
+    {
+      "text": "9' × 12'",
+      "url": "https://www.garvee.com/products/garvee-washable-area-rugs-9x12-living-pho-16khd6hv"
+    },
+    {
+      "text": "10' × 13'",
+      "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy"
+    },
+    {
+      "text": "About Garvee",
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Special Outlets",
+      "url": "https://www.garvee.com/collections/clearance-sale?filter.v.availability=1"
+    },
+    {
+      "text": "DIY Projects & Ideas",
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "Terms Of Service",
+      "url": "https://www.garvee.com/policies/terms-of-service"
+    },
+    {
+      "text": "Privacy Policy",
+      "url": "https://www.garvee.com/policies/privacy-policy"
+    },
+    {
+      "text": "Accessibility",
+      "url": "https://www.garvee.com/pages/accessibility-statement "
+    },
+    {
+      "text": "Track Your Order",
+      "url": "https://www.garvee.com/pages/track-your-order"
+    },
+    {
+      "text": "Payments Policy",
+      "url": "https://www.garvee.com/pages/payments-policy"
+    },
+    {
+      "text": "Shipping Policy",
+      "url": "https://www.garvee.com/policies/shipping-policy"
+    },
+    {
+      "text": "Warranty Policy",
+      "url": "https://www.garvee.com/pages/warranty-policy"
+    },
+    {
+      "text": "Refund & Return Policy",
+      "url": "https://www.garvee.com/policies/refund-policy"
+    },
+    {
+      "text": "Worry-Free Purchase",
+      "url": "https://www.garvee.com/pages/carebox-package-protection"
+    },
+    {
+      "text": "Contact Us",
+      "url": "https://www.garvee.com/pages/contact"
+    },
+    {
+      "text": "Affiliate Program",
+      "url": "https://www.garvee.com/pages/affiliate"
+    },
+    {
+      "text": "Influencer Program",
+      "url": "https://www.garvee.com/pages/influencer-program"
+    },
+    {
+      "text": "Share and Win",
+      "url": "https://www.garvee.com/pages/share-and-win"
+    },
+    {
+      "text": "Garvee Rewards",
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "Protection Plans",
+      "url": "https://www.garvee.com/pages/extended-service-protection"
+    },
+    {
+      "text": "Help Center",
+      "url": "https://support.garvee.com/"
+    },
+    {
+      "text": "WholeSale Program",
+      "url": "https://www.garvee.com/pages/business"
+    },
+    {
+      "text": "",
+      "url": "https://www.pinterest.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "url": "https://www.facebook.com/garveeglobal"
+    },
+    {
+      "text": "",
+      "url": "https://www.instagram.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "url": "https://www.youtube.com/channel/UCvt0kZI7qgY2leAZrwI9DKA"
+    },
+    {
+      "text": "",
+      "url": "https://www.tiktok.com/@garvee_official"
+    },
+    {
+      "text": "",
+      "url": "https://www.google.com/storepages?q=garvee.com&c=US&v=19"
+    },
+    {
+      "text": "About Garvee",
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Special Outlets",
+      "url": "https://www.garvee.com/collections/clearance-sale?filter.v.availability=1"
+    },
+    {
+      "text": "DIY Projects & Ideas",
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "Terms Of Service",
+      "url": "https://www.garvee.com/policies/terms-of-service"
+    },
+    {
+      "text": "Privacy Policy",
+      "url": "https://www.garvee.com/policies/privacy-policy"
+    },
+    {
+      "text": "Accessibility",
+      "url": "https://www.garvee.com/pages/accessibility-statement "
+    },
+    {
+      "text": "Track Your Order",
+      "url": "https://www.garvee.com/pages/track-your-order"
+    },
+    {
+      "text": "Payments Policy",
+      "url": "https://www.garvee.com/pages/payments-policy"
+    },
+    {
+      "text": "Shipping Policy",
+      "url": "https://www.garvee.com/policies/shipping-policy"
+    },
+    {
+      "text": "Warranty Policy",
+      "url": "https://www.garvee.com/pages/warranty-policy"
+    },
+    {
+      "text": "Refund & Return Policy",
+      "url": "https://www.garvee.com/policies/refund-policy"
+    },
+    {
+      "text": "Worry-Free Purchase",
+      "url": "https://www.garvee.com/pages/carebox-package-protection"
+    },
+    {
+      "text": "Contact Us",
+      "url": "https://www.garvee.com/pages/contact"
+    },
+    {
+      "text": "Affiliate Program",
+      "url": "https://www.garvee.com/pages/affiliate"
+    },
+    {
+      "text": "Influencer Program",
+      "url": "https://www.garvee.com/pages/influencer-program"
+    },
+    {
+      "text": "Share and Win",
+      "url": "https://www.garvee.com/pages/share-and-win"
+    },
+    {
+      "text": "Garvee Rewards",
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "Protection Plans",
+      "url": "https://www.garvee.com/pages/extended-service-protection"
+    },
+    {
+      "text": "Help Center",
+      "url": "https://support.garvee.com/"
+    },
+    {
+      "text": "WholeSale Program",
+      "url": "https://www.garvee.com/pages/business"
+    },
+    {
+      "text": "",
+      "url": "https://www.pinterest.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "url": "https://www.facebook.com/garveeglobal"
+    },
+    {
+      "text": "",
+      "url": "https://www.instagram.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "url": "https://www.youtube.com/channel/UCvt0kZI7qgY2leAZrwI9DKA"
+    },
+    {
+      "text": "",
+      "url": "https://www.tiktok.com/@garvee_official"
+    },
+    {
+      "text": "",
+      "url": "https://www.google.com/storepages?q=garvee.com&c=US&v=19"
+    }
+  ],
+  "main_text": "1\n/\n8\nFall Upgrade Sale\nDeals\nGarvee Bordered Reddish Brown 10x13 Washable Area Rug, Farmhouse Neutral Low Pile Carpet, Stain Resistant Non Slip Soft Rug for Living Room Bedroom Dining Room\n#1 Best Seller\nin Rugs\n4.77\n200\nReviews\n$\n127\n99\nEarn\n$\n1.28\n(\n128\npoints)\nwhen you buy this item.\nIn Stock. Shipping From United States\nEst. delivery Nov 07 - Nov 09\nColor / Size\n:\nReddish Brown / 10' × 13'\n2' × 6'\n2' × 8'\n2' × 10'\n3' Round\n3' × 5'\n4' Square\n4' Round\n4' × 6'\n5' Square\n5' Round\n5' × 7'\n6' × 9'\n8' × 10'\n9' × 12'\n10' × 13'\nIn Stock\n1\nWhat We Offer\nView coverage\nAccident and warranty protection by Xcotton (partner with AIG)\nBuy Now\nAdd to Cart\nFree US Shipping\nNo import charges for all seller-shipped items and no extra charges upon delivery\nWhy choose Garvee?\nSecurity\nPrivacy\nProfessional\nService\nDelivery\nguarantee\nKey Features\nModern Vintage Aesthetic: Intricate floral patterns in muted tones blend vintage elegance with contemporary design. Premium soft fibers ensure cloud-like comfort underfoot.\nPet-Safe Low Pile: 0.4” pile resists pet claws and minimizes dirt buildup. Easy to vacuum fur/hair, ideal for households with pets.\nTPR Non-Slip Base: Textured backing grips floors securely, reducing tripping risks. Ensure surfaces are dry for optimal adhesion.\nMulti-Room Adaptability:  Fits living rooms, bedrooms, kitchens, dorms, or home offices seamlessly.\nMachine-Wash Ready: Cold gentle cycle + air-dry flat. Reverse-roll stored rugs to eliminate fold marks within 72 hours.\nSpecification\nMaterial\n100% Polyester\nWeave Type\nTufted\nPile Height\nLow Pile\nBacking Material\nThermoplastic Rubber (TPR)\nConstruction\nMachine Made\nDesign Style\nTraditional Bordered, Vintage-Inspired, Distressed\nKey Features\nMachine Washable, Non-Slip Backing, Stain Resistant, Low-Profile Design\nCare Instructions\nMachine Wash Cold, Vacuum Regularly, Spot Clean as Needed\nProduct info\nReviews\nSupport\nExplore\nDescription\nSpecifications\nBrand\nGARVEE\nSize\n10 x 13 Ft\nMaterial\nPolyester\nWeave Type\nFlat Woven\nItem Weight\n32.4 pounds\nPile Height\nLow Pile\nConstruction Type\nMachine Made\nBack Material Type\nThermoplastic Rubber (TPR)\nColor\nBrown\nTheme\nWelcome\nIs Stain Resistant\nYes\nProduct Care Instructions\nMachine Wash\nPattern\nSolid\nSpecial Feature\nSpill Resistant, Non Slip\nRug Form Type\nArea Rug\nStyle\nModern\nOccasion\nHousewarming\nWater Resistance Level\nWater Resistant\nCustomer Reviews 4.77\nAverage rating based on 200 reviews\nWrite a review\nSee all\n200\nreviews\nQuestions and Answers (\n…\n)\nPHO_16KHFWWY\n+3 More\nFall Upgrade Sale\nDeals\nGarvee Bordered Reddish Brown 10x13 Washable Area Rug, Farmhouse Neutral Low Pile Carpet, Stain Resistant Non Slip Soft Rug for Living Room Bedroom Dining Room\n#1 Best Seller\nin Rugs\n4.77\n4.77\nout of 5\nAverage rating based on\n200\nreviews\n5 star\n69.5\n%\n4 star\n18.5\n%\n3 star\n4.0\n%\n2 star\n1.0\n%\n1 star\n7.0\n%\n200 Reviews\n$\n127\n99\nEarn\n$\n1.28\n(\n128\npoints)\nwhen you buy this item.\nColor / Size\n:\nReddish Brown / 10' × 13'\n2' × 6'\n2' × 8'\n2' × 10'\n3' Round\n3' × 5'\n4' Square\n4' Round\n4' × 6'\n5' Square\n5' Round\n5' × 7'\n6' × 9'\n8' × 10'\n9' × 12'\n10' × 13'\nKey Features\nModern Vintage Aesthetic: Intricate floral patterns in muted tones blend vintage elegance with contemporary design. Premium soft fibers ensure cloud-like comfort underfoot.\nPet-Safe Low Pile: 0.4” pile resists pet claws and minimizes dirt buildup. Easy to vacuum fur/hair, ideal for households with pets.\nTPR Non-Slip Base: Textured backing grips floors securely, reducing tripping risks. Ensure surfaces are dry for optimal adhesion.\nMulti-Room Adaptability:  Fits living rooms, bedrooms, kitchens, dorms, or home offices seamlessly.\nMachine-Wash Ready: Cold gentle cycle + air-dry flat. Reverse-roll stored rugs to eliminate fold marks within 72 hours.\nSpecification\nMaterial\n100% Polyester\nWeave Type\nTufted\nPile Height\nLow Pile\nBacking Material\nThermoplastic Rubber (TPR)\nConstruction\nMachine Made\nDesign Style\nTraditional Bordered, Vintage-Inspired, Distressed\nKey Features\nMachine Washable, Non-Slip Backing, Stain Resistant, Low-Profile Design\nCare Instructions\nMachine Wash Cold, Vacuum Regularly, Spot Clean as Needed\nProduct info\nReviews\nSupport\nExplore\nDescription\nSpecifications\nBrand\nGARVEE\nSize\n10 x 13 Ft\nMaterial\nPolyester\nWeave Type\nFlat Woven\nItem Weight\n32.4 pounds\nPile Height\nLow Pile\nConstruction Type\nMachine Made\nBack Material Type\nThermoplastic Rubber (TPR)\nColor\nBrown\nTheme\nWelcome\nIs Stain Resistant\nYes\nProduct Care Instructions\nMachine Wash\nPattern\nSolid\nSpecial Feature\nSpill Resistant, Non Slip\nRug Form Type\nArea Rug\nStyle\nModern\nOccasion\nHousewarming\nWater Resistance Level\nWater Resistant\nQuestions and Answers (\n…\n)\n$\n127\n99\nIn Stock. Shipping From United States\nEst. Delivery Time: Nov 07 - Nov 09\nIn Stock\n1\nWhat We Offer\nView coverage\nAccident and warranty protection by Xcotton (partner with AIG)\nBuy Now\nAdd to Cart\nFree US Shipping\nNo import charges for all seller-shipped items and no extra charges upon delivery\nWhy choose Garvee?\nSecurity\nPrivacy\nProfessional\nService\nDelivery\nguarantee"
+}

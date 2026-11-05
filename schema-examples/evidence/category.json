@@ -1,0 +1,1094 @@
+{
+  "requested_url": "https://www.garvee.com/collections/rugs",
+  "url": "https://www.garvee.com/collections/rugs",
+  "status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "captured_at": "2026-11-04T13:34:40.478109+00:00",
+  "sha256": "3200489af3006dff90e547baba77aaed3623e365d78115ec8a592f85f982e100",
+  "title": "GARVEE Rugs for Living Room, Bedroom, Dining & Patio Decor",
+  "canonical": "https://www.garvee.com/collections/rugs",
+  "description": "Find GARVEE Garvee Washable Rugs by product type, including Floral & Paisley Rugs and Persian Rugs. Discover more at GARVEE.",
+  "lang": "en",
+  "h1": [
+    "Rugs"
+  ],
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What rug size should I use in a living room?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Measure the seating group, not just the room. Common layouts place all legs or only the front legs on the rug; leave a deliberate, even border where possible."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much larger should a dining rug be than the table?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It should extend far enough for chair legs to remain on the rug when chairs are pulled out. Measure your chairs in use because table shape and chair depth vary."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does a non-slip backing replace a rug pad?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not always. Floor finish, rug size, traffic, backing condition, and manufacturer instructions determine whether an additional compatible pad is appropriate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can every low-pile rug be machine washed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. “Low pile” describes profile, not washability. Follow the care label and confirm that your washer can handle the rug’s size and wet weight."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I remove a spot without damaging the rug?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Follow the care label, remove solids gently, pretest the cleaner, and blot from the outside toward the center. Avoid aggressive scrubbing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will the color match what I see on screen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Screens, lighting, pile direction, and surrounding colors affect appearance. Use product images and stated colors as guidance and review the return policy before ordering."
+          }
+        }
+      ]
+    }
+  ],
+  "jsonld_parse_errors": [],
+  "main_links": [],
+  "footer_links": [
+    {
+      "text": "About Garvee",
+      "label": null,
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Special Outlets",
+      "label": null,
+      "url": "https://www.garvee.com/collections/clearance-sale?filter.v.availability=1"
+    },
+    {
+      "text": "DIY Projects & Ideas",
+      "label": null,
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "Terms Of Service",
+      "label": null,
+      "url": "https://www.garvee.com/policies/terms-of-service"
+    },
+    {
+      "text": "Privacy Policy",
+      "label": null,
+      "url": "https://www.garvee.com/policies/privacy-policy"
+    },
+    {
+      "text": "Accessibility",
+      "label": null,
+      "url": "https://www.garvee.com/pages/accessibility-statement "
+    },
+    {
+      "text": "Track Your Order",
+      "label": null,
+      "url": "https://www.garvee.com/pages/track-your-order"
+    },
+    {
+      "text": "Payments Policy",
+      "label": null,
+      "url": "https://www.garvee.com/pages/payments-policy"
+    },
+    {
+      "text": "Shipping Policy",
+      "label": null,
+      "url": "https://www.garvee.com/policies/shipping-policy"
+    },
+    {
+      "text": "Warranty Policy",
+      "label": null,
+      "url": "https://www.garvee.com/pages/warranty-policy"
+    },
+    {
+      "text": "Refund & Return Policy",
+      "label": null,
+      "url": "https://www.garvee.com/policies/refund-policy"
+    },
+    {
+      "text": "Worry-Free Purchase",
+      "label": null,
+      "url": "https://www.garvee.com/pages/carebox-package-protection"
+    },
+    {
+      "text": "Contact Us",
+      "label": null,
+      "url": "https://www.garvee.com/pages/contact"
+    },
+    {
+      "text": "Affiliate Program",
+      "label": null,
+      "url": "https://www.garvee.com/pages/affiliate"
+    },
+    {
+      "text": "Influencer Program",
+      "label": null,
+      "url": "https://www.garvee.com/pages/influencer-program"
+    },
+    {
+      "text": "Share and Win",
+      "label": null,
+      "url": "https://www.garvee.com/pages/share-and-win"
+    },
+    {
+      "text": "Garvee Rewards",
+      "label": null,
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "Protection Plans",
+      "label": null,
+      "url": "https://www.garvee.com/pages/extended-service-protection"
+    },
+    {
+      "text": "Help Center",
+      "label": null,
+      "url": "https://support.garvee.com/"
+    },
+    {
+      "text": "WholeSale Program",
+      "label": null,
+      "url": "https://www.garvee.com/pages/business"
+    },
+    {
+      "text": "",
+      "label": "Pinterest",
+      "url": "https://www.pinterest.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/garveeglobal"
+    },
+    {
+      "text": "",
+      "label": "Instagram",
+      "url": "https://www.instagram.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/channel/UCvt0kZI7qgY2leAZrwI9DKA"
+    },
+    {
+      "text": "",
+      "label": "TikTok",
+      "url": "https://www.tiktok.com/@garvee_official"
+    },
+    {
+      "text": "",
+      "label": "Google Customer Reviews",
+      "url": "https://www.google.com/storepages?q=garvee.com&c=US&v=19"
+    },
+    {
+      "text": "About Garvee",
+      "label": null,
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Special Outlets",
+      "label": null,
+      "url": "https://www.garvee.com/collections/clearance-sale?filter.v.availability=1"
+    },
+    {
+      "text": "DIY Projects & Ideas",
+      "label": null,
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "Terms Of Service",
+      "label": null,
+      "url": "https://www.garvee.com/policies/terms-of-service"
+    },
+    {
+      "text": "Privacy Policy",
+      "label": null,
+      "url": "https://www.garvee.com/policies/privacy-policy"
+    },
+    {
+      "text": "Accessibility",
+      "label": null,
+      "url": "https://www.garvee.com/pages/accessibility-statement "
+    },
+    {
+      "text": "Track Your Order",
+      "label": null,
+      "url": "https://www.garvee.com/pages/track-your-order"
+    },
+    {
+      "text": "Payments Policy",
+      "label": null,
+      "url": "https://www.garvee.com/pages/payments-policy"
+    },
+    {
+      "text": "Shipping Policy",
+      "label": null,
+      "url": "https://www.garvee.com/policies/shipping-policy"
+    },
+    {
+      "text": "Warranty Policy",
+      "label": null,
+      "url": "https://www.garvee.com/pages/warranty-policy"
+    },
+    {
+      "text": "Refund & Return Policy",
+      "label": null,
+      "url": "https://www.garvee.com/policies/refund-policy"
+    },
+    {
+      "text": "Worry-Free Purchase",
+      "label": null,
+      "url": "https://www.garvee.com/pages/carebox-package-protection"
+    },
+    {
+      "text": "Contact Us",
+      "label": null,
+      "url": "https://www.garvee.com/pages/contact"
+    },
+    {
+      "text": "Affiliate Program",
+      "label": null,
+      "url": "https://www.garvee.com/pages/affiliate"
+    },
+    {
+      "text": "Influencer Program",
+      "label": null,
+      "url": "https://www.garvee.com/pages/influencer-program"
+    },
+    {
+      "text": "Share and Win",
+      "label": null,
+      "url": "https://www.garvee.com/pages/share-and-win"
+    },
+    {
+      "text": "Garvee Rewards",
+      "label": null,
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "Protection Plans",
+      "label": null,
+      "url": "https://www.garvee.com/pages/extended-service-protection"
+    },
+    {
+      "text": "Help Center",
+      "label": null,
+      "url": "https://support.garvee.com/"
+    },
+    {
+      "text": "WholeSale Program",
+      "label": null,
+      "url": "https://www.garvee.com/pages/business"
+    },
+    {
+      "text": "",
+      "label": "Pinterest",
+      "url": "https://www.pinterest.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/garveeglobal"
+    },
+    {
+      "text": "",
+      "label": "Instagram",
+      "url": "https://www.instagram.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/channel/UCvt0kZI7qgY2leAZrwI9DKA"
+    },
+    {
+      "text": "",
+      "label": "TikTok",
+      "url": "https://www.tiktok.com/@garvee_official"
+    },
+    {
+      "text": "",
+      "label": "Google Customer Reviews",
+      "url": "https://www.google.com/storepages?q=garvee.com&c=US&v=19"
+    }
+  ],
+  "all_links": [
+    {
+      "text": "",
+      "url": "https://www.pinterest.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "url": "https://www.facebook.com/garveeglobal"
+    },
+    {
+      "text": "",
+      "url": "https://www.instagram.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "url": "https://www.youtube.com/channel/UCvt0kZI7qgY2leAZrwI9DKA"
+    },
+    {
+      "text": "",
+      "url": "https://www.tiktok.com/@garvee_official"
+    },
+    {
+      "text": "Join Free",
+      "url": "https://www.garvee.com/collections/rugs#login"
+    },
+    {
+      "text": "Get My Discount",
+      "url": "https://www.garvee.com/collections/rugs#login"
+    },
+    {
+      "text": "Unlock Savings",
+      "url": "https://www.garvee.com/collections/rugs#login"
+    },
+    {
+      "text": "Join Free",
+      "url": "https://www.garvee.com/collections/rugs#login"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/"
+    },
+    {
+      "text": "New Arrivals",
+      "url": "https://www.garvee.com/collections/new-arrivals"
+    },
+    {
+      "text": "Best Sellers🔥",
+      "url": "https://www.garvee.com/collections/best-sellers"
+    },
+    {
+      "text": "Flash Deals⚡",
+      "url": "https://www.garvee.com/collections/flash-deals"
+    },
+    {
+      "text": "Clearance",
+      "url": "https://www.garvee.com/collections/clearance-sale"
+    },
+    {
+      "text": "DIY Projects & Ideas",
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "About Us",
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Rewards & Points",
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/"
+    },
+    {
+      "text": "New Arrivals",
+      "url": "https://www.garvee.com/collections/new-arrivals"
+    },
+    {
+      "text": "Best Sellers🔥",
+      "url": "https://www.garvee.com/collections/best-sellers"
+    },
+    {
+      "text": "Flash Deals⚡",
+      "url": "https://www.garvee.com/collections/flash-deals"
+    },
+    {
+      "text": "Clearance",
+      "url": "https://www.garvee.com/collections/clearance-sale"
+    },
+    {
+      "text": "DIY Projects & Ideas",
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "Everything You Need to Know About Rug Sizes and Placement",
+      "url": "https://www.garvee.com/blogs/buying-guides/everything-you-need-to-know-about-rug-sizes-and-placement"
+    },
+    {
+      "text": "Find the Right One for Your Business Needs",
+      "url": "https://www.garvee.com/blogs/buying-guides/utility-cart-buying-guide-finding-the-correct-one-for-your-business-needs"
+    },
+    {
+      "text": "Power Tools Vs. Hand Tools: What You Need to Know",
+      "url": "https://www.garvee.com/blogs/buying-guides/power-tools-vs-hand-tools-what-you-need-to-know"
+    },
+    {
+      "text": "Everything You Should Know About Wine Cooler",
+      "url": "https://www.garvee.com/blogs/buying-guides/everything-you-should-know-about-wine-cooler"
+    },
+    {
+      "text": "Difference Between a Dresser and a Chest of Drawers",
+      "url": "https://www.garvee.com/blogs/buying-guides/what-is-the-difference-between-a-dresser-and-a-chest-of-drawers-a-comprehensive-comparison"
+    },
+    {
+      "text": "Cheap Home Improvement Ideas Boost Your Home's Value",
+      "url": "https://www.garvee.com/blogs/buying-guides/cheap-home-improvement-ideas-boost-your-homes-value-on-a-budget"
+    },
+    {
+      "text": "About Us",
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Rewards & Points",
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "About Garvee",
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Special Outlets",
+      "url": "https://www.garvee.com/collections/clearance-sale?filter.v.availability=1"
+    },
+    {
+      "text": "DIY Projects & Ideas",
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "Terms Of Service",
+      "url": "https://www.garvee.com/policies/terms-of-service"
+    },
+    {
+      "text": "Privacy Policy",
+      "url": "https://www.garvee.com/policies/privacy-policy"
+    },
+    {
+      "text": "Accessibility",
+      "url": "https://www.garvee.com/pages/accessibility-statement "
+    },
+    {
+      "text": "Track Your Order",
+      "url": "https://www.garvee.com/pages/track-your-order"
+    },
+    {
+      "text": "Payments Policy",
+      "url": "https://www.garvee.com/pages/payments-policy"
+    },
+    {
+      "text": "Shipping Policy",
+      "url": "https://www.garvee.com/policies/shipping-policy"
+    },
+    {
+      "text": "Warranty Policy",
+      "url": "https://www.garvee.com/pages/warranty-policy"
+    },
+    {
+      "text": "Refund & Return Policy",
+      "url": "https://www.garvee.com/policies/refund-policy"
+    },
+    {
+      "text": "Worry-Free Purchase",
+      "url": "https://www.garvee.com/pages/carebox-package-protection"
+    },
+    {
+      "text": "Contact Us",
+      "url": "https://www.garvee.com/pages/contact"
+    },
+    {
+      "text": "Affiliate Program",
+      "url": "https://www.garvee.com/pages/affiliate"
+    },
+    {
+      "text": "Influencer Program",
+      "url": "https://www.garvee.com/pages/influencer-program"
+    },
+    {
+      "text": "Share and Win",
+      "url": "https://www.garvee.com/pages/share-and-win"
+    },
+    {
+      "text": "Garvee Rewards",
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "Protection Plans",
+      "url": "https://www.garvee.com/pages/extended-service-protection"
+    },
+    {
+      "text": "Help Center",
+      "url": "https://support.garvee.com/"
+    },
+    {
+      "text": "WholeSale Program",
+      "url": "https://www.garvee.com/pages/business"
+    },
+    {
+      "text": "",
+      "url": "https://www.pinterest.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "url": "https://www.facebook.com/garveeglobal"
+    },
+    {
+      "text": "",
+      "url": "https://www.instagram.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "url": "https://www.youtube.com/channel/UCvt0kZI7qgY2leAZrwI9DKA"
+    },
+    {
+      "text": "",
+      "url": "https://www.tiktok.com/@garvee_official"
+    },
+    {
+      "text": "",
+      "url": "https://www.google.com/storepages?q=garvee.com&c=US&v=19"
+    },
+    {
+      "text": "About Garvee",
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Special Outlets",
+      "url": "https://www.garvee.com/collections/clearance-sale?filter.v.availability=1"
+    },
+    {
+      "text": "DIY Projects & Ideas",
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "Terms Of Service",
+      "url": "https://www.garvee.com/policies/terms-of-service"
+    },
+    {
+      "text": "Privacy Policy",
+      "url": "https://www.garvee.com/policies/privacy-policy"
+    },
+    {
+      "text": "Accessibility",
+      "url": "https://www.garvee.com/pages/accessibility-statement "
+    },
+    {
+      "text": "Track Your Order",
+      "url": "https://www.garvee.com/pages/track-your-order"
+    },
+    {
+      "text": "Payments Policy",
+      "url": "https://www.garvee.com/pages/payments-policy"
+    },
+    {
+      "text": "Shipping Policy",
+      "url": "https://www.garvee.com/policies/shipping-policy"
+    },
+    {
+      "text": "Warranty Policy",
+      "url": "https://www.garvee.com/pages/warranty-policy"
+    },
+    {
+      "text": "Refund & Return Policy",
+      "url": "https://www.garvee.com/policies/refund-policy"
+    },
+    {
+      "text": "Worry-Free Purchase",
+      "url": "https://www.garvee.com/pages/carebox-package-protection"
+    },
+    {
+      "text": "Contact Us",
+      "url": "https://www.garvee.com/pages/contact"
+    },
+    {
+      "text": "Affiliate Program",
+      "url": "https://www.garvee.com/pages/affiliate"
+    },
+    {
+      "text": "Influencer Program",
+      "url": "https://www.garvee.com/pages/influencer-program"
+    },
+    {
+      "text": "Share and Win",
+      "url": "https://www.garvee.com/pages/share-and-win"
+    },
+    {
+      "text": "Garvee Rewards",
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "Protection Plans",
+      "url": "https://www.garvee.com/pages/extended-service-protection"
+    },
+    {
+      "text": "Help Center",
+      "url": "https://support.garvee.com/"
+    },
+    {
+      "text": "WholeSale Program",
+      "url": "https://www.garvee.com/pages/business"
+    },
+    {
+      "text": "",
+      "url": "https://www.pinterest.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "url": "https://www.facebook.com/garveeglobal"
+    },
+    {
+      "text": "",
+      "url": "https://www.instagram.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "url": "https://www.youtube.com/channel/UCvt0kZI7qgY2leAZrwI9DKA"
+    },
+    {
+      "text": "",
+      "url": "https://www.tiktok.com/@garvee_official"
+    },
+    {
+      "text": "",
+      "url": "https://www.google.com/storepages?q=garvee.com&c=US&v=19"
+    },
+    {
+      "text": "4 × 6 ft washable low-profile styles",
+      "url": "https://www.garvee.com/products/garvee-area-rug-4x6ft-washable-non-slip-blue-living-room-pho_34xapjkb"
+    },
+    {
+      "text": "10 × 13 ft folding printed rugs",
+      "url": "https://www.garvee.com/products/garvee-washable-area-rug-butterfly-floral-10x13-red-brown-phk-37g5squm"
+    },
+    {
+      "text": "Outdoor Rugs",
+      "url": "https://www.garvee.com/collections/outdoor-rugs"
+    },
+    {
+      "text": "Garvee Washable Rugs",
+      "url": "https://www.garvee.com/collections/living-room-rugs"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/collections/outdoor-rugs"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/collections/floral-rugs"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/collections/best-selling-rugs"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/collections/clearance-rugs"
+    },
+    {
+      "text": "Match Your Space: Shop Rug Sizes",
+      "url": "https://www.garvee.com/collections/size-rugs"
+    },
+    {
+      "text": "Large 8×10 - 9×12",
+      "url": "https://www.garvee.com/collections/large-rugs"
+    },
+    {
+      "text": "Medium 5×7 - 6×9",
+      "url": "https://www.garvee.com/collections/medium-rugs"
+    },
+    {
+      "text": "Small 3×5 - 4×6",
+      "url": "https://www.garvee.com/collections/small-rugs"
+    },
+    {
+      "text": "Runner 2×6 - 2×12",
+      "url": "https://www.garvee.com/collections/rugs-shape-runner"
+    },
+    {
+      "text": "Oversize 9×18 & Up",
+      "url": "https://www.garvee.com/collections/oversize-rugs"
+    },
+    {
+      "text": "Round & Square 3×3 - 6×6",
+      "url": "https://www.garvee.com/collections/round-rugs"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/collections/room-rugs"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/collections/size-rugs"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/collections/style-rugs"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/collections/color-rugs"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/collections/rugs-room-outdoor"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/blogs/how-tos/how-to-care-for-your-washable-rugs-tips-for-long-lasting-beauty"
+    },
+    {
+      "text": "The secret to long-lasting carpet beauty",
+      "url": "https://www.garvee.com/blogs/how-tos/how-to-care-for-your-washable-rugs-tips-for-long-lasting-beauty"
+    },
+    {
+      "text": "Read More",
+      "url": "https://www.garvee.com/blogs/how-tos/how-to-care-for-your-washable-rugs-tips-for-long-lasting-beauty"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/blogs/trending-now/why-washable-rugs-are-essential"
+    },
+    {
+      "text": "Why Washable Rugs Are a Game-Changer for Pet Owners",
+      "url": "https://www.garvee.com/blogs/trending-now/why-washable-rugs-are-essential"
+    },
+    {
+      "text": "Read More",
+      "url": "https://www.garvee.com/blogs/trending-now/why-washable-rugs-are-essential"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/blogs/trending-now/machine-washable-rugs"
+    },
+    {
+      "text": "Understanding and Restoring Creases in Washable Rugs",
+      "url": "https://www.garvee.com/blogs/trending-now/machine-washable-rugs"
+    },
+    {
+      "text": "Read More",
+      "url": "https://www.garvee.com/blogs/trending-now/machine-washable-rugs"
+    },
+    {
+      "text": "BY OUTDOOR",
+      "url": "https://www.garvee.com/collections/rugs-room-outdoor"
+    },
+    {
+      "text": "Outdoor Rugs",
+      "url": "https://www.garvee.com/collections/outdoor-rugs"
+    },
+    {
+      "text": "Indoor/Outdoor Rugs",
+      "url": "https://www.garvee.com/collections/jute-rugs"
+    },
+    {
+      "text": "Marine Carpet",
+      "url": "https://www.garvee.com/collections/marine-carpet"
+    },
+    {
+      "text": "BY STYLE",
+      "url": "https://www.garvee.com/collections/style-rugs"
+    },
+    {
+      "text": "Bordered Rugs",
+      "url": "https://www.garvee.com/collections/bordered-rugs"
+    },
+    {
+      "text": "Oriental & Persian Rugs",
+      "url": "https://www.garvee.com/collections/oriental-rugs"
+    },
+    {
+      "text": "Floral & Paisley Rugs",
+      "url": "https://www.garvee.com/collections/floral-rugs"
+    },
+    {
+      "text": "Modern Rugs",
+      "url": "https://www.garvee.com/collections/modern-rugs"
+    },
+    {
+      "text": "Geometric Rugs",
+      "url": "https://www.garvee.com/collections/geometric-rugs"
+    },
+    {
+      "text": "Fluffy & Sheepskin Rugs",
+      "url": "https://www.garvee.com/collections/fluffy-sheepskin-rugs"
+    },
+    {
+      "text": "Boho Rugs",
+      "url": "https://www.garvee.com/collections/boho-rugs"
+    },
+    {
+      "text": "Abstract Rugs",
+      "url": "https://www.garvee.com/collections/abstract-rugs"
+    },
+    {
+      "text": "Plaid Rugs",
+      "url": "https://www.garvee.com/collections/plaid-rugs"
+    },
+    {
+      "text": "Medallion & Damask Rugs",
+      "url": "https://www.garvee.com/collections/medallion-damask-rugs"
+    },
+    {
+      "text": "Moroccan Rugs",
+      "url": "https://www.garvee.com/collections/moroccan-rugs"
+    },
+    {
+      "text": "Solid Rugs",
+      "url": "https://www.garvee.com/collections/solid-rugs"
+    },
+    {
+      "text": "Kids Rugs",
+      "url": "https://www.garvee.com/collections/kids-rugs"
+    },
+    {
+      "text": "Animal Print Rugs",
+      "url": "https://www.garvee.com/collections/animal-print-rugs"
+    },
+    {
+      "text": "Christmas Rugs",
+      "url": "https://www.garvee.com/collections/christmas-rugs"
+    },
+    {
+      "text": "Heated Rugs",
+      "url": "https://www.garvee.com/collections/heated-rugs"
+    },
+    {
+      "text": "BY ROOM",
+      "url": "https://www.garvee.com/collections/room-rugs"
+    },
+    {
+      "text": "Living Room Rugs",
+      "url": "https://www.garvee.com/collections/living-room-rugs"
+    },
+    {
+      "text": "Hallway Rugs",
+      "url": "https://www.garvee.com/collections/hallway-rugs"
+    },
+    {
+      "text": "Bedroom Rugs",
+      "url": "https://www.garvee.com/collections/bedroom-rugs"
+    },
+    {
+      "text": "Dining Room Rugs",
+      "url": "https://www.garvee.com/collections/rugs-room-diningroom"
+    },
+    {
+      "text": "Office Rugs",
+      "url": "https://www.garvee.com/collections/rugs-room-office"
+    },
+    {
+      "text": "Kids & Nursery Rugs",
+      "url": "https://www.garvee.com/collections/kids-rugs"
+    },
+    {
+      "text": "Entryway Rugs",
+      "url": "https://www.garvee.com/collections/rugs-room-entryway"
+    },
+    {
+      "text": "Kitchen Rugs",
+      "url": "https://www.garvee.com/collections/kitchen-rugs"
+    },
+    {
+      "text": "Bathroom Rugs",
+      "url": "https://www.garvee.com/collections/bathroom-rugs"
+    },
+    {
+      "text": "Mats",
+      "url": "https://www.garvee.com/collections/mats"
+    },
+    {
+      "text": "Garage Floor Mats",
+      "url": "https://www.garvee.com/collections/garage-floor-mats"
+    },
+    {
+      "text": "Chair Mats",
+      "url": "https://www.garvee.com/collections/chair-mats"
+    },
+    {
+      "text": "Door Mats",
+      "url": "https://www.garvee.com/collections/entrance-mats"
+    },
+    {
+      "text": "Drainage Mats",
+      "url": "https://www.garvee.com/collections/drainage-mats"
+    },
+    {
+      "text": "New Rugs",
+      "url": "https://www.garvee.com/collections/new-rugs"
+    },
+    {
+      "text": "BY SIZE & SHAPE",
+      "url": "https://www.garvee.com/collections/size-rugs"
+    },
+    {
+      "text": "Runner Rugs",
+      "url": "https://www.garvee.com/collections/rugs-shape-runner"
+    },
+    {
+      "text": "Scalloped Rugs",
+      "url": "https://www.garvee.com/collections/scalloped-rugs"
+    },
+    {
+      "text": "2' × 3' Rugs",
+      "url": "https://www.garvee.com/collections/2-x-3-rugs"
+    },
+    {
+      "text": "2' × 6' Rugs",
+      "url": "https://www.garvee.com/collections/2-x-6-rugs"
+    },
+    {
+      "text": "2' × 8' Rugs",
+      "url": "https://www.garvee.com/collections/2-x-8-rugs"
+    },
+    {
+      "text": "2' × 10' Rugs",
+      "url": "https://www.garvee.com/collections/2-x-10-rugs"
+    },
+    {
+      "text": "3' × 5' Rugs",
+      "url": "https://www.garvee.com/collections/3-x-5-rugs"
+    },
+    {
+      "text": "4' × 6' Rugs",
+      "url": "https://www.garvee.com/collections/4-x-6-rugs"
+    },
+    {
+      "text": "5' × 7' Rugs",
+      "url": "https://www.garvee.com/collections/5-x-7-rugs"
+    },
+    {
+      "text": "5' × 8' Rugs",
+      "url": "https://www.garvee.com/collections/5-x-8-rugs"
+    },
+    {
+      "text": "6' × 9' Rugs",
+      "url": "https://www.garvee.com/collections/6-x-9-rugs"
+    },
+    {
+      "text": "8' × 10' Rugs",
+      "url": "https://www.garvee.com/collections/8-x-10-rugs"
+    },
+    {
+      "text": "9' × 12' Rugs",
+      "url": "https://www.garvee.com/collections/9-x-12-rugs"
+    },
+    {
+      "text": "9' × 18' Rugs",
+      "url": "https://www.garvee.com/collections/9-x-18-rugs"
+    },
+    {
+      "text": "10' × 13' Rugs",
+      "url": "https://www.garvee.com/collections/10-x-13-rugs"
+    },
+    {
+      "text": "10' × 14' Rugs",
+      "url": "https://www.garvee.com/collections/10-14-rugs"
+    },
+    {
+      "text": "10' × 20' Rugs",
+      "url": "https://www.garvee.com/collections/10-x-20-rugs"
+    },
+    {
+      "text": "Small Rugs",
+      "url": "https://www.garvee.com/collections/small-rugs"
+    },
+    {
+      "text": "Large Rugs",
+      "url": "https://www.garvee.com/collections/large-rugs"
+    },
+    {
+      "text": "Oversize Rugs",
+      "url": "https://www.garvee.com/collections/oversize-rugs"
+    },
+    {
+      "text": "Round & Square Rugs",
+      "url": "https://www.garvee.com/collections/round-rugs"
+    },
+    {
+      "text": "BY COLOR",
+      "url": "https://www.garvee.com/collections/color-rugs"
+    },
+    {
+      "text": "Brown & Khaki Rugs",
+      "url": "https://www.garvee.com/collections/brown-khaki-rugs"
+    },
+    {
+      "text": "Green Rugs",
+      "url": "https://www.garvee.com/collections/green-rugs"
+    },
+    {
+      "text": "Blue Rugs",
+      "url": "https://www.garvee.com/collections/blue-rugs"
+    },
+    {
+      "text": "Black Rugs",
+      "url": "https://www.garvee.com/collections/black-rugs"
+    },
+    {
+      "text": "Black & White Rugs",
+      "url": "https://www.garvee.com/collections/black-white-rugs"
+    },
+    {
+      "text": "Colorful Rugs",
+      "url": "https://www.garvee.com/collections/colorful-rugs"
+    },
+    {
+      "text": "Gray Rugs",
+      "url": "https://www.garvee.com/collections/grey-rugs"
+    },
+    {
+      "text": "Orange Rugs",
+      "url": "https://www.garvee.com/collections/orange-rugs"
+    },
+    {
+      "text": "Pink Rugs",
+      "url": "https://www.garvee.com/collections/pink-rugs"
+    },
+    {
+      "text": "Red Rugs",
+      "url": "https://www.garvee.com/collections/red-rugs"
+    },
+    {
+      "text": "Tan & Beige Rugs",
+      "url": "https://www.garvee.com/collections/tan-ivory-rugs"
+    },
+    {
+      "text": "White Rugs",
+      "url": "https://www.garvee.com/collections/white-rugs"
+    },
+    {
+      "text": "Yellow Rugs",
+      "url": "https://www.garvee.com/collections/yellow-rugs"
+    },
+    {
+      "text": "Purple Rugs",
+      "url": "https://www.garvee.com/collections/purple-rugs"
+    },
+    {
+      "text": "Best Selling Rugs",
+      "url": "https://www.garvee.com/collections/best-selling-rugs"
+    },
+    {
+      "text": "Clearance Rugs",
+      "url": "https://www.garvee.com/collections/clearance-rugs"
+    }
+  ],
+  "main_text": ""
+}

@@ -1,0 +1,2788 @@
+[
+  {
+    "guide": "article",
+    "context": "Article objects",
+    "property": "author",
+    "level": "建议",
+    "text": "author Person or Organization The author of the article. To help Google best understand authors across various features,\n      we recommend following the author markup best practices ."
+  },
+  {
+    "guide": "article",
+    "context": "Article objects",
+    "property": "author.name",
+    "level": "建议",
+    "text": "author.name Text The name of the author."
+  },
+  {
+    "guide": "article",
+    "context": "Article objects",
+    "property": "author.url",
+    "level": "建议",
+    "text": "author.url URL A link to a web page that uniquely identifies the author of the article. For example, the\n      author's social media page, an \"about me\" page, or a bio page. If the URL is an internal profile page, we recommend marking up that author using profile page structured data . You can use the sameAs property as an alternative. Google can\n       understand both sameAs and url when disambiguating authors."
+  },
+  {
+    "guide": "article",
+    "context": "Article objects",
+    "property": "dateModified",
+    "level": "建议",
+    "text": "dateModified DateTime The date and time the article was most recently modified, in ISO 8601 format .\n      We recommend that you provide timezone information; otherwise, we will default to the timezone used by Googlebot . Add the dateModified property if you want to provide more accurate date information to Google.\n    The Rich Results Test doesn't show a warning for this property,\n    as it's only recommended if you decide that it's applicable to your site."
+  },
+  {
+    "guide": "article",
+    "context": "Article objects",
+    "property": "datePublished",
+    "level": "建议",
+    "text": "datePublished DateTime The date and time the article was first published, in ISO 8601 format .\n      We recommend that you provide timezone information; otherwise, we will default to the timezone used by Googlebot . Add the datePublished property if you want to provide more\n      accurate date information to Google. The Rich Results Test doesn't show a\n      warning for this property, as it's only recommended if you decide that it's applicable to your site."
+  },
+  {
+    "guide": "article",
+    "context": "Article objects",
+    "property": "headline",
+    "level": "建议",
+    "text": "headline Text The title of the article. Consider using a concise title, as long titles may be truncated on some devices."
+  },
+  {
+    "guide": "article",
+    "context": "Article objects",
+    "property": "image",
+    "level": "建议",
+    "text": "image Repeated ImageObject or URL The URL to an image that is representative of the article. Use images that are relevant\n        to the article, rather than logos or captions. Additional image guidelines: Image URLs must be crawlable and indexable. To check if Google can access your URLs, use\n      the URL Inspection tool . Images must represent the marked up content. Images must be in a file format that's supported by Google Images . For best results, we recommend providing multiple high-resolution images (minimum of 50K pixels when\n      multiplying width and height) with the following aspect ratios: 16x9, 4x3, and 1x1. For example: \"image\": [\n  \"https://example.com/photos/1x1/photo.jpg\",\n  \"https://example.com/photos/4x3/photo.jpg\",\n  \"https://example.com/photos/16x9/photo.jpg\"\n]"
+  },
+  {
+    "guide": "article",
+    "context": "Author markup best practices",
+    "property": "author.name",
+    "level": "见指南条件",
+    "text": "Only specify the author's name in the author.name property In the author.name property, only specify the name of the author. Don't add\n          any other piece of information. More specifically, don't add the following information: The name of the publisher. Instead, use the publisher property. The author's job title. Instead, use the appropriate property if you want to specify\n            that information ( jobTitle ). Honorific prefix or suffix. Instead, use the appropriate property if you want to\n            specify that information ( honorificPrefix or honorificSuffix ). Introductory words (for example, don't include words like \"posted by\"). \"author\" : [ { \"@type\" : \"Person\" , \"name\" : \"Echidna Jones\" , \"honorificPrefix\" : \"Dr\" , \"jobTitle\" : \"Editor in Chief\" } ], \"publisher\" : [ { \"@type\" : \"Organization\" , \"name\" : \"Bugs Daily\" } ] }"
+  },
+  {
+    "guide": "article",
+    "context": "Author markup best practices",
+    "property": "Type",
+    "level": "见指南条件",
+    "text": "Use the appropriate Type Use the Person type for people, and the Organization type\n          for organizations. Don't use the Thing type, and don't use the wrong type\n          (for example, using the Organization type for a person)."
+  },
+  {
+    "guide": "breadcrumb",
+    "context": "BreadcrumbList",
+    "property": "itemListElement",
+    "level": "必需",
+    "text": "itemListElement ListItem An array of breadcrumbs listed in a specific order. Specify each breadcrumb with a ListItem . For example: { \"@context\" : \"https://schema.org\" , \"@type\" : \"BreadcrumbList\" , \"itemListElement\" : [{ \"@type\" : \"ListItem\" , \"position\" : 1 , \"name\" : \"Books\" , \"item\" : \"https://example.com/books\" },{ \"@type\" : \"ListItem\" , \"position\" : 2 , \"name\" : \"Authors\" , \"item\" : \"https://example.com/books/authors\" },{ \"@type\" : \"ListItem\" , \"position\" : 3 , \"name\" : \"Ann Leckie\" , \"item\" : \"https://example.com/books/authors/annleckie\" }] }"
+  },
+  {
+    "guide": "breadcrumb",
+    "context": "ListItem",
+    "property": "item",
+    "level": "必需",
+    "text": "item URL or a\n          subtype of Thing The URL to the webpage that represents the breadcrumb. There are two ways to specify item : URL : Specify the URL of the page. For example: \"item\": \"https://example.com/books\" Thing : Use an id to specify the URL based on the markup format\n                you're using: JSON-LD : Use @id to specify the URL. Microdata : You can use href or itemid to specify the URL. RDFa : You can use about , href ,\n                    or resource to specify the URL. If the breadcrumb is the last item in the breadcrumb trail, item is not\n            required. If item isn't included for the last item, Google uses the URL\n            of the containing page."
+  },
+  {
+    "guide": "breadcrumb",
+    "context": "ListItem",
+    "property": "name",
+    "level": "必需",
+    "text": "name Text The title of the breadcrumb displayed for the user. If you're using a Thing with a name instead of a URL to specify item , then name is not required."
+  },
+  {
+    "guide": "breadcrumb",
+    "context": "ListItem",
+    "property": "position",
+    "level": "必需",
+    "text": "position Integer The position of the breadcrumb in the breadcrumb trail. Position 1 signifies\n        the beginning of the trail."
+  },
+  {
+    "guide": "carousel",
+    "context": "ItemList",
+    "property": "itemListElement",
+    "level": "必需",
+    "text": "itemListElement ListItem List of items. To specify a list, define an ItemList that contains at least\n        two ListItem elements. All items must be of the same type. See ListItem for details."
+  },
+  {
+    "guide": "carousel",
+    "context": "Summary pages",
+    "property": "position",
+    "level": "必需",
+    "text": "position Integer The item's position in the carousel. This is a 1-based number."
+  },
+  {
+    "guide": "carousel",
+    "context": "Summary pages",
+    "property": "url",
+    "level": "必需",
+    "text": "url URL The canonical URL of the item detail page. All URLs in the list must be unique, but live\n              on the same domain (the same domain or sub/super domain as the current page)."
+  },
+  {
+    "guide": "carousel",
+    "context": "All-in-one pages",
+    "property": "item",
+    "level": "必需",
+    "text": "item Thing An individual thing in a list. Populate this object with the following values, plus all the\n            properties of the specific structured data type being described: item.name item.url Any other properties required for this data type, as described in schema.org and the rules\n              described in the documents for your content type: Course Movie Recipe Restaurant Example : For a recipe, you would provide prepTime and image properties."
+  },
+  {
+    "guide": "carousel",
+    "context": "All-in-one pages",
+    "property": "item.name",
+    "level": "必需",
+    "text": "item.name Text The string name of the item. The item.name is displayed as the title of an\n              individual item in the carousel. HTML formatting is ignored."
+  },
+  {
+    "guide": "carousel",
+    "context": "All-in-one pages",
+    "property": "item.url",
+    "level": "必需",
+    "text": "item.url URL The fully-qualified URL and page anchor to this item on the page. The URL must be\n              the current page, and you must include an HTML anchor ( <a> tag or name or id value) in your page near the user-visible text. Example : https://example.org/recipes/pies#apple_pie ."
+  },
+  {
+    "guide": "carousel",
+    "context": "All-in-one pages",
+    "property": "position",
+    "level": "必需",
+    "text": "position Integer The item's position in the carousel. This is a 1-based number."
+  },
+  {
+    "guide": "discussion-forum",
+    "context": "DiscussionForumPosting (or SocialMediaPosting )",
+    "property": "author",
+    "level": "必需",
+    "text": "author Person or Organization Information about the author of the post. To help Google best understand authors across various features,\n          we recommend following the author markup best practices . Include as many properties that make sense for the author, using the supported properties\n          from article and profile page structured data as a guide."
+  },
+  {
+    "guide": "discussion-forum",
+    "context": "DiscussionForumPosting (or SocialMediaPosting )",
+    "property": "author.name",
+    "level": "必需",
+    "text": "author.name Text The name of the author of the post."
+  },
+  {
+    "guide": "discussion-forum",
+    "context": "DiscussionForumPosting (or SocialMediaPosting )",
+    "property": "datePublished",
+    "level": "必需",
+    "text": "datePublished DateTime The date and time the post was made in ISO 8601 format ."
+  },
+  {
+    "guide": "discussion-forum",
+    "context": "DiscussionForumPosting (or SocialMediaPosting )",
+    "property": "text",
+    "level": "必需",
+    "text": "Either text or image or video To represent the content of the post, you must include one of the following properties: text image video This is not required if you are representing a post on another page (with an external url ) as in later pages of forums or forum category pages."
+  },
+  {
+    "guide": "discussion-forum",
+    "context": "datePublished",
+    "property": "author.url",
+    "level": "建议",
+    "text": "author.url URL A link to a web page that uniquely identifies the author of the post, most likely a profile\n          page of the forum.  We recommend marking up that page using profile page structured data ."
+  },
+  {
+    "guide": "discussion-forum",
+    "context": "datePublished",
+    "property": "comment",
+    "level": "建议",
+    "text": "comment Comment A comment about or response to the post, if applicable. Mark up comments in the order\n            in which they appear on the page."
+  },
+  {
+    "guide": "discussion-forum",
+    "context": "datePublished",
+    "property": "commentCount",
+    "level": "建议",
+    "text": "commentCount Integer The number of comments about this post, if applicable. This is particularly useful\n            if they are not all present in the comment markup."
+  },
+  {
+    "guide": "discussion-forum",
+    "context": "datePublished",
+    "property": "creativeWorkStatus",
+    "level": "建议",
+    "text": "creativeWorkStatus Text When the post has been deleted but remains for context or threading, set this property to Deleted , if applicable."
+  },
+  {
+    "guide": "discussion-forum",
+    "context": "datePublished",
+    "property": "dateModified",
+    "level": "建议",
+    "text": "dateModified DateTime The date and time the post was edited in ISO 8601 format ,\n            if applicable. If no changes have happened, it's not necessary to duplicate the publish\n            date."
+  },
+  {
+    "guide": "discussion-forum",
+    "context": "datePublished",
+    "property": "digitalSourceType",
+    "level": "建议",
+    "text": "digitalSourceType IPTCDigitalSourceEnumeration The digitalSourceType property indicates the type of digital source\n          associated with the content, if applicable. This property is particularly relevant for distinguishing\n          between human and AI or other machine-generated content.  Google supports the following values: TrainedAlgorithmicMediaDigitalSource : Indicates content created by a\n              trained model, such as an LLM. AlgorithmicMediaDigitalSource : Indicates content created by a simpler\n              algorithmic process, such as an automatic reply bot. If this property is not specified, Google will assume the content is human-generated."
+  },
+  {
+    "guide": "discussion-forum",
+    "context": "datePublished",
+    "property": "headline",
+    "level": "建议",
+    "text": "headline Text The title of the post. If there isn't a separate title, don't duplicate or truncate the\n          text into a headline.  This is not recommended for a SocialMediaPosting ."
+  },
+  {
+    "guide": "discussion-forum",
+    "context": "datePublished",
+    "property": "image",
+    "level": "建议",
+    "text": "image ImageObject or URL Any inline images within the post, if applicable. If there aren't any images, don't\n          include default, icon, placeholder, or author images in this field.  If your image is a\n          link preview, include it in the image field of an attached WebPage in sharedContent ."
+  },
+  {
+    "guide": "discussion-forum",
+    "context": "datePublished",
+    "property": "interactionStatistic",
+    "level": "建议",
+    "text": "interactionStatistic InteractionCounter User statistics applied to the main post, if applicable. Google supports the following interactionTypes : https://schema.org/LikeAction :\n            The number of likes or upvotes. https://schema.org/DislikeAction :\n            The number of dislikes or downvotes. https://schema.org/ViewAction :\n            The number of views. https://schema.org/CommentAction or https://schema.org/ReplyAction :\n            The number of comments. https://schema.org/ShareAction :\n            The number of reshares."
+  },
+  {
+    "guide": "discussion-forum",
+    "context": "datePublished",
+    "property": "isPartOf",
+    "level": "建议",
+    "text": "isPartOf CreativeWork or URL The primary source of the post if the post occurs on a particular part of the overall\n            website, if applicable.\n            For example, a subforum or group within the broader website. If a CreativeWork (like WebPage ) is used, use the URL property to specify its URL."
+  },
+  {
+    "guide": "discussion-forum",
+    "context": "datePublished",
+    "property": "sharedContent",
+    "level": "建议",
+    "text": "sharedContent Subtype of CreativeWork The primary shared content in the post, if applicable. We accept four types here: WebPage : The most common way this can be used is to share\n           (with URLs) as a topical discussion. Here's an example of how to add that there's a link shared in the post: ... \"sharedContent\" : { \"@type\" : \"WebPage\" , \"url\" : \"https://example.com/external-url\" } ... ImageObject : If the primary content of the post is an image, you can\n              use this type to mark it up. VideoObject : If the primary content of the post is a video, you can use\n              this type to mark it up. DiscussionForumPosting or Comment : If there is a\n              referenced post or comment (quoted or reposted), include a reference to that here. Here's an example to mark up a referenced Comment : ... \"sharedContent\" : { \"@type\" : \"Comment\" , \"url\" : \"https://example.com/post123#comment456\" , \"datePublished\" : \"2025-03-24\" , \"author\" : { \"@type\" : \"Person\" , \"name\" : \"Jane Doe\" }, \"text\" : \"This is a referenced comment displayed inside the post\" } ..."
+  },
+  {
+    "guide": "discussion-forum",
+    "context": "datePublished",
+    "property": "text",
+    "level": "建议",
+    "text": "text Text Any text in the post, if applicable. This is very common, but in some cases can be\n            left out if there is other media in the post."
+  },
+  {
+    "guide": "discussion-forum",
+    "context": "datePublished",
+    "property": "url",
+    "level": "建议",
+    "text": "url URL The canonical URL of the discussion. In multi-page threads, set this property to th\n          first page URL. For a single discussion, this is usually the current URL."
+  },
+  {
+    "guide": "discussion-forum",
+    "context": "datePublished",
+    "property": "video",
+    "level": "建议",
+    "text": "video VideoObject Any inline videos within the post, if applicable."
+  },
+  {
+    "guide": "discussion-forum",
+    "context": "Comment",
+    "property": "author",
+    "level": "必需",
+    "text": "author Person or Organization Information about the author of the comment. To help Google best understand authors across various features,\n          we recommend following the author markup best practices . Include as many properties that make sense for the author, using the supported properties\n          from article and profile page structured data as a guide."
+  },
+  {
+    "guide": "discussion-forum",
+    "context": "Comment",
+    "property": "datePublished",
+    "level": "必需",
+    "text": "datePublished DateTime The date and time the comment was made in ISO 8601 format .\n          If no changes have happened, it's not necessary to duplicate the publish date."
+  },
+  {
+    "guide": "discussion-forum",
+    "context": "Comment",
+    "property": "text",
+    "level": "必需",
+    "text": "Either text or image or video To represent the content of the comment, you must include one of the following properties: text image video"
+  },
+  {
+    "guide": "discussion-forum",
+    "context": "datePublished",
+    "property": "author.url",
+    "level": "建议",
+    "text": "author.url URL A link to a web page that uniquely identifies the author of the comment, most likely a profile\n          page of the forum.  We recommend marking up that page using profile page structured data ."
+  },
+  {
+    "guide": "discussion-forum",
+    "context": "datePublished",
+    "property": "comment",
+    "level": "建议",
+    "text": "comment Comment Another comment about or in response to the comment, if applicable. Mark up the comments\n            in the order in which they appear on the page."
+  },
+  {
+    "guide": "discussion-forum",
+    "context": "datePublished",
+    "property": "commentCount",
+    "level": "建议",
+    "text": "commentCount Integer The number of comments about this comment, if applicable. This is particularly useful\n            if they are not all present in the comment markup."
+  },
+  {
+    "guide": "discussion-forum",
+    "context": "datePublished",
+    "property": "creativeWorkStatus",
+    "level": "建议",
+    "text": "creativeWorkStatus Text If the comment has been deleted but remains for context or threading, set this property\n            to Deleted , if applicable."
+  },
+  {
+    "guide": "discussion-forum",
+    "context": "datePublished",
+    "property": "dateModified",
+    "level": "建议",
+    "text": "dateModified DateTime The date and time the comment was last edited in ISO 8601 format ,\n             if applicable."
+  },
+  {
+    "guide": "discussion-forum",
+    "context": "datePublished",
+    "property": "digitalSourceType",
+    "level": "建议",
+    "text": "digitalSourceType IPTCDigitalSourceEnumeration The digitalSourceType property indicates the type of digital source\n          associated with the content, if applicable. This property is particularly relevant for distinguishing\n          between human and AI or other machine-generated content.  Google supports the following values: TrainedAlgorithmicMediaDigitalSource : Indicates content created by a\n              trained model, such as an LLM. AlgorithmicMediaDigitalSource : Indicates content created by a simpler\n              algorithmic process, such as an automatic reply bot. If this property is not specified, Google will assume the content is human-generated."
+  },
+  {
+    "guide": "discussion-forum",
+    "context": "datePublished",
+    "property": "image",
+    "level": "建议",
+    "text": "image ImageObject or URL Any inline images within the comment, if applicable. If there aren't any images, don't\n          include default, icon, placeholder, or author images in this field.  If your image is a\n          link preview, include it in the image field of an attached WebPage in sharedContent ."
+  },
+  {
+    "guide": "discussion-forum",
+    "context": "datePublished",
+    "property": "interactionStatistic",
+    "level": "建议",
+    "text": "interactionStatistic InteractionCounter User statistics applied to the comment, if applicable. Google supports the following interactionTypes : https://schema.org/LikeAction :\n            The number of likes or upvotes. https://schema.org/DislikeAction :\n            The number of dislikes or downvotes. https://schema.org/ViewAction :\n            The number of views. https://schema.org/CommentAction or https://schema.org/ReplyAction :\n            The number of comments. https://schema.org/ShareAction :\n            The number of reshares."
+  },
+  {
+    "guide": "discussion-forum",
+    "context": "datePublished",
+    "property": "sharedContent",
+    "level": "建议",
+    "text": "sharedContent Subtype of CreativeWork The primary shared content in the post, if applicable. We recognize four types here: WebPage : The most common way this can be used is to share\n           (with URLs) as a topical discussion. Here's an example of how to add that there's a link shared in the post: ... \"sharedContent\" : { \"@type\" : \"WebPage\" , \"url\" : \"https://example.com/external-url\" } ... ImageObject : If the primary content of the post is an image, you can\n              use this type to mark it up. VideoObject : If the primary content of the post is a video, you can use\n              this type to mark it up. DiscussionForumPosting or Comment : If there is a\n              referenced post or comment (quoted or reposted), include a reference to that here. Here's an example to mark up a referenced Comment : ... \"sharedContent\" : { \"@type\" : \"Comment\" , \"url\" : \"https://example.com/post123#comment456\" , \"datePublished\" : \"2025-03-24\" , \"author\" : { \"@type\" : \"Person\" , \"name\" : \"Jane Doe\" }, \"text\" : \"This is a referenced comment displayed inside the post\" } ..."
+  },
+  {
+    "guide": "discussion-forum",
+    "context": "datePublished",
+    "property": "url",
+    "level": "建议",
+    "text": "url URL The URL to this specific comment on the page, if applicable. Don't include this property if it's just\n          the URL of the original post."
+  },
+  {
+    "guide": "discussion-forum",
+    "context": "datePublished",
+    "property": "video",
+    "level": "建议",
+    "text": "video VideoObject Any inline videos within the comment, if applicable."
+  },
+  {
+    "guide": "discussion-forum",
+    "context": "InteractionCounter",
+    "property": "userInteractionCount",
+    "level": "必需",
+    "text": "userInteractionCount Integer The number of times this interaction was performed."
+  },
+  {
+    "guide": "discussion-forum",
+    "context": "InteractionCounter",
+    "property": "interactionType",
+    "level": "必需",
+    "text": "interactionType Subtype of Action For a list of valid Action subtypes for this property, check the property that's using InteractionCounter (for example, interactionStatistic )."
+  },
+  {
+    "guide": "event",
+    "context": "Examples of how Google interprets dates",
+    "property": "2019-08-15T00:00:00+00:00",
+    "level": "见指南条件",
+    "text": "2019-08-15T00:00:00+00:00 Google interprets the startTime to be 2019-08-14T17:00:00-07:00 (if location is set to California) or 2019-08-15T09:00:00 (if location is set to Korea)."
+  },
+  {
+    "guide": "event",
+    "context": "Examples of how Google interprets dates",
+    "property": "2019-08-15T23:59:59+00:00",
+    "level": "见指南条件",
+    "text": "2019-08-15T23:59:59+00:00 This doesn't mean the end of 2019-08-15 unless the event happens in\n        the GMT timezone. Google interprets the startTime to be 2019-08-15T16:59:59-07:00 (if location is set to California) or 2019-08-16T08:59:59 (if location is set to Korea)."
+  },
+  {
+    "guide": "event",
+    "context": "Examples of how Google interprets dates",
+    "property": "2019-07-10",
+    "level": "见指南条件",
+    "text": "2019-07-10 This means the date regardless of the timezone. When used in startDate ,\n        it means the event starts in the location from sometime in that day. When used in endDate , it means the event ends in the location from sometime in that\n        day."
+  },
+  {
+    "guide": "event",
+    "context": "Examples of how Google interprets dates",
+    "property": "2019-07-20T00:00:00",
+    "level": "见指南条件",
+    "text": "2019-07-20T00:00:00 This means midnight on 2019-07-20 for the timezone where the\n        event happens. This is also likely wrong unless the event was meant to start at\n        midnight."
+  },
+  {
+    "guide": "event",
+    "context": "Structured data type definitions",
+    "property": "location",
+    "level": "必需",
+    "text": "location Place The location of the event. Set the @type to Place . Add the location.address and location.name properties."
+  },
+  {
+    "guide": "event",
+    "context": "Structured data type definitions",
+    "property": "location.address",
+    "level": "必需",
+    "text": "location.address PostalAddress The venue's detailed street address. Not recommended : Sydney Recommended : Bennelong Point,\n            Sydney NSW 2000, Australia United States example \"location\" : { \"@type\" : \"Place\" , \"name\" : \"Snickerpark Stadium\" , \"address\" : { \"@type\" : \"PostalAddress\" , \"streetAddress\" : \"100 West Snickerpark Dr\" , \"addressLocality\" : \"Snickertown\" , \"postalCode\" : \"19019\" , \"addressRegion\" : \"PA\" , \"addressCountry\" : \"US\" } } Japan examples You can write addresses for Japan in different ways, and Google still understands the\n              address. Here's an example with the street address, locality, and country in\n              different fields. \"location\" : { \"@type\" : \"Place\" , \"name\" : \"ダイバーシティ東京\" , \"address\" : { \"@type\" : \"PostalAddress\" , \"streetAddress\" : \"江東区青海1-10\" , \"addressLocality\" : \"東京\" , \"addressCountry\" : \"日本\" } } Here's an example of the street address and address country in different fields. \"location\" : { \"@type\" : \"Place\" , \"name\" : \"ダイバーシティ東京\" , \"address\" : { \"@type\" : \"PostalAddress\" , \"streetAddress\" : \"東京都江東区青海1-10\" , \"addressCountry\" : \"日本\" } } Here's an example of the entire address on one line. \"location\" : { \"@type\" : \"Place\" , \"name\" : \"ダイバーシティ東京\" , \"address\" : { \"@type\" : \"PostalAddress\" , \"name\" : \"東京都江東区青海 1-1-10 ダイバーシティ東京プラザ\" } } Best practices for addresses : If the event happens across several streets, define the starting location and mention\n              the full details in description. If the event happens without a well-defined location, use the city name or the most\n              representative location. If the event happens at multiple locations at the same time, create different events for\n              each location."
+  },
+  {
+    "guide": "event",
+    "context": "Structured data type definitions",
+    "property": "name",
+    "level": "必需",
+    "text": "name Text The full title of the event. DO NOT put the name of the event location. Instead, use location.name to specify the name of the location\n            where the event is being held. Not recommended : Bill Graham Civic Auditorium Not recommended : **LIMITED TIME SALE -\n            Kesha and Macklemore Concert - $25** Recommended : The Adventures of Kesha and\n            Macklemore Recommended : Meet and Greet: Kesha and\n            Macklemore Best practices : Don't use the type of event as the name of the event. For example, \"Concert\" is not\n              a descriptive name for an event. Don't include extraneous information like URLs, prices, or performers. Instead, use\n              the appropriate properties for those values. Highlight a unique aspect of the event in the title. This helps users make faster\n              decisions (for example, \"feat. Q&A with the artist\"). Don't add short-term promotions (for example, \"buy your tickets now\")."
+  },
+  {
+    "guide": "event",
+    "context": "Structured data type definitions",
+    "property": "startDate",
+    "level": "必需",
+    "text": "startDate DateTime The start date and start time of the event in ISO-8601 format .\n            Add both the date and time so users can find events that fit into their\n            schedule. Make sure to follow the Date and time guidelines . \"startDate\": \"2025-07-21T19:00\""
+  },
+  {
+    "guide": "event",
+    "context": "Structured data type definitions",
+    "property": "description",
+    "level": "建议",
+    "text": "description Text Description of the event. Describe all details of the event to make it easier for\n            users to understand and attend the event. Best practices : Add a clear and concise description of the specific event. Focus on the event details and not your site's features. Don't repeat other facts like date and location; instead, add that information to the\n              respective properties. \"description\": \"The Adventures of Kira and Morrison is coming to Snickertown in a can't miss performance.\" Google only shows a snippet of the full description."
+  },
+  {
+    "guide": "event",
+    "context": "Structured data type definitions",
+    "property": "endDate",
+    "level": "建议",
+    "text": "endDate DateTime The end date and end time of the event in ISO-8601 format .\n            Use the same format as startDate . Add both the\n            date and time so users can find events that fit into their schedule. Make sure to follow the Date and time\n            guidelines . \"endDate\": \"2025-07-21T23:00\""
+  },
+  {
+    "guide": "event",
+    "context": "Structured data type definitions",
+    "property": "eventStatus",
+    "level": "建议",
+    "text": "eventStatus EventStatusType Warning : When the event status changes, DON'T remove the startDate . The startDate property is required to help identify the unique event. The status of the event. If you don't use this field, Google understands the eventStatus to be EventScheduled . You can use multiple statuses, if\n          applicable. Here are the supported values. EventCancelled The event has been canceled. Don't remove or change other properties (for\n                example, don't remove startDate or location );\n                instead, keep all values as the same as they were before the cancelation, and\n                update the eventStatus to EventCancelled . Why? Properties like startDate and location help identify the unique event and\n                make sure people understand the new status of the event. { \"@context\" : \"https://schema.org\" , \"@type\" : \"Event\" , \"eventStatus\" : \"https://schema.org/EventCancelled\" , \"startDate\" : \"2020-07-21T19:00\" } EventPostponed The event has been postponed to a later date, but the date isn't known yet. Keep the\n              original date in the startDate of the event\n              until you know when the event will take place. Once you know the new date information,\n              change the eventStatus to EventRescheduled and update the startDate and endDate with the new date information. Don't remove or change other properties (for\n                example, don't remove the startDate or location );\n                instead, keep all values as the same as they were before the postponement, and\n                update the eventStatus to EventPostponed . Why? Properties like startDate and location help identify the unique event and\n                make sure people understand the new status of the event. { \"@context\" : \"https://schema.org\" , \"@type\" : \"Event\" , \"eventStatus\" : \"https://schema.org/EventPostponed\" , \"startDate\" : \"2020-07-21T19:00\" } EventRescheduled The event has been rescheduled to a later date. Update the startDate and endDate with the relevant new dates. Optionally, you can also mark the eventStatus field as rescheduled and add the previousStartDate . { \"@context\" : \"https://schema.org\" , \"@type\" : \"Event\" , \"eventStatus\" : \"https://schema.org/EventRescheduled\" , \"startDate\" : \"2020-07-21T19:00\" , \"endDate\" : \"2025-07-21T23:00\" , \"previousStartDate\" : \"2025-03-21T19:00\" } EventScheduled The event is scheduled to happen. This value is the default status for events. If you\n              don't set eventStatus , Google understands the event to be happening on schedule. { \"@context\" : \"https://schema.org\" , \"@type\" : \"Event\" , \"eventStatus\" : \"https://schema.org/EventScheduled\" , \"startDate\" : \"2020-07-21T19:00\" }"
+  },
+  {
+    "guide": "event",
+    "context": "Structured data type definitions",
+    "property": "EventCancelled",
+    "level": "建议",
+    "text": "EventCancelled The event has been canceled. Don't remove or change other properties (for\n                example, don't remove startDate or location );\n                instead, keep all values as the same as they were before the cancelation, and\n                update the eventStatus to EventCancelled . Why? Properties like startDate and location help identify the unique event and\n                make sure people understand the new status of the event. { \"@context\" : \"https://schema.org\" , \"@type\" : \"Event\" , \"eventStatus\" : \"https://schema.org/EventCancelled\" , \"startDate\" : \"2020-07-21T19:00\" }"
+  },
+  {
+    "guide": "event",
+    "context": "Structured data type definitions",
+    "property": "EventPostponed",
+    "level": "建议",
+    "text": "EventPostponed The event has been postponed to a later date, but the date isn't known yet. Keep the\n              original date in the startDate of the event\n              until you know when the event will take place. Once you know the new date information,\n              change the eventStatus to EventRescheduled and update the startDate and endDate with the new date information. Don't remove or change other properties (for\n                example, don't remove the startDate or location );\n                instead, keep all values as the same as they were before the postponement, and\n                update the eventStatus to EventPostponed . Why? Properties like startDate and location help identify the unique event and\n                make sure people understand the new status of the event. { \"@context\" : \"https://schema.org\" , \"@type\" : \"Event\" , \"eventStatus\" : \"https://schema.org/EventPostponed\" , \"startDate\" : \"2020-07-21T19:00\" }"
+  },
+  {
+    "guide": "event",
+    "context": "Structured data type definitions",
+    "property": "EventRescheduled",
+    "level": "建议",
+    "text": "EventRescheduled The event has been rescheduled to a later date. Update the startDate and endDate with the relevant new dates. Optionally, you can also mark the eventStatus field as rescheduled and add the previousStartDate . { \"@context\" : \"https://schema.org\" , \"@type\" : \"Event\" , \"eventStatus\" : \"https://schema.org/EventRescheduled\" , \"startDate\" : \"2020-07-21T19:00\" , \"endDate\" : \"2025-07-21T23:00\" , \"previousStartDate\" : \"2025-03-21T19:00\" }"
+  },
+  {
+    "guide": "event",
+    "context": "Structured data type definitions",
+    "property": "EventScheduled",
+    "level": "建议",
+    "text": "EventScheduled The event is scheduled to happen. This value is the default status for events. If you\n              don't set eventStatus , Google understands the event to be happening on schedule. { \"@context\" : \"https://schema.org\" , \"@type\" : \"Event\" , \"eventStatus\" : \"https://schema.org/EventScheduled\" , \"startDate\" : \"2020-07-21T19:00\" }"
+  },
+  {
+    "guide": "event",
+    "context": "Structured data type definitions",
+    "property": "image",
+    "level": "建议",
+    "text": "image Repeated ImageObject or URL URL of an image or logo for the event or tour. Including an image helps users\n            understand and engage with your event. We recommend that images are 1920px wide\n            (the minimum width is 720px). Additional image guidelines: Image URLs must be crawlable and indexable. To check if Google can access your URLs, use\n      the URL Inspection tool . Images must represent the marked up content. Images must be in a file format that's supported by Google Images . For best results, we recommend providing multiple high-resolution images (minimum of 50K pixels when\n      multiplying width and height) with the following aspect ratios: 16x9, 4x3, and 1x1. For example: \"image\": [\n  \"https://example.com/photos/1x1/photo.jpg\",\n  \"https://example.com/photos/4x3/photo.jpg\",\n  \"https://example.com/photos/16x9/photo.jpg\"\n]"
+  },
+  {
+    "guide": "event",
+    "context": "Structured data type definitions",
+    "property": "location.name",
+    "level": "建议",
+    "text": "location.name Text The detailed name of the place or venue where the event is being held. This property\n            is only recommended for events that take place at a physical location. DO NOT put the title of the event in this field. Instead, use name to specify the name of the event. Not recommended : San Francisco, CA Recommended : Bill Graham Civic Auditorium Best practices : Don't include a city name unless it is a city-wide event. The location.name property must be the name of the venue or location, not a repeat of\n             the title of the event. If you don't know the name of the location, don't use this property."
+  },
+  {
+    "guide": "event",
+    "context": "Structured data type definitions",
+    "property": "offers",
+    "level": "建议",
+    "text": "offers Offer A nested Offer , one for each ticket\n          type."
+  },
+  {
+    "guide": "event",
+    "context": "Structured data type definitions",
+    "property": "offers.availability",
+    "level": "建议",
+    "text": "offers.availability Text One of the following: InStock : Event tickets are in stock. SoldOut : Event tickets are sold out. PreOrder : Event tickets are available for preorder. \"offers\" : { \"@type\" : \"Offer\" , \"availability\" : \"https://schema.org/InStock\" } Note: If the ticket is not yet on sale to the general public, you can\n            omit availability and specify validFrom ."
+  },
+  {
+    "guide": "event",
+    "context": "Structured data type definitions",
+    "property": "offers.price",
+    "level": "建议",
+    "text": "offers.price Number The lowest available price available for your tickets, including service charges and\n            fees. Don't forget to update it as prices change or tickets sell out. If the event is available without payment, fees, or service charges, set the price to 0 . \"offers\" : { \"@type\" : \"Offer\" , \"price\" : 30 }"
+  },
+  {
+    "guide": "event",
+    "context": "Structured data type definitions",
+    "property": "offers.priceCurrency",
+    "level": "建议",
+    "text": "offers.priceCurrency Text The 3-letter ISO 4217 currency code. \"offers\" : { \"@type\" : \"Offer\" , \"priceCurrency\" : \"USD\" }"
+  },
+  {
+    "guide": "event",
+    "context": "Structured data type definitions",
+    "property": "offers.validFrom",
+    "level": "建议",
+    "text": "offers.validFrom DateTime The date and time when tickets go on sale (only required on date-restricted offers), in ISO-8601 format . \"offers\" : { \"@type\" : \"Offer\" , \"validFrom\" : \"2024-05-21T12:00\" }"
+  },
+  {
+    "guide": "event",
+    "context": "Structured data type definitions",
+    "property": "offers.url",
+    "level": "建议",
+    "text": "offers.url URL The URL of a page providing the ability to buy tickets. \"offers\" : { \"@type\" : \"Offer\" , \"url\" : \"https://www.example.com/event_offer/12345_201803180430\" } This URL must meet the following requirements: Direct to a landing page that clearly and predominantly provides the opportunity to buy\n              a ticket offering admittance to that specific event to any user from the general\n              public. Be a link that a user could click the web page that contains the event. Be crawlable by Googlebot (not blocked by robots.txt)."
+  },
+  {
+    "guide": "event",
+    "context": "Structured data type definitions",
+    "property": "organizer",
+    "level": "建议",
+    "text": "organizer Organization or Person The person or organization that is hosting the event. If you include organizer ,\n            we encourage you to add the following properties: organizer.name organizer.url"
+  },
+  {
+    "guide": "event",
+    "context": "Structured data type definitions",
+    "property": "organizer.name",
+    "level": "建议",
+    "text": "organizer.name Text The name of the person or organization that's hosting the event."
+  },
+  {
+    "guide": "event",
+    "context": "Structured data type definitions",
+    "property": "organizer.url",
+    "level": "建议",
+    "text": "organizer.url URL The event host's domain URL."
+  },
+  {
+    "guide": "event",
+    "context": "Structured data type definitions",
+    "property": "performer",
+    "level": "建议",
+    "text": "performer Person The participants performing at the event, such as artists and comedians. Use a nested PerformingGroup or Person , one for each performer."
+  },
+  {
+    "guide": "event",
+    "context": "Structured data type definitions",
+    "property": "performer.name",
+    "level": "建议",
+    "text": "performer.name Text The name of the participant performing at the event, such as the name of the artist or\n            comedian. \"performer\" : { \"@type\" : \"PerformingGroup\" , \"name\" : \"Kira and Morrison\" }"
+  },
+  {
+    "guide": "event",
+    "context": "Structured data type definitions",
+    "property": "previousStartDate",
+    "level": "建议",
+    "text": "previousStartDate DateTime The previously scheduled start date for the event if an event has been rescheduled. If\n            you add previousStartDate , you must also add the eventStatus property and set the eventStatus to EventRescheduled . Don't use other event statuses. Make sure to follow the Date and time guidelines . For rescheduled events, the startDate property must only be used for the newly scheduled start date. In the (rare) case of an\n            event that has been postponed and rescheduled multiple times, this field may be repeated. { \"@context\" : \"https://schema.org\" , \"@type\" : \"Event\" , \"previousStartDate\" : [ \"2020-03-21T19:00-05:00\" , \"2020-03-20T19:00-05:00\" , \"2020-03-21T19:00-05:00\" ], \"eventStatus\" : \"https://schema.org/EventRescheduled\" , \"startDate\" : \"2020-07-21T19:00-05:00\" }"
+  },
+  {
+    "guide": "event",
+    "context": "Structured data type definitions",
+    "property": "EventCancelled",
+    "level": "见指南条件",
+    "text": "EventCancelled The event has been canceled. Don't remove or change other properties (for\n                example, don't remove startDate or location );\n                instead, keep all values as the same as they were before the cancelation, and\n                update the eventStatus to EventCancelled . Why? Properties like startDate and location help identify the unique event and\n                make sure people understand the new status of the event. { \"@context\" : \"https://schema.org\" , \"@type\" : \"Event\" , \"eventStatus\" : \"https://schema.org/EventCancelled\" , \"startDate\" : \"2020-07-21T19:00\" }"
+  },
+  {
+    "guide": "event",
+    "context": "Structured data type definitions",
+    "property": "EventPostponed",
+    "level": "见指南条件",
+    "text": "EventPostponed The event has been postponed to a later date, but the date isn't known yet. Keep the\n              original date in the startDate of the event\n              until you know when the event will take place. Once you know the new date information,\n              change the eventStatus to EventRescheduled and update the startDate and endDate with the new date information. Don't remove or change other properties (for\n                example, don't remove the startDate or location );\n                instead, keep all values as the same as they were before the postponement, and\n                update the eventStatus to EventPostponed . Why? Properties like startDate and location help identify the unique event and\n                make sure people understand the new status of the event. { \"@context\" : \"https://schema.org\" , \"@type\" : \"Event\" , \"eventStatus\" : \"https://schema.org/EventPostponed\" , \"startDate\" : \"2020-07-21T19:00\" }"
+  },
+  {
+    "guide": "event",
+    "context": "Structured data type definitions",
+    "property": "EventRescheduled",
+    "level": "见指南条件",
+    "text": "EventRescheduled The event has been rescheduled to a later date. Update the startDate and endDate with the relevant new dates. Optionally, you can also mark the eventStatus field as rescheduled and add the previousStartDate . { \"@context\" : \"https://schema.org\" , \"@type\" : \"Event\" , \"eventStatus\" : \"https://schema.org/EventRescheduled\" , \"startDate\" : \"2020-07-21T19:00\" , \"endDate\" : \"2025-07-21T23:00\" , \"previousStartDate\" : \"2025-03-21T19:00\" }"
+  },
+  {
+    "guide": "event",
+    "context": "Structured data type definitions",
+    "property": "EventScheduled",
+    "level": "见指南条件",
+    "text": "EventScheduled The event is scheduled to happen. This value is the default status for events. If you\n              don't set eventStatus , Google understands the event to be happening on schedule. { \"@context\" : \"https://schema.org\" , \"@type\" : \"Event\" , \"eventStatus\" : \"https://schema.org/EventScheduled\" , \"startDate\" : \"2020-07-21T19:00\" }"
+  },
+  {
+    "guide": "loyalty-program",
+    "context": "MemberProgram",
+    "property": "description",
+    "level": "必需",
+    "text": "description Text The description of the loyalty program, describing the primary benefits for members."
+  },
+  {
+    "guide": "loyalty-program",
+    "context": "MemberProgram",
+    "property": "hasTiers",
+    "level": "必需",
+    "text": "hasTiers Repeated MemberProgramTier Defines a tier under a loyalty program. A loyalty program must have at least one tier.\n                See the list of MemberProgramTier properties supported by Google."
+  },
+  {
+    "guide": "loyalty-program",
+    "context": "MemberProgram",
+    "property": "name",
+    "level": "必需",
+    "text": "name Text The name of the loyalty program."
+  },
+  {
+    "guide": "loyalty-program",
+    "context": "MemberProgram",
+    "property": "url",
+    "level": "建议",
+    "text": "url URL A URL of the web page where a shopper can sign up for this loyalty program.\n                Don't provide multiple URLs. If not provided, the URL of the page\n                containing the MemberProgram structured data will be assumed."
+  },
+  {
+    "guide": "loyalty-program",
+    "context": "MemberProgramTier",
+    "property": "hasTierBenefit",
+    "level": "必需",
+    "text": "hasTierBenefit Repeated TierBenefitEnumeration Benefit for members of this member tier. A member tier can have multiple benefits. The short names without the URL prefix\n                are also supported (for example TierBenefitLoyaltyPoints ). https://schema.org/TierBenefitLoyaltyPoints : The benefit is earning loyalty points. Also specify membershipPointsEarned . https://schema.org/TierBenefitLoyaltyPrice : The benefit is a member's only price."
+  },
+  {
+    "guide": "loyalty-program",
+    "context": "MemberProgramTier",
+    "property": "name",
+    "level": "必需",
+    "text": "name Text The name of the membership tier."
+  },
+  {
+    "guide": "loyalty-program",
+    "context": "MemberProgramTier",
+    "property": "hasTierRequirement",
+    "level": "建议",
+    "text": "hasTierRequirement CreditCard , or MonetaryAmount , or UnitPriceSpecification , or Text The requirement to join a member tier. If not specified, anyone can join the tier for free. For a non-free tier, specify\n              a value of the type representing the requirement to join the tier. https://schema.org/CreditCard : Specify the credit card that the user needs to sign up for to join the tier.\n                For example: \"hasTierRequirement\" : { \"@type\" : \"CreditCard\" , \"name\" : \"Capital Two cashback rewards platinum card\" } https://schema.org/MonetaryAmount : Specify the minimum amount of spending required to join the tier.\n                For example, for a $250 minimum spending, specify: \"hasTierRequirement\" : { \"@type\" : \"MonetaryAmount\" , \"value\" : 250 , \"currency\" : \"USD\" } https://schema.org/UnitPriceSpecification : Specify the periodic fee a consumer needs to pay for membership in the tier.\n                For example, for a 12 month membership, billed once a month at 9.99€, specify: \"hasTierRequirement\" : { \"@type\" : \"UnitPriceSpecification\" , \"price\" : 9.99 , \"priceCurrency\" : \"EUR\" , \"billingDuration\" : 12 , \"billingIncrement\" : 1 , \"unitCode\" : \"MON\" } https://schema.org/Text : Describe any other requirement to join the tier. For example: \"hasTierRequirement\": \"Purchase a share in our coop and volunteer a minimum of 1 day a month to keep operating costs low.\""
+  },
+  {
+    "guide": "loyalty-program",
+    "context": "MemberProgramTier",
+    "property": "membershipPointsEarned",
+    "level": "建议",
+    "text": "membershipPointsEarned QuantitativeValue The number of loyalty points earned by the consumer per currency unit spent when hasTierBenefit is equal to https://schema.org/TierBenefitLoyaltyPoints ."
+  },
+  {
+    "guide": "loyalty-program",
+    "context": "MemberProgramTier",
+    "property": "url",
+    "level": "建议",
+    "text": "url URL A URL of the web page where a shopper can sign up for this specific member tier.\n              Don't provide multiple URLs."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "Product",
+    "property": "name",
+    "level": "必需",
+    "text": "name Text The name of the product."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "Product",
+    "property": "image",
+    "level": "必需",
+    "text": "image Repeated ImageObject or URL The URL of a product photo. Pictures clearly showing the product (for example, against\n                a white background) are preferred. Additional image guidelines: Image URLs must be crawlable and indexable. To check if Google can access your URLs, use\n      the URL Inspection tool . Images must represent the marked up content. Images must be in a file format that's supported by Google Images . For best results, we recommend providing multiple high-resolution images (minimum of 50K pixels when\n      multiplying width and height) with the following aspect ratios: 16x9, 4x3, and 1x1. For example: \"image\": [\n  \"https://example.com/photos/1x1/photo.jpg\",\n  \"https://example.com/photos/4x3/photo.jpg\",\n  \"https://example.com/photos/16x9/photo.jpg\"\n]"
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "Product",
+    "property": "offers",
+    "level": "必需",
+    "text": "offers Offer A nested Offer to sell the product. Product snippets accept an Offer or AggregateOffer but merchant listings require an Offer as the merchant has to be the seller of the product in order to be eligible\n                for merchant listing experiences."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "Product",
+    "property": "aggregateRating",
+    "level": "建议",
+    "text": "aggregateRating AggregateRating A nested aggregateRating of the product. Follow the Review snippet guidelines and the list of required and recommended AggregateRating properties ."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "Product",
+    "property": "audience",
+    "level": "建议",
+    "text": "audience PeopleAudience Optional information about the suggested audience for the product, such as the\n                suggested gender and age group. Only the PeopleAudience type is supported.\n                See the list of PeopleAudience properties supported by Google."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "Product",
+    "property": "brand.name",
+    "level": "建议",
+    "text": "brand.name Text Include the brand of the product in the name property of the Brand type if known. Include at most one brand name."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "Product",
+    "property": "category",
+    "level": "建议",
+    "text": "category Text or CategoryCode Specifies the product's categories. This property can accept an array of values, mixing plain text strings and CategoryCode objects. Custom product types: Plain Text values represent your custom product category, similar to the product_type attribute in product feeds. We recommend keeping custom product types under the 750-character limit. Google Product Category (GPC): To specify a GPC, similar to the google_product_category attribute in product feeds, use the CategoryCode type. Set @type to CategoryCode . Set inCodeSet to a Google Product Taxonomy URL (for example, \"https://www.google.com/basepages/producttype/taxonomy-with-ids.en-US.txt\" ). Set codeValue to the GPC ID (for example, \"2271\" ) or the full category path (for example, \"Apparel & Accessories > Clothing > Dresses\" ). When using the path format, use > as the separator between levels. Each segment in the path must contain at least one letter. Numeric IDs are also accepted. You can provide multiple category values. For example, you can include several GPC codes or paths and several custom product type strings. \"category\" : [ { \"@type\" : \"CategoryCode\" , \"inCodeSet\" : \"https://www.google.com/basepages/producttype/taxonomy-with-ids.en-US.txt\" , \"codeValue\" : \"2271\" }, { \"@type\" : \"CategoryCode\" , \"inCodeSet\" : \"https://www.google.com/basepages/producttype/taxonomy-with-ids.en-US.txt\" , \"codeValue\" : \"Apparel & Accessories > Clothing > Dresses\" }, \"Dresses\" , \"Special Occasion > Wedding & Bridal Party Dresses\" ]"
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "Product",
+    "property": "color",
+    "level": "建议",
+    "text": "color Text The color or color combination of the product (for example, \"red\" or \"yellow/sky blue\").\n                See also the Color attribute in Google Merchant Center Help."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "Product",
+    "property": "description",
+    "level": "建议",
+    "text": "description Text The product description. While the product description is not mandatory, it is strongly recommended to\n                provide a description of the product in this property."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "Product",
+    "property": "gtin | gtin8 | gtin12 | gtin13 | gtin14 | isbn",
+    "level": "建议",
+    "text": "gtin | gtin8 | gtin12 | gtin13 | gtin14 | isbn Text Include all applicable global identifiers; these are described at schema.org/Product .\n                While you can use the generic gtin property for all GTINs, we recommend that you\n                use the most specific GTIN that applies to your product, as this is the most accurate\n                representation of the product. Make sure the GTIN value is in the numerical form; we don't\n                support the URL form for GTINs. isbn is only a valid property on Book . For\n              best results, use ISBN-13 format. To use Book correctly, co-type with the Product . This will let you\n              use properties of both types on the node. For example: { \"@context\" : \"https://schema.org\" , \"@type\" : [ \"Product\" , \"Book\" ], ... }"
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "Product",
+    "property": "hasAdultConsideration",
+    "level": "建议",
+    "text": "hasAdultConsideration AdultOrientedEnumeration Indicates that the product is designated as adult-oriented for example, because it\n              contains nudity or sexual content. If you sell products that are considered adult-oriented according to Google's adult-oriented content policy ,\n              you must use this property to label them as adult-oriented. While these products\n              are eligible to be shown in Shopping ads and free listings, they are subject to age- and\n              country-based restrictions. Labelling them ensures that Google can apply these\n              restrictions and show appropriate and legally compliant content to people shopping online.\n              While schema.org defines multiple values for AdultOrientedEnumeration ,\n              Google Search only supports the value https://schema.org/SexualContentConsideration for this property."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "Product",
+    "property": "hasCertification",
+    "level": "建议",
+    "text": "hasCertification Certification Certifications, such as energy efficiency ratings, associated with a product. Up to\n              10 certifications can be specified. This property is particularly relevant in\n              European countries. See also the list of Certification properties supported by Google. Backwards compatibility : Upon the initial launch of merchant listing, we recommended\n                  the hasEnergyConsumptionDetails property. While we continue to support the\n                  earlier markup pattern, we recommend using the new hasCertification property\n                  instead, if possible, with the required Certification properties supported by Google. Here's an example that shows the original markup style: \"hasEnergyConsumptionDetails\": { \"@type\": \"EnergyConsumptionDetails\", \"hasEnergyEfficiencyCategory\": \"https://schema.org/EUEnergyEfficiencyCategoryC\",\n  \"energyEfficiencyScaleMin\": \"https://schema.org/EUEnergyEfficiencyCategoryF\",\n  \"energyEfficiencyScaleMax\": \"https://schema.org/EUEnergyEfficiencyCategoryA1Plus\"\n}"
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "Product",
+    "property": "inProductGroupWithID",
+    "level": "建议",
+    "text": "inProductGroupWithID Text The ID of a product group that this product variant belongs to. See also Item Group Id in Google Merchant Center Help. Specify at most one value. For details on how to add markup for product variants, refer to product variant structured data documentation ."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "Product",
+    "property": "isVariantOf",
+    "level": "建议",
+    "text": "isVariantOf ProductGroup A product group that this product variant belongs to, if applicable. For details on\n                how to add markup for product variants, refer to product variant structured data documentation ."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "Product",
+    "property": "material",
+    "level": "建议",
+    "text": "material Text The material or material combination the product is made from, such as \"Leather\"\n                or \"Cotton/Polyester\". See also Material in Google Merchant Center help."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "Product",
+    "property": "mpn",
+    "level": "建议",
+    "text": "mpn Text The manufacturer part number. This property uniquely identifies the product\n                for a given manufacturer."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "Product",
+    "property": "pattern",
+    "level": "建议",
+    "text": "pattern Text The pattern of the product, such as \"polka dots\" or \"striped\". See also Pattern on the Google Merchant Center Product Data Specification page."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "Product",
+    "property": "review",
+    "level": "建议",
+    "text": "review Review A nested Review of the product. Follow the Review snippet\n                  guidelines and the list of required and recommended review properties .\n                See also the list of additional Review properties specific to the Product schema.org type. If you add a review for the product, the reviewer's name must be a valid name for a Person or Team . Not recommended : 50% off on Black Friday Recommended : \"James Smith\" or \"CNET Reviewers\""
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "Product",
+    "property": "size",
+    "level": "建议",
+    "text": "size Text or SizeSpecification The size of the product, such as \"XL\" or \"medium\". See also size in the Google Merchant Center Product Data Specification page .\n                See the list of SizeSpecification properties supported by Google. Specify at most one value."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "Product",
+    "property": "sku",
+    "level": "建议",
+    "text": "sku Text The merchant-specific identifier for the product. Specify at most one value. The sku value must use unicode characters that are valid for interchange. The sku value must not contain any whitespace characters (as defined by\n                  the Unicode whitespace property ). We recommend that the sku value only contain ASCII characters."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "Product",
+    "property": "subjectOf",
+    "level": "建议",
+    "text": "subjectOf 3DModel A 3D model for the product, if applicable. See the list of 3DModel properties properties supported by Google. Specify at most one 3DModel value."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "3DModel",
+    "property": "encoding",
+    "level": "必需",
+    "text": "encoding MediaObject The media for the 3D model."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "3DModel",
+    "property": "encoding.contentUrl",
+    "level": "必需",
+    "text": "encoding.contentUrl URL The link to a 3D model definition file in glTF format. The file must have a .gltf or .glb suffix."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "Offer",
+    "property": "price",
+    "level": "必需",
+    "text": "price or priceSpecification.price Number The current, active offer price of a product. Follow the schema.org usage\n              guidelines . Here's an example of the price property: \"offers\" : { \"@type\" : \"Offer\" , \"price\" : 39.99 , \"priceCurrency\" : \"USD\" } Unlike product snippets, merchant listing experiences require a price greater than zero. The active price is required but may be nested inside a priceSpecification property instead of being provided at the Offer level. If you use both the offers.price and offers.priceSpecification properties to encode an active price, Google will use the price provided through\n      the offers.price property and ignore the offers.priceSpecification property."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "Offer",
+    "property": "priceCurrency",
+    "level": "必需",
+    "text": "priceCurrency or priceSpecification.priceCurrency Text The currency used to describe the product price, in three-letter ISO 4217 format. priceCurrency is required if price is specified, otherwise priceSpecification.priceCurrency is required if priceSpecification.price is specified."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "Offer",
+    "property": "priceSpecification",
+    "level": "必需",
+    "text": "priceSpecification UnitPriceSpecification The active price can also be specified using price and priceCurrency inside a priceSpecification property. If you use both the offers.price and offers.priceSpecification properties to encode an active price, Google will use the price provided through\n      the offers.price property and ignore the offers.priceSpecification property. The priceSpecification property allows the specification of complex prices\n            by using UnitPriceSpecification objects. See the list of supported UnitPriceSpecification properties and the pricing examples of how to mark up\n            various kinds of prices."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "Offer",
+    "property": "availability",
+    "level": "建议",
+    "text": "availability ItemAvailability The possible product availability options. The short names without the URL prefix\n            are also supported (for example BackOrder ). https://schema.org/BackOrder : The item is on back order. https://schema.org/Discontinued : The item has been discontinued. https://schema.org/InStock : The item is in stock. https://schema.org/InStoreOnly : The item is only available for purchase in store. https://schema.org/LimitedAvailability : The item has limited availability. https://schema.org/OnlineOnly : The item is available online only. https://schema.org/OutOfStock : The item is currently out of stock. https://schema.org/PreOrder : The item is available for pre-order. https://schema.org/PreSale : The item is available for ordering and delivery before general availability. https://schema.org/SoldOut : The item has been sold out. Don't specify more than one value."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "Offer",
+    "property": "hasMerchantReturnPolicy",
+    "level": "建议",
+    "text": "hasMerchantReturnPolicy MerchantReturnPolicy Nested information about the return policies associated with an Offer .\n            Add the required and recommended MerchantReturnPolicy properties for individual offers. We recommend you provide a global return policy for your business under Organization markup instead,\n            as documented under the Organization documentation and\n            the Merchant return policy documentation .\n            Only if some of your products have specific return policies for which you need to override your\n            global return policy, or if you don't provide standard return policy for your business, use\n            this property under Offer . Note that the\n            properties supported for offer-level return policies are a subset of the properties\n            supported for organization-level return policies.\n            To unambiguously reference your global return policy (located on a different page) from an Offer ,\n            using only the @id keyword. For example: { \"@context\" : \"https://schema.org\" , \"@type\" : \"Offer\" , \"hasMerchantReturnPolicy\" : { \"@id\" : \"https://example.com/returns#policy\" } }"
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "Offer",
+    "property": "itemCondition",
+    "level": "建议",
+    "text": "itemCondition OfferItemCondition Condition of the item offered for sale. The short names without the URL prefix\n            are also supported (for example NewCondition ). https://schema.org/NewCondition : The item is new. https://schema.org/RefurbishedCondition : The item has been refurbished. https://schema.org/UsedCondition : The item is used (it is not new). Don't specify more than one value."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "Offer",
+    "property": "priceValidUntil",
+    "level": "建议",
+    "text": "priceValidUntil Date The date and time after which the price will no longer be available, in ISO 8601 format. Your listing may not display if the priceValidUntil property indicates a past date. For details and markup examples, see Sale duration ."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "Offer",
+    "property": "shippingDetails",
+    "level": "建议",
+    "text": "shippingDetails OfferShippingDetails Nested information about the shipping policy associated with an Offer . If you decide to add shippingDetails , add\n            the required and recommended OfferShippingDetails properties . We recommend you provide a global shipping policy for your business under Organization markup instead,\n            as documented under the Organization documentation and\n            the Merchant shipping policy documentation .\n            Only if some of your products have specific shipping policies for which you need to override your\n            global shipping policy, or if you don't provide a standard shipping policy for your business, use\n            this property under Offer . Note that the\n            properties supported for offer-level shipping policies are a subset of the properties\n            supported for organization-level shipping policies.\n            To unambiguously reference your global shipping policy (located on a different page) from an Offer , use only\n            the hasShippingService property under the OfferShippingDetails type\n            using only the @id keyword. For example: { \"@context\" : \"https://schema.org\" , \"@type\" : \"Offer\" , \"shippingDetails\" : { \"@type\" : \"OfferShippingDetails\" , \"hasShippingService\" : { \"@id\" : \"https://example.com/shipping#policy\" } } }"
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "Offer",
+    "property": "url",
+    "level": "建议",
+    "text": "url URL A URL of the product web page from which a shopper can purchase the product.\n            This URL may be the preferred URL for the current page with all variant options\n            appropriately selected. The URL can be omitted. Don't provide multiple URLs. For details on how to add markup for product variants, refer to product variant structured data documentation ."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "Offer",
+    "property": "validFrom",
+    "level": "建议",
+    "text": "validFrom DateTime or Date The start date and time when the price is valid, in ISO 8601 format. For details and markup examples, see Sale duration ."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "Offer",
+    "property": "validThrough",
+    "level": "建议",
+    "text": "validThrough DateTime or Date The end date and time when the price is valid, in ISO 8601 format. For details and markup examples, see Sale duration ."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "UnitPriceSpecification",
+    "property": "price",
+    "level": "必需",
+    "text": "price Number The offer price of a product. See also the price property of Offer ."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "UnitPriceSpecification",
+    "property": "priceCurrency",
+    "level": "必需",
+    "text": "priceCurrency Text The currency used to describe the product price, in three-letter ISO 4217 format.\n                See also the priceCurrency property of Offer ."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "UnitPriceSpecification",
+    "property": "membershipPointsEarned",
+    "level": "建议",
+    "text": "membershipPointsEarned Number Beta : This property is in beta, and you may not see an\n                effect in Google Search right away. The (whole) number of points that members of a particular loyalty program earn with\n              this purchase. Use this property only together with validForMemberTier .\n              See the fourth example in member price examples and the article Loyalty program in Google Merchant Center Help. Refer to loyalty program markup for\n                information on how to define member programs and tiers for your organization."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "UnitPriceSpecification",
+    "property": "priceType",
+    "level": "建议",
+    "text": "priceType PriceTypeEnumeration The presence of this property marks the full, original listing price of a product,\n                if applicable. Only use this property if you want Google to show sale pricing for\n                your product. You must set the priceType to\n                the https://schema.org/StrikethroughPrice value (no other values are\n                supported). If you use the priceType property to designate a list price,\n                you must also provide a current sale price with the price or priceSpecification property on\n                the Offer object. Don't mark the current sale price with\n                the priceType property. See the sale\n                price examples ."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "UnitPriceSpecification",
+    "property": "referenceQuantity",
+    "level": "建议",
+    "text": "referenceQuantity QuantitativeValue (for unit pricing) The quantity of the product offered for the given price. See the\n              example Pricing with unit pricing measures and the\n              article Unit pricing measure in Google Merchant Center Help for a\n              detailed discussion of unit pricing."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "UnitPriceSpecification",
+    "property": "validForMemberTier",
+    "level": "建议",
+    "text": "validForMemberTier MemberProgramTier The presence of this property indicates that this price is valid for members of a\n                particular loyalty program. You can specify multiple member tiers if\n                the price is the same for them and multiple price specifications with this property\n                if the price is different for different member tiers. If you use the validForMemberTier property to designate a member price,\n                you must also provide a current regular price with\n                the price or priceSpecification property on\n                the Offer object. See the member price\n                examples . The loyalty programs and tiers that you offer for your business should either be\n                  defined in your Merchant Center account or using the MemberProgram structured\n                  data type nested under Organization structured data on a separate page\n                  that defines your Organization's administrative details and policies. See loyalty program markup for\n                  information on how to define the member programs and tiers for your organization. Here's an example of the validForMemberTier property referencing a member\n                program and tier defined in Merchant Center: \"validForMemberTier\" : { \"@type\" : \"MemberProgramTier\" , \"name\" : \"silver\" , \"isTierOf\" : { \"@type\" : \"MemberProgram\" , \"name\" : \"member-plus\" } } Here's an example of the validForMemberTier property referencing MemberProgramTier structured data nested under MemberProgram structured data, which is in turn nested under a Organization structured\n              data type on a separate page. The MemberProgramTier instance is\n              identified by the @id property specifying the unique resource identifier (URI) of its definition: https://www.example.com/com/member-plus#tier_silver : \"validForMemberTier\" : { \"@type\" : \"MemberProgramTier\" , \"@id\" : \"https://www.example.com/com/member-plus#tier_silver\" } This property is still in Beta. Off-page MemberProgramTier structured data might not show up in Google Search right away."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "UnitPriceSpecification",
+    "property": "validFrom",
+    "level": "建议",
+    "text": "validFrom DateTime or Date The start date and time when the price is valid, in ISO 8601 format. For details and markup examples, see Sale duration ."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "UnitPriceSpecification",
+    "property": "validThrough",
+    "level": "建议",
+    "text": "validThrough DateTime or Date The end date and time when the price is valid, in ISO 8601 format. For details and markup examples, see Sale duration ."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "QuantitativeValue (for unit pricing)",
+    "property": "unitCode",
+    "level": "必需",
+    "text": "unitCode Text or URL The unit of measurement. Either the UN/CEFACT codes or their human-readable\n                equivalents as listed in Google Merchant Center Help Unit pricing measure are supported (except sheet and item ; these two codes are\n                only supported by Merchant Center feeds)."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "QuantitativeValue (for unit pricing)",
+    "property": "value",
+    "level": "必需",
+    "text": "value Text The numeric value of the unit sold."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "QuantitativeValue (for unit pricing)",
+    "property": "valueReference",
+    "level": "建议",
+    "text": "valueReference QuantitativeValue The base quantity in which the product is priced."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "SizeSpecification",
+    "property": "name",
+    "level": "建议",
+    "text": "name Text A human readable name for the size, such as \"XL\" . See the size attribute in Google Merchant Center Help for more details."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "SizeSpecification",
+    "property": "sizeGroup",
+    "level": "建议",
+    "text": "sizeGroup WearableSizeGroupEnumeration or Text The suggested size group for the product, if applicable. The interpretation of\n                the group is defined by the sizeGroup property.\n                At most two size groups can be provided. Supported values are: https://schema.org/WearableSizeGroupRegular : The item size is \"regular\". https://schema.org/WearableSizeGroupPetite : The item size is \"petite\". https://schema.org/WearableSizeGroupPlus : The item size is \"plus\". https://schema.org/WearableSizeGroupTall : The item size is \"tall\". https://schema.org/WearableSizeGroupBig : The item size is \"big\". https://schema.org/WearableSizeGroupMaternity : The item size is \"maternity\". The short names without the URL prefix are also supported (for example, WearableSizeGroupRegular ). See also size_type in Google Merchant Center Help and Supported structured data types and values in Google Merchant Center Help for more information about supported size systems.\n                Google understands the text values for size_type as well\n                ( regular , petite , plus , tall , big , and maternity ), but other search engines may not,\n                so it is recommended to use the standard schema.org enumeration values."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "SizeSpecification",
+    "property": "sizeSystem",
+    "level": "建议",
+    "text": "sizeSystem WearableSizeSystemEnumeration or Text The size system for the product, if applicable. Supported values are: https://schema.org/WearableSizeSystemAU : The size system in Australia. https://schema.org/WearableSizeSystemBR : The size system in Brazil. https://schema.org/WearableSizeSystemCN : The size system in China. https://schema.org/WearableSizeSystemDE : The size system in Germany. https://schema.org/WearableSizeSystemEurope : The size system in Europe. https://schema.org/WearableSizeSystemFR : The size system in France. https://schema.org/WearableSizeSystemIT : The size system in Italy. https://schema.org/WearableSizeSystemJP : The size system in Japan. https://schema.org/WearableSizeSystemMX : The size system in Mexico. https://schema.org/WearableSizeSystemUK : The size system in the United Kingdom. https://schema.org/WearableSizeSystemUS : The size system in the United States. The short names without the URL prefix are also supported (for example, WearableSizeSystemAU ). See also size_system in Google Merchant Center Help.\n                Google understands the text values for size_system as well\n                (for example, UR , BR , CN , DE , EU ), but other search engines may not,\n                so it is recommended to use the standard schema.org enumeration values."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "PeopleAudience",
+    "property": "suggestedGender",
+    "level": "建议",
+    "text": "suggestedGender Text or GenderType The suggested gender the product is suitable for. Must be one of the following values: https://schema.org/Male https://schema.org/Female Unisex : This (case-insensitive) value is not in the schema.org standard and must not have a https://schema.org/ prefix. See Gender in\n                Google Merchant Center Help for more details. Note that Google will complete GenderType values without schema.org prefix,\n                therefore raw male and female values are also accepted."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "PeopleAudience",
+    "property": "suggestedMaxAge",
+    "level": "建议",
+    "text": "suggestedMaxAge (or suggestedAge.maxValue ) Number The suggested maximum age for the product, in years. Google maps the maximum\n                suggested ages for products onto the following fixed set of numerical values: 0.25 : For newborns 1.0 : For infants 5.0 : For toddlers 13.0 : For kids For adults, you don't need to provide the suggestedMaxAge (or suggestedAge.maxValue )\n                property."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "PeopleAudience",
+    "property": "suggestedMinAge",
+    "level": "建议",
+    "text": "suggestedMinAge (or suggestedAge.minValue ) Number The suggested minimum age for the product, in years. Google maps the minimum suggested ages for\n                products onto the following fixed set of numerical values: 0 : For newborns 0.25 : For infants 1.0 : For toddlers 5.0 : For kids 13.0 : For adults"
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "Certification",
+    "property": "issuedBy",
+    "level": "必需",
+    "text": "issuedBy Organization The authority or certification body responsible for issuing the certification. Use the property name to specify the organization. At this time, we support the following names: EC or European_Commission for energy labels in the EU ADEME for French CO2 emissions classes for vehicles BMWK for German CO2 emissions classes for vehicles"
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "Certification",
+    "property": "certificationIdentification",
+    "level": "建议",
+    "text": "certificationIdentification Text The code of the certification. For example, for the EPREL certificate with the link https://example.com/product/dishwashers2019/123456 the code is 123456. The code is required for European Energy Labels. If you're a merchant serving customers in NO, CH, or the UK and\n                you don't have EPREL codes, you can use the certificationRating property instead of the certificationIdentification property."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "Certification",
+    "property": "certificationRating",
+    "level": "建议",
+    "text": "certificationRating Rating The value of the certification. This property is ignored for certifications that\n                have the certificationIdentification property (for example, an EPREL\n                code). You can use the certificationRating property to provide the CO2\n                Emissions class that's required when listing vehicles in certain countries, or the\n                energy efficiency rating when an EPREL code is not available. The following\n                properties can be nested in the certificationRating property: ratingValue bestRating worstRating The ratingValue property is required when the certificationRating property is used. For EU energy efficiency ratings, the bestRating and worstRating properties are also required. Here's an example of the certificationRating property with nested\n                properties that specify an EU energy efficiency rating: hasCertification \": { \" @ type \": \" Certification \", \" issuedBy \": { \" @ type \": \" Organization \", \" name \": \" European_Commission \" } \" name \": \" EPREL \", \" url \": \" https : //eprel.ec.europa.eu/screen/product/ovens/53553\", \"certificationIdentification\" : \"53553\" , \"certificationRating\" : { \"@type\" : \"Rating\" , \"ratingValue\" : \"A+\" , \"bestRating\" : \"A++\" , \"worstRating\" : \"D\" } } Here's an example of the certificationRating property with nested\n                properties that specify a CO2 emissions class: \"hasCertification\" : { \"@type\" : \"Certification\" , \"issuedBy\" : { \"@type\" : \"Organization\" , \"name\" : \"ADEME\" } \"name\" : \"Vehicle_CO2_Class\" , \"certificationRating\" : { \"@type\" : \"Rating\" , \"ratingValue\" : \"E\" , \"bestRating\" : \"A\" , \"worstRating\" : \"G\" } }"
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "OfferShippingDetails",
+    "property": "deliveryTime",
+    "level": "必需",
+    "text": "deliveryTime ShippingDeliveryTime The total delay between the receipt of the order and the goods reaching the final\n                customer. The following properties can be nested in the deliveryTime property: handlingTime transitTime Don't provide more than one deliveryTime .\n                See also the list of ShippingDeliveryTime properties supported by Google."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "OfferShippingDetails",
+    "property": "shippingDestination",
+    "level": "必需",
+    "text": "shippingDestination DefinedRegion Indicates shipping destinations. Specify the shippingDestination.addressCountry information.\n                See also the list of DefinedRegion properties supported by Google."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "OfferShippingDetails",
+    "property": "shippingRate",
+    "level": "必需",
+    "text": "shippingRate MonetaryAmount Information about the cost of shipping to the specified destination.\n                At least one of shippingRate.value or shippingRate.maxValue must be specified, along with shippingRate.currency . You can only specify one shippingRate per OfferShippingDetails property. To indicate multiple rates for your product, specify multiple OfferShippingDetail properties."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "OfferShippingDetails",
+    "property": "shippingRate.currency",
+    "level": "必需",
+    "text": "shippingRate.currency Text The currency of the shipping cost, in 3-letter ISO 4217 format.\n                The currency must be the same as the currency of the offer."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "OfferShippingDetails",
+    "property": "shippingRate.value",
+    "level": "必需",
+    "text": "shippingRate.value or shippingRate.maxValue Number The cost of shipping to the shippingDestination .\n                If a string is used to provide the value, don't\n                include currency symbols, thousands separators, or spaces. To specify free shipping, set the value to 0 ."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "DefinedRegion",
+    "property": "addressCountry",
+    "level": "必需",
+    "text": "addressCountry Text The two-letter country code, in ISO 3166-1 alpha-2 format."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "DefinedRegion",
+    "property": "addressRegion",
+    "level": "建议",
+    "text": "Choose either addressRegion or postalCode Identifies the region for the customer delivery area. If omitted,\n                the whole country is the defined region. Multiple regions can be listed,\n                but you cannot mix different ways of specifying the regions in one DefinedRegion instance."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "DefinedRegion",
+    "property": "addressRegion",
+    "level": "建议",
+    "text": "addressRegion Text If you include this property, the region must be a 2- or 3-digit ISO 3166-2\n                subdivision code, without country prefix. Currently, Google Search only supports\n                the US, Australia, and Japan. Examples: \"NY\" (for US, state of New York),\n                \"NSW\" (for Australia, state of New South Wales), or \"03\" (for Japan,\n                Iwate prefecture). Do not provide both a region and postal code information."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "DefinedRegion",
+    "property": "postalCode",
+    "level": "建议",
+    "text": "postalCode Text The postal code. For example, 94043. Currently postal codes are supported for\n                Australia, Canada, and the US."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "ShippingDeliveryTime",
+    "property": "handlingTime",
+    "level": "建议",
+    "text": "handlingTime QuantitativeValue (for shipping times) The typical delay between the receipt of the order and the goods leaving the\n                warehouse."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "ShippingDeliveryTime",
+    "property": "transitTime",
+    "level": "建议",
+    "text": "transitTime QuantitativeValue (for shipping times) The typical delay between when the order has been sent for delivery and when\n                the goods reach the final customer."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "QuantitativeValue (for shipping times)",
+    "property": "maxValue",
+    "level": "必需",
+    "text": "maxValue Number The maximum number of days. The value must be a non-negative, whole number."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "QuantitativeValue (for shipping times)",
+    "property": "minValue",
+    "level": "必需",
+    "text": "minValue Number The minimum number of days. The value must be a non-negative, whole number."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "QuantitativeValue (for shipping times)",
+    "property": "unitCode",
+    "level": "必需",
+    "text": "unitCode Text The units of the minimum/maximum values. The value must be DAY or d ."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "MerchantReturnPolicy",
+    "property": "applicableCountry",
+    "level": "必需",
+    "text": "applicableCountry Text The country code that the return policy applies to, using the two-letter ISO 3166-1 alpha-2 country code formatting. You can specify up to 50 countries."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "MerchantReturnPolicy",
+    "property": "returnPolicyCategory",
+    "level": "必需",
+    "text": "returnPolicyCategory MerchantReturnEnumeration The type of return policy. Use one of the following values: https://schema.org/MerchantReturnFiniteReturnWindow : There's a set number of days to return a product. https://schema.org/MerchantReturnNotPermitted : Returns aren't permitted. https://schema.org/MerchantReturnUnlimitedWindow : There's an unlimited amount of time to return a product. If you use MerchantReturnFiniteReturnWindow , the merchantReturnDays property is required."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "MerchantReturnPolicy",
+    "property": "merchantReturnDays",
+    "level": "建议",
+    "text": "merchantReturnDays Integer The number of days from the delivery date that a product can be returned. This\n                      property is required if you set the returnPolicyCategory to MerchantReturnFiniteReturnWindow ."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "MerchantReturnPolicy",
+    "property": "returnFees",
+    "level": "建议",
+    "text": "returnFees ReturnFeesEnumeration The type of return fees. Use one of the following supported values: https://schema.org/FreeReturn : There's no charge to the consumer to\n                        return the product. If used, don't include the returnShippingFeesAmount property. https://schema.org/ReturnFeesCustomerResponsibility : The consumer\n                        needs to handle and pay for the return shipping themselves. If used, don't include\n                        the returnShippingFeesAmount property. https://schema.org/ReturnShippingFees : There's a shipping fee\n                        charged by the merchant to the consumer to return the product. Specify the\n                        (non-zero) shipping fee using the returnShippingFeesAmount property."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "MerchantReturnPolicy",
+    "property": "returnMethod",
+    "level": "建议",
+    "text": "returnMethod ReturnMethodEnumeration The type of return method offered. This is only recommended if you set the returnPolicyCategory to either MerchantReturnFiniteReturnWindow or MerchantReturnUnlimitedWindow . Use one or more of the following values: https://schema.org/ReturnAtKiosk : The item can be returned at a kiosk. https://schema.org/ReturnByMail : The item can be returned by mail. https://schema.org/ReturnInStore : The item can be returned in a store."
+  },
+  {
+    "guide": "merchant-listing",
+    "context": "MerchantReturnPolicy",
+    "property": "returnShippingFeesAmount",
+    "level": "建议",
+    "text": "returnShippingFeesAmount MonetaryAmount The cost of shipping for returning a product. This property is only required if there's a\n                       non-zero shipping fee to be paid by the consumer to the merchant to return a product, in which case returnFees must be set to https://schema.org/ReturnShippingFees .\n                       If the return is free, returnFees must be set to https://schema.org/FreeReturn .\n                       If the consumer needs to handle, and pay for, the return shipping cost, returnFees must be set to https://schema.org/ReturnFeesCustomerResponsibility ."
+  },
+  {
+    "guide": "organization",
+    "context": "Structured data type definitions",
+    "property": "address",
+    "level": "建议",
+    "text": "address PostalAddress The address (physical or mailing) of your organization, if applicable. Include all properties that apply to your country. The more\n        properties you provide, the higher quality the result is for users.\n        You can provide multiple addresses if you have a location in multiple cities, states, or countries.\n        For example: \"address\" : [{ \"@type\" : \"PostalAddress\" , \"streetAddress\" : \"999 W Example St Suite 99 Unit 9\" , \"addressLocality\" : \"New York\" , \"addressRegion\" : \"NY\" , \"postalCode\" : \"10019\" , \"addressCountry\" : \"US\" },{ \"streetAddress\" : \"999 Rue due exemple\" , \"addressLocality\" : \"Paris\" , \"postalCode\" : \"75001\" , \"addressCountry\" : \"FR\" }]"
+  },
+  {
+    "guide": "organization",
+    "context": "Structured data type definitions",
+    "property": "address.addressCountry",
+    "level": "建议",
+    "text": "address.addressCountry Text The country for your postal address, using the two-letter ISO 3166-1 alpha-2 country code."
+  },
+  {
+    "guide": "organization",
+    "context": "Structured data type definitions",
+    "property": "address.addressLocality",
+    "level": "建议",
+    "text": "address.addressLocality Text The city of your postal address."
+  },
+  {
+    "guide": "organization",
+    "context": "Structured data type definitions",
+    "property": "address.addressRegion",
+    "level": "建议",
+    "text": "address.addressRegion Text The region of your postal address, if applicable. For example, a state."
+  },
+  {
+    "guide": "organization",
+    "context": "Structured data type definitions",
+    "property": "address.postalCode",
+    "level": "建议",
+    "text": "address.postalCode Text The postal code for your address."
+  },
+  {
+    "guide": "organization",
+    "context": "Structured data type definitions",
+    "property": "address.streetAddress",
+    "level": "建议",
+    "text": "address.streetAddress Text The full street address of your postal address."
+  },
+  {
+    "guide": "organization",
+    "context": "Structured data type definitions",
+    "property": "alternateName",
+    "level": "建议",
+    "text": "alternateName Text Another common name that your organization goes by, if applicable."
+  },
+  {
+    "guide": "organization",
+    "context": "Structured data type definitions",
+    "property": "contactPoint",
+    "level": "建议",
+    "text": "contactPoint ContactPoint The best way for a user to contact your business, if applicable. Include all support methods available to your users\n        following Google recommended best practices . For example: \"contactPoint\" : { \"@type\" : \"ContactPoint\" , \"telephone\" : \"+9-999-999-9999\" , \"email\" : \"contact@example.com\" }"
+  },
+  {
+    "guide": "organization",
+    "context": "Structured data type definitions",
+    "property": "contactPoint.email",
+    "level": "建议",
+    "text": "contactPoint.email Text The email address to contact your business, if applicable.\n        If you are using a LocalBusiness type, specify a primary email address at\n        the LocalBusiness level before using contactPoint to specify\n        multiple ways to reach your organization."
+  },
+  {
+    "guide": "organization",
+    "context": "Structured data type definitions",
+    "property": "contactPoint.telephone",
+    "level": "建议",
+    "text": "contactPoint.telephone Text The phone number to contact your business, if applicable.\n        Be sure to include the country code and area code in the phone number.\n        If you are using a LocalBusiness type, specify a primary phone number at\n        the LocalBusiness level before using contactPoint to specify\n        multiple ways to reach your organization."
+  },
+  {
+    "guide": "organization",
+    "context": "Structured data type definitions",
+    "property": "description",
+    "level": "建议",
+    "text": "description Text A detailed description of your organization, if applicable."
+  },
+  {
+    "guide": "organization",
+    "context": "Structured data type definitions",
+    "property": "duns",
+    "level": "建议",
+    "text": "duns Text The Dun & Bradstreet DUNS number for identifying your Organization , if\n        applicable. We encourage using the iso6523Code field with prefix 0060: instead."
+  },
+  {
+    "guide": "organization",
+    "context": "Structured data type definitions",
+    "property": "email",
+    "level": "建议",
+    "text": "email Text The email address to contact your business, if applicable."
+  },
+  {
+    "guide": "organization",
+    "context": "Structured data type definitions",
+    "property": "foundingDate",
+    "level": "建议",
+    "text": "foundingDate Date The date your Organization was founded in ISO 8601 date format , if applicable."
+  },
+  {
+    "guide": "organization",
+    "context": "Structured data type definitions",
+    "property": "globalLocationNumber",
+    "level": "建议",
+    "text": "globalLocationNumber Text The GS1 Global Location Number identifying the location of your Organization ,\n        if applicable."
+  },
+  {
+    "guide": "organization",
+    "context": "Structured data type definitions",
+    "property": "hasMerchantReturnPolicy",
+    "level": "建议",
+    "text": "hasMerchantReturnPolicy Repeated MerchantReturnPolicy The return policy of your Organization , if applicable. See Merchant return policy markup for detailed information on required and optional properties for MerchantReturnPolicy . If you don't provide a return policy for your Organization , or if some of your\n            products have specific return policies for which you need to override the return\n            policies defined for your Organization , use this property also under merchant listing markup ."
+  },
+  {
+    "guide": "organization",
+    "context": "Structured data type definitions",
+    "property": "hasMemberProgram",
+    "level": "建议",
+    "text": "hasMemberProgram Repeated MemberProgram A member (loyalty) program that you provide, if applicable.\n         See Member program markup for detailed information on required and optional properties for MemberProgram ."
+  },
+  {
+    "guide": "organization",
+    "context": "Structured data type definitions",
+    "property": "hasShippingService",
+    "level": "建议",
+    "text": "hasShippingService Repeated ShippingService The shipping policy of your Organization , if applicable. See Merchant shipping policy markup for detailed information on required and optional properties for ShippingService . If you don't provide a shipping policy for your Organization , or if some of your\n            products have specific shipping policies for which you need to override the shipping\n            policies defined for your Organization , use this property also under merchant listing markup ."
+  },
+  {
+    "guide": "organization",
+    "context": "Structured data type definitions",
+    "property": "iso6523Code",
+    "level": "建议",
+    "text": "iso6523Code Text The ISO 6523 identifier of your organization, if applicable.\n          The first part of an ISO 6523 identifier is an ICD (International Code Designator) which defines which identification scheme is used.\n          The second part is the actual identifier. We recommend separating the ICD and the\n          identifier with a colon character ( U+003A ). Common ICD values include: 0060 : Dun & Bradstreet Data Universal Numbering System (DUNS) 0088 : GS1 Global Location Number (GLN) 0199 : Legal Entity Identifier (LEI)"
+  },
+  {
+    "guide": "organization",
+    "context": "Structured data type definitions",
+    "property": "legalName",
+    "level": "建议",
+    "text": "legalName Text The registered, legal name of your Organization , if applicable and different\n          from the name property."
+  },
+  {
+    "guide": "organization",
+    "context": "Structured data type definitions",
+    "property": "leiCode",
+    "level": "建议",
+    "text": "leiCode Text The identifier for your Organization as defined in ISO 17442, if applicable.\n        We encourage using the iso6523Code field with prefix 0199: instead."
+  },
+  {
+    "guide": "organization",
+    "context": "Structured data type definitions",
+    "property": "logo",
+    "level": "建议",
+    "text": "logo URL or ImageObject A logo that is representative of your organization, if applicable. Adding this property can help Google\n          better understand which logo you want to show, for example in Search results and knowledge\n          panels. Image guidelines: The image must be 112x112px, at minimum. The image URL must be crawlable and indexable. The image file format must be supported by Google Images . Make sure the image looks how you intend it to look on a purely white background (for\n            example, if the logo is mostly white or gray, it may not look how you want it to look when\n            displayed on a white background). If you use the ImageObject type,\n          make sure that it has a valid contentUrl property or url property that follows the same guidelines as a URL type."
+  },
+  {
+    "guide": "organization",
+    "context": "Structured data type definitions",
+    "property": "naics",
+    "level": "建议",
+    "text": "naics Text The North American Industry Classification System (NAICS) code for your Organization , if applicable."
+  },
+  {
+    "guide": "organization",
+    "context": "Structured data type definitions",
+    "property": "name",
+    "level": "建议",
+    "text": "name Text The name of your organization. Use the same name and alternateName that you're using for your site name ."
+  },
+  {
+    "guide": "organization",
+    "context": "Structured data type definitions",
+    "property": "numberOfEmployees",
+    "level": "建议",
+    "text": "numberOfEmployees QuantitativeValue The number of employees in your Organization , if applicable. Example with a specific number of employees: \"numberOfEmployees\" : { \"@type\" : \"QuantitativeValue\" , \"value\" : 2056 } Example with the number of employees in a range: \"numberOfEmployees\" : { \"@type\" : \"QuantitativeValue\" , \"minValue\" : 100 , \"maxValue\" : 999 }"
+  },
+  {
+    "guide": "organization",
+    "context": "Structured data type definitions",
+    "property": "sameAs",
+    "level": "建议",
+    "text": "sameAs URL The URL of a page on another website with additional information about your organization,\n          if applicable. For example, a URL to your organization's profile page on a social media or\n          review site. You can provide multiple sameAs URLs."
+  },
+  {
+    "guide": "organization",
+    "context": "Structured data type definitions",
+    "property": "taxID",
+    "level": "建议",
+    "text": "taxID Text The tax ID associated with your Organization , if applicable. Make sure taxID matches the country that you provided in the address field."
+  },
+  {
+    "guide": "organization",
+    "context": "Structured data type definitions",
+    "property": "telephone",
+    "level": "建议",
+    "text": "telephone Text A business phone number meant to be the primary contact method for customers, if applicable.\n        Be sure to include the country code and area code in the phone number."
+  },
+  {
+    "guide": "organization",
+    "context": "Structured data type definitions",
+    "property": "url",
+    "level": "建议",
+    "text": "url URL The URL of the website of your organization, if applicable. This helps Google uniquely\n       identify your organization."
+  },
+  {
+    "guide": "organization",
+    "context": "Structured data type definitions",
+    "property": "vatID",
+    "level": "建议",
+    "text": "vatID Text The VAT (Value Added Tax) code associated with your Organization , if applicable\n       to your country and business. This is an important trust signal for users (for example, users\n       can look up your business in public VAT registries)."
+  },
+  {
+    "guide": "product-snippet",
+    "context": "Product",
+    "property": "name",
+    "level": "必需",
+    "text": "name Text The name of the product."
+  },
+  {
+    "guide": "product-snippet",
+    "context": "Product",
+    "property": "review",
+    "level": "必需",
+    "text": "Product snippets require either review or aggregateRating or offers You must include one of the following properties: review aggregateRating offers You only need to provide one of review , aggregateRating , and offers , but the product snippets\n          section of the Rich Results Test may report a warning if you provide offers without review or aggregateRating properties."
+  },
+  {
+    "guide": "product-snippet",
+    "context": "Product",
+    "property": "aggregateRating",
+    "level": "建议",
+    "text": "aggregateRating AggregateRating A nested aggregateRating of the product. Follow the Review snippet\n            guidelines and the list of required and recommended AggregateRating properties ."
+  },
+  {
+    "guide": "product-snippet",
+    "context": "Product",
+    "property": "offers",
+    "level": "建议",
+    "text": "offers Offer or AggregateOffer A nested Offer or AggregateOffer to sell the product. Include the required and\n          recommended properties for either Offer or AggregateOffer (whichever\n          is applicable to your content). To be eligible for the price drop enhancement , use Offer ,\n          not AggregateOffer ."
+  },
+  {
+    "guide": "product-snippet",
+    "context": "Product",
+    "property": "review",
+    "level": "建议",
+    "text": "review Review A nested Review of the product. Follow the Review snippet\n            guidelines and the list of required and recommended review\n            properties . If you add a review for the product, the reviewer's name must be a valid name for a Person or Team . Not recommended : 50% off on Black Friday Recommended : \"James Smith\" or \"CNET Reviewers\" To manually tell Google about the pros and cons of an editorial product review page,\n          add the positiveNotes and/or negativeNotes properties to your nested product review."
+  },
+  {
+    "guide": "product-snippet",
+    "context": "Review",
+    "property": "negativeNotes",
+    "level": "建议",
+    "text": "negativeNotes ItemList (see ItemList for Positive and Negative Notes on usage of ItemList in this context) An optional nested list of negative statements about the product (cons). To list multiple negative statements, specify multiple ListItem properties in an itemListElement array. For example: \"review\" : { \"@type\" : \"Review\" , \"negativeNotes\" : { \"@type\" : \"ItemList\" , \"itemListElement\" : [ { \"@type\" : \"ListItem\" , \"position\" : 1 , \"name\" : \"No child protection\" }, { \"@type\" : \"ListItem\" , \"position\" : 2 , \"name\" : \"Lacking advanced features\" } ] } }"
+  },
+  {
+    "guide": "product-snippet",
+    "context": "Review",
+    "property": "positiveNotes",
+    "level": "建议",
+    "text": "positiveNotes ItemList (see ItemList for Positive and Negative Notes on usage of ItemList in this context) An optional nested list of positive statements about the product (pros). To list multiple positive statements, specify multiple ListItem properties in an itemListElement array. For example: \"review\" : { \"@type\" : \"Review\" , \"positiveNotes\" : { \"@type\" : \"ItemList\" , \"itemListElement\" : [ { \"@type\" : \"ListItem\" , \"position\" : 1 , \"name\" : \"Consistent results\" }, { \"@type\" : \"ListItem\" , \"position\" : 2 , \"name\" : \"Still sharp after many uses\" } ] } }"
+  },
+  {
+    "guide": "product-snippet",
+    "context": "ItemList for Positive and Negative Notes",
+    "property": "itemListElement",
+    "level": "必需",
+    "text": "itemListElement ListItem A list of statements about the product, listed in a specific order.\n          Specify each statement with a ListItem ."
+  },
+  {
+    "guide": "product-snippet",
+    "context": "ItemList for Positive and Negative Notes",
+    "property": "itemListElement.name",
+    "level": "必需",
+    "text": "itemListElement.name Text The key statement of the review."
+  },
+  {
+    "guide": "product-snippet",
+    "context": "ItemList for Positive and Negative Notes",
+    "property": "itemListElement.position",
+    "level": "建议",
+    "text": "itemListElement.position Integer The position of the review. Position 1 signifies the first statement in the list."
+  },
+  {
+    "guide": "product-snippet",
+    "context": "Offer",
+    "property": "price",
+    "level": "必需",
+    "text": "price or priceSpecification.price Number The offer price of a product. Follow schema.org usage guidelines . Here's an example of the price property (the value can be a JSON string\n          or number): \"offers\" : { \"@type\" : \"Offer\" , \"price\" : 39.99 , \"priceCurrency\" : \"USD\" } Here's an example of how to specify that a product is available without payment: \"offers\" : { \"@type\" : \"Offer\" , \"price\" : 0 , \"priceCurrency\" : \"EUR\" } Alternatively, the offer price may be nested inside a priceSpecification property instead of being provided at the Offer level. \"offers\" : { \"@type\" : \"Offer\" , \"priceSpecification\" : { \"@type\" : \"PriceSpecification\" , \"price\" : 9.99 , \"priceCurrency\" : \"AUD\" } } If you use both the offers.price and offers.priceSpecification properties to encode an active price, Google will use the price provided through\n      the offers.price property and ignore the offers.priceSpecification property. If you have complex pricing, check out the pricing examples and\n          supported pricing properties in the merchant listing documentation."
+  },
+  {
+    "guide": "product-snippet",
+    "context": "Offer",
+    "property": "availability",
+    "level": "建议",
+    "text": "availability ItemAvailability Use the single most appropriate product availability option from the following list. https://schema.org/BackOrder : The item is on back order. https://schema.org/Discontinued : The item has been discontinued. https://schema.org/InStock : The item is in stock. https://schema.org/InStoreOnly : The item is only available for purchase in store. https://schema.org/LimitedAvailability : The item has limited availability. https://schema.org/OnlineOnly : The item is available online only. https://schema.org/OutOfStock : The item is currently out of stock. https://schema.org/PreOrder : The item is available for pre-order. https://schema.org/PreSale : The item is available for ordering and delivery before general availability. https://schema.org/SoldOut : The item has been sold out. The short names without the URL prefix are also supported (for example, BackOrder )."
+  },
+  {
+    "guide": "product-snippet",
+    "context": "Offer",
+    "property": "priceCurrency",
+    "level": "建议",
+    "text": "priceCurrency or priceSpecification.priceCurrency Text The currency used to describe the product price, in three-letter ISO 4217 format. This property is currently recommended for product snippets to help Google\n          determine the currency more accurately, but required for merchant listing experiences.\n          It is therefore best to always provide this property."
+  },
+  {
+    "guide": "product-snippet",
+    "context": "Offer",
+    "property": "priceValidUntil",
+    "level": "建议",
+    "text": "priceValidUntil Date The date (in ISO 8601 date format) after which the price will no longer be available, if applicable. Your product snippet\n          may not display if the priceValidUntil property indicates a past date."
+  },
+  {
+    "guide": "product-snippet",
+    "context": "UnitPriceSpecification",
+    "property": "price",
+    "level": "必需",
+    "text": "price Number The offer price of a product. See also the price property of Offer ."
+  },
+  {
+    "guide": "product-snippet",
+    "context": "UnitPriceSpecification",
+    "property": "priceCurrency",
+    "level": "建议",
+    "text": "priceCurrency Text The currency used to describe the product price, in three-letter ISO 4217 format.\n          See also the priceCurrency property of Offer . While this property is optional for product snippets, it's strongly recommended because\n          it avoids pricing ambiguities and it's required for merchant\n          listing experiences."
+  },
+  {
+    "guide": "product-snippet",
+    "context": "AggregateOffer",
+    "property": "lowPrice",
+    "level": "必需",
+    "text": "lowPrice Number The lowest price of all offers available. Use a decimal separator ( . ) when\n          expressing fractions of a currency unit, such as 1.23 for $1.23 US dollars."
+  },
+  {
+    "guide": "product-snippet",
+    "context": "AggregateOffer",
+    "property": "priceCurrency",
+    "level": "必需",
+    "text": "priceCurrency Text The currency used to describe the product price, in three-letter ISO 4217 format."
+  },
+  {
+    "guide": "product-snippet",
+    "context": "AggregateOffer",
+    "property": "highPrice",
+    "level": "建议",
+    "text": "highPrice Number The highest price of all offers available. Use a floating point number if necessary."
+  },
+  {
+    "guide": "product-snippet",
+    "context": "AggregateOffer",
+    "property": "offerCount",
+    "level": "建议",
+    "text": "offerCount Number The number of offers for the product."
+  },
+  {
+    "guide": "product-variants",
+    "context": "ProductGroup",
+    "property": "name",
+    "level": "必需",
+    "text": "name Text The name of the ProductGroup (for example, \"Wool winter coat\"). Make sure that\n        the name of the variants in each Product item is more specific\n        (for example, \"Wool winter coat - green, size small\", based on the variant-identifying properties.\n        See the Product documentation for details."
+  },
+  {
+    "guide": "product-variants",
+    "context": "ProductGroup",
+    "property": "aggregateRating",
+    "level": "建议",
+    "text": "aggregateRating AggregateRating A nested aggregateRating of the ProductGroup (which is representative\n        of all variants), if applicable. Follow the Review snippet guidelines and the list of required and recommended AggregateRating properties ."
+  },
+  {
+    "guide": "product-variants",
+    "context": "ProductGroup",
+    "property": "brand",
+    "level": "建议",
+    "text": "brand Brand Brand information about the ProductGroup (same across all variants), if applicable.\n        See the Product documentation for details on brand ."
+  },
+  {
+    "guide": "product-variants",
+    "context": "ProductGroup",
+    "property": "brand.name",
+    "level": "建议",
+    "text": "brand.name Text The name of the brand of the ProductGroup (same across all variants). If you're\n        already adding the brand at the ProductGroup level, you don't need to add it\n        again at the Product level.\n        See the Product documentation for details on brand ."
+  },
+  {
+    "guide": "product-variants",
+    "context": "ProductGroup",
+    "property": "description",
+    "level": "建议",
+    "text": "description Text or TextObject The description of the ProductGroup . For example, \"Wool winter coat for cold\n        weather climates\". Make sure that the variant description is more specific and ideally uses\n        words that identify the variant (such as color, size, material). In addition to the description of the ProductGroup , we\n        recommend also adding a description of each variant at the Product level. See the Product documentation for details."
+  },
+  {
+    "guide": "product-variants",
+    "context": "ProductGroup",
+    "property": "hasAdultConsideration",
+    "level": "建议",
+    "text": "hasAdultConsideration AdultOrientedEnumeration Indicates that the product is designated as adult-oriented for example, because it\n        contains nudity or sexual content. If you sell products that are considered adult-oriented according to Google's adult-oriented content policy ,\n        you must use this property to label them as adult-oriented. While these products\n        are eligible to be shown in Shopping ads and free listings, they are subject to age- and\n        country-based restrictions. Labelling them ensures that Google can apply these\n        restrictions and show appropriate and legally compliant content to people shopping online.\n        While schema.org defines multiple values for AdultOrientedEnumeration ,\n        Google Search only supports the value https://schema.org/SexualContentConsideration for this property."
+  },
+  {
+    "guide": "product-variants",
+    "context": "ProductGroup",
+    "property": "hasVariant",
+    "level": "建议",
+    "text": "hasVariant Product A nested Product property that is one of the variants of the ProductGroup property, if applicable. A ProductGroup typically has multiple\n        nested variant Product properties. Alternatively, a variant Product property can reference back to its parent ProductGroup using the isVariantOf property on the Product property."
+  },
+  {
+    "guide": "product-variants",
+    "context": "ProductGroup",
+    "property": "productGroupID",
+    "level": "建议",
+    "text": "productGroupID Text The identifier of the product group (also known as the parent sku ). This identifier must be\n        provided for the ProductGroup property or, alternatively, using inProductGroupWithID property for variants of the ProductGroup property. If you provide the identifier\n        for both the ProductGroup property and its variant Product properties, they must match."
+  },
+  {
+    "guide": "product-variants",
+    "context": "ProductGroup",
+    "property": "review",
+    "level": "建议",
+    "text": "review Review A nested review of the ProductGroup , if applicable. Follow the Review snippet guidelines and the list of required and recommended review properties ."
+  },
+  {
+    "guide": "product-variants",
+    "context": "ProductGroup",
+    "property": "url",
+    "level": "建议",
+    "text": "url URL For single-page websites only : The URL (without variant\n        selectors) where the ProductGroup property is located, if applicable. Don't use this property\n        for multi-page websites."
+  },
+  {
+    "guide": "product-variants",
+    "context": "ProductGroup",
+    "property": "variesBy",
+    "level": "建议",
+    "text": "variesBy DefinedTerm Aspects by which the variants in the ProductGroup vary, (for example, size or color), if applicable. Reference these variant-identifying properties through\n        their full Schema.org URL (for example, https://schema.org/color ). The following properties are supported: https://schema.org/color https://schema.org/size https://schema.org/suggestedAge https://schema.org/suggestedGender https://schema.org/material https://schema.org/pattern"
+  },
+  {
+    "guide": "profile-page",
+    "context": "ProfilePage",
+    "property": "mainEntity",
+    "level": "必需",
+    "text": "mainEntity Person or Organization The person or organization that this profile page is about. This indicates that the primary\n          focus of this page is information about this entity. Try to use the correct type if that information is available (meaning, if you know whether\n          the page represents an individual or an organization); otherwise, default to Person (for example, if it's an unknown type of account)."
+  },
+  {
+    "guide": "profile-page",
+    "context": "ProfilePage",
+    "property": "dateCreated",
+    "level": "建议",
+    "text": "dateCreated DateTime The date and time that the profile was created, if applicable, in ISO 8601 date\n          format."
+  },
+  {
+    "guide": "profile-page",
+    "context": "ProfilePage",
+    "property": "dateModified",
+    "level": "建议",
+    "text": "dateModified DateTime The date and time that information in the profile was modified, if applicable, in ISO 8601 date\n            format. Ideally, this only represents human-edited metadata changes to the profile (for\n            example, adding extra outlinks to places this profile is referenced wouldn't be a\n            modification)."
+  },
+  {
+    "guide": "profile-page",
+    "context": "Person or Organization",
+    "property": "name",
+    "level": "必需",
+    "text": "name Text The primary way the person or organization is identified. We recommend using this field\n          for real names (and alternateName for social media handles). However, you\n          can use this field to specify a social media handle if that's the only way the person is\n          identified on your site. If the name property isn't available, you can provide the alternateName property to fulfill this requirement."
+  },
+  {
+    "guide": "profile-page",
+    "context": "Person or Organization",
+    "property": "agentInteractionStatistic",
+    "level": "建议",
+    "text": "agentInteractionStatistic InteractionCounter User statistics about the profile page entity's own behavior, if applicable. Google recognizes the following interactionTypes : https://schema.org/FollowAction :\n            The number of other accounts being followed. https://schema.org/LikeAction :\n            The number of likes (generally of other entity's posts). https://schema.org/WriteAction :\n            The number of posts. https://schema.org/ShareAction :\n            The number of reshares of posts."
+  },
+  {
+    "guide": "profile-page",
+    "context": "Person or Organization",
+    "property": "alternateName",
+    "level": "建议",
+    "text": "alternateName Text An alternate public identifier, if applicable. For example, a social media handle if\n          a person's real name is used in the name field."
+  },
+  {
+    "guide": "profile-page",
+    "context": "Person or Organization",
+    "property": "description",
+    "level": "建议",
+    "text": "description Text The user's byline or applicable credential, if applicable."
+  },
+  {
+    "guide": "profile-page",
+    "context": "Person or Organization",
+    "property": "identifier",
+    "level": "建议",
+    "text": "identifier Text Any unique identifier that's used within your site, if applicable. This could be an\n          internal database ID that your site uses to identify a user even if their social media\n          handle changes."
+  },
+  {
+    "guide": "profile-page",
+    "context": "Person or Organization",
+    "property": "image",
+    "level": "建议",
+    "text": "image URL or ImageObject The URL or ImageObject of a profile image of the creator, if applicable. If there are no\n          images, don't include a default image, icon, or placeholder image in this field. Additional image guidelines: Image URLs must be crawlable and indexable. To check if Google can access your URLs, use\n      the URL Inspection tool . Images must represent the marked up content. Images must be in a file format that's supported by Google Images . For best results, we recommend providing multiple high-resolution images (minimum of 50K pixels when\n      multiplying width and height) with the following aspect ratios: 16x9, 4x3, and 1x1. For example: \"image\": [\n  \"https://example.com/photos/1x1/photo.jpg\",\n  \"https://example.com/photos/4x3/photo.jpg\",\n  \"https://example.com/photos/16x9/photo.jpg\"\n]"
+  },
+  {
+    "guide": "profile-page",
+    "context": "Person or Organization",
+    "property": "interactionStatistic",
+    "level": "建议",
+    "text": "interactionStatistic InteractionCounter User statistics applied to the profile page entity, if applicable. Only include stats\n          about the platform that the profile page is hosted on (don't reference that the creator\n          also has 100,000 followers on their home page). Google recognizes the following interactionTypes : https://schema.org/FollowAction :\n            The number of followers. https://schema.org/LikeAction :\n            The number of likes of this entity. https://schema.org/BefriendAction :\n            A bi-directional relationship."
+  },
+  {
+    "guide": "profile-page",
+    "context": "Person or Organization",
+    "property": "sameAs",
+    "level": "建议",
+    "text": "sameAs URL The URL to other external profiles or home pages for the profile, if applicable."
+  },
+  {
+    "guide": "qapage",
+    "context": "QAPage",
+    "property": "mainEntity",
+    "level": "必需",
+    "text": "mainEntity Question The Question for this page must be nested under the mainEntity property of the QAPage item."
+  },
+  {
+    "guide": "qapage",
+    "context": "Question",
+    "property": "answerCount",
+    "level": "必需",
+    "text": "answerCount Integer The total number of answers to the question. For example, if there are 15 answers, but only the first 10 are\n        marked up due to pagination, this value would be 15. This may also be 0 for questions with no answers. answerCount + commentCount should equal the total number of replies of any type."
+  },
+  {
+    "guide": "qapage",
+    "context": "Question",
+    "property": "acceptedAnswer",
+    "level": "必需",
+    "text": "Either acceptedAnswer or suggestedAnswer Answer To be eligible for the rich result, a question must have at least one answer – either an acceptedAnswer or a suggestedAnswer . However, questions may not\n          have answers when they are first posted. For questions without answers, set\n          the answerCount property to 0. Questions without answers aren't eligible for\n          the rich result. acceptedAnswer Answer A top answer to the question. There can be zero or more of these per question. This must\n                represent answers that are accepted in some way on your site. For example, accepted as a\n                top answer by question asker, a moderator, or a voting system. Other forms of sorting answers,\n              such as most-recent, must not be used to identify top answers. suggestedAnswer Answer One possible answer, but not accepted as a top answer ( acceptedAnswer ).\n                There can be zero or more of these per Question."
+  },
+  {
+    "guide": "qapage",
+    "context": "Question",
+    "property": "acceptedAnswer",
+    "level": "必需",
+    "text": "acceptedAnswer Answer A top answer to the question. There can be zero or more of these per question. This must\n                represent answers that are accepted in some way on your site. For example, accepted as a\n                top answer by question asker, a moderator, or a voting system. Other forms of sorting answers,\n              such as most-recent, must not be used to identify top answers."
+  },
+  {
+    "guide": "qapage",
+    "context": "Question",
+    "property": "suggestedAnswer",
+    "level": "必需",
+    "text": "suggestedAnswer Answer One possible answer, but not accepted as a top answer ( acceptedAnswer ).\n                There can be zero or more of these per Question."
+  },
+  {
+    "guide": "qapage",
+    "context": "Question",
+    "property": "name",
+    "level": "必需",
+    "text": "name Text The full text of the short form of the question. For example, \"How many teaspoons in a cup?\"."
+  },
+  {
+    "guide": "qapage",
+    "context": "answerCount",
+    "property": "acceptedAnswer",
+    "level": "见指南条件",
+    "text": "acceptedAnswer Answer A top answer to the question. There can be zero or more of these per question. This must\n                represent answers that are accepted in some way on your site. For example, accepted as a\n                top answer by question asker, a moderator, or a voting system. Other forms of sorting answers,\n              such as most-recent, must not be used to identify top answers."
+  },
+  {
+    "guide": "qapage",
+    "context": "answerCount",
+    "property": "suggestedAnswer",
+    "level": "见指南条件",
+    "text": "suggestedAnswer Answer One possible answer, but not accepted as a top answer ( acceptedAnswer ).\n                There can be zero or more of these per Question."
+  },
+  {
+    "guide": "qapage",
+    "context": "name",
+    "property": "author",
+    "level": "建议",
+    "text": "author Person or Organization Information about the author of the question. To help Google best understand\n          authors across various features, we recommend following the author markup best practices . Include as many properties that make sense for the author, using the supported properties\n          from article and profile page structured data as a guide."
+  },
+  {
+    "guide": "qapage",
+    "context": "name",
+    "property": "author.url",
+    "level": "建议",
+    "text": "author.url URL A link to a web page that uniquely identifies the author of the question, most likely a profile\n          page of the Q&A website.  We recommend marking up that page using profile page structured data ."
+  },
+  {
+    "guide": "qapage",
+    "context": "name",
+    "property": "comment",
+    "level": "建议",
+    "text": "comment Comment A comment pertaining to the question, if present. Ideally, this content isn't an answer:\n            it's usually a clarification or discussion about the question."
+  },
+  {
+    "guide": "qapage",
+    "context": "name",
+    "property": "commentCount",
+    "level": "建议",
+    "text": "commentCount Integer The number of comments about this question, if applicable. answerCount + commentCount should equal the total number of replies of any type."
+  },
+  {
+    "guide": "qapage",
+    "context": "name",
+    "property": "dateModified",
+    "level": "建议",
+    "text": "dateModified DateTime The date and time the answer was edited, if applicable, in ISO 8601 format ."
+  },
+  {
+    "guide": "qapage",
+    "context": "name",
+    "property": "datePublished",
+    "level": "建议",
+    "text": "datePublished DateTime The date and time the question was posted in ISO 8601 format ."
+  },
+  {
+    "guide": "qapage",
+    "context": "name",
+    "property": "digitalSourceType",
+    "level": "建议",
+    "text": "digitalSourceType IPTCDigitalSourceEnumeration The digitalSourceType property indicates the type of digital source\n          associated with the content, if applicable. This property is particularly relevant for distinguishing\n          between human and AI or other machine-generated content.  Google supports the following values: TrainedAlgorithmicMediaDigitalSource : Indicates content created by a\n              trained model, such as an LLM. AlgorithmicMediaDigitalSource : Indicates content created by a simpler\n              algorithmic process, such as an automatic reply bot. If this property is not specified, Google will assume the content is human-generated."
+  },
+  {
+    "guide": "qapage",
+    "context": "name",
+    "property": "image",
+    "level": "建议",
+    "text": "image ImageObject or URL Any inline images within the question, if applicable. If there aren't any images, don't\n          include default, icon, placeholder, or author images in this field."
+  },
+  {
+    "guide": "qapage",
+    "context": "name",
+    "property": "text",
+    "level": "建议",
+    "text": "text Text The full text of the long form of the question. For example, \"I'm cooking, and I need to know how many\n          teaspoons are in a cup. How many teaspoons are in 1 cup?\""
+  },
+  {
+    "guide": "qapage",
+    "context": "name",
+    "property": "upvoteCount",
+    "level": "建议",
+    "text": "upvoteCount Integer The total number of votes that this question has received. If the page supports upvotes and\n        downvotes, then set the upvoteCount value to a single aggregate value that represents both upvotes and downvotes.\n        For example, if there are 5 upvotes and 2 downvotes, the aggregate value used for upvoteCount is 3. If there\n        are 5 upvotes and downvotes are not supported, then the value for upvoteCount is 5."
+  },
+  {
+    "guide": "qapage",
+    "context": "name",
+    "property": "video",
+    "level": "建议",
+    "text": "video VideoObject Any inline videos within the question, if applicable."
+  },
+  {
+    "guide": "qapage",
+    "context": "Answer",
+    "property": "text",
+    "level": "必需",
+    "text": "text Text The full text of the answer. If only a portion is marked up, your\n      content may not be shown and Google cannot determine the best text to display."
+  },
+  {
+    "guide": "qapage",
+    "context": "text",
+    "property": "author",
+    "level": "建议",
+    "text": "author Person or Organization Information about the author of the answer. To help Google best understand\n          authors across various features, we recommend following the author markup best practices . Include as many properties that makes sense for the author, using the supported properties\n          from article and profile page structured data as a guide."
+  },
+  {
+    "guide": "qapage",
+    "context": "text",
+    "property": "author.url",
+    "level": "建议",
+    "text": "author.url URL A link to a web page that uniquely identifies the author of the answer, most likely a profile\n          page of the Q&A website.  We recommend marking up that page using profile page structured data ."
+  },
+  {
+    "guide": "qapage",
+    "context": "text",
+    "property": "comment",
+    "level": "建议",
+    "text": "comment Comment A comment pertaining to the answer, usually a clarification or discussion about the answer,\n            if applicable."
+  },
+  {
+    "guide": "qapage",
+    "context": "text",
+    "property": "commentCount",
+    "level": "建议",
+    "text": "commentCount Integer The number of comments about this answer, if applicable. This is particularly useful\n            if they are not all present in the comment markup."
+  },
+  {
+    "guide": "qapage",
+    "context": "text",
+    "property": "dateModified",
+    "level": "建议",
+    "text": "dateModified DateTime The date and time the answer was edited in ISO 8601 format ,\n            if applicable."
+  },
+  {
+    "guide": "qapage",
+    "context": "text",
+    "property": "datePublished",
+    "level": "建议",
+    "text": "datePublished DateTime The date and time the question was answered in ISO 8601 format ."
+  },
+  {
+    "guide": "qapage",
+    "context": "text",
+    "property": "digitalSourceType",
+    "level": "建议",
+    "text": "digitalSourceType IPTCDigitalSourceEnumeration The digitalSourceType property indicates the type of digital source\n          associated with the content, if applicable. This property is particularly relevant for distinguishing\n          between human and AI or other machine-generated content.  Google supports the following values: TrainedAlgorithmicMediaDigitalSource : Indicates content created by a\n              trained model, such as an LLM. AlgorithmicMediaDigitalSource : Indicates content created by a simpler\n              algorithmic process, such as an automatic reply bot. If this property is not specified, Google will assume the content is human-generated."
+  },
+  {
+    "guide": "qapage",
+    "context": "text",
+    "property": "image",
+    "level": "建议",
+    "text": "image ImageObject or URL Any inline images within the answer, if applicable. If there aren't any images, don't\n          include default, icon, placeholder, or author images in this field."
+  },
+  {
+    "guide": "qapage",
+    "context": "text",
+    "property": "upvoteCount",
+    "level": "建议",
+    "text": "upvoteCount Integer The total number of votes that this answer has received, if applicable. If the page supports upvotes and\n        downvotes, then set the upvoteCount value to a single aggregate value that represents both upvotes and downvotes.\n        For example, if there are 5 upvotes and 2 downvotes, the aggregate value used for upvoteCount is 3. If there\n        are 5 upvotes and downvotes are not supported, then the value for upvoteCount is 5."
+  },
+  {
+    "guide": "qapage",
+    "context": "text",
+    "property": "url",
+    "level": "建议",
+    "text": "url URL A URL that links directly to this answer. For example: https://www.examplesite.com/question#answer1 It is strongly recommended to provide a URL for each answer because\n        it improves the user experience when the user clicks through to your site."
+  },
+  {
+    "guide": "qapage",
+    "context": "text",
+    "property": "video",
+    "level": "建议",
+    "text": "video VideoObject or URL Any inline videos within the answer, if applicable."
+  },
+  {
+    "guide": "qapage",
+    "context": "Comment",
+    "property": "text",
+    "level": "必需",
+    "text": "text Text The full text of the comment. If only a portion is marked up, Google might not be able\n          to determine the best text to display."
+  },
+  {
+    "guide": "qapage",
+    "context": "text",
+    "property": "author",
+    "level": "建议",
+    "text": "author Person or Organization Information about the author of the comment. To help Google best understand authors across various features,\n          we recommend following the author markup best practices . Include as many properties that make sense for the author, using the supported properties\n          from article and profile page structured data as a guide."
+  },
+  {
+    "guide": "qapage",
+    "context": "text",
+    "property": "author.url",
+    "level": "建议",
+    "text": "author.url URL A link to a web page that uniquely identifies the author of the comment, most likely a profile\n          page of the Q&A website.  We recommend marking up that page using profile page structured data ."
+  },
+  {
+    "guide": "qapage",
+    "context": "text",
+    "property": "comment",
+    "level": "建议",
+    "text": "comment Comment A nested, threaded comment replying to the comment, if applicable."
+  },
+  {
+    "guide": "qapage",
+    "context": "text",
+    "property": "commentCount",
+    "level": "建议",
+    "text": "commentCount Integer The number of comments about this comment, if applicable. This is particularly useful\n            if they are not all present in the comment markup."
+  },
+  {
+    "guide": "qapage",
+    "context": "text",
+    "property": "dateModified",
+    "level": "建议",
+    "text": "dateModified DateTime The date and time the comment was edited in ISO 8601 format ,\n            if applicable."
+  },
+  {
+    "guide": "qapage",
+    "context": "text",
+    "property": "datePublished",
+    "level": "建议",
+    "text": "datePublished DateTime The date and time the comment was written in ISO 8601 format ."
+  },
+  {
+    "guide": "qapage",
+    "context": "text",
+    "property": "digitalSourceType",
+    "level": "建议",
+    "text": "digitalSourceType IPTCDigitalSourceEnumeration The digitalSourceType property indicates the type of digital source\n          associated with the content, if applicable. This property is particularly relevant for distinguishing\n          between human and AI or other machine-generated content.  Google supports the following values: TrainedAlgorithmicMediaDigitalSource : Indicates content created by a\n              trained model, such as an LLM. AlgorithmicMediaDigitalSource : Indicates content created by a simpler\n              algorithmic process, such as an automatic reply bot. If this property is not specified, Google will assume the content is human-generated."
+  },
+  {
+    "guide": "qapage",
+    "context": "text",
+    "property": "image",
+    "level": "建议",
+    "text": "image ImageObject or URL Any inline images within the comment, if applicable. If there aren't any images, don't\n          include default, icon, placeholder, or author images in this field."
+  },
+  {
+    "guide": "qapage",
+    "context": "text",
+    "property": "video",
+    "level": "建议",
+    "text": "video VideoObject or URL Any inline videos within the comment, if applicable."
+  },
+  {
+    "guide": "return-policy",
+    "context": "MerchantReturnPolicy (nested under Organization using the hasMerchantReturnPolicy property)",
+    "property": "applicableCountry",
+    "level": "必需",
+    "text": "applicableCountry Text The country code that the return policy applies to (where the product is sold and will be returned from).\n              Use the two-letter ISO 3166-1 alpha-2 country code formatting. You can specify up to 50 countries."
+  },
+  {
+    "guide": "return-policy",
+    "context": "MerchantReturnPolicy (nested under Organization using the hasMerchantReturnPolicy property)",
+    "property": "returnPolicyCategory",
+    "level": "必需",
+    "text": "returnPolicyCategory MerchantReturnEnumeration The type of return policy. Use one of the following values: https://schema.org/MerchantReturnFiniteReturnWindow :\n                There's a set number of days to return a product. https://schema.org/MerchantReturnNotPermitted :\n                Returns aren't permitted. https://schema.org/MerchantReturnUnlimitedWindow :\n                There's an unlimited amount of time to return a product. If you use MerchantReturnFiniteReturnWindow , then the merchantReturnDays property is required."
+  },
+  {
+    "guide": "return-policy",
+    "context": "MerchantReturnPolicy (nested under Organization using the hasMerchantReturnPolicy property)",
+    "property": "merchantReturnLink",
+    "level": "必需",
+    "text": "merchantReturnLink URL Specify the URL of a web page that describes the return policy to your customers. This can be your own\n              return policy, or a third-party policy from a service that handles your returns."
+  },
+  {
+    "guide": "return-policy",
+    "context": "Finite or unlimited return windows",
+    "property": "merchantReturnDays",
+    "level": "建议",
+    "text": "merchantReturnDays Integer The number of days from the delivery date that a product can be returned. This\n            property is only required if returnPolicyCategory equals MerchantReturnFiniteReturnWindow ."
+  },
+  {
+    "guide": "return-policy",
+    "context": "Finite or unlimited return windows",
+    "property": "returnFees",
+    "level": "建议",
+    "text": "returnFees ReturnFeesEnumeration The default type of return fee. Use one of the following supported values: https://schema.org/FreeReturn : There's no charge to the consumer to\n              return the product. If used, don't include the returnShippingFeesAmount property. https://schema.org/ReturnFeesCustomerResponsibility : The consumer\n              needs to handle and pay for the return shipping themselves. If used, don't include\n              the returnShippingFeesAmount property. https://schema.org/ReturnShippingFees : There's a shipping fee\n              charged by the merchant to the consumer to return the product. Specify the\n              (non-zero) shipping fee using the returnShippingFeesAmount property."
+  },
+  {
+    "guide": "return-policy",
+    "context": "Finite or unlimited return windows",
+    "property": "returnMethod",
+    "level": "建议",
+    "text": "returnMethod ReturnMethodEnumeration The type of return method offered. Use one or more of the following values: https://schema.org/ReturnAtKiosk : The item can be returned at a kiosk. https://schema.org/ReturnByMail : The item can be returned by mail. https://schema.org/ReturnInStore : The item can be returned in store."
+  },
+  {
+    "guide": "return-policy",
+    "context": "Finite or unlimited return windows",
+    "property": "returnShippingFeesAmount",
+    "level": "建议",
+    "text": "returnShippingFeesAmount MonetaryAmount The cost of shipping for returning a product. This property must be specified only when returnFees equals https://schema.org/ReturnShippingFees ."
+  },
+  {
+    "guide": "return-policy",
+    "context": "Finite or unlimited return windows",
+    "property": "customerRemorseReturnFees",
+    "level": "建议",
+    "text": "customerRemorseReturnFees ReturnFeesEnumeration A specific type of return fee if the product is returned due to customer remorse.\n            See returnFees for possible values."
+  },
+  {
+    "guide": "return-policy",
+    "context": "Finite or unlimited return windows",
+    "property": "customerRemorseReturnLabelSource",
+    "level": "建议",
+    "text": "customerRemorseReturnLabelSource ReturnLabelSourceEnumeration The method by which the consumer obtains a return shipping label for a product.\n            See returnLabelSource for possible values."
+  },
+  {
+    "guide": "return-policy",
+    "context": "Finite or unlimited return windows",
+    "property": "customerRemorseReturnShippingFeesAmount",
+    "level": "建议",
+    "text": "customerRemorseReturnShippingFeesAmount MonetaryAmount The cost of shipping for returning a product due to customer remorse. This property\n            is only required if there's a non-zero shipping fee to be paid by the consumer to return a product.\n            See returnShippingFeesAmount for details."
+  },
+  {
+    "guide": "return-policy",
+    "context": "Finite or unlimited return windows",
+    "property": "itemCondition",
+    "level": "建议",
+    "text": "itemCondition OfferItemCondition The acceptable conditions of an item which can be returned. You can provide multiple conditions which are accepted.\n            Use the following values: https://schema.org/DamagedCondition : Damaged items are accepted. https://schema.org/NewCondition : New items are accepted. https://schema.org/RefurbishedCondition : Refurbished items are accepted. https://schema.org/UsedCondition : Used items are accepted."
+  },
+  {
+    "guide": "return-policy",
+    "context": "Finite or unlimited return windows",
+    "property": "itemDefectReturnFees",
+    "level": "建议",
+    "text": "itemDefectReturnFees ReturnFeesEnumeration A specific type of return fee for defect products. See returnFees for possible values."
+  },
+  {
+    "guide": "return-policy",
+    "context": "Finite or unlimited return windows",
+    "property": "itemDefectReturnLabelSource",
+    "level": "建议",
+    "text": "itemDefectReturnLabelSource ReturnLabelSourceEnumeration The method by which the consumer can obtain a return shipping label for a product.\n            See returnLabelSource for possible values."
+  },
+  {
+    "guide": "return-policy",
+    "context": "Finite or unlimited return windows",
+    "property": "itemDefectReturnShippingFeesAmount",
+    "level": "建议",
+    "text": "itemDefectReturnShippingFeesAmount MonetaryAmount The cost of shipping for returning a product due to defect products. This property\n            is only required if there's a non-zero shipping fee to be paid by the consumer to return a product.\n            See returnShippingFeesAmount for details."
+  },
+  {
+    "guide": "return-policy",
+    "context": "Finite or unlimited return windows",
+    "property": "refundType",
+    "level": "建议",
+    "text": "refundType RefundType The type of refund(s) available for the consumer when returning a product. https://schema.org/ExchangeRefund : The item can be exchanged for the same product. https://schema.org/FullRefund : The item can be refunded for the full monetary amount. https://schema.org/StoreCreditRefund : The item can can be refunded for store credit."
+  },
+  {
+    "guide": "return-policy",
+    "context": "Finite or unlimited return windows",
+    "property": "restockingFee",
+    "level": "建议",
+    "text": "restockingFee MonetaryAmount or Number The restocking fee charged to the consumer when returning a product. Specify a value of type Number to charge\n             a percentage of the price paid by the consumer or use MonetaryAmount to charge a fixed amount."
+  },
+  {
+    "guide": "return-policy",
+    "context": "Finite or unlimited return windows",
+    "property": "returnLabelSource",
+    "level": "建议",
+    "text": "returnLabelSource ReturnLabelSourceEnumeration The method by which the consumer can obtain a return shipping label for a product. Use one of the following values: https://schema.org/ReturnLabelCustomerResponsibility :\n              It's the responsibility of the consumer to create a return label. https://schema.org/ReturnLabelDownloadAndPrint :\n              The return label must be downloaded and printed by the customer. https://schema.org/ReturnLabelInBox :\n              The return label was included when the product was originally shipped."
+  },
+  {
+    "guide": "return-policy",
+    "context": "Finite or unlimited return windows",
+    "property": "returnPolicyCountry",
+    "level": "建议",
+    "text": "returnPolicyCountry Text The country where the product has to be sent to for returns. This country can be different\n            from the country where the product was originally shipped or sent to. ISO 3166-1 alpha-2 country code formatting. You can specify up to 50 countries."
+  },
+  {
+    "guide": "return-policy",
+    "context": "Seasonal override properties",
+    "property": "returnPolicySeasonalOverride",
+    "level": "必需",
+    "text": "returnPolicySeasonalOverride MerchantReturnPolicySeasonalOverride A seasonal override of a return policy to specify return policies for special events, such as holidays.\n            For example, your usual return policy category is set to MerchantReturnPolicyUnlimitedWindow but the return window should be limited during holiday sales: \"returnPolicySeasonalOverride\" : { \"@type\" : \"MerchantReturnPolicySeasonalOverride\" , \"startDate\" : \"2024-11-29\" , \"endDate\" : \"2024-12-06\" , \"merchantReturnDays\" : 10 , \"returnPolicyCategory\" : \"https://schema.org/MerchantReturnFiniteReturnWindow\" } Here's how to specify multiple seasonal overrides. In this example, the usual return policy is\n    unlimited, but is limited during the following two date ranges: \"returnPolicySeasonalOverride\" : [{ \"@type\" : \"MerchantReturnPolicySeasonalOverride\" , \"startDate\" : \"2024-11-29\" , \"endDate\" : \"2024-12-06\" , \"merchantReturnDays\" : 10 , \"returnPolicyCategory\" : \"https://schema.org/MerchantReturnFiniteReturnWindow\" }, { \"@type\" : \"MerchantReturnPolicySeasonalOverride\" , \"startDate\" : \"2024-12-26\" , \"endDate\" : \"2025-01-06\" , \"merchantReturnDays\" : 10 , \"returnPolicyCategory\" : \"https://schema.org/MerchantReturnFiniteReturnWindow\" }]"
+  },
+  {
+    "guide": "return-policy",
+    "context": "Seasonal override properties",
+    "property": "returnPolicySeasonalOverride.returnPolicyCategory",
+    "level": "必需",
+    "text": "returnPolicySeasonalOverride.returnPolicyCategory MerchantReturnEnumeration The type of return policy. Use one of the following values: https://schema.org/MerchantReturnFiniteReturnWindow :\n                There's a set number of days to return a product. https://schema.org/MerchantReturnNotPermitted :\n                Returns aren't permitted. https://schema.org/MerchantReturnUnlimitedWindow :\n                There's an unlimited amount of time to return a product. If you use MerchantReturnFiniteReturnWindow , then the merchantReturnDays property is required."
+  },
+  {
+    "guide": "return-policy",
+    "context": "Seasonal override properties",
+    "property": "returnPolicySeasonalOverride.endDate",
+    "level": "建议",
+    "text": "returnPolicySeasonalOverride.endDate Date or DateTime The end date of the seasonal override."
+  },
+  {
+    "guide": "return-policy",
+    "context": "Seasonal override properties",
+    "property": "returnPolicySeasonalOverride.merchantReturnDays",
+    "level": "建议",
+    "text": "returnPolicySeasonalOverride.merchantReturnDays Integer or Date or DateTime The number of days from the delivery date that a product can be returned. This\n            property is only required if you set the returnPolicyCategory to MerchantReturnFiniteReturnWindow ."
+  },
+  {
+    "guide": "return-policy",
+    "context": "Seasonal override properties",
+    "property": "returnPolicySeasonalOverride.startDate",
+    "level": "建议",
+    "text": "returnPolicySeasonalOverride.startDate Date or DateTime The start date of the seasonal override."
+  },
+  {
+    "guide": "review-snippet",
+    "context": "Review",
+    "property": "author",
+    "level": "必需",
+    "text": "author Person or Organization The author of the review. The reviewer's name must be a valid name. For example,\n          \"50% off until Saturday\" is not a valid name for a reviewer. This field must be shorter than 100 characters. If it's longer than 100 characters,\n          your page won't be eligible for an author-based review snippet. To help Google best\n          understand authors across various features, consider following the author markup best practices ."
+  },
+  {
+    "guide": "review-snippet",
+    "context": "Review",
+    "property": "itemReviewed",
+    "level": "必需",
+    "text": "itemReviewed (if review is not a Nested Review ) One of the valid types The item that is being reviewed. However, if the review is nested into another\n          schema.org type using the review property,\n          omit the itemReviewed property (we assume the parent item is the reviewed item). The valid types for the reviewed item are: Book Course CreativeWorkSeason CreativeWorkSeries Episode Event Game HowTo LocalBusiness MediaObject Movie MusicPlaylist MusicRecording Organization Product Recipe SoftwareApplication"
+  },
+  {
+    "guide": "review-snippet",
+    "context": "Review",
+    "property": "itemReviewed.name",
+    "level": "必需",
+    "text": "itemReviewed.name or parent item name in Nested Review Text The name of the item that is being reviewed. If the review is nested into another\n          schema.org type using the review property,\n          you still need to provide the name of the thing that is being reviewed. For example: { \"@context\" : \"https://schema.org/\" , \"@type\" : \"Game\" , \"name\" : \"Firefly\" , \"review\" : { \"@type\" : \"Review\" , \"reviewRating\" : { \"@type\" : \"Rating\" , \"ratingValue\" : 5 }, \"author\" : { \"@type\" : \"Person\" , \"name\" : \"John Doe\" } } }"
+  },
+  {
+    "guide": "review-snippet",
+    "context": "Review",
+    "property": "reviewRating",
+    "level": "必需",
+    "text": "reviewRating Rating The rating given in this review. The rating can be a nested Rating or more specific subtype. The most typical\n           subtype is AggregateRating ."
+  },
+  {
+    "guide": "review-snippet",
+    "context": "Review",
+    "property": "reviewRating.ratingValue",
+    "level": "必需",
+    "text": "reviewRating.ratingValue Number or Text A numerical quality rating for the item, either a number, fraction, or percentage (for\n            example, 4 , 60% , or 6 / 10 ).\n            Google understands the scale for fractions and percentages, since the scale is\n            implied in the fraction itself or the percentage. The default scale for numbers is a\n            5-point scale, where 1 is the lowest value and 5 is the highest value.  If another scale is\n            intended, use bestRating and worstRating . For decimal numbers, use a dot instead of a comma to specify the value (for example 4.4 instead of 4,4 ). In Microdata and RDFa, you can use content attributes to override the visible content. That way, you can show\n            the user whatever style convention you want, while also satisfying the dot requirement\n            for structured data. For example: <span itemprop=\"ratingValue\" content=\"4.4\">4,4</span> stars"
+  },
+  {
+    "guide": "review-snippet",
+    "context": "Review",
+    "property": "datePublished",
+    "level": "建议",
+    "text": "datePublished Date The date that the review was published, in ISO 8601 date\n            format."
+  },
+  {
+    "guide": "review-snippet",
+    "context": "Review",
+    "property": "reviewRating.bestRating",
+    "level": "建议",
+    "text": "reviewRating.bestRating Number The highest value allowed in this rating system. If bestRating is omitted, 5 is assumed."
+  },
+  {
+    "guide": "review-snippet",
+    "context": "Review",
+    "property": "reviewRating.worstRating",
+    "level": "建议",
+    "text": "reviewRating.worstRating Number The lowest value allowed in this rating system. If worstRating is omitted, 1 is assumed."
+  },
+  {
+    "guide": "review-snippet",
+    "context": "AggregateRating",
+    "property": "itemReviewed",
+    "level": "必需",
+    "text": "itemReviewed (if aggregate rating is not a Nested Aggregate Rating ) One of the valid types The item that is being rated. However, if the aggregate rating is nested into\n            another schema.org type using the aggregateRating property, omit the itemReviewed property. The valid types for the reviewed item are: Book Course CreativeWorkSeason CreativeWorkSeries Episode Event Game HowTo LocalBusiness MediaObject Movie MusicPlaylist MusicRecording Organization Product Recipe SoftwareApplication"
+  },
+  {
+    "guide": "review-snippet",
+    "context": "AggregateRating",
+    "property": "itemReviewed.name",
+    "level": "必需",
+    "text": "itemReviewed.name or parent item name in Nested Aggregate Rating Text The name of the item that is being reviewed. If the review is nested into another\n          schema.org type using the aggregateRating property,\n          you still need to provide the name of the thing that is being reviewed. For example: { \"@context\" : \"https://schema.org/\" , \"@type\" : \"Game\" , \"name\" : \"Firefly\" , \"aggregateRating\" : { \"@type\" : \"AggregateRating\" , \"ratingValue\" : 88 , \"bestRating\" : 100 , \"ratingCount\" : 20 } }"
+  },
+  {
+    "guide": "review-snippet",
+    "context": "AggregateRating",
+    "property": "ratingCount",
+    "level": "必需",
+    "text": "ratingCount Number The total number of ratings for the item on your site. At least one of ratingCount or reviewCount is required."
+  },
+  {
+    "guide": "review-snippet",
+    "context": "AggregateRating",
+    "property": "reviewCount",
+    "level": "必需",
+    "text": "reviewCount Number Specifies the number of people who provided a review with or without an accompanying\n          rating. At least one of ratingCount or reviewCount is required."
+  },
+  {
+    "guide": "review-snippet",
+    "context": "AggregateRating",
+    "property": "ratingValue",
+    "level": "必需",
+    "text": "ratingValue Number or Text The average rating for the item's quality using a numerical rating of either a number,\n          fraction, or percentage (for example, 4 , 60% , or 6 / 10 ).\n          Google understands the scale for fractions and percentages, since the scale is\n          implied in the fraction itself or the percentage. The default scale for numbers is a\n          5-point scale, where 1 is the lowest value and 5 is the highest value.  If another scale is\n          intended, use bestRating and worstRating . For decimal numbers, use a dot instead of a comma to specify the value (for example 4.4 instead of 4,4 ). In Microdata and RDFa, you can use content attributes to override the visible content. That way, you can show\n          the user whatever style convention you want, while also satisfying the dot requirement\n          for structured data. For example: <span itemprop=\"ratingValue\" content=\"4.4\">4,4</span> stars"
+  },
+  {
+    "guide": "review-snippet",
+    "context": "AggregateRating",
+    "property": "bestRating",
+    "level": "建议",
+    "text": "bestRating Number The highest value allowed in this rating system. If bestRating is omitted, 5 is assumed."
+  },
+  {
+    "guide": "review-snippet",
+    "context": "AggregateRating",
+    "property": "worstRating",
+    "level": "建议",
+    "text": "worstRating Number The lowest value allowed in this rating system. If worstRating is omitted, 1 is assumed."
+  },
+  {
+    "guide": "shipping-policy",
+    "context": "ShippingService (nested under Organization using the hasShippingService property)",
+    "property": "shippingConditions",
+    "level": "必需",
+    "text": "shippingConditions ShippingConditions Specify the shipping cost and/or delivery times that apply for a particular set of conditions, for example,\n              a product weight range, product dimensions, order value, or delivery location. A ShippingService can have\n              multiple shippingConditions . If more than one ShippingConditions applies to a product,\n              we'll use the lowest shipping cost for the product for the given situation and display that rate and the associated\n              shipping speed to customers. If the shipping cost is the same, we'll use the shipping information with the\n              fastest shipping speed."
+  },
+  {
+    "guide": "shipping-policy",
+    "context": "ShippingService (nested under Organization using the hasShippingService property)",
+    "property": "name",
+    "level": "建议",
+    "text": "name Text A unique name for your shipping service, if applicable. For example, \"Standard Shipping\"."
+  },
+  {
+    "guide": "shipping-policy",
+    "context": "ShippingService (nested under Organization using the hasShippingService property)",
+    "property": "description",
+    "level": "建议",
+    "text": "description Text A description of your shipping service, if applicable. This is typically more comprehensive than the name."
+  },
+  {
+    "guide": "shipping-policy",
+    "context": "ShippingService (nested under Organization using the hasShippingService property)",
+    "property": "fulfillmentType",
+    "level": "建议",
+    "text": "fulfillmentType FulfillmentTypeEnumeration How the product is delivered to the customer for this shipping service, if applicable. https://schema.org/FulfillmentTypeDelivery : This service ships the product to the customer's address (this is the default if this property is not specified). https://schema.org/FulfillmentTypeCollectionPoint : The product is shipped to a collection point for customer pickup."
+  },
+  {
+    "guide": "shipping-policy",
+    "context": "ShippingService (nested under Organization using the hasShippingService property)",
+    "property": "handlingTime",
+    "level": "建议",
+    "text": "handlingTime ServicePeriod Optional information about handling times (for example, in a warehouse) after receiving an order, if applicable. See also the list of ServicePeriod properties under the ShippingService type supported by Google."
+  },
+  {
+    "guide": "shipping-policy",
+    "context": "ServicePeriod (for handling times)",
+    "property": "businessDays",
+    "level": "建议",
+    "text": "businessDays DayOfWeek The days of the week when received orders are processed, if applicable."
+  },
+  {
+    "guide": "shipping-policy",
+    "context": "ServicePeriod (for handling times)",
+    "property": "cutoffTime",
+    "level": "建议",
+    "text": "cutoffTime Time The time after which orders received on a day are not processed that same day, if applicable.\n                For orders processed after cutoff time, one day gets added to the delivery time estimate.\n                The time is indicated using the ISO-8601 time format, for example \"23:30:00-05:00\"\n                represents 6:30 pm Eastern Standard Time (EST) which is 5 hours behind Coordinated\n                Universal Time (UTC)."
+  },
+  {
+    "guide": "shipping-policy",
+    "context": "ServicePeriod (for handling times)",
+    "property": "duration",
+    "level": "建议",
+    "text": "duration QuantitativeValue The delay between the receipt of an order and the goods leaving the warehouse, if applicable."
+  },
+  {
+    "guide": "shipping-policy",
+    "context": "QuantitativeValue (for shipping handling times)",
+    "property": "maxValue",
+    "level": "建议",
+    "text": "maxValue Number The maximum number of days. The value must be a non-negative, whole number."
+  },
+  {
+    "guide": "shipping-policy",
+    "context": "QuantitativeValue (for shipping handling times)",
+    "property": "minValue",
+    "level": "建议",
+    "text": "minValue Number The minimum number of days, if applicable. The value must be a non-negative, whole number."
+  },
+  {
+    "guide": "shipping-policy",
+    "context": "QuantitativeValue (for shipping handling times)",
+    "property": "unitCode",
+    "level": "建议",
+    "text": "unitCode Text The units of the minimum/maximum values. The value must be DAY or d ."
+  },
+  {
+    "guide": "shipping-policy",
+    "context": "QuantitativeValue (for shipping handling times)",
+    "property": "value",
+    "level": "建议",
+    "text": "value Number The exact number of handling days, if known. The value must be a non-negative, whole number.\n                If provided, minValue and maxValue must not be specified."
+  },
+  {
+    "guide": "shipping-policy",
+    "context": "ShippingConditions (nested under ShippingService using the shippingConditions property)",
+    "property": "doesNotShip",
+    "level": "建议",
+    "text": "doesNotShip Boolean If applicable, set this to true if shipping from a location in the specified shippingOrigin to a location in the specified shippingDestination isn't available for orders with the specified\n            combination of weight , numItems , and orderValue conditions."
+  },
+  {
+    "guide": "shipping-policy",
+    "context": "ShippingConditions (nested under ShippingService using the shippingConditions property)",
+    "property": "numItems",
+    "level": "建议",
+    "text": "numItems QuantitativeValue The range of the number of products in the order for this shipping conditions object, if applicable.\n            See also the list of QuantitativeValue properties\n            related to the ShippingConditions type supported by Google."
+  },
+  {
+    "guide": "shipping-policy",
+    "context": "ShippingConditions (nested under ShippingService using the shippingConditions property)",
+    "property": "orderValue",
+    "level": "建议",
+    "text": "orderValue MonetaryAmount The range of the cost of the order for this shipping conditions object, if applicable.\n            See also the list of MonetaryAmount properties related to the ShippingConditions type supported by Google."
+  },
+  {
+    "guide": "shipping-policy",
+    "context": "ShippingConditions (nested under ShippingService using the shippingConditions property)",
+    "property": "shippingDestination",
+    "level": "建议",
+    "text": "shippingDestination DefinedRegion Indicates shipping destination, if applicable. See the list of DefinedRegion properties under the shippingDestination property supported by Google."
+  },
+  {
+    "guide": "shipping-policy",
+    "context": "ShippingConditions (nested under ShippingService using the shippingConditions property)",
+    "property": "shippingOrigin",
+    "level": "建议",
+    "text": "shippingOrigin DefinedRegion Indicates shipping origin, if applicable. See the list of DefinedRegion properties under the shippingOrigin property supported by Google."
+  },
+  {
+    "guide": "shipping-policy",
+    "context": "ShippingConditions (nested under ShippingService using the shippingConditions property)",
+    "property": "seasonalOverride",
+    "level": "建议",
+    "text": "seasonalOverride OpeningHoursSpecification If applicable, use this property to specify a limited time period for which this shipping conditions object is valid.\n                See also the list of OpeningHoursSpecification properties supported for the ShippingConditions type by Google."
+  },
+  {
+    "guide": "shipping-policy",
+    "context": "ShippingConditions (nested under ShippingService using the shippingConditions property)",
+    "property": "shippingRate",
+    "level": "建议",
+    "text": "shippingRate ShippingRateSettings or MonetaryAmount If applicable, use this property to specify the shipping cost for\n                shipments from a location in the specified shippingOrigin to a location\n                in the specified shippingDestination for orders with the\n                specified combination of weight , numItems , and orderValue conditions.\n                See also the list of ShippingRateSettings properties and MonetaryAmount properties supported for the ShippingConditions type by Google. This property\n                should only be specified if doesNotShip is absent or set to false ."
+  },
+  {
+    "guide": "shipping-policy",
+    "context": "ShippingConditions (nested under ShippingService using the shippingConditions property)",
+    "property": "transitTime",
+    "level": "建议",
+    "text": "transitTime ServicePeriod If applicable, use to specify the expected transit time between leaving the shipping origin (typically a warehouse)\n                and arriving at the shipping destination (typically the customer). Applies to\n                shipments from a location in the specified shippingOrigin property to a location\n                in the specified shippingDestination property for orders with the\n                specified combination of weight , numItems , and orderValue conditions.\n                See also the list of ServicePeriod properties supported by Google. This property should only be specified if the doesNotShip property\n                is absent or set to false ."
+  },
+  {
+    "guide": "shipping-policy",
+    "context": "ShippingConditions (nested under ShippingService using the shippingConditions property)",
+    "property": "weight",
+    "level": "建议",
+    "text": "weight QuantitativeValue The package's weight range for this shipping conditions object, if applicable.\n              See also the list of QuantitativeValue properties related to the ShippingConditions type supported by Google."
+  },
+  {
+    "guide": "shipping-policy",
+    "context": "DefinedRegion",
+    "property": "addressCountry",
+    "level": "必需",
+    "text": "addressCountry Text The two-letter country code, in ISO 3166-1 alpha-2 format."
+  },
+  {
+    "guide": "shipping-policy",
+    "context": "DefinedRegion",
+    "property": "addressRegion",
+    "level": "建议",
+    "text": "addressRegion Text The country-specific region code, if applicable. The region must be a 2- or 3-character ISO 3166-2\n                subdivision code, without country prefix. Google Search only supports\n                the US, Australia, and Japan. Examples: NY (for US, state of New York), NSW (for Australia, state of New South Wales), or 03 (for Japan, Iwate prefecture). Don't provide both a region and postal code information."
+  },
+  {
+    "guide": "shipping-policy",
+    "context": "DefinedRegion",
+    "property": "postalCode",
+    "level": "建议",
+    "text": "postalCode Text The country-specific postal code, if applicable. For example, 94043 . Postal codes are supported for\n                Australia, Canada, and the US."
+  },
+  {
+    "guide": "shipping-policy",
+    "context": "ServicePeriod (for transit times)",
+    "property": "businessDays",
+    "level": "建议",
+    "text": "businessDays DayOfWeek The days of the week when an order is an active transit, if applicable. If your organization's\n                business days are Monday through Saturday, you don't need to add this property."
+  },
+  {
+    "guide": "shipping-policy",
+    "context": "ServicePeriod (for transit times)",
+    "property": "duration",
+    "level": "建议",
+    "text": "duration QuantitativeValue The number of business days in transit, if applicable.\n                See also the list of QuantitativeValue properties\n                for transit times supported by Google."
+  },
+  {
+    "guide": "shipping-policy",
+    "context": "QuantitativeValue (for shipping transit times)",
+    "property": "maxValue",
+    "level": "建议",
+    "text": "maxValue Number The maximum number of days. The value must be a non-negative, whole number."
+  },
+  {
+    "guide": "shipping-policy",
+    "context": "QuantitativeValue (for shipping transit times)",
+    "property": "minValue",
+    "level": "建议",
+    "text": "minValue Number The minimum number of days, if applicable. The value must be a non-negative, whole number."
+  },
+  {
+    "guide": "shipping-policy",
+    "context": "QuantitativeValue (for shipping transit times)",
+    "property": "unitCode",
+    "level": "建议",
+    "text": "unitCode Text The transit time unit. The value must be DAY or d ."
+  },
+  {
+    "guide": "shipping-policy",
+    "context": "QuantitativeValue (for shipping transit times)",
+    "property": "value",
+    "level": "建议",
+    "text": "value Number The exact number of transit days, if known. The value must be a non-negative, whole number.\n                If provided, minValue and maxValue must not be specified."
+  },
+  {
+    "guide": "shipping-policy",
+    "context": "QuantitativeValue (in the context of shipping packing dimensions)",
+    "property": "maxValue",
+    "level": "建议",
+    "text": "maxValue Number The maximum number for the dimension ( weight or numItems ), if applicable.\n                 Defaults to infinity when not provided."
+  },
+  {
+    "guide": "shipping-policy",
+    "context": "QuantitativeValue (in the context of shipping packing dimensions)",
+    "property": "minValue",
+    "level": "建议",
+    "text": "minValue Number The minimum number for the dimension ( weight or numItems ), if applicable.\n                Must be less than maxValue . Defaults to 0 when not provided."
+  },
+  {
+    "guide": "shipping-policy",
+    "context": "QuantitativeValue (in the context of shipping packing dimensions)",
+    "property": "unitCode",
+    "level": "建议",
+    "text": "unitCode Text A unit relevant to the dimension ( weight or numItems ), if applicable.\n                in UN/CEFACT Common Code (three characters) format: For weight units, the value must be LBR (pound) or KGM (kilogram) For number of items, unitCode can be omitted. Alternatively, you can use UN/CEFACT Common Code name H87 ."
+  },
+  {
+    "guide": "shipping-policy",
+    "context": "MonetaryAmount (in the context of shipping conditions)",
+    "property": "currency",
+    "level": "必需",
+    "text": "currency Text The currency code for the order value in ISO 4217 format."
+  },
+  {
+    "guide": "shipping-policy",
+    "context": "MonetaryAmount (in the context of shipping conditions)",
+    "property": "maxValue",
+    "level": "必需",
+    "text": "maxValue Number The maximum value of the order. Defaults to infinity when not provided."
+  },
+  {
+    "guide": "shipping-policy",
+    "context": "MonetaryAmount (in the context of shipping conditions)",
+    "property": "minValue",
+    "level": "必需",
+    "text": "minValue Number The minimum value of the order. Defaults to 0 when not provided."
+  },
+  {
+    "guide": "shipping-policy",
+    "context": "MonetaryAmount (in the context of shipping rate)",
+    "property": "currency",
+    "level": "必需",
+    "text": "currency Text The currency code for the shipping cost in ISO 4217 format."
+  },
+  {
+    "guide": "shipping-policy",
+    "context": "MonetaryAmount (in the context of shipping rate)",
+    "property": "maxValue",
+    "level": "必需",
+    "text": "maxValue Number The maximum shipping cost for the given shipping condition. If you specify the maxValue property, don't specify the value property."
+  },
+  {
+    "guide": "shipping-policy",
+    "context": "MonetaryAmount (in the context of shipping rate)",
+    "property": "value",
+    "level": "必需",
+    "text": "value Number The fixed shipping cost for the given shipping condition. For free shipping, use 0 as the value."
+  },
+  {
+    "guide": "shipping-policy",
+    "context": "ShippingRateSettings (in the context of shipping rate)",
+    "property": "orderPercentage",
+    "level": "建议",
+    "text": "orderPercentage Number The shipping cost for the given shipping condition as a fraction of the order value.\n                 Use a value between 0 and 1 ."
+  },
+  {
+    "guide": "shipping-policy",
+    "context": "ShippingRateSettings (in the context of shipping rate)",
+    "property": "weightPercentage",
+    "level": "建议",
+    "text": "weightPercentage Number The shipping cost for the given shipping condition as a fraction of the weight of the shipped goods.\n                 Use a value between 0 and 1 ."
+  },
+  {
+    "guide": "shipping-policy",
+    "context": "OpeningHoursSpecification (in the context of seasonal shipping overrides)",
+    "property": "validFrom",
+    "level": "建议",
+    "text": "validFrom Date The first date when the shipping condition is valid, in ISO 8601 format."
+  },
+  {
+    "guide": "shipping-policy",
+    "context": "OpeningHoursSpecification (in the context of seasonal shipping overrides)",
+    "property": "validThrough",
+    "level": "建议",
+    "text": "validThrough Date The last date when the shipping condition is valid, in ISO 8601 format."
+  },
+  {
+    "guide": "site-names",
+    "context": "Add required site name properties",
+    "property": "name",
+    "level": "必需",
+    "text": "name Text The name of the website. Make sure the name meets the guidelines for choosing your site name ."
+  },
+  {
+    "guide": "site-names",
+    "context": "Add required site name properties",
+    "property": "url",
+    "level": "必需",
+    "text": "url URL The URL of the home page of the site. Set this to the canonical home page of your site's domain or subdomain.\n        For example, https://example.com/ or https://news.example.com/ ."
+  },
+  {
+    "guide": "site-names",
+    "context": "Add an alternative site name",
+    "property": "alternateName",
+    "level": "建议",
+    "text": "alternateName Text The alternate name of the website (for example, if there's a commonly recognized\n          acronym or shorter name for your site), if applicable. Make sure the name meets\n          the guidelines for choosing your site name . You can list more than one alternative name. Specify them in order of your\n          preference, with the most important one listed first. For example: < script type = \"application/ld+json\" > { \"@context\" : \"https://schema.org\" , \"@type\" : \"WebSite\" , \"name\" : \"Burnt Toast\" , \"alternateName\" : [ \"BT\" , \"B-T\" , \"Burnt Toast Shop\" ], \"url\" : \"https://www.example.com/\" } < / script >"
+  },
+  {
+    "guide": "video",
+    "context": "",
+    "property": "BroadcastEvent",
+    "level": "见指南条件",
+    "text": "LIVE badge : Get a LIVE badge added to your video by marking your video with BroadcastEvent . The LIVE badge can be applied to\n      any public video that is live-streamed for any length of time. Here are a few examples: Sporting events Awards shows Influencer videos Live streaming video games Make sure you follow the LIVE badge guidelines and use\n        the Indexing API to make sure\n        Google crawls your page at the right time."
+  },
+  {
+    "guide": "video",
+    "context": "",
+    "property": "Clip",
+    "level": "见指南条件",
+    "text": "Key moments The key moments feature is a way for users to navigate video segments like chapters in a book,\n    which can help users engage more deeply with your content. Google Search tries to automatically\n    detect the segments in your video and show key moments to users, without any effort on your\n    part. Alternatively, you can tell Google about the important points of your video. We\n    will prioritize key moments set by you, either through structured data or the YouTube description. If your video is embedded on your web page or you're running a video platform , there are two ways that you can enable key moments: Clip structured data :\n          Specify the exact start and end time to each segment, and what label to display for each\n          segment. This is supported in all languages where Google Search is available. SeekToAction structured data :\n          Tell Google where timestamps typically go in your URL structure, so that Google can\n          automatically identify key moments and link users to those points within the video. This\n          is supported for the following languages: English, Spanish, Portuguese, Italian, Chinese,\n          French, Japanese, German, Turkish, Korean, Dutch, and Russian. If your video is hosted on YouTube , you can specify the exact timestamps and labels\n       in the video description on YouTube. Check out the best practices for marking timestamps in YouTube descriptions .\n      This is supported in all languages where Google Search is available. If you want to enable\n      Video Chapters on YouTube, follow these additional guidelines . To opt out of the key moments feature completely (including any efforts Google may make to show\n    key moments automatically for your video), use the nosnippet meta tag."
+  },
+  {
+    "guide": "video",
+    "context": "VideoObject",
+    "property": "name",
+    "level": "必需",
+    "text": "name Text The title of the video. Make sure to use unique text in the name property\n        for each video on your site."
+  },
+  {
+    "guide": "video",
+    "context": "VideoObject",
+    "property": "thumbnailUrl",
+    "level": "必需",
+    "text": "thumbnailUrl Repeated URL A URL pointing to the video's unique thumbnail image file. Follow the thumbnail image guidelines ."
+  },
+  {
+    "guide": "video",
+    "context": "VideoObject",
+    "property": "uploadDate",
+    "level": "必需",
+    "text": "uploadDate DateTime The date and time the video was first published, in ISO 8601 format .\n          We recommend that you provide timezone information; otherwise, we will default to the timezone used by Googlebot ."
+  },
+  {
+    "guide": "video",
+    "context": "VideoObject",
+    "property": "contentUrl",
+    "level": "建议",
+    "text": "contentUrl URL We recommend that your provide the contentUrl property, if possible. This is the most effective way for Google to fetch your video\n          content files. If contentUrl isn't available, provide embedUrl as an alternative. A URL pointing to the video file's actual content bytes, in one of the supported file types .\n          Don't link to the page where the video lives; this must be the\n          URL of the video file's actual content bytes itself. \"contentUrl\": \"https://www.example.com/video/123/file.mp4\" Make sure to follow our video best practices . Tip : You can ensure that only Googlebot accesses your\n            content by using a reverse DNS lookup ."
+  },
+  {
+    "guide": "video",
+    "context": "VideoObject",
+    "property": "creator",
+    "level": "建议",
+    "text": "creator (or author ) Person or Organization The person or organization that created or published the video. \"creator\" : { \"@type\" : \"Person\" , \"name\" : \"Jane Doe\" , \"url\" : \"https://www.example.com/users/janedoe\" }"
+  },
+  {
+    "guide": "video",
+    "context": "VideoObject",
+    "property": "creator.name",
+    "level": "建议",
+    "text": "creator.name (or author.name ) Text The name of the creator or organization. If a person or organization\n        is specified, you must provide either name or alternateName ."
+  },
+  {
+    "guide": "video",
+    "context": "VideoObject",
+    "property": "creator.url",
+    "level": "建议",
+    "text": "creator.url (or author.url ) URL A link to a web page that uniquely identifies the creator or\n        organization (such as a profile page or homepage)."
+  },
+  {
+    "guide": "video",
+    "context": "VideoObject",
+    "property": "description",
+    "level": "建议",
+    "text": "description Text The description of the video. Make sure to use unique text in the description property\n        for each video on your site. HTML tags are ignored."
+  },
+  {
+    "guide": "video",
+    "context": "VideoObject",
+    "property": "duration",
+    "level": "建议",
+    "text": "duration Duration The duration of the video in ISO 8601 format .\n        For example, PT00H30M5S represents a duration of \"thirty minutes and five seconds\"."
+  },
+  {
+    "guide": "video",
+    "context": "VideoObject",
+    "property": "embedUrl",
+    "level": "建议",
+    "text": "embedUrl URL We recommend that your provide the contentUrl property, if possible. This is the most effective way for Google to fetch your video\n        content files. If contentUrl isn't available, provide embedUrl as an alternative. A URL pointing to a player for the specific video. Don't link to the page where the\n          video lives; this must be the URL of the video player itself. Usually this is the information in\n          the src attribute of an <embed> element. \"embedUrl\": \"https://www.example.com/embed/123\" Make sure to follow our Video best practices . Tip : You can ensure that only Googlebot accesses your\n          content by using a reverse DNS lookup ."
+  },
+  {
+    "guide": "video",
+    "context": "VideoObject",
+    "property": "expires",
+    "level": "建议",
+    "text": "expires DateTime If applicable, the date and time after which the video will no longer be available, in ISO 8601 format . Don't\n          supply this information if your video does not expire. We recommend that you provide\n          timezone information; otherwise, we will default to the timezone used by Googlebot ."
+  },
+  {
+    "guide": "video",
+    "context": "VideoObject",
+    "property": "hasPart",
+    "level": "建议",
+    "text": "hasPart If your video has important segments, nest the required Clip properties in your VideoObject . For example: < script type = \"application/ld+json\" > { \"@context\" : \"https://schema.org/\" , \"@type\" : \"VideoObject\" , \"name\" : \"Cat video\" , \"hasPart\" : { \"@type\" : \"Clip\" , \"name\" : \"Cat jumps\" , \"startOffset\" : 30 , \"url\" : \"https://www.example.com/example?t=30\" } } < / script >"
+  },
+  {
+    "guide": "video",
+    "context": "VideoObject",
+    "property": "ineligibleRegion",
+    "level": "建议",
+    "text": "ineligibleRegion Place The region where the video isn't allowed, if applicable. If not specified, then Google assumes the video is\n        allowed everywhere. Specify the countries in two- or three-letter ISO 3166-1 format . For\n        multiple values, use multiple country codes (for example, a JSON-LD array or multiple meta tags in Microdata). We also support the regionsAllowed property. Add either ineligibleRegion or regionsAllowed ,\n          whichever makes sense for your site."
+  },
+  {
+    "guide": "video",
+    "context": "VideoObject",
+    "property": "interactionStatistic",
+    "level": "建议",
+    "text": "interactionStatistic InteractionCounter User statistics applied to the video, if applicable. \"interactionStatistic\" : { \"@type\" : \"InteractionCounter\" , \"interactionType\" : { \"@type\" : \"WatchAction\" }, \"userInteractionCount\" : 12345 } Starting October 2019, we changed our documentation to recommend interactionStatistic instead of interactionCount . While we continue\n            to support interactionCount , we recommend interactionStatistic moving forward."
+  },
+  {
+    "guide": "video",
+    "context": "VideoObject",
+    "property": "interactionStatistic.interactionType",
+    "level": "建议",
+    "text": "interactionStatistic.interactionType Subtype of Action The type of interaction. Google supports the following interactionTypes : https://schema.org/WatchAction :\n            The number of times the video has been watched. https://schema.org/LikeAction :\n            The number of likes or upvotes. https://schema.org/CommentAction :\n            The number of comments. https://schema.org/ShareAction :\n            The number of reshares."
+  },
+  {
+    "guide": "video",
+    "context": "VideoObject",
+    "property": "interactionStatistic.userInteractionCount",
+    "level": "建议",
+    "text": "interactionStatistic.userInteractionCount Integer The number of times this interaction was performed."
+  },
+  {
+    "guide": "video",
+    "context": "VideoObject",
+    "property": "publication",
+    "level": "建议",
+    "text": "publication If your video is happening live and you want to be eligible for the LIVE badge, nest\n          the BroadcastEvent properties in your VideoObject . For example: < script type = \"application/ld+json\" > { \"@context\" : \"https://schema.org/\" , \"@type\" : \"VideoObject\" , \"name\" : \"Cat video\" , \"publication\" : { \"@type\" : \"BroadcastEvent\" , \"name\" : \"First scheduled broadcast\" , \"isLiveBroadcast\" : true , \"startDate\" : \"2018-10-27T14:00:00+00:00\" , \"endDate\" : \"2018-10-27T14:37:14+00:00\" } } < / script >"
+  },
+  {
+    "guide": "video",
+    "context": "VideoObject",
+    "property": "regionsAllowed",
+    "level": "建议",
+    "text": "regionsAllowed Place The regions where the video is allowed, if applicable. If not specified, then Google assumes the video is\n        allowed everywhere. Specify the countries in two- or three-letter ISO 3166-1 format .\n        For multiple values, use multiple country codes (for example, a JSON-LD array or multiple meta tags in Microdata). We also support the ineligibleRegion property. Add either ineligibleRegion or regionsAllowed ,\n          whichever makes sense for your site."
+  },
+  {
+    "guide": "video",
+    "context": "BroadcastEvent",
+    "property": "publication",
+    "level": "必需",
+    "text": "publication BroadcastEvent Describes when the video is to be streamed live. Can be a list or a single instance."
+  },
+  {
+    "guide": "video",
+    "context": "BroadcastEvent",
+    "property": "publication.endDate",
+    "level": "必需",
+    "text": "publication.endDate DateTime Time and date of when the livestream ends or is expected to end, in ISO 8601 format . It's required to provide the endDate once the video has finished and is no\n          longer live. If the expected endDate is unknown prior to the livestream\n          starting, we recommend providing an approximate endDate . If endDate is in the past or present, it indicates stream actually ended\n          and is no longer live. If endDate is in the future, it indicates stream is\n          scheduled to end at that time."
+  },
+  {
+    "guide": "video",
+    "context": "BroadcastEvent",
+    "property": "publication.isLiveBroadcast",
+    "level": "必需",
+    "text": "publication.isLiveBroadcast Boolean Set to true if the video is, has been, or will be streamed live."
+  },
+  {
+    "guide": "video",
+    "context": "BroadcastEvent",
+    "property": "publication.startDate",
+    "level": "必需",
+    "text": "publication.startDate DateTime Time and date of when the livestream starts or is expected to start, in ISO 8601 format . If startDate is in the past or present, it indicates that the stream actually\n          started. If startDate is in the future, it indicates stream is\n          scheduled to start at that time."
+  },
+  {
+    "guide": "video",
+    "context": "Clip",
+    "property": "name",
+    "level": "必需",
+    "text": "name Text A descriptive title for the content of the clip."
+  },
+  {
+    "guide": "video",
+    "context": "Clip",
+    "property": "startOffset",
+    "level": "必需",
+    "text": "startOffset Number The start time of the clip expressed as the number of seconds from the beginning of the\n          work."
+  },
+  {
+    "guide": "video",
+    "context": "Clip",
+    "property": "url",
+    "level": "必需",
+    "text": "url URL A URL that points to the start time of the clip. The clip URL must point to the same URL path as the video with additional query\n          parameters that specify the time. For example, the following URL means the video starts at 2:00 minutes: \"url\": \"https://www.example.com/example?t=120\""
+  },
+  {
+    "guide": "video",
+    "context": "Clip",
+    "property": "endOffset",
+    "level": "建议",
+    "text": "endOffset Number The end time of the clip expressed as the number of seconds from the beginning of the\n          work."
+  },
+  {
+    "guide": "video",
+    "context": "SeekToAction",
+    "property": "potentialAction",
+    "level": "必需",
+    "text": "potentialAction SeekToAction Indicates a potential action. Include the following nested properties potentialAction.startOffset-input potentialAction.target For example: { \"@context\" : \"https://schema.org\" , \"@type\" : \"VideoObject\" , \"potentialAction\" : { \"@type\" : \"SeekToAction\" , \"target\" : \"https://video.example.com/watch/videoID?t={seek_to_second_number}\" , \"startOffset-input\" : \"required name=seek_to_second_number\" } }"
+  },
+  {
+    "guide": "video",
+    "context": "SeekToAction",
+    "property": "potentialAction.startOffset-input",
+    "level": "必需",
+    "text": "potentialAction.startOffset-input Text The placeholder string that Google will identify as your timestamp structure and then\n          replace with the number of seconds to skip to. Use the following value: \"startOffset-input\": \" required name=seek_to_second_number \" startOffset-input is an annotated property. See the Potential Actions page for more information."
+  },
+  {
+    "guide": "video",
+    "context": "SeekToAction",
+    "property": "potentialAction.target",
+    "level": "必需",
+    "text": "potentialAction.target EntryPoint The URL of the page that contains this VideoObject , including a placeholder in the URL structure\n          that indicates where Google can insert the number of seconds to skip to in the video.\n          This is how Google understands your URL structure and how you format your timestamps.\n          Replace the timestamp part of the URL with the following placeholder\n          string: {seek_to_second_number} For example, replace the timestamp part of the URL: \"target\": \"https://video.example.com/watch/videoID?t= 30 \" So that the timestamp now looks like this: \"target\": \"https://video.example.com/watch/videoID?t= {seek_to_second_number} \""
+  }
+]

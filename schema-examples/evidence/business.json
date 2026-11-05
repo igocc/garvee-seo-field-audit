@@ -1,0 +1,219 @@
+{
+  "requested_url": "https://www.garvee.com/pages/business",
+  "url": "https://www.garvee.com/pages/business",
+  "status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "captured_at": "2026-11-04T13:34:38.551169+00:00",
+  "sha256": "e6461408d3db290f4f9c0ee27c098a871df3b301a151e3535817e2d32a96478a",
+  "title": "GARVEE Business - Volume Pricing & Wholesale",
+  "canonical": "https://www.garvee.com/pages/business",
+  "description": "Apply for GARVEE Business to unlock volume pricing on eligible products, warehouse pickup, custom quotes and business payment options.",
+  "lang": "en",
+  "h1": [
+    "Stock your business. Save as you grow."
+  ],
+  "jsonld": [],
+  "jsonld_parse_errors": [],
+  "main_links": [
+    {
+      "text": "Request a quote",
+      "url": "https://www.garvee.com/pages/business#quote"
+    },
+    {
+      "text": "Business membership",
+      "url": "https://www.garvee.com/pages/business#apply"
+    },
+    {
+      "text": "Warehouses nationwide · Pickup options →",
+      "url": "https://www.garvee.com/pages/business#logistics"
+    },
+    {
+      "text": "Plan a business purchase →",
+      "url": "https://www.garvee.com/pages/business#quote"
+    },
+    {
+      "text": "Start a wholesale inquiry →",
+      "url": "https://www.garvee.com/pages/business#quote"
+    },
+    {
+      "text": "Business membership",
+      "url": "https://www.garvee.com/pages/business#apply"
+    },
+    {
+      "text": "Ready for member pricing? Apply here →",
+      "url": "https://www.garvee.com/pages/business#apply"
+    },
+    {
+      "text": "WAREHOUSE & INDUSTRIAL Material Handling",
+      "url": "https://www.garvee.com/collections/material-handling"
+    },
+    {
+      "text": "CONTRACTORS & PROPERTY MANAGEMENT Building and Construction",
+      "url": "https://www.garvee.com/collections/building-construction"
+    },
+    {
+      "text": "HOSPITALITY & FOOD SERVICE Restaurant Equipment",
+      "url": "https://www.garvee.com/collections/restaurant-food-service"
+    },
+    {
+      "text": "FACILITY OPERATIONS Cleaning and Janitorial",
+      "url": "https://www.garvee.com/collections/cleaning-janitorial-supplies"
+    },
+    {
+      "text": "View more categories →",
+      "url": "https://www.garvee.com/collections/all-products-1"
+    },
+    {
+      "text": "Business membership",
+      "url": "https://www.garvee.com/pages/business#apply"
+    },
+    {
+      "text": "Get a quote →",
+      "url": "https://www.garvee.com/pages/business#quote"
+    },
+    {
+      "text": "Check pickup availability →",
+      "url": "https://www.garvee.com/pages/business#quote"
+    },
+    {
+      "text": "Send a quick inquiry",
+      "url": "https://www.garvee.com/pages/business#quote"
+    },
+    {
+      "text": "Contact the business team",
+      "url": "https://www.garvee.com/pages/contact"
+    },
+    {
+      "text": "Browse business products →",
+      "url": "https://www.garvee.com/pages/business#categories"
+    },
+    {
+      "text": "Need a quote first?",
+      "url": "https://www.garvee.com/pages/business#quote"
+    },
+    {
+      "text": "Quick inquiry",
+      "url": "https://www.garvee.com/pages/business#quote"
+    },
+    {
+      "text": "Business members",
+      "url": "https://www.garvee.com/pages/business#apply"
+    }
+  ],
+  "footer_links": [],
+  "all_links": [
+    {
+      "text": ". BUSINESS",
+      "url": "https://www.garvee.com/"
+    },
+    {
+      "text": "Ways to buy",
+      "url": "https://www.garvee.com/pages/business#programs"
+    },
+    {
+      "text": "Pricing",
+      "url": "https://www.garvee.com/pages/business#pricing"
+    },
+    {
+      "text": "Warehouses & Pickup",
+      "url": "https://www.garvee.com/pages/business#logistics"
+    },
+    {
+      "text": "Payments",
+      "url": "https://www.garvee.com/pages/business#payment"
+    },
+    {
+      "text": "FAQ",
+      "url": "https://www.garvee.com/pages/business#faq"
+    },
+    {
+      "text": "Join GARVEE Business",
+      "url": "https://www.garvee.com/pages/business#apply"
+    },
+    {
+      "text": "Request a quote",
+      "url": "https://www.garvee.com/pages/business#quote"
+    },
+    {
+      "text": "Business membership",
+      "url": "https://www.garvee.com/pages/business#apply"
+    },
+    {
+      "text": "Warehouses nationwide · Pickup options →",
+      "url": "https://www.garvee.com/pages/business#logistics"
+    },
+    {
+      "text": "Plan a business purchase →",
+      "url": "https://www.garvee.com/pages/business#quote"
+    },
+    {
+      "text": "Start a wholesale inquiry →",
+      "url": "https://www.garvee.com/pages/business#quote"
+    },
+    {
+      "text": "Business membership",
+      "url": "https://www.garvee.com/pages/business#apply"
+    },
+    {
+      "text": "Ready for member pricing? Apply here →",
+      "url": "https://www.garvee.com/pages/business#apply"
+    },
+    {
+      "text": "WAREHOUSE & INDUSTRIAL Material Handling",
+      "url": "https://www.garvee.com/collections/material-handling"
+    },
+    {
+      "text": "CONTRACTORS & PROPERTY MANAGEMENT Building and Construction",
+      "url": "https://www.garvee.com/collections/building-construction"
+    },
+    {
+      "text": "HOSPITALITY & FOOD SERVICE Restaurant Equipment",
+      "url": "https://www.garvee.com/collections/restaurant-food-service"
+    },
+    {
+      "text": "FACILITY OPERATIONS Cleaning and Janitorial",
+      "url": "https://www.garvee.com/collections/cleaning-janitorial-supplies"
+    },
+    {
+      "text": "View more categories →",
+      "url": "https://www.garvee.com/collections/all-products-1"
+    },
+    {
+      "text": "Business membership",
+      "url": "https://www.garvee.com/pages/business#apply"
+    },
+    {
+      "text": "Get a quote →",
+      "url": "https://www.garvee.com/pages/business#quote"
+    },
+    {
+      "text": "Check pickup availability →",
+      "url": "https://www.garvee.com/pages/business#quote"
+    },
+    {
+      "text": "Send a quick inquiry",
+      "url": "https://www.garvee.com/pages/business#quote"
+    },
+    {
+      "text": "Contact the business team",
+      "url": "https://www.garvee.com/pages/contact"
+    },
+    {
+      "text": "Browse business products →",
+      "url": "https://www.garvee.com/pages/business#categories"
+    },
+    {
+      "text": "Need a quote first?",
+      "url": "https://www.garvee.com/pages/business#quote"
+    },
+    {
+      "text": "Quick inquiry",
+      "url": "https://www.garvee.com/pages/business#quote"
+    },
+    {
+      "text": "Business members",
+      "url": "https://www.garvee.com/pages/business#apply"
+    }
+  ],
+  "main_text": "GARVEE BUSINESS\nStock your business.\nSave as you grow.\nSave 10% on 50+ units, 12% on 100+ units and 15% on 300+ units per eligible SKU. Ordering more than 300 units? Ask about custom pricing with savings up to 25%.\nFor approved business accounts.\nRequest a quote\nBusiness membership\nWarehouses nationwide · Pickup options →\nBUSINESS SAVINGS AT A GLANCE\nFrom everyday purchases to larger orders.\n10% OFF\n50+ units per eligible SKU\n12% OFF\n100+ units per eligible SKU\n15% OFF\n300+ units per eligible SKU\nUp to 25%\nCustom quotes for larger orders\nInvoice via QuickBooks\nItemized business invoicing\nCard Payment via Stripe\nSecure online card payment\nACH Transfer\nBank-to-bank payments\nWire Transfer\nFor approved bulk orders\nParcel + LTL\nFlexible delivery options\nBUILT FOR THE WAY YOU BUY\nBuying for your business.\nOr stocking your shelves.\nTell us how you plan to use your order. We’ll help you source the right products, quantities and delivery options.\nFOR YOUR OPERATIONS & PROJECTS\nBusiness Purchasing\nEquip your workplace, maintain your properties or supply your next job. For contractors, facilities teams, schools, restaurants and hospitality businesses.\nBusiness use\nProject orders\nRepeat purchases\nPlan a business purchase →\nFOR INVENTORY YOU PLAN TO SELL\nWholesale for Retailers\nStock your store or online business with bulk inventory. Share your product list, order quantities and restocking needs so we can help plan your order.\nRetail stores\nOnline retailers\nBulk inventory\nStart a wholesale inquiry →\nBusinesses in either group can apply for\nBusiness membership\n. Quantity discounts apply to eligible products after approval.\nWHY GARVEE BUSINESS\nBuilt around your purchasing needs.\nGet help with product selection, pricing and delivery, from your first inquiry through repeat orders.\n10%\nBusiness savings\nVerified members save 10% on orders of 50+ units per eligible SKU.\n100+\nVolume pricing\n100+ units: 12% off. 300+ units: 15% off. Minimums apply per eligible SKU.\nQ\nCustom quotes\nOrdering more than 300 units? Ask about custom pricing with savings up to 25%.\nWH\nWarehouse pickup\nMultiple warehouse locations nationwide, with pickup options at select sites.\n1:1\nBusiness support\nGet help with availability, freight and repeat purchases.\nEIN\nVerified membership\nBusiness information and EIN review before member pricing is activated.\nBUILT FOR THE WAY BUSINESSES BUY\nFor the jobsite, stockroom and store.\nFind the products and quantities you need, get business pricing, and coordinate delivery or pickup with our team.\nOperations and facilities teams\nRecurring equipment and supply purchases across multiple locations.\nProject-based buyers\nHelp with product selection, freight and project quotes.\nHigh-volume procurement\nDedicated support for large and repeat orders.\nQUICK INQUIRY\nYour product list.\nOne simple inquiry.\nPaste SKUs or GARVEE product links with quantities, or just tell us what you need. No account or EIN required.\nInclude your ZIP code so we can check inventory and pickup or delivery options for your order.\nReady for member pricing? Apply here →\nWhat are you buying for?\nBusiness use — operations & projects\nWholesale — inventory to sell\nNot sure yet\nStore name or website\n(optional)\nProduct list\n(optional)\nOne item per line: SKU or product URL, then quantity. You can paste two columns from a spreadsheet.\nGenerate table\nCopy table\nWork email *\nZIP code\n(for pickup or delivery)\nWhat else should we know?\n(optional with a product list)\nSubmit inquiry\nNo product list yet? A short description is enough. Do not include your EIN or payment information.\nPRODUCTS FOR EVERYDAY OPERATIONS\nEquipment and supplies for your business.\nBrowse frequently purchased categories for facilities, projects, job sites and day-to-day operations.\nWAREHOUSE & INDUSTRIAL\nMaterial Handling\nCONTRACTORS & PROPERTY MANAGEMENT\nBuilding and Construction\nHOSPITALITY & FOOD SERVICE\nRestaurant Equipment\nFACILITY OPERATIONS\nCleaning and Janitorial\nView more categories →\nBUSINESS PRICING\nMore units. More savings.\nVolume discounts at 50, 100 and 300 units. Ask about custom pricing for larger orders.\nBusiness membership\nPricing for approved business accounts\nPricing\nMinimum qty.\nDiscount\nVolume\n50 units\n10% OFF\nVolume\n100 units\n12% OFF\nVolume\n300 units\n15% OFF\nContract Pricing\nHigher quantities\nOver 300\nGet a quote →\nUP TO\n25% OFF\nMinimum quantities apply per eligible SKU. No custom quote is needed for the 10%, 12% or 15% volume discounts. For orders over 300 units, you can request Contract Pricing with savings up to 25%, subject to an individual quote.\nWAREHOUSE NETWORK & PICKUP\nWarehouses nationwide.\nPickup at select locations.\nWith warehouse locations across the country, we can help you find pickup options for eligible orders. Share your product list and ZIP code so we can check availability.\nWAREHOUSE LOCATIONS\nFind the right pickup location.\nOur team can check where your items are stocked and whether warehouse pickup is available for your order.\nEastern locations\nCentral & Southern locations\nWestern locations\nSeattle & Norfolk\nInventory and pickup availability vary by product and location. Confirm the pickup address and appointment details before traveling.\nCheck pickup availability →\nWAREHOUSE PICKUP\nPick up at a participating location\nPickup may be available for eligible orders at select warehouses. We’ll confirm the address and pickup time with you.\nWAREHOUSE NETWORK\nCheck inventory by location\nSend your product list and ZIP code so we can identify available stock and pickup options for your order.\nDELIVERY OPTIONS\nNeed delivery instead?\nAsk about parcel shipping or less-than-truckload (LTL) freight for eligible products and destinations.\nBEFORE YOU GO\nConfirm your pickup details\nWe’ll confirm product availability, the pickup address and any appointment requirements before you make the trip.\nBUSINESS MEMBERSHIP\nThree steps to member pricing.\nJust need a quote?\nSend a quick inquiry\nwithout completing membership verification.\n01\nTell us about your business\nProvide your work email, legal business name and registered business address.\n02\nComplete business verification\nProvide your EIN. Supporting business documents may be requested during review.\n03\nAccess member pricing\nOnce approved, access the published quantity discounts and request custom pricing for larger orders.\nBUSINESS PAYMENT OPTIONS\nFlexible payment options for business orders.\nYour order confirmation or invoice will identify the available payment methods. Do not enter banking information on this page.\n01\nInvoice via QuickBooks\nReceive an itemized invoice for your approved order and keep a copy for your records.\n02\nCard payment via Stripe\nUse a secure hosted payment link for eligible corporate card transactions.\n03\nACH transfer\nBank-to-bank payment instructions are provided on the approved invoice.\n04\nWire transfer\nAvailable for approved bulk orders using verified payment instructions.\n05\nCorporate card\nMajor cards may be accepted depending on order value, account verification and applicable processing fees.\n06\nPurchase order & pro forma invoice\nReference your purchase order on a pro forma invoice. Payment is required before order release unless otherwise stated.\nAll payment methods are subject to account verification, product eligibility, order value and final invoice instructions. Always verify bank instructions with an authorized GARVEE representative before sending payment.\nFAQ\nBusiness buying, explained.\nWhich purchasing path should I choose?\nChoose Business Purchasing if you will use the products in your operations, facilities or projects. Choose Wholesale for Retailers if you are buying inventory to sell through your store or online business. You can request a quote and apply for GARVEE Business membership with either option.\nCan I request a quote without an account?\nYes. Provide your work email and purchasing requirements through our quick inquiry form. An EIN is not required to request a quote.\nWhat savings are available?\nApproved business accounts receive 10% off at 50+ units, 12% off at 100+ units and 15% off at 300+ units per eligible SKU. These volume discounts do not require a custom quote. Ordering more than 300 units? You can request Contract Pricing with savings up to 25%, subject to an individual quote.\nWhat do I need for business verification?\nGARVEE requires your work email, legal business name, registered business address and Employer Identification Number (EIN). Use the business name shown on your EIN documentation. We may request an EIN confirmation letter or business registration documents if additional review is needed.\nDoes entering an EIN verify my account?\nNo. Checking the nine-digit format is only the first step. Your business information must be reviewed before member pricing is activated.\nDoes business membership include tax-exempt purchasing?\nBusiness verification and tax exemption are separate reviews. An EIN alone does not establish tax-exempt eligibility.\nContact the business team\nabout any applicable exemption documentation.\nCan I pick up my order from a warehouse?\nPickup may be available for eligible products at select warehouse locations. Share your SKUs, quantities and ZIP code, and our team will confirm stock, the pickup address and any appointment requirements.\nWhich payment options are available?\nDepending on your approved order, options include card payment via Stripe, ACH and wire transfer, with invoicing via QuickBooks. Purchase orders can be referenced on your invoice. Your quote confirms the available payment methods.\nGARVEE BUSINESS MEMBERSHIP\nJoin GARVEE Business.\nGet volume pricing after approval: 10% off at 50 units, 12% off at 100 and 15% off at 300.\n✓\nBusiness details\n✓\nEIN and business review\n✓\nMember pricing after approval\nBrowse business products →\nNeed a quote first?\nBusiness membership application\n1. Business details\n2. EIN verification\nBusiness details\nFull name *\nWork email *\nLegal business name *\nEnter the name shown on your EIN documentation.\nRegistered business address *\nCity *\nState *\nSelect state\nAL\nAK\nAZ\nAR\nCA\nCO\nCT\nDE\nDC\nFL\nGA\nHI\nID\nIL\nIN\nIA\nKS\nKY\nLA\nME\nMD\nMA\nMI\nMN\nMS\nMO\nMT\nNE\nNV\nNH\nNJ\nNM\nNY\nNC\nND\nOH\nOK\nOR\nPA\nRI\nSC\nSD\nTN\nTX\nUT\nVT\nVA\nWA\nWV\nWI\nWY\nZIP code *\nBusiness website\n(optional)\nContinue to EIN verification\nWe review your business name, address and EIN together before member pricing is activated. Do not send payment or banking information with this application.\nQuick inquiry\nBusiness members"
+}

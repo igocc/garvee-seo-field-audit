@@ -1,0 +1,14 @@
+﻿page,field,value,status,meaning,evidence
+category,ItemList.numberOfItems / ListItem.position,84,已核本次输出长度和连续位置,已加载去重快照；不是总目录/库存,evidence/category.browser.json
+category,Product.offers.price,84,逐卡片同商品 URL 对照渲染价格通过,只核快照，不证明未来价格/库存,evidence/category.browser.json
+product,Product.offers.price,127.99 USD,可见普通价；会员价另为 115.20,不可相互替换；需价格系统实时绑定,evidence/product.browser.json
+product,Product.review,5,5 条可见样本，不是总量,评论与评分聚合口径尚未统一,evidence/product.browser.json
+diy-ideas,ItemList.numberOfItems / ListItem.position,36,已核本次输出长度和连续位置,已加载去重快照；不是总目录/库存,evidence/diy-ideas.browser.json
+blog-list,ItemList.numberOfItems / ListItem.position,12,已核本次输出长度和连续位置,已加载去重快照；不是总目录/库存,evidence/blog-list.browser.json
+article,BlogPosting.wordCount,1693,按正文空白分词已复算,技术计数；非 SEO 最低字数要求,evidence/article.browser.json
+campaign,ItemList.numberOfItems / ListItem.position,204,已核本次输出长度和连续位置,已加载去重快照；不是总目录/库存,evidence/campaign.browser.json
+campaign,Product.offers.price,204,逐卡片同商品 URL 对照渲染价格通过,只核快照，不证明未来价格/库存,evidence/campaign.browser.json
+mygarvees-rewards,MemberProgramTier.membershipPointsEarned,"[{""@type"": ""QuantitativeValue"", ""value"": 1, ""unitText"": ""points per USD spent""}, {""@type"": ""QuantitativeValue"", ""value"": 2, ""unitText"": ""points per USD spent""}, {""@type"": ""QuantitativeValue"", ""value"": 3, ""unitText"": ""points per USD spent""}, {""@type"": ""QuantitativeValue"", ""value"": 5, ""unitText"": ""points per USD spent""}]",逐等级 $1 对应积分文字核对,Bronze/Silver/Gold/Diamond 为1/2/3/5；积分从获取日起滚动有效1年，等级保级周期另需确认,evidence/mygarvees-rewards.browser.json
+warranty-policy,WarrantyPromise.durationOfWarranty,"{""@type"": ""QuantitativeValue"", ""value"": 12, ""unitCode"": ""MON""}",按计划正文保留期限/区间,标准保修12月；延保额外6–12月有资格/条款限制，非每SKU统一期限,evidence/warranty-policy.browser.json
+extended-service-protection,WarrantyPromise.durationOfWarranty,"{""@type"": ""QuantitativeValue"", ""minValue"": 6, ""maxValue"": 12, ""unitCode"": ""MON""}",按计划正文保留期限/区间,标准保修12月；延保额外6–12月有资格/条款限制，非每SKU统一期限,evidence/extended-service-protection.browser.json
+product,AggregateRating 证据冲突（未输出）,"{""displayed"": ""4.77"", ""rendered_review_total"": 200, ""raw_review_total"": 166, ""distribution_implied_mean"": ""4.425""}",源文件SHA一致；加权均值独立复算，不把其当真实数据库均分,当前页面数值彼此不一致；不能任选一组填汇总评分,evidence/product.browser.json

@@ -1,0 +1,17 @@
+{
+  "reconciled": false,
+  "productUrl": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy",
+  "sourceSystem": null,
+  "sourceRecordId": null,
+  "snapshotTime": null,
+  "scopeType": null,
+  "scopeId": null,
+  "groupMembershipVerified": false,
+  "ratingValue": null,
+  "ratingCount": null,
+  "reviewCount": null,
+  "bestRating": 5,
+  "worstRating": 1,
+  "reviewsRequireRating": null,
+  "note": "这是待填输入，不是可上线 JSON-LD。4.77/200/166/星级分布仍未对齐；不得把 5 条抓取评论当总量，也不得把 ratingCount 当去重人数。"
+}

@@ -1,0 +1,770 @@
+[
+  {
+    "page": "about-garvee",
+    "label": "页脚：关于我们",
+    "url": "https://www.garvee.com/pages/about-garvee",
+    "primary_type": "AboutPage",
+    "emitted_types": [
+      "AboutPage",
+      "BreadcrumbList",
+      "ContactPoint",
+      "ImageObject",
+      "ListItem",
+      "MerchantReturnPolicy",
+      "OnlineStore",
+      "OpeningHoursSpecification",
+      "PostalAddress"
+    ],
+    "identity": "完整品牌定义（组织主题页）",
+    "breadcrumbs": [
+      "Home",
+      "About GARVEE"
+    ],
+    "guide_keys": [
+      "breadcrumb",
+      "organization",
+      "return-policy"
+    ],
+    "rendered_evidence": "evidence/about-garvee.browser.json",
+    "capture": "2026-11-04T13:47:58.280Z",
+    "source_sha256": "8a22399a27588a0fb7c5bdda8ad32a8e1a4eaa7a5d0c02a8b7861401ee6fe4b2",
+    "unresolved_fields": [
+      "OnlineStore.legalName / address / hoursAvailable"
+    ]
+  },
+  {
+    "page": "contact",
+    "label": "页脚：联系我们",
+    "url": "https://www.garvee.com/pages/contact",
+    "primary_type": "ContactPage",
+    "emitted_types": [
+      "BreadcrumbList",
+      "ContactPage",
+      "ContactPoint",
+      "ImageObject",
+      "ListItem",
+      "MerchantReturnPolicy",
+      "OnlineStore",
+      "OpeningHoursSpecification",
+      "PostalAddress"
+    ],
+    "identity": "完整品牌定义（组织主题页）",
+    "breadcrumbs": [
+      "Home",
+      "Customer Service"
+    ],
+    "guide_keys": [
+      "breadcrumb",
+      "organization",
+      "return-policy"
+    ],
+    "rendered_evidence": "evidence/contact.browser.json",
+    "capture": "2026-11-05T03:00:20.724Z",
+    "source_sha256": "5ae385254d37c7d67e0c3327944af9f09758f4dac8837be648cd9b65505b9a22",
+    "unresolved_fields": [
+      "OnlineStore.legalName / address / hoursAvailable"
+    ]
+  },
+  {
+    "page": "terms-of-service",
+    "label": "页脚：服务条款",
+    "url": "https://www.garvee.com/policies/terms-of-service",
+    "primary_type": "WebPage",
+    "emitted_types": [
+      "BreadcrumbList",
+      "ListItem",
+      "WebPage"
+    ],
+    "identity": "只按关系引用稳定共享 ID；不完整重复品牌",
+    "breadcrumbs": [
+      "Home",
+      "Terms of Service"
+    ],
+    "guide_keys": [
+      "breadcrumb"
+    ],
+    "rendered_evidence": "evidence/terms-of-service.browser.json",
+    "capture": "2026-11-05T03:02:43.570Z",
+    "source_sha256": "3f9575f630b9e77e8a03cea7a075259922b5b520642e845ee4a2a80b9425d5f5",
+    "unresolved_fields": []
+  },
+  {
+    "page": "privacy-policy",
+    "label": "页脚：隐私政策",
+    "url": "https://www.garvee.com/policies/privacy-policy",
+    "primary_type": "WebPage",
+    "emitted_types": [
+      "BreadcrumbList",
+      "ListItem",
+      "WebPage"
+    ],
+    "identity": "只按关系引用稳定共享 ID；不完整重复品牌",
+    "breadcrumbs": [
+      "Home",
+      "Privacy Policy"
+    ],
+    "guide_keys": [
+      "breadcrumb"
+    ],
+    "rendered_evidence": "evidence/privacy-policy.browser.json",
+    "capture": "2026-11-05T03:03:57.804Z",
+    "source_sha256": "de1ab32d9ab293b245f0dc5734762407ac9836ddba9d8ab1e71dba7c8e9fe4bc",
+    "unresolved_fields": []
+  },
+  {
+    "page": "accessibility-statement",
+    "label": "页脚：无障碍声明",
+    "url": "https://www.garvee.com/pages/accessibility-statement",
+    "primary_type": "WebPage",
+    "emitted_types": [
+      "BreadcrumbList",
+      "ListItem",
+      "WebPage"
+    ],
+    "identity": "只按关系引用稳定共享 ID；不完整重复品牌",
+    "breadcrumbs": [
+      "Home",
+      "Accessibility Statement"
+    ],
+    "guide_keys": [
+      "breadcrumb"
+    ],
+    "rendered_evidence": "evidence/accessibility-statement.browser.json",
+    "capture": "2026-11-04T13:39:08.706Z",
+    "source_sha256": "aae1069e4c3d106b4a76652d8d867c26c6ef0853c1ec4a5a878a1bd19f008c4e",
+    "unresolved_fields": [
+      "accessibilityFeature / accessModeSufficient / conformsTo"
+    ]
+  },
+  {
+    "page": "track-your-order",
+    "label": "页脚：订单查询",
+    "url": "https://www.garvee.com/pages/track-your-order",
+    "primary_type": "WebPage",
+    "emitted_types": [
+      "BreadcrumbList",
+      "ListItem",
+      "Organization",
+      "Service",
+      "WebPage"
+    ],
+    "identity": "精简组织/商店节点，仅本页角色/计划/政策",
+    "breadcrumbs": [
+      "Home",
+      "Track Your Order"
+    ],
+    "guide_keys": [
+      "breadcrumb",
+      "organization"
+    ],
+    "rendered_evidence": "evidence/track-your-order.browser.json",
+    "capture": "2026-11-04T13:47:59.224Z",
+    "source_sha256": "575856a6c78a0093d3892b7d8a5317d6c7cb3f46fa9903ce39be3c9ec4ba6876",
+    "unresolved_fields": [
+      "Order / ParcelDelivery",
+      "ParcelDelivery / Order"
+    ]
+  },
+  {
+    "page": "payments-policy",
+    "label": "页脚：支付政策",
+    "url": "https://www.garvee.com/pages/payments-policy",
+    "primary_type": "WebPage",
+    "emitted_types": [
+      "BreadcrumbList",
+      "ListItem",
+      "OnlineStore",
+      "WebPage"
+    ],
+    "identity": "精简组织/商店节点，仅本页角色/计划/政策",
+    "breadcrumbs": [
+      "Home",
+      "Payments Policy"
+    ],
+    "guide_keys": [
+      "breadcrumb",
+      "organization"
+    ],
+    "rendered_evidence": "evidence/payments-policy.browser.json",
+    "capture": "2026-11-04T13:39:09.319Z",
+    "source_sha256": "c927b9d11a8e181c714d7d7173e42b279d9dd33cdc8a2e8b555baa3f23f30036",
+    "unresolved_fields": []
+  },
+  {
+    "page": "shipping-policy",
+    "label": "页脚：配送政策",
+    "url": "https://www.garvee.com/policies/shipping-policy",
+    "primary_type": "WebPage",
+    "emitted_types": [
+      "BreadcrumbList",
+      "ListItem",
+      "WebPage"
+    ],
+    "identity": "只按关系引用稳定共享 ID；不完整重复品牌",
+    "breadcrumbs": [
+      "Home",
+      "Shipping Policy"
+    ],
+    "guide_keys": [
+      "breadcrumb"
+    ],
+    "rendered_evidence": "evidence/shipping-policy.browser.json",
+    "capture": "2026-11-05T03:08:07.120Z",
+    "source_sha256": "a5c2213961f3f393c204e5da9f8e17467cd494c1468850885673c1526693b5e6",
+    "unresolved_fields": [
+      "ShippingService / OfferShippingDetails.shippingRate / deliveryTime",
+      "ShippingService / OfferShippingDetails"
+    ]
+  },
+  {
+    "page": "warranty-policy",
+    "label": "页脚：保修政策",
+    "url": "https://www.garvee.com/pages/warranty-policy",
+    "primary_type": "WebPage",
+    "emitted_types": [
+      "BreadcrumbList",
+      "ListItem",
+      "QuantitativeValue",
+      "WarrantyPromise",
+      "WebPage"
+    ],
+    "identity": "只按关系引用稳定共享 ID；不完整重复品牌",
+    "breadcrumbs": [
+      "Home",
+      "Warranty Policy"
+    ],
+    "guide_keys": [
+      "breadcrumb",
+      "merchant-listing"
+    ],
+    "rendered_evidence": "evidence/warranty-policy.browser.json",
+    "capture": "2026-11-04T13:39:10.268Z",
+    "source_sha256": "6adf49815322eb4f9e5470f368036205207f364584c34fb5d3c8a5ed106d66e6",
+    "unresolved_fields": []
+  },
+  {
+    "page": "refund-policy",
+    "label": "页脚：退货退款政策",
+    "url": "https://www.garvee.com/policies/refund-policy",
+    "primary_type": "WebPage",
+    "emitted_types": [
+      "BreadcrumbList",
+      "ListItem",
+      "MerchantReturnPolicy",
+      "OnlineStore",
+      "WebPage"
+    ],
+    "identity": "精简组织/商店节点，仅本页角色/计划/政策",
+    "breadcrumbs": [
+      "Home",
+      "Refund Policy"
+    ],
+    "guide_keys": [
+      "breadcrumb",
+      "organization",
+      "return-policy"
+    ],
+    "rendered_evidence": "evidence/refund-policy.browser.json",
+    "capture": "2026-11-05T03:09:53.241Z",
+    "source_sha256": "161f9b090da56430328d30624ca91f92e1dbc84f306b57447ac6710b8378acc4",
+    "unresolved_fields": [
+      "MerchantReturnPolicy / Offer.hasMerchantReturnPolicy",
+      "FAQPage.mainEntity[12].acceptedAnswer.text / 政策退款时效"
+    ]
+  },
+  {
+    "page": "carebox-package-protection",
+    "label": "页脚：包裹保障",
+    "url": "https://www.garvee.com/pages/carebox-package-protection",
+    "primary_type": "WebPage",
+    "emitted_types": [
+      "BreadcrumbList",
+      "ListItem",
+      "Service",
+      "WebPage"
+    ],
+    "identity": "只按关系引用稳定共享 ID；不完整重复品牌",
+    "breadcrumbs": [
+      "Home",
+      "CAREBOX Package Protection"
+    ],
+    "guide_keys": [
+      "breadcrumb"
+    ],
+    "rendered_evidence": "evidence/carebox-package-protection.browser.json",
+    "capture": "2026-11-04T13:39:11.203Z",
+    "source_sha256": "a34eb4c1bd18d5d9f97790a4b4917c97db5fb60f3bd5e5ccbe6c12ebee89a5c4",
+    "unresolved_fields": [
+      "Service.provider / Offer / coverage rules"
+    ]
+  },
+  {
+    "page": "affiliate",
+    "label": "页脚：联盟计划",
+    "url": "https://www.garvee.com/pages/affiliate",
+    "primary_type": "WebPage",
+    "emitted_types": [
+      "Answer",
+      "Organization",
+      "Question",
+      "Service",
+      "WebPage",
+      "WebPageElement"
+    ],
+    "identity": "精简组织/商店节点，仅本页角色/计划/政策",
+    "breadcrumbs": [],
+    "guide_keys": [
+      "faq",
+      "organization"
+    ],
+    "rendered_evidence": "evidence/affiliate.browser.json",
+    "capture": "2026-11-04T13:48:00.058Z",
+    "source_sha256": "2e694674e544bef4ae52530752d644aee1aca4605f71f39a5cd341bc902a2c29",
+    "unresolved_fields": [
+      "Service/Offer.commission terms"
+    ]
+  },
+  {
+    "page": "influencer-program",
+    "label": "页脚：达人合作",
+    "url": "https://www.garvee.com/pages/influencer-program",
+    "primary_type": "WebPage",
+    "emitted_types": [
+      "Answer",
+      "Organization",
+      "Question",
+      "Service",
+      "WebPage",
+      "WebPageElement"
+    ],
+    "identity": "精简组织/商店节点，仅本页角色/计划/政策",
+    "breadcrumbs": [],
+    "guide_keys": [
+      "faq",
+      "organization"
+    ],
+    "rendered_evidence": "evidence/influencer-program.browser.json",
+    "capture": "2026-11-04T13:48:00.802Z",
+    "source_sha256": "22ecfcc76072cc67296067996fea74b32d270e46d5b243708d392bf0c3e4db01",
+    "unresolved_fields": [
+      "Service/Offer.commission terms"
+    ]
+  },
+  {
+    "page": "share-and-win",
+    "label": "页脚：分享有奖",
+    "url": "https://www.garvee.com/pages/share-and-win",
+    "primary_type": "WebPage",
+    "emitted_types": [
+      "Answer",
+      "Question",
+      "WebPage",
+      "WebPageElement"
+    ],
+    "identity": "只按关系引用稳定共享 ID；不完整重复品牌",
+    "breadcrumbs": [],
+    "guide_keys": [
+      "faq"
+    ],
+    "rendered_evidence": "evidence/share-and-win.browser.json",
+    "capture": "2026-11-04T13:39:12.707Z",
+    "source_sha256": "10eb8677b0cd779bda69edc80b9f8f4e19da6e02a43f724c2b24840a108d9987",
+    "unresolved_fields": [
+      "Offer / monetary reward / validFrom / validThrough",
+      "Offer / monetary reward"
+    ]
+  },
+  {
+    "page": "mygarvees-rewards",
+    "label": "页脚：会员积分",
+    "url": "https://www.garvee.com/pages/mygarvees-rewards",
+    "primary_type": "WebPage",
+    "emitted_types": [
+      "Answer",
+      "MemberProgram",
+      "MemberProgramTier",
+      "OnlineStore",
+      "QuantitativeValue",
+      "Question",
+      "WebPage",
+      "WebPageElement"
+    ],
+    "identity": "精简组织/商店节点，仅本页角色/计划/政策",
+    "breadcrumbs": [],
+    "guide_keys": [
+      "faq",
+      "loyalty-program",
+      "merchant-listing",
+      "organization"
+    ],
+    "rendered_evidence": "evidence/mygarvees-rewards.browser.json",
+    "capture": "2026-11-04T13:39:11.938Z",
+    "source_sha256": "e595ab6184a72b0a7a639fb8727be7dfd63f7855f968c2691c8f3e555a726d39",
+    "unresolved_fields": [
+      "MemberProgramTier.hasTierRequirement",
+      "MemberProgramTier → Offer.validForMemberTier"
+    ]
+  },
+  {
+    "page": "extended-service-protection",
+    "label": "页脚：延长保障",
+    "url": "https://www.garvee.com/pages/extended-service-protection",
+    "primary_type": "WebPage",
+    "emitted_types": [
+      "BreadcrumbList",
+      "ListItem",
+      "Organization",
+      "QuantitativeValue",
+      "Service",
+      "WarrantyPromise",
+      "WebPage"
+    ],
+    "identity": "精简组织/商店节点，仅本页角色/计划/政策",
+    "breadcrumbs": [
+      "Home",
+      "Extended Service Protection"
+    ],
+    "guide_keys": [
+      "breadcrumb",
+      "merchant-listing",
+      "organization"
+    ],
+    "rendered_evidence": "evidence/extended-service-protection.browser.json",
+    "capture": "2026-11-04T13:48:01.510Z",
+    "source_sha256": "981bb69fb85021d91fdf4b9186537200be6d9ca54295da1f0fcb4b7444b5a2b3",
+    "unresolved_fields": [
+      "WarrantyPromise.durationOfWarranty / eligible scope"
+    ]
+  },
+  {
+    "page": "business",
+    "label": "页脚：批发业务",
+    "url": "https://www.garvee.com/pages/business",
+    "primary_type": "WebPage",
+    "emitted_types": [
+      "Answer",
+      "Organization",
+      "Question",
+      "Service",
+      "WebPage",
+      "WebPageElement"
+    ],
+    "identity": "精简组织/商店节点，仅本页角色/计划/政策",
+    "breadcrumbs": [],
+    "guide_keys": [
+      "faq",
+      "organization"
+    ],
+    "rendered_evidence": "evidence/business.browser.json",
+    "capture": "2026-11-04T13:48:02.241Z",
+    "source_sha256": "9b7711015189a10a4b22cd998262f9b58fd33d0353014dd23a7082e28851524f",
+    "unresolved_fields": [
+      "Offer / eligibleQuantity / PriceSpecification"
+    ]
+  },
+  {
+    "page": "help-center",
+    "label": "页脚：帮助中心",
+    "url": "https://support.garvee.com/",
+    "primary_type": "WebPage",
+    "emitted_types": [
+      "Organization",
+      "Service",
+      "WebPage",
+      "WebSite"
+    ],
+    "identity": "精简组织/商店节点，仅本页角色/计划/政策",
+    "breadcrumbs": [],
+    "guide_keys": [
+      "organization",
+      "site-names"
+    ],
+    "rendered_evidence": "evidence/help-center.browser.json",
+    "capture": "2026-11-04T13:46:02.813Z",
+    "source_sha256": "1c53fc4d111516d0c5c648fb56de393259e920d3cb26c3a0cf100d62a3ace720",
+    "unresolved_fields": [
+      "WebPage.url / canonical / support catalog"
+    ]
+  },
+  {
+    "page": "category",
+    "label": "类目样本",
+    "url": "https://www.garvee.com/collections/rugs",
+    "primary_type": "CollectionPage",
+    "emitted_types": [
+      "Answer",
+      "CollectionPage",
+      "ItemList",
+      "ListItem",
+      "Offer",
+      "Product",
+      "Question",
+      "WebPageElement"
+    ],
+    "identity": "只按关系引用稳定共享 ID；不完整重复品牌",
+    "breadcrumbs": [],
+    "guide_keys": [
+      "carousel",
+      "faq",
+      "merchant-listing"
+    ],
+    "rendered_evidence": "evidence/category.browser.json",
+    "capture": "2026-11-04T13:48:13.067Z",
+    "source_sha256": "05c174d6edc6c1f77862f9e3cabe63950ab2fa5acf0be32e38983c4ef877f39c",
+    "unresolved_fields": [
+      "Product.offers.seller",
+      "Product.name（Google 历史非严重长度建议）",
+      "ShippingService / OfferShippingDetails.shippingRate / deliveryTime",
+      "BreadcrumbList",
+      "ItemList.numberOfItems / inventory total",
+      "Offer.seller",
+      "Product card availability / sku / GTIN / aggregateRating"
+    ]
+  },
+  {
+    "page": "product",
+    "label": "商品详情及评论模块",
+    "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy",
+    "primary_type": "ItemPage",
+    "emitted_types": [
+      "Brand",
+      "BreadcrumbList",
+      "ItemPage",
+      "ListItem",
+      "Offer",
+      "Person",
+      "Product",
+      "PropertyValue",
+      "QuantitativeValue",
+      "Rating",
+      "Review"
+    ],
+    "identity": "只按关系引用稳定共享 ID；不完整重复品牌",
+    "breadcrumbs": [
+      "Home",
+      "Rugs",
+      "Area Rugs",
+      "Bordered Rugs"
+    ],
+    "guide_keys": [
+      "article",
+      "breadcrumb",
+      "merchant-listing",
+      "review-snippet"
+    ],
+    "rendered_evidence": "evidence/product.browser.json",
+    "capture": "2026-11-04T13:42:01.542Z",
+    "source_sha256": "8dd42956703a67e94b04cdb47786b828cfc41477cacf81c47fb32c40d5f3cf81",
+    "unresolved_fields": [
+      "Product.aggregateRating.ratingValue",
+      "Product.aggregateRating.ratingCount",
+      "Product.aggregateRating.reviewCount",
+      "AggregateRating.bestRating / worstRating / aggregation scope",
+      "非 Schema 的 uniqueReviewerCount",
+      "ProductGroup.productGroupID / hasVariant / variesBy",
+      "Product.gtin / mpn / itemCondition",
+      "Product.offers.seller",
+      "Product.name（Google 历史非严重长度建议）",
+      "Offer.priceSpecification / validForMemberTier",
+      "Offer.priceSpecification.membershipPointsEarned",
+      "Product.additionalProperty[Weave Type] / weight scope",
+      "Product.review[].itemReviewed",
+      "QAPage / Question",
+      "ShippingService / OfferShippingDetails.shippingRate / deliveryTime",
+      "MerchantReturnPolicy / Offer.hasMerchantReturnPolicy",
+      "Offer.seller / itemCondition",
+      "Offer.priceSpecification / validForMemberTier / membershipPointsEarned",
+      "AggregateRating",
+      "ProductGroup / variesBy / hasVariant",
+      "gtin / mpn / priceValidUntil / shippingDetails",
+      "Weave Type",
+      "QAPage / Question / Answer"
+    ]
+  },
+  {
+    "page": "product-reviews",
+    "label": "独立评论页",
+    "url": "https://www.garvee.com/pages/product-reviews",
+    "primary_type": "CollectionPage",
+    "emitted_types": [
+      "BreadcrumbList",
+      "CollectionPage",
+      "ListItem"
+    ],
+    "identity": "只按关系引用稳定共享 ID；不完整重复品牌",
+    "breadcrumbs": [
+      "Home",
+      "Product Reviews"
+    ],
+    "guide_keys": [
+      "breadcrumb"
+    ],
+    "rendered_evidence": "evidence/product-reviews.browser.json",
+    "capture": "2026-11-04T13:45:59.777Z",
+    "source_sha256": "ba2687e6b5b0f2e09fb6de983cc3bcd90d43a0a1b7b010cd4bac153721b7bee2",
+    "unresolved_fields": [
+      "Review / AggregateRating / itemReviewed",
+      "Review / AggregateRating / ItemList"
+    ]
+  },
+  {
+    "page": "faqs",
+    "label": "官方问答页",
+    "url": "https://www.garvee.com/pages/faqs",
+    "primary_type": "FAQPage",
+    "emitted_types": [
+      "Answer",
+      "BreadcrumbList",
+      "FAQPage",
+      "ListItem",
+      "Question"
+    ],
+    "identity": "只按关系引用稳定共享 ID；不完整重复品牌",
+    "breadcrumbs": [
+      "Home",
+      "Help & FAQs"
+    ],
+    "guide_keys": [
+      "breadcrumb",
+      "faq"
+    ],
+    "rendered_evidence": "evidence/faqs.browser.json",
+    "capture": "2026-11-04T13:39:39.023Z",
+    "source_sha256": "598a5997bda7956d14905d4221ad9cfa66da401177856b73fa3a533cdcfe9fa7",
+    "unresolved_fields": [
+      "ShippingService / OfferShippingDetails.shippingRate / deliveryTime",
+      "FAQPage.mainEntity[12].acceptedAnswer.text / 政策退款时效",
+      "FAQ 业务事实一致性"
+    ]
+  },
+  {
+    "page": "diy-ideas",
+    "label": "博客首页／内容聚合",
+    "url": "https://www.garvee.com/pages/diy-ideas",
+    "primary_type": "CollectionPage",
+    "emitted_types": [
+      "BlogPosting",
+      "CollectionPage",
+      "ItemList",
+      "ListItem",
+      "Organization"
+    ],
+    "identity": "精简组织/商店节点，仅本页角色/计划/政策",
+    "breadcrumbs": [],
+    "guide_keys": [
+      "article",
+      "carousel",
+      "organization"
+    ],
+    "rendered_evidence": "evidence/diy-ideas.browser.json",
+    "capture": "2026-11-04T13:37:45.562Z",
+    "source_sha256": "d07cb24a696087496edddc371cb0d33cc939683e8f6b7853bada0592973721d9",
+    "unresolved_fields": [
+      "BlogPosting.author / author.url",
+      "Article card author / dateModified"
+    ]
+  },
+  {
+    "page": "blog-list",
+    "label": "博客列表",
+    "url": "https://www.garvee.com/blogs/buying-guides",
+    "primary_type": "CollectionPage",
+    "emitted_types": [
+      "Blog",
+      "BlogPosting",
+      "BreadcrumbList",
+      "CollectionPage",
+      "ItemList",
+      "ListItem",
+      "Organization"
+    ],
+    "identity": "精简组织/商店节点，仅本页角色/计划/政策",
+    "breadcrumbs": [
+      "Home",
+      "Buying Guides"
+    ],
+    "guide_keys": [
+      "article",
+      "breadcrumb",
+      "carousel",
+      "organization"
+    ],
+    "rendered_evidence": "evidence/blog-list.browser.json",
+    "capture": "2026-11-04T13:39:37.911Z",
+    "source_sha256": "134381511736ba73c4299129baca146ee6602fa8e029e70bc56ce08187ec05ef",
+    "unresolved_fields": [
+      "BlogPosting.author / author.url",
+      "Article card author / dateModified"
+    ]
+  },
+  {
+    "page": "article",
+    "label": "博客文章",
+    "url": "https://www.garvee.com/blogs/buying-guides/everything-you-need-to-know-about-rug-sizes-and-placement",
+    "primary_type": "WebPage",
+    "emitted_types": [
+      "Blog",
+      "BlogPosting",
+      "BreadcrumbList",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "VideoObject",
+      "WebPage"
+    ],
+    "identity": "精简组织/商店节点，仅本页角色/计划/政策",
+    "breadcrumbs": [
+      "Home",
+      "Buying Guides",
+      "Everything You Need to Know About Rug Sizes and Placement"
+    ],
+    "guide_keys": [
+      "article",
+      "breadcrumb",
+      "organization",
+      "video"
+    ],
+    "rendered_evidence": "evidence/article.browser.json",
+    "capture": "2026-11-04T13:37:44.742Z",
+    "source_sha256": "1648152f88ddac9fbea2b469a4a7a33764b7046613cf807e877ae9f71599756f",
+    "unresolved_fields": [
+      "BlogPosting.author.name / author.url",
+      "BlogPosting.dateModified",
+      "VideoObject 的独立视频索引资格",
+      "author.name / author.url / dateModified"
+    ]
+  },
+  {
+    "page": "campaign",
+    "label": "活动／专题页",
+    "url": "https://www.garvee.com/pages/activity-fall-home-sale",
+    "primary_type": "CollectionPage",
+    "emitted_types": [
+      "CollectionPage",
+      "ItemList",
+      "ListItem",
+      "Offer",
+      "Product",
+      "WebPageElement"
+    ],
+    "identity": "只按关系引用稳定共享 ID；不完整重复品牌",
+    "breadcrumbs": [],
+    "guide_keys": [
+      "carousel",
+      "merchant-listing"
+    ],
+    "rendered_evidence": "evidence/campaign.browser.json",
+    "capture": "2026-11-04T13:45:58.124Z",
+    "source_sha256": "a8cf0255efe1d2e71af9b60365950a6f158455fbf904af4255979e034f64c770",
+    "unresolved_fields": [
+      "Product.offers.seller",
+      "Product.name（Google 历史非严重长度建议）",
+      "ShippingService / OfferShippingDetails.shippingRate / deliveryTime",
+      "Offer.priceValidUntil / Event",
+      "ItemList.numberOfItems / inventory total",
+      "Offer.seller",
+      "Product card availability / sku / GTIN / aggregateRating",
+      "Offer.validFrom / validThrough / discount conditions"
+    ]
+  }
+]

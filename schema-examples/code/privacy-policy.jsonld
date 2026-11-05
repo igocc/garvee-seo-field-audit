@@ -1,0 +1,41 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.garvee.com/policies/privacy-policy#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.garvee.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Privacy Policy",
+          "item": "https://www.garvee.com/policies/privacy-policy"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.garvee.com/policies/privacy-policy#webpage",
+      "url": "https://www.garvee.com/policies/privacy-policy",
+      "name": "Privacy Policy - GARVEE - GARVEE",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://www.garvee.com/#website"
+      },
+      "description": "GARVEE Privacy Policy",
+      "dateModified": "2026-09-09",
+      "breadcrumb": {
+        "@id": "https://www.garvee.com/policies/privacy-policy#breadcrumb"
+      },
+      "about": {
+        "@id": "https://www.garvee.com/#organization"
+      }
+    }
+  ]
+}

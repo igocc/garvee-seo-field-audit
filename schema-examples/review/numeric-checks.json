@@ -1,0 +1,141 @@
+[
+  {
+    "page": "category",
+    "field": "ItemList.numberOfItems / ListItem.position",
+    "value": 84,
+    "status": "已核本次输出长度和连续位置",
+    "meaning": "已加载去重快照；不是总目录/库存",
+    "evidence": "evidence/category.browser.json"
+  },
+  {
+    "page": "category",
+    "field": "Product.offers.price",
+    "value": 84,
+    "status": "逐卡片同商品 URL 对照渲染价格通过",
+    "meaning": "只核快照，不证明未来价格/库存",
+    "evidence": "evidence/category.browser.json"
+  },
+  {
+    "page": "product",
+    "field": "Product.offers.price",
+    "value": "127.99 USD",
+    "status": "可见普通价；会员价另为 115.20",
+    "meaning": "不可相互替换；需价格系统实时绑定",
+    "evidence": "evidence/product.browser.json"
+  },
+  {
+    "page": "product",
+    "field": "Product.review",
+    "value": 5,
+    "status": "5 条可见样本，不是总量",
+    "meaning": "评论与评分聚合口径尚未统一",
+    "evidence": "evidence/product.browser.json"
+  },
+  {
+    "page": "diy-ideas",
+    "field": "ItemList.numberOfItems / ListItem.position",
+    "value": 36,
+    "status": "已核本次输出长度和连续位置",
+    "meaning": "已加载去重快照；不是总目录/库存",
+    "evidence": "evidence/diy-ideas.browser.json"
+  },
+  {
+    "page": "blog-list",
+    "field": "ItemList.numberOfItems / ListItem.position",
+    "value": 12,
+    "status": "已核本次输出长度和连续位置",
+    "meaning": "已加载去重快照；不是总目录/库存",
+    "evidence": "evidence/blog-list.browser.json"
+  },
+  {
+    "page": "article",
+    "field": "BlogPosting.wordCount",
+    "value": 1693,
+    "status": "按正文空白分词已复算",
+    "meaning": "技术计数；非 SEO 最低字数要求",
+    "evidence": "evidence/article.browser.json"
+  },
+  {
+    "page": "campaign",
+    "field": "ItemList.numberOfItems / ListItem.position",
+    "value": 204,
+    "status": "已核本次输出长度和连续位置",
+    "meaning": "已加载去重快照；不是总目录/库存",
+    "evidence": "evidence/campaign.browser.json"
+  },
+  {
+    "page": "campaign",
+    "field": "Product.offers.price",
+    "value": 204,
+    "status": "逐卡片同商品 URL 对照渲染价格通过",
+    "meaning": "只核快照，不证明未来价格/库存",
+    "evidence": "evidence/campaign.browser.json"
+  },
+  {
+    "page": "mygarvees-rewards",
+    "field": "MemberProgramTier.membershipPointsEarned",
+    "value": [
+      {
+        "@type": "QuantitativeValue",
+        "value": 1,
+        "unitText": "points per USD spent"
+      },
+      {
+        "@type": "QuantitativeValue",
+        "value": 2,
+        "unitText": "points per USD spent"
+      },
+      {
+        "@type": "QuantitativeValue",
+        "value": 3,
+        "unitText": "points per USD spent"
+      },
+      {
+        "@type": "QuantitativeValue",
+        "value": 5,
+        "unitText": "points per USD spent"
+      }
+    ],
+    "status": "逐等级 $1 对应积分文字核对",
+    "meaning": "Bronze/Silver/Gold/Diamond 为1/2/3/5；积分从获取日起滚动有效1年，等级保级周期另需确认",
+    "evidence": "evidence/mygarvees-rewards.browser.json"
+  },
+  {
+    "page": "warranty-policy",
+    "field": "WarrantyPromise.durationOfWarranty",
+    "value": {
+      "@type": "QuantitativeValue",
+      "value": 12,
+      "unitCode": "MON"
+    },
+    "status": "按计划正文保留期限/区间",
+    "meaning": "标准保修12月；延保额外6–12月有资格/条款限制，非每SKU统一期限",
+    "evidence": "evidence/warranty-policy.browser.json"
+  },
+  {
+    "page": "extended-service-protection",
+    "field": "WarrantyPromise.durationOfWarranty",
+    "value": {
+      "@type": "QuantitativeValue",
+      "minValue": 6,
+      "maxValue": 12,
+      "unitCode": "MON"
+    },
+    "status": "按计划正文保留期限/区间",
+    "meaning": "标准保修12月；延保额外6–12月有资格/条款限制，非每SKU统一期限",
+    "evidence": "evidence/extended-service-protection.browser.json"
+  },
+  {
+    "page": "product",
+    "field": "AggregateRating 证据冲突（未输出）",
+    "value": {
+      "displayed": "4.77",
+      "rendered_review_total": 200,
+      "raw_review_total": 166,
+      "distribution_implied_mean": "4.425"
+    },
+    "status": "源文件SHA一致；加权均值独立复算，不把其当真实数据库均分",
+    "meaning": "当前页面数值彼此不一致；不能任选一组填汇总评分",
+    "evidence": "evidence/product.browser.json"
+  }
+]

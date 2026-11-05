@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.garvee.com/pages/carebox-package-protection#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.garvee.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "CAREBOX Package Protection",
+          "item": "https://www.garvee.com/pages/carebox-package-protection"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.garvee.com/pages/carebox-package-protection#service",
+      "name": "CAREBOX Package Protection",
+      "url": "https://www.garvee.com/pages/carebox-package-protection",
+      "serviceType": "CAREBOX Package Protection"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.garvee.com/pages/carebox-package-protection#webpage",
+      "url": "https://www.garvee.com/pages/carebox-package-protection",
+      "name": "Carebox Package Protection - GARVEE",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://www.garvee.com/#website"
+      },
+      "breadcrumb": {
+        "@id": "https://www.garvee.com/pages/carebox-package-protection#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://www.garvee.com/pages/carebox-package-protection#service"
+      }
+    }
+  ]
+}

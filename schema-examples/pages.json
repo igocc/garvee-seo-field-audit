@@ -1,0 +1,800 @@
+[
+  {
+    "key": "about-garvee",
+    "label": "页脚：关于我们",
+    "url": "https://www.garvee.com/pages/about-garvee",
+    "canonical": "https://www.garvee.com/pages/about-garvee",
+    "page_type": "AboutPage",
+    "types": [
+      "AboutPage",
+      "BreadcrumbList",
+      "ContactPoint",
+      "ImageObject",
+      "ListItem",
+      "MerchantReturnPolicy",
+      "OnlineStore",
+      "OpeningHoursSpecification",
+      "PostalAddress"
+    ],
+    "capture": "2026-11-04T13:34:30.252554+00:00",
+    "rendered_capture": "2026-11-04T13:47:58.280Z",
+    "identity_policy": "完整品牌仅组织介绍/联系页；政策和会员页保留其所属组织；其他页按publisher/provider角色使用精简身份或只引用稳定ID。WebSite完整定义在站点首页。",
+    "evidence": "evidence/about-garvee.json",
+    "browser_evidence": "evidence/about-garvee.browser.json",
+    "html": "code/about-garvee.html",
+    "snippet": "code/about-garvee.snippet.html",
+    "jsonld": "code/about-garvee.jsonld",
+    "sha256": "bf06bad398c46b4fa3197543e2f6319a61a8724c656f63353cd796762c504f71",
+    "content_length": 2864,
+    "gaps": []
+  },
+  {
+    "key": "contact",
+    "label": "页脚：联系我们",
+    "url": "https://www.garvee.com/pages/contact",
+    "canonical": "https://www.garvee.com/pages/contact",
+    "page_type": "ContactPage",
+    "types": [
+      "BreadcrumbList",
+      "ContactPage",
+      "ContactPoint",
+      "ImageObject",
+      "ListItem",
+      "MerchantReturnPolicy",
+      "OnlineStore",
+      "OpeningHoursSpecification",
+      "PostalAddress"
+    ],
+    "capture": "2026-11-04T13:34:35.341975+00:00",
+    "rendered_capture": "2026-11-05T03:00:20.724Z",
+    "identity_policy": "完整品牌仅组织介绍/联系页；政策和会员页保留其所属组织；其他页按publisher/provider角色使用精简身份或只引用稳定ID。WebSite完整定义在站点首页。",
+    "evidence": "evidence/contact.json",
+    "browser_evidence": "evidence/contact.browser.json",
+    "html": "code/contact.html",
+    "snippet": "code/contact.snippet.html",
+    "jsonld": "code/contact.jsonld",
+    "sha256": "5ee0c47ab76465eed583fa213687965982f1dd122c436a4e5adcc90d3acc81be",
+    "content_length": 1496,
+    "gaps": []
+  },
+  {
+    "key": "terms-of-service",
+    "label": "页脚：服务条款",
+    "url": "https://www.garvee.com/policies/terms-of-service",
+    "canonical": "https://www.garvee.com/policies/terms-of-service",
+    "page_type": "WebPage",
+    "types": [
+      "BreadcrumbList",
+      "ListItem",
+      "WebPage"
+    ],
+    "capture": "2026-11-04T13:34:30.252928+00:00",
+    "rendered_capture": "2026-11-05T03:02:43.570Z",
+    "identity_policy": "完整品牌仅组织介绍/联系页；政策和会员页保留其所属组织；其他页按publisher/provider角色使用精简身份或只引用稳定ID。WebSite完整定义在站点首页。",
+    "evidence": "evidence/terms-of-service.json",
+    "browser_evidence": "evidence/terms-of-service.browser.json",
+    "html": "code/terms-of-service.html",
+    "snippet": "code/terms-of-service.snippet.html",
+    "jsonld": "code/terms-of-service.jsonld",
+    "sha256": "daae1d4dcb993190e863b548292149f791818ad9998174bdaf6c2793202003d9",
+    "content_length": 36876,
+    "gaps": []
+  },
+  {
+    "key": "privacy-policy",
+    "label": "页脚：隐私政策",
+    "url": "https://www.garvee.com/policies/privacy-policy",
+    "canonical": "https://www.garvee.com/policies/privacy-policy",
+    "page_type": "WebPage",
+    "types": [
+      "BreadcrumbList",
+      "ListItem",
+      "WebPage"
+    ],
+    "capture": "2026-11-04T13:34:31.623366+00:00",
+    "rendered_capture": "2026-11-05T03:03:57.804Z",
+    "identity_policy": "完整品牌仅组织介绍/联系页；政策和会员页保留其所属组织；其他页按publisher/provider角色使用精简身份或只引用稳定ID。WebSite完整定义在站点首页。",
+    "evidence": "evidence/privacy-policy.json",
+    "browser_evidence": "evidence/privacy-policy.browser.json",
+    "html": "code/privacy-policy.html",
+    "snippet": "code/privacy-policy.snippet.html",
+    "jsonld": "code/privacy-policy.jsonld",
+    "sha256": "837b9bcd3bc60bf66f9876018a1d962f2ad1e5f362110e08bbab9deb8317b2eb",
+    "content_length": 20564,
+    "gaps": []
+  },
+  {
+    "key": "accessibility-statement",
+    "label": "页脚：无障碍声明",
+    "url": "https://www.garvee.com/pages/accessibility-statement",
+    "canonical": "https://www.garvee.com/pages/accessibility-statement",
+    "page_type": "WebPage",
+    "types": [
+      "BreadcrumbList",
+      "ListItem",
+      "WebPage"
+    ],
+    "capture": "2026-11-04T13:34:31.638281+00:00",
+    "rendered_capture": "2026-11-04T13:39:08.706Z",
+    "identity_policy": "完整品牌仅组织介绍/联系页；政策和会员页保留其所属组织；其他页按publisher/provider角色使用精简身份或只引用稳定ID。WebSite完整定义在站点首页。",
+    "evidence": "evidence/accessibility-statement.json",
+    "browser_evidence": "evidence/accessibility-statement.browser.json",
+    "html": "code/accessibility-statement.html",
+    "snippet": "code/accessibility-statement.snippet.html",
+    "jsonld": "code/accessibility-statement.jsonld",
+    "sha256": "5d2a6b13ce21c3fb0e8a8383a9ee4ecfa2840347deae758081f5476570376963",
+    "content_length": 3503,
+    "gaps": []
+  },
+  {
+    "key": "track-your-order",
+    "label": "页脚：订单查询",
+    "url": "https://www.garvee.com/pages/track-your-order",
+    "canonical": "https://www.garvee.com/pages/track-your-order",
+    "page_type": "WebPage",
+    "types": [
+      "BreadcrumbList",
+      "ListItem",
+      "Organization",
+      "Service",
+      "WebPage"
+    ],
+    "capture": "2026-11-04T13:34:31.666182+00:00",
+    "rendered_capture": "2026-11-04T13:47:59.224Z",
+    "identity_policy": "完整品牌仅组织介绍/联系页；政策和会员页保留其所属组织；其他页按publisher/provider角色使用精简身份或只引用稳定ID。WebSite完整定义在站点首页。",
+    "evidence": "evidence/track-your-order.json",
+    "browser_evidence": "evidence/track-your-order.browser.json",
+    "html": "code/track-your-order.html",
+    "snippet": "code/track-your-order.snippet.html",
+    "jsonld": "code/track-your-order.jsonld",
+    "sha256": "6b6146bb1cc5ecca3ca89d860a6724652749843c395e28c89bbbd914d992bd68",
+    "content_length": 85,
+    "gaps": [
+      {
+        "page": "track-your-order",
+        "field": "ParcelDelivery / Order",
+        "reason": "公共查询页没有具体订单或包裹事实。",
+        "requirement": "仅在受保护的真实订单上下文中生成；公共页不得放客户订单、地址或跟踪编号。"
+      }
+    ]
+  },
+  {
+    "key": "payments-policy",
+    "label": "页脚：支付政策",
+    "url": "https://www.garvee.com/pages/payments-policy",
+    "canonical": "https://www.garvee.com/pages/payments-policy",
+    "page_type": "WebPage",
+    "types": [
+      "BreadcrumbList",
+      "ListItem",
+      "OnlineStore",
+      "WebPage"
+    ],
+    "capture": "2026-11-04T13:34:32.994142+00:00",
+    "rendered_capture": "2026-11-04T13:39:09.319Z",
+    "identity_policy": "完整品牌仅组织介绍/联系页；政策和会员页保留其所属组织；其他页按publisher/provider角色使用精简身份或只引用稳定ID。WebSite完整定义在站点首页。",
+    "evidence": "evidence/payments-policy.json",
+    "browser_evidence": "evidence/payments-policy.browser.json",
+    "html": "code/payments-policy.html",
+    "snippet": "code/payments-policy.snippet.html",
+    "jsonld": "code/payments-policy.jsonld",
+    "sha256": "d3646f1fe22300fe676c17f54babc74822d81d42bb18b181f2daf0d303959a5f",
+    "content_length": 2547,
+    "gaps": []
+  },
+  {
+    "key": "shipping-policy",
+    "label": "页脚：配送政策",
+    "url": "https://www.garvee.com/policies/shipping-policy",
+    "canonical": "https://www.garvee.com/policies/shipping-policy",
+    "page_type": "WebPage",
+    "types": [
+      "BreadcrumbList",
+      "ListItem",
+      "WebPage"
+    ],
+    "capture": "2026-11-04T13:34:33.934464+00:00",
+    "rendered_capture": "2026-11-05T03:08:07.120Z",
+    "identity_policy": "完整品牌仅组织介绍/联系页；政策和会员页保留其所属组织；其他页按publisher/provider角色使用精简身份或只引用稳定ID。WebSite完整定义在站点首页。",
+    "evidence": "evidence/shipping-policy.json",
+    "browser_evidence": "evidence/shipping-policy.browser.json",
+    "html": "code/shipping-policy.html",
+    "snippet": "code/shipping-policy.snippet.html",
+    "jsonld": "code/shipping-policy.jsonld",
+    "sha256": "09fc4d07b7234adaeb91fe0edce76ba8f77a9f2ec58f7f832d45371edf765423",
+    "content_length": 6689,
+    "gaps": [
+      {
+        "page": "shipping-policy",
+        "field": "ShippingService / OfferShippingDetails",
+        "reason": "同页卡车运输 7–10 与 10–15 工作日冲突；缺完整费率条件。",
+        "requirement": "统一时效并提供真实费率、目的地和例外后才生成详细运输模型。"
+      }
+    ]
+  },
+  {
+    "key": "warranty-policy",
+    "label": "页脚：保修政策",
+    "url": "https://www.garvee.com/pages/warranty-policy",
+    "canonical": "https://www.garvee.com/pages/warranty-policy",
+    "page_type": "WebPage",
+    "types": [
+      "BreadcrumbList",
+      "ListItem",
+      "QuantitativeValue",
+      "WarrantyPromise",
+      "WebPage"
+    ],
+    "capture": "2026-11-04T13:34:33.963372+00:00",
+    "rendered_capture": "2026-11-04T13:39:10.268Z",
+    "identity_policy": "完整品牌仅组织介绍/联系页；政策和会员页保留其所属组织；其他页按publisher/provider角色使用精简身份或只引用稳定ID。WebSite完整定义在站点首页。",
+    "evidence": "evidence/warranty-policy.json",
+    "browser_evidence": "evidence/warranty-policy.browser.json",
+    "html": "code/warranty-policy.html",
+    "snippet": "code/warranty-policy.snippet.html",
+    "jsonld": "code/warranty-policy.jsonld",
+    "sha256": "95259beabbaeac0cf0f529c501f5db0d8fd6c9cb76e7ae64e6ae8b00c0162a47",
+    "content_length": 3891,
+    "gaps": []
+  },
+  {
+    "key": "refund-policy",
+    "label": "页脚：退货退款政策",
+    "url": "https://www.garvee.com/policies/refund-policy",
+    "canonical": "https://www.garvee.com/policies/refund-policy",
+    "page_type": "WebPage",
+    "types": [
+      "BreadcrumbList",
+      "ListItem",
+      "MerchantReturnPolicy",
+      "OnlineStore",
+      "WebPage"
+    ],
+    "capture": "2026-11-04T13:34:34.307666+00:00",
+    "rendered_capture": "2026-11-05T03:09:53.241Z",
+    "identity_policy": "完整品牌仅组织介绍/联系页；政策和会员页保留其所属组织；其他页按publisher/provider角色使用精简身份或只引用稳定ID。WebSite完整定义在站点首页。",
+    "evidence": "evidence/refund-policy.json",
+    "browser_evidence": "evidence/refund-policy.browser.json",
+    "html": "code/refund-policy.html",
+    "snippet": "code/refund-policy.snippet.html",
+    "jsonld": "code/refund-policy.jsonld",
+    "sha256": "73a9dfe7836f06c17ac3a6d9e1f3984e728f2418c290126466d0525e4a5da638",
+    "content_length": 7143,
+    "gaps": []
+  },
+  {
+    "key": "carebox-package-protection",
+    "label": "页脚：包裹保障",
+    "url": "https://www.garvee.com/pages/carebox-package-protection",
+    "canonical": "https://www.garvee.com/pages/carebox-package-protection",
+    "page_type": "WebPage",
+    "types": [
+      "BreadcrumbList",
+      "ListItem",
+      "Service",
+      "WebPage"
+    ],
+    "capture": "2026-11-04T13:34:35.326531+00:00",
+    "rendered_capture": "2026-11-04T13:39:11.203Z",
+    "identity_policy": "完整品牌仅组织介绍/联系页；政策和会员页保留其所属组织；其他页按publisher/provider角色使用精简身份或只引用稳定ID。WebSite完整定义在站点首页。",
+    "evidence": "evidence/carebox-package-protection.json",
+    "browser_evidence": "evidence/carebox-package-protection.browser.json",
+    "html": "code/carebox-package-protection.html",
+    "snippet": "code/carebox-package-protection.snippet.html",
+    "jsonld": "code/carebox-package-protection.jsonld",
+    "sha256": "d9a559b956c83c51b7ea0edf81a98c4d0731d98cb805cc622ba7a139791b0cca",
+    "content_length": 2789,
+    "gaps": []
+  },
+  {
+    "key": "affiliate",
+    "label": "页脚：联盟计划",
+    "url": "https://www.garvee.com/pages/affiliate",
+    "canonical": "https://www.garvee.com/pages/affiliate",
+    "page_type": "WebPage",
+    "types": [
+      "Answer",
+      "Organization",
+      "Question",
+      "Service",
+      "WebPage",
+      "WebPageElement"
+    ],
+    "capture": "2026-11-04T13:34:35.635315+00:00",
+    "rendered_capture": "2026-11-04T13:48:00.058Z",
+    "identity_policy": "完整品牌仅组织介绍/联系页；政策和会员页保留其所属组织；其他页按publisher/provider角色使用精简身份或只引用稳定ID。WebSite完整定义在站点首页。",
+    "evidence": "evidence/affiliate.json",
+    "browser_evidence": "evidence/affiliate.browser.json",
+    "html": "code/affiliate.html",
+    "snippet": "code/affiliate.snippet.html",
+    "jsonld": "code/affiliate.jsonld",
+    "sha256": "722b040cf7dc671c7fa8571087895812ed816583db03f238ecdc1b662080c1e5",
+    "content_length": 4421,
+    "gaps": []
+  },
+  {
+    "key": "influencer-program",
+    "label": "页脚：达人合作",
+    "url": "https://www.garvee.com/pages/influencer-program",
+    "canonical": "https://www.garvee.com/pages/influencer-program",
+    "page_type": "WebPage",
+    "types": [
+      "Answer",
+      "Organization",
+      "Question",
+      "Service",
+      "WebPage",
+      "WebPageElement"
+    ],
+    "capture": "2026-11-04T13:34:36.659324+00:00",
+    "rendered_capture": "2026-11-04T13:48:00.802Z",
+    "identity_policy": "完整品牌仅组织介绍/联系页；政策和会员页保留其所属组织；其他页按publisher/provider角色使用精简身份或只引用稳定ID。WebSite完整定义在站点首页。",
+    "evidence": "evidence/influencer-program.json",
+    "browser_evidence": "evidence/influencer-program.browser.json",
+    "html": "code/influencer-program.html",
+    "snippet": "code/influencer-program.snippet.html",
+    "jsonld": "code/influencer-program.jsonld",
+    "sha256": "a87c10ca5e11a64355a7ba56447695f42ab07fe6d516bced75c064202e290fee",
+    "content_length": 1403,
+    "gaps": []
+  },
+  {
+    "key": "share-and-win",
+    "label": "页脚：分享有奖",
+    "url": "https://www.garvee.com/pages/share-and-win",
+    "canonical": "https://www.garvee.com/pages/share-and-win",
+    "page_type": "WebPage",
+    "types": [
+      "Answer",
+      "Question",
+      "WebPage",
+      "WebPageElement"
+    ],
+    "capture": "2026-11-04T13:34:36.681877+00:00",
+    "rendered_capture": "2026-11-04T13:39:12.707Z",
+    "identity_policy": "完整品牌仅组织介绍/联系页；政策和会员页保留其所属组织；其他页按publisher/provider角色使用精简身份或只引用稳定ID。WebSite完整定义在站点首页。",
+    "evidence": "evidence/share-and-win.json",
+    "browser_evidence": "evidence/share-and-win.browser.json",
+    "html": "code/share-and-win.html",
+    "snippet": "code/share-and-win.snippet.html",
+    "jsonld": "code/share-and-win.jsonld",
+    "sha256": "897bd00e7333af1be5f1ae49db715932e9f2271d535437873c2f554ab0e267ec",
+    "content_length": 3195,
+    "gaps": [
+      {
+        "page": "share-and-win",
+        "field": "Offer / monetary reward",
+        "reason": "同页称 $30，另一处 Win $35，推荐奖励 up to $80；不是同一明确奖励条件。",
+        "requirement": "先统一活动规则，再结构化金额及资格；当前示例不生成虚构 Event、折扣或结束日期。"
+      }
+    ]
+  },
+  {
+    "key": "mygarvees-rewards",
+    "label": "页脚：会员积分",
+    "url": "https://www.garvee.com/pages/mygarvees-rewards",
+    "canonical": "https://www.garvee.com/pages/mygarvees-rewards",
+    "page_type": "WebPage",
+    "types": [
+      "Answer",
+      "MemberProgram",
+      "MemberProgramTier",
+      "OnlineStore",
+      "QuantitativeValue",
+      "Question",
+      "WebPage",
+      "WebPageElement"
+    ],
+    "capture": "2026-11-04T13:34:37.170450+00:00",
+    "rendered_capture": "2026-11-04T13:39:11.938Z",
+    "identity_policy": "完整品牌仅组织介绍/联系页；政策和会员页保留其所属组织；其他页按publisher/provider角色使用精简身份或只引用稳定ID。WebSite完整定义在站点首页。",
+    "evidence": "evidence/mygarvees-rewards.json",
+    "browser_evidence": "evidence/mygarvees-rewards.browser.json",
+    "html": "code/mygarvees-rewards.html",
+    "snippet": "code/mygarvees-rewards.snippet.html",
+    "jsonld": "code/mygarvees-rewards.jsonld",
+    "sha256": "12f737d67398768558bf53c5629fa077890db613150a729902db9536b7df1bde",
+    "content_length": 2001,
+    "gaps": []
+  },
+  {
+    "key": "extended-service-protection",
+    "label": "页脚：延长保障",
+    "url": "https://www.garvee.com/pages/extended-service-protection",
+    "canonical": "https://www.garvee.com/pages/extended-service-protection",
+    "page_type": "WebPage",
+    "types": [
+      "BreadcrumbList",
+      "ListItem",
+      "Organization",
+      "QuantitativeValue",
+      "Service",
+      "WarrantyPromise",
+      "WebPage"
+    ],
+    "capture": "2026-11-04T13:34:38.060748+00:00",
+    "rendered_capture": "2026-11-04T13:48:01.510Z",
+    "identity_policy": "完整品牌仅组织介绍/联系页；政策和会员页保留其所属组织；其他页按publisher/provider角色使用精简身份或只引用稳定ID。WebSite完整定义在站点首页。",
+    "evidence": "evidence/extended-service-protection.json",
+    "browser_evidence": "evidence/extended-service-protection.browser.json",
+    "html": "code/extended-service-protection.html",
+    "snippet": "code/extended-service-protection.snippet.html",
+    "jsonld": "code/extended-service-protection.jsonld",
+    "sha256": "1f312830faafe4736cbd6ee539f4e129f2075551e89f397b8080d2df5fa20264",
+    "content_length": 2521,
+    "gaps": []
+  },
+  {
+    "key": "business",
+    "label": "页脚：批发业务",
+    "url": "https://www.garvee.com/pages/business",
+    "canonical": "https://www.garvee.com/pages/business",
+    "page_type": "WebPage",
+    "types": [
+      "Answer",
+      "Organization",
+      "Question",
+      "Service",
+      "WebPage",
+      "WebPageElement"
+    ],
+    "capture": "2026-11-04T13:34:38.551169+00:00",
+    "rendered_capture": "2026-11-04T13:48:02.241Z",
+    "identity_policy": "完整品牌仅组织介绍/联系页；政策和会员页保留其所属组织；其他页按publisher/provider角色使用精简身份或只引用稳定ID。WebSite完整定义在站点首页。",
+    "evidence": "evidence/business.json",
+    "browser_evidence": "evidence/business.browser.json",
+    "html": "code/business.html",
+    "snippet": "code/business.snippet.html",
+    "jsonld": "code/business.jsonld",
+    "sha256": "13f76550a69d23da38379b8ffdb168ab0c04887554dfe090a94e5f2f384ebbec",
+    "content_length": 12562,
+    "gaps": []
+  },
+  {
+    "key": "help-center",
+    "label": "页脚：帮助中心",
+    "url": "https://support.garvee.com/",
+    "canonical": "https://support.garvee.com/",
+    "page_type": "WebPage",
+    "types": [
+      "Organization",
+      "Service",
+      "WebPage",
+      "WebSite"
+    ],
+    "capture": "2026-11-04T13:34:38.082883+00:00",
+    "rendered_capture": "2026-11-04T13:46:02.813Z",
+    "identity_policy": "完整品牌仅组织介绍/联系页；政策和会员页保留其所属组织；其他页按publisher/provider角色使用精简身份或只引用稳定ID。WebSite完整定义在站点首页。",
+    "evidence": "evidence/help-center.json",
+    "browser_evidence": "evidence/help-center.browser.json",
+    "html": "code/help-center.html",
+    "snippet": "code/help-center.snippet.html",
+    "jsonld": "code/help-center.jsonld",
+    "sha256": "bd8ae868447bb456b2048fbdaa56013afadb17286e3bbe4e61aabeef9516bcef",
+    "content_length": 511,
+    "gaps": []
+  },
+  {
+    "key": "category",
+    "label": "类目样本",
+    "url": "https://www.garvee.com/collections/rugs",
+    "canonical": "https://www.garvee.com/collections/rugs",
+    "page_type": "CollectionPage",
+    "types": [
+      "Answer",
+      "CollectionPage",
+      "ItemList",
+      "ListItem",
+      "Offer",
+      "Product",
+      "Question",
+      "WebPageElement"
+    ],
+    "capture": "2026-11-04T13:34:40.478109+00:00",
+    "rendered_capture": "2026-11-04T13:48:13.067Z",
+    "identity_policy": "完整品牌仅组织介绍/联系页；政策和会员页保留其所属组织；其他页按publisher/provider角色使用精简身份或只引用稳定ID。WebSite完整定义在站点首页。",
+    "evidence": "evidence/category.json",
+    "browser_evidence": "evidence/category.browser.json",
+    "html": "code/category.html",
+    "snippet": "code/category.snippet.html",
+    "jsonld": "code/category.jsonld",
+    "sha256": "cd4026ad681f24b65eedb175df829529f0939079eee25c7d47598ccaab408405",
+    "content_length": 46037,
+    "gaps": [
+      {
+        "page": "category",
+        "field": "Offer.seller",
+        "reason": "站点品牌身份不等于每个商品的合同卖方；服务条款声称平台作为第三方。",
+        "requirement": "逐商品提供真实 seller 商家名称、身份 ID 与 URL；未确认前省略 seller，不统一写 GARVEE。"
+      },
+      {
+        "page": "category",
+        "field": "Product card availability / sku / GTIN / aggregateRating",
+        "reason": "列表只使用卡片可核实的名称、图片、链接及当前美元价格；不从商品名称推 SKU/GTIN，不继承有冲突的评分。",
+        "requirement": "生产接入实际商品源后补全真实适用字段；列表语义有效不等于商品详情富结果资格。"
+      }
+    ]
+  },
+  {
+    "key": "product",
+    "label": "商品详情及评论模块",
+    "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy",
+    "canonical": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy",
+    "page_type": "ItemPage",
+    "types": [
+      "Brand",
+      "BreadcrumbList",
+      "ItemPage",
+      "ListItem",
+      "Offer",
+      "Person",
+      "Product",
+      "PropertyValue",
+      "QuantitativeValue",
+      "Rating",
+      "Review"
+    ],
+    "capture": "2026-11-04T13:39:07.827014+00:00",
+    "rendered_capture": "2026-11-04T13:42:01.542Z",
+    "identity_policy": "完整品牌仅组织介绍/联系页；政策和会员页保留其所属组织；其他页按publisher/provider角色使用精简身份或只引用稳定ID。WebSite完整定义在站点首页。",
+    "evidence": "evidence/product.json",
+    "browser_evidence": "evidence/product.browser.json",
+    "html": "code/product.html",
+    "snippet": "code/product.snippet.html",
+    "jsonld": "code/product.jsonld",
+    "sha256": "4af2c5ed4493a0ac42724c1d1b55883606a38b6d3aa2b73fbb7b65f1efbd37c8",
+    "content_length": 9453,
+    "gaps": [
+      {
+        "page": "product",
+        "field": "Offer.seller / itemCondition",
+        "reason": "seller 曾按站点品牌推定；NewCondition 仅来自原 JSON-LD，渲染正文未明确新旧状况。",
+        "requirement": "提供该 SKU 实际卖方及新/二手/翻新状态；已省略无法由当前可见信息证明的两个字段。"
+      },
+      {
+        "page": "product",
+        "field": "Offer.priceSpecification / validForMemberTier / membershipPointsEarned",
+        "reason": "渲染可见会员价 $115.20、购买可得 128 积分；尚未核实对应会员等级、资格及叠加条件。",
+        "requirement": "提供同一 SKU 的普通价、会员价、USD、适用等级稳定 ID、积分整数及资格规则；会员价不能替代公开价，不能猜测 Bronze 等级。"
+      },
+      {
+        "page": "product",
+        "field": "AggregateRating",
+        "reason": "源 JSON-LD reviewCount=166；渲染页和组件=200；星级分布折算均值约 4.425，也不等于显示的 4.77。",
+        "requirement": "统一真实评价主数据及统计对象，确认商品/变体归属后输出汇总；当前不生成 AggregateRating。单条评论按组件所示保留，归属仍需业务验收。"
+      },
+      {
+        "page": "product",
+        "field": "ProductGroup / variesBy / hasVariant",
+        "reason": "页面可选择颜色和尺寸，但当前采样未核实稳定商品组 ID、全部变体与对应报价。",
+        "requirement": "变体模型列入完整适用清单；接入真实组/变体映射后生成，不能凭相似标题或 SKU 推组关系。"
+      },
+      {
+        "page": "product",
+        "field": "gtin / mpn / priceValidUntil / shippingDetails",
+        "reason": "没有核实全球贸易编号、制造商料号、价格到期日期或完整配送模型。",
+        "requirement": "SKU 不冒充 GTIN/MPN；价格期限不猜测，运输依赖真实运费/区域/时效。"
+      },
+      {
+        "page": "product",
+        "field": "Weave Type",
+        "reason": "两张规格表分别为 Tufted 和 Flat Woven。",
+        "requirement": "业务统一规格后同步正文与 additionalProperty；当前略去冲突字段。"
+      },
+      {
+        "page": "product",
+        "field": "QAPage / Question / Answer",
+        "reason": "商品问答组件实际为 Questions and Answers (0)。",
+        "requirement": "不得生成空问题或假答案；多问题商品页也不能为了 Google 套单问题 QAPage。"
+      }
+    ]
+  },
+  {
+    "key": "product-reviews",
+    "label": "独立评论页",
+    "url": "https://www.garvee.com/pages/product-reviews",
+    "canonical": "https://www.garvee.com/pages/product-reviews",
+    "page_type": "CollectionPage",
+    "types": [
+      "BreadcrumbList",
+      "CollectionPage",
+      "ListItem"
+    ],
+    "capture": "2026-11-04T13:39:38.199964+00:00",
+    "rendered_capture": "2026-11-04T13:45:59.777Z",
+    "identity_policy": "完整品牌仅组织介绍/联系页；政策和会员页保留其所属组织；其他页按publisher/provider角色使用精简身份或只引用稳定ID。WebSite完整定义在站点首页。",
+    "evidence": "evidence/product-reviews.json",
+    "browser_evidence": "evidence/product-reviews.browser.json",
+    "html": "code/product-reviews.html",
+    "snippet": "code/product-reviews.snippet.html",
+    "jsonld": "code/product-reviews.jsonld",
+    "sha256": "642d13a5de009a8bbdf4a76d4b7e57241ffa08b5ccc619c9f133794a3b35d87f",
+    "content_length": 15,
+    "gaps": [
+      {
+        "page": "product-reviews",
+        "field": "Review / AggregateRating / ItemList",
+        "reason": "独立页面在原始 HTML 和两次渲染取证中只有 Product Reviews 标题，没有评论条目。",
+        "requirement": "此页示例只能输出有依据的页面及面包屑；恢复真实评论及所评商品关联后再输出 Review。商品样本另含真实评论示例。"
+      }
+    ]
+  },
+  {
+    "key": "faqs",
+    "label": "官方问答页",
+    "url": "https://www.garvee.com/pages/faqs",
+    "canonical": "https://www.garvee.com/pages/faqs",
+    "page_type": "FAQPage",
+    "types": [
+      "Answer",
+      "BreadcrumbList",
+      "FAQPage",
+      "ListItem",
+      "Question"
+    ],
+    "capture": "2026-11-04T13:39:36.524927+00:00",
+    "rendered_capture": "2026-11-04T13:39:39.023Z",
+    "identity_policy": "完整品牌仅组织介绍/联系页；政策和会员页保留其所属组织；其他页按publisher/provider角色使用精简身份或只引用稳定ID。WebSite完整定义在站点首页。",
+    "evidence": "evidence/faqs.json",
+    "browser_evidence": "evidence/faqs.browser.json",
+    "html": "code/faqs.html",
+    "snippet": "code/faqs.snippet.html",
+    "jsonld": "code/faqs.jsonld",
+    "sha256": "76080b4d1529dea11683f81d98946013d0305f8438b008fd4e27d6bfab2eeefe",
+    "content_length": 3692,
+    "gaps": [
+      {
+        "page": "faqs",
+        "field": "FAQ 业务事实一致性",
+        "reason": "FAQ 写运输 2–4 工作日，与配送页 Express 3–5 及 Truck 7–10/10–15 口径不同。",
+        "requirement": "示例忠实保留该页问答；上线前统一业务范围与条款，再同步正文和 JSON-LD。Google FAQ 富结果已移除。"
+      }
+    ]
+  },
+  {
+    "key": "diy-ideas",
+    "label": "博客首页／内容聚合",
+    "url": "https://www.garvee.com/pages/diy-ideas",
+    "canonical": "https://www.garvee.com/pages/diy-ideas",
+    "page_type": "CollectionPage",
+    "types": [
+      "BlogPosting",
+      "CollectionPage",
+      "ItemList",
+      "ListItem",
+      "Organization"
+    ],
+    "capture": "2026-11-04T13:34:30.252856+00:00",
+    "rendered_capture": "2026-11-04T13:37:45.562Z",
+    "identity_policy": "完整品牌仅组织介绍/联系页；政策和会员页保留其所属组织；其他页按publisher/provider角色使用精简身份或只引用稳定ID。WebSite完整定义在站点首页。",
+    "evidence": "evidence/diy-ideas.json",
+    "browser_evidence": "evidence/diy-ideas.browser.json",
+    "html": "code/diy-ideas.html",
+    "snippet": "code/diy-ideas.snippet.html",
+    "jsonld": "code/diy-ideas.jsonld",
+    "sha256": "ddfec254d47eb76cb25bb679d07a79c5137f92ce74e6724514ee7e146150612d",
+    "content_length": 2847,
+    "gaps": [
+      {
+        "page": "diy-ideas",
+        "field": "Article card author / dateModified",
+        "reason": "列表没有逐条公开作者/修改时间；不冒用平台名或抓取时间。",
+        "requirement": "详细文章的真实作者和日期由内容系统提供；列表与详情同源。"
+      }
+    ]
+  },
+  {
+    "key": "blog-list",
+    "label": "博客列表",
+    "url": "https://www.garvee.com/blogs/buying-guides",
+    "canonical": "https://www.garvee.com/blogs/buying-guides",
+    "page_type": "CollectionPage",
+    "types": [
+      "Blog",
+      "BlogPosting",
+      "BreadcrumbList",
+      "CollectionPage",
+      "ItemList",
+      "ListItem",
+      "Organization"
+    ],
+    "capture": "2026-11-04T13:39:07.827583+00:00",
+    "rendered_capture": "2026-11-04T13:39:37.911Z",
+    "identity_policy": "完整品牌仅组织介绍/联系页；政策和会员页保留其所属组织；其他页按publisher/provider角色使用精简身份或只引用稳定ID。WebSite完整定义在站点首页。",
+    "evidence": "evidence/blog-list.json",
+    "browser_evidence": "evidence/blog-list.browser.json",
+    "html": "code/blog-list.html",
+    "snippet": "code/blog-list.snippet.html",
+    "jsonld": "code/blog-list.jsonld",
+    "sha256": "378aff9539e99bc02101759b0a8046a6152cc3d5f0ccee73247c57a1d475e571",
+    "content_length": 2958,
+    "gaps": [
+      {
+        "page": "blog-list",
+        "field": "Article card author / dateModified",
+        "reason": "列表没有逐条公开作者/修改时间；不冒用平台名或抓取时间。",
+        "requirement": "详细文章的真实作者和日期由内容系统提供；列表与详情同源。"
+      }
+    ]
+  },
+  {
+    "key": "article",
+    "label": "博客文章",
+    "url": "https://www.garvee.com/blogs/buying-guides/everything-you-need-to-know-about-rug-sizes-and-placement",
+    "canonical": "https://www.garvee.com/blogs/buying-guides/everything-you-need-to-know-about-rug-sizes-and-placement",
+    "page_type": "WebPage",
+    "types": [
+      "Blog",
+      "BlogPosting",
+      "BreadcrumbList",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "VideoObject",
+      "WebPage"
+    ],
+    "capture": "2026-11-04T13:34:39.367409+00:00",
+    "rendered_capture": "2026-11-04T13:37:44.742Z",
+    "identity_policy": "完整品牌仅组织介绍/联系页；政策和会员页保留其所属组织；其他页按publisher/provider角色使用精简身份或只引用稳定ID。WebSite完整定义在站点首页。",
+    "evidence": "evidence/article.json",
+    "browser_evidence": "evidence/article.browser.json",
+    "html": "code/article.html",
+    "snippet": "code/article.snippet.html",
+    "jsonld": "code/article.jsonld",
+    "sha256": "8a02f73fe2de272967d26a026b2c8a1f1d8ea453fcf4934ccd70e70acea8a224",
+    "content_length": 10942,
+    "gaps": [
+      {
+        "page": "article",
+        "field": "author.name / author.url / dateModified",
+        "reason": "原 JSON-LD 声称作者 yang yu，但渲染正文未见署名；也未获得真实作者页或修改时间。",
+        "requirement": "示例已省略未由可见署名支持的 author。由 CMS 提供真实作者姓名、介绍页和修改时间，并同步正文，不以站点名替代作者。"
+      }
+    ]
+  },
+  {
+    "key": "campaign",
+    "label": "活动／专题页",
+    "url": "https://www.garvee.com/pages/activity-fall-home-sale",
+    "canonical": "https://www.garvee.com/pages/activity-fall-home-sale",
+    "page_type": "CollectionPage",
+    "types": [
+      "CollectionPage",
+      "ItemList",
+      "ListItem",
+      "Offer",
+      "Product",
+      "WebPageElement"
+    ],
+    "capture": "2026-11-04T13:34:39.451370+00:00",
+    "rendered_capture": "2026-11-04T13:45:58.124Z",
+    "identity_policy": "完整品牌仅组织介绍/联系页；政策和会员页保留其所属组织；其他页按publisher/provider角色使用精简身份或只引用稳定ID。WebSite完整定义在站点首页。",
+    "evidence": "evidence/campaign.json",
+    "browser_evidence": "evidence/campaign.browser.json",
+    "html": "code/campaign.html",
+    "snippet": "code/campaign.snippet.html",
+    "jsonld": "code/campaign.jsonld",
+    "sha256": "866fd895e5f5a0fd98ad476b9672785a46e9611d64cfb9c6cb12f98ff46d8160",
+    "content_length": 105760,
+    "gaps": [
+      {
+        "page": "campaign",
+        "field": "Offer.seller",
+        "reason": "站点品牌身份不等于每个商品的合同卖方；服务条款声称平台作为第三方。",
+        "requirement": "逐商品提供真实 seller 商家名称、身份 ID 与 URL；未确认前省略 seller，不统一写 GARVEE。"
+      },
+      {
+        "page": "campaign",
+        "field": "Product card availability / sku / GTIN / aggregateRating",
+        "reason": "列表只使用卡片可核实的名称、图片、链接及当前美元价格；不从商品名称推 SKU/GTIN，不继承有冲突的评分。",
+        "requirement": "生产接入实际商品源后补全真实适用字段；列表语义有效不等于商品详情富结果资格。"
+      },
+      {
+        "page": "campaign",
+        "field": "Offer.validFrom / validThrough / discount conditions",
+        "reason": "样本标题提及 Save $45，但没有核实完整适用条件与起止日期。",
+        "requirement": "不得把普通促销建为 Event；优惠条件与时间取活动主数据，不按抓取日或标题年份推断。"
+      }
+    ]
+  }
+]

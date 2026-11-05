@@ -1,0 +1,302 @@
+[
+  {
+    "key": "breadcrumb",
+    "status": 200,
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/breadcrumb",
+    "file": "guides/breadcrumb.html",
+    "sha256": "60043c5c22977e7a1ab0f1c1c1efbb2c147b47a67a9f640ba85d6a6e29d2cf0b",
+    "recorded_sha256": "60043c5c22977e7a1ab0f1c1c1efbb2c147b47a67a9f640ba85d6a6e29d2cf0b",
+    "hash_matches": true,
+    "usable": true
+  },
+  {
+    "key": "organization",
+    "status": 200,
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/organization",
+    "file": "guides/organization.html",
+    "sha256": "0477e22c07aac61ce0d6819524ce564767c4ca8a7c72eddcddfd00ee4c148e69",
+    "recorded_sha256": "0477e22c07aac61ce0d6819524ce564767c4ca8a7c72eddcddfd00ee4c148e69",
+    "hash_matches": true,
+    "usable": true
+  },
+  {
+    "key": "product-snippet",
+    "status": 200,
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/product-snippet",
+    "file": "guides/product-snippet.html",
+    "sha256": "94864e8de5bb2a2d9307b807354e28bec0c252ba5c6ae8da638a6a0dba91a8ca",
+    "recorded_sha256": "94864e8de5bb2a2d9307b807354e28bec0c252ba5c6ae8da638a6a0dba91a8ca",
+    "hash_matches": true,
+    "usable": true
+  },
+  {
+    "key": "article",
+    "status": 200,
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/article",
+    "file": "guides/article.html",
+    "sha256": "275a9df852e881c48674a040115d773f7c5a3483202a79f34b1fe23df7ecaecd",
+    "recorded_sha256": "275a9df852e881c48674a040115d773f7c5a3483202a79f34b1fe23df7ecaecd",
+    "hash_matches": true,
+    "usable": true
+  },
+  {
+    "key": "product-variants",
+    "status": 200,
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/product-variants",
+    "file": "guides/product-variants.html",
+    "sha256": "0028fcf7f17bdb32a7620eb00c3a8deffe01a4e04bb72c9a53de0a7bacc4795a",
+    "recorded_sha256": "0028fcf7f17bdb32a7620eb00c3a8deffe01a4e04bb72c9a53de0a7bacc4795a",
+    "hash_matches": true,
+    "usable": true
+  },
+  {
+    "key": "review-snippet",
+    "status": 200,
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/review-snippet",
+    "file": "guides/review-snippet.html",
+    "sha256": "f71c6b20096113c7b28d5c987c4f510b0f0a08e6e0ae41efb09e5263e3266983",
+    "recorded_sha256": "f71c6b20096113c7b28d5c987c4f510b0f0a08e6e0ae41efb09e5263e3266983",
+    "hash_matches": true,
+    "usable": true
+  },
+  {
+    "key": "merchant-listing",
+    "status": 200,
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/merchant-listing",
+    "file": "guides/merchant-listing.html",
+    "sha256": "e568dca41139a8edaa4c17b06d3a16ef2ca38c2e14a680b352c39b28572297dd",
+    "recorded_sha256": "e568dca41139a8edaa4c17b06d3a16ef2ca38c2e14a680b352c39b28572297dd",
+    "hash_matches": true,
+    "usable": true
+  },
+  {
+    "key": "qapage",
+    "status": 200,
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/qapage",
+    "file": "guides/qapage.html",
+    "sha256": "0075ec647329be02f4d0c3e03650d90ae7ff8187325a7f34e5537d9e52b5dce5",
+    "recorded_sha256": "0075ec647329be02f4d0c3e03650d90ae7ff8187325a7f34e5537d9e52b5dce5",
+    "hash_matches": true,
+    "usable": true
+  },
+  {
+    "key": "faq",
+    "status": 200,
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/faqpage",
+    "file": "guides/faq.html",
+    "sha256": "0346440ae9757fd53a47256ee64e248482e656ac4a3cbf0279485664c7cb75a6",
+    "recorded_sha256": "0346440ae9757fd53a47256ee64e248482e656ac4a3cbf0279485664c7cb75a6",
+    "hash_matches": true,
+    "usable": true
+  },
+  {
+    "key": "carousel",
+    "status": 200,
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/carousel",
+    "file": "guides/carousel.html",
+    "sha256": "c310e7d965b0c0dd3d518a3135072ba8b1bc6f81e21c5ef9efbcf788f7b800fe",
+    "recorded_sha256": "c310e7d965b0c0dd3d518a3135072ba8b1bc6f81e21c5ef9efbcf788f7b800fe",
+    "hash_matches": true,
+    "usable": true
+  },
+  {
+    "key": "return-policy",
+    "status": 200,
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/return-policy",
+    "file": "guides/return-policy.html",
+    "sha256": "46a6533feeb3bec0cb55239f3c760bec95a317d498c18261cac31ffec0844e30",
+    "recorded_sha256": "46a6533feeb3bec0cb55239f3c760bec95a317d498c18261cac31ffec0844e30",
+    "hash_matches": true,
+    "usable": true
+  },
+  {
+    "key": "shipping-policy",
+    "status": 200,
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/shipping-policy",
+    "file": "guides/shipping-policy.html",
+    "sha256": "4dea0cee54975f155b20810f11b1d9d1f29556958505f6941e3ae5019fba461e",
+    "recorded_sha256": "4dea0cee54975f155b20810f11b1d9d1f29556958505f6941e3ae5019fba461e",
+    "hash_matches": true,
+    "usable": true
+  },
+  {
+    "key": "carousel-beta",
+    "status": 404,
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/carousel-beta",
+    "file": "guides/carousel-beta.html",
+    "sha256": "9438395a7c0f030bf8d74d55f53f17405b00b0b66ca57ad252772c0ed7e4ce55",
+    "recorded_sha256": "9438395a7c0f030bf8d74d55f53f17405b00b0b66ca57ad252772c0ed7e4ce55",
+    "hash_matches": true,
+    "usable": false
+  },
+  {
+    "key": "loyalty-program",
+    "status": 200,
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/loyalty-program",
+    "file": "guides/loyalty-program.html",
+    "sha256": "400c7cbd33059e88c06e63acb009c0ababc6f9a64f44f255dbb6d2b409638895",
+    "recorded_sha256": "400c7cbd33059e88c06e63acb009c0ababc6f9a64f44f255dbb6d2b409638895",
+    "hash_matches": true,
+    "usable": true
+  },
+  {
+    "key": "profile-page",
+    "status": 200,
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/profile-page",
+    "file": "guides/profile-page.html",
+    "sha256": "719e6c49b4bda2c2de866c80df730a046bb5843092dd1eace2699ea2dbc75dd8",
+    "recorded_sha256": "719e6c49b4bda2c2de866c80df730a046bb5843092dd1eace2699ea2dbc75dd8",
+    "hash_matches": true,
+    "usable": true
+  },
+  {
+    "key": "discussion-forum",
+    "status": 200,
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/discussion-forum",
+    "file": "guides/discussion-forum.html",
+    "sha256": "53a64b3d8d09c8c4d7d58c3b96d087e5a9f2123d020ce143e8f3af14f0ac9274",
+    "recorded_sha256": "53a64b3d8d09c8c4d7d58c3b96d087e5a9f2123d020ce143e8f3af14f0ac9274",
+    "hash_matches": true,
+    "usable": true
+  },
+  {
+    "key": "video",
+    "status": 200,
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/video",
+    "file": "guides/video.html",
+    "sha256": "4f2e872932d3842ca06153a0af66720d590e011b6a9883695c2c73cb7d4dac6e",
+    "recorded_sha256": "4f2e872932d3842ca06153a0af66720d590e011b6a9883695c2c73cb7d4dac6e",
+    "hash_matches": true,
+    "usable": true
+  },
+  {
+    "key": "general",
+    "status": 200,
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/sd-policies",
+    "file": "guides/general.html",
+    "sha256": "b2e82d8f8b249f054d94f7248af49d06071f905c2e4866ea261e234a5f636398",
+    "recorded_sha256": "b2e82d8f8b249f054d94f7248af49d06071f905c2e4866ea261e234a5f636398",
+    "hash_matches": true,
+    "usable": true
+  },
+  {
+    "key": "search-gallery",
+    "status": 200,
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/search-gallery",
+    "file": "guides/search-gallery.html",
+    "sha256": "a15989292362069c8180b0330914ae5b3ad65af468ad759a5c8c4d1a8eccd78a",
+    "recorded_sha256": "a15989292362069c8180b0330914ae5b3ad65af468ad759a5c8c4d1a8eccd78a",
+    "hash_matches": true,
+    "usable": true
+  },
+  {
+    "key": "schema-vocabulary",
+    "status": 200,
+    "url": "https://schema.org/version/latest/schemaorg-current-https.jsonld",
+    "file": "guides/schema-vocabulary.jsonld",
+    "sha256": "0a4b8c4c910fc831ec8695196510973390906a5ee34dc6b862dfec4d21a12f74",
+    "recorded_sha256": "0a4b8c4c910fc831ec8695196510973390906a5ee34dc6b862dfec4d21a12f74",
+    "hash_matches": true,
+    "usable": true
+  },
+  {
+    "key": "event",
+    "status": 200,
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/event",
+    "file": "guides/event.html",
+    "sha256": "21cf3ad0f4326c0f4d1df0890ed68897a00ace2e086f078d4db0caa840f7206a",
+    "recorded_sha256": "21cf3ad0f4326c0f4d1df0890ed68897a00ace2e086f078d4db0caa840f7206a",
+    "hash_matches": true,
+    "usable": true
+  },
+  {
+    "key": "site-names",
+    "status": 200,
+    "url": "https://developers.google.com/search/docs/appearance/site-names",
+    "file": "guides/site-names.html",
+    "sha256": "9061ac04e4caf1f1b0e130c10d4ed6e0822cc446d2e2d8c598174fdd7c26a98e",
+    "recorded_sha256": "9061ac04e4caf1f1b0e130c10d4ed6e0822cc446d2e2d8c598174fdd7c26a98e",
+    "hash_matches": true,
+    "usable": true
+  },
+  {
+    "key": "schema-getting-started",
+    "status": 200,
+    "url": "https://schema.org/docs/gs.html",
+    "file": "guides/schema-getting-started.html",
+    "sha256": "f60c48508f257561b11b833ee13f94c6e41c29d069917d348f2f1a18ab9df3b2",
+    "recorded_sha256": "f60c48508f257561b11b833ee13f94c6e41c29d069917d348f2f1a18ab9df3b2",
+    "hash_matches": true,
+    "usable": true
+  },
+  {
+    "key": "schema-data-model",
+    "status": 200,
+    "url": "https://schema.org/docs/datamodel.html",
+    "file": "guides/schema-data-model.html",
+    "sha256": "aa397d32d2b50ecfe94b6d2c03d269e2a72426bffed38c4b6c66e50a95a73406",
+    "recorded_sha256": "aa397d32d2b50ecfe94b6d2c03d269e2a72426bffed38c4b6c66e50a95a73406",
+    "hash_matches": true,
+    "usable": true
+  },
+  {
+    "key": "schema-action-input",
+    "status": 200,
+    "url": "https://schema.org/docs/actions.html",
+    "file": "guides/schema-action-input.html",
+    "sha256": "e7fe16824fedb728216c89e4822644d1d486d636d9dcaf2a39fbb4bd8f2f1f6e",
+    "recorded_sha256": "e7fe16824fedb728216c89e4822644d1d486d636d9dcaf2a39fbb4bd8f2f1f6e",
+    "hash_matches": true,
+    "usable": true
+  },
+  {
+    "key": "product-overview",
+    "status": 200,
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/product",
+    "file": "guides/product-overview.html",
+    "sha256": "1369fb72ba2e0013537d44cfb71215af635f27985f4b719934f42fd7a86e9807",
+    "recorded_sha256": "1369fb72ba2e0013537d44cfb71215af635f27985f4b719934f42fd7a86e9807",
+    "hash_matches": true,
+    "usable": true
+  },
+  {
+    "key": "structured-data-intro",
+    "status": 200,
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data",
+    "file": "guides/structured-data-intro.html",
+    "sha256": "9d09e7c67e4225ca14f4b4761914c637f3284b5b62e2c4d91259a8fd82307ae8",
+    "recorded_sha256": "9d09e7c67e4225ca14f4b4761914c637f3284b5b62e2c4d91259a8fd82307ae8",
+    "hash_matches": true,
+    "usable": true
+  },
+  {
+    "key": "javascript-structured-data",
+    "status": 200,
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/generate-structured-data-with-javascript",
+    "file": "guides/javascript-structured-data.html",
+    "sha256": "e254982d0a0b48bca4474596af6b926a4859d78824912cd1595cafb2fb620994",
+    "recorded_sha256": "e254982d0a0b48bca4474596af6b926a4859d78824912cd1595cafb2fb620994",
+    "hash_matches": true,
+    "usable": true
+  },
+  {
+    "key": "video-indexing",
+    "status": 200,
+    "url": "https://developers.google.com/search/docs/appearance/video",
+    "file": "guides/video-indexing.html",
+    "sha256": "6d1c3c58c54e045813c234000e59ae94074c70ea8a682e6fc60a5f179795b1cb",
+    "recorded_sha256": "6d1c3c58c54e045813c234000e59ae94074c70ea8a682e6fc60a5f179795b1cb",
+    "hash_matches": true,
+    "usable": true
+  },
+  {
+    "key": "searchbox-retirement",
+    "status": 200,
+    "url": "https://developers.google.com/search/blog/2024/10/sitelinks-search-box",
+    "file": "guides/searchbox-retirement.html",
+    "sha256": "9df223502d4748f25b3ce80f44c98585660ba30c1db6b099833ade3574bd68c8",
+    "recorded_sha256": "9df223502d4748f25b3ce80f44c98585660ba30c1db6b099833ade3574bd68c8",
+    "hash_matches": true,
+    "usable": true
+  }
+]

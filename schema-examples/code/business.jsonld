@@ -1,0 +1,110 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.garvee.com/#organization",
+      "name": "GARVEE",
+      "url": "https://www.garvee.com/"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.garvee.com/pages/business#service",
+      "name": "GARVEE Business",
+      "url": "https://www.garvee.com/pages/business",
+      "serviceType": "GARVEE Business",
+      "provider": {
+        "@id": "https://www.garvee.com/#organization"
+      },
+      "description": "Apply for GARVEE Business to unlock volume pricing on eligible products, warehouse pickup, custom quotes and business payment options."
+    },
+    {
+      "@type": "WebPageElement",
+      "@id": "https://www.garvee.com/pages/business#faq",
+      "name": "Frequently asked questions",
+      "hasPart": [
+        {
+          "@type": "Question",
+          "name": "Which purchasing path should I choose?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Choose Business Purchasing if you will use the products in your operations, facilities or projects. Choose Wholesale for Retailers if you are buying inventory to sell through your store or online business. You can request a quote and apply for GARVEE Business membership with either option."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I request a quote without an account?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Provide your work email and purchasing requirements through our quick inquiry form. An EIN is not required to request a quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What savings are available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Approved business accounts receive 10% off at 50+ units, 12% off at 100+ units and 15% off at 300+ units per eligible SKU. These volume discounts do not require a custom quote. Ordering more than 300 units? You can request Contract Pricing with savings up to 25%, subject to an individual quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What do I need for business verification?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GARVEE requires your work email, legal business name, registered business address and Employer Identification Number (EIN). Use the business name shown on your EIN documentation. We may request an EIN confirmation letter or business registration documents if additional review is needed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does entering an EIN verify my account?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Checking the nine-digit format is only the first step. Your business information must be reviewed before member pricing is activated."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does business membership include tax-exempt purchasing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Business verification and tax exemption are separate reviews. An EIN alone does not establish tax-exempt eligibility. Contact the business team about any applicable exemption documentation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I pick up my order from a warehouse?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pickup may be available for eligible products at select warehouse locations. Share your SKUs, quantities and ZIP code, and our team will confirm stock, the pickup address and any appointment requirements."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which payment options are available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depending on your approved order, options include card payment via Stripe, ACH and wire transfer, with invoicing via QuickBooks. Purchase orders can be referenced on your invoice. Your quote confirms the available payment methods."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.garvee.com/pages/business#webpage",
+      "url": "https://www.garvee.com/pages/business",
+      "name": "GARVEE Business - Volume Pricing & Wholesale",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://www.garvee.com/#website"
+      },
+      "description": "Apply for GARVEE Business to unlock volume pricing on eligible products, warehouse pickup, custom quotes and business payment options.",
+      "mainEntity": {
+        "@id": "https://www.garvee.com/pages/business#service"
+      },
+      "hasPart": {
+        "@id": "https://www.garvee.com/pages/business#faq"
+      }
+    }
+  ]
+}

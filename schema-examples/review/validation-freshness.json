@@ -1,0 +1,542 @@
+[
+  {
+    "page": "about-garvee",
+    "tool": "schema",
+    "current_sha256": "bf06bad398c46b4fa3197543e2f6319a61a8724c656f63353cd796762c504f71",
+    "receipt_sha256": "83adc6f66ec26742bda20d933e7e0088e5110a1d458543c70fe765c8887d7a1d",
+    "receipt": "validation/schema/about-garvee.json",
+    "current": false,
+    "status": "旧回执对应旧字节；本版待复测",
+    "historical_result_url": null
+  },
+  {
+    "page": "about-garvee",
+    "tool": "google",
+    "current_sha256": "bf06bad398c46b4fa3197543e2f6319a61a8724c656f63353cd796762c504f71",
+    "receipt_sha256": "83adc6f66ec26742bda20d933e7e0088e5110a1d458543c70fe765c8887d7a1d",
+    "receipt": "validation/google/about-garvee.json",
+    "current": false,
+    "status": "旧回执对应旧字节；本版待复测",
+    "historical_result_url": "https://search.google.com/test/rich-results/result?id=vwC_r6sMnivzHCHlsckuCg"
+  },
+  {
+    "page": "contact",
+    "tool": "schema",
+    "current_sha256": "5ee0c47ab76465eed583fa213687965982f1dd122c436a4e5adcc90d3acc81be",
+    "receipt_sha256": "ca0af209a052235fc852a43446b414379e77ad80293b650b40b04cc66f5abc84",
+    "receipt": "validation/schema/contact.json",
+    "current": false,
+    "status": "旧回执对应旧字节；本版待复测",
+    "historical_result_url": null
+  },
+  {
+    "page": "contact",
+    "tool": "google",
+    "current_sha256": "5ee0c47ab76465eed583fa213687965982f1dd122c436a4e5adcc90d3acc81be",
+    "receipt_sha256": "ca0af209a052235fc852a43446b414379e77ad80293b650b40b04cc66f5abc84",
+    "receipt": "validation/google/contact.json",
+    "current": false,
+    "status": "旧回执对应旧字节；本版待复测",
+    "historical_result_url": "https://search.google.com/test/rich-results/result?id=lRr_722C23cZRD59Pm9mXg"
+  },
+  {
+    "page": "terms-of-service",
+    "tool": "schema",
+    "current_sha256": "daae1d4dcb993190e863b548292149f791818ad9998174bdaf6c2793202003d9",
+    "receipt_sha256": "3eb5d1a435c3486ac9e865eec252d828cacdcc69d29f73d25f49f18fc536ddc7",
+    "receipt": "validation/schema/terms-of-service.json",
+    "current": false,
+    "status": "旧回执对应旧字节；本版待复测",
+    "historical_result_url": null
+  },
+  {
+    "page": "terms-of-service",
+    "tool": "google",
+    "current_sha256": "daae1d4dcb993190e863b548292149f791818ad9998174bdaf6c2793202003d9",
+    "receipt_sha256": "3eb5d1a435c3486ac9e865eec252d828cacdcc69d29f73d25f49f18fc536ddc7",
+    "receipt": "validation/google/terms-of-service.json",
+    "current": false,
+    "status": "旧回执对应旧字节；本版待复测",
+    "historical_result_url": "https://search.google.com/test/rich-results/result?id=RjdQJnnab1d6Dva3lJylgA"
+  },
+  {
+    "page": "privacy-policy",
+    "tool": "schema",
+    "current_sha256": "837b9bcd3bc60bf66f9876018a1d962f2ad1e5f362110e08bbab9deb8317b2eb",
+    "receipt_sha256": "f0f32206626d4ec13e6a795322c645348141060f26d7e627e04694c703f89b70",
+    "receipt": "validation/schema/privacy-policy.json",
+    "current": false,
+    "status": "旧回执对应旧字节；本版待复测",
+    "historical_result_url": null
+  },
+  {
+    "page": "privacy-policy",
+    "tool": "google",
+    "current_sha256": "837b9bcd3bc60bf66f9876018a1d962f2ad1e5f362110e08bbab9deb8317b2eb",
+    "receipt_sha256": "f0f32206626d4ec13e6a795322c645348141060f26d7e627e04694c703f89b70",
+    "receipt": "validation/google/privacy-policy.json",
+    "current": false,
+    "status": "旧回执对应旧字节；本版待复测",
+    "historical_result_url": "https://search.google.com/test/rich-results/result?id=mAGAGVihJ-PXLkqqS02bLQ"
+  },
+  {
+    "page": "accessibility-statement",
+    "tool": "schema",
+    "current_sha256": "5d2a6b13ce21c3fb0e8a8383a9ee4ecfa2840347deae758081f5476570376963",
+    "receipt_sha256": "2517abc08edc8858ba17d1b3f332ab7925f08200a66528a06fb4a4eefa900d27",
+    "receipt": "validation/schema/accessibility-statement.json",
+    "current": false,
+    "status": "旧回执对应旧字节；本版待复测",
+    "historical_result_url": null
+  },
+  {
+    "page": "accessibility-statement",
+    "tool": "google",
+    "current_sha256": "5d2a6b13ce21c3fb0e8a8383a9ee4ecfa2840347deae758081f5476570376963",
+    "receipt_sha256": "2517abc08edc8858ba17d1b3f332ab7925f08200a66528a06fb4a4eefa900d27",
+    "receipt": "validation/google/accessibility-statement.json",
+    "current": false,
+    "status": "旧回执对应旧字节；本版待复测",
+    "historical_result_url": "https://search.google.com/test/rich-results/result?id=ZH9gvAMrxdR8zb5uiKJ1-Q"
+  },
+  {
+    "page": "track-your-order",
+    "tool": "schema",
+    "current_sha256": "6b6146bb1cc5ecca3ca89d860a6724652749843c395e28c89bbbd914d992bd68",
+    "receipt_sha256": "0cfaf69569ec2a7f1a9c90297e2ede7156c250a676dc5f72ab537fa87ad7da31",
+    "receipt": "validation/schema/track-your-order.json",
+    "current": false,
+    "status": "旧回执对应旧字节；本版待复测",
+    "historical_result_url": null
+  },
+  {
+    "page": "track-your-order",
+    "tool": "google",
+    "current_sha256": "6b6146bb1cc5ecca3ca89d860a6724652749843c395e28c89bbbd914d992bd68",
+    "receipt_sha256": "0cfaf69569ec2a7f1a9c90297e2ede7156c250a676dc5f72ab537fa87ad7da31",
+    "receipt": "validation/google/track-your-order.json",
+    "current": false,
+    "status": "旧回执对应旧字节；本版待复测",
+    "historical_result_url": "https://search.google.com/test/rich-results/result?id=fRE4dBBBe510X0awF7ZIGw"
+  },
+  {
+    "page": "payments-policy",
+    "tool": "schema",
+    "current_sha256": "d3646f1fe22300fe676c17f54babc74822d81d42bb18b181f2daf0d303959a5f",
+    "receipt_sha256": "627489dbb7fe7b39aede805da8ff5daaca2fbf7b9f485a200c7d08f047fafee8",
+    "receipt": "validation/schema/payments-policy.json",
+    "current": false,
+    "status": "旧回执对应旧字节；本版待复测",
+    "historical_result_url": null
+  },
+  {
+    "page": "payments-policy",
+    "tool": "google",
+    "current_sha256": "d3646f1fe22300fe676c17f54babc74822d81d42bb18b181f2daf0d303959a5f",
+    "receipt_sha256": "627489dbb7fe7b39aede805da8ff5daaca2fbf7b9f485a200c7d08f047fafee8",
+    "receipt": "validation/google/payments-policy.json",
+    "current": false,
+    "status": "旧回执对应旧字节；本版待复测",
+    "historical_result_url": "https://search.google.com/test/rich-results/result?id=WvN9bMoMJC0hZ1YLC4vD_w"
+  },
+  {
+    "page": "shipping-policy",
+    "tool": "schema",
+    "current_sha256": "09fc4d07b7234adaeb91fe0edce76ba8f77a9f2ec58f7f832d45371edf765423",
+    "receipt_sha256": "39f4f1274d57b6abcb095e49b064236ee2466b4db2bc53933c28ca2c94d44591",
+    "receipt": "validation/schema/shipping-policy.json",
+    "current": false,
+    "status": "旧回执对应旧字节；本版待复测",
+    "historical_result_url": null
+  },
+  {
+    "page": "shipping-policy",
+    "tool": "google",
+    "current_sha256": "09fc4d07b7234adaeb91fe0edce76ba8f77a9f2ec58f7f832d45371edf765423",
+    "receipt_sha256": "39f4f1274d57b6abcb095e49b064236ee2466b4db2bc53933c28ca2c94d44591",
+    "receipt": "validation/google/shipping-policy.json",
+    "current": false,
+    "status": "旧回执对应旧字节；本版待复测",
+    "historical_result_url": "https://search.google.com/test/rich-results/result?id=gCLWtQ0EMbhkZ5LH4Wy-1A"
+  },
+  {
+    "page": "warranty-policy",
+    "tool": "schema",
+    "current_sha256": "95259beabbaeac0cf0f529c501f5db0d8fd6c9cb76e7ae64e6ae8b00c0162a47",
+    "receipt_sha256": "2adf089f2c44bc37b6d37c981fbe79c22cc9ff3e891d9b53aac6a449d63261a7",
+    "receipt": "validation/schema/warranty-policy.json",
+    "current": false,
+    "status": "旧回执对应旧字节；本版待复测",
+    "historical_result_url": null
+  },
+  {
+    "page": "warranty-policy",
+    "tool": "google",
+    "current_sha256": "95259beabbaeac0cf0f529c501f5db0d8fd6c9cb76e7ae64e6ae8b00c0162a47",
+    "receipt_sha256": "2adf089f2c44bc37b6d37c981fbe79c22cc9ff3e891d9b53aac6a449d63261a7",
+    "receipt": "validation/google/warranty-policy.json",
+    "current": false,
+    "status": "旧回执对应旧字节；本版待复测",
+    "historical_result_url": "https://search.google.com/test/rich-results/result?id=nESokItIMA7_9buR6pmNKQ"
+  },
+  {
+    "page": "refund-policy",
+    "tool": "schema",
+    "current_sha256": "73a9dfe7836f06c17ac3a6d9e1f3984e728f2418c290126466d0525e4a5da638",
+    "receipt_sha256": "adf4f306ab6fa0b869e26944ae62701373567ed2a577324e5ce05c99504c7584",
+    "receipt": "validation/schema/refund-policy.json",
+    "current": false,
+    "status": "旧回执对应旧字节；本版待复测",
+    "historical_result_url": null
+  },
+  {
+    "page": "refund-policy",
+    "tool": "google",
+    "current_sha256": "73a9dfe7836f06c17ac3a6d9e1f3984e728f2418c290126466d0525e4a5da638",
+    "receipt_sha256": "adf4f306ab6fa0b869e26944ae62701373567ed2a577324e5ce05c99504c7584",
+    "receipt": "validation/google/refund-policy.json",
+    "current": false,
+    "status": "旧回执对应旧字节；本版待复测",
+    "historical_result_url": "https://search.google.com/test/rich-results/result?id=cRUP5sYjsv-v8j1581kplw"
+  },
+  {
+    "page": "carebox-package-protection",
+    "tool": "schema",
+    "current_sha256": "d9a559b956c83c51b7ea0edf81a98c4d0731d98cb805cc622ba7a139791b0cca",
+    "receipt_sha256": "f31d3e5b69dcce0fc1dfe04efb4878f17fb6456248c2fb3ed1cdcee7cd2972f2",
+    "receipt": "validation/schema/carebox-package-protection.json",
+    "current": false,
+    "status": "旧回执对应旧字节；本版待复测",
+    "historical_result_url": null
+  },
+  {
+    "page": "carebox-package-protection",
+    "tool": "google",
+    "current_sha256": "d9a559b956c83c51b7ea0edf81a98c4d0731d98cb805cc622ba7a139791b0cca",
+    "receipt_sha256": "f31d3e5b69dcce0fc1dfe04efb4878f17fb6456248c2fb3ed1cdcee7cd2972f2",
+    "receipt": "validation/google/carebox-package-protection.json",
+    "current": false,
+    "status": "旧回执对应旧字节；本版待复测",
+    "historical_result_url": "https://search.google.com/test/rich-results/result?id=X8ljY6QxGBATqrAWWMNQPA"
+  },
+  {
+    "page": "affiliate",
+    "tool": "schema",
+    "current_sha256": "722b040cf7dc671c7fa8571087895812ed816583db03f238ecdc1b662080c1e5",
+    "receipt_sha256": null,
+    "receipt": null,
+    "current": false,
+    "status": "待在线验证；服务人机验证阻塞",
+    "historical_result_url": null
+  },
+  {
+    "page": "affiliate",
+    "tool": "google",
+    "current_sha256": "722b040cf7dc671c7fa8571087895812ed816583db03f238ecdc1b662080c1e5",
+    "receipt_sha256": "74b946670f6d3d3f78d702ce157d34a6fd95c93c91c8d562ab9137a09f1332f2",
+    "receipt": "validation/google/affiliate.json",
+    "current": false,
+    "status": "旧回执对应旧字节；本版待复测",
+    "historical_result_url": "https://search.google.com/test/rich-results/result?id=WEMIjbAG6l3E3K5nerYlnw"
+  },
+  {
+    "page": "influencer-program",
+    "tool": "schema",
+    "current_sha256": "a87c10ca5e11a64355a7ba56447695f42ab07fe6d516bced75c064202e290fee",
+    "receipt_sha256": null,
+    "receipt": null,
+    "current": false,
+    "status": "待在线验证；服务人机验证阻塞",
+    "historical_result_url": null
+  },
+  {
+    "page": "influencer-program",
+    "tool": "google",
+    "current_sha256": "a87c10ca5e11a64355a7ba56447695f42ab07fe6d516bced75c064202e290fee",
+    "receipt_sha256": "751240bea9ceb1e245531422f340b9c9f1faaf5bf5e6cb0fad868d72221b8118",
+    "receipt": "validation/google/influencer-program.json",
+    "current": false,
+    "status": "旧回执对应旧字节；本版待复测",
+    "historical_result_url": "https://search.google.com/test/rich-results/result?id=S1NdS0Nf_2HjSo4sKrreXw"
+  },
+  {
+    "page": "share-and-win",
+    "tool": "schema",
+    "current_sha256": "897bd00e7333af1be5f1ae49db715932e9f2271d535437873c2f554ab0e267ec",
+    "receipt_sha256": null,
+    "receipt": null,
+    "current": false,
+    "status": "待在线验证；服务人机验证阻塞",
+    "historical_result_url": null
+  },
+  {
+    "page": "share-and-win",
+    "tool": "google",
+    "current_sha256": "897bd00e7333af1be5f1ae49db715932e9f2271d535437873c2f554ab0e267ec",
+    "receipt_sha256": "2cd77dcc9c4b412b6d1795f4cb1e70b06748eee5a01153792795c3f4707cba1d",
+    "receipt": "validation/google/share-and-win.json",
+    "current": false,
+    "status": "旧回执对应旧字节；本版待复测",
+    "historical_result_url": "https://search.google.com/test/rich-results/result?id=2qCgat1EIiJDKcZMJg4zzw"
+  },
+  {
+    "page": "mygarvees-rewards",
+    "tool": "schema",
+    "current_sha256": "12f737d67398768558bf53c5629fa077890db613150a729902db9536b7df1bde",
+    "receipt_sha256": null,
+    "receipt": null,
+    "current": false,
+    "status": "待在线验证；服务人机验证阻塞",
+    "historical_result_url": null
+  },
+  {
+    "page": "mygarvees-rewards",
+    "tool": "google",
+    "current_sha256": "12f737d67398768558bf53c5629fa077890db613150a729902db9536b7df1bde",
+    "receipt_sha256": "71b915e3a0f5b8b6afb1974f2ada5efba198f1b548f326bc794da5f9d0d5a03b",
+    "receipt": "validation/google/mygarvees-rewards.json",
+    "current": false,
+    "status": "旧回执对应旧字节；本版待复测",
+    "historical_result_url": "https://search.google.com/test/rich-results/result?id=ordFQjocigmQrsEjNVN31Q"
+  },
+  {
+    "page": "extended-service-protection",
+    "tool": "schema",
+    "current_sha256": "1f312830faafe4736cbd6ee539f4e129f2075551e89f397b8080d2df5fa20264",
+    "receipt_sha256": null,
+    "receipt": null,
+    "current": false,
+    "status": "待在线验证；服务人机验证阻塞",
+    "historical_result_url": null
+  },
+  {
+    "page": "extended-service-protection",
+    "tool": "google",
+    "current_sha256": "1f312830faafe4736cbd6ee539f4e129f2075551e89f397b8080d2df5fa20264",
+    "receipt_sha256": "e7c39612c5df863f1046cf63f9b06a2de31a92ce0894be260ecf9ebee14f893a",
+    "receipt": "validation/google/extended-service-protection.json",
+    "current": false,
+    "status": "旧回执对应旧字节；本版待复测",
+    "historical_result_url": "https://search.google.com/test/rich-results/result?id=YDe9LjHlJn30YzqLii-WJQ"
+  },
+  {
+    "page": "business",
+    "tool": "schema",
+    "current_sha256": "13f76550a69d23da38379b8ffdb168ab0c04887554dfe090a94e5f2f384ebbec",
+    "receipt_sha256": null,
+    "receipt": null,
+    "current": false,
+    "status": "待在线验证；服务人机验证阻塞",
+    "historical_result_url": null
+  },
+  {
+    "page": "business",
+    "tool": "google",
+    "current_sha256": "13f76550a69d23da38379b8ffdb168ab0c04887554dfe090a94e5f2f384ebbec",
+    "receipt_sha256": "8eefc8cd1949e60a1e89a329cfe9fd66579a6ddd3d086aa99e90071925ee356c",
+    "receipt": "validation/google/business.json",
+    "current": false,
+    "status": "旧回执对应旧字节；本版待复测",
+    "historical_result_url": "https://search.google.com/test/rich-results/result?id=23VBA5Oq3U_mRoV1zscJbA"
+  },
+  {
+    "page": "help-center",
+    "tool": "schema",
+    "current_sha256": "bd8ae868447bb456b2048fbdaa56013afadb17286e3bbe4e61aabeef9516bcef",
+    "receipt_sha256": null,
+    "receipt": null,
+    "current": false,
+    "status": "待在线验证；服务人机验证阻塞",
+    "historical_result_url": null
+  },
+  {
+    "page": "help-center",
+    "tool": "google",
+    "current_sha256": "bd8ae868447bb456b2048fbdaa56013afadb17286e3bbe4e61aabeef9516bcef",
+    "receipt_sha256": "d688e98e7e9c488f78b5881f2bdf1c44c5b1f2b8feadc7154b9fa15d5a9a4ec0",
+    "receipt": "validation/google/help-center.json",
+    "current": false,
+    "status": "旧回执对应旧字节；本版待复测",
+    "historical_result_url": "https://search.google.com/test/rich-results/result?id=XUG4kRuEdn8gafs2Zdjf-A"
+  },
+  {
+    "page": "category",
+    "tool": "schema",
+    "current_sha256": "cd4026ad681f24b65eedb175df829529f0939079eee25c7d47598ccaab408405",
+    "receipt_sha256": null,
+    "receipt": null,
+    "current": false,
+    "status": "待在线验证；服务人机验证阻塞",
+    "historical_result_url": null
+  },
+  {
+    "page": "category",
+    "tool": "google",
+    "current_sha256": "cd4026ad681f24b65eedb175df829529f0939079eee25c7d47598ccaab408405",
+    "receipt_sha256": "a96b8a55f33899e0de7524d986283adbbad763b3524c000a67b85b6cb74d50f3",
+    "receipt": "validation/google/category.json",
+    "current": false,
+    "status": "旧回执对应旧字节；本版待复测",
+    "historical_result_url": "https://search.google.com/test/rich-results/result?id=JRpnlk4Y9hI-iePZudbZhw"
+  },
+  {
+    "page": "product",
+    "tool": "schema",
+    "current_sha256": "4af2c5ed4493a0ac42724c1d1b55883606a38b6d3aa2b73fbb7b65f1efbd37c8",
+    "receipt_sha256": null,
+    "receipt": null,
+    "current": false,
+    "status": "待在线验证；服务人机验证阻塞",
+    "historical_result_url": null
+  },
+  {
+    "page": "product",
+    "tool": "google",
+    "current_sha256": "4af2c5ed4493a0ac42724c1d1b55883606a38b6d3aa2b73fbb7b65f1efbd37c8",
+    "receipt_sha256": "ed7e00780a1be52c983c46140dca2bd601b3f74919afa53b29044cc35cdb3db3",
+    "receipt": "validation/google/product.json",
+    "current": false,
+    "status": "旧回执对应旧字节；本版待复测",
+    "historical_result_url": "https://search.google.com/test/rich-results/result?id=SPpWoqj4SAk5sbqFAjTa7A"
+  },
+  {
+    "page": "product-reviews",
+    "tool": "schema",
+    "current_sha256": "642d13a5de009a8bbdf4a76d4b7e57241ffa08b5ccc619c9f133794a3b35d87f",
+    "receipt_sha256": null,
+    "receipt": null,
+    "current": false,
+    "status": "待在线验证；服务人机验证阻塞",
+    "historical_result_url": null
+  },
+  {
+    "page": "product-reviews",
+    "tool": "google",
+    "current_sha256": "642d13a5de009a8bbdf4a76d4b7e57241ffa08b5ccc619c9f133794a3b35d87f",
+    "receipt_sha256": "f914621c823821dfef3fb708f9137f9d0295f0fb916175fe5bec57e47822b870",
+    "receipt": "validation/google/product-reviews.json",
+    "current": false,
+    "status": "旧回执对应旧字节；本版待复测",
+    "historical_result_url": "https://search.google.com/test/rich-results/result?id=LkLTyJKubNAA6g8jPuNiHw"
+  },
+  {
+    "page": "faqs",
+    "tool": "schema",
+    "current_sha256": "76080b4d1529dea11683f81d98946013d0305f8438b008fd4e27d6bfab2eeefe",
+    "receipt_sha256": null,
+    "receipt": null,
+    "current": false,
+    "status": "待在线验证；服务人机验证阻塞",
+    "historical_result_url": null
+  },
+  {
+    "page": "faqs",
+    "tool": "google",
+    "current_sha256": "76080b4d1529dea11683f81d98946013d0305f8438b008fd4e27d6bfab2eeefe",
+    "receipt_sha256": "3fc7818e32b11acd16006da1b4d71db2f758b7fa3cd7ac9a61585419ac2ff062",
+    "receipt": "validation/google/faqs.json",
+    "current": false,
+    "status": "旧回执对应旧字节；本版待复测",
+    "historical_result_url": "https://search.google.com/test/rich-results/result?id=B8AuefvFNWAkI0xNK5h8DA"
+  },
+  {
+    "page": "diy-ideas",
+    "tool": "schema",
+    "current_sha256": "ddfec254d47eb76cb25bb679d07a79c5137f92ce74e6724514ee7e146150612d",
+    "receipt_sha256": null,
+    "receipt": null,
+    "current": false,
+    "status": "待在线验证；服务人机验证阻塞",
+    "historical_result_url": null
+  },
+  {
+    "page": "diy-ideas",
+    "tool": "google",
+    "current_sha256": "ddfec254d47eb76cb25bb679d07a79c5137f92ce74e6724514ee7e146150612d",
+    "receipt_sha256": "c68b2684a14514b9b7e29c481a4739d220cae28777458763bcac6c75c15e81da",
+    "receipt": "validation/google/diy-ideas.json",
+    "current": false,
+    "status": "旧回执对应旧字节；本版待复测",
+    "historical_result_url": "https://search.google.com/test/rich-results/result?id=b3dAWvn5WG8qWMADILChrQ"
+  },
+  {
+    "page": "blog-list",
+    "tool": "schema",
+    "current_sha256": "378aff9539e99bc02101759b0a8046a6152cc3d5f0ccee73247c57a1d475e571",
+    "receipt_sha256": null,
+    "receipt": null,
+    "current": false,
+    "status": "待在线验证；服务人机验证阻塞",
+    "historical_result_url": null
+  },
+  {
+    "page": "blog-list",
+    "tool": "google",
+    "current_sha256": "378aff9539e99bc02101759b0a8046a6152cc3d5f0ccee73247c57a1d475e571",
+    "receipt_sha256": "f3ff7a2c6ff9eacf3e932d79421d70be1a1b4839242ec76813100dc30a994bdc",
+    "receipt": "validation/google/blog-list.json",
+    "current": false,
+    "status": "旧回执对应旧字节；本版待复测",
+    "historical_result_url": "https://search.google.com/test/rich-results/result?id=trdVnqeTUP8h2dJn7qxJdQ"
+  },
+  {
+    "page": "article",
+    "tool": "schema",
+    "current_sha256": "8a02f73fe2de272967d26a026b2c8a1f1d8ea453fcf4934ccd70e70acea8a224",
+    "receipt_sha256": null,
+    "receipt": null,
+    "current": false,
+    "status": "待在线验证；服务人机验证阻塞",
+    "historical_result_url": null
+  },
+  {
+    "page": "article",
+    "tool": "google",
+    "current_sha256": "8a02f73fe2de272967d26a026b2c8a1f1d8ea453fcf4934ccd70e70acea8a224",
+    "receipt_sha256": "0f027975396ddd315842389a9d1dd590b849516bbadb8c68b888c1f61254c290",
+    "receipt": "validation/google/article.json",
+    "current": false,
+    "status": "旧回执对应旧字节；本版待复测",
+    "historical_result_url": "https://search.google.com/test/rich-results/result?id=R20-H4V4Cxiuj4J0L-c0Mw"
+  },
+  {
+    "page": "campaign",
+    "tool": "schema",
+    "current_sha256": "866fd895e5f5a0fd98ad476b9672785a46e9611d64cfb9c6cb12f98ff46d8160",
+    "receipt_sha256": null,
+    "receipt": null,
+    "current": false,
+    "status": "待在线验证；服务人机验证阻塞",
+    "historical_result_url": null
+  },
+  {
+    "page": "campaign",
+    "tool": "google",
+    "current_sha256": "866fd895e5f5a0fd98ad476b9672785a46e9611d64cfb9c6cb12f98ff46d8160",
+    "receipt_sha256": "bf394db61fbd9fa9ec0d66101b3b55b89b473fe827f6f4ef8ad4824fb78e0403",
+    "receipt": "validation/google/campaign.json",
+    "current": false,
+    "status": "旧回执对应旧字节；本版待复测",
+    "historical_result_url": "https://search.google.com/test/rich-results/result?id=moAD3kEQxm689tWzDmd8kw"
+  },
+  {
+    "page": "product-google-ready",
+    "tool": "schema",
+    "current_sha256": "59f11cfc22155500351507bade98128f718502a8fd8879e5216db1adb74d21ed",
+    "receipt_sha256": null,
+    "receipt": null,
+    "current": false,
+    "status": "待在线验证；服务人机验证阻塞",
+    "historical_result_url": null
+  },
+  {
+    "page": "product-google-ready",
+    "tool": "google",
+    "current_sha256": "59f11cfc22155500351507bade98128f718502a8fd8879e5216db1adb74d21ed",
+    "receipt_sha256": "f0ca502d41f55606e6e95960a5a6c568d3a512c4946ea0ed3cf05be095537106",
+    "receipt": "validation/google/product-google-ready.json",
+    "current": false,
+    "status": "旧回执对应旧字节；本版待复测",
+    "historical_result_url": "https://search.google.com/test/rich-results/result?id=--MkCyHOpoqZSrhaWopyhQ"
+  }
+]

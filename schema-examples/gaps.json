@@ -1,0 +1,122 @@
+[
+  {
+    "page": "track-your-order",
+    "field": "ParcelDelivery / Order",
+    "reason": "公共查询页没有具体订单或包裹事实。",
+    "requirement": "仅在受保护的真实订单上下文中生成；公共页不得放客户订单、地址或跟踪编号。"
+  },
+  {
+    "page": "shipping-policy",
+    "field": "ShippingService / OfferShippingDetails",
+    "reason": "同页卡车运输 7–10 与 10–15 工作日冲突；缺完整费率条件。",
+    "requirement": "统一时效并提供真实费率、目的地和例外后才生成详细运输模型。"
+  },
+  {
+    "page": "share-and-win",
+    "field": "Offer / monetary reward",
+    "reason": "同页称 $30，另一处 Win $35，推荐奖励 up to $80；不是同一明确奖励条件。",
+    "requirement": "先统一活动规则，再结构化金额及资格；当前示例不生成虚构 Event、折扣或结束日期。"
+  },
+  {
+    "page": "category",
+    "field": "Offer.seller",
+    "reason": "站点品牌身份不等于每个商品的合同卖方；服务条款声称平台作为第三方。",
+    "requirement": "逐商品提供真实 seller 商家名称、身份 ID 与 URL；未确认前省略 seller，不统一写 GARVEE。"
+  },
+  {
+    "page": "category",
+    "field": "Product card availability / sku / GTIN / aggregateRating",
+    "reason": "列表只使用卡片可核实的名称、图片、链接及当前美元价格；不从商品名称推 SKU/GTIN，不继承有冲突的评分。",
+    "requirement": "生产接入实际商品源后补全真实适用字段；列表语义有效不等于商品详情富结果资格。"
+  },
+  {
+    "page": "product",
+    "field": "Offer.seller / itemCondition",
+    "reason": "seller 曾按站点品牌推定；NewCondition 仅来自原 JSON-LD，渲染正文未明确新旧状况。",
+    "requirement": "提供该 SKU 实际卖方及新/二手/翻新状态；已省略无法由当前可见信息证明的两个字段。"
+  },
+  {
+    "page": "product",
+    "field": "Offer.priceSpecification / validForMemberTier / membershipPointsEarned",
+    "reason": "渲染可见会员价 $115.20、购买可得 128 积分；尚未核实对应会员等级、资格及叠加条件。",
+    "requirement": "提供同一 SKU 的普通价、会员价、USD、适用等级稳定 ID、积分整数及资格规则；会员价不能替代公开价，不能猜测 Bronze 等级。"
+  },
+  {
+    "page": "product",
+    "field": "AggregateRating",
+    "reason": "源 JSON-LD reviewCount=166；渲染页和组件=200；星级分布折算均值约 4.425，也不等于显示的 4.77。",
+    "requirement": "统一真实评价主数据及统计对象，确认商品/变体归属后输出汇总；当前不生成 AggregateRating。单条评论按组件所示保留，归属仍需业务验收。"
+  },
+  {
+    "page": "product",
+    "field": "ProductGroup / variesBy / hasVariant",
+    "reason": "页面可选择颜色和尺寸，但当前采样未核实稳定商品组 ID、全部变体与对应报价。",
+    "requirement": "变体模型列入完整适用清单；接入真实组/变体映射后生成，不能凭相似标题或 SKU 推组关系。"
+  },
+  {
+    "page": "product",
+    "field": "gtin / mpn / priceValidUntil / shippingDetails",
+    "reason": "没有核实全球贸易编号、制造商料号、价格到期日期或完整配送模型。",
+    "requirement": "SKU 不冒充 GTIN/MPN；价格期限不猜测，运输依赖真实运费/区域/时效。"
+  },
+  {
+    "page": "product",
+    "field": "Weave Type",
+    "reason": "两张规格表分别为 Tufted 和 Flat Woven。",
+    "requirement": "业务统一规格后同步正文与 additionalProperty；当前略去冲突字段。"
+  },
+  {
+    "page": "product",
+    "field": "QAPage / Question / Answer",
+    "reason": "商品问答组件实际为 Questions and Answers (0)。",
+    "requirement": "不得生成空问题或假答案；多问题商品页也不能为了 Google 套单问题 QAPage。"
+  },
+  {
+    "page": "product-reviews",
+    "field": "Review / AggregateRating / ItemList",
+    "reason": "独立页面在原始 HTML 和两次渲染取证中只有 Product Reviews 标题，没有评论条目。",
+    "requirement": "此页示例只能输出有依据的页面及面包屑；恢复真实评论及所评商品关联后再输出 Review。商品样本另含真实评论示例。"
+  },
+  {
+    "page": "faqs",
+    "field": "FAQ 业务事实一致性",
+    "reason": "FAQ 写运输 2–4 工作日，与配送页 Express 3–5 及 Truck 7–10/10–15 口径不同。",
+    "requirement": "示例忠实保留该页问答；上线前统一业务范围与条款，再同步正文和 JSON-LD。Google FAQ 富结果已移除。"
+  },
+  {
+    "page": "diy-ideas",
+    "field": "Article card author / dateModified",
+    "reason": "列表没有逐条公开作者/修改时间；不冒用平台名或抓取时间。",
+    "requirement": "详细文章的真实作者和日期由内容系统提供；列表与详情同源。"
+  },
+  {
+    "page": "blog-list",
+    "field": "Article card author / dateModified",
+    "reason": "列表没有逐条公开作者/修改时间；不冒用平台名或抓取时间。",
+    "requirement": "详细文章的真实作者和日期由内容系统提供；列表与详情同源。"
+  },
+  {
+    "page": "article",
+    "field": "author.name / author.url / dateModified",
+    "reason": "原 JSON-LD 声称作者 yang yu，但渲染正文未见署名；也未获得真实作者页或修改时间。",
+    "requirement": "示例已省略未由可见署名支持的 author。由 CMS 提供真实作者姓名、介绍页和修改时间，并同步正文，不以站点名替代作者。"
+  },
+  {
+    "page": "campaign",
+    "field": "Offer.seller",
+    "reason": "站点品牌身份不等于每个商品的合同卖方；服务条款声称平台作为第三方。",
+    "requirement": "逐商品提供真实 seller 商家名称、身份 ID 与 URL；未确认前省略 seller，不统一写 GARVEE。"
+  },
+  {
+    "page": "campaign",
+    "field": "Product card availability / sku / GTIN / aggregateRating",
+    "reason": "列表只使用卡片可核实的名称、图片、链接及当前美元价格；不从商品名称推 SKU/GTIN，不继承有冲突的评分。",
+    "requirement": "生产接入实际商品源后补全真实适用字段；列表语义有效不等于商品详情富结果资格。"
+  },
+  {
+    "page": "campaign",
+    "field": "Offer.validFrom / validThrough / discount conditions",
+    "reason": "样本标题提及 Save $45，但没有核实完整适用条件与起止日期。",
+    "requirement": "不得把普通促销建为 Event；优惠条件与时间取活动主数据，不按抓取日或标题年份推断。"
+  }
+]

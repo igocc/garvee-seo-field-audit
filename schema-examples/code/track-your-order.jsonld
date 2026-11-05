@@ -1,0 +1,57 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.garvee.com/#organization",
+      "name": "GARVEE",
+      "url": "https://www.garvee.com/"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.garvee.com/pages/track-your-order#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.garvee.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Track Your Order",
+          "item": "https://www.garvee.com/pages/track-your-order"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.garvee.com/pages/track-your-order#service",
+      "name": "Order tracking",
+      "url": "https://www.garvee.com/pages/track-your-order",
+      "serviceType": "Order tracking",
+      "provider": {
+        "@id": "https://www.garvee.com/#organization"
+      },
+      "description": "Shop GARVEE for commercial equipment, power tools, auto parts, restaurant equipment, farm and garden supplies and more—great prices with free shipping."
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.garvee.com/pages/track-your-order#webpage",
+      "url": "https://www.garvee.com/pages/track-your-order",
+      "name": "Track Your Order | GARVEE",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://www.garvee.com/#website"
+      },
+      "description": "Shop GARVEE for commercial equipment, power tools, auto parts, restaurant equipment, farm and garden supplies and more—great prices with free shipping.",
+      "breadcrumb": {
+        "@id": "https://www.garvee.com/pages/track-your-order#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://www.garvee.com/pages/track-your-order#service"
+      }
+    }
+  ]
+}

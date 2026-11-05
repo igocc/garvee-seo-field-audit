@@ -1,0 +1,11 @@
+{
+  "scopeType": null,
+  "scopeId": null,
+  "ratingValue": null,
+  "ratingCount": null,
+  "reviewCount": null,
+  "bestRating": 5,
+  "worstRating": 1,
+  "evidencePath": null,
+  "note": "由同一商品/统计范围、同一批数据的渲染页面提取。未展示或无法确认的数量保持 null；不可用 reviewCount 替代 ratingCount。"
+}

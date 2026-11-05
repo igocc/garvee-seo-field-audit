@@ -1,0 +1,230 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.garvee.com/pages/faqs#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.garvee.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Help & FAQs",
+          "item": "https://www.garvee.com/pages/faqs"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.garvee.com/pages/faqs#webpage",
+      "url": "https://www.garvee.com/pages/faqs",
+      "name": "Help & FAQs - GARVEE",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://www.garvee.com/#website"
+      },
+      "breadcrumb": {
+        "@id": "https://www.garvee.com/pages/faqs#breadcrumb"
+      },
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why didn't I receive an order confirmation email?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If you did not receive your order confirmation email, please check your spam folder. Please email the customer service team with your transaction ID."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I cancel my order?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If you want to cancel an order, Please sent an email to our customer servece support@garvee.com. You will receive a canceled order confirmation email later. If the order is already in transit, we need to contact the shipping company to recall the order and arrange a full refund for you."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I check order status？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Your current order status is displayed on the My Orders and Tracking page."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I change the delivery address after payment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Please contact us to change your address before your item ships."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is the product shipped from?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our warehouses are located in America, We will prioritize the delivery of your package from the warehouse closest to you."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long is the delivery time?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Warewhouse processing time 1-2 business days, delivery time is 2-4 business days."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get tracking information?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tracking information will be updated on the orders page at the same time after the package is shipped."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is the tracking number invalid?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Please wait patiently. Tracking numbers are not valid until the carrier scans the package and uploads the information."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I do if the delivery fails?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Please contact the local carrier and re-schedule the delivery."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long is the warranty period?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We provide a 12 months warranty for products sold on the official website."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I return my product?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, please read our Returns Policy carefully before returning your product. If you have further questions, please contact the customer service team."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I get a refund?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Please contact us with corresponding pictures and videos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How soon can I receive a refund?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Refunds will be settled within 15 business days of receipt of the returned item. The specific date of the transfer refund is determined by the payment channel bank."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I do if I don't receive a refund?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Please contact your payment bank first to confirm that the refund has been cleared. If the bank confirms that the payment did not go through, please contact us next."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I get a discount code?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Please pay close attention to the promotion activities on our website to get a discount code."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What can I do if I forget to use the discount code?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Please use the discount code on your next purchase before the code expires."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is my discount code invalid?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Please read the usable product range, time and other regulations of the discount code. Please contact us next for more details."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use more than one discount code on one order?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Only one discount code can be used on one order."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the accepted payment methods?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Paying by PayPal, Klarna and credit card is accepted."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What can I do if my payment fails?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Please check your network environment, payment method, and bank settings."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I login when forgot my password?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If you have forgotten your password and cannot log in, you can click \" Forgot Your Password \" from the login page."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why can't I log in my account?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Please check whether the account and the password are correct. If you are still having difficulties logging in, please contact Customer Service Team to get more support."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I close my account?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sorry, you can't close your account by yourself. If you don't want your account, you can contact us to delete it after all your orders have been completed and coupons have been used up."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I unsubscribe?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You may click \" Unsubscribe \" at the bottom of the promotional email to unsubscribe. Or you can contact us to unsubscribe."
+          }
+        }
+      ]
+    }
+  ]
+}

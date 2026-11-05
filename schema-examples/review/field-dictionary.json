@@ -1,0 +1,839 @@
+[
+  {
+    "field": "@context",
+    "meaning": "JSON-LD 词汇命名空间",
+    "required_value": "固定 https://schema.org，不是业务字段",
+    "range": "",
+    "schema_definition": "JSON-LD keyword",
+    "schema_url": "https://www.w3.org/TR/json-ld11/",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "@type",
+    "meaning": "实体类型",
+    "required_value": "按真实对象选择 Schema 类，可多类型；不是所有页面共用一套",
+    "range": "",
+    "schema_definition": "JSON-LD keyword",
+    "schema_url": "https://www.w3.org/TR/json-ld11/",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "@id",
+    "meaning": "稳定实体标识",
+    "required_value": "实体自身的规范 URL 加稳定片段；同一实体跨页保持一致",
+    "range": "",
+    "schema_definition": "JSON-LD keyword",
+    "schema_url": "https://www.w3.org/TR/json-ld11/",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "about",
+    "meaning": "本页或作品讨论的主题",
+    "required_value": "真实主题实体或其稳定 @id",
+    "range": "Thing",
+    "schema_definition": "The subject matter of an object.",
+    "schema_url": "https://schema.org/about",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "acceptedAnswer",
+    "meaning": "问题对应的已接受／官方答案",
+    "required_value": "Answer 对象；文本须与可访问正文相符",
+    "range": "Answer / ItemList",
+    "schema_definition": "The answer(s) that has been accepted as best, typically on a Question/Answer site. Sites vary in their selection mechanisms, e.g. drawing on community opinion and/or the view of the Question author.",
+    "schema_url": "https://schema.org/acceptedAnswer",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "acceptedPaymentMethod",
+    "meaning": "组织／报价接受的支付方式",
+    "required_value": "真实支付工具或 Text；保留地区和资格限制",
+    "range": "LoanOrCredit / PaymentMethod / Text",
+    "schema_definition": "The payment method(s) that are accepted in general by an organization, or for some specific demand or offer.",
+    "schema_url": "https://schema.org/acceptedPaymentMethod",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "additionalProperty",
+    "meaning": "没有专用属性的商品规格",
+    "required_value": "PropertyValue 对象；name 为规格名，value 为该 SKU 实际值",
+    "range": "PropertyValue",
+    "schema_definition": "A property-value pair representing an additional characteristic of the entity, e.g. a product feature or another characteristic for which there is no matching property in schema.org.\\n\\nNote: Publishers should be aware that applications designed to use specific schema.org properties (e.g. https://schema.org/width, https://schema.org/color, https://schema.org/gtin13, ...) will typically expect such data to be provided using those properties, rather than using the generic property/value mechanism.\n",
+    "schema_url": "https://schema.org/additionalProperty",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "address",
+    "meaning": "组织公开地址",
+    "required_value": "PostalAddress；确认实体与地址角色，不把总部写成退货点或门店",
+    "range": "PostalAddress / Text",
+    "schema_definition": "Physical address of the item.",
+    "schema_url": "https://schema.org/address",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "addressCountry",
+    "meaning": "地址所在国家",
+    "required_value": "国家代码或 Country；例如美国 US，仅用于该实体地址",
+    "range": "Country / Text",
+    "schema_definition": "The country. Recommended to be in 2-letter [ISO 3166-1 alpha-2](http://en.wikipedia.org/wiki/ISO_3166-1) format, for example \"US\". For backward compatibility, a 3-letter [ISO 3166-1 alpha-3](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3) country code such as \"SGP\" or a full country name such as \"Singapore\" can also be used.",
+    "schema_url": "https://schema.org/addressCountry",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "addressLocality",
+    "meaning": "地址城市",
+    "required_value": "真实邮政地址中的城市",
+    "range": "Text",
+    "schema_definition": "The locality in which the street address is, and which is in the region. For example, Mountain View.",
+    "schema_url": "https://schema.org/addressLocality",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "addressRegion",
+    "meaning": "地址州／省",
+    "required_value": "真实州省名称或缩写，不从市场语言推定",
+    "range": "AdministrativeArea / Text",
+    "schema_definition": "The region in which the locality is, and which is in the country. For example, California or another appropriate first-level [Administrative division](https://en.wikipedia.org/wiki/List_of_administrative_divisions_by_country) such as the Province in Italy or Region in Germany.",
+    "schema_url": "https://schema.org/addressRegion",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "articleBody",
+    "meaning": "文章正文",
+    "required_value": "当前文章可访问主正文；不混入菜单、推荐卡或脚注导航",
+    "range": "Text",
+    "schema_definition": "The actual body of the article.",
+    "schema_url": "https://schema.org/articleBody",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "articleSection",
+    "meaning": "文章所属栏目",
+    "required_value": "CMS 和实际栏目页确认的栏目名",
+    "range": "Text",
+    "schema_definition": "Articles may belong to one or more 'sections' in a magazine or newspaper, such as Sports, Lifestyle, etc.",
+    "schema_url": "https://schema.org/articleSection",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "author",
+    "meaning": "文章／评论作者",
+    "required_value": "真实 Person 或 Organization；不能用采集者、站点名或未署名元数据代填",
+    "range": "Organization / Person",
+    "schema_definition": "The author of this content or rating. Please note that author is special in that HTML 5 provides a special mechanism for indicating authorship via the rel tag. That is equivalent to this and may be used interchangeably.",
+    "schema_url": "https://schema.org/author",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "availability",
+    "meaning": "当前报价的库存／供货状态",
+    "required_value": "Schema ItemAvailability 枚举；与同一 SKU、同一时间的可购买状态一致",
+    "range": "ItemAvailability",
+    "schema_definition": "The availability of this item&#x2014;for example In stock, Out of stock, Pre-order, etc.",
+    "schema_url": "https://schema.org/availability",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "bestRating",
+    "meaning": "评分量表最高值",
+    "required_value": "数值；本样本界面为 5 星，不是最高已收到的分数",
+    "range": "Number / Text",
+    "schema_definition": "The highest value allowed in this rating system.",
+    "schema_url": "https://schema.org/bestRating",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "blogPost",
+    "meaning": "博客包含的文章",
+    "required_value": "实际属于该博客的 BlogPosting 或稳定 ID",
+    "range": "BlogPosting",
+    "schema_definition": "A posting that is part of this blog.",
+    "schema_url": "https://schema.org/blogPost",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "brand",
+    "meaning": "商品品牌",
+    "required_value": "商品主数据确认的 Brand／Organization；品牌不等于合同卖方",
+    "range": "Brand / Organization",
+    "schema_definition": "The brand(s) associated with a product or service, or the brand(s) maintained by an organization or business person.",
+    "schema_url": "https://schema.org/brand",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "breadcrumb",
+    "meaning": "本页导航面包屑",
+    "required_value": "来自本页可见导航的 BreadcrumbList，不能复制其他页面路径",
+    "range": "BreadcrumbList / Text",
+    "schema_definition": "A set of links that can help a user understand and navigate a website hierarchy.",
+    "schema_url": "https://schema.org/breadcrumb",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "category",
+    "meaning": "商品／服务分类",
+    "required_value": "真实分类名或层级文本；与实际导航、类目归属一致",
+    "range": "CategoryCode / PhysicalActivityCategory / Text / Thing / URL",
+    "schema_definition": "A category for the item. Greater signs or slashes can be used to informally indicate a category hierarchy.",
+    "schema_url": "https://schema.org/category",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "closes",
+    "meaning": "服务时段结束时间",
+    "required_value": "HH:MM；本例是客服时间，时区语义保留 PST",
+    "range": "Time",
+    "schema_definition": "The closing hour of the place or service on the given day(s) of the week.",
+    "schema_url": "https://schema.org/closes",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "color",
+    "meaning": "当前商品／变体颜色",
+    "required_value": "当前选中变体的实际颜色，不填全组颜色列表代替单变体",
+    "range": "Text",
+    "schema_definition": "The color of the product.",
+    "schema_url": "https://schema.org/color",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "contactPoint",
+    "meaning": "组织联系渠道",
+    "required_value": "ContactPoint；区分售后、电话客服、无障碍回拨等服务",
+    "range": "ContactPoint",
+    "schema_definition": "A contact point for a person or organization.",
+    "schema_url": "https://schema.org/contactPoint",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "contactType",
+    "meaning": "联系渠道用途",
+    "required_value": "实际用途名称，如 customer support，不代表门店营业",
+    "range": "Text",
+    "schema_definition": "A person or organization can have different contact points, for different purposes. For example, a sales contact point, a PR contact point and so on. This property is used to specify the kind of contact point.",
+    "schema_url": "https://schema.org/contactType",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "contentUrl",
+    "meaning": "媒体文件本体地址",
+    "required_value": "可公开获取的真实文件 URL，不用 HTML 页面冒充图片文件",
+    "range": "URL",
+    "schema_definition": "Actual bytes of the media object, for example the image file or video file.",
+    "schema_url": "https://schema.org/contentUrl",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "dateModified",
+    "meaning": "正文最近实际修改日期",
+    "required_value": "真实 Date／DateTime；日期级来源保留 YYYY-MM-DD，不猜时间与时区",
+    "range": "Date / DateTime",
+    "schema_definition": "The date on which the CreativeWork was most recently modified or when the item's entry was modified within a DataFeed.",
+    "schema_url": "https://schema.org/dateModified",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "datePublished",
+    "meaning": "作品首次发布日期",
+    "required_value": "实际 time[datetime]／CMS 日期，ISO 8601；不使用抓取日期",
+    "range": "Date / DateTime",
+    "schema_definition": "Date of first publication or broadcast. For example the date a [[CreativeWork]] was broadcast or a [[Certification]] was issued.",
+    "schema_url": "https://schema.org/datePublished",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "dayOfWeek",
+    "meaning": "服务提供的星期",
+    "required_value": "Schema DayOfWeek 枚举；与该联系渠道规则一致",
+    "range": "DayOfWeek",
+    "schema_definition": "The day of the week for which these opening hours are valid.",
+    "schema_url": "https://schema.org/dayOfWeek",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "description",
+    "meaning": "实体说明／摘要",
+    "required_value": "真实正文或已核元描述；保留适用条件，不加入未披露承诺",
+    "range": "Text / TextObject",
+    "schema_definition": "A description of the item.",
+    "schema_url": "https://schema.org/description",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "duration",
+    "meaning": "媒体播放时长",
+    "required_value": "ISO 8601 Duration，例如 PT1M30S；来自真实视频元数据",
+    "range": "Duration / QuantitativeValue",
+    "schema_definition": "The duration of the item (movie, audio recording, event, etc.) in [ISO 8601 duration format](http://en.wikipedia.org/wiki/ISO_8601).",
+    "schema_url": "https://schema.org/duration",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "durationOfWarranty",
+    "meaning": "保修期限",
+    "required_value": "QuantitativeValue；value 或 minValue/maxValue 加单位，确认起算点和适用产品",
+    "range": "QuantitativeValue",
+    "schema_definition": "The duration of the warranty promise. Common unitCode values are ANN for year, MON for months, or DAY for days.",
+    "schema_url": "https://schema.org/durationOfWarranty",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "email",
+    "meaning": "组织／联系渠道邮箱",
+    "required_value": "该实体公开且可用的邮箱；不写客户个人邮箱",
+    "range": "Text",
+    "schema_definition": "Email address.",
+    "schema_url": "https://schema.org/email",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "embedUrl",
+    "meaning": "播放器嵌入 URL",
+    "required_value": "实际嵌入播放器地址，不冒充视频源文件 contentUrl",
+    "range": "URL",
+    "schema_definition": "A URL pointing to a player for a specific video. In general, this is the information in the ```src``` element of an ```embed``` tag and should not be the same as the content of the ```loc``` tag.",
+    "schema_url": "https://schema.org/embedUrl",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "hasMemberProgram",
+    "meaning": "组织运营的会员计划",
+    "required_value": "真实 MemberProgram；同一计划保持稳定 ID",
+    "range": "MemberProgram",
+    "schema_definition": "MemberProgram offered by an Organization, for example an eCommerce merchant or an airline.",
+    "schema_url": "https://schema.org/hasMemberProgram",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "hasMerchantReturnPolicy",
+    "meaning": "商家／报价采用的退货政策",
+    "required_value": "真实 MerchantReturnPolicy；组织级与商品例外分别处理",
+    "range": "MerchantReturnPolicy",
+    "schema_definition": "Specifies a MerchantReturnPolicy that may be applicable.",
+    "schema_url": "https://schema.org/hasMerchantReturnPolicy",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "hasPart",
+    "meaning": "作品／页面包含的组成部分",
+    "required_value": "实际 CreativeWork／WebPageElement 等；不把任意 Intangible 都当页面部分",
+    "range": "CreativeWork",
+    "schema_definition": "Indicates an item or CreativeWork that is part of this item, or CreativeWork (in some sense).",
+    "schema_url": "https://schema.org/hasPart",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "hasTierBenefit",
+    "meaning": "会员等级权益类型",
+    "required_value": "实际适用的 TierBenefit 枚举，不表示所有会员都享有该权益",
+    "range": "TierBenefitEnumeration",
+    "schema_definition": "A member benefit for a particular tier of a loyalty program.",
+    "schema_url": "https://schema.org/hasTierBenefit",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "hasTierRequirement",
+    "meaning": "进入会员等级的条件",
+    "required_value": "公开门槛及完整时间／积分口径；不猜年累计或终身累计",
+    "range": "CreditCard / MonetaryAmount / Text / UnitPriceSpecification",
+    "schema_definition": "A requirement for a user to join a membership tier, for example: a CreditCard if the tier requires sign up for a credit card, A UnitPriceSpecification if the user is required to pay a (periodic) fee, or a MonetaryAmount if the user needs to spend a minimum amount to join the tier. If a tier is free to join then this property does not need to be specified.",
+    "schema_url": "https://schema.org/hasTierRequirement",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "hasTiers",
+    "meaning": "会员计划的等级集合",
+    "required_value": "真实 MemberProgramTier；不得虚构等级或复用不相干 ID",
+    "range": "MemberProgramTier",
+    "schema_definition": "The tiers of a member program.",
+    "schema_url": "https://schema.org/hasTiers",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "headline",
+    "meaning": "文章／作品标题",
+    "required_value": "对应那篇文章的实际标题",
+    "range": "Text",
+    "schema_definition": "Headline of the article.",
+    "schema_url": "https://schema.org/headline",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "height",
+    "meaning": "图片／物体高度",
+    "required_value": "数字像素或 QuantitativeValue，取决于所属实体；本例为已核 logo 像素",
+    "range": "Distance / QuantitativeValue",
+    "schema_definition": "The height of the item.",
+    "schema_url": "https://schema.org/height",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "hoursAvailable",
+    "meaning": "联系服务可用时间",
+    "required_value": "OpeningHoursSpecification；不是整个商店的营业时间",
+    "range": "OpeningHoursSpecification",
+    "schema_definition": "The hours during which this service or contact is available.",
+    "schema_url": "https://schema.org/hoursAvailable",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "image",
+    "meaning": "实体对应图片",
+    "required_value": "真实图片 URL／ImageObject；与当前商品、变体或文章相符",
+    "range": "ImageObject / URL",
+    "schema_definition": "An image of the item. This can be a [[URL]] or a fully described [[ImageObject]].",
+    "schema_url": "https://schema.org/image",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "inLanguage",
+    "meaning": "内容语言",
+    "required_value": "BCP 47 语言代码，例如 en；不据语言猜国家或币种",
+    "range": "Language / Text",
+    "schema_definition": "The language of the content or performance or used in an action. Please use one of the language codes from the [IETF BCP 47 standard](http://tools.ietf.org/html/bcp47). See also [[availableLanguage]].",
+    "schema_url": "https://schema.org/inLanguage",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "isPartOf",
+    "meaning": "作品所属站点／博客等上级作品",
+    "required_value": "对应真实上级实体的 @id，不表示所有父级须在每页完整重复",
+    "range": "CreativeWork / URL",
+    "schema_definition": "Indicates an item or CreativeWork that this item, or CreativeWork (in some sense), is part of.",
+    "schema_url": "https://schema.org/isPartOf",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "item",
+    "meaning": "列表该位置指向的对象",
+    "required_value": "真实 Product／BlogPosting／页面或其 URL；不能一律指向当前列表页",
+    "range": "Thing",
+    "schema_definition": "An entity represented by an entry in a list or data feed (e.g. an 'artist' in a list of 'artists').",
+    "schema_url": "https://schema.org/item",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "itemListElement",
+    "meaning": "有序／无序列表条目",
+    "required_value": "实际 ListItem 集合；商品列表与面包屑用途不同",
+    "range": "ListItem / Text / Thing",
+    "schema_definition": "For itemListElement values, you can use simple strings (e.g. \"Peter\", \"Paul\", \"Mary\"), existing entities, or use ListItem.\\n\\nText values are best if the elements in the list are plain strings. Existing entities are best for a simple, unordered list of existing things in your data. ListItem is used with ordered lists when you want to provide additional context about the element in that list or when the same item might be in different places in different lists.\\n\\nNote: The order of elements in your mark-up is not sufficient for indicating the order or elements.  Use ListItem with a 'position' property in such cases.",
+    "schema_url": "https://schema.org/itemListElement",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "legalName",
+    "meaning": "组织公开法定名称声明",
+    "required_value": "从官方披露核对准确拼写；不等于独立完成注册簿验证",
+    "range": "Text",
+    "schema_definition": "The official name of the organization, e.g. the registered company name.",
+    "schema_url": "https://schema.org/legalName",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "logo",
+    "meaning": "组织标志",
+    "required_value": "真实可访问 logo ImageObject／URL，不用返回 HTML 的伪图片地址",
+    "range": "ImageObject / URL",
+    "schema_definition": "An associated logo.",
+    "schema_url": "https://schema.org/logo",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "mainEntity",
+    "meaning": "本页主要描述的实体",
+    "required_value": "根据页型关联商品、文章、政策、服务或真实问答",
+    "range": "Thing",
+    "schema_definition": "Indicates the primary entity described in some page or other CreativeWork.",
+    "schema_url": "https://schema.org/mainEntity",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "mainEntityOfPage",
+    "meaning": "主要介绍此实体的页面",
+    "required_value": "该实体详情页 URL／WebPage，不写其他卡片或列表 URL",
+    "range": "CreativeWork / URL",
+    "schema_definition": "Indicates a page (or other CreativeWork) for which this thing is the main entity being described. See [background notes](/docs/datamodel.html#mainEntityBackground) for details.",
+    "schema_url": "https://schema.org/mainEntityOfPage",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "material",
+    "meaning": "商品材质",
+    "required_value": "同一商品／变体实际材质；不要把不同规格表的冲突硬合并",
+    "range": "Product / Text / URL",
+    "schema_definition": "A material that something is made from, e.g. leather, wool, cotton, paper.",
+    "schema_url": "https://schema.org/material",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "maxValue",
+    "meaning": "数量范围上限",
+    "required_value": "真实上限，必须结合单位；不是默认所有商品都取得该数值",
+    "range": "Number",
+    "schema_definition": "The upper value of some characteristic or property.",
+    "schema_url": "https://schema.org/maxValue",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "membershipPointsEarned",
+    "meaning": "会员消费所获积分",
+    "required_value": "Google 会员模型用 QuantitativeValue；数值及 points per USD spent 等明确单位",
+    "range": "Number / QuantitativeValue",
+    "schema_definition": "The number of membership points earned by the member. If necessary, the unitText can be used to express the units the points are issued in. (E.g. stars, miles, etc.)",
+    "schema_url": "https://schema.org/membershipPointsEarned",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "merchantReturnLink",
+    "meaning": "正式退货政策链接",
+    "required_value": "真实可访问政策 URL；组织级 Option B 可仅使用此链接",
+    "range": "URL",
+    "schema_definition": "Specifies a Web page or service by URL, for product returns.",
+    "schema_url": "https://schema.org/merchantReturnLink",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "minValue",
+    "meaning": "数量范围下限",
+    "required_value": "真实下限，必须结合单位；不得用范围推定单 SKU 的具体期限",
+    "range": "Number",
+    "schema_definition": "The lower value of some characteristic or property.",
+    "schema_url": "https://schema.org/minValue",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "name",
+    "meaning": "当前实体名称",
+    "required_value": "依所属实体提供页面名、商品名、作者名、问题或等级名",
+    "range": "Text",
+    "schema_definition": "The name of the item.",
+    "schema_url": "https://schema.org/name",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "numberOfItems",
+    "meaning": "这个 ItemList 的条目数",
+    "required_value": "非负整数；本例为已加载去重快照，不能冒充全目录库存或 SKU 总数",
+    "range": "Integer",
+    "schema_definition": "The number of items in an ItemList. Note that some descriptions might not fully describe all items in a list (e.g., multi-page pagination); in such cases, the numberOfItems would be for the entire list.",
+    "schema_url": "https://schema.org/numberOfItems",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "offers",
+    "meaning": "商品真实报价",
+    "required_value": "同一商品／变体的 Offer；币种、价格、库存和适用条件同源",
+    "range": "Demand / Offer",
+    "schema_definition": "An offer to provide this item&#x2014;for example, an offer to sell a product, rent the DVD of a movie, perform a service, or give away tickets to an event. Use [[businessFunction]] to indicate the kind of transaction offered, i.e. sell, lease, etc. This property can also be used to describe a [[Demand]]. While this property is listed as expected on a number of common types, it can be used in others. In that case, using a second type, such as Product or a subtype of Product, can clarify the nature of the offer.\n      ",
+    "schema_url": "https://schema.org/offers",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "opens",
+    "meaning": "服务时段开始时间",
+    "required_value": "HH:MM；需与星期、结束时间和时区说明一致",
+    "range": "Time",
+    "schema_definition": "The opening hour of the place or service on the given day(s) of the week.",
+    "schema_url": "https://schema.org/opens",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "position",
+    "meaning": "列表位置",
+    "required_value": "从 1 起连续的整数；页面快照中的顺序，不是销量或搜索排名",
+    "range": "Integer / Text",
+    "schema_definition": "The position of an item in a series or sequence of items.",
+    "schema_url": "https://schema.org/position",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "postalCode",
+    "meaning": "地址邮编",
+    "required_value": "真实 PostalAddress 邮编，保持前导零及格式",
+    "range": "Text",
+    "schema_definition": "The postal code. For example, 94043.",
+    "schema_url": "https://schema.org/postalCode",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "price",
+    "meaning": "实际可支付的报价金额",
+    "required_value": "十进制数值／数字字符串，不带 $；普通价、会员价与划线价不能混用",
+    "range": "Number / Text",
+    "schema_definition": "The offer price of a product, or of a price component when attached to PriceSpecification and its subtypes.\\n\\nUsage guidelines:\\n\\n* Use the [[priceCurrency]] property (with standard formats: [ISO 4217 currency format](http://en.wikipedia.org/wiki/ISO_4217), e.g. \"USD\"; [Ticker symbol](https://en.wikipedia.org/wiki/List_of_cryptocurrencies) for cryptocurrencies, e.g. \"BTC\"; well known names for [Local Exchange Trading Systems](https://en.wikipedia.org/wiki/Local_exchange_trading_system) (LETS) and other currency types, e.g. \"Ithaca HOUR\") instead of including [ambiguous symbols](http://en.wikipedia.org/wiki/Dollar_sign#Currencies_that_use_the_dollar_or_peso_sign) such as '$' in the value.\\n* Use '.' (Unicode 'FULL STOP' (U+002E)) rather than ',' to indicate a decimal point. Avoid using these symbols as a readability separator.\\n* Note that both [RDFa](http://www.w3.org/TR/xhtml-rdfa-primer/#using-the-content-attribute) and Microdata syntax allow the use of a \"content=\" attribute for publishing simple machine-readable values alongside more human-friendly formatting.\\n* Use values from 0123456789 (Unicode 'DIGIT ZERO' (U+0030) to 'DIGIT NINE' (U+0039)) rather than superficially similar Unicode symbols.\n      ",
+    "schema_url": "https://schema.org/price",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "priceCurrency",
+    "meaning": "报价币种",
+    "required_value": "ISO 4217，例如 USD；$ 符号本身不足以区分美元与加元",
+    "range": "Text",
+    "schema_definition": "The currency of the price, or a price component when attached to [[PriceSpecification]] and its subtypes.\\n\\nUse standard formats: [ISO 4217 currency format](http://en.wikipedia.org/wiki/ISO_4217), e.g. \"USD\"; [Ticker symbol](https://en.wikipedia.org/wiki/List_of_cryptocurrencies) for cryptocurrencies, e.g. \"BTC\"; well known names for [Local Exchange Trading Systems](https://en.wikipedia.org/wiki/Local_exchange_trading_system) (LETS) and other currency types, e.g. \"Ithaca HOUR\".",
+    "schema_url": "https://schema.org/priceCurrency",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "primaryImageOfPage",
+    "meaning": "页面主图",
+    "required_value": "对应本页主要内容的真实 ImageObject",
+    "range": "ImageObject",
+    "schema_definition": "Indicates the main image on the page.",
+    "schema_url": "https://schema.org/primaryImageOfPage",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "provider",
+    "meaning": "服务提供方",
+    "required_value": "确认提供该项服务的 Organization／Person；不自动等于保险承保方",
+    "range": "Organization / Person",
+    "schema_definition": "The service provider, service operator, or service performer; the goods producer. Another party (a seller) may offer those services or goods on behalf of the provider. A provider may also serve as the seller.",
+    "schema_url": "https://schema.org/provider",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "publisher",
+    "meaning": "作品／站点发布方",
+    "required_value": "实际发布组织，不等于作者、合同卖方或评论作者",
+    "range": "Organization / Person",
+    "schema_definition": "The publisher of the article in question.",
+    "schema_url": "https://schema.org/publisher",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "ratingValue",
+    "meaning": "评分值",
+    "required_value": "在 Rating 中是单条评分；在 AggregateRating 中是同口径平均分，两者不能混用",
+    "range": "Number / Text",
+    "schema_definition": "The rating for the content.\\n\\nUsage guidelines:\\n\\n* Use values from 0123456789 (Unicode 'DIGIT ZERO' (U+0030) to 'DIGIT NINE' (U+0039)) rather than superficially similar Unicode symbols.\\n* Use '.' (Unicode 'FULL STOP' (U+002E)) rather than ',' to indicate a decimal point. Avoid using these symbols as a readability separator.",
+    "schema_url": "https://schema.org/ratingValue",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "ratingCount",
+    "meaning": "参与汇总的评分数量",
+    "required_value": "非负整数，Google 汇总须有可信正计数；不自动等于去重人数或文字评论数",
+    "range": "Integer",
+    "schema_definition": "The count of total number of ratings.",
+    "schema_url": "https://schema.org/ratingCount",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "reviewCount",
+    "meaning": "参与汇总的评论数量",
+    "required_value": "非负整数；有文评口径由评价平台定义，可能不同于评分数量",
+    "range": "Integer",
+    "schema_definition": "The count of total number of reviews.",
+    "schema_url": "https://schema.org/reviewCount",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "aggregateRating",
+    "meaning": "实体汇总评分",
+    "required_value": "AggregateRating；平均分、计数、量表、商品范围、审核过滤和数据版本须一致",
+    "range": "AggregateRating",
+    "schema_definition": "The overall rating, based on a collection of reviews or ratings, of the item.",
+    "schema_url": "https://schema.org/aggregateRating",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "review",
+    "meaning": "具体真实评论",
+    "required_value": "Review 集合；本例 5 条仅为可见样本，不是总评论数",
+    "range": "Review",
+    "schema_definition": "A review of the item.",
+    "schema_url": "https://schema.org/review",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "reviewBody",
+    "meaning": "单条评论正文",
+    "required_value": "对应该作者和商品的原文，不合并不同评论",
+    "range": "Text",
+    "schema_definition": "The actual body of the review.",
+    "schema_url": "https://schema.org/reviewBody",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "reviewRating",
+    "meaning": "单条评论的评分",
+    "required_value": "Rating；绑定这条 Review，不能用总体平均分代替",
+    "range": "Rating",
+    "schema_definition": "The rating given in this review. Note that reviews can themselves be rated. The ```reviewRating``` applies to rating given by the review. The [[aggregateRating]] property applies to the review itself, as a creative work.",
+    "schema_url": "https://schema.org/reviewRating",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "sameAs",
+    "meaning": "同一实体的外部身份页",
+    "required_value": "官方可核实账号／资料 URL；不是任意社交链接或相关企业",
+    "range": "URL",
+    "schema_definition": "URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Wikidata entry, or official website.",
+    "schema_url": "https://schema.org/sameAs",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "serviceType",
+    "meaning": "服务类型说明",
+    "required_value": "实际服务用途，不把公共查询页标成已发生的订单／物流事件",
+    "range": "GovernmentBenefitsType / Text",
+    "schema_definition": "The type of service being offered, e.g. veterans' benefits, emergency relief, etc.",
+    "schema_url": "https://schema.org/serviceType",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "size",
+    "meaning": "当前商品／变体尺寸",
+    "required_value": "真实尺寸文本或 QuantitativeValue；保留英尺、英寸等原单位",
+    "range": "DefinedTerm / QuantitativeValue / SizeSpecification / Text",
+    "schema_definition": "A standardized size of a product or creative work, specified either through a simple textual string (for example 'XL', '32Wx34L'), a  QuantitativeValue with a unitCode, or a comprehensive and structured [[SizeSpecification]]; in other cases, the [[width]], [[height]], [[depth]] and [[weight]] properties may be more applicable. ",
+    "schema_url": "https://schema.org/size",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "sku",
+    "meaning": "商家商品编码",
+    "required_value": "实际公开 SKU；不是 GTIN、MPN，也不自动证明它是变体唯一编码",
+    "range": "Text",
+    "schema_definition": "The Stock Keeping Unit (SKU), i.e. a merchant-specific identifier for a product or service, or the product to which the offer refers.",
+    "schema_url": "https://schema.org/sku",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "slogan",
+    "meaning": "品牌口号",
+    "required_value": "官网真实品牌表述，不当成量化证明",
+    "range": "Text",
+    "schema_definition": "A slogan or motto associated with the item.",
+    "schema_url": "https://schema.org/slogan",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "streetAddress",
+    "meaning": "街道地址",
+    "required_value": "真实门牌、街道、楼层／单元；确认其组织角色",
+    "range": "Text",
+    "schema_definition": "The street address. For example, 1600 Amphitheatre Pkwy.",
+    "schema_url": "https://schema.org/streetAddress",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "telephone",
+    "meaning": "组织／联系渠道电话",
+    "required_value": "公开电话及国家区号；不写私人客户电话",
+    "range": "Text",
+    "schema_definition": "The telephone number.",
+    "schema_url": "https://schema.org/telephone",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "text",
+    "meaning": "回答／内容文本",
+    "required_value": "对应实体的真实内容；保留资格、金额、期限等条件",
+    "range": "Text",
+    "schema_definition": "The textual content of this CreativeWork.",
+    "schema_url": "https://schema.org/text",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "thumbnailUrl",
+    "meaning": "视频缩略图 URL",
+    "required_value": "真实公共图片地址，不借用无关封面",
+    "range": "URL",
+    "schema_definition": "A thumbnail image relevant to the Thing.",
+    "schema_url": "https://schema.org/thumbnailUrl",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "unitCode",
+    "meaning": "计量单位代码",
+    "required_value": "UN/CEFACT 等代码；MON 为月、LBR 为磅；不能省略单位后猜范围",
+    "range": "Text / URL",
+    "schema_definition": "The unit of measurement given using the UN/CEFACT Common Code (3 characters) or a URL. Other codes than the UN/CEFACT Common Code may be used with a prefix followed by a colon.",
+    "schema_url": "https://schema.org/unitCode",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "unitText",
+    "meaning": "人可读计量单位",
+    "required_value": "明确数量的分母与单位；本例 points per USD spent",
+    "range": "Text",
+    "schema_definition": "A string or text indicating the unit of measurement. Useful if you cannot provide a standard unit code for\n<a href='unitCode'>unitCode</a>.",
+    "schema_url": "https://schema.org/unitText",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "uploadDate",
+    "meaning": "视频首次上传时间",
+    "required_value": "来源平台真实 ISO 8601 时间，不能使用本文发布日期或抓取日",
+    "range": "Date / DateTime",
+    "schema_definition": "Date (including time if available) when this media object was uploaded to this site.",
+    "schema_url": "https://schema.org/uploadDate",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "url",
+    "meaning": "实体对用户的实际访问地址",
+    "required_value": "规范 URL；页、商品、作品和政策各用自己的 URL，片段 ID 与 URL 角色不同",
+    "range": "URL",
+    "schema_definition": "URL of the item.",
+    "schema_url": "https://schema.org/url",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "value",
+    "meaning": "定量值或规格值",
+    "required_value": "依所属 QuantitativeValue／PropertyValue 提供真实值及单位",
+    "range": "Boolean / Number / QualitativeValue / StructuredValue / Text",
+    "schema_definition": "The value of a [[QuantitativeValue]] (including [[Observation]]) or property value node.\\n\\n* For [[QuantitativeValue]] and [[MonetaryAmount]], the recommended type for values is 'Number'.\\n* For [[PropertyValue]], it can be 'Text', 'Number', 'Boolean', 'StructuredValue' or 'QualitativeValue'.\\n* Use values from 0123456789 (Unicode 'DIGIT ZERO' (U+0030) to 'DIGIT NINE' (U+0039)) rather than superficially similar Unicode symbols.\\n* Use '.' (Unicode 'FULL STOP' (U+002E)) rather than ',' to indicate a decimal point. Avoid using these symbols as a readability separator.",
+    "schema_url": "https://schema.org/value",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "video",
+    "meaning": "文章关联的视频",
+    "required_value": "实际嵌入的 VideoObject；不自动使文章成为以视频为主的 watch page",
+    "range": "Clip / VideoObject",
+    "schema_definition": "An embedded video object.",
+    "schema_url": "https://schema.org/video",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "weight",
+    "meaning": "商品重量",
+    "required_value": "QuantitativeValue；区分净重／包装／运输重量与变体范围",
+    "range": "Mass / QuantitativeValue",
+    "schema_definition": "The weight of the product or person.",
+    "schema_url": "https://schema.org/weight",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "width",
+    "meaning": "图片／物体宽度",
+    "required_value": "数字像素或 QuantitativeValue；本例 logo 宽 1200 px",
+    "range": "Distance / QuantitativeValue",
+    "schema_definition": "The width of the item.",
+    "schema_url": "https://schema.org/width",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "wordCount",
+    "meaning": "文章正文词数",
+    "required_value": "按空白分词的实现统计，仅作技术计数；不当作 Google 排名阈值",
+    "range": "Integer",
+    "schema_definition": "The number of words in the text of the CreativeWork such as an Article, Book, etc.",
+    "schema_url": "https://schema.org/wordCount",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  },
+  {
+    "field": "worstRating",
+    "meaning": "评分量表最低值",
+    "required_value": "本例为 1 星；不是最低已收到评分",
+    "range": "Number / Text",
+    "schema_definition": "The lowest value allowed in this rating system.",
+    "schema_url": "https://schema.org/worstRating",
+    "mandatory": "Schema 属性存在不等于必填。Google 功能按所属对象、指南方案及例外分别判定。"
+  }
+]

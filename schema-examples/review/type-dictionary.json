@@ -1,0 +1,560 @@
+[
+  {
+    "type": "AboutPage",
+    "meaning": "介绍组织/主题的页面",
+    "definition": "Web page type: About page.",
+    "state": "实际输出",
+    "pages": [
+      "about-garvee"
+    ],
+    "source": "https://schema.org/AboutPage"
+  },
+  {
+    "type": "AggregateRating",
+    "meaning": "同一对象、同口径的汇总评分",
+    "definition": "The average rating based on multiple ratings or reviews.",
+    "state": "仅条件适用；缺实际数据/场景时不输出",
+    "pages": [],
+    "source": "https://schema.org/AggregateRating"
+  },
+  {
+    "type": "Answer",
+    "meaning": "问题的答案",
+    "definition": "An answer offered to a question; perhaps correct, perhaps opinionated or wrong.",
+    "state": "实际输出",
+    "pages": [
+      "affiliate",
+      "influencer-program",
+      "share-and-win",
+      "mygarvees-rewards",
+      "business",
+      "category",
+      "faqs"
+    ],
+    "source": "https://schema.org/Answer"
+  },
+  {
+    "type": "Blog",
+    "meaning": "博客或博客栏目",
+    "definition": "A [blog](https://en.wikipedia.org/wiki/Blog), sometimes known as a \"weblog\". Note that the individual posts ([[BlogPosting]]s) in a [[Blog]] are often colloquially referred to by the same term.",
+    "state": "实际输出",
+    "pages": [
+      "blog-list",
+      "article"
+    ],
+    "source": "https://schema.org/Blog"
+  },
+  {
+    "type": "BlogPosting",
+    "meaning": "一篇博客文章",
+    "definition": "A blog post.",
+    "state": "实际输出",
+    "pages": [
+      "diy-ideas",
+      "blog-list",
+      "article"
+    ],
+    "source": "https://schema.org/BlogPosting"
+  },
+  {
+    "type": "Brand",
+    "meaning": "商品品牌，不等于卖方",
+    "definition": "A brand is a name used by an organization or business person for labeling a product, product group, or similar.",
+    "state": "实际输出",
+    "pages": [
+      "product"
+    ],
+    "source": "https://schema.org/Brand"
+  },
+  {
+    "type": "BreadcrumbList",
+    "meaning": "本页真实导航路径",
+    "definition": "A BreadcrumbList is an ItemList consisting of a chain of linked Web pages, typically described using at least their URL and their name, and typically ending with the current page.\\n\\nThe [[position]] property is used to reconstruct the order of the items in a BreadcrumbList. The convention is that a breadcrumb list has an [[itemListOrder]] of [[ItemListOrderAscending]] (lower values listed first), and that the first items in this list correspond to the \"top\" or beginning of the breadcrumb trail, e.g. with a site or section homepage. The specific values of 'position' are not assigned meaning for a BreadcrumbList, but they should be integers, e.g. beginning with '1' for the first item in the list.\n      ",
+    "state": "实际输出",
+    "pages": [
+      "about-garvee",
+      "contact",
+      "terms-of-service",
+      "privacy-policy",
+      "accessibility-statement",
+      "track-your-order",
+      "payments-policy",
+      "shipping-policy",
+      "warranty-policy",
+      "refund-policy",
+      "carebox-package-protection",
+      "extended-service-protection",
+      "product",
+      "product-reviews",
+      "faqs",
+      "blog-list",
+      "article"
+    ],
+    "source": "https://schema.org/BreadcrumbList"
+  },
+  {
+    "type": "CollectionPage",
+    "meaning": "商品/文章等内容集合页面",
+    "definition": "Web page type: Collection page.",
+    "state": "实际输出",
+    "pages": [
+      "category",
+      "product-reviews",
+      "diy-ideas",
+      "blog-list",
+      "campaign"
+    ],
+    "source": "https://schema.org/CollectionPage"
+  },
+  {
+    "type": "ContactPage",
+    "meaning": "联系方式页面",
+    "definition": "Web page type: Contact page.",
+    "state": "实际输出",
+    "pages": [
+      "contact"
+    ],
+    "source": "https://schema.org/ContactPage"
+  },
+  {
+    "type": "ContactPoint",
+    "meaning": "特定用途的联系渠道",
+    "definition": "A contact point&#x2014;for example, a Customer Complaints department.",
+    "state": "实际输出",
+    "pages": [
+      "about-garvee",
+      "contact"
+    ],
+    "source": "https://schema.org/ContactPoint"
+  },
+  {
+    "type": "Event",
+    "meaning": "实际事件；普通促销不自动适用",
+    "definition": "An event happening at a certain time and location, such as a concert, lecture, or festival. Ticketing information may be added via the [[offers]] property. Repeated events may be structured as separate Event objects.",
+    "state": "仅条件适用；缺实际数据/场景时不输出",
+    "pages": [],
+    "source": "https://schema.org/Event"
+  },
+  {
+    "type": "FAQPage",
+    "meaning": "官方多问题与答案页面",
+    "definition": "A [[FAQPage]] is a [[WebPage]] presenting one or more \"[Frequently asked questions](https://en.wikipedia.org/wiki/FAQ)\" (see also [[QAPage]]).",
+    "state": "实际输出",
+    "pages": [
+      "faqs"
+    ],
+    "source": "https://schema.org/FAQPage"
+  },
+  {
+    "type": "HowTo",
+    "meaning": "完成目标的真实分步教程；普通文章不自动适用",
+    "definition": "Instructions that explain how to achieve a result by performing a sequence of steps.",
+    "state": "仅条件适用；缺实际数据/场景时不输出",
+    "pages": [],
+    "source": "https://schema.org/HowTo"
+  },
+  {
+    "type": "ImageObject",
+    "meaning": "图片媒体实体",
+    "definition": "An image file.",
+    "state": "实际输出",
+    "pages": [
+      "about-garvee",
+      "contact",
+      "article"
+    ],
+    "source": "https://schema.org/ImageObject"
+  },
+  {
+    "type": "ItemList",
+    "meaning": "实际条目列表，不代表富结果资格",
+    "definition": "A list of items of any sort&#x2014;for example, Top 10 Movies About Weathermen, or Top 100 Party Songs. Not to be confused with HTML lists, which are often used only for formatting.",
+    "state": "实际输出",
+    "pages": [
+      "category",
+      "diy-ideas",
+      "blog-list",
+      "campaign"
+    ],
+    "source": "https://schema.org/ItemList"
+  },
+  {
+    "type": "ItemPage",
+    "meaning": "主要描述一个对象的页面",
+    "definition": "A page devoted to a single item, such as a particular product or hotel.",
+    "state": "实际输出",
+    "pages": [
+      "product"
+    ],
+    "source": "https://schema.org/ItemPage"
+  },
+  {
+    "type": "ListItem",
+    "meaning": "列表中的一个位置与对象",
+    "definition": "An list item, e.g. a step in a checklist or how-to description.",
+    "state": "实际输出",
+    "pages": [
+      "about-garvee",
+      "contact",
+      "terms-of-service",
+      "privacy-policy",
+      "accessibility-statement",
+      "track-your-order",
+      "payments-policy",
+      "shipping-policy",
+      "warranty-policy",
+      "refund-policy",
+      "carebox-package-protection",
+      "extended-service-protection",
+      "category",
+      "product",
+      "product-reviews",
+      "faqs",
+      "diy-ideas",
+      "blog-list",
+      "article",
+      "campaign"
+    ],
+    "source": "https://schema.org/ListItem"
+  },
+  {
+    "type": "MemberProgram",
+    "meaning": "组织的会员/忠诚度计划",
+    "definition": "A MemberProgram defines a loyalty (or membership) program that provides its members with certain benefits, for example better pricing, free shipping or returns, or the ability to earn loyalty points. Member programs may have multiple tiers, for example silver and gold members, each with different benefits.",
+    "state": "实际输出",
+    "pages": [
+      "mygarvees-rewards"
+    ],
+    "source": "https://schema.org/MemberProgram"
+  },
+  {
+    "type": "MemberProgramTier",
+    "meaning": "会员计划中的一个等级",
+    "definition": "A MemberProgramTier specifies a tier under a loyalty (member) program, for example \"gold\".",
+    "state": "实际输出",
+    "pages": [
+      "mygarvees-rewards"
+    ],
+    "source": "https://schema.org/MemberProgramTier"
+  },
+  {
+    "type": "MerchantReturnPolicy",
+    "meaning": "商家退货政策或商品例外",
+    "definition": "A MerchantReturnPolicy provides information about product return policies associated with an [[Organization]], [[Product]], or [[Offer]].",
+    "state": "实际输出",
+    "pages": [
+      "about-garvee",
+      "contact",
+      "refund-policy"
+    ],
+    "source": "https://schema.org/MerchantReturnPolicy"
+  },
+  {
+    "type": "MonetaryAmount",
+    "meaning": "金额和币种",
+    "definition": "A monetary value or range. This type can be used to describe an amount of money such as $50 USD, or a range as in describing a bank account being suitable for a balance between £1,000 and £1,000,000 GBP, or the value of a salary, etc. It is recommended to use [[PriceSpecification]] Types to describe the price of an Offer, Invoice, etc.",
+    "state": "仅条件适用；缺实际数据/场景时不输出",
+    "pages": [],
+    "source": "https://schema.org/MonetaryAmount"
+  },
+  {
+    "type": "Offer",
+    "meaning": "真实商品/服务报价",
+    "definition": "An offer to transfer some rights to an item or to provide a service — for example, an offer to sell tickets to an event, to rent the DVD of a movie, to stream a TV show over the internet, to repair a motorcycle, or to loan a book.\\n\\nNote: As the [[businessFunction]] property, which identifies the form of offer (e.g. sell, lease, repair, dispose), defaults to http://purl.org/goodrelations/v1#Sell; an Offer without a defined businessFunction value can be assumed to be an offer to sell.\\n\\nFor [GTIN](http://www.gs1.org/barcodes/technical/idkeys/gtin)-related fields, see [Check Digit calculator](http://www.gs1.org/barcodes/support/check_digit_calculator) and [validation guide](http://www.gs1us.org/resources/standards/gtin-validation-guide) from [GS1](http://www.gs1.org/).",
+    "state": "实际输出",
+    "pages": [
+      "category",
+      "product",
+      "campaign"
+    ],
+    "source": "https://schema.org/Offer"
+  },
+  {
+    "type": "OfferShippingDetails",
+    "meaning": "具体报价的配送条款",
+    "definition": "OfferShippingDetails represents information about shipping destinations.\n\nMultiple of these entities can be used to represent different shipping rates for different destinations:\n\nOne entity for Alaska/Hawaii. A different one for continental US. A different one for all France.\n\nMultiple of these entities can be used to represent different shipping costs and delivery times.\n\nTwo entities that are identical but differ in rate and time:\n\nE.g. Cheaper and slower: $5 in 5-7 days\nor Fast and expensive: $15 in 1-2 days.",
+    "state": "仅条件适用；缺实际数据/场景时不输出",
+    "pages": [],
+    "source": "https://schema.org/OfferShippingDetails"
+  },
+  {
+    "type": "OnlineStore",
+    "meaning": "网上商店，属于 Organization 体系；不证明线下门店",
+    "definition": "An eCommerce site.",
+    "state": "实际输出",
+    "pages": [
+      "about-garvee",
+      "contact",
+      "payments-policy",
+      "refund-policy",
+      "mygarvees-rewards"
+    ],
+    "source": "https://schema.org/OnlineStore"
+  },
+  {
+    "type": "OpeningHoursSpecification",
+    "meaning": "服务可用的星期和起止时间",
+    "definition": "A structured value providing information about the opening hours of a place or a certain service inside a place.\\n\\n\nThe place is __open__ if the [[opens]] property is specified, and __closed__ otherwise.\\n\\nIf the value for the [[closes]] property is less than the value for the [[opens]] property then the hour range is assumed to span over the next day.\n      ",
+    "state": "实际输出",
+    "pages": [
+      "about-garvee",
+      "contact"
+    ],
+    "source": "https://schema.org/OpeningHoursSpecification"
+  },
+  {
+    "type": "Organization",
+    "meaning": "组织身份，不等于作者或每个SKU卖方",
+    "definition": "An organization such as a school, NGO, corporation, club, etc.",
+    "state": "实际输出",
+    "pages": [
+      "track-your-order",
+      "affiliate",
+      "influencer-program",
+      "extended-service-protection",
+      "business",
+      "help-center",
+      "diy-ideas",
+      "blog-list",
+      "article"
+    ],
+    "source": "https://schema.org/Organization"
+  },
+  {
+    "type": "ParcelDelivery",
+    "meaning": "具体包裹运送事实，公共查询表单不适用",
+    "definition": "The delivery of a parcel either via the postal service or a commercial service.",
+    "state": "仅条件适用；缺实际数据/场景时不输出",
+    "pages": [],
+    "source": "https://schema.org/ParcelDelivery"
+  },
+  {
+    "type": "Person",
+    "meaning": "真实人物，如署名作者或公开评论者",
+    "definition": "A person (alive, dead, undead, or fictional).",
+    "state": "实际输出",
+    "pages": [
+      "product"
+    ],
+    "source": "https://schema.org/Person"
+  },
+  {
+    "type": "PostalAddress",
+    "meaning": "结构化邮政地址，须确认实体/角色",
+    "definition": "The mailing address.",
+    "state": "实际输出",
+    "pages": [
+      "about-garvee",
+      "contact"
+    ],
+    "source": "https://schema.org/PostalAddress"
+  },
+  {
+    "type": "Product",
+    "meaning": "商品对象，与当前商品/变体范围一致",
+    "definition": "Any offered product or service. For example: a pair of shoes; a concert ticket; the rental of a car; a haircut; or an episode of a TV show streamed online.",
+    "state": "实际输出",
+    "pages": [
+      "category",
+      "product",
+      "campaign"
+    ],
+    "source": "https://schema.org/Product"
+  },
+  {
+    "type": "ProductGroup",
+    "meaning": "共享某些特征的真实变体组",
+    "definition": "A ProductGroup represents a group of [[Product]]s that vary only in certain well-described ways, such as by [[size]], [[color]], [[material]] etc.\n\nWhile a ProductGroup itself is not directly offered for sale, the various varying products that it represents can be. The ProductGroup serves as a prototype or template, standing in for all of the products who have an [[isVariantOf]] relationship to it. As such, properties (including additional types) can be applied to the ProductGroup to represent characteristics shared by each of the (possibly very many) variants. Properties that reference a ProductGroup are not included in this mechanism; neither are the following specific properties [[variesBy]], [[hasVariant]], [[url]]. ",
+    "state": "仅条件适用；缺实际数据/场景时不输出",
+    "pages": [],
+    "source": "https://schema.org/ProductGroup"
+  },
+  {
+    "type": "PropertyValue",
+    "meaning": "具名规格及其值",
+    "definition": "A property-value pair, e.g. representing a feature of a product or place. Use the 'name' property for the name of the property. If there is an additional human-readable version of the value, put that into the 'description' property.\\n\\n Always use specific schema.org properties when a) they exist and b) you can populate them. Using PropertyValue as a substitute will typically not trigger the same effect as using the original, specific property.\n    ",
+    "state": "实际输出",
+    "pages": [
+      "product"
+    ],
+    "source": "https://schema.org/PropertyValue"
+  },
+  {
+    "type": "QAPage",
+    "meaning": "围绕一个问题且有答案的页面；Google还有用户提交机制等要求",
+    "definition": "A QAPage is a WebPage focussed on a specific Question and its Answer(s), e.g. in a question answering site or documenting Frequently Asked Questions (FAQs).",
+    "state": "仅条件适用；缺实际数据/场景时不输出",
+    "pages": [],
+    "source": "https://schema.org/QAPage"
+  },
+  {
+    "type": "QuantitativeValue",
+    "meaning": "数量、区间及单位",
+    "definition": " A point value or interval for product characteristics and other purposes.",
+    "state": "实际输出",
+    "pages": [
+      "warranty-policy",
+      "mygarvees-rewards",
+      "extended-service-protection",
+      "product"
+    ],
+    "source": "https://schema.org/QuantitativeValue"
+  },
+  {
+    "type": "Question",
+    "meaning": "真实问题，不把引导标题都当FAQ",
+    "definition": "A specific question - e.g. from a user seeking answers online, or collected in a Frequently Asked Questions (FAQ) document.",
+    "state": "实际输出",
+    "pages": [
+      "affiliate",
+      "influencer-program",
+      "share-and-win",
+      "mygarvees-rewards",
+      "business",
+      "category",
+      "faqs"
+    ],
+    "source": "https://schema.org/Question"
+  },
+  {
+    "type": "Rating",
+    "meaning": "一条评分，不是总体平均",
+    "definition": "A rating is an evaluation on a numeric scale, such as 1 to 5 stars.",
+    "state": "实际输出",
+    "pages": [
+      "product"
+    ],
+    "source": "https://schema.org/Rating"
+  },
+  {
+    "type": "Review",
+    "meaning": "一条真实评价及其作者/对象",
+    "definition": "A review of an item - for example, of a restaurant, movie, or store.",
+    "state": "实际输出",
+    "pages": [
+      "product"
+    ],
+    "source": "https://schema.org/Review"
+  },
+  {
+    "type": "Service",
+    "meaning": "真实服务，不表示已经下单/投保/履约",
+    "definition": "A service provided by an organization, e.g. delivery service, print services, etc.",
+    "state": "实际输出",
+    "pages": [
+      "track-your-order",
+      "carebox-package-protection",
+      "affiliate",
+      "influencer-program",
+      "extended-service-protection",
+      "business",
+      "help-center"
+    ],
+    "source": "https://schema.org/Service"
+  },
+  {
+    "type": "ServicePeriod",
+    "meaning": "服务的时间期间",
+    "definition": "ServicePeriod represents a duration with some constraints about cutoff time and business days. This is used e.g. in shipping for handling times or transit time.",
+    "state": "仅条件适用；缺实际数据/场景时不输出",
+    "pages": [],
+    "source": "https://schema.org/ServicePeriod"
+  },
+  {
+    "type": "ShippingConditions",
+    "meaning": "运输适用条件",
+    "definition": "ShippingConditions represent a set of constraints and information about the conditions of shipping a product. Such conditions may apply to only a subset of the products being shipped, depending on aspects of the product like weight, size, price, destination, and others. All the specified conditions must be met for this ShippingConditions to apply.",
+    "state": "仅条件适用；缺实际数据/场景时不输出",
+    "pages": [],
+    "source": "https://schema.org/ShippingConditions"
+  },
+  {
+    "type": "ShippingRateSettings",
+    "meaning": "运费规则",
+    "definition": "A ShippingRateSettings represents re-usable pieces of shipping information. It is designed for publication on an URL that may be referenced via the [[shippingSettingsLink]] property of an [[OfferShippingDetails]]. Several occurrences can be published, distinguished and matched (i.e. identified/referenced) by their different values for [[shippingLabel]].",
+    "state": "仅条件适用；缺实际数据/场景时不输出",
+    "pages": [],
+    "source": "https://schema.org/ShippingRateSettings"
+  },
+  {
+    "type": "ShippingService",
+    "meaning": "组织提供的配送服务",
+    "definition": "ShippingService represents the criteria used to determine if and how an offer could be shipped to a customer.",
+    "state": "仅条件适用；缺实际数据/场景时不输出",
+    "pages": [],
+    "source": "https://schema.org/ShippingService"
+  },
+  {
+    "type": "VideoObject",
+    "meaning": "真实视频元数据，不自动证明watch page资格",
+    "definition": "A video file.",
+    "state": "实际输出",
+    "pages": [
+      "article"
+    ],
+    "source": "https://schema.org/VideoObject"
+  },
+  {
+    "type": "WarrantyPromise",
+    "meaning": "有期限与适用范围的保修承诺",
+    "definition": "A structured value representing the duration and scope of services that will be provided to a customer free of charge in case of a defect or malfunction of a product.",
+    "state": "实际输出",
+    "pages": [
+      "warranty-policy",
+      "extended-service-protection"
+    ],
+    "source": "https://schema.org/WarrantyPromise"
+  },
+  {
+    "type": "WebPage",
+    "meaning": "普通网页实体",
+    "definition": "A web page. Every web page is implicitly assumed to be declared to be of type WebPage, so the various properties about that webpage, such as <code>breadcrumb</code> may be used. We recommend explicit declaration if these properties are specified, but if they are found outside of an itemscope, they will be assumed to be about the page.",
+    "state": "实际输出",
+    "pages": [
+      "terms-of-service",
+      "privacy-policy",
+      "accessibility-statement",
+      "track-your-order",
+      "payments-policy",
+      "shipping-policy",
+      "warranty-policy",
+      "refund-policy",
+      "carebox-package-protection",
+      "affiliate",
+      "influencer-program",
+      "share-and-win",
+      "mygarvees-rewards",
+      "extended-service-protection",
+      "business",
+      "help-center",
+      "article"
+    ],
+    "source": "https://schema.org/WebPage"
+  },
+  {
+    "type": "WebPageElement",
+    "meaning": "页面内真实组成模块",
+    "definition": "A web page element, like a table or an image.",
+    "state": "实际输出",
+    "pages": [
+      "affiliate",
+      "influencer-program",
+      "share-and-win",
+      "mygarvees-rewards",
+      "business",
+      "category",
+      "campaign"
+    ],
+    "source": "https://schema.org/WebPageElement"
+  },
+  {
+    "type": "WebSite",
+    "meaning": "网站整体；站点名称定义放域/子域首页",
+    "definition": "A WebSite is a set of related web pages and other items typically served from a single web domain and accessible via URLs.",
+    "state": "实际输出",
+    "pages": [
+      "help-center"
+    ],
+    "source": "https://schema.org/WebSite"
+  }
+]

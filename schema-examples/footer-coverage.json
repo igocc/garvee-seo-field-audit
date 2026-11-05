@@ -1,0 +1,186 @@
+[
+  {
+    "text": "About Garvee",
+    "url": "https://www.garvee.com/pages/about-garvee",
+    "sample": "about-garvee",
+    "state": "已覆盖独立样本",
+    "raw_url": "https://www.garvee.com/pages/about-garvee"
+  },
+  {
+    "text": "Special Outlets",
+    "url": "https://www.garvee.com/collections/clearance-sale?filter.v.availability=1",
+    "sample": "category",
+    "state": "已检查真实筛选类目页面；复用类目类型示例",
+    "raw_url": "https://www.garvee.com/collections/clearance-sale?filter.v.availability=1",
+    "evidence": "evidence/footer-clearance.json",
+    "canonical": "https://www.garvee.com/collections/clearance-sale"
+  },
+  {
+    "text": "DIY Projects & Ideas",
+    "url": "https://www.garvee.com/pages/diy-ideas",
+    "sample": "diy-ideas",
+    "state": "已覆盖独立样本",
+    "raw_url": "https://www.garvee.com/pages/diy-ideas"
+  },
+  {
+    "text": "Terms Of Service",
+    "url": "https://www.garvee.com/policies/terms-of-service",
+    "sample": "terms-of-service",
+    "state": "已覆盖独立样本",
+    "raw_url": "https://www.garvee.com/policies/terms-of-service"
+  },
+  {
+    "text": "Privacy Policy",
+    "url": "https://www.garvee.com/policies/privacy-policy",
+    "sample": "privacy-policy",
+    "state": "已覆盖独立样本",
+    "raw_url": "https://www.garvee.com/policies/privacy-policy"
+  },
+  {
+    "text": "Accessibility",
+    "url": "https://www.garvee.com/pages/accessibility-statement",
+    "sample": "accessibility-statement",
+    "state": "已覆盖独立样本；原 href 尾空格已规范化",
+    "raw_url": "https://www.garvee.com/pages/accessibility-statement "
+  },
+  {
+    "text": "Track Your Order",
+    "url": "https://www.garvee.com/pages/track-your-order",
+    "sample": "track-your-order",
+    "state": "已覆盖独立样本",
+    "raw_url": "https://www.garvee.com/pages/track-your-order"
+  },
+  {
+    "text": "Payments Policy",
+    "url": "https://www.garvee.com/pages/payments-policy",
+    "sample": "payments-policy",
+    "state": "已覆盖独立样本",
+    "raw_url": "https://www.garvee.com/pages/payments-policy"
+  },
+  {
+    "text": "Shipping Policy",
+    "url": "https://www.garvee.com/policies/shipping-policy",
+    "sample": "shipping-policy",
+    "state": "已覆盖独立样本",
+    "raw_url": "https://www.garvee.com/policies/shipping-policy"
+  },
+  {
+    "text": "Warranty Policy",
+    "url": "https://www.garvee.com/pages/warranty-policy",
+    "sample": "warranty-policy",
+    "state": "已覆盖独立样本",
+    "raw_url": "https://www.garvee.com/pages/warranty-policy"
+  },
+  {
+    "text": "Refund & Return Policy",
+    "url": "https://www.garvee.com/policies/refund-policy",
+    "sample": "refund-policy",
+    "state": "已覆盖独立样本",
+    "raw_url": "https://www.garvee.com/policies/refund-policy"
+  },
+  {
+    "text": "Worry-Free Purchase",
+    "url": "https://www.garvee.com/pages/carebox-package-protection",
+    "sample": "carebox-package-protection",
+    "state": "已覆盖独立样本",
+    "raw_url": "https://www.garvee.com/pages/carebox-package-protection"
+  },
+  {
+    "text": "Contact Us",
+    "url": "https://www.garvee.com/pages/contact",
+    "sample": "contact",
+    "state": "已覆盖独立样本",
+    "raw_url": "https://www.garvee.com/pages/contact"
+  },
+  {
+    "text": "Affiliate Program",
+    "url": "https://www.garvee.com/pages/affiliate",
+    "sample": "affiliate",
+    "state": "已覆盖独立样本",
+    "raw_url": "https://www.garvee.com/pages/affiliate"
+  },
+  {
+    "text": "Influencer Program",
+    "url": "https://www.garvee.com/pages/influencer-program",
+    "sample": "influencer-program",
+    "state": "已覆盖独立样本",
+    "raw_url": "https://www.garvee.com/pages/influencer-program"
+  },
+  {
+    "text": "Share and Win",
+    "url": "https://www.garvee.com/pages/share-and-win",
+    "sample": "share-and-win",
+    "state": "已覆盖独立样本",
+    "raw_url": "https://www.garvee.com/pages/share-and-win"
+  },
+  {
+    "text": "Garvee Rewards",
+    "url": "https://www.garvee.com/pages/mygarvees-rewards",
+    "sample": "mygarvees-rewards",
+    "state": "已覆盖独立样本",
+    "raw_url": "https://www.garvee.com/pages/mygarvees-rewards"
+  },
+  {
+    "text": "Protection Plans",
+    "url": "https://www.garvee.com/pages/extended-service-protection",
+    "sample": "extended-service-protection",
+    "state": "已覆盖独立样本",
+    "raw_url": "https://www.garvee.com/pages/extended-service-protection"
+  },
+  {
+    "text": "Help Center",
+    "url": "https://support.garvee.com/",
+    "sample": "help-center",
+    "state": "已覆盖独立样本",
+    "raw_url": "https://support.garvee.com/"
+  },
+  {
+    "text": "WholeSale Program",
+    "url": "https://www.garvee.com/pages/business",
+    "sample": "business",
+    "state": "已覆盖独立样本",
+    "raw_url": "https://www.garvee.com/pages/business"
+  },
+  {
+    "text": "Pinterest",
+    "url": "https://www.pinterest.com/garvee_official/",
+    "sample": null,
+    "state": "共享品牌外部身份／外部服务入口",
+    "raw_url": "https://www.pinterest.com/garvee_official/"
+  },
+  {
+    "text": "Facebook",
+    "url": "https://www.facebook.com/garveeglobal",
+    "sample": null,
+    "state": "共享品牌外部身份／外部服务入口",
+    "raw_url": "https://www.facebook.com/garveeglobal"
+  },
+  {
+    "text": "Instagram",
+    "url": "https://www.instagram.com/garvee_official/",
+    "sample": null,
+    "state": "共享品牌外部身份／外部服务入口",
+    "raw_url": "https://www.instagram.com/garvee_official/"
+  },
+  {
+    "text": "Youtube",
+    "url": "https://www.youtube.com/channel/UCvt0kZI7qgY2leAZrwI9DKA",
+    "sample": null,
+    "state": "共享品牌外部身份／外部服务入口",
+    "raw_url": "https://www.youtube.com/channel/UCvt0kZI7qgY2leAZrwI9DKA"
+  },
+  {
+    "text": "TikTok",
+    "url": "https://www.tiktok.com/@garvee_official",
+    "sample": null,
+    "state": "共享品牌外部身份／外部服务入口",
+    "raw_url": "https://www.tiktok.com/@garvee_official"
+  },
+  {
+    "text": "Google Customer Reviews",
+    "url": "https://www.google.com/storepages?q=garvee.com&c=US&v=19",
+    "sample": null,
+    "state": "共享品牌外部身份／外部服务入口",
+    "raw_url": "https://www.google.com/storepages?q=garvee.com&c=US&v=19"
+  }
+]

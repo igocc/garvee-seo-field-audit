@@ -1,0 +1,755 @@
+{
+  "requested_url": "https://www.garvee.com/policies/terms-of-service",
+  "url": "https://www.garvee.com/policies/terms-of-service",
+  "status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "captured_at": "2026-11-04T13:34:30.252928+00:00",
+  "sha256": "07fd3a934a48ea5410b1f7264382eb299195fc6031e8dd6980bce9c45d35beeb",
+  "title": "Terms of Service - GARVEE - GARVEE",
+  "canonical": "https://www.garvee.com/policies/terms-of-service",
+  "description": "GARVEE Terms Of Service",
+  "lang": "en",
+  "h1": [
+    "Terms of Service"
+  ],
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "/",
+            "name": "Home"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "/policies/terms-of-service",
+            "name": "Terms of Service"
+          }
+        }
+      ]
+    }
+  ],
+  "jsonld_parse_errors": [],
+  "main_links": [
+    {
+      "text": "Home",
+      "url": "https://www.garvee.com/"
+    },
+    {
+      "text": "About GARVEE",
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Terms Of Service",
+      "url": "https://www.garvee.com/policies/terms-of-service"
+    },
+    {
+      "text": "Privacy Policy",
+      "url": "https://www.garvee.com/policies/privacy-policy"
+    },
+    {
+      "text": "Accessibility Statement",
+      "url": "https://www.garvee.com/pages/accessibility-statement"
+    },
+    {
+      "text": "Contact Us",
+      "url": "https://www.garvee.com/pages/contact"
+    },
+    {
+      "text": "Payments Policy",
+      "url": "https://www.garvee.com/pages/payments-policy"
+    },
+    {
+      "text": "Shipping Policy",
+      "url": "https://www.garvee.com/policies/shipping-policy"
+    },
+    {
+      "text": "Refund & Return Policy",
+      "url": "https://www.garvee.com/policies/refund-policy"
+    },
+    {
+      "text": "Warranty Policy",
+      "url": "https://www.garvee.com/pages/warranty-policy"
+    },
+    {
+      "text": "support@garvee.com",
+      "url": "mailto:support@garvee.com"
+    },
+    {
+      "text": "support@garvee.com",
+      "url": "mailto:support@garvee.com"
+    },
+    {
+      "text": "support@garvee.com",
+      "url": "mailto:support@garvee.com"
+    },
+    {
+      "text": "support@garvee.com",
+      "url": "mailto:support@garvee.com"
+    }
+  ],
+  "footer_links": [
+    {
+      "text": "About Garvee",
+      "label": null,
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Special Outlets",
+      "label": null,
+      "url": "https://www.garvee.com/collections/clearance-sale?filter.v.availability=1"
+    },
+    {
+      "text": "DIY Projects & Ideas",
+      "label": null,
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "Terms Of Service",
+      "label": null,
+      "url": "https://www.garvee.com/policies/terms-of-service"
+    },
+    {
+      "text": "Privacy Policy",
+      "label": null,
+      "url": "https://www.garvee.com/policies/privacy-policy"
+    },
+    {
+      "text": "Accessibility",
+      "label": null,
+      "url": "https://www.garvee.com/pages/accessibility-statement "
+    },
+    {
+      "text": "Track Your Order",
+      "label": null,
+      "url": "https://www.garvee.com/pages/track-your-order"
+    },
+    {
+      "text": "Payments Policy",
+      "label": null,
+      "url": "https://www.garvee.com/pages/payments-policy"
+    },
+    {
+      "text": "Shipping Policy",
+      "label": null,
+      "url": "https://www.garvee.com/policies/shipping-policy"
+    },
+    {
+      "text": "Warranty Policy",
+      "label": null,
+      "url": "https://www.garvee.com/pages/warranty-policy"
+    },
+    {
+      "text": "Refund & Return Policy",
+      "label": null,
+      "url": "https://www.garvee.com/policies/refund-policy"
+    },
+    {
+      "text": "Worry-Free Purchase",
+      "label": null,
+      "url": "https://www.garvee.com/pages/carebox-package-protection"
+    },
+    {
+      "text": "Contact Us",
+      "label": null,
+      "url": "https://www.garvee.com/pages/contact"
+    },
+    {
+      "text": "Affiliate Program",
+      "label": null,
+      "url": "https://www.garvee.com/pages/affiliate"
+    },
+    {
+      "text": "Influencer Program",
+      "label": null,
+      "url": "https://www.garvee.com/pages/influencer-program"
+    },
+    {
+      "text": "Share and Win",
+      "label": null,
+      "url": "https://www.garvee.com/pages/share-and-win"
+    },
+    {
+      "text": "Garvee Rewards",
+      "label": null,
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "Protection Plans",
+      "label": null,
+      "url": "https://www.garvee.com/pages/extended-service-protection"
+    },
+    {
+      "text": "Help Center",
+      "label": null,
+      "url": "https://support.garvee.com/"
+    },
+    {
+      "text": "WholeSale Program",
+      "label": null,
+      "url": "https://www.garvee.com/pages/business"
+    },
+    {
+      "text": "",
+      "label": "Pinterest",
+      "url": "https://www.pinterest.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/garveeglobal"
+    },
+    {
+      "text": "",
+      "label": "Instagram",
+      "url": "https://www.instagram.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/channel/UCvt0kZI7qgY2leAZrwI9DKA"
+    },
+    {
+      "text": "",
+      "label": "TikTok",
+      "url": "https://www.tiktok.com/@garvee_official"
+    },
+    {
+      "text": "",
+      "label": "Google Customer Reviews",
+      "url": "https://www.google.com/storepages?q=garvee.com&c=US&v=19"
+    },
+    {
+      "text": "About Garvee",
+      "label": null,
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Special Outlets",
+      "label": null,
+      "url": "https://www.garvee.com/collections/clearance-sale?filter.v.availability=1"
+    },
+    {
+      "text": "DIY Projects & Ideas",
+      "label": null,
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "Terms Of Service",
+      "label": null,
+      "url": "https://www.garvee.com/policies/terms-of-service"
+    },
+    {
+      "text": "Privacy Policy",
+      "label": null,
+      "url": "https://www.garvee.com/policies/privacy-policy"
+    },
+    {
+      "text": "Accessibility",
+      "label": null,
+      "url": "https://www.garvee.com/pages/accessibility-statement "
+    },
+    {
+      "text": "Track Your Order",
+      "label": null,
+      "url": "https://www.garvee.com/pages/track-your-order"
+    },
+    {
+      "text": "Payments Policy",
+      "label": null,
+      "url": "https://www.garvee.com/pages/payments-policy"
+    },
+    {
+      "text": "Shipping Policy",
+      "label": null,
+      "url": "https://www.garvee.com/policies/shipping-policy"
+    },
+    {
+      "text": "Warranty Policy",
+      "label": null,
+      "url": "https://www.garvee.com/pages/warranty-policy"
+    },
+    {
+      "text": "Refund & Return Policy",
+      "label": null,
+      "url": "https://www.garvee.com/policies/refund-policy"
+    },
+    {
+      "text": "Worry-Free Purchase",
+      "label": null,
+      "url": "https://www.garvee.com/pages/carebox-package-protection"
+    },
+    {
+      "text": "Contact Us",
+      "label": null,
+      "url": "https://www.garvee.com/pages/contact"
+    },
+    {
+      "text": "Affiliate Program",
+      "label": null,
+      "url": "https://www.garvee.com/pages/affiliate"
+    },
+    {
+      "text": "Influencer Program",
+      "label": null,
+      "url": "https://www.garvee.com/pages/influencer-program"
+    },
+    {
+      "text": "Share and Win",
+      "label": null,
+      "url": "https://www.garvee.com/pages/share-and-win"
+    },
+    {
+      "text": "Garvee Rewards",
+      "label": null,
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "Protection Plans",
+      "label": null,
+      "url": "https://www.garvee.com/pages/extended-service-protection"
+    },
+    {
+      "text": "Help Center",
+      "label": null,
+      "url": "https://support.garvee.com/"
+    },
+    {
+      "text": "WholeSale Program",
+      "label": null,
+      "url": "https://www.garvee.com/pages/business"
+    },
+    {
+      "text": "",
+      "label": "Pinterest",
+      "url": "https://www.pinterest.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/garveeglobal"
+    },
+    {
+      "text": "",
+      "label": "Instagram",
+      "url": "https://www.instagram.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/channel/UCvt0kZI7qgY2leAZrwI9DKA"
+    },
+    {
+      "text": "",
+      "label": "TikTok",
+      "url": "https://www.tiktok.com/@garvee_official"
+    },
+    {
+      "text": "",
+      "label": "Google Customer Reviews",
+      "url": "https://www.google.com/storepages?q=garvee.com&c=US&v=19"
+    }
+  ],
+  "all_links": [
+    {
+      "text": "Home",
+      "url": "https://www.garvee.com/"
+    },
+    {
+      "text": "About GARVEE",
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Terms Of Service",
+      "url": "https://www.garvee.com/policies/terms-of-service"
+    },
+    {
+      "text": "Privacy Policy",
+      "url": "https://www.garvee.com/policies/privacy-policy"
+    },
+    {
+      "text": "Accessibility Statement",
+      "url": "https://www.garvee.com/pages/accessibility-statement"
+    },
+    {
+      "text": "Contact Us",
+      "url": "https://www.garvee.com/pages/contact"
+    },
+    {
+      "text": "Payments Policy",
+      "url": "https://www.garvee.com/pages/payments-policy"
+    },
+    {
+      "text": "Shipping Policy",
+      "url": "https://www.garvee.com/policies/shipping-policy"
+    },
+    {
+      "text": "Refund & Return Policy",
+      "url": "https://www.garvee.com/policies/refund-policy"
+    },
+    {
+      "text": "Warranty Policy",
+      "url": "https://www.garvee.com/pages/warranty-policy"
+    },
+    {
+      "text": "support@garvee.com",
+      "url": "mailto:support@garvee.com"
+    },
+    {
+      "text": "support@garvee.com",
+      "url": "mailto:support@garvee.com"
+    },
+    {
+      "text": "support@garvee.com",
+      "url": "mailto:support@garvee.com"
+    },
+    {
+      "text": "support@garvee.com",
+      "url": "mailto:support@garvee.com"
+    },
+    {
+      "text": "About Garvee",
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Special Outlets",
+      "url": "https://www.garvee.com/collections/clearance-sale?filter.v.availability=1"
+    },
+    {
+      "text": "DIY Projects & Ideas",
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "Terms Of Service",
+      "url": "https://www.garvee.com/policies/terms-of-service"
+    },
+    {
+      "text": "Privacy Policy",
+      "url": "https://www.garvee.com/policies/privacy-policy"
+    },
+    {
+      "text": "Accessibility",
+      "url": "https://www.garvee.com/pages/accessibility-statement "
+    },
+    {
+      "text": "Track Your Order",
+      "url": "https://www.garvee.com/pages/track-your-order"
+    },
+    {
+      "text": "Payments Policy",
+      "url": "https://www.garvee.com/pages/payments-policy"
+    },
+    {
+      "text": "Shipping Policy",
+      "url": "https://www.garvee.com/policies/shipping-policy"
+    },
+    {
+      "text": "Warranty Policy",
+      "url": "https://www.garvee.com/pages/warranty-policy"
+    },
+    {
+      "text": "Refund & Return Policy",
+      "url": "https://www.garvee.com/policies/refund-policy"
+    },
+    {
+      "text": "Worry-Free Purchase",
+      "url": "https://www.garvee.com/pages/carebox-package-protection"
+    },
+    {
+      "text": "Contact Us",
+      "url": "https://www.garvee.com/pages/contact"
+    },
+    {
+      "text": "Affiliate Program",
+      "url": "https://www.garvee.com/pages/affiliate"
+    },
+    {
+      "text": "Influencer Program",
+      "url": "https://www.garvee.com/pages/influencer-program"
+    },
+    {
+      "text": "Share and Win",
+      "url": "https://www.garvee.com/pages/share-and-win"
+    },
+    {
+      "text": "Garvee Rewards",
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "Protection Plans",
+      "url": "https://www.garvee.com/pages/extended-service-protection"
+    },
+    {
+      "text": "Help Center",
+      "url": "https://support.garvee.com/"
+    },
+    {
+      "text": "WholeSale Program",
+      "url": "https://www.garvee.com/pages/business"
+    },
+    {
+      "text": "",
+      "url": "https://www.pinterest.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "url": "https://www.facebook.com/garveeglobal"
+    },
+    {
+      "text": "",
+      "url": "https://www.instagram.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "url": "https://www.youtube.com/channel/UCvt0kZI7qgY2leAZrwI9DKA"
+    },
+    {
+      "text": "",
+      "url": "https://www.tiktok.com/@garvee_official"
+    },
+    {
+      "text": "",
+      "url": "https://www.google.com/storepages?q=garvee.com&c=US&v=19"
+    },
+    {
+      "text": "About Garvee",
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Special Outlets",
+      "url": "https://www.garvee.com/collections/clearance-sale?filter.v.availability=1"
+    },
+    {
+      "text": "DIY Projects & Ideas",
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "Terms Of Service",
+      "url": "https://www.garvee.com/policies/terms-of-service"
+    },
+    {
+      "text": "Privacy Policy",
+      "url": "https://www.garvee.com/policies/privacy-policy"
+    },
+    {
+      "text": "Accessibility",
+      "url": "https://www.garvee.com/pages/accessibility-statement "
+    },
+    {
+      "text": "Track Your Order",
+      "url": "https://www.garvee.com/pages/track-your-order"
+    },
+    {
+      "text": "Payments Policy",
+      "url": "https://www.garvee.com/pages/payments-policy"
+    },
+    {
+      "text": "Shipping Policy",
+      "url": "https://www.garvee.com/policies/shipping-policy"
+    },
+    {
+      "text": "Warranty Policy",
+      "url": "https://www.garvee.com/pages/warranty-policy"
+    },
+    {
+      "text": "Refund & Return Policy",
+      "url": "https://www.garvee.com/policies/refund-policy"
+    },
+    {
+      "text": "Worry-Free Purchase",
+      "url": "https://www.garvee.com/pages/carebox-package-protection"
+    },
+    {
+      "text": "Contact Us",
+      "url": "https://www.garvee.com/pages/contact"
+    },
+    {
+      "text": "Affiliate Program",
+      "url": "https://www.garvee.com/pages/affiliate"
+    },
+    {
+      "text": "Influencer Program",
+      "url": "https://www.garvee.com/pages/influencer-program"
+    },
+    {
+      "text": "Share and Win",
+      "url": "https://www.garvee.com/pages/share-and-win"
+    },
+    {
+      "text": "Garvee Rewards",
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "Protection Plans",
+      "url": "https://www.garvee.com/pages/extended-service-protection"
+    },
+    {
+      "text": "Help Center",
+      "url": "https://support.garvee.com/"
+    },
+    {
+      "text": "WholeSale Program",
+      "url": "https://www.garvee.com/pages/business"
+    },
+    {
+      "text": "",
+      "url": "https://www.pinterest.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "url": "https://www.facebook.com/garveeglobal"
+    },
+    {
+      "text": "",
+      "url": "https://www.instagram.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "url": "https://www.youtube.com/channel/UCvt0kZI7qgY2leAZrwI9DKA"
+    },
+    {
+      "text": "",
+      "url": "https://www.tiktok.com/@garvee_official"
+    },
+    {
+      "text": "",
+      "url": "https://www.google.com/storepages?q=garvee.com&c=US&v=19"
+    },
+    {
+      "text": "",
+      "url": "https://www.pinterest.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "url": "https://www.facebook.com/garveeglobal"
+    },
+    {
+      "text": "",
+      "url": "https://www.instagram.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "url": "https://www.youtube.com/channel/UCvt0kZI7qgY2leAZrwI9DKA"
+    },
+    {
+      "text": "",
+      "url": "https://www.tiktok.com/@garvee_official"
+    },
+    {
+      "text": "Join Free",
+      "url": "https://www.garvee.com/policies/terms-of-service#login"
+    },
+    {
+      "text": "Get My Discount",
+      "url": "https://www.garvee.com/policies/terms-of-service#login"
+    },
+    {
+      "text": "Unlock Savings",
+      "url": "https://www.garvee.com/policies/terms-of-service#login"
+    },
+    {
+      "text": "Join Free",
+      "url": "https://www.garvee.com/policies/terms-of-service#login"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/"
+    },
+    {
+      "text": "New Arrivals",
+      "url": "https://www.garvee.com/collections/new-arrivals"
+    },
+    {
+      "text": "Best Sellers🔥",
+      "url": "https://www.garvee.com/collections/best-sellers"
+    },
+    {
+      "text": "Flash Deals⚡",
+      "url": "https://www.garvee.com/collections/flash-deals"
+    },
+    {
+      "text": "Clearance",
+      "url": "https://www.garvee.com/collections/clearance-sale"
+    },
+    {
+      "text": "DIY Projects & Ideas",
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "About Us",
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Rewards & Points",
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/"
+    },
+    {
+      "text": "New Arrivals",
+      "url": "https://www.garvee.com/collections/new-arrivals"
+    },
+    {
+      "text": "Best Sellers🔥",
+      "url": "https://www.garvee.com/collections/best-sellers"
+    },
+    {
+      "text": "Flash Deals⚡",
+      "url": "https://www.garvee.com/collections/flash-deals"
+    },
+    {
+      "text": "Clearance",
+      "url": "https://www.garvee.com/collections/clearance-sale"
+    },
+    {
+      "text": "DIY Projects & Ideas",
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "Everything You Need to Know About Rug Sizes and Placement",
+      "url": "https://www.garvee.com/blogs/buying-guides/everything-you-need-to-know-about-rug-sizes-and-placement"
+    },
+    {
+      "text": "Find the Right One for Your Business Needs",
+      "url": "https://www.garvee.com/blogs/buying-guides/utility-cart-buying-guide-finding-the-correct-one-for-your-business-needs"
+    },
+    {
+      "text": "Power Tools Vs. Hand Tools: What You Need to Know",
+      "url": "https://www.garvee.com/blogs/buying-guides/power-tools-vs-hand-tools-what-you-need-to-know"
+    },
+    {
+      "text": "Everything You Should Know About Wine Cooler",
+      "url": "https://www.garvee.com/blogs/buying-guides/everything-you-should-know-about-wine-cooler"
+    },
+    {
+      "text": "Difference Between a Dresser and a Chest of Drawers",
+      "url": "https://www.garvee.com/blogs/buying-guides/what-is-the-difference-between-a-dresser-and-a-chest-of-drawers-a-comprehensive-comparison"
+    },
+    {
+      "text": "Cheap Home Improvement Ideas Boost Your Home's Value",
+      "url": "https://www.garvee.com/blogs/buying-guides/cheap-home-improvement-ideas-boost-your-homes-value-on-a-budget"
+    },
+    {
+      "text": "About Us",
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Rewards & Points",
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    }
+  ],
+  "main_text": "Terms of Service\nGARVEE specializes in equipment and tools and\nprovides an online platform and relevant services to allow registered members to conclude online transactions for products or services on the Platform (the \"Services\") subject to the terms and conditions set forth in this agreement (the \"Terms\"). When you use any service on the website of www.garvee.com including but not limited to connecting, accessing and browsing the Platform, or using Services to members of the Platform, you are subject to this Agreement (the \"Agreement\") between you or the business you represent (\"You\") and GARVEE (\"We\" or \"Us\").\nIn addition to the Terms\nhereof, other policies such as rules, notices and agreements released on the Platform and\nthat may be released\nin the future shall also constitute an integral part of this Agreement and are of equal legal force and effect to the Terms of this Agreement.\nThe Platform may amend the Terms from time to time and post the amendments on the Platform instead of sending a separate notice to you. The amendments shall take effect immediately after being posted on the Platform. If you do not agree with the amendments, please stop using the Services immediately. Your continuance of using the Services will be deemed as having accepted the amendments which shall prevail in the event of any disputes that may arise between you and us. The Terms may not otherwise be modified except in writing by an authorized officer of GARVEE.\nClicking 'accept'\nthe Terms when registering as a member of the Platform, accessing, browsing or otherwise using the Services on the Platform implies that you have\nfully read, understood, and accepted\nall the terms and conditions of this Agreement and further undertake to perform according to this Agreement. This Agreement shall take effect upon your acceptance immediately.\nPlease read this Agreement carefully before proceeding.\nMember Registration\nBy\nfilling in the required fields\non registration page, reading and accepting this Agreement, or completing the entire registration process on the Platform, you are deemed to be the Member (the \"Member\") on the Platform. You acknowledge that when completing the registration process or using the Services in such manner as permitted by the Platform, you are a natural person of capacity for civil rights and civil conducts, or a legal person or other legal entity duly established and lawfully existing under applicable civil laws. If you are not qualified as aforementioned, please do not use the Services, otherwise all consequences incurred will be assumed solely by you and/or your guardian. The Platform further reserves the right to cancel (freeze) your account and claim damages against you and your guardian. If you are a company or any other legal person or organization, you shall represent and warrant that, you have authorized a natural person to operate on the Platform for and on behalf of you with the legal consequences and liabilities to be assumed by you with respect to the Platform.\nWhen completing registration or activating the process, you shall provide accurate information as instructed on appropriate page in accordance with applicable laws and regulations and keep it updated so as to make sure the relevant information remains authentic, updated, complete and accurate. You shall\nindemnify and hold harmless the Platform\nagainst or from any loss or damage caused to the Platform as a result of your incorrectness, inaccuracy,\nobsolescence\nor incompleteness of the information.\nYou shall keep your own account name, nickname and password in secure and confidential, and you shall be solely liable for the activities in connection with the account name, nickname and password, including but not limited to information release, disclosure or submission. Unless required by applicable laws or judicial authorities, without the consent of the Platform, you shall not lease, borrow, assign, offer for free or pass onto any third party your account name, nickname and password in any manner whatsoever.\nYou understand that, in the event of any unauthorized use of your account name, nick name, password or any other violation of confidentiality, it takes a reasonable time for the Platform to take actions in respond to your request, therefore we will not be liable for the consequences (including loss) that have\noccurred before such actions are taken\n.\nPlatform Services\nThrough the Services of the Platform provided by GARVEE and/or its affiliate(s), you may search products and service information, conclude transactions online, make comments, evaluate other Members, attend the Platform events and use any other information and technical services available on the Platform. We reserve the right, without prior notice, to restrict access to or use of certain Services to some Members subject to conditions that the Platform may impose in its discretion. Unless otherwise agreed in writing, we shall be regarded as a third party to any transaction on the Platform and shall not be involve in any legal relationship or legal disputes arising between Members.\nNo warranty or representation is given that the same type and extent of the Service or features and functions thereof will be available to all Members. The Platform may in its sole discretion limit, deny or create different levels of access to and use of any Services with respect to different Members.\nTo provide you with thorough and personalized services, the Platform will send system messages, transaction updates, web content recommendation, funding changes to your phone number left on the Platform. GARVEE will send SMS, MMS, or RCS messages only to individuals who have separately and affirmatively opted in to receive such messages. Accepting these Terms, creating an account, providing a phone number, or making a purchase does not by itself constitute consent to receive marketing messages. The Platform may also analyze with member data and provide you with the information that might interest you; present your personalized advertising information from any third party; share with your information with partners and other Members of the Platform to help them get the most convenient trading experience.\nWe do not warrant that the Platform is free from any interruption or breakdown, or the using effect of the Platform. You agree to independently assume the loss caused by unexpected interruption, delay in operation or transmission, computer virus, network connection failure and unauthorized access.\nUse of the Platform\nSubject to the Terms, the Platform hereby grants you a limited, revocable, non-transferable and non-exclusive license to access and use the Platform only for the purpose of shopping for lawful products and/or services sold on the Platform and not for any other use, except as explicitly permitted by the GARVEE and/or its affiliate(s) in advance. Any breach of this Agreement shall result in the immediate revocation of the license granted in this paragraph without separate notice.\nYou may not display, reproduce, sell, distribute, lease, modify, transmit, create derivative works from, translate, reverse-engineer, disassemble, decompile or otherwise exploit this Platform, or make any commercial use of the information provided on the Platform unless expressly permitted by GARVEE and/or its affiliate(s) in writing in advance. We reserve the right to refuse service, terminate accounts, and cancel orders in own discretion, including, without limitation, if we believe that the conduct of a member violates applicable law or is harmful to our interests.\nYou shall be solely liable for the authenticity, accuracy, immediacy, completeness and lawfulness of information, comments and reviews you published and posted (\"Your Information\") through the Platform, including but not limited to privacy, business information in the forms including but not limited to words, image and video. You agree and warrant that, Your Information and anything trade on the Platform:\n(1) does not violate any laws, statutes, ordinances or regulations (including, but not limited to, laws, rules or regulations on standardizing export management, licensed operation, trade quotas, consumer protection, unfair competition or false advertising), this Agreement and relevant rules; or infringe the property rights of any third party, or copyright, patent, trademark, trade secret or other intellectual property rights;\n(2) does not directly or indirectly connect with or contain the prohibited goods or services; contain obscene, or any child pornography; or contain any information that is prohibited or deemed as inappropriate for advertisement or transaction in the judgment of the GARVEE and/or its affiliate(s);\n(3) does not contain any virus, computer worms or other computer program that attempts to deliberately destroy, interfere with, surreptitiously intercept or expropriate any system, data or personal data; or\n(4) does not contain defamation (including commercial defamation), derogatory words on religion, race or gender, illegal harassment intimidation or illegal content; use the Services in any chain letters, junk e-mails, spam e-mails or any other duplicated or redundant information; collect e-mail address and other data of any other Member by virtue of the Services without permission of such Member; or make a falsified email address by virtue of the Services or otherwise attempt to mislead others in terms of sender's identity or source of information.\nIf we deem that Your Information may incur any legal or moral responsibilities to the Platform, or that the Platform may suffer from losses and damages because of Your Information, we have the sole discretion to take any action against Your Information as it may deem necessary or appropriate, including but not limited to deleting such information. You hereby warrant that you have all titles to and interests in Your Information submitted to the Platform, including all intellectual Property Rights. You further acknowledge that the Platform has no responsibility to identify or determine which of Your Information shall be protected and will not be responsible for Your Information used by other Members. You shall assume all legal responsibilities independently and hold the Platform harmless from any claims for loss incurred to any third party as a result of your suspected breach of the warranties.\nIf you have conducted illegal acts or breached this Agreement as determined by judicial authorities with valid legal instruments, or in the sole judgment of the Platform, you are suspected of illegal acts or breaching this Agreement, the Platform shall have the rights to publish the said violation or breach of you online and to render appropriate sanctions against you, including but not limited to limitation on rights, termination of provision of the Services.\nTransaction on the Platform\nTransactions on the GARVEE website are done as a result of use of the Platform or Services, including, without limitation, clauses regarding payment, returns, warranties, shipping, insurance, fees, taxes, handling, transportation and storage.\nPricing of products sold on the Platform is based upon figures calculated in U.S. Dollars (US$). The price displayed on an individual product page, regardless of currency denomination, is the current price you are liable to pay.\nYou agree to provide all information and materials as may be reasonably required by the Platform in connection with the transactions conducted on, through or as a result of use of the Platform or Services. We have the right to suspend or terminate any Member's account if you fail to provide the required information and materials without liability for any losses or damages arising out of or in connection with such suspension or termination.\nGrant of License\nYou fully understand and hereby agree to irrevocably grant GARVEE the following rights:\nYou agree that we have a worldwide, royalty-free, perpetual, irrevocable, non-exclusive and complete license and sublicense to use, modify, adapt, publish, reproduce, translate, create works derived from, perform and display in part or in whole, and to incorporate into any other works, media or technology, now known or developed in the future, the information which you have selected and published at publicly available area of the Platform, including but not limited to words, images and videos. We usually might do this in purpose of brand and/or product promoting (brand and/or product review and comments).\nYou warrant that Submissions, in whole or in part, are clear and free of any IP right infringement, disputes or third-party claims. GARVEE and/or its affiliate(s) assumes no liability for any misuse of copyright or any other rights of third parties by you. You further undertake to defense for and indemnify GARVEE and/or its affiliate(s) against any losses caused due to the use of the entries for any purposes.\nMarketing Communications and SMS Program\n1.Marketing Communications\nIf you voluntarily provide your email address or mobile phone number and affirmatively opt in to receive marketing communications from GARVEE, you consent to receive marketing, advertising, promotional, and personalized communications from us through the communication channel(s) for which you have provided consent.\nConsent to receive marketing emails does not, by itself, constitute consent to receive marketing text messages, and consent to receive text messages does not, by itself, constitute consent to receive marketing emails.\nYou may withdraw your consent to receive marketing communications at any time as described below.\n2.Email Marketing\nIf you subscribe to GARVEE marketing emails, we may send you promotional emails regarding products, offers, discounts, sales, special events, recommendations, back-in-stock alerts, abandoned cart reminders, loyalty or rewards programs, and other marketing communications.You may unsubscribe from promotional emails at any time by using the “unsubscribe” link provided in any marketing email or by contacting us at\nsupport@garvee.com\n.Your decision to unsubscribe from promotional emails will not prevent us from sending you non-promotional communications that are necessary to provide our Services, including communications regarding your account, orders, payments, shipping, returns, refunds, security, or customer service.\n3.SMS, MMS, and RCS Messaging Program\nBy voluntarily enrolling in GARVEE’s SMS, MMS, or RCS messaging program and providing your mobile phone number, you expressly consent to receive recurring marketing, promotional, informational, and transactional messages from GARVEE at the mobile phone number you provided. These messages may include promotions, discount offers, product recommendations, cart reminders, back-in-stock notifications, price alerts, and other marketing or promotional content.Messages may be sent using automated technology or an automatic dialing system where permitted by applicable law. Your consent to receive marketing text messages is not a condition of purchasing any goods or services from GARVEE. Message frequency varies. Message and data rates may apply depending on your mobile carrier and service plan.You represent that you are the account holder or authorized user of the mobile phone number you provide and that you are authorized to consent to receive text messages at that number.\n4.SMS Opt-Out and Help\n(1) You may withdraw your consent and unsubscribe from GARVEE marketing text messages at any time by replying STOP to a GARVEE text message or by using an unsubscribe link where available.\n(2) You may also use other supported opt-out requests, including CANCEL, END, QUIT, or UNSUBSCRIBE, or contact us at\nsupport@garvee.com\nto request that marketing text messages be stopped.\n(3) After you submit an opt-out request, we may send you a one-time confirmation message confirming that you have been unsubscribed. After that confirmation, you will no longer receive marketing text messages from the applicable messaging program unless you subsequently opt in again.\n(4) For assistance with the SMS program, reply HELP to a GARVEE text message or contact us at\nsupport@garvee.com\n.\n(5) Messages may include promotions, discount offers, product recommendations, cart reminders, back-in-stock notifications, price alerts, loyalty or rewards information, order and delivery updates, account notifications, customer-care messages, and other informational or transactional communications.Message types may vary depending on the subscriber’s consent, account activity, and the messaging program associated with the mobile number.\n5.Changes to the Messaging Program\nGARVEE may modify or discontinue its marketing communications or SMS program from time to time, subject to applicable law. Any material changes to these terms will be posted on the Platform or otherwise communicated as required by applicable law.\nPrivacy\nWithout prejudice to the license set forth herein, to protect your privacy is a fundamental principle of the Platform. For this purpose, the Platform will use Your Information according to the GARVEE Privacy Policy posted on the Platform. The Terms of GARVEE Privacy Policy constitutes a part of this Agreement; therefore, you shall read it carefully. Please note that once you agree to disclose or submit Your Information on the Platform, your information may be available to any other persons for accessing or use.\nYour participation in GARVEE's marketing communications and SMS program is subject to our Privacy Policy. Our Privacy Policy explains how we collect, use, disclose, and protect your personal information and describes the privacy rights and choices that may be available to you.\nBy participating in our SMS program, you acknowledge that information related to your participation, including your mobile phone number, message interactions, consent records, and messaging preferences, may be processed by GARVEE and our service providers for the purpose of operating and administering the messaging program, subject to our Privacy Policy.\nIntellectual Property\nGARVEE is the sole owner or lawful licensee of all the rights and interests on the Platform (www.garvee.com). The Platform embody trade secrets and other intellectual property rights protected under worldwide copyright and other laws. All title, ownership and intellectual property rights in relation to the Platform shall remain with GARVEE and/or its affiliate(s), as the case may be. All rights not otherwise claimed under the Terms or by GARVEE and/or its affiliate(s) are hereby reserved.\n\"GARVEE\", \"GARVEE.com\" and related icons and logos are registered trademarks, domain name or service marks (the \"Content\") of GARVEE and are protected under applicable copyright, trademark and other proprietary rights laws. The unauthorized copying, modification, use or publication of these marks and use of data mining, robots, or similar data gathering and extraction tools on the Platform is strictly prohibited. You may view and use the Content only for your personal information and for shopping and ordering on the Platform and for no other purpose. The collection, arrangement, and assembly of all content on this Platform (the \"Compilation\") belong exclusively to GARVEE and/or its affiliate(s). You may not use Content or Compilation on the Platform in any manner that disparages or discredits the Platform or in any way that is likely to cause confusion or violation of any applicable laws or regulations. All software used on this Platform (the \"Software\") is the property of GARVEE and/or its affiliate(s) and/or its Software suppliers. The Content, the Compilation and the Software are all protected under state, national and international copyright laws. All rights not expressly granted are reserved by GARVEE and/or its affiliate(s). Violators will be prosecuted to the full extent of the law.\nIndependent third parties may be involved in the provision of the Platform or Services. You may not use any trademark, service mark or logo of such independent third parties without prior written approval from such parties.\nAll information and content related to items on the Platform, including but not limited to price, details, dimensions, weight, descriptions, and specifications of the items are translated by us from the information obtained from Supplier or third party sources and the items or the related information are not owned, manufactured, sold or endorsed by the Platform. Considering the technical limitations, we do not warrant that the said information is accurate, complete, reliable, current, or error-free. Each item offered for sale on the Platform has an item description and/or a reference link. You shall be responsible for confirming the information and content related to the item you intends to purchase through the information and/or link provided before you submit any order. By accepting this Agreement, you acknowledge that it will have full knowledge and understanding of the details of the items you purchasing upon submission of order, as GARVEE and/or its affiliate(s) shall not be liable for any after-sales issues resulting from misinterpretations of the related information and content on the Platform.\nWe recognize and respect all intellectual property rights. It is the policy of the Platform to take appropriate action where necessary to uphold and recognize all relevant applicable laws in connection with material that is claimed to be infringing any trademark, copyright, patent and all or any other Intellectual Property laws. For this purpose, the Platform will take measures according to the IP Infringement Policy posted on the Platform. The Terms of IP Infringement Policy constitutes a part of this Agreement; therefore, you shall read it carefully.\nLinks\nThe Platform may provide links to other platforms or resources. Considering that the Platform does not control these platforms or resources, you acknowledge and agree that we are not responsible for the availability of said platforms or resources, and that we do not recognize, therefore shall not be responsible for any content, publicity, products, services or other information published or available on said platforms or resources. You acknowledge and agree that we shall not be liable for any direct or consequential loss that is resulted or alleged to be resulted from any use of or reliance upon any contents, advertising, products, services or other information available on said platforms or resources.\nDisclaimer and Limitation of Liability\nYou expressly understand and agree that, regardless whether the platform is informed of the possibility of loss, we shall not be liable for any loss, including but not limited to profit loss, goodwill loss or the loss incurred in connection with use of data and other aspects, whether tangible or intangible, caused as a result of:\n(1) availability or unavailability to the services;\n(2) purchase or acquisition of any goods, sample, data, information or service through or via the services, or entering of any transaction through or from the services;\n(3) unauthorized access to or alteration of your information or data;\n(4) statement on the services or any other actions with respect to the services made by any third party; or\n(5) any other matters arising in connection with the services.\nWe will use all reasonable efforts to provide you an enjoyable experience of using the platform. However, technical problems or other difficulties which may result in loss of data or other service interruptions may happen. You acknowledge and agree that you will assume the risks of using the services and that the services will be provided on an as-is and available basis. We do not make any express or implied warranties, including, but not limited to, warranties of merchantability, fitness for a particular purpose, non-infringement and other aspects. Further, we do not warrant that:\n(1) the services will meet your requirements;\n(2) the services will not be interrupted, and the services are safe and error free;\n(3) results obtained in reliance upon the services are accurate or reliable; or\n(4) quality of any products, services, data or any other information purchased or obtained through the services will meet your expectations.\nIt's your sole discretion to download or otherwise acquire any information through the services, therefore shall be at your own risks, and you shall be solely liable for any damage to your computer system or loss of any data that is resulted from downloading said information. Any verbal or written suggestions or information acquired from the platform or through or from the services will not incur any warranties of us other than those expressly set forth herein.\nTotal liability of garvee to you for any damages (regardless of the foundation for the action) shall not exceed in the aggregate the amount of fees actually paid by you through the platform during the month immediately preceding the act allegedly giving rise to liability of garvee.\nTo the maximum extent permitted by law, garvee makes no representations or warranties about the validity, accuracy, correctness, reliability, quality, stability, completeness or currentness of any information provided on or through the platform; garvee does not represent or warrant that the manufacture, importation, export, distribution, offer, display, purchase, sale and/or use of products or services offered or displayed on the platform does not violate any third party rights; and garvee makes no representations or warranties of any kind concerning any product or service offered or displayed on the platform.\nThe Platform may make available to Member services or products provided by independent third parties. No warranty or representation is made with regard to such services or products. In no event shall GARVEE be held liable for any such services or products.\nThe limitations and exclusions of liability to you under the Terms shall apply to the maximum extent permitted by law and shall apply whether or not GARVEE has been advised of or should have been aware of the possibility of any such losses arising.\nIndemnity and Remedies\nYou agree to fully indemnify and hold harmless GARVEE, its subsidiaries, partners, affiliates, branches, directors, employees and agents from or against any damages or claims asserted by any third party or competent administrative or judicial authorities against GARVEE, its subsidiaries, partners, affiliates, branches, directors, employees and agents that may arise from or in connection with breach by you of this Agreement or any other instruments that are included into this Agreement by reference, infringement upon legitimate rights of GARVEE and any third party due to violation of applicable laws, or violation of applicable laws which may subject you to administrative or criminal sanctions, including court costs and any other expenses for professional services.\nYou agree that GARVEE's remedy at law for any actual or threatened breach of this Agreement would be inadequate and that GARVEE shall be entitled to specific performance or injunctive relief, or both, in addition to any damages that GARVEE may be legally entitled to recover, together with reasonable expenses of any form of dispute resolution, including, without limitation, attorneys' fees. No instance of waiver by GARVEE of its rights or remedies under the Terms shall imply any obligation to grant any similar, future or other waiver.\nNotice\nYou shall complete accurately and update timely your email address, phone number, address, zip code and other contact information so that we, our partners or other members of the platform can contact you. If you cannot be reached through said contact information, you shall be fully liable for any loss or extra expenses incurred in course of use of the services. You understand and agree that, you have the obligation to maintain your contact information valid and updated according to the rules of the platform.\nShould you need to communicate with us, you can contact the contact information specified on the Platform, and we do not accept any other contact methods. Should there be any information, contents and rules that need to be released, we will issue an announcement on relevant web pages of the Platform.\nThe Platform delivers all notices by sending emails to your updated email address. It shall be deemed served at the time when said email arrives at the aforementioned e-mail receiving system.\nForce Majeure\nGARVEE shall not be liable to you or be deemed to be in breach of agreement by reason of any delay in performing, or any failure to perform, any of the obligations in relation to the items, services and/or Platform if the delay or failure was due to any cause beyond our reasonable control, including but not limited to:\n(1) fire, act of God, storm, explosion, earthquake, flood, tempest, accident or other natural disaster;\n(2) war or threat of war, sabotage, insurrection, civil disturbance or requisition;\n(3) acts, restrictions, regulations, bylaws, prohibitions or measures of any kind on the part of any governmental, parliamentary or local authority;\n(4) import or export regulations or embargoes;\n(5) strikes, lock outs or other industrial actions or trade disputes;\n(6) difficulties in obtaining raw materials, labor, fuel, parts or machinery faced by us or suppliers; or\n(7) telecommunication, transportation, power supply, or system disturbances or failures, or breakdown in machinery resulting in the impossibility of the use of any of the aforementioned.\nFees & Expenses\nWe reserve our right to charge any fees for the Services after notice. In addition, you shall pay the taxes levied in respect of deals entered, paid services acquired from the Platform (including partners of the Platform) or access to server of the Platform, and expenses occurring in connection with hardware, software, telecommunications, network services and other costs.\nTermination\nYou agree that, if we charges no fees, garvee has the sole discretion to terminate at any time the services password and account (or any part thereof) or your use of the services for any cause by a public notice on the platform insead of a separate notice, especially when we have reasonable evidences to believe that you have breached this agreement.\nThe above breaches shall include but not be limited to:\n(1) failure by Members to timely update their information when identity certificate or business license of Members are inconsistent with their profile or when the actual business information is inconsistent with the registered information;\n(2) sending duplicate messages, publication of the information prohibited or restricted by applicable laws and regulations, and publication of the information beyond business scope of Members or that irrelevant with the Platform services;\n(3) issue of commercial information and conduct of business activities fraudulently using the name of other enterprises;\n(4) attempt to destroy or attack computer systems and network integrity of the Platform, or attempt to access to computer system and network of the Platform;\n(5) use or provision of any computer virus, camouflage destruction program, computer worms, time bombs or other destructive programs that destroy, interrupt, intercept or expropriate any system, data or information;\n(6) misappropriation of other Member's account name and/or password;\n(7) sale or authorized use of accounts without consent of the Platform;\n(8) fraudulent activities through the Platform;\n(9) intellectual property infringements through the Platform;\n(10) any other violation of laws, rules and regulations, relevant agreements, regulations, rules, procedures of the Platform, good customs and other practices.\nYou have the right to request the Platform to cancel your account, and upon approval of Platform, your account will be cancelled upon which the contractual relationship between you and GARVEE is terminated. Upon cancellation of your account, GARVEE has no obligations to disclose any information inside the account to you or forward any messages to you or any third party.\nYou acknowledge and agree that, upon termination of the contractual relationship between you and GARVEE:\n(1) We are entitled to keep your data;\n(2) We reserve our rights to initiate claims against any violation by you of applicable laws, this Agreement and/or rules during your use of the Services;\n(3) Other Members of the Platform reserve their rights to initiate claims against any issues surviving the termination of this Agreement that have relations to such other Members during your use of the Services, with respect to which you shall continue to perform your obligations as committed.\nYou further acknowledge and agree that, garvee shall not be held liable to you or any third party because of termination of the provision of the services to you.\nApplicable Law, Jurisdiction and Miscellaneous\nThe relationship between you and GARVEE is independent contractual relationship. This Agreement is not intended to create any agency, partnership, joint venture, employment or special license relationship between you and GARVEE.\nYou agree that we have the right to assign in part or in whole its rights and obligations under this Agreement by a public announcement online or any other reasonable notice to you.\nYou may not assign this Agreement, by operation of law or otherwise, without our prior written consent. Any attempt to assign or otherwise transfer in violation of this section is void; provided, however, that upon notice to us, you may assign or transfer this Agreement, in whole or in part, to any of your Affiliates as long as you remain liable for your obligations that arose prior to the effective date of the assignment or transfer under this Agreement. You agree that we may assign or transfer our rights and obligations under this Agreement: (a) in connection with a merger, consolidation, acquisition or sale of all or substantially all of our assets or similar transaction; or (b) to any Affiliate or as part of a corporate reorganization; and effective upon such assignment, the assignee is deemed substituted for us as the party to this Agreement. Subject to that restriction, this Agreement will be binding on, inure to, and be enforceable against the parties and their respective successors and assigns. We may perform any of our obligations or exercise any of our rights under this Agreement through one or more of our Affiliates.\nThis Agreement prevails over and supersedes any verbal or written agreements, if any, executed between you and us, including partners of the Platform with respect to the same subject matter.\nIf any clause of this Agreement is determined invalid or unenforceable, such clause shall be invalidated without prejudice to other clauses of this Agreement which shall remain valid and binding.\nYou may be required to enter into separate agreement(s), whether online or offline, with GARVEE for any Service (each an \"Additional Agreement\"). If there is any conflict or inconsistency between the Terms of this Agreement and an Additional Agreement, the Additional Agreement shall prevail only in connection with that Service concerned.\nThe validity, interpretation, modification, implementation, and dispute settlement of this Agreement shall be governed by the laws of Hong Kong without reference to rules governing choice of laws or the Convention on Contracts for the International Sale of Goods.\nAny and all disputes that may arise from or in connection with the existence of this Agreement or the Services shall be resolved through amicable negotiation. In case no settlement can be reached through negotiations, either you or GARVEE may submit the Dispute(s) to and finally resolved by arbitration administered by the US Law of Justice under the US Administered Arbitration Rules in force when the request for arbitration is submitted. The number of arbitrators shall be three (3) with either of the two disputing Parties designating one (1) arbitrator respectively and the third arbitrator shall be designated by US Law of Justice. The seat of arbitration shall be Hong Kong. The arbitration proceedings shall be conducted in the English language; and the arbitral award shall be final and binding upon the Parties.\nHeadings are for convenience only and shall not be intended in any manner whatsoever to limit, restrict, construe or describe the scope or extent of the articles.\nAny our Waiver of any breach by you or any other person does not mean waiver of any future or similar breach.\nOur Company Address\nCompany Address: 601, 6th Floor, Building 5, Yunli Intelligent Park, No. 5 Changfa Middle Road, Yangmei Community, Bantian Street, Longgang District, Shenzhen City, Guangdong Province, China\nSupport Email:\nsupport@garvee.com"
+}

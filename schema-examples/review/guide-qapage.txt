@@ -1,0 +1,92 @@
+Q&A ( QAPage ) structured data Q&A pages are web pages that contain data in a question and answer format, which is one question
+  followed by its answers. For content that represents a question and its
+  answers, you can mark up your data with the schema.org QAPage , Question , and Answer types. Properly marked up pages are eligible to have a rich result displayed on the search results
+  page. This rich treatment helps your site reach the right users on Search.
+  For example, you might see a rich result for the user query "How do I remove a cable that is
+  stuck in a USB port?" if the page has been marked up with answers to that question. In addition to enabling your content for the rich result treatment, marking up
+  your Q&A page helps Google generate a better snippet for your page.
+  The content from the answers may appear in the basic result if the rich
+  result is not shown. How to add structured data Structured data is a standardized format for providing information about a page and classifying the page
+    content. If you're new to structured data, you can learn more about how structured data works . Here's an overview of how to build, test, and release structured data. Add the required properties . Based on the
+      format you're using, learn where to insert structured data on the page . Using a CMS? It may be easier to use a plugin that's integrated into your CMS. Using JavaScript? Learn how to generate structured data with JavaScript . Follow the guidelines . Validate your code using the Rich Results Test and fix any critical errors. Consider also fixing any non-critical issues that may be flagged
+      in the tool, as they can help improve the quality of your structured data (however, this isn't necessary to be eligible for rich results). Deploy a few pages that include your structured data and use the URL Inspection tool to test how Google sees the page. Be sure that your page is
+      accessible to Google and not blocked by a robots.txt file, the noindex tag, or
+      login requirements. If the page looks okay, you can ask Google to recrawl your URLs . Note : Allow time for re-crawling and re-indexing. Remember that it
+      may take several days after publishing a page for Google to find and crawl it. To keep Google informed of future changes, we recommend that you submit a sitemap . You can automate this with the Search Console Sitemap API . Examples The following markup example includes the QAPage , Question ,
+  and Answer type definitions in JSON-LD: JSON-LD Microdata Guidelines For your Q&A page to be eligible for this rich treatment, you must follow
+  these guidelines: General structured data guidelines Search Essentials Content Guidelines Content guidelines Only use the QAPage markup if your page has information in a question and answer format, which is
+    one question followed by its answers. Users must be able to submit answers to the question. Don't use QAPage markup for
+    content that has only one answer for a given question with no way for users to add alternative
+    answers. Here are some examples: Valid use cases : A forum page where users can submit answers to a single question A product support page where users can submit answers to a single question Invalid use cases : An FAQ page written by the site itself with no way for users to submit alternative answers A product page where users can submit multiple questions and answers on a single page A how-to guide that answers a question A blog post that answers a question An essay that answers a question Don't apply QAPage markup to all pages on a site or forum if not all the content is eligible.
+    For example, a forum may have lots of questions posted, which are individually eligible for the markup. However,
+    if the forum also has pages that are not questions, those pages are not eligible. Don't use QAPage markup for FAQ pages or pages where there are multiple questions
+  per page. QAPage markup is for pages where the focus of the page is a single question
+  and its answers. Don't use QAPage markup for advertising purposes. Make sure each Question includes the entire text of the question and
+    make sure each Answer includes the entire text of the answer. Answer markup is for answers to the question, not for comments on the question or
+    comments on other answers. Instead, use the comment property and Comment type for this type of content. Question and answer content may not be displayed as a rich result if it contains any of the
+    following types of content: obscene, profane, sexually explicit, graphically violent,
+    promotion of dangerous or illegal activities, or hateful or harassing language. Education-related Q&A pages ,
+    where the primary focus is to provide a correct answer
+    to a user-submitted homework question, may be eligible for a Q&A carousel experience.
+    These pages may only have a single answer that's provided or selected by in-house experts
+    (instead of users). Example : An education page where a user submitted a single question, and a top answer is
+    selected by experts. Structured data type definitions This section describes the structured data types related to QAPage . You must include the required properties for your content to be eligible for display as a rich result. You can also
+include the recommended properties to add more information to your structured data, which could
+provide a better user experience. You can use Google's Rich Results Test to validate and preview your structured data. QAPage The QAPage type indicates that the
+      page is focused on a specific question and its answer(s). We will only use Question structured data from pages with QAPage markup. There must only be one QAPage type definition per page. The full definition of QAPage is available at https://schema.org/QAPage . The following table describes the properties of the QAPage type that are used by Google Search. Required properties mainEntity Question The Question for this page must be nested under the mainEntity property of the QAPage item. Question The Question type defines the question that this page answers, and includes
+the answers, if any, to that question. Exactly one Question type is expected on the
+page, nested under the mainEntity property of the schema.org/QAPage . There
+must only be one Question type definition per page. If your site doesn't support a recommended property, omit that property from your
+structured data. The full definition of Question is available at https://schema.org/Question . The Google-supported properties are the
+  following: Required properties answerCount Integer The total number of answers to the question. For example, if there are 15 answers, but only the first 10 are
+        marked up due to pagination, this value would be 15. This may also be 0 for questions with no answers. answerCount + commentCount should equal the total number of replies of any type. Either acceptedAnswer or suggestedAnswer Answer To be eligible for the rich result, a question must have at least one answer – either an acceptedAnswer or a suggestedAnswer . However, questions may not
+          have answers when they are first posted. For questions without answers, set
+          the answerCount property to 0. Questions without answers aren't eligible for
+          the rich result. acceptedAnswer Answer A top answer to the question. There can be zero or more of these per question. This must
+                represent answers that are accepted in some way on your site. For example, accepted as a
+                top answer by question asker, a moderator, or a voting system. Other forms of sorting answers,
+              such as most-recent, must not be used to identify top answers. suggestedAnswer Answer One possible answer, but not accepted as a top answer ( acceptedAnswer ).
+                There can be zero or more of these per Question. name Text The full text of the short form of the question. For example, "How many teaspoons in a cup?". Recommended properties author Person or Organization Information about the author of the question. To help Google best understand
+          authors across various features, we recommend following the author markup best practices . Include as many properties that make sense for the author, using the supported properties
+          from article and profile page structured data as a guide. author.url URL A link to a web page that uniquely identifies the author of the question, most likely a profile
+          page of the Q&A website.  We recommend marking up that page using profile page structured data . comment Comment A comment pertaining to the question, if present. Ideally, this content isn't an answer:
+            it's usually a clarification or discussion about the question. commentCount Integer The number of comments about this question, if applicable. answerCount + commentCount should equal the total number of replies of any type. dateModified DateTime The date and time the answer was edited, if applicable, in ISO 8601 format . datePublished DateTime The date and time the question was posted in ISO 8601 format . digitalSourceType IPTCDigitalSourceEnumeration The digitalSourceType property indicates the type of digital source
+          associated with the content, if applicable. This property is particularly relevant for distinguishing
+          between human and AI or other machine-generated content.  Google supports the following values: TrainedAlgorithmicMediaDigitalSource : Indicates content created by a
+              trained model, such as an LLM. AlgorithmicMediaDigitalSource : Indicates content created by a simpler
+              algorithmic process, such as an automatic reply bot. If this property is not specified, Google will assume the content is human-generated. image ImageObject or URL Any inline images within the question, if applicable. If there aren't any images, don't
+          include default, icon, placeholder, or author images in this field. text Text The full text of the long form of the question. For example, "I'm cooking, and I need to know how many
+          teaspoons are in a cup. How many teaspoons are in 1 cup?" upvoteCount Integer The total number of votes that this question has received. If the page supports upvotes and
+        downvotes, then set the upvoteCount value to a single aggregate value that represents both upvotes and downvotes.
+        For example, if there are 5 upvotes and 2 downvotes, the aggregate value used for upvoteCount is 3. If there
+        are 5 upvotes and downvotes are not supported, then the value for upvoteCount is 5. video VideoObject Any inline videos within the question, if applicable. Answer The Answer type defines the suggested and accepted answers to the Question on this page. Define Answers inside the Question ,
+as values for the suggestedAnswer and acceptedAnswer properties. The following table describes the properties of the Answer type that is used within a Question . The full definition of Answer is available at https://schema.org/Answer . If your site doesn't support a recommended property, omit that property from
+your structured data. Required properties text Text The full text of the answer. If only a portion is marked up, your
+      content may not be shown and Google cannot determine the best text to display. Recommended properties author Person or Organization Information about the author of the answer. To help Google best understand
+          authors across various features, we recommend following the author markup best practices . Include as many properties that makes sense for the author, using the supported properties
+          from article and profile page structured data as a guide. author.url URL A link to a web page that uniquely identifies the author of the answer, most likely a profile
+          page of the Q&A website.  We recommend marking up that page using profile page structured data . comment Comment A comment pertaining to the answer, usually a clarification or discussion about the answer,
+            if applicable. commentCount Integer The number of comments about this answer, if applicable. This is particularly useful
+            if they are not all present in the comment markup. dateModified DateTime The date and time the answer was edited in ISO 8601 format ,
+            if applicable. datePublished DateTime The date and time the question was answered in ISO 8601 format . digitalSourceType IPTCDigitalSourceEnumeration The digitalSourceType property indicates the type of digital source
+          associated with the content, if applicable. This property is particularly relevant for distinguishing
+          between human and AI or other machine-generated content.  Google supports the following values: TrainedAlgorithmicMediaDigitalSource : Indicates content created by a
+              trained model, such as an LLM. AlgorithmicMediaDigitalSource : Indicates content created by a simpler
+              algorithmic process, such as an automatic reply bot. If this property is not specified, Google will assume the content is human-generated. image ImageObject or URL Any inline images within the answer, if applicable. If there aren't any images, don't
+          include default, icon, placeholder, or author images in this field. upvoteCount Integer The total number of votes that this answer has received, if applicable. If the page supports upvotes and
+        downvotes, then set the upvoteCount value to a single aggregate value that represents both upvotes and downvotes.
+        For example, if there are 5 upvotes and 2 downvotes, the aggregate value used for upvoteCount is 3. If there
+        are 5 upvotes and downvotes are not supported, then the value for upvoteCount is 5. url URL A URL that links directly to this answer. For example: https://www.examplesite.com/question#answer1 It is strongly recommended to provide a URL for each answer because
+        it improves the user experience when the user clicks through to your site. video VideoObject or URL Any inline videos within the answer, if applicable. Comment The Comment type can optionally be used to describe clarifications or discussions
+about the question or answer which are neither question nor answer. Define Comments inside the Question or Answer , as values for the comment property. The full definition of Comment is available at https://schema.org/Comment . Required properties text Text The full text of the comment. If only a portion is marked up, Google might not be able
+          to determine the best text to display. Recommended properties author Person or Organization Information about the author of the comment. To help Google best understand authors across various features,
+          we recommend following the author markup best practices . Include as many properties that make sense for the author, using the supported properties
+          from article and profile page structured data as a guide. author.url URL A link to a web page that uniquely identifies the author of the comment, most likely a profile
+          page of the Q&A website.  We recommend marking up that page using profile page structured data . comment Comment A nested, threaded comment replying to the comment, if applicable. commentCount Integer The number of comments about this comment, if applicable. This is particularly useful
+            if they are not all present in the comment markup. dateModified DateTime The date and time the comment was edited in ISO 8601 format ,
+            if applicable. datePublished DateTime The date and time the comment was written in ISO 8601 format . digitalSourceType IPTCDigitalSourceEnumeration The digitalSourceType property indicates the type of digital source
+          associated with the content, if applicable. This property is particularly relevant for distinguishing
+          between human and AI or other machine-generated content.  Google supports the following values: TrainedAlgorithmicMediaDigitalSource : Indicates content created by a
+              trained model, such as an LLM. AlgorithmicMediaDigitalSource : Indicates content created by a simpler
+              algorithmic process, such as an automatic reply bot. If this property is not specified, Google will assume the content is human-generated. image ImageObject or URL Any inline images within the comment, if applicable. If there aren't any images, don't
+          include default, icon, placeholder, or author images in this field. video VideoObject or URL Any inline videos within the comment, if applicable. 

@@ -1,0 +1,779 @@
+{
+  "requested_url": "https://www.garvee.com/pages/about-garvee",
+  "url": "https://www.garvee.com/pages/about-garvee",
+  "status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "captured_at": "2026-11-04T13:34:30.252554+00:00",
+  "sha256": "29d636060c1767f7d9d46811d182dc1cad259dfb33eb6ba16ee815d8c795d7c8",
+  "title": "About GARVEE",
+  "canonical": "https://www.garvee.com/pages/about-garvee",
+  "description": "Learn about GARVEE's mission, quality tools, and commercial equipment.",
+  "lang": "en",
+  "h1": [
+    "Your next best partner ."
+  ],
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "/",
+            "name": "Home"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "/pages/about-garvee",
+            "name": "About GARVEE"
+          }
+        }
+      ]
+    }
+  ],
+  "jsonld_parse_errors": [],
+  "main_links": [
+    {
+      "text": "Home",
+      "url": "https://www.garvee.com/"
+    },
+    {
+      "text": "Get to know us ↓",
+      "url": "https://www.garvee.com/pages/about-garvee#story"
+    },
+    {
+      "text": "Our story",
+      "url": "https://www.garvee.com/pages/about-garvee#story"
+    },
+    {
+      "text": "Everyday needs",
+      "url": "https://www.garvee.com/pages/about-garvee#everyday-categories"
+    },
+    {
+      "text": "At home & at work",
+      "url": "https://www.garvee.com/pages/about-garvee#your-world"
+    },
+    {
+      "text": "Our promise",
+      "url": "https://www.garvee.com/pages/about-garvee#promise"
+    },
+    {
+      "text": "HOME COMFORT 01 / AIR CONDITIONING Cool comfort, made simple. Practical cooling solutions for bedrooms, living spaces and everyday routines. Explore air conditioners ↗",
+      "url": "https://www.garvee.com/collections/air-conditioners?filter.v.availability=true"
+    },
+    {
+      "text": "OUTDOOR ADVENTURE 02 / RIDE-ON TOYS Big adventures, right-sized. Electric ride-on cars and UTVs that turn driveways and backyards into places to explore. Explore ride-on toys ↗",
+      "url": "https://www.garvee.com/collections/ride-ons?filter.v.availability=true"
+    },
+    {
+      "text": "Find your next idea ↗",
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "Power & hand tools ↗",
+      "url": "https://www.garvee.com/collections/power-hand-tools"
+    },
+    {
+      "text": "Restaurant & food service ↗",
+      "url": "https://www.garvee.com/collections/restaurant-food-service"
+    },
+    {
+      "text": "Automotive ↗",
+      "url": "https://www.garvee.com/collections/automotive"
+    },
+    {
+      "text": "Delivery made clear Shipping estimates and destination details. Shipping policy ↗",
+      "url": "https://www.garvee.com/policies/shipping-policy"
+    },
+    {
+      "text": "30-day returns See return eligibility and conditions. Return policy ↗",
+      "url": "https://www.garvee.com/policies/refund-policy"
+    },
+    {
+      "text": "Warranty support Find the coverage for your product. Warranty policy ↗",
+      "url": "https://www.garvee.com/pages/warranty-policy"
+    },
+    {
+      "text": "A helping hand Get in touch with our support team. Contact us ↗",
+      "url": "https://www.garvee.com/pages/contact"
+    },
+    {
+      "text": "Explore GARVEE ↗",
+      "url": "https://www.garvee.com/"
+    }
+  ],
+  "footer_links": [
+    {
+      "text": "About Garvee",
+      "label": null,
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Special Outlets",
+      "label": null,
+      "url": "https://www.garvee.com/collections/clearance-sale?filter.v.availability=1"
+    },
+    {
+      "text": "DIY Projects & Ideas",
+      "label": null,
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "Terms Of Service",
+      "label": null,
+      "url": "https://www.garvee.com/policies/terms-of-service"
+    },
+    {
+      "text": "Privacy Policy",
+      "label": null,
+      "url": "https://www.garvee.com/policies/privacy-policy"
+    },
+    {
+      "text": "Accessibility",
+      "label": null,
+      "url": "https://www.garvee.com/pages/accessibility-statement "
+    },
+    {
+      "text": "Track Your Order",
+      "label": null,
+      "url": "https://www.garvee.com/pages/track-your-order"
+    },
+    {
+      "text": "Payments Policy",
+      "label": null,
+      "url": "https://www.garvee.com/pages/payments-policy"
+    },
+    {
+      "text": "Shipping Policy",
+      "label": null,
+      "url": "https://www.garvee.com/policies/shipping-policy"
+    },
+    {
+      "text": "Warranty Policy",
+      "label": null,
+      "url": "https://www.garvee.com/pages/warranty-policy"
+    },
+    {
+      "text": "Refund & Return Policy",
+      "label": null,
+      "url": "https://www.garvee.com/policies/refund-policy"
+    },
+    {
+      "text": "Worry-Free Purchase",
+      "label": null,
+      "url": "https://www.garvee.com/pages/carebox-package-protection"
+    },
+    {
+      "text": "Contact Us",
+      "label": null,
+      "url": "https://www.garvee.com/pages/contact"
+    },
+    {
+      "text": "Affiliate Program",
+      "label": null,
+      "url": "https://www.garvee.com/pages/affiliate"
+    },
+    {
+      "text": "Influencer Program",
+      "label": null,
+      "url": "https://www.garvee.com/pages/influencer-program"
+    },
+    {
+      "text": "Share and Win",
+      "label": null,
+      "url": "https://www.garvee.com/pages/share-and-win"
+    },
+    {
+      "text": "Garvee Rewards",
+      "label": null,
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "Protection Plans",
+      "label": null,
+      "url": "https://www.garvee.com/pages/extended-service-protection"
+    },
+    {
+      "text": "Help Center",
+      "label": null,
+      "url": "https://support.garvee.com/"
+    },
+    {
+      "text": "WholeSale Program",
+      "label": null,
+      "url": "https://www.garvee.com/pages/business"
+    },
+    {
+      "text": "",
+      "label": "Pinterest",
+      "url": "https://www.pinterest.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/garveeglobal"
+    },
+    {
+      "text": "",
+      "label": "Instagram",
+      "url": "https://www.instagram.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/channel/UCvt0kZI7qgY2leAZrwI9DKA"
+    },
+    {
+      "text": "",
+      "label": "TikTok",
+      "url": "https://www.tiktok.com/@garvee_official"
+    },
+    {
+      "text": "",
+      "label": "Google Customer Reviews",
+      "url": "https://www.google.com/storepages?q=garvee.com&c=US&v=19"
+    },
+    {
+      "text": "About Garvee",
+      "label": null,
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Special Outlets",
+      "label": null,
+      "url": "https://www.garvee.com/collections/clearance-sale?filter.v.availability=1"
+    },
+    {
+      "text": "DIY Projects & Ideas",
+      "label": null,
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "Terms Of Service",
+      "label": null,
+      "url": "https://www.garvee.com/policies/terms-of-service"
+    },
+    {
+      "text": "Privacy Policy",
+      "label": null,
+      "url": "https://www.garvee.com/policies/privacy-policy"
+    },
+    {
+      "text": "Accessibility",
+      "label": null,
+      "url": "https://www.garvee.com/pages/accessibility-statement "
+    },
+    {
+      "text": "Track Your Order",
+      "label": null,
+      "url": "https://www.garvee.com/pages/track-your-order"
+    },
+    {
+      "text": "Payments Policy",
+      "label": null,
+      "url": "https://www.garvee.com/pages/payments-policy"
+    },
+    {
+      "text": "Shipping Policy",
+      "label": null,
+      "url": "https://www.garvee.com/policies/shipping-policy"
+    },
+    {
+      "text": "Warranty Policy",
+      "label": null,
+      "url": "https://www.garvee.com/pages/warranty-policy"
+    },
+    {
+      "text": "Refund & Return Policy",
+      "label": null,
+      "url": "https://www.garvee.com/policies/refund-policy"
+    },
+    {
+      "text": "Worry-Free Purchase",
+      "label": null,
+      "url": "https://www.garvee.com/pages/carebox-package-protection"
+    },
+    {
+      "text": "Contact Us",
+      "label": null,
+      "url": "https://www.garvee.com/pages/contact"
+    },
+    {
+      "text": "Affiliate Program",
+      "label": null,
+      "url": "https://www.garvee.com/pages/affiliate"
+    },
+    {
+      "text": "Influencer Program",
+      "label": null,
+      "url": "https://www.garvee.com/pages/influencer-program"
+    },
+    {
+      "text": "Share and Win",
+      "label": null,
+      "url": "https://www.garvee.com/pages/share-and-win"
+    },
+    {
+      "text": "Garvee Rewards",
+      "label": null,
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "Protection Plans",
+      "label": null,
+      "url": "https://www.garvee.com/pages/extended-service-protection"
+    },
+    {
+      "text": "Help Center",
+      "label": null,
+      "url": "https://support.garvee.com/"
+    },
+    {
+      "text": "WholeSale Program",
+      "label": null,
+      "url": "https://www.garvee.com/pages/business"
+    },
+    {
+      "text": "",
+      "label": "Pinterest",
+      "url": "https://www.pinterest.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/garveeglobal"
+    },
+    {
+      "text": "",
+      "label": "Instagram",
+      "url": "https://www.instagram.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/channel/UCvt0kZI7qgY2leAZrwI9DKA"
+    },
+    {
+      "text": "",
+      "label": "TikTok",
+      "url": "https://www.tiktok.com/@garvee_official"
+    },
+    {
+      "text": "",
+      "label": "Google Customer Reviews",
+      "url": "https://www.google.com/storepages?q=garvee.com&c=US&v=19"
+    }
+  ],
+  "all_links": [
+    {
+      "text": "",
+      "url": "https://www.pinterest.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "url": "https://www.facebook.com/garveeglobal"
+    },
+    {
+      "text": "",
+      "url": "https://www.instagram.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "url": "https://www.youtube.com/channel/UCvt0kZI7qgY2leAZrwI9DKA"
+    },
+    {
+      "text": "",
+      "url": "https://www.tiktok.com/@garvee_official"
+    },
+    {
+      "text": "Join Free",
+      "url": "https://www.garvee.com/pages/about-garvee#login"
+    },
+    {
+      "text": "Get My Discount",
+      "url": "https://www.garvee.com/pages/about-garvee#login"
+    },
+    {
+      "text": "Unlock Savings",
+      "url": "https://www.garvee.com/pages/about-garvee#login"
+    },
+    {
+      "text": "Join Free",
+      "url": "https://www.garvee.com/pages/about-garvee#login"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/"
+    },
+    {
+      "text": "New Arrivals",
+      "url": "https://www.garvee.com/collections/new-arrivals"
+    },
+    {
+      "text": "Best Sellers🔥",
+      "url": "https://www.garvee.com/collections/best-sellers"
+    },
+    {
+      "text": "Flash Deals⚡",
+      "url": "https://www.garvee.com/collections/flash-deals"
+    },
+    {
+      "text": "Clearance",
+      "url": "https://www.garvee.com/collections/clearance-sale"
+    },
+    {
+      "text": "DIY Projects & Ideas",
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "About Us",
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Rewards & Points",
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/"
+    },
+    {
+      "text": "",
+      "url": "https://www.garvee.com/"
+    },
+    {
+      "text": "New Arrivals",
+      "url": "https://www.garvee.com/collections/new-arrivals"
+    },
+    {
+      "text": "Best Sellers🔥",
+      "url": "https://www.garvee.com/collections/best-sellers"
+    },
+    {
+      "text": "Flash Deals⚡",
+      "url": "https://www.garvee.com/collections/flash-deals"
+    },
+    {
+      "text": "Clearance",
+      "url": "https://www.garvee.com/collections/clearance-sale"
+    },
+    {
+      "text": "DIY Projects & Ideas",
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "Everything You Need to Know About Rug Sizes and Placement",
+      "url": "https://www.garvee.com/blogs/buying-guides/everything-you-need-to-know-about-rug-sizes-and-placement"
+    },
+    {
+      "text": "Find the Right One for Your Business Needs",
+      "url": "https://www.garvee.com/blogs/buying-guides/utility-cart-buying-guide-finding-the-correct-one-for-your-business-needs"
+    },
+    {
+      "text": "Power Tools Vs. Hand Tools: What You Need to Know",
+      "url": "https://www.garvee.com/blogs/buying-guides/power-tools-vs-hand-tools-what-you-need-to-know"
+    },
+    {
+      "text": "Everything You Should Know About Wine Cooler",
+      "url": "https://www.garvee.com/blogs/buying-guides/everything-you-should-know-about-wine-cooler"
+    },
+    {
+      "text": "Difference Between a Dresser and a Chest of Drawers",
+      "url": "https://www.garvee.com/blogs/buying-guides/what-is-the-difference-between-a-dresser-and-a-chest-of-drawers-a-comprehensive-comparison"
+    },
+    {
+      "text": "Cheap Home Improvement Ideas Boost Your Home's Value",
+      "url": "https://www.garvee.com/blogs/buying-guides/cheap-home-improvement-ideas-boost-your-homes-value-on-a-budget"
+    },
+    {
+      "text": "About Us",
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Rewards & Points",
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "Home",
+      "url": "https://www.garvee.com/"
+    },
+    {
+      "text": "Get to know us ↓",
+      "url": "https://www.garvee.com/pages/about-garvee#story"
+    },
+    {
+      "text": "Our story",
+      "url": "https://www.garvee.com/pages/about-garvee#story"
+    },
+    {
+      "text": "Everyday needs",
+      "url": "https://www.garvee.com/pages/about-garvee#everyday-categories"
+    },
+    {
+      "text": "At home & at work",
+      "url": "https://www.garvee.com/pages/about-garvee#your-world"
+    },
+    {
+      "text": "Our promise",
+      "url": "https://www.garvee.com/pages/about-garvee#promise"
+    },
+    {
+      "text": "HOME COMFORT 01 / AIR CONDITIONING Cool comfort, made simple. Practical cooling solutions for bedrooms, living spaces and everyday routines. Explore air conditioners ↗",
+      "url": "https://www.garvee.com/collections/air-conditioners?filter.v.availability=true"
+    },
+    {
+      "text": "OUTDOOR ADVENTURE 02 / RIDE-ON TOYS Big adventures, right-sized. Electric ride-on cars and UTVs that turn driveways and backyards into places to explore. Explore ride-on toys ↗",
+      "url": "https://www.garvee.com/collections/ride-ons?filter.v.availability=true"
+    },
+    {
+      "text": "Find your next idea ↗",
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "Power & hand tools ↗",
+      "url": "https://www.garvee.com/collections/power-hand-tools"
+    },
+    {
+      "text": "Restaurant & food service ↗",
+      "url": "https://www.garvee.com/collections/restaurant-food-service"
+    },
+    {
+      "text": "Automotive ↗",
+      "url": "https://www.garvee.com/collections/automotive"
+    },
+    {
+      "text": "Delivery made clear Shipping estimates and destination details. Shipping policy ↗",
+      "url": "https://www.garvee.com/policies/shipping-policy"
+    },
+    {
+      "text": "30-day returns See return eligibility and conditions. Return policy ↗",
+      "url": "https://www.garvee.com/policies/refund-policy"
+    },
+    {
+      "text": "Warranty support Find the coverage for your product. Warranty policy ↗",
+      "url": "https://www.garvee.com/pages/warranty-policy"
+    },
+    {
+      "text": "A helping hand Get in touch with our support team. Contact us ↗",
+      "url": "https://www.garvee.com/pages/contact"
+    },
+    {
+      "text": "Explore GARVEE ↗",
+      "url": "https://www.garvee.com/"
+    },
+    {
+      "text": "About Garvee",
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Special Outlets",
+      "url": "https://www.garvee.com/collections/clearance-sale?filter.v.availability=1"
+    },
+    {
+      "text": "DIY Projects & Ideas",
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "Terms Of Service",
+      "url": "https://www.garvee.com/policies/terms-of-service"
+    },
+    {
+      "text": "Privacy Policy",
+      "url": "https://www.garvee.com/policies/privacy-policy"
+    },
+    {
+      "text": "Accessibility",
+      "url": "https://www.garvee.com/pages/accessibility-statement "
+    },
+    {
+      "text": "Track Your Order",
+      "url": "https://www.garvee.com/pages/track-your-order"
+    },
+    {
+      "text": "Payments Policy",
+      "url": "https://www.garvee.com/pages/payments-policy"
+    },
+    {
+      "text": "Shipping Policy",
+      "url": "https://www.garvee.com/policies/shipping-policy"
+    },
+    {
+      "text": "Warranty Policy",
+      "url": "https://www.garvee.com/pages/warranty-policy"
+    },
+    {
+      "text": "Refund & Return Policy",
+      "url": "https://www.garvee.com/policies/refund-policy"
+    },
+    {
+      "text": "Worry-Free Purchase",
+      "url": "https://www.garvee.com/pages/carebox-package-protection"
+    },
+    {
+      "text": "Contact Us",
+      "url": "https://www.garvee.com/pages/contact"
+    },
+    {
+      "text": "Affiliate Program",
+      "url": "https://www.garvee.com/pages/affiliate"
+    },
+    {
+      "text": "Influencer Program",
+      "url": "https://www.garvee.com/pages/influencer-program"
+    },
+    {
+      "text": "Share and Win",
+      "url": "https://www.garvee.com/pages/share-and-win"
+    },
+    {
+      "text": "Garvee Rewards",
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "Protection Plans",
+      "url": "https://www.garvee.com/pages/extended-service-protection"
+    },
+    {
+      "text": "Help Center",
+      "url": "https://support.garvee.com/"
+    },
+    {
+      "text": "WholeSale Program",
+      "url": "https://www.garvee.com/pages/business"
+    },
+    {
+      "text": "",
+      "url": "https://www.pinterest.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "url": "https://www.facebook.com/garveeglobal"
+    },
+    {
+      "text": "",
+      "url": "https://www.instagram.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "url": "https://www.youtube.com/channel/UCvt0kZI7qgY2leAZrwI9DKA"
+    },
+    {
+      "text": "",
+      "url": "https://www.tiktok.com/@garvee_official"
+    },
+    {
+      "text": "",
+      "url": "https://www.google.com/storepages?q=garvee.com&c=US&v=19"
+    },
+    {
+      "text": "About Garvee",
+      "url": "https://www.garvee.com/pages/about-garvee"
+    },
+    {
+      "text": "Special Outlets",
+      "url": "https://www.garvee.com/collections/clearance-sale?filter.v.availability=1"
+    },
+    {
+      "text": "DIY Projects & Ideas",
+      "url": "https://www.garvee.com/pages/diy-ideas"
+    },
+    {
+      "text": "Terms Of Service",
+      "url": "https://www.garvee.com/policies/terms-of-service"
+    },
+    {
+      "text": "Privacy Policy",
+      "url": "https://www.garvee.com/policies/privacy-policy"
+    },
+    {
+      "text": "Accessibility",
+      "url": "https://www.garvee.com/pages/accessibility-statement "
+    },
+    {
+      "text": "Track Your Order",
+      "url": "https://www.garvee.com/pages/track-your-order"
+    },
+    {
+      "text": "Payments Policy",
+      "url": "https://www.garvee.com/pages/payments-policy"
+    },
+    {
+      "text": "Shipping Policy",
+      "url": "https://www.garvee.com/policies/shipping-policy"
+    },
+    {
+      "text": "Warranty Policy",
+      "url": "https://www.garvee.com/pages/warranty-policy"
+    },
+    {
+      "text": "Refund & Return Policy",
+      "url": "https://www.garvee.com/policies/refund-policy"
+    },
+    {
+      "text": "Worry-Free Purchase",
+      "url": "https://www.garvee.com/pages/carebox-package-protection"
+    },
+    {
+      "text": "Contact Us",
+      "url": "https://www.garvee.com/pages/contact"
+    },
+    {
+      "text": "Affiliate Program",
+      "url": "https://www.garvee.com/pages/affiliate"
+    },
+    {
+      "text": "Influencer Program",
+      "url": "https://www.garvee.com/pages/influencer-program"
+    },
+    {
+      "text": "Share and Win",
+      "url": "https://www.garvee.com/pages/share-and-win"
+    },
+    {
+      "text": "Garvee Rewards",
+      "url": "https://www.garvee.com/pages/mygarvees-rewards"
+    },
+    {
+      "text": "Protection Plans",
+      "url": "https://www.garvee.com/pages/extended-service-protection"
+    },
+    {
+      "text": "Help Center",
+      "url": "https://support.garvee.com/"
+    },
+    {
+      "text": "WholeSale Program",
+      "url": "https://www.garvee.com/pages/business"
+    },
+    {
+      "text": "",
+      "url": "https://www.pinterest.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "url": "https://www.facebook.com/garveeglobal"
+    },
+    {
+      "text": "",
+      "url": "https://www.instagram.com/garvee_official/"
+    },
+    {
+      "text": "",
+      "url": "https://www.youtube.com/channel/UCvt0kZI7qgY2leAZrwI9DKA"
+    },
+    {
+      "text": "",
+      "url": "https://www.tiktok.com/@garvee_official"
+    },
+    {
+      "text": "",
+      "url": "https://www.google.com/storepages?q=garvee.com&c=US&v=19"
+    }
+  ],
+  "main_text": "ABOUT GARVEE\nYour next\nbest partner\n.\nFor the home you make.\nThe work you do. The possibilities ahead.\nGet to know us\n↓\nHOME · WORK · EVERYDAY POSSIBILITIES\nMade for what’s next.\nOUR STORY\nBig possibilities.\nEveryday value.\n10+\nyears serving the needs of homes, projects and growing businesses.\nA more comfortable home. A project brought to life. A business ready for its next step.\nFor over a decade, GARVEE has brought together practical products for families and businesses—from furniture and toys to automotive tools and commercial equipment.\nOur purpose is simple: make quality and choice more accessible, so you can get on with what matters.\n01\nUseful in real life\nSolutions selected around the way people live, build and work.\n02\nValue with standards\nThoughtful quality and practical pricing can belong together.\n03\nBetter by listening\nCustomer feedback keeps shaping what comes next.\nEVERYDAY NEEDS\nComfort for home.\nAdventure for family.\nGARVEE grows with the routines that matter—from keeping daily spaces comfortable to giving young explorers room to move.\nHOME COMFORT\n01 / AIR CONDITIONING\nCool comfort, made simple.\nPractical cooling solutions for bedrooms, living spaces and everyday routines.\nExplore air conditioners\n↗\nOUTDOOR ADVENTURE\n02 / RIDE-ON TOYS\nBig adventures, right-sized.\nElectric ride-on cars and UTVs that turn driveways and backyards into places to explore.\nExplore ride-on toys\n↗\nA PARTNER IN YOUR EVERYDAY\nAt home. At work.\nRight there with you.\nFrom everyday comfort and play to the projects that move life forward, GARVEE brings practical choice to every part of the day.\nTHE SPACES YOU MAKE YOUR OWN\n01 / FOR YOUR HOME\nMore room\nfor everyday living.\nFrom a welcoming backyard to a room that feels like you, discover practical ways to make home more comfortable—and your next project more possible.\nFind your next idea\n↗\nTHE WORK THAT MOVES YOU FORWARD\n02 / FOR YOUR WORK\nFor the hands\nthat make it happen.\nEquip your workshop, kitchen or growing business with tools and everyday essentials, all in one place.\nPower & hand tools\n↗\nRestaurant & food service\n↗\nAutomotive\n↗\nTHE GARVEE PROMISE\nGood value.\nBuilt on good principles.\nClose supplier relationships and customer feedback help us keep improving what matters.\n01\nQuality that matters\nPractical products, thoughtfully selected.\n02\nPrices within reach\nMore value for your everyday budget.\n03\nChoice for your needs\nFrom home essentials to business equipment.\n04\nAlways improving\nYour feedback shapes what comes next.\nHERE TO HELP\nConfidence, beyond the purchase.\nDelivery made clear\nShipping estimates and destination details.\nShipping policy\n↗\n30-day returns\nSee return eligibility and conditions.\nReturn policy\n↗\nWarranty support\nFind the coverage for your product.\nWarranty policy\n↗\nA helping hand\nGet in touch with our support team.\nContact us\n↗\nLOOKING AHEAD\nWhatever comes next,\nlet’s make it possible.\nWe’re building a destination that grows with your needs.\nFor life, for work, and for your next idea.\nExplore GARVEE\n↗\nYOUR NEXT BEST PARTNER."
+}
