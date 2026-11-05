@@ -514,6 +514,7 @@
     "definition": "A video file.",
     "state": "实际输出",
     "pages": [
+      "homepage",
       "article"
     ],
     "source": "https://schema.org/VideoObject"

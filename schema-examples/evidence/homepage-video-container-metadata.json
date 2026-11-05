@@ -1,0 +1,199 @@
+{
+  "method": "ISO Base Media / QuickTime movie-header duration divided by timescale. At most two 256 KiB ranges per video; creation/modification timestamps are not interpreted as publication dates.",
+  "videos": [
+    {
+      "id": "home-video-1",
+      "url": "https://cdn.shopify.com/videos/c/vp/40ace17bb939413386c148ace872ae8d/40ace17bb939413386c148ace872ae8d.HD-720p-4.5Mbps-82963531.mp4?v=0",
+      "ranges": [
+        {
+          "requested_range": "bytes=0-262143",
+          "status": 206,
+          "content_range": "bytes 0-262143/5857152",
+          "bytes_read": 262144,
+          "sha256": "440d60bde9aa155676b1a3107fff44762c0ef08bcef7ff7ac59e0543fd493e86"
+        }
+      ],
+      "timescale": 1000,
+      "duration_units": 10070,
+      "duration_seconds": "10.07",
+      "duration_iso8601": "PT10.07S",
+      "mvhd_version": 0
+    },
+    {
+      "id": "home-video-2",
+      "url": "https://cdn.shopify.com/videos/c/o/v/2733cfd57903413fb767302553a2443c.mp4",
+      "ranges": [
+        {
+          "requested_range": "bytes=0-262143",
+          "status": 206,
+          "content_range": "bytes 0-262143/10230905",
+          "bytes_read": 262144,
+          "sha256": "49caa4d8dfdd0b93337ecdf7b0558a93cd43392a8b8208dccc506d6c6b8f3f5e"
+        }
+      ],
+      "timescale": 1000,
+      "duration_units": 16300,
+      "duration_seconds": "16.3",
+      "duration_iso8601": "PT16.3S",
+      "mvhd_version": 0
+    },
+    {
+      "id": "home-video-3",
+      "url": "https://cdn.shopify.com/videos/c/vp/fad9c85040014e47bccd8bffbfee1272/fad9c85040014e47bccd8bffbfee1272.HD-1080p-2.5Mbps-56565832.mp4?v=0",
+      "ranges": [
+        {
+          "requested_range": "bytes=0-262143",
+          "status": 206,
+          "content_range": "bytes 0-262143/6310459",
+          "bytes_read": 262144,
+          "sha256": "3b5f85357a3a5d2660858e266350f229ded8cbc9f522dbc798948e4b4c38184b"
+        }
+      ],
+      "timescale": 1000,
+      "duration_units": 19000,
+      "duration_seconds": "19",
+      "duration_iso8601": "PT19S",
+      "mvhd_version": 0
+    },
+    {
+      "id": "home-video-4",
+      "url": "https://cdn.shopify.com/videos/c/o/v/60a83bbf3ef04070ae4affcd9f540239.mp4",
+      "ranges": [
+        {
+          "requested_range": "bytes=0-262143",
+          "status": 206,
+          "content_range": "bytes 0-262143/42742493",
+          "bytes_read": 262144,
+          "sha256": "cccb80010a6054d7364d333c1d5674713cd15bcc3f3dc4d5ab59302902cae9ed"
+        },
+        {
+          "requested_range": "bytes=42480349-42742492",
+          "status": 206,
+          "content_range": "bytes 42480349-42742492/42742493",
+          "bytes_read": 262144,
+          "sha256": "11f4cea5b11e5cc7c8ebbe3851b8742af2c0d1e99b30dfe6a9a73862312b0609"
+        }
+      ],
+      "timescale": 1000,
+      "duration_units": 42145,
+      "duration_seconds": "42.145",
+      "duration_iso8601": "PT42.145S",
+      "mvhd_version": 0
+    },
+    {
+      "id": "home-video-5",
+      "url": "https://cdn.shopify.com/videos/c/vp/51ce3466c06c479699e3f19e88dd3a54/51ce3466c06c479699e3f19e88dd3a54.HD-720p-3.0Mbps-85394993.mp4?v=0",
+      "ranges": [
+        {
+          "requested_range": "bytes=0-262143",
+          "status": 206,
+          "content_range": "bytes 0-262143/6294430",
+          "bytes_read": 262144,
+          "sha256": "361b64d2b885717ef90620c3686b6539db32c6faded042b9c1603deef3d3aa1f"
+        }
+      ],
+      "timescale": 1000,
+      "duration_units": 17280,
+      "duration_seconds": "17.28",
+      "duration_iso8601": "PT17.28S",
+      "mvhd_version": 0
+    },
+    {
+      "id": "home-video-6",
+      "url": "https://cdn.shopify.com/videos/c/vp/920a7ada2b6c400fb5b532fc11158921/920a7ada2b6c400fb5b532fc11158921.HD-1080p-7.2Mbps-62718637.mp4?v=0",
+      "ranges": [
+        {
+          "requested_range": "bytes=0-262143",
+          "status": 206,
+          "content_range": "bytes 0-262143/24384795",
+          "bytes_read": 262144,
+          "sha256": "1a6cc1b246b8d047f89bea1186870c8ef4efb16090af3159a9c0f3b96c2a3eec"
+        }
+      ],
+      "timescale": 1000,
+      "duration_units": 29078,
+      "duration_seconds": "29.078",
+      "duration_iso8601": "PT29.078S",
+      "mvhd_version": 0
+    },
+    {
+      "id": "home-video-7",
+      "url": "https://cdn.shopify.com/videos/c/vp/a48eab5c080b44fb9e4bffbdc56b01ae/a48eab5c080b44fb9e4bffbdc56b01ae.HD-1080p-7.2Mbps-78202450.mp4?v=0",
+      "ranges": [
+        {
+          "requested_range": "bytes=0-262143",
+          "status": 206,
+          "content_range": "bytes 0-262143/21456008",
+          "bytes_read": 262144,
+          "sha256": "4f66730ff5347f24e2c237cc2883da22498a75068daca3d9c0b2c77e6b7073db"
+        }
+      ],
+      "timescale": 1000,
+      "duration_units": 25600,
+      "duration_seconds": "25.6",
+      "duration_iso8601": "PT25.6S",
+      "mvhd_version": 0
+    },
+    {
+      "id": "home-video-8",
+      "url": "https://cdn.shopify.com/videos/c/vp/b005b466f5d641b1a4c9951537438866/b005b466f5d641b1a4c9951537438866.HD-1080p-7.2Mbps-62675714.mp4?v=0",
+      "ranges": [
+        {
+          "requested_range": "bytes=0-262143",
+          "status": 206,
+          "content_range": "bytes 0-262143/22414538",
+          "bytes_read": 262144,
+          "sha256": "93b1f1d5e1b021094d3df8ab99ea05efc653024c8b81a6e7103d4e285486485a"
+        }
+      ],
+      "timescale": 1000,
+      "duration_units": 26560,
+      "duration_seconds": "26.56",
+      "duration_iso8601": "PT26.56S",
+      "mvhd_version": 0
+    },
+    {
+      "id": "home-video-9",
+      "url": "https://cdn.shopify.com/videos/c/vp/c25c8b40aa65464482af19fb1d4cc82b/c25c8b40aa65464482af19fb1d4cc82b.HD-1080p-2.5Mbps-80172404.mp4?v=0",
+      "ranges": [
+        {
+          "requested_range": "bytes=0-262143",
+          "status": 206,
+          "content_range": "bytes 0-262143/5612070",
+          "bytes_read": 262144,
+          "sha256": "b7d67b104f4049d1c181e33598aaada076406b4fed0d628748c2a4758b9a8236"
+        }
+      ],
+      "timescale": 1000,
+      "duration_units": 17600,
+      "duration_seconds": "17.6",
+      "duration_iso8601": "PT17.6S",
+      "mvhd_version": 0
+    },
+    {
+      "id": "home-video-10",
+      "url": "https://cdn.shopify.com/videos/c/o/v/c0b6ab9c7d184c60811564298ae26ffa.mov",
+      "ranges": [
+        {
+          "requested_range": "bytes=0-262143",
+          "status": 206,
+          "content_range": "bytes 0-262143/16726932",
+          "bytes_read": 262144,
+          "sha256": "4d0c8f7cc5ab770c9a3c4ebb801ae5ba9f650711c24419a91ac8a469bd6e2140"
+        },
+        {
+          "requested_range": "bytes=16464788-16726931",
+          "status": 206,
+          "content_range": "bytes 16464788-16726931/16726932",
+          "bytes_read": 262144,
+          "sha256": "2048cfd93b4827f13158ae0643ec40df3d59498dd6e3bfa0b6eaa55fc6cf2cb9"
+        }
+      ],
+      "timescale": 44100,
+      "duration_units": 920220,
+      "duration_seconds": "20.86666666666666666666666667",
+      "duration_iso8601": "PT20.86666666666666666666666667S",
+      "mvhd_version": 0
+    }
+  ]
+}

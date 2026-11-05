@@ -254,7 +254,7 @@
   {
     "field": "contentUrl",
     "meaning": "媒体文件本体地址",
-    "required_value": "可公开获取的真实文件 URL，不用 HTML 页面冒充图片文件",
+    "required_value": "可公开获取的真实媒体文件 URL，不用 HTML 页面冒充文件本体",
     "range": "URL",
     "schema_definition": "Actual bytes of the media object, for example the image file or video file.",
     "schema_url": "https://schema.org/contentUrl",

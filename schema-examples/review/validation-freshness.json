@@ -2,21 +2,21 @@
   {
     "page": "homepage",
     "tool": "schema",
-    "current_sha256": "2de548399b67e47c4429e62311e64a0c617d71dd1ae20671e5059a823fd84dc1",
+    "current_sha256": "6d49e725561a0662e18328da61e1b3fad23e7153d8a421ab50b504fc3ac8a95d",
     "receipt_sha256": "2de548399b67e47c4429e62311e64a0c617d71dd1ae20671e5059a823fd84dc1",
     "receipt": "validation/schema-current/homepage.json",
-    "current": true,
-    "status": "当前字节已有在线回执",
+    "current": false,
+    "status": "旧回执对应旧字节；本版待复测",
     "historical_result_url": null
   },
   {
     "page": "homepage",
     "tool": "google",
-    "current_sha256": "2de548399b67e47c4429e62311e64a0c617d71dd1ae20671e5059a823fd84dc1",
+    "current_sha256": "6d49e725561a0662e18328da61e1b3fad23e7153d8a421ab50b504fc3ac8a95d",
     "receipt_sha256": "2de548399b67e47c4429e62311e64a0c617d71dd1ae20671e5059a823fd84dc1",
     "receipt": "validation/google-current/homepage.json",
-    "current": true,
-    "status": "当前字节已有在线回执",
+    "current": false,
+    "status": "旧回执对应旧字节；本版待复测",
     "historical_result_url": "https://search.google.com/test/rich-results/result?id=BcKsyNs99AFCMQfjaq9kJg"
   },
   {

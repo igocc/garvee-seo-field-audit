@@ -16,20 +16,34 @@
       "OpeningHoursSpecification",
       "PostalAddress",
       "SearchAction",
+      "VideoObject",
       "WebPage",
       "WebSite"
     ],
     "capture": "2026-11-04T13:33:37.668175+00:00",
-    "rendered_capture": "2026-11-05T04:39:47.808Z",
-    "identity_policy": "首页完整 OnlineStore + WebSite + WebPage；保留一个19项真实一级分类导航 ItemList。",
+    "rendered_capture": "2026-11-05T05:49:21.495Z",
+    "identity_policy": "首页完整 OnlineStore + WebSite + WebPage；保留一个19项真实一级分类导航 ItemList，并以hasPart关联10条真实轮播VideoObject。",
     "evidence": "evidence/homepage.json",
     "browser_evidence": "evidence/homepage.browser.json",
     "html": "code/homepage.html",
     "snippet": "code/homepage.snippet.html",
     "jsonld": "code/homepage.jsonld",
-    "sha256": "2de548399b67e47c4429e62311e64a0c617d71dd1ae20671e5059a823fd84dc1",
-    "content_length": 2074,
-    "gaps": []
+    "sha256": "6d49e725561a0662e18328da61e1b3fad23e7153d8a421ab50b504fc3ac8a95d",
+    "content_length": 4939,
+    "gaps": [
+      {
+        "page": "homepage",
+        "field": "VideoObject.uploadDate",
+        "reason": "首页10条真实视频均缺可信首次发布日期；CDN Last-Modified、URL版本参数、媒体创建时间和抓取时刻不能代填。",
+        "requirement": "CMS按视频ID提供真实首次发布DateTime及时区；同步播放器数据后复测。Google将其列为视频必填，当前不宣称视频富结果已达标。"
+      },
+      {
+        "page": "homepage",
+        "field": "VideoObject.description / creator",
+        "reason": "视频标题、文件、实际轮播封面及时长已有来源；未获独立视频简介或创作者归属。",
+        "requirement": "有真实资料时由视频CMS补独立简介及实际Person/Organization；不复用商品描述或默认GARVEE为视频作者。"
+      }
+    ]
   },
   {
     "key": "about-garvee",

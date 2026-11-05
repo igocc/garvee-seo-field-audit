@@ -9,5 +9,5 @@
   "errors": 0,
   "warnings": 0,
   "origin_receipt": "validation/homepage-baseline/brand-check-final-verification.json",
-  "note": "Imported unchanged baseline receipt, not a new test; original summary did not provide capture time."
+  "note": "Historical baseline receipt before the video correction; original summary did not provide capture time. Not a new test."
 }

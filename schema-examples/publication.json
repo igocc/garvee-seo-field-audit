@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-11-05T05:00:50.448383+00:00",
+  "published_at": "2026-11-05T06:12:24.387302+00:00",
   "visibility": "public",
   "repository": "https://github.com/igocc/garvee-seo-field-audit",
   "page": "https://igocc.github.io/garvee-seo-field-audit/schema-examples/",
   "code_versions": 28,
   "code_bytes_unchanged": true,
   "evidence": "public projections; original hashes retained separately",
-  "current_online_receipts": 2,
+  "current_online_receipts": 0,
   "storefront_deployment": false
 }

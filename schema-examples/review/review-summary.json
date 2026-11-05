@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-11-05T04:55:14.624630+00:00",
+  "generated_at": "2026-11-05T06:06:18.186746+00:00",
   "pages": 27,
   "rendered_pages": 27,
-  "field_paths": 3082,
+  "field_paths": 3133,
   "field_dictionary_entries": 97,
-  "business_gap_rows": 66,
+  "business_gap_rows": 69,
   "source_status": {
     "200": 29,
     "404": 1
   },
   "source_integrity_issues": [],
-  "range_checks": 1065,
+  "range_checks": 1085,
   "range_issues": 0,
   "value_status": {
     "可见文本直接匹配": 394,
     "渲染 DOM 属性／元信息匹配": 399,
-    "实体容器／关系：核对子字段": 769,
+    "实体容器／关系：核对子字段": 780,
     "已核共享品牌来源": 46,
     "公共 logo 实际图片尺寸": 6,
     "词汇／单位／语言规范化": 39,
@@ -23,6 +23,7 @@
     "可见正文匹配（标点／空白规范化）": 321,
     "技术计算／位置": 313,
     "已核首页实际一级导航": 38,
+    "逐视频配置/渲染封面/媒体文件独立核对": 40,
     "本页导航相对链接规范化": 33,
     "可见更新日期规范化": 2,
     "语义名称／摘要，需对照所属组件": 18,
@@ -34,7 +35,7 @@
     "外部视频官方元数据": 3,
     "同商品卡片价格独立对照通过": 204
   },
-  "current_online_receipts": 2,
+  "current_online_receipts": 0,
   "unproven_remaining": [],
   "deployment": "未部署；真实后端业务事实未取得，不声称生产验收通过。"
 }

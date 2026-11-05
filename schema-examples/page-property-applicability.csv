@@ -429,6 +429,163 @@ homepage,SearchAction,startTime,未输出；依适用性及真实数据决定,Da
 homepage,SearchAction,subjectOf,未输出；依适用性及真实数据决定,CreativeWork / Event,Google 站点搜索框功能已于 2024-11-21 移除；保留 Schema 搜索动作语义,https://schema.org/subjectOf,词汇支持不等于必填；具体缺口见专项表
 homepage,SearchAction,target,已输出,EntryPoint / URL,Google 站点搜索框功能已于 2024-11-21 移除；保留 Schema 搜索动作语义,https://schema.org/target,词汇支持不等于必填；具体缺口见专项表
 homepage,SearchAction,url,未输出；依适用性及真实数据决定,URL,Google 站点搜索框功能已于 2024-11-21 移除；保留 Schema 搜索动作语义,https://schema.org/url,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,about,未输出；依适用性及真实数据决定,Thing,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/about,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,abstract,未输出；依适用性及真实数据决定,Text,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/abstract,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,accessMode,未输出；依适用性及真实数据决定,Text,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/accessMode,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,accessModeSufficient,未输出；依适用性及真实数据决定,ItemList,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/accessModeSufficient,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,accessibilityAPI,未输出；依适用性及真实数据决定,Text,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/accessibilityAPI,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,accessibilityControl,未输出；依适用性及真实数据决定,Text,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/accessibilityControl,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,accessibilityFeature,未输出；依适用性及真实数据决定,Text,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/accessibilityFeature,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,accessibilityHazard,未输出；依适用性及真实数据决定,Text,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/accessibilityHazard,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,accessibilitySummary,未输出；依适用性及真实数据决定,Text,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/accessibilitySummary,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,accountablePerson,未输出；依适用性及真实数据决定,Person,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/accountablePerson,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,acquireLicensePage,未输出；依适用性及真实数据决定,CreativeWork / URL,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/acquireLicensePage,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,actor,未输出；依适用性及真实数据决定,PerformingGroup / Person,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/actor,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,actors,未输出；依适用性及真实数据决定,Person,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/actors,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,additionalType,未输出；依适用性及真实数据决定,Text / URL,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/additionalType,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,aggregateRating,未输出；依适用性及真实数据决定,AggregateRating,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/aggregateRating,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,alternateName,未输出；依适用性及真实数据决定,Text,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/alternateName,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,alternativeHeadline,未输出；依适用性及真实数据决定,Text,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/alternativeHeadline,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,archivedAt,未输出；依适用性及真实数据决定,URL / WebPage,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/archivedAt,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,assesses,未输出；依适用性及真实数据决定,DefinedTerm / Text,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/assesses,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,associatedArticle,未输出；依适用性及真实数据决定,NewsArticle,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/associatedArticle,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,associatedMedia,未输出；依适用性及真实数据决定,MediaObject,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/associatedMedia,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,audience,未输出；依适用性及真实数据决定,Audience,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/audience,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,audio,未输出；依适用性及真实数据决定,AudioObject / Clip / MusicRecording,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/audio,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,author,未输出；依适用性及真实数据决定,Organization / Person,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/author,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,award,未输出；依适用性及真实数据决定,Text,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/award,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,awards,未输出；依适用性及真实数据决定,Text,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/awards,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,bitrate,未输出；依适用性及真实数据决定,Text,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/bitrate,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,caption,未输出；依适用性及真实数据决定,MediaObject / Text,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/caption,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,character,未输出；依适用性及真实数据决定,Person,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/character,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,citation,未输出；依适用性及真实数据决定,CreativeWork / Text,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/citation,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,comment,未输出；依适用性及真实数据决定,Comment,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/comment,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,commentCount,未输出；依适用性及真实数据决定,Integer,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/commentCount,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,conditionsOfAccess,未输出；依适用性及真实数据决定,Text,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/conditionsOfAccess,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,contentLocation,未输出；依适用性及真实数据决定,Place,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/contentLocation,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,contentRating,未输出；依适用性及真实数据决定,Rating / Text,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/contentRating,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,contentReferenceTime,未输出；依适用性及真实数据决定,DateTime,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/contentReferenceTime,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,contentSize,未输出；依适用性及真实数据决定,Text,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/contentSize,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,contentUrl,已输出,URL,Google 文档建议字段（以 VideoObject 对应功能、方案和例外为准）,https://schema.org/contentUrl,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,contributor,未输出；依适用性及真实数据决定,Organization / Person,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/contributor,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,copyrightHolder,未输出；依适用性及真实数据决定,Organization / Person,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/copyrightHolder,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,copyrightNotice,未输出；依适用性及真实数据决定,Text,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/copyrightNotice,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,copyrightYear,未输出；依适用性及真实数据决定,Number,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/copyrightYear,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,correction,未输出；依适用性及真实数据决定,CorrectionComment / Text / URL,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/correction,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,countryOfOrigin,未输出；依适用性及真实数据决定,Country,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/countryOfOrigin,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,creativeWorkStatus,未输出；依适用性及真实数据决定,DefinedTerm / Text,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/creativeWorkStatus,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,creator,未输出；依适用性及真实数据决定,Organization / Person,Google 文档建议字段（以 VideoObject 对应功能、方案和例外为准）,https://schema.org/creator,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,creditText,未输出；依适用性及真实数据决定,Text,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/creditText,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,dateCreated,未输出；依适用性及真实数据决定,Date / DateTime,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/dateCreated,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,dateModified,未输出；依适用性及真实数据决定,Date / DateTime,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/dateModified,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,datePublished,未输出；依适用性及真实数据决定,Date / DateTime,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/datePublished,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,description,未输出；依适用性及真实数据决定,Text / TextObject,Google 文档建议字段（以 VideoObject 对应功能、方案和例外为准）,https://schema.org/description,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,digitalSourceType,未输出；依适用性及真实数据决定,IPTCDigitalSourceEnumeration,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/digitalSourceType,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,director,未输出；依适用性及真实数据决定,Person,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/director,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,directors,未输出；依适用性及真实数据决定,Person,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/directors,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,disambiguatingDescription,未输出；依适用性及真实数据决定,Text,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/disambiguatingDescription,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,discussionUrl,未输出；依适用性及真实数据决定,URL,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/discussionUrl,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,displayLocation,未输出；依适用性及真实数据决定,Place,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/displayLocation,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,duration,已输出,Duration / QuantitativeValue,Google 文档建议字段（以 VideoObject 对应功能、方案和例外为准）,https://schema.org/duration,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,editEIDR,未输出；依适用性及真实数据决定,Text / URL,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/editEIDR,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,editor,未输出；依适用性及真实数据决定,Person,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/editor,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,educationalAlignment,未输出；依适用性及真实数据决定,AlignmentObject,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/educationalAlignment,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,educationalLevel,未输出；依适用性及真实数据决定,DefinedTerm / Text / URL,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/educationalLevel,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,educationalUse,未输出；依适用性及真实数据决定,DefinedTerm / Text,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/educationalUse,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,embedUrl,未输出；依适用性及真实数据决定,URL,Google 文档建议字段（以 VideoObject 对应功能、方案和例外为准）,https://schema.org/embedUrl,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,embeddedTextCaption,未输出；依适用性及真实数据决定,Text,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/embeddedTextCaption,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,encodesCreativeWork,未输出；依适用性及真实数据决定,CreativeWork,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/encodesCreativeWork,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,encoding,未输出；依适用性及真实数据决定,MediaObject,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/encoding,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,encodingFormat,未输出；依适用性及真实数据决定,Text / URL,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/encodingFormat,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,encodings,未输出；依适用性及真实数据决定,MediaObject,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/encodings,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,endTime,未输出；依适用性及真实数据决定,DateTime / Time,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/endTime,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,exampleOfWork,未输出；依适用性及真实数据决定,CreativeWork,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/exampleOfWork,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,expires,未输出；依适用性及真实数据决定,Date / DateTime,Google 文档建议字段（以 VideoObject 对应功能、方案和例外为准）,https://schema.org/expires,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,fileFormat,未输出；依适用性及真实数据决定,Text / URL,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/fileFormat,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,funder,未输出；依适用性及真实数据决定,Organization / Person,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/funder,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,funding,未输出；依适用性及真实数据决定,Grant,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/funding,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,genre,未输出；依适用性及真实数据决定,DefinedTerm / Text / URL,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/genre,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,hasPart,未输出；依适用性及真实数据决定,CreativeWork,Google 文档建议字段（以 VideoObject 对应功能、方案和例外为准）,https://schema.org/hasPart,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,headline,未输出；依适用性及真实数据决定,Text,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/headline,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,height,未输出；依适用性及真实数据决定,Distance / QuantitativeValue,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/height,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,identifier,未输出；依适用性及真实数据决定,PropertyValue / Text / URL,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/identifier,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,image,未输出；依适用性及真实数据决定,ImageObject / URL,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/image,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,inLanguage,未输出；依适用性及真实数据决定,Language / Text,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/inLanguage,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,ineligibleRegion,未输出；依适用性及真实数据决定,GeoShape / Place / Text,Google 文档建议字段（以 VideoObject 对应功能、方案和例外为准）,https://schema.org/ineligibleRegion,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,interactionStatistic,未输出；依适用性及真实数据决定,InteractionCounter,Google 文档建议字段（以 VideoObject 对应功能、方案和例外为准）,https://schema.org/interactionStatistic,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,interactivityType,未输出；依适用性及真实数据决定,Text,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/interactivityType,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,interpretedAsClaim,未输出；依适用性及真实数据决定,Claim,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/interpretedAsClaim,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,isAccessibleForFree,未输出；依适用性及真实数据决定,Boolean,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/isAccessibleForFree,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,isBasedOn,未输出；依适用性及真实数据决定,CreativeWork / Product / URL,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/isBasedOn,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,isBasedOnUrl,未输出；依适用性及真实数据决定,CreativeWork / Product / URL,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/isBasedOnUrl,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,isFamilyFriendly,未输出；依适用性及真实数据决定,Boolean,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/isFamilyFriendly,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,isPartOf,已输出,CreativeWork / URL,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/isPartOf,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,keywords,未输出；依适用性及真实数据决定,DefinedTerm / Text / URL,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/keywords,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,learningResourceType,未输出；依适用性及真实数据决定,DefinedTerm / Text,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/learningResourceType,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,license,未输出；依适用性及真实数据决定,CreativeWork / URL,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/license,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,locationCreated,未输出；依适用性及真实数据决定,Place,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/locationCreated,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,mainEntity,未输出；依适用性及真实数据决定,Thing,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/mainEntity,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,mainEntityOfPage,未输出；依适用性及真实数据决定,CreativeWork / URL,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/mainEntityOfPage,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,maintainer,未输出；依适用性及真实数据决定,Organization / Person,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/maintainer,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,material,未输出；依适用性及真实数据决定,Product / Text / URL,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/material,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,materialExtent,未输出；依适用性及真实数据决定,QuantitativeValue / Text,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/materialExtent,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,mentions,未输出；依适用性及真实数据决定,Thing,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/mentions,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,musicBy,未输出；依适用性及真实数据决定,MusicGroup / Person,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/musicBy,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,name,已输出,Text,Google 文档条件必需字段（以 VideoObject 对应功能、方案和例外为准）,https://schema.org/name,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,offers,未输出；依适用性及真实数据决定,Demand / Offer,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/offers,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,owner,未输出；依适用性及真实数据决定,Organization / Person,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/owner,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,pattern,未输出；依适用性及真实数据决定,DefinedTerm / Text,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/pattern,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,playerType,未输出；依适用性及真实数据决定,Text,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/playerType,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,position,未输出；依适用性及真实数据决定,Integer / Text,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/position,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,potentialAction,未输出；依适用性及真实数据决定,Action,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/potentialAction,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,producer,未输出；依适用性及真实数据决定,Organization / Person,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/producer,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,productionCompany,未输出；依适用性及真实数据决定,Organization,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/productionCompany,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,provider,未输出；依适用性及真实数据决定,Organization / Person,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/provider,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,publication,未输出；依适用性及真实数据决定,PublicationEvent,Google 文档建议字段（以 VideoObject 对应功能、方案和例外为准）,https://schema.org/publication,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,publisher,未输出；依适用性及真实数据决定,Organization / Person,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/publisher,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,publisherImprint,未输出；依适用性及真实数据决定,Organization,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/publisherImprint,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,publishingPrinciples,未输出；依适用性及真实数据决定,CreativeWork / URL,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/publishingPrinciples,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,recordedAt,未输出；依适用性及真实数据决定,Event,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/recordedAt,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,regionsAllowed,未输出；依适用性及真实数据决定,Place,Google 文档建议字段（以 VideoObject 对应功能、方案和例外为准）,https://schema.org/regionsAllowed,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,releasedEvent,未输出；依适用性及真实数据决定,PublicationEvent,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/releasedEvent,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,requiresSubscription,未输出；依适用性及真实数据决定,Boolean / MediaSubscription,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/requiresSubscription,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,review,未输出；依适用性及真实数据决定,Review,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/review,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,reviews,未输出；依适用性及真实数据决定,Review,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/reviews,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,sameAs,未输出；依适用性及真实数据决定,URL,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/sameAs,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,schemaVersion,未输出；依适用性及真实数据决定,Text / URL,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/schemaVersion,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,sdDatePublished,未输出；依适用性及真实数据决定,Date,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/sdDatePublished,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,sdLicense,未输出；依适用性及真实数据决定,CreativeWork / URL,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/sdLicense,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,sdPublisher,未输出；依适用性及真实数据决定,Organization / Person,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/sdPublisher,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,sha256,未输出；依适用性及真实数据决定,Text,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/sha256,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,size,未输出；依适用性及真实数据决定,DefinedTerm / QuantitativeValue / SizeSpecification / Text,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/size,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,sourceOrganization,未输出；依适用性及真实数据决定,Organization,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/sourceOrganization,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,spatial,未输出；依适用性及真实数据决定,Place,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/spatial,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,spatialCoverage,未输出；依适用性及真实数据决定,Place,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/spatialCoverage,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,sponsor,未输出；依适用性及真实数据决定,Organization / Person,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/sponsor,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,startTime,未输出；依适用性及真实数据决定,DateTime / Time,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/startTime,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,subjectOf,未输出；依适用性及真实数据决定,CreativeWork / Event,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/subjectOf,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,teaches,未输出；依适用性及真实数据决定,DefinedTerm / Text,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/teaches,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,temporal,未输出；依适用性及真实数据决定,DateTime / Text,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/temporal,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,temporalCoverage,未输出；依适用性及真实数据决定,DateTime / Text / URL,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/temporalCoverage,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,text,未输出；依适用性及真实数据决定,Text,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/text,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,thumbnail,未输出；依适用性及真实数据决定,ImageObject,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/thumbnail,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,thumbnailUrl,已输出,URL,Google 文档条件必需字段（以 VideoObject 对应功能、方案和例外为准）,https://schema.org/thumbnailUrl,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,timeRequired,未输出；依适用性及真实数据决定,Duration,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/timeRequired,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,transcript,未输出；依适用性及真实数据决定,Text,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/transcript,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,translationOfWork,未输出；依适用性及真实数据决定,CreativeWork,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/translationOfWork,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,translator,未输出；依适用性及真实数据决定,Organization / Person,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/translator,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,typicalAgeRange,未输出；依适用性及真实数据决定,Text,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/typicalAgeRange,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,uploadDate,未输出；依适用性及真实数据决定,Date / DateTime,Google 文档条件必需字段（以 VideoObject 对应功能、方案和例外为准）,https://schema.org/uploadDate,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,url,未输出；依适用性及真实数据决定,URL,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/url,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,usageInfo,未输出；依适用性及真实数据决定,CreativeWork / URL,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/usageInfo,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,version,未输出；依适用性及真实数据决定,Number / Text,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/version,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,video,未输出；依适用性及真实数据决定,Clip / VideoObject,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/video,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,videoFrameSize,未输出；依适用性及真实数据决定,Text,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/videoFrameSize,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,videoQuality,未输出；依适用性及真实数据决定,Text,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/videoQuality,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,width,未输出；依适用性及真实数据决定,Distance / QuantitativeValue,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/width,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,wordCount,未输出；依适用性及真实数据决定,Integer,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/wordCount,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,workExample,未输出；依适用性及真实数据决定,CreativeWork,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/workExample,词汇支持不等于必填；具体缺口见专项表
+homepage,VideoObject,workTranslation,未输出；依适用性及真实数据决定,CreativeWork,该字段未在已核对的 Google 属性表中明确列出；不等于 Schema 不支持,https://schema.org/workTranslation,词汇支持不等于必填；具体缺口见专项表
 homepage,WebPage,about,已输出,Thing,未见该类型的独立 Google 富结果文档,https://schema.org/about,词汇支持不等于必填；具体缺口见专项表
 homepage,WebPage,abstract,未输出；依适用性及真实数据决定,Text,未见该类型的独立 Google 富结果文档,https://schema.org/abstract,词汇支持不等于必填；具体缺口见专项表
 homepage,WebPage,accessMode,未输出；依适用性及真实数据决定,Text,未见该类型的独立 Google 富结果文档,https://schema.org/accessMode,词汇支持不等于必填；具体缺口见专项表
@@ -492,7 +649,7 @@ homepage,WebPage,fileFormat,未输出；依适用性及真实数据决定,Text /
 homepage,WebPage,funder,未输出；依适用性及真实数据决定,Organization / Person,未见该类型的独立 Google 富结果文档,https://schema.org/funder,词汇支持不等于必填；具体缺口见专项表
 homepage,WebPage,funding,未输出；依适用性及真实数据决定,Grant,未见该类型的独立 Google 富结果文档,https://schema.org/funding,词汇支持不等于必填；具体缺口见专项表
 homepage,WebPage,genre,未输出；依适用性及真实数据决定,DefinedTerm / Text / URL,未见该类型的独立 Google 富结果文档,https://schema.org/genre,词汇支持不等于必填；具体缺口见专项表
-homepage,WebPage,hasPart,未输出；依适用性及真实数据决定,CreativeWork,未见该类型的独立 Google 富结果文档,https://schema.org/hasPart,词汇支持不等于必填；具体缺口见专项表
+homepage,WebPage,hasPart,已输出,CreativeWork,未见该类型的独立 Google 富结果文档,https://schema.org/hasPart,词汇支持不等于必填；具体缺口见专项表
 homepage,WebPage,headline,未输出；依适用性及真实数据决定,Text,未见该类型的独立 Google 富结果文档,https://schema.org/headline,词汇支持不等于必填；具体缺口见专项表
 homepage,WebPage,identifier,未输出；依适用性及真实数据决定,PropertyValue / Text / URL,未见该类型的独立 Google 富结果文档,https://schema.org/identifier,词汇支持不等于必填；具体缺口见专项表
 homepage,WebPage,image,未输出；依适用性及真实数据决定,ImageObject / URL,未见该类型的独立 Google 富结果文档,https://schema.org/image,词汇支持不等于必填；具体缺口见专项表

@@ -1,0 +1,19 @@
+{
+  "homepage_video_objects": 10,
+  "root_nodes": 14,
+  "original_org_site_page_except_hasPart_and_19_category_list_preserved": true,
+  "video_urls_and_titles_match_exact_carousel_items": true,
+  "source_hashes_verified": true,
+  "media_and_thumbnails_http_200": 20,
+  "all_durations_match_container_metadata": true,
+  "invented_upload_dates_or_creators": 0,
+  "old_baseline_sha256": "2de548399b67e47c4429e62311e64a0c617d71dd1ae20671e5059a823fd84dc1",
+  "current_homepage_sha256": "6d49e725561a0662e18328da61e1b3fad23e7153d8a421ab50b504fc3ac8a95d",
+  "matching_current_online_receipts": 0,
+  "required_online_receipts": 56,
+  "other_code_files_unchanged": 81,
+  "optional_category_modules_unchanged": true,
+  "all_27_main_html_jsonld_equal": true,
+  "acceptance_blank_cells": 27,
+  "scope": "Local vocabulary/range/source/byte checks; not a new online Schema or Google test."
+}

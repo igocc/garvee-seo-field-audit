@@ -494,6 +494,45 @@
     "evidence": "evidence/blog-list.browser.json"
   },
   {
+    "page": "homepage",
+    "label": "首页",
+    "url": "https://www.garvee.com/",
+    "field": "VideoObject.uploadDate",
+    "meaning": "视频首次发布日期",
+    "current_evidence": "10条真实首页视频均无可信首次发布日期；CDN修改时间与URL版本参数不是发布时间",
+    "required_value": "按home-video-1至home-video-10提供CMS真实首次发布DateTime及时区，和页面播放器同源；Google视频功能将其列为必填。",
+    "source_owner": "视频CMS/内容负责人",
+    "status": "待业务提供／确认",
+    "requirement_level": "Google视频功能必填；当前尚缺",
+    "evidence": "evidence/homepage.browser.json"
+  },
+  {
+    "page": "homepage",
+    "label": "首页",
+    "url": "https://www.garvee.com/",
+    "field": "VideoObject.description / creator",
+    "meaning": "视频简介与创作者",
+    "current_evidence": "视频标题来自轮播配置；未获独立视频简介或真实创作者归属",
+    "required_value": "有实际内容时提供逐视频简介、实际Person/Organization及其介绍URL；不用商品说明冒充视频简介，不默认发布组织就是创作者。",
+    "source_owner": "视频CMS/内容负责人",
+    "status": "待业务提供／确认",
+    "requirement_level": "真实数据存在时建议补充",
+    "evidence": "evidence/homepage.browser.json"
+  },
+  {
+    "page": "homepage",
+    "label": "首页",
+    "url": "https://www.garvee.com/",
+    "field": "VideoObject 的独立视频索引资格",
+    "meaning": "电商首页轮播与专用视频页的区别",
+    "current_evidence": "当前是包含10条购物视频的电商首页；首屏未显示全部视频，滚动后一次挂载4条",
+    "required_value": "如需视频索引功能，提供实际以单个视频为主要内容的可访问watch page；每条视频及封面可抓取，重要播放器和标记在完整SSR输出。",
+    "source_owner": "页面开发/视频负责人",
+    "status": "待业务提供／确认",
+    "requirement_level": "功能条件，非Schema词汇必填",
+    "evidence": "evidence/homepage.browser.json"
+  },
+  {
     "page": "article",
     "label": "博客文章",
     "url": "https://www.garvee.com/blogs/buying-guides/everything-you-need-to-know-about-rug-sizes-and-placement",

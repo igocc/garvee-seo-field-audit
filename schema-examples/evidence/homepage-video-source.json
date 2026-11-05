@@ -1,0 +1,249 @@
+{
+  "page": "https://www.garvee.com/",
+  "captured_at": "2026-11-05T05:49:21.492Z",
+  "configured_videos": 10,
+  "simultaneously_rendered_video_elements": 4,
+  "discovery": "Server Next.js stream contains shoppable carousel configuration. Scrolling the lazy section into view mounts the four active videos and preview images for other carousel items.",
+  "sources": [
+    {
+      "file": "evidence/homepage-video-source.html",
+      "sha256": "84880073e2bba7121201c9d8de3ff8048b209274672e0291b2b17af6b8a5dfc6"
+    },
+    {
+      "file": "evidence/homepage-video-config.json",
+      "sha256": "ba79571bb7f51c4998945e09f490d4a3526776896b42c3a3a8a030bfbf615f5e"
+    },
+    {
+      "file": "evidence/homepage-video-carousel.js",
+      "sha256": "666df6c185527348f988d431fcfa19b53302800d1a215cc9f27cad4c72616f83"
+    },
+    {
+      "file": "evidence/homepage-video-render.json",
+      "sha256": "cbea9bc8fee5c76f70857935b58de7c26635c2c521113410f0a7e7ba3b14117a"
+    },
+    {
+      "file": "evidence/homepage-video-render.html",
+      "sha256": "2897c3f9c013425e29d8a66ab4e4573720da5d4e3a1d1d6d81351bbccc9116d9"
+    },
+    {
+      "file": "evidence/homepage-video-container-metadata.json",
+      "sha256": "3820168d5d2cb1773018dbc7eb683176515ff2b1d14c755e243fece7406af09a"
+    },
+    {
+      "file": "evidence/homepage-video-assets.json",
+      "sha256": "14a2c97358819ae83584309605b5ecd3948e0df00d82d7de49711f33e7e34e90"
+    },
+    {
+      "file": "evidence/homepage-video-thumbnails.json",
+      "sha256": "82cec8018d57acd293f93c8f3bc80ccd039bc530c4354f8549c1698f2fb42ce0"
+    }
+  ],
+  "official_guides": [
+    {
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/video",
+      "status": 200,
+      "file": "evidence/homepage-video-google-guide.html",
+      "sha256": "24f7d629af9dee9527ee97896f738030be7b63877906dc675b19e952c7353efc"
+    },
+    {
+      "url": "https://schema.org/VideoObject",
+      "status": 200,
+      "file": "evidence/homepage-video-schema-guide.html",
+      "sha256": "59abb8960c669297335c5713e38a18fbe83e5ddd2bd5d7295d5f00c1a9d15d7c"
+    }
+  ],
+  "google_eligibility": "All ten lack verified first-publication uploadDate. This is sourced Schema markup, not a declaration of complete Google video rich-result eligibility. The ecommerce homepage is not a dedicated watch page.",
+  "date_policy": "Do not use URL v parameters, product creation dates, CDN Last-Modified headers, MP4 creation timestamps or capture time as first publication.",
+  "videos": [
+    {
+      "id": "home-video-1",
+      "position": 1,
+      "name": "Garvee Cordless Pool Vacuum, 18.5 GPM Suction, 60 Min Runtime, Handheld Rechargeable Pool Cleaner with Telescopic Pole, Quick Charge for Above & Inground Pools, Spas & Hot Tubs",
+      "contentUrl": "https://cdn.shopify.com/videos/c/vp/40ace17bb939413386c148ace872ae8d/40ace17bb939413386c148ace872ae8d.HD-720p-4.5Mbps-82963531.mp4?v=0",
+      "thumbnailUrl": "https://cdn.shopify.com/s/files/1/0724/6698/9369/files/PTH_33CC6T7G-1.webp?v=1775706730&width=600&quality=85",
+      "thumbnail_source": "video.poster in rendered carousel",
+      "thumbnail_role": "Actual carousel poster / preview image, not necessarily a frame extracted from the video",
+      "duration": "PT10.07S",
+      "duration_source": "ISO media / QuickTime movie header, microsecond rounding; original units and timescale retained",
+      "content_type": "video/mp4",
+      "associated_product_url": "https://www.garvee.com/products/garvee-garveelife-pool-vacuum-powerful-suction-pho-134ol06z",
+      "uploadDate": null,
+      "description": null,
+      "creator": null,
+      "missing_google_required": [
+        "uploadDate"
+      ]
+    },
+    {
+      "id": "home-video-2",
+      "position": 2,
+      "name": "Garvee 10x10x6FT Large Dog Kennel Outside Dog Playpen Outdoor Dog Enclosures with UV-Resistant Waterproof Roof Covered, Lock, for Medium and Large Dogs, Easy Assembly",
+      "contentUrl": "https://cdn.shopify.com/videos/c/o/v/2733cfd57903413fb767302553a2443c.mp4",
+      "thumbnailUrl": "https://cdn.shopify.com/s/files/1/0724/6698/9369/files/fe17430623321634627.jpg?v=1753422559&width=600&format=webp&quality=85",
+      "thumbnail_source": "video.poster in rendered carousel",
+      "thumbnail_role": "Actual carousel poster / preview image, not necessarily a frame extracted from the video",
+      "duration": "PT16.3S",
+      "duration_source": "ISO media / QuickTime movie header, microsecond rounding; original units and timescale retained",
+      "content_type": "video/mp4",
+      "associated_product_url": "https://www.garvee.com/products/garvee-large-outdoor-dog-kennel-10x10x6-pho-15am19hb",
+      "uploadDate": null,
+      "description": null,
+      "creator": null,
+      "missing_google_required": [
+        "uploadDate"
+      ]
+    },
+    {
+      "id": "home-video-3",
+      "position": 3,
+      "name": "Garvee Outdoor Grey & White 9x18 Plastic Straw Rug, Waterproof Stain Resistant Reversible for Camping, Garden, Backyard, RV, Patio",
+      "contentUrl": "https://cdn.shopify.com/videos/c/vp/fad9c85040014e47bccd8bffbfee1272/fad9c85040014e47bccd8bffbfee1272.HD-1080p-2.5Mbps-56565832.mp4?v=0",
+      "thumbnailUrl": "https://cdn.shopify.com/s/files/1/0724/6698/9369/files/91qTBa7DTCL_eaf6370c-f53d-4952-bc47-2a3d041cb4d5.jpg?v=1772073614&width=600&format=webp&quality=85",
+      "thumbnail_source": "video.poster in rendered carousel",
+      "thumbnail_role": "Actual carousel poster / preview image, not necessarily a frame extracted from the video",
+      "duration": "PT19S",
+      "duration_source": "ISO media / QuickTime movie header, microsecond rounding; original units and timescale retained",
+      "content_type": "video/mp4",
+      "associated_product_url": "https://www.garvee.com/products/garvee-grey-white-outdoor-plastic-straw-pho-152femsc",
+      "uploadDate": null,
+      "description": null,
+      "creator": null,
+      "missing_google_required": [
+        "uploadDate"
+      ]
+    },
+    {
+      "id": "home-video-4",
+      "position": 4,
+      "name": "Garvee Evaporative Cooler, 7L (1.84Gal) Portable Air Conditioner Fan with TOUCH SCREEN & Remote Control, 3 Speeds & 3 Modes, LED Display, Ice Packs & Casters Included, for Bedroom, Office, Home",
+      "contentUrl": "https://cdn.shopify.com/videos/c/o/v/60a83bbf3ef04070ae4affcd9f540239.mp4",
+      "thumbnailUrl": "https://cdn.shopify.com/s/files/1/0724/6698/9369/files/PHK_36V45DB6.jpg?v=1773818892&width=600&format=webp&quality=85",
+      "thumbnail_source": "video.poster in rendered carousel",
+      "thumbnail_role": "Actual carousel poster / preview image, not necessarily a frame extracted from the video",
+      "duration": "PT42.145S",
+      "duration_source": "ISO media / QuickTime movie header, microsecond rounding; original units and timescale retained",
+      "content_type": "video/mp4",
+      "associated_product_url": "https://www.garvee.com/products/garvee-evaporative-cooler-7l-1-84gal-phk-36v45db6",
+      "uploadDate": null,
+      "description": null,
+      "creator": null,
+      "missing_google_required": [
+        "uploadDate"
+      ]
+    },
+    {
+      "id": "home-video-5",
+      "position": 5,
+      "name": "Garvee 16 FT Inflatable Water Slide Park – 9-in-1 Backyard Bounce House with Dual Racing Slides, Climbing Wall, Trampoline, Splash Pool, Water Squirter, Basketball Hoop, Hexagonal Dragon Theme",
+      "contentUrl": "https://cdn.shopify.com/videos/c/vp/51ce3466c06c479699e3f19e88dd3a54/51ce3466c06c479699e3f19e88dd3a54.HD-720p-3.0Mbps-85394993.mp4?v=0",
+      "thumbnailUrl": "https://cdn.shopify.com/s/files/1/0724/6698/9369/files/shopify_2Fai_images_2Ftmphnhz_e_n.jpg?v=1777344037&width=600&format=webp&quality=85",
+      "thumbnail_source": "Rendered carousel preview image; component uses this same product image as video poster",
+      "thumbnail_role": "Actual carousel poster / preview image, not necessarily a frame extracted from the video",
+      "duration": "PT17.28S",
+      "duration_source": "ISO media / QuickTime movie header, microsecond rounding; original units and timescale retained",
+      "content_type": "video/mp4",
+      "associated_product_url": "https://www.garvee.com/products/garvee-16-ft-inflatable-water-slide-ppg-34r95xhg",
+      "uploadDate": null,
+      "description": null,
+      "creator": null,
+      "missing_google_required": [
+        "uploadDate"
+      ]
+    },
+    {
+      "id": "home-video-6",
+      "position": 6,
+      "name": "Garvee Foldable Topside Automotive Creeper, 45.7\"-66.3\" Adjustable Height 400lbs Capacity Engine Creeper with Padded Deck & Locking Swivel Casters for Garage Workshop Repair Maintenance, H-Base",
+      "contentUrl": "https://cdn.shopify.com/videos/c/vp/920a7ada2b6c400fb5b532fc11158921/920a7ada2b6c400fb5b532fc11158921.HD-1080p-7.2Mbps-62718637.mp4?v=0",
+      "thumbnailUrl": "https://cdn.shopify.com/s/files/1/0724/6698/9369/files/fe17444380184754875.jpg?v=1748326731&width=600&format=webp&quality=85",
+      "thumbnail_source": "Rendered carousel preview image; component uses this same product image as video poster",
+      "thumbnail_role": "Actual carousel poster / preview image, not necessarily a frame extracted from the video",
+      "duration": "PT29.078S",
+      "duration_source": "ISO media / QuickTime movie header, microsecond rounding; original units and timescale retained",
+      "content_type": "video/mp4",
+      "associated_product_url": "https://www.garvee.com/products/garvee-foldable-topside-automotive-creeper-45-pae-336qtyp8",
+      "uploadDate": null,
+      "description": null,
+      "creator": null,
+      "missing_google_required": [
+        "uploadDate"
+      ]
+    },
+    {
+      "id": "home-video-7",
+      "position": 7,
+      "name": "Garvee 21\" Push Lawn Sweeper with 4-Brush System, Heavy Duty Steel Yard Leaf Collector, Adjustable Height, 3.5 Cu Ft Bag, Manual Grass & Lawn Cleaner Green",
+      "contentUrl": "https://cdn.shopify.com/videos/c/vp/a48eab5c080b44fb9e4bffbdc56b01ae/a48eab5c080b44fb9e4bffbdc56b01ae.HD-1080p-7.2Mbps-78202450.mp4?v=0",
+      "thumbnailUrl": "https://cdn.shopify.com/s/files/1/0724/6698/9369/files/shopify_2Fai_images_2Ftmp_3rh4o8v.jpg?v=1769577116&width=600&format=webp&quality=85",
+      "thumbnail_source": "Rendered carousel preview image; component uses this same product image as video poster",
+      "thumbnail_role": "Actual carousel poster / preview image, not necessarily a frame extracted from the video",
+      "duration": "PT25.6S",
+      "duration_source": "ISO media / QuickTime movie header, microsecond rounding; original units and timescale retained",
+      "content_type": "video/mp4",
+      "associated_product_url": "https://www.garvee.com/products/garvee-21-inch-push-lawn-sweeper-ppg-34kyut77",
+      "uploadDate": null,
+      "description": null,
+      "creator": null,
+      "missing_google_required": [
+        "uploadDate"
+      ]
+    },
+    {
+      "id": "home-video-8",
+      "position": 8,
+      "name": "Garvee 20 Gal Oil Drain Pan with 12V Pump, Foldable T Handle, Wheels, 7.5 ft Hose, 76L Low Profile Tank for Car, Truck, Rust Resistant, Red",
+      "contentUrl": "https://cdn.shopify.com/videos/c/vp/b005b466f5d641b1a4c9951537438866/b005b466f5d641b1a4c9951537438866.HD-1080p-7.2Mbps-62675714.mp4?v=0",
+      "thumbnailUrl": "https://cdn.shopify.com/s/files/1/0724/6698/9369/files/718Fsjm9jAL.jpg?v=1737359985&width=600&format=webp&quality=85",
+      "thumbnail_source": "Rendered carousel preview image; component uses this same product image as video poster",
+      "thumbnail_role": "Actual carousel poster / preview image, not necessarily a frame extracted from the video",
+      "duration": "PT26.56S",
+      "duration_source": "ISO media / QuickTime movie header, microsecond rounding; original units and timescale retained",
+      "content_type": "video/mp4",
+      "associated_product_url": "https://www.garvee.com/products/garvee-20-gallon-oil-drain-pan-pau-0jqm6xu6",
+      "uploadDate": null,
+      "description": null,
+      "creator": null,
+      "missing_google_required": [
+        "uploadDate"
+      ]
+    },
+    {
+      "id": "home-video-9",
+      "position": 9,
+      "name": "Garvee Commercial-Grade Plate Loaded Bench Press Machine, 1300 lbs Capacity, Independent Iso-Lateral Arms, Adjustable Chest & Shoulder Press Station for Home Gym",
+      "contentUrl": "https://cdn.shopify.com/videos/c/vp/c25c8b40aa65464482af19fb1d4cc82b/c25c8b40aa65464482af19fb1d4cc82b.HD-1080p-2.5Mbps-80172404.mp4?v=0",
+      "thumbnailUrl": "https://cdn.shopify.com/s/files/1/0724/6698/9369/files/shopify_2Fai_images_2Ftmpn1dbz0mi.jpg?v=1772444662&width=600&format=webp&quality=85",
+      "thumbnail_source": "Rendered carousel preview image; component uses this same product image as video poster",
+      "thumbnail_role": "Actual carousel poster / preview image, not necessarily a frame extracted from the video",
+      "duration": "PT17.6S",
+      "duration_source": "ISO media / QuickTime movie header, microsecond rounding; original units and timescale retained",
+      "content_type": "video/mp4",
+      "associated_product_url": "https://www.garvee.com/products/garvee-commercial-grade-plate-loaded-bench-pou-0ahtvt25",
+      "uploadDate": null,
+      "description": null,
+      "creator": null,
+      "missing_google_required": [
+        "uploadDate"
+      ]
+    },
+    {
+      "id": "home-video-10",
+      "position": 10,
+      "name": "Garvee 9.5QT(2×1/2Pan)Electric Chafing Dish with Temperature Control, Stainless Steel Buffet Servers and Warmers, Electric Chafing Dish Set with Temperature Control for Catering",
+      "contentUrl": "https://cdn.shopify.com/videos/c/o/v/c0b6ab9c7d184c60811564298ae26ffa.mov",
+      "thumbnailUrl": "https://cdn.shopify.com/s/files/1/0724/6698/9369/files/1_8a99a1f0-eabb-4e62-9942-88a62f2443f2.jpg?v=1764143481&width=600&format=webp&quality=85",
+      "thumbnail_source": "Rendered carousel preview image; component uses this same product image as video poster",
+      "thumbnail_role": "Actual carousel poster / preview image, not necessarily a frame extracted from the video",
+      "duration": "PT20.866667S",
+      "duration_source": "ISO media / QuickTime movie header, microsecond rounding; original units and timescale retained",
+      "content_type": "video/quicktime",
+      "associated_product_url": "https://www.garvee.com/products/garvee-electric-chafer-set-temp-control-pis-00p94893",
+      "uploadDate": null,
+      "description": null,
+      "creator": null,
+      "missing_google_required": [
+        "uploadDate"
+      ]
+    }
+  ]
+}

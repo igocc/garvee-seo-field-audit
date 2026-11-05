@@ -8,6 +8,14 @@
     "evidence": "evidence/homepage.browser.json"
   },
   {
+    "page": "homepage",
+    "field": "VideoObject / WebPage.hasPart",
+    "value": 10,
+    "status": "配置10条、4个同时挂载播放器；10个文件/实际封面HTTP200，容器时长已核",
+    "meaning": "不等于10条均已人工观看；首次发布日期缺失，历史回执不能认证本版",
+    "evidence": "evidence/homepage-video-source.json"
+  },
+  {
     "page": "product",
     "field": "Product.offers.price",
     "value": "127.99 USD",

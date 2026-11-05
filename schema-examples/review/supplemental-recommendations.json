@@ -3,9 +3,100 @@
     "page": "homepage",
     "url": "https://www.garvee.com/",
     "evidence": "evidence/homepage.browser.json",
-    "video_evidence": [],
-    "ignored_nonvideo_iframes": 2,
-    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "video_evidence": [
+      {
+        "element": "carousel video / preview",
+        "urls": [
+          "https://cdn.shopify.com/videos/c/vp/40ace17bb939413386c148ace872ae8d/40ace17bb939413386c148ace872ae8d.HD-720p-4.5Mbps-82963531.mp4?v=0"
+        ],
+        "poster": "https://cdn.shopify.com/s/files/1/0724/6698/9369/files/PTH_33CC6T7G-1.webp?v=1775706730&width=600&quality=85",
+        "name": "Garvee Cordless Pool Vacuum, 18.5 GPM Suction, 60 Min Runtime, Handheld Rechargeable Pool Cleaner with Telescopic Pole, Quick Charge for Above & Inground Pools, Spas & Hot Tubs",
+        "id": "home-video-1"
+      },
+      {
+        "element": "carousel video / preview",
+        "urls": [
+          "https://cdn.shopify.com/videos/c/o/v/2733cfd57903413fb767302553a2443c.mp4"
+        ],
+        "poster": "https://cdn.shopify.com/s/files/1/0724/6698/9369/files/fe17430623321634627.jpg?v=1753422559&width=600&format=webp&quality=85",
+        "name": "Garvee 10x10x6FT Large Dog Kennel Outside Dog Playpen Outdoor Dog Enclosures with UV-Resistant Waterproof Roof Covered, Lock, for Medium and Large Dogs, Easy Assembly",
+        "id": "home-video-2"
+      },
+      {
+        "element": "carousel video / preview",
+        "urls": [
+          "https://cdn.shopify.com/videos/c/vp/fad9c85040014e47bccd8bffbfee1272/fad9c85040014e47bccd8bffbfee1272.HD-1080p-2.5Mbps-56565832.mp4?v=0"
+        ],
+        "poster": "https://cdn.shopify.com/s/files/1/0724/6698/9369/files/91qTBa7DTCL_eaf6370c-f53d-4952-bc47-2a3d041cb4d5.jpg?v=1772073614&width=600&format=webp&quality=85",
+        "name": "Garvee Outdoor Grey & White 9x18 Plastic Straw Rug, Waterproof Stain Resistant Reversible for Camping, Garden, Backyard, RV, Patio",
+        "id": "home-video-3"
+      },
+      {
+        "element": "carousel video / preview",
+        "urls": [
+          "https://cdn.shopify.com/videos/c/o/v/60a83bbf3ef04070ae4affcd9f540239.mp4"
+        ],
+        "poster": "https://cdn.shopify.com/s/files/1/0724/6698/9369/files/PHK_36V45DB6.jpg?v=1773818892&width=600&format=webp&quality=85",
+        "name": "Garvee Evaporative Cooler, 7L (1.84Gal) Portable Air Conditioner Fan with TOUCH SCREEN & Remote Control, 3 Speeds & 3 Modes, LED Display, Ice Packs & Casters Included, for Bedroom, Office, Home",
+        "id": "home-video-4"
+      },
+      {
+        "element": "carousel video / preview",
+        "urls": [
+          "https://cdn.shopify.com/videos/c/vp/51ce3466c06c479699e3f19e88dd3a54/51ce3466c06c479699e3f19e88dd3a54.HD-720p-3.0Mbps-85394993.mp4?v=0"
+        ],
+        "poster": "https://cdn.shopify.com/s/files/1/0724/6698/9369/files/shopify_2Fai_images_2Ftmphnhz_e_n.jpg?v=1777344037&width=600&format=webp&quality=85",
+        "name": "Garvee 16 FT Inflatable Water Slide Park – 9-in-1 Backyard Bounce House with Dual Racing Slides, Climbing Wall, Trampoline, Splash Pool, Water Squirter, Basketball Hoop, Hexagonal Dragon Theme",
+        "id": "home-video-5"
+      },
+      {
+        "element": "carousel video / preview",
+        "urls": [
+          "https://cdn.shopify.com/videos/c/vp/920a7ada2b6c400fb5b532fc11158921/920a7ada2b6c400fb5b532fc11158921.HD-1080p-7.2Mbps-62718637.mp4?v=0"
+        ],
+        "poster": "https://cdn.shopify.com/s/files/1/0724/6698/9369/files/fe17444380184754875.jpg?v=1748326731&width=600&format=webp&quality=85",
+        "name": "Garvee Foldable Topside Automotive Creeper, 45.7\"-66.3\" Adjustable Height 400lbs Capacity Engine Creeper with Padded Deck & Locking Swivel Casters for Garage Workshop Repair Maintenance, H-Base",
+        "id": "home-video-6"
+      },
+      {
+        "element": "carousel video / preview",
+        "urls": [
+          "https://cdn.shopify.com/videos/c/vp/a48eab5c080b44fb9e4bffbdc56b01ae/a48eab5c080b44fb9e4bffbdc56b01ae.HD-1080p-7.2Mbps-78202450.mp4?v=0"
+        ],
+        "poster": "https://cdn.shopify.com/s/files/1/0724/6698/9369/files/shopify_2Fai_images_2Ftmp_3rh4o8v.jpg?v=1769577116&width=600&format=webp&quality=85",
+        "name": "Garvee 21\" Push Lawn Sweeper with 4-Brush System, Heavy Duty Steel Yard Leaf Collector, Adjustable Height, 3.5 Cu Ft Bag, Manual Grass & Lawn Cleaner Green",
+        "id": "home-video-7"
+      },
+      {
+        "element": "carousel video / preview",
+        "urls": [
+          "https://cdn.shopify.com/videos/c/vp/b005b466f5d641b1a4c9951537438866/b005b466f5d641b1a4c9951537438866.HD-1080p-7.2Mbps-62675714.mp4?v=0"
+        ],
+        "poster": "https://cdn.shopify.com/s/files/1/0724/6698/9369/files/718Fsjm9jAL.jpg?v=1737359985&width=600&format=webp&quality=85",
+        "name": "Garvee 20 Gal Oil Drain Pan with 12V Pump, Foldable T Handle, Wheels, 7.5 ft Hose, 76L Low Profile Tank for Car, Truck, Rust Resistant, Red",
+        "id": "home-video-8"
+      },
+      {
+        "element": "carousel video / preview",
+        "urls": [
+          "https://cdn.shopify.com/videos/c/vp/c25c8b40aa65464482af19fb1d4cc82b/c25c8b40aa65464482af19fb1d4cc82b.HD-1080p-2.5Mbps-80172404.mp4?v=0"
+        ],
+        "poster": "https://cdn.shopify.com/s/files/1/0724/6698/9369/files/shopify_2Fai_images_2Ftmpn1dbz0mi.jpg?v=1772444662&width=600&format=webp&quality=85",
+        "name": "Garvee Commercial-Grade Plate Loaded Bench Press Machine, 1300 lbs Capacity, Independent Iso-Lateral Arms, Adjustable Chest & Shoulder Press Station for Home Gym",
+        "id": "home-video-9"
+      },
+      {
+        "element": "carousel video / preview",
+        "urls": [
+          "https://cdn.shopify.com/videos/c/o/v/c0b6ab9c7d184c60811564298ae26ffa.mov"
+        ],
+        "poster": "https://cdn.shopify.com/s/files/1/0724/6698/9369/files/1_8a99a1f0-eabb-4e62-9942-88a62f2443f2.jpg?v=1764143481&width=600&format=webp&quality=85",
+        "name": "Garvee 9.5QT(2×1/2Pan)Electric Chafing Dish with Temperature Control, Stainless Steel Buffet Servers and Warmers, Electric Chafing Dish Set with Temperature Control for Catering",
+        "id": "home-video-10"
+      }
+    ],
+    "ignored_nonvideo_iframes": 0,
+    "video_advice": "首页已按实际轮播配置补入10个VideoObject；4个活动视频与全部轮播预览有渲染来源，10个文件、封面及时长已核。首次发布日期uploadDate均待CMS提供，当前不满足Google视频必填；首页不是专用watch page。详见首页视频字段与补数.md。",
     "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
   },
   {
@@ -14,7 +105,7 @@
     "evidence": "evidence/about-garvee.browser.json",
     "video_evidence": [],
     "ignored_nonvideo_iframes": 1,
-    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "video_advice": "当前渲染快照未核实视频；未穷尽滚动、轮播与延迟组件，不能据此判断页面没有视频。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
     "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
   },
   {
@@ -23,7 +114,7 @@
     "evidence": "evidence/contact.browser.json",
     "video_evidence": [],
     "ignored_nonvideo_iframes": 0,
-    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "video_advice": "当前渲染快照未核实视频；未穷尽滚动、轮播与延迟组件，不能据此判断页面没有视频。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
     "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
   },
   {
@@ -32,7 +123,7 @@
     "evidence": "evidence/terms-of-service.browser.json",
     "video_evidence": [],
     "ignored_nonvideo_iframes": 0,
-    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "video_advice": "当前渲染快照未核实视频；未穷尽滚动、轮播与延迟组件，不能据此判断页面没有视频。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
     "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
   },
   {
@@ -41,7 +132,7 @@
     "evidence": "evidence/privacy-policy.browser.json",
     "video_evidence": [],
     "ignored_nonvideo_iframes": 0,
-    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "video_advice": "当前渲染快照未核实视频；未穷尽滚动、轮播与延迟组件，不能据此判断页面没有视频。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
     "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
   },
   {
@@ -50,7 +141,7 @@
     "evidence": "evidence/accessibility-statement.browser.json",
     "video_evidence": [],
     "ignored_nonvideo_iframes": 1,
-    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "video_advice": "当前渲染快照未核实视频；未穷尽滚动、轮播与延迟组件，不能据此判断页面没有视频。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
     "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
   },
   {
@@ -59,7 +150,7 @@
     "evidence": "evidence/track-your-order.browser.json",
     "video_evidence": [],
     "ignored_nonvideo_iframes": 1,
-    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "video_advice": "当前渲染快照未核实视频；未穷尽滚动、轮播与延迟组件，不能据此判断页面没有视频。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
     "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
   },
   {
@@ -68,7 +159,7 @@
     "evidence": "evidence/payments-policy.browser.json",
     "video_evidence": [],
     "ignored_nonvideo_iframes": 1,
-    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "video_advice": "当前渲染快照未核实视频；未穷尽滚动、轮播与延迟组件，不能据此判断页面没有视频。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
     "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
   },
   {
@@ -77,7 +168,7 @@
     "evidence": "evidence/shipping-policy.browser.json",
     "video_evidence": [],
     "ignored_nonvideo_iframes": 0,
-    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "video_advice": "当前渲染快照未核实视频；未穷尽滚动、轮播与延迟组件，不能据此判断页面没有视频。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
     "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
   },
   {
@@ -86,7 +177,7 @@
     "evidence": "evidence/warranty-policy.browser.json",
     "video_evidence": [],
     "ignored_nonvideo_iframes": 1,
-    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "video_advice": "当前渲染快照未核实视频；未穷尽滚动、轮播与延迟组件，不能据此判断页面没有视频。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
     "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
   },
   {
@@ -95,7 +186,7 @@
     "evidence": "evidence/refund-policy.browser.json",
     "video_evidence": [],
     "ignored_nonvideo_iframes": 0,
-    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "video_advice": "当前渲染快照未核实视频；未穷尽滚动、轮播与延迟组件，不能据此判断页面没有视频。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
     "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
   },
   {
@@ -104,7 +195,7 @@
     "evidence": "evidence/carebox-package-protection.browser.json",
     "video_evidence": [],
     "ignored_nonvideo_iframes": 1,
-    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "video_advice": "当前渲染快照未核实视频；未穷尽滚动、轮播与延迟组件，不能据此判断页面没有视频。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
     "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
   },
   {
@@ -113,7 +204,7 @@
     "evidence": "evidence/affiliate.browser.json",
     "video_evidence": [],
     "ignored_nonvideo_iframes": 1,
-    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "video_advice": "当前渲染快照未核实视频；未穷尽滚动、轮播与延迟组件，不能据此判断页面没有视频。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
     "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
   },
   {
@@ -122,7 +213,7 @@
     "evidence": "evidence/influencer-program.browser.json",
     "video_evidence": [],
     "ignored_nonvideo_iframes": 1,
-    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "video_advice": "当前渲染快照未核实视频；未穷尽滚动、轮播与延迟组件，不能据此判断页面没有视频。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
     "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
   },
   {
@@ -131,7 +222,7 @@
     "evidence": "evidence/share-and-win.browser.json",
     "video_evidence": [],
     "ignored_nonvideo_iframes": 1,
-    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "video_advice": "当前渲染快照未核实视频；未穷尽滚动、轮播与延迟组件，不能据此判断页面没有视频。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
     "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
   },
   {
@@ -140,7 +231,7 @@
     "evidence": "evidence/mygarvees-rewards.browser.json",
     "video_evidence": [],
     "ignored_nonvideo_iframes": 1,
-    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "video_advice": "当前渲染快照未核实视频；未穷尽滚动、轮播与延迟组件，不能据此判断页面没有视频。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
     "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
   },
   {
@@ -149,7 +240,7 @@
     "evidence": "evidence/extended-service-protection.browser.json",
     "video_evidence": [],
     "ignored_nonvideo_iframes": 1,
-    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "video_advice": "当前渲染快照未核实视频；未穷尽滚动、轮播与延迟组件，不能据此判断页面没有视频。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
     "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
   },
   {
@@ -158,7 +249,7 @@
     "evidence": "evidence/business.browser.json",
     "video_evidence": [],
     "ignored_nonvideo_iframes": 1,
-    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "video_advice": "当前渲染快照未核实视频；未穷尽滚动、轮播与延迟组件，不能据此判断页面没有视频。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
     "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
   },
   {
@@ -167,7 +258,7 @@
     "evidence": "evidence/help-center.browser.json",
     "video_evidence": [],
     "ignored_nonvideo_iframes": 0,
-    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "video_advice": "当前渲染快照未核实视频；未穷尽滚动、轮播与延迟组件，不能据此判断页面没有视频。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
     "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
   },
   {
@@ -176,7 +267,7 @@
     "evidence": "evidence/category.browser.json",
     "video_evidence": [],
     "ignored_nonvideo_iframes": 2,
-    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "video_advice": "当前渲染快照未核实视频；未穷尽滚动、轮播与延迟组件，不能据此判断页面没有视频。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
     "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
   },
   {
@@ -185,7 +276,7 @@
     "evidence": "evidence/product.browser.json",
     "video_evidence": [],
     "ignored_nonvideo_iframes": 1,
-    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "video_advice": "当前渲染快照未核实视频；未穷尽滚动、轮播与延迟组件，不能据此判断页面没有视频。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
     "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
   },
   {
@@ -194,7 +285,7 @@
     "evidence": "evidence/product-reviews.browser.json",
     "video_evidence": [],
     "ignored_nonvideo_iframes": 2,
-    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "video_advice": "当前渲染快照未核实视频；未穷尽滚动、轮播与延迟组件，不能据此判断页面没有视频。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
     "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
   },
   {
@@ -203,7 +294,7 @@
     "evidence": "evidence/faqs.browser.json",
     "video_evidence": [],
     "ignored_nonvideo_iframes": 1,
-    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "video_advice": "当前渲染快照未核实视频；未穷尽滚动、轮播与延迟组件，不能据此判断页面没有视频。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
     "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
   },
   {
@@ -212,7 +303,7 @@
     "evidence": "evidence/diy-ideas.browser.json",
     "video_evidence": [],
     "ignored_nonvideo_iframes": 1,
-    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "video_advice": "当前渲染快照未核实视频；未穷尽滚动、轮播与延迟组件，不能据此判断页面没有视频。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
     "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
   },
   {
@@ -221,7 +312,7 @@
     "evidence": "evidence/blog-list.browser.json",
     "video_evidence": [],
     "ignored_nonvideo_iframes": 1,
-    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "video_advice": "当前渲染快照未核实视频；未穷尽滚动、轮播与延迟组件，不能据此判断页面没有视频。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
     "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
   },
   {
@@ -248,7 +339,7 @@
     "evidence": "evidence/campaign.browser.json",
     "video_evidence": [],
     "ignored_nonvideo_iframes": 4,
-    "video_advice": "当前渲染快照未核实视频；不虚构。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
+    "video_advice": "当前渲染快照未核实视频；未穷尽滚动、轮播与延迟组件，不能据此判断页面没有视频。后续如有播放器，提供真实名称、缩略图、上传时间及可获取的时长/contentUrl/embedUrl，再按真实所属页面挂接。",
     "image_advice": "已有商品图/文章主图/品牌logo继续按实际对象使用；更多ImageObject仅在确有图片和可验证元数据时选配。"
   }
 ]

@@ -426,15 +426,99 @@
     "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
   },
   {
+    "file": "evidence/homepage-video-assets.json",
+    "original_sha256": "14a2c97358819ae83584309605b5ecd3948e0df00d82d7de49711f33e7e34e90",
+    "public_sha256": "14a2c97358819ae83584309605b5ecd3948e0df00d82d7de49711f33e7e34e90",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/homepage-video-carousel.js",
+    "original_sha256": "666df6c185527348f988d431fcfa19b53302800d1a215cc9f27cad4c72616f83",
+    "public_sha256": "666df6c185527348f988d431fcfa19b53302800d1a215cc9f27cad4c72616f83",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/homepage-video-component.js",
+    "original_sha256": "6222b5572824f8d4cfd7e66de27ee0de78f54ca3af6d0970cc941ca8851f80d4",
+    "public_sha256": "6222b5572824f8d4cfd7e66de27ee0de78f54ca3af6d0970cc941ca8851f80d4",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/homepage-video-config.json",
+    "original_sha256": "ba79571bb7f51c4998945e09f490d4a3526776896b42c3a3a8a030bfbf615f5e",
+    "public_sha256": "a417b6fe85c01a1892bbdb2fc82869ea8f2cf1c32683ad926739b01498aacf4d",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/homepage-video-container-metadata.json",
+    "original_sha256": "3820168d5d2cb1773018dbc7eb683176515ff2b1d14c755e243fece7406af09a",
+    "public_sha256": "1182ebca0d5a25b37c6957f820ebf3f7ae8defd106570c478e90ecca4e9928d6",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/homepage-video-google-guide.html",
+    "original_sha256": "24f7d629af9dee9527ee97896f738030be7b63877906dc675b19e952c7353efc",
+    "public_sha256": "697f3a3f4a53de5ab38aac1e1c5fcca8c38066d36016d350883962eab853f1b4",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/homepage-video-metadata.json",
+    "original_sha256": "59393623ae20059fedea62d947fd9e69eaeaad995fde77b88da9ac4d8cd5895e",
+    "public_sha256": "59393623ae20059fedea62d947fd9e69eaeaad995fde77b88da9ac4d8cd5895e",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/homepage-video-render.html",
+    "original_sha256": "2897c3f9c013425e29d8a66ab4e4573720da5d4e3a1d1d6d81351bbccc9116d9",
+    "public_sha256": "92da70d6e5efa41ce7f5d014e7e207ad765c8cadfa5da3b6cc576b6b7d51c37f",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/homepage-video-render.json",
+    "original_sha256": "cbea9bc8fee5c76f70857935b58de7c26635c2c521113410f0a7e7ba3b14117a",
+    "public_sha256": "d4aa8e20816036da28d431725ce710deb8258be2a6ff2080b5a504bed11698e8",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/homepage-video-robots.txt",
+    "original_sha256": "a6a0581297dd7792afa439da5866669af5ce2b3875c3e1cb2f640a3d13715a34",
+    "public_sha256": "a6a0581297dd7792afa439da5866669af5ce2b3875c3e1cb2f640a3d13715a34",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/homepage-video-schema-guide.html",
+    "original_sha256": "59abb8960c669297335c5713e38a18fbe83e5ddd2bd5d7295d5f00c1a9d15d7c",
+    "public_sha256": "4aeccaf038e34da0b5a7c2e19c645b04ec527b8a3a6e3a40653396866eb794ca",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/homepage-video-source.html",
+    "original_sha256": "84880073e2bba7121201c9d8de3ff8048b209274672e0291b2b17af6b8a5dfc6",
+    "public_sha256": "79a022d21dff1152cf719d0522b8ad54630035c30da9960b77a925a23cb28016",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/homepage-video-source.json",
+    "original_sha256": "5ad8d7a6963aab747919569ee945313c1e0fe497a8f9a9e7d04acb086d0acedd",
+    "public_sha256": "0ad559749d93655af26eda87c0f076650de724d1698277fd78bd18a2118d7c8b",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
+    "file": "evidence/homepage-video-thumbnails.json",
+    "original_sha256": "82cec8018d57acd293f93c8f3bc80ccd039bc530c4354f8549c1698f2fb42ce0",
+    "public_sha256": "ed9a5a406e7823465c1aed0a798ed4cb9ee61ff552857e338a792139eb896ada",
+    "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
+  },
+  {
     "file": "evidence/homepage.browser.html",
-    "original_sha256": "b044829e2ce557adb48527b7b087f8e259a462a831c214e1c0ad10bc9346e38d",
-    "public_sha256": "a3f9c86fb0c4a0f56699bbd2b531486ae063364629ceb9fcab81868829d6b483",
+    "original_sha256": "fa26e99c3801fd1f8ed6f86f134fccf7af8a0cc3f4f876bb045ffa13a8e85716",
+    "public_sha256": "acd2e591cad150efef8fe0a898a341b7373b22bad67789be203e38f29cbf8b56",
     "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
   },
   {
     "file": "evidence/homepage.browser.json",
-    "original_sha256": "5d1652359384fbc66207caa5f48317545c098484d0d5e63ca300cd0806e16992",
-    "public_sha256": "620719a76d36679ccb6d4567301b8dbc59b1f2ace8f1a542b83a5285f31541c0",
+    "original_sha256": "c866fb598c61602aaf15d0ec7d7e742115e4fcbb3780d48874790c6bfa86ebb8",
+    "public_sha256": "c866fb598c61602aaf15d0ec7d7e742115e4fcbb3780d48874790c6bfa86ebb8",
     "projection": "移除浏览器运行信息、脚本/表单值/跟踪参数；原始证据另行归档"
   },
   {

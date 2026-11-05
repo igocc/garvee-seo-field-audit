@@ -1,5 +1,17 @@
 [
   {
+    "page": "homepage",
+    "field": "VideoObject.uploadDate",
+    "reason": "首页10条真实视频均缺可信首次发布日期；CDN Last-Modified、URL版本参数、媒体创建时间和抓取时刻不能代填。",
+    "requirement": "CMS按视频ID提供真实首次发布DateTime及时区；同步播放器数据后复测。Google将其列为视频必填，当前不宣称视频富结果已达标。"
+  },
+  {
+    "page": "homepage",
+    "field": "VideoObject.description / creator",
+    "reason": "视频标题、文件、实际轮播封面及时长已有来源；未获独立视频简介或创作者归属。",
+    "requirement": "有真实资料时由视频CMS补独立简介及实际Person/Organization；不复用商品描述或默认GARVEE为视频作者。"
+  },
+  {
     "page": "track-your-order",
     "field": "ParcelDelivery / Order",
     "reason": "公共查询页没有具体订单或包裹事实。",

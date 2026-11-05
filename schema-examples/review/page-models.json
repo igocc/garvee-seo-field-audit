@@ -15,21 +15,27 @@
       "OpeningHoursSpecification",
       "PostalAddress",
       "SearchAction",
+      "VideoObject",
       "WebPage",
       "WebSite"
     ],
-    "identity": "首页完整品牌/站点及19项一级导航，原字节复用",
+    "identity": "首页完整品牌/站点、19项一级导航及10条真实轮播视频；历史基准另存",
     "breadcrumbs": [],
     "guide_keys": [
       "carousel",
       "organization",
       "return-policy",
-      "site-names"
+      "site-names",
+      "video"
     ],
     "rendered_evidence": "evidence/homepage.browser.json",
-    "capture": "2026-11-05T04:39:47.808Z",
-    "source_sha256": "5d1652359384fbc66207caa5f48317545c098484d0d5e63ca300cd0806e16992",
-    "unresolved_fields": []
+    "capture": "2026-11-05T05:49:21.495Z",
+    "source_sha256": "c866fb598c61602aaf15d0ec7d7e742115e4fcbb3780d48874790c6bfa86ebb8",
+    "unresolved_fields": [
+      "VideoObject.uploadDate",
+      "VideoObject.description / creator",
+      "VideoObject 的独立视频索引资格"
+    ]
   },
   {
     "page": "about-garvee",

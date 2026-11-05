@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-05T05:00:45.388648+00:00",
+  "generated_at": "2026-11-05T06:06:18.705296+00:00",
   "edition": "2026-11-05 复查版",
   "page_count": 27,
   "standalone_code_versions": 28,
   "rendered_evidence_pages": 27,
-  "field_paths": 3082,
+  "field_paths": 3133,
   "field_dictionary_entries": 97,
-  "data_need_rows": 66,
+  "data_need_rows": 69,
   "schema_full_property_records": 3454,
   "types_including_conditional": 49,
-  "current_online_receipts": 2,
-  "current_schema_receipts": 1,
-  "current_google_receipts": 1,
+  "current_online_receipts": 0,
+  "current_schema_receipts": 0,
+  "current_google_receipts": 0,
   "validation_policy": "在线回执须匹配本版完整 HTML SHA256 及编辑器内容；旧版结果保留为历史，不算本版通过。",
-  "homepage_baseline": "code/homepage.html已纳入主示例；字节与已验证基准完全相同，保留历史验证时间。",
+  "homepage_baseline": "当前code/homepage.html已补10条真实轮播视频，与旧基准字节不同；四根节点原始基准及历史回执单独保留，不认证本版。",
   "scope": "27页完整代码、类型模型、逐字段真实来源与补数规格；类目默认结构与可选FAQ/列表/媒体分开说明；未部署到GARVEE官网。",
   "pages": [
     {
@@ -33,28 +33,82 @@
         "OpeningHoursSpecification",
         "PostalAddress",
         "SearchAction",
+        "VideoObject",
         "WebPage",
         "WebSite"
       ],
       "capture": "2026-11-04T13:33:37.668175+00:00",
-      "rendered_capture": "2026-11-05T04:39:47.808Z",
-      "identity_policy": "首页完整品牌/站点及19项一级导航，原字节复用",
+      "rendered_capture": "2026-11-05T05:49:21.495Z",
+      "identity_policy": "首页完整品牌/站点、19项一级导航及10条真实轮播视频；历史基准另存",
       "evidence": "evidence/homepage.json",
       "browser_evidence": "evidence/homepage.browser.json",
       "html": "code/homepage.html",
       "snippet": "code/homepage.snippet.html",
       "jsonld": "code/homepage.jsonld",
-      "sha256": "2de548399b67e47c4429e62311e64a0c617d71dd1ae20671e5059a823fd84dc1",
-      "content_length": 2074,
-      "gaps": [],
-      "schema_status": "当前字节已有在线回执",
-      "google_status": "当前字节已有在线回执",
+      "sha256": "6d49e725561a0662e18328da61e1b3fad23e7153d8a421ab50b504fc3ac8a95d",
+      "content_length": 4939,
+      "gaps": [
+        {
+          "page": "homepage",
+          "field": "VideoObject.uploadDate",
+          "reason": "首页10条真实视频均缺可信首次发布日期；CDN Last-Modified、URL版本参数、媒体创建时间和抓取时刻不能代填。",
+          "requirement": "CMS按视频ID提供真实首次发布DateTime及时区；同步播放器数据后复测。Google将其列为视频必填，当前不宣称视频富结果已达标。"
+        },
+        {
+          "page": "homepage",
+          "field": "VideoObject.description / creator",
+          "reason": "视频标题、文件、实际轮播封面及时长已有来源；未获独立视频简介或创作者归属。",
+          "requirement": "有真实资料时由视频CMS补独立简介及实际Person/Organization；不复用商品描述或默认GARVEE为视频作者。"
+        }
+      ],
+      "schema_status": "旧回执对应旧字节；本版待复测",
+      "google_status": "旧回执对应旧字节；本版待复测",
       "schema_receipt": "validation/schema-current/homepage.json",
       "google_receipt": "validation/google-current/homepage.json",
       "google_result": "https://search.google.com/test/rich-results/result?id=BcKsyNs99AFCMQfjaq9kJg",
-      "google_result_is_current": true,
+      "google_result_is_current": false,
       "breadcrumbs": [],
-      "data_needs": []
+      "data_needs": [
+        {
+          "page": "homepage",
+          "label": "首页",
+          "url": "https://www.garvee.com/",
+          "field": "VideoObject.uploadDate",
+          "meaning": "视频首次发布日期",
+          "current_evidence": "10条真实首页视频均无可信首次发布日期；CDN修改时间与URL版本参数不是发布时间",
+          "required_value": "按home-video-1至home-video-10提供CMS真实首次发布DateTime及时区，和页面播放器同源；Google视频功能将其列为必填。",
+          "source_owner": "视频CMS/内容负责人",
+          "status": "待业务提供／确认",
+          "requirement_level": "Google视频功能必填；当前尚缺",
+          "evidence": "evidence/homepage.browser.json"
+        },
+        {
+          "page": "homepage",
+          "label": "首页",
+          "url": "https://www.garvee.com/",
+          "field": "VideoObject.description / creator",
+          "meaning": "视频简介与创作者",
+          "current_evidence": "视频标题来自轮播配置；未获独立视频简介或真实创作者归属",
+          "required_value": "有实际内容时提供逐视频简介、实际Person/Organization及其介绍URL；不用商品说明冒充视频简介，不默认发布组织就是创作者。",
+          "source_owner": "视频CMS/内容负责人",
+          "status": "待业务提供／确认",
+          "requirement_level": "真实数据存在时建议补充",
+          "evidence": "evidence/homepage.browser.json"
+        },
+        {
+          "page": "homepage",
+          "label": "首页",
+          "url": "https://www.garvee.com/",
+          "field": "VideoObject 的独立视频索引资格",
+          "meaning": "电商首页轮播与专用视频页的区别",
+          "current_evidence": "当前是包含10条购物视频的电商首页；首屏未显示全部视频，滚动后一次挂载4条",
+          "required_value": "如需视频索引功能，提供实际以单个视频为主要内容的可访问watch page；每条视频及封面可抓取，重要播放器和标记在完整SSR输出。",
+          "source_owner": "页面开发/视频负责人",
+          "status": "待业务提供／确认",
+          "requirement_level": "功能条件，非Schema词汇必填",
+          "evidence": "evidence/homepage.browser.json"
+        }
+      ]
     },
     {
       "key": "about-garvee",
@@ -1995,21 +2049,21 @@
     {
       "page": "homepage",
       "tool": "schema",
-      "current_sha256": "2de548399b67e47c4429e62311e64a0c617d71dd1ae20671e5059a823fd84dc1",
+      "current_sha256": "6d49e725561a0662e18328da61e1b3fad23e7153d8a421ab50b504fc3ac8a95d",
       "receipt_sha256": "2de548399b67e47c4429e62311e64a0c617d71dd1ae20671e5059a823fd84dc1",
       "receipt": "validation/schema-current/homepage.json",
-      "current": true,
-      "status": "当前字节已有在线回执",
+      "current": false,
+      "status": "旧回执对应旧字节；本版待复测",
       "historical_result_url": null
     },
     {
       "page": "homepage",
       "tool": "google",
-      "current_sha256": "2de548399b67e47c4429e62311e64a0c617d71dd1ae20671e5059a823fd84dc1",
+      "current_sha256": "6d49e725561a0662e18328da61e1b3fad23e7153d8a421ab50b504fc3ac8a95d",
       "receipt_sha256": "2de548399b67e47c4429e62311e64a0c617d71dd1ae20671e5059a823fd84dc1",
       "receipt": "validation/google-current/homepage.json",
-      "current": true,
-      "status": "当前字节已有在线回执",
+      "current": false,
+      "status": "旧回执对应旧字节；本版待复测",
       "historical_result_url": "https://search.google.com/test/rich-results/result?id=BcKsyNs99AFCMQfjaq9kJg"
     },
     {

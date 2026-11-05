@@ -1,0 +1,64 @@
+{
+  "method": "HTMLMediaElement loadedmetadata from exact configured media URLs; duration is media playback length, not publication time",
+  "videos": [
+    {
+      "id": "home-video-1",
+      "src": "https://cdn.shopify.com/videos/c/vp/40ace17bb939413386c148ace872ae8d/40ace17bb939413386c148ace872ae8d.HD-720p-4.5Mbps-82963531.mp4?v=0",
+      "duration": 10.069333,
+      "width": 1280,
+      "height": 720,
+      "readyState": 3
+    },
+    {
+      "id": "home-video-2",
+      "src": "https://cdn.shopify.com/videos/c/o/v/2733cfd57903413fb767302553a2443c.mp4",
+      "duration": 16.299002,
+      "width": 720,
+      "height": 1280,
+      "readyState": 4
+    },
+    {
+      "id": "home-video-3",
+      "src": "https://cdn.shopify.com/videos/c/vp/fad9c85040014e47bccd8bffbfee1272/fad9c85040014e47bccd8bffbfee1272.HD-1080p-2.5Mbps-56565832.mp4?v=0",
+      "duration": 19,
+      "width": 606,
+      "height": 1080,
+      "readyState": 3
+    },
+    {
+      "id": "home-video-4",
+      "src": "https://cdn.shopify.com/videos/c/o/v/60a83bbf3ef04070ae4affcd9f540239.mp4",
+      "error": "metadata timeout"
+    },
+    {
+      "id": "home-video-5",
+      "src": "https://cdn.shopify.com/videos/c/vp/51ce3466c06c479699e3f19e88dd3a54/51ce3466c06c479699e3f19e88dd3a54.HD-720p-3.0Mbps-85394993.mp4?v=0",
+      "error": "metadata timeout"
+    },
+    {
+      "id": "home-video-6",
+      "src": "https://cdn.shopify.com/videos/c/vp/920a7ada2b6c400fb5b532fc11158921/920a7ada2b6c400fb5b532fc11158921.HD-1080p-7.2Mbps-62718637.mp4?v=0",
+      "error": "metadata timeout"
+    },
+    {
+      "id": "home-video-7",
+      "src": "https://cdn.shopify.com/videos/c/vp/a48eab5c080b44fb9e4bffbdc56b01ae/a48eab5c080b44fb9e4bffbdc56b01ae.HD-1080p-7.2Mbps-78202450.mp4?v=0",
+      "error": "metadata timeout"
+    },
+    {
+      "id": "home-video-8",
+      "src": "https://cdn.shopify.com/videos/c/vp/b005b466f5d641b1a4c9951537438866/b005b466f5d641b1a4c9951537438866.HD-1080p-7.2Mbps-62675714.mp4?v=0",
+      "error": "metadata timeout"
+    },
+    {
+      "id": "home-video-9",
+      "src": "https://cdn.shopify.com/videos/c/vp/c25c8b40aa65464482af19fb1d4cc82b/c25c8b40aa65464482af19fb1d4cc82b.HD-1080p-2.5Mbps-80172404.mp4?v=0",
+      "error": "metadata timeout"
+    },
+    {
+      "id": "home-video-10",
+      "src": "https://cdn.shopify.com/videos/c/o/v/c0b6ab9c7d184c60811564298ae26ffa.mov",
+      "error": "metadata timeout"
+    }
+  ]
+}

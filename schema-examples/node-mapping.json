@@ -102,6 +102,16 @@
   {
     "page": "homepage",
     "label": "首页",
+    "type": "VideoObject",
+    "state": "已输出",
+    "schema": "支持",
+    "google": "Google 官方指南支持；仍须满足内容和资格条件",
+    "guide": "video",
+    "requirement": "仅使用样本有依据的数据；保留父子实体与稳定 @id，不把词汇存在当作字段必填。"
+  },
+  {
+    "page": "homepage",
+    "label": "首页",
     "type": "WebPage",
     "state": "已输出",
     "schema": "支持",

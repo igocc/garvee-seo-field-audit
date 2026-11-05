@@ -1,0 +1,92 @@
+[
+  {
+    "id": "home-video-1",
+    "url": "https://cdn.shopify.com/videos/c/vp/40ace17bb939413386c148ace872ae8d/40ace17bb939413386c148ace872ae8d.HD-720p-4.5Mbps-82963531.mp4?v=0",
+    "status": 200,
+    "content_type": "video/mp4",
+    "content_length": "5857152",
+    "last_modified": "Sun, 16 Aug 2026 01:30:45 GMT",
+    "last_modified_is_upload_date": false
+  },
+  {
+    "id": "home-video-2",
+    "url": "https://cdn.shopify.com/videos/c/o/v/2733cfd57903413fb767302553a2443c.mp4",
+    "status": 200,
+    "content_type": "video/mp4",
+    "content_length": "10230905",
+    "last_modified": "Thu, 01 Oct 2026 14:24:10 GMT",
+    "last_modified_is_upload_date": false
+  },
+  {
+    "id": "home-video-3",
+    "url": "https://cdn.shopify.com/videos/c/vp/fad9c85040014e47bccd8bffbfee1272/fad9c85040014e47bccd8bffbfee1272.HD-1080p-2.5Mbps-56565832.mp4?v=0",
+    "status": 200,
+    "content_type": "video/mp4",
+    "content_length": "6310459",
+    "last_modified": "Sun, 18 Oct 2026 17:16:46 GMT",
+    "last_modified_is_upload_date": false
+  },
+  {
+    "id": "home-video-4",
+    "url": "https://cdn.shopify.com/videos/c/o/v/60a83bbf3ef04070ae4affcd9f540239.mp4",
+    "status": 200,
+    "content_type": "video/mp4",
+    "content_length": "42742493",
+    "last_modified": "Sun, 18 Oct 2026 18:15:40 GMT",
+    "last_modified_is_upload_date": false
+  },
+  {
+    "id": "home-video-5",
+    "url": "https://cdn.shopify.com/videos/c/vp/51ce3466c06c479699e3f19e88dd3a54/51ce3466c06c479699e3f19e88dd3a54.HD-720p-3.0Mbps-85394993.mp4?v=0",
+    "status": 200,
+    "content_type": "video/mp4",
+    "content_length": "6294430",
+    "last_modified": "Mon, 01 Jun 2026 07:19:36 GMT",
+    "last_modified_is_upload_date": false
+  },
+  {
+    "id": "home-video-6",
+    "url": "https://cdn.shopify.com/videos/c/vp/920a7ada2b6c400fb5b532fc11158921/920a7ada2b6c400fb5b532fc11158921.HD-1080p-7.2Mbps-62718637.mp4?v=0",
+    "status": 200,
+    "content_type": "video/mp4",
+    "content_length": "24384795",
+    "last_modified": "Fri, 14 Nov 2025 10:14:28 GMT",
+    "last_modified_is_upload_date": false
+  },
+  {
+    "id": "home-video-7",
+    "url": "https://cdn.shopify.com/videos/c/vp/a48eab5c080b44fb9e4bffbdc56b01ae/a48eab5c080b44fb9e4bffbdc56b01ae.HD-1080p-7.2Mbps-78202450.mp4?v=0",
+    "status": 200,
+    "content_type": "video/mp4",
+    "content_length": "21456008",
+    "last_modified": "Thu, 19 Mar 2026 01:27:50 GMT",
+    "last_modified_is_upload_date": false
+  },
+  {
+    "id": "home-video-8",
+    "url": "https://cdn.shopify.com/videos/c/vp/b005b466f5d641b1a4c9951537438866/b005b466f5d641b1a4c9951537438866.HD-1080p-7.2Mbps-62675714.mp4?v=0",
+    "status": 200,
+    "content_type": "video/mp4",
+    "content_length": "22414538",
+    "last_modified": "Fri, 14 Nov 2025 02:18:58 GMT",
+    "last_modified_is_upload_date": false
+  },
+  {
+    "id": "home-video-9",
+    "url": "https://cdn.shopify.com/videos/c/vp/c25c8b40aa65464482af19fb1d4cc82b/c25c8b40aa65464482af19fb1d4cc82b.HD-1080p-2.5Mbps-80172404.mp4?v=0",
+    "status": 200,
+    "content_type": "video/mp4",
+    "content_length": "5612070",
+    "last_modified": "Fri, 03 Apr 2026 01:45:31 GMT",
+    "last_modified_is_upload_date": false
+  },
+  {
+    "id": "home-video-10",
+    "url": "https://cdn.shopify.com/videos/c/o/v/c0b6ab9c7d184c60811564298ae26ffa.mov",
+    "status": 200,
+    "content_type": "video/quicktime",
+    "content_length": "16726932",
+    "last_modified": "Thu, 05 Nov 2026 05:49:46 GMT",
+    "last_modified_is_upload_date": false
+  }
+]

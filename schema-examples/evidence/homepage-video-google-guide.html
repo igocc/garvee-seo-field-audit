@@ -1,0 +1,2413 @@
+
+<!DOCTYPE html>
+
+<html dir="ltr" lang="en">
+<head>
+<meta content="721724668570-nbkv1cfusk7kk4eni4pjvepaus73b13t.apps.googleusercontent.com" name="google-signin-client-id"/><meta content="profile email https://www.googleapis.com/auth/developerprofiles https://www.googleapis.com/auth/developerprofiles.award https://www.googleapis.com/auth/devprofiles.full_control.firstparty" name="google-signin-scope"/><meta content="Google for Developers" property="og:site_name"/>
+<meta content="website" property="og:type"/><meta content="#fff" name="theme-color"/><meta charset="utf-8"/>
+<meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link crossorigin="use-credentials" href="/_pwa/developers/manifest.json" rel="manifest"/>
+<link crossorigin="" href="//www.gstatic.com" rel="preconnect"/>
+<link crossorigin="" href="//fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="//www.google-analytics.com" rel="preconnect"/><link href="//fonts.googleapis.com/css?family=Google+Sans:400,500|Roboto:400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700&amp;display=swap" rel="stylesheet"/>
+<link href="//fonts.googleapis.com/css2?family=Material+Icons&amp;family=Material+Symbols+Outlined&amp;display=block" rel="stylesheet"/><link href="https://www.gstatic.com/devrel-devsite/prod/veed85ba0e3651062c793a40796e84fb34afbf8489308d45f92d5448e587e3f03/developers/css/app.css" rel="stylesheet"/>
+<link href="https://www.gstatic.com/devrel-devsite/prod/veed85ba0e3651062c793a40796e84fb34afbf8489308d45f92d5448e587e3f03/developers/images/favicon-new.png" rel="shortcut icon"/>
+<link href="https://www.gstatic.com/devrel-devsite/prod/veed85ba0e3651062c793a40796e84fb34afbf8489308d45f92d5448e587e3f03/developers/images/touchicon-180-new.png" rel="apple-touch-icon"/><link href="https://developers.google.com/search/docs/appearance/structured-data/video" rel="canonical"/><link href="https://developers.google.com/s/opensearch.xml" rel="search" title="Google for Developers" type="application/opensearchdescription+xml"/>
+<link href="https://developers.google.com/search/docs/appearance/structured-data/video" hreflang="en" rel="alternate"/><link href="https://developers.google.com/search/docs/appearance/structured-data/video" hreflang="x-default" rel="alternate"/><link href="https://developers.google.com/search/docs/appearance/structured-data/video?hl=ar" hreflang="ar" rel="alternate"/><link href="https://developers.google.com/search/docs/appearance/structured-data/video?hl=zh-cn" hreflang="zh-Hans" rel="alternate"/><link href="https://developers.google.com/search/docs/appearance/structured-data/video?hl=zh-tw" hreflang="zh-Hant" rel="alternate"/><link href="https://developers.google.com/search/docs/appearance/structured-data/video?hl=fr" hreflang="fr" rel="alternate"/><link href="https://developers.google.com/search/docs/appearance/structured-data/video?hl=de" hreflang="de" rel="alternate"/><link href="https://developers.google.com/search/docs/appearance/structured-data/video?hl=hi" hreflang="hi" rel="alternate"/><link href="https://developers.google.com/search/docs/appearance/structured-data/video?hl=id" hreflang="id" rel="alternate"/><link href="https://developers.google.com/search/docs/appearance/structured-data/video?hl=it" hreflang="it" rel="alternate"/><link href="https://developers.google.com/search/docs/appearance/structured-data/video?hl=ja" hreflang="ja" rel="alternate"/><link href="https://developers.google.com/search/docs/appearance/structured-data/video?hl=ko" hreflang="ko" rel="alternate"/><link href="https://developers.google.com/search/docs/appearance/structured-data/video?hl=pl" hreflang="pl" rel="alternate"/><link href="https://developers.google.com/search/docs/appearance/structured-data/video?hl=pt-br" hreflang="pt-BR" rel="alternate"/><link href="https://developers.google.com/search/docs/appearance/structured-data/video?hl=ru" hreflang="ru" rel="alternate"/><link href="https://developers.google.com/search/docs/appearance/structured-data/video?hl=es" hreflang="es" rel="alternate"/><link href="https://developers.google.com/search/docs/appearance/structured-data/video?hl=es-419" hreflang="es-419" rel="alternate"/><link href="https://developers.google.com/search/docs/appearance/structured-data/video?hl=th" hreflang="th" rel="alternate"/><link href="https://developers.google.com/search/docs/appearance/structured-data/video?hl=tr" hreflang="tr" rel="alternate"/><link href="https://developers.google.com/search/docs/appearance/structured-data/video?hl=vi" hreflang="vi" rel="alternate"/><title>Video (VideoObject, Clip, BroadcastEvent) Schema Markup | Google Search Central  |  Documentation  |  Google for Developers</title>
+<meta content="Video (VideoObject, Clip, BroadcastEvent) Schema Markup | Google Search Central  |  Documentation  |  Google for Developers" property="og:title"/><meta content="When you add video structured data, you can make it easier for Google to find your video and influence information that's shown in video results on Google, such as the video's thumbnail image, title, and description." name="description"/>
+<meta content="When you add video structured data, you can make it easier for Google to find your video and influence information that's shown in video results on Google, such as the video's thumbnail image, title, and description." property="og:description"/><meta content="https://developers.google.com/search/docs/appearance/structured-data/video" property="og:url"/><meta content="https://developers.google.com/static/search/images/home-social-share-lockup.jpg" property="og:image"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="675" property="og:image:height"/><meta content="en" property="og:locale"/><meta content="summary_large_image" name="twitter:card"/>
+<meta content="app-id=1512522198" name="apple-itunes-app"/>
+</head>
+<body class="color-scheme--light" concierge="closed" display-toc="" layout="docs" pending="" template="page" theme="white" type="lcat">
+<devsite-progress id="app-progress" type="indeterminate"></devsite-progress>
+<a class="skip-link button" href="#main-content">
+      
+      Skip to main content
+    </a>
+<section class="devsite-wrapper">
+<devsite-cookie-notification-bar></devsite-cookie-notification-bar>
+<devsite-header role="banner">
+<div class="devsite-header--inner">
+<div class="devsite-top-logo-row-wrapper-wrapper">
+<div class="devsite-top-logo-row-wrapper">
+<div class="devsite-top-logo-row">
+<button aria-label="Open menu" class="devsite-header-icon-button button-flat material-icons gc-analytics-event" id="devsite-hamburger-menu" type="button" visually-hidden="">
+</button>
+<div class="devsite-product-name-wrapper">
+<a href="https://developers.google.com/search">
+<div class="devsite-product-logo-container" size="medium">
+<picture>
+<img alt="Google Search Central" class="devsite-product-logo" loading="lazy" sizes="64px" src="https://developers.google.com/static/search/images/google-search-central-logo.svg" srcset=" /static/search/images/google-search-central-logo.svg"/>
+</picture>
+</div>
+</a>
+<span class="devsite-product-name">
+<ul class="devsite-breadcrumb-list">
+<li class="devsite-breadcrumb-item devsite-has-google-wordmark">
+<a class="devsite-breadcrumb-link gc-analytics-event" href="https://developers.google.com/search" track-metadata-eventdetail="Google Search Central" track-metadata-position="1" track-name="breadcrumb" track-type="globalNav">
+<svg class="devsite-google-wordmark" viewbox="0 0 148 48" xmlns="http://www.w3.org/2000/svg">
+<title>Google</title>
+<path class="devsite-google-wordmark-svg-path" d="M19.58,37.65c-9.87,0-18.17-8.04-18.17-17.91c0-9.87,8.3-17.91,18.17-17.91c5.46,0,9.35,2.14,12.27,4.94l-3.45,3.45c-2.1-1.97-4.93-3.49-8.82-3.49c-7.21,0-12.84,5.81-12.84,13.02c0,7.21,5.64,13.02,12.84,13.02c4.67,0,7.34-1.88,9.04-3.58c1.4-1.4,2.32-3.41,2.66-6.16H19.58v-4.89h16.47c0.18,0.87,0.26,1.92,0.26,3.06c0,3.67-1.01,8.21-4.24,11.44C28.93,35.9,24.91,37.65,19.58,37.65z M61.78,26.12c0,6.64-5.1,11.53-11.36,11.53s-11.36-4.89-11.36-11.53c0-6.68,5.1-11.53,11.36-11.53S61.78,19.43,61.78,26.12z M56.8,26.12c0-4.15-2.96-6.99-6.39-6.99c-3.43,0-6.39,2.84-6.39,6.99c0,4.11,2.96,6.99,6.39,6.99C53.84,33.11,56.8,30.22,56.8,26.12z M87.25,26.12c0,6.64-5.1,11.53-11.36,11.53c-6.26,0-11.36-4.89-11.36-11.53c0-6.68,5.1-11.53,11.36-11.53C82.15,14.59,87.25,19.43,87.25,26.12zM82.28,26.12c0-4.15-2.96-6.99-6.39-6.99c-3.43,0-6.39,2.84-6.39,6.99c0,4.11,2.96,6.99,6.39,6.99C79.32,33.11,82.28,30.22,82.28,26.12z M112.09,15.29v20.7c0,8.52-5.02,12.01-10.96,12.01c-5.59,0-8.95-3.76-10.22-6.81l4.41-1.83c0.79,1.88,2.71,4.1,5.81,4.1c3.8,0,6.16-2.36,6.16-6.77v-1.66h-0.18c-1.14,1.4-3.32,2.62-6.07,2.62c-5.76,0-11.05-5.02-11.05-11.49c0-6.51,5.28-11.57,11.05-11.57c2.75,0,4.93,1.22,6.07,2.58h0.18v-1.88H112.09z M107.64,26.16c0-4.06-2.71-7.03-6.16-7.03c-3.49,0-6.42,2.97-6.42,7.03c0,4.02,2.93,6.94,6.42,6.94C104.93,33.11,107.64,30.18,107.64,26.16z M120.97,3.06v33.89h-5.07V3.06H120.97z M140.89,29.92l3.93,2.62c-1.27,1.88-4.32,5.11-9.61,5.11c-6.55,0-11.28-5.07-11.28-11.53c0-6.86,4.77-11.53,10.71-11.53c5.98,0,8.91,4.76,9.87,7.34l0.52,1.31l-15.42,6.38c1.18,2.31,3.01,3.49,5.59,3.49C137.79,33.11,139.58,31.84,140.89,29.92zM128.79,25.77l10.31-4.28c-0.57-1.44-2.27-2.45-4.28-2.45C132.24,19.04,128.66,21.31,128.79,25.77z"></path>
+</svg>Search Central
+        
+  </a>
+</li>
+</ul>
+</span>
+</div>
+<div class="devsite-top-logo-row-middle">
+<div class="devsite-header-upper-tabs">
+<devsite-tabs class="upper-tabs">
+<nav aria-label="Upper tabs" class="devsite-tabs-wrapper">
+<tab class="devsite-dropdown devsite-dropdown-full devsite-active">
+<a aria-label="Documentation, selected" class="devsite-tabs-content gc-analytics-event" href="https://developers.google.com/search/docs" track-metadata-eventdetail="https://developers.google.com/search/docs" track-metadata-module="primary nav" track-metadata-position="nav - documentation" track-name="documentation" track-type="nav">
+    Documentation
+  
+    </a>
+<button aria-expanded="false" aria-haspopup="menu" aria-label="Dropdown menu for Documentation" class="devsite-tabs-dropdown-toggle devsite-icon devsite-icon-arrow-drop-down" track-metadata-eventdetail="https://developers.google.com/search/docs" track-metadata-module="primary nav" track-metadata-position="nav - documentation" track-name="documentation" track-type="nav"></button>
+<div aria-label="submenu" class="devsite-tabs-dropdown" hidden="" role="menu">
+<div class="devsite-tabs-dropdown-content">
+<div class="devsite-tabs-dropdown-column">
+<ul class="devsite-tabs-dropdown-section">
+<li class="devsite-nav-title" role="heading" tooltip="">SEO fundamentals</li>
+<li class="devsite-nav-item">
+<a href="https://developers.google.com/search/docs" tooltip="" track-metadata-eventdetail="https://developers.google.com/search/docs" track-metadata-module="tertiary nav" track-metadata-module_headline="seo fundamentals" track-metadata-position="nav - documentation" track-type="nav">
+<div class="devsite-nav-item-title">
+                      Introduction
+                    </div>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a href="https://developers.google.com/search/docs/essentials" tooltip="" track-metadata-eventdetail="https://developers.google.com/search/docs/essentials" track-metadata-module="tertiary nav" track-metadata-module_headline="seo fundamentals" track-metadata-position="nav - documentation" track-type="nav">
+<div class="devsite-nav-item-title">
+                      Search Essentials
+                    </div>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide" tooltip="" track-metadata-eventdetail="https://developers.google.com/search/docs/fundamentals/seo-starter-guide" track-metadata-module="tertiary nav" track-metadata-module_headline="seo fundamentals" track-metadata-position="nav - documentation" track-type="nav">
+<div class="devsite-nav-item-title">
+                      SEO Starter Guide
+                    </div>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a href="https://developers.google.com/search/docs/fundamentals/ai-optimization-guide" tooltip="" track-metadata-eventdetail="https://developers.google.com/search/docs/fundamentals/ai-optimization-guide" track-metadata-module="tertiary nav" track-metadata-module_headline="seo fundamentals" track-metadata-position="nav - documentation" track-type="nav">
+<div class="devsite-nav-item-title">
+                      Optimizing for generative AI search
+                    </div>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a href="https://developers.google.com/search/docs/fundamentals/how-search-works" tooltip="" track-metadata-eventdetail="https://developers.google.com/search/docs/fundamentals/how-search-works" track-metadata-module="tertiary nav" track-metadata-module_headline="seo fundamentals" track-metadata-position="nav - documentation" track-type="nav">
+<div class="devsite-nav-item-title">
+                      How Google Search Works
+                    </div>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a href="https://developers.google.com/search/docs/fundamentals/do-i-need-seo" tooltip="" track-metadata-eventdetail="https://developers.google.com/search/docs/fundamentals/do-i-need-seo" track-metadata-module="tertiary nav" track-metadata-module_headline="seo fundamentals" track-metadata-position="nav - documentation" track-type="nav">
+<div class="devsite-nav-item-title">
+                      Do you need an SEO?
+                    </div>
+</a>
+</li>
+</ul>
+</div>
+<div class="devsite-tabs-dropdown-column">
+<ul class="devsite-tabs-dropdown-section">
+<li class="devsite-nav-title" role="heading" tooltip="">Crawling and indexing</li>
+<li class="devsite-nav-item">
+<a href="https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview" tooltip="" track-metadata-eventdetail="https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview" track-metadata-module="tertiary nav" track-metadata-module_headline="crawling and indexing" track-metadata-position="nav - documentation" track-type="nav">
+<div class="devsite-nav-item-title">
+                      Sitemaps
+                    </div>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a href="https://developers.google.com/search/docs/crawling-indexing/robots/intro" tooltip="" track-metadata-eventdetail="https://developers.google.com/search/docs/crawling-indexing/robots/intro" track-metadata-module="tertiary nav" track-metadata-module_headline="crawling and indexing" track-metadata-position="nav - documentation" track-type="nav">
+<div class="devsite-nav-item-title">
+                      robots.txt
+                    </div>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a href="https://developers.google.com/search/docs/crawling-indexing/special-tags" tooltip="" track-metadata-eventdetail="https://developers.google.com/search/docs/crawling-indexing/special-tags" track-metadata-module="tertiary nav" track-metadata-module_headline="crawling and indexing" track-metadata-position="nav - documentation" track-type="nav">
+<div class="devsite-nav-item-title">
+                      Meta tags
+                    </div>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a href="https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl" tooltip="" track-metadata-eventdetail="https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl" track-metadata-module="tertiary nav" track-metadata-module_headline="crawling and indexing" track-metadata-position="nav - documentation" track-type="nav">
+<div class="devsite-nav-item-title">
+                      Crawler management
+                    </div>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a href="https://developers.google.com/search/docs/crawling-indexing/control-what-you-share" tooltip="" track-metadata-eventdetail="https://developers.google.com/search/docs/crawling-indexing/control-what-you-share" track-metadata-module="tertiary nav" track-metadata-module_headline="crawling and indexing" track-metadata-position="nav - documentation" track-type="nav">
+<div class="devsite-nav-item-title">
+                      Removals
+                    </div>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a href="https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls" tooltip="" track-metadata-eventdetail="https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls" track-metadata-module="tertiary nav" track-metadata-module_headline="crawling and indexing" track-metadata-position="nav - documentation" track-type="nav">
+<div class="devsite-nav-item-title">
+                      Canonicalization
+                    </div>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a href="https://developers.google.com/search/docs/crawling-indexing/301-redirects" tooltip="" track-metadata-eventdetail="https://developers.google.com/search/docs/crawling-indexing/301-redirects" track-metadata-module="tertiary nav" track-metadata-module_headline="crawling and indexing" track-metadata-position="nav - documentation" track-type="nav">
+<div class="devsite-nav-item-title">
+                      Redirects
+                    </div>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a href="https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics" tooltip="" track-metadata-eventdetail="https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics" track-metadata-module="tertiary nav" track-metadata-module_headline="crawling and indexing" track-metadata-position="nav - documentation" track-type="nav">
+<div class="devsite-nav-item-title">
+                      JavaScript SEO
+                    </div>
+</a>
+</li>
+</ul>
+</div>
+<div class="devsite-tabs-dropdown-column">
+<ul class="devsite-tabs-dropdown-section">
+<li class="devsite-nav-title" role="heading" tooltip="">Ranking and search appearance</li>
+<li class="devsite-nav-item">
+<a href="https://developers.google.com/search/docs/appearance/visual-elements-gallery" tooltip="" track-metadata-eventdetail="https://developers.google.com/search/docs/appearance/visual-elements-gallery" track-metadata-module="tertiary nav" track-metadata-module_headline="ranking and search appearance" track-metadata-position="nav - documentation" track-type="nav">
+<div class="devsite-nav-item-title">
+                      Visual Elements gallery
+                    </div>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a href="https://developers.google.com/search/docs/appearance/title-link" tooltip="" track-metadata-eventdetail="https://developers.google.com/search/docs/appearance/title-link" track-metadata-module="tertiary nav" track-metadata-module_headline="ranking and search appearance" track-metadata-position="nav - documentation" track-type="nav">
+<div class="devsite-nav-item-title">
+                      Title links
+                    </div>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a href="https://developers.google.com/search/docs/appearance/snippet" tooltip="" track-metadata-eventdetail="https://developers.google.com/search/docs/appearance/snippet" track-metadata-module="tertiary nav" track-metadata-module_headline="ranking and search appearance" track-metadata-position="nav - documentation" track-type="nav">
+<div class="devsite-nav-item-title">
+                      Snippets
+                    </div>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a href="https://developers.google.com/search/docs/appearance/google-images" tooltip="" track-metadata-eventdetail="https://developers.google.com/search/docs/appearance/google-images" track-metadata-module="tertiary nav" track-metadata-module_headline="ranking and search appearance" track-metadata-position="nav - documentation" track-type="nav">
+<div class="devsite-nav-item-title">
+                      Images
+                    </div>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a href="https://developers.google.com/search/docs/appearance/video" tooltip="" track-metadata-eventdetail="https://developers.google.com/search/docs/appearance/video" track-metadata-module="tertiary nav" track-metadata-module_headline="ranking and search appearance" track-metadata-position="nav - documentation" track-type="nav">
+<div class="devsite-nav-item-title">
+                      Videos
+                    </div>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a href="https://developers.google.com/search/docs/appearance/structured-data/search-gallery" tooltip="" track-metadata-eventdetail="https://developers.google.com/search/docs/appearance/structured-data/search-gallery" track-metadata-module="tertiary nav" track-metadata-module_headline="ranking and search appearance" track-metadata-position="nav - documentation" track-type="nav">
+<div class="devsite-nav-item-title">
+                      Structured data
+                    </div>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a href="https://developers.google.com/search/docs/appearance/favicon-in-search" tooltip="" track-metadata-eventdetail="https://developers.google.com/search/docs/appearance/favicon-in-search" track-metadata-module="tertiary nav" track-metadata-module_headline="ranking and search appearance" track-metadata-position="nav - documentation" track-type="nav">
+<div class="devsite-nav-item-title">
+                      Favicons
+                    </div>
+</a>
+</li>
+</ul>
+</div>
+<div class="devsite-tabs-dropdown-column">
+<ul class="devsite-tabs-dropdown-section">
+<li class="devsite-nav-title" role="heading" tooltip="">Site-specific guides</li>
+<li class="devsite-nav-item">
+<a href="https://developers.google.com/search/docs/specialty/ecommerce" tooltip="" track-metadata-eventdetail="https://developers.google.com/search/docs/specialty/ecommerce" track-metadata-module="tertiary nav" track-metadata-module_headline="site-specific guides" track-metadata-position="nav - documentation" track-type="nav">
+<div class="devsite-nav-item-title">
+                      Ecommerce
+                    </div>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a href="https://developers.google.com/search/docs/specialty/international" tooltip="" track-metadata-eventdetail="https://developers.google.com/search/docs/specialty/international" track-metadata-module="tertiary nav" track-metadata-module_headline="site-specific guides" track-metadata-position="nav - documentation" track-type="nav">
+<div class="devsite-nav-item-title">
+                      International and multilingual sites
+                    </div>
+</a>
+</li>
+</ul>
+<ul class="devsite-tabs-dropdown-section">
+<li class="devsite-nav-title" role="heading" tooltip="">Data analysis</li>
+<li class="devsite-nav-item">
+<a href="https://developers.google.com/search/docs/monitor-debug/debugging-search-traffic-drops" tooltip="" track-metadata-eventdetail="https://developers.google.com/search/docs/monitor-debug/debugging-search-traffic-drops" track-metadata-module="tertiary nav" track-metadata-module_headline="site-specific guides" track-metadata-position="nav - documentation" track-type="nav">
+<div class="devsite-nav-item-title">
+                      Debug traffic drops
+                    </div>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a href="https://developers.google.com/search/docs/monitor-debug/google-analytics-search-console" tooltip="" track-metadata-eventdetail="https://developers.google.com/search/docs/monitor-debug/google-analytics-search-console" track-metadata-module="tertiary nav" track-metadata-module_headline="site-specific guides" track-metadata-position="nav - documentation" track-type="nav">
+<div class="devsite-nav-item-title">
+                      Using Search Console and Google Analytics data for SEO
+                    </div>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a href="https://developers.google.com/search/docs/monitor-debug/analyze-social-video-content" tooltip="" track-metadata-eventdetail="https://developers.google.com/search/docs/monitor-debug/analyze-social-video-content" track-metadata-module="tertiary nav" track-metadata-module_headline="site-specific guides" track-metadata-position="nav - documentation" track-type="nav">
+<div class="devsite-nav-item-title">
+                      Analyze social and video platform content
+                    </div>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</tab>
+<tab>
+<a class="devsite-tabs-content gc-analytics-event" href="https://developers.google.com/search/help" track-metadata-eventdetail="https://developers.google.com/search/help" track-metadata-module="primary nav" track-metadata-position="nav - support" track-name="support" track-type="nav">
+    Support
+  
+    </a>
+</tab>
+<tab>
+<a class="devsite-tabs-content gc-analytics-event" href="https://developers.google.com/search/blog" track-metadata-eventdetail="https://developers.google.com/search/blog" track-metadata-module="primary nav" track-metadata-position="nav - blog" track-name="blog" track-type="nav">
+    Blog
+  
+    </a>
+</tab>
+<tab class="devsite-dropdown">
+<a class="devsite-tabs-content gc-analytics-event" href="https://developers.google.com/search/news" track-metadata-eventdetail="https://developers.google.com/search/news" track-metadata-module="primary nav" track-metadata-position="nav - what's new" track-name="what's new" track-type="nav">
+    What's new
+  
+    </a>
+<button aria-expanded="false" aria-haspopup="menu" aria-label="Dropdown menu for What's new" class="devsite-tabs-dropdown-toggle devsite-icon devsite-icon-arrow-drop-down" track-metadata-eventdetail="https://developers.google.com/search/news" track-metadata-module="primary nav" track-metadata-position="nav - what's new" track-name="what's new" track-type="nav"></button>
+<div aria-label="submenu" class="devsite-tabs-dropdown" hidden="" role="menu">
+<div class="devsite-tabs-dropdown-content">
+<div class="devsite-tabs-dropdown-column">
+<ul class="devsite-tabs-dropdown-section">
+<li class="devsite-nav-item">
+<a href="https://developers.google.com/search/news" tooltip="" track-metadata-eventdetail="https://developers.google.com/search/news" track-metadata-module="tertiary nav" track-metadata-position="nav - what's new" track-type="nav">
+<div class="devsite-nav-item-title">
+                      All updates
+                    </div>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a href="https://developers.google.com/search/updates" tooltip="" track-metadata-eventdetail="https://developers.google.com/search/updates" track-metadata-module="tertiary nav" track-metadata-position="nav - what's new" track-type="nav">
+<div class="devsite-nav-item-title">
+                      Documentation updates
+                    </div>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a href="https://status.search.google.com/products/rGHU1u87FJnkP6W2GwMi/history" tooltip="" track-metadata-eventdetail="https://status.search.google.com/products/rGHU1u87FJnkP6W2GwMi/history" track-metadata-module="tertiary nav" track-metadata-position="nav - what's new" track-type="nav">
+<div class="devsite-nav-item-title">
+                      Ranking updates
+                    </div>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a href="https://www.youtube.com/channel/UCWf2ZlNsCGDS89VBF_awNvA" tooltip="" track-metadata-eventdetail="https://www.youtube.com/channel/UCWf2ZlNsCGDS89VBF_awNvA" track-metadata-module="tertiary nav" track-metadata-position="nav - what's new" track-type="nav">
+<div class="devsite-nav-item-title">
+                      New YouTube videos
+                    </div>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a href="https://pod.link/1512522198" tooltip="" track-metadata-eventdetail="https://pod.link/1512522198" track-metadata-module="tertiary nav" track-metadata-position="nav - what's new" track-type="nav">
+<div class="devsite-nav-item-title">
+                      Recent podcast episodes
+                    </div>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</tab>
+<tab>
+<a class="devsite-tabs-content gc-analytics-event" href="https://developers.google.com/search/events" track-metadata-eventdetail="https://developers.google.com/search/events" track-metadata-module="primary nav" track-metadata-position="nav - events" track-name="events" track-type="nav">
+    Events
+  
+    </a>
+</tab>
+<tab>
+<a class="devsite-tabs-content gc-analytics-event" href="https://developers.google.com/search/case-studies" track-metadata-eventdetail="https://developers.google.com/search/case-studies" track-metadata-module="primary nav" track-metadata-position="nav - case studies" track-name="case studies" track-type="nav">
+    Case studies
+  
+    </a>
+</tab>
+</nav>
+</devsite-tabs>
+</div>
+<devsite-search enable-query-completion="" enable-search="" enable-search-summaries="" enable-signin="" enable-suggestions="" project-name="Documentation" project-scope="/search/docs" tenant-name="Google for Developers" url-scoped="https://developers.google.com/s/results/search/docs">
+<form action="https://developers.google.com/s/results" class="devsite-search-form" method="GET">
+<div class="devsite-search-container">
+<button aria-label="Open search" class="devsite-search-button devsite-header-icon-button button-flat material-icons" search-open="" type="button"></button>
+<div class="devsite-searchbox">
+<input aria-activedescendant="" aria-autocomplete="list" aria-expanded="false" aria-haspopup="listbox" aria-label="Search" autocomplete="off" class="devsite-search-field devsite-search-query" name="q" placeholder="Search" role="combobox" type="text"/>
+<div aria-hidden="true" class="devsite-search-image material-icons">
+<svg class="devsite-search-ai-image" fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_6641_386)">
+<path d="M19.6 21L13.3 14.7C12.8 15.1 12.225 15.4167 11.575 15.65C10.925 15.8833 10.2333 16 9.5 16C7.68333 16 6.14167 15.375 4.875 14.125C3.625 12.8583 3 11.3167 3 9.5C3 7.68333 3.625 6.15 4.875 4.9C6.14167 3.63333 7.68333 3 9.5 3C10.0167 3 10.5167 3.05833 11 3.175C11.4833 3.275 11.9417 3.43333 12.375 3.65L10.825 5.2C10.6083 5.13333 10.3917 5.08333 10.175 5.05C9.95833 5.01667 9.73333 5 9.5 5C8.25 5 7.18333 5.44167 6.3 6.325C5.43333 7.19167 5 8.25 5 9.5C5 10.75 5.43333 11.8167 6.3 12.7C7.18333 13.5667 8.25 14 9.5 14C10.6667 14 11.6667 13.625 12.5 12.875C13.35 12.1083 13.8417 11.15 13.975 10H15.975C15.925 10.6333 15.7833 11.2333 15.55 11.8C15.3333 12.3667 15.05 12.8667 14.7 13.3L21 19.6L19.6 21ZM17.5 12C17.5 10.4667 16.9667 9.16667 15.9 8.1C14.8333 7.03333 13.5333 6.5 12 6.5C13.5333 6.5 14.8333 5.96667 15.9 4.9C16.9667 3.83333 17.5 2.53333 17.5 0.999999C17.5 2.53333 18.0333 3.83333 19.1 4.9C20.1667 5.96667 21.4667 6.5 23 6.5C21.4667 6.5 20.1667 7.03333 19.1 8.1C18.0333 9.16667 17.5 10.4667 17.5 12Z" fill="#5F6368"></path>
+</g>
+<defs>
+<clippath id="clip0_6641_386">
+<rect fill="white" height="24" width="24"></rect>
+</clippath>
+</defs>
+</svg>
+</div>
+<div aria-hidden="true" class="devsite-search-shortcut-icon-container">
+<kbd class="devsite-search-shortcut-icon">/</kbd>
+</div>
+</div>
+</div>
+</form>
+<button aria-label="Close search" class="devsite-search-button devsite-header-icon-button button-flat material-icons" search-close="" type="button"></button>
+</devsite-search>
+</div>
+<devsite-language-selector>
+<ul role="presentation">
+<li role="presentation">
+<a lang="en" role="menuitem">English</a>
+</li>
+<li role="presentation">
+<a lang="de" role="menuitem">Deutsch</a>
+</li>
+<li role="presentation">
+<a lang="es" role="menuitem">Español</a>
+</li>
+<li role="presentation">
+<a lang="es_419" role="menuitem">Español – América Latina</a>
+</li>
+<li role="presentation">
+<a lang="fr" role="menuitem">Français</a>
+</li>
+<li role="presentation">
+<a lang="id" role="menuitem">Indonesia</a>
+</li>
+<li role="presentation">
+<a lang="it" role="menuitem">Italiano</a>
+</li>
+<li role="presentation">
+<a lang="pl" role="menuitem">Polski</a>
+</li>
+<li role="presentation">
+<a lang="pt_br" role="menuitem">Português – Brasil</a>
+</li>
+<li role="presentation">
+<a lang="vi" role="menuitem">Tiếng Việt</a>
+</li>
+<li role="presentation">
+<a lang="tr" role="menuitem">Türkçe</a>
+</li>
+<li role="presentation">
+<a lang="ru" role="menuitem">Русский</a>
+</li>
+<li role="presentation">
+<a lang="ar" role="menuitem">العربيّة</a>
+</li>
+<li role="presentation">
+<a lang="hi" role="menuitem">हिंदी</a>
+</li>
+<li role="presentation">
+<a lang="th" role="menuitem">ภาษาไทย</a>
+</li>
+<li role="presentation">
+<a lang="zh_cn" role="menuitem">中文 – 简体</a>
+</li>
+<li role="presentation">
+<a lang="zh_tw" role="menuitem">中文 – 繁體</a>
+</li>
+<li role="presentation">
+<a lang="ja" role="menuitem">日本語</a>
+</li>
+<li role="presentation">
+<a lang="ko" role="menuitem">한국어</a>
+</li>
+</ul>
+</devsite-language-selector>
+<devsite-user enable-profiles="" fp-auth="" id="devsite-user">
+<span aria-hidden="true" class="button devsite-top-button" visually-hidden="">Sign in</span>
+</devsite-user>
+</div>
+</div>
+</div>
+<div class="devsite-collapsible-section devsite-header-no-lower-tabs">
+<div class="devsite-header-background">
+<div class="devsite-product-id-row">
+<div class="devsite-product-description-row">
+<div class="devsite-product-id">
+<ul class="devsite-breadcrumb-list">
+<li class="devsite-breadcrumb-item">
+<a class="devsite-breadcrumb-link gc-analytics-event" href="https://developers.google.com/search/docs" track-metadata-eventdetail="Documentation" track-metadata-position="1" track-name="breadcrumb" track-type="globalNav">
+    
+          Documentation
+        
+  </a>
+</li>
+</ul>
+</div>
+</div>
+<div class="devsite-product-button-row">
+<a class="button button-primary" href="https://goo.gle/searchconsole">Search Console</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</devsite-header>
+<devsite-book-nav scrollbars="">
+<div class="devsite-book-nav-filter" hidden="">
+<span aria-hidden="true" class="filter-list-icon material-icons"></span>
+<input aria-label="Type to filter" placeholder="Filter" role="searchbox" type="text"/>
+<span aria-label="Clear filter" class="filter-clear-button hidden" role="button" tabindex="0"></span>
+</div>
+<nav aria-label="Side menu" class="devsite-book-nav devsite-nav nocontent">
+<div class="devsite-mobile-header">
+<button aria-label="Close navigation" class="devsite-header-icon-button button-flat material-icons gc-analytics-event" id="devsite-close-nav" type="button">
+</button>
+<div class="devsite-product-name-wrapper">
+<a href="https://developers.google.com/search">
+<div class="devsite-product-logo-container" size="medium">
+<picture>
+<img alt="Google Search Central" class="devsite-product-logo" loading="lazy" sizes="64px" src="https://developers.google.com/static/search/images/google-search-central-logo.svg" srcset=" /static/search/images/google-search-central-logo.svg"/>
+</picture>
+</div>
+</a>
+<span class="devsite-product-name">
+<ul class="devsite-breadcrumb-list">
+<li class="devsite-breadcrumb-item devsite-has-google-wordmark">
+<a class="devsite-breadcrumb-link gc-analytics-event" href="https://developers.google.com/search" track-metadata-eventdetail="Google Search Central" track-metadata-position="1" track-name="breadcrumb" track-type="globalNav">
+<svg class="devsite-google-wordmark" viewbox="0 0 148 48" xmlns="http://www.w3.org/2000/svg">
+<title>Google</title>
+<path class="devsite-google-wordmark-svg-path" d="M19.58,37.65c-9.87,0-18.17-8.04-18.17-17.91c0-9.87,8.3-17.91,18.17-17.91c5.46,0,9.35,2.14,12.27,4.94l-3.45,3.45c-2.1-1.97-4.93-3.49-8.82-3.49c-7.21,0-12.84,5.81-12.84,13.02c0,7.21,5.64,13.02,12.84,13.02c4.67,0,7.34-1.88,9.04-3.58c1.4-1.4,2.32-3.41,2.66-6.16H19.58v-4.89h16.47c0.18,0.87,0.26,1.92,0.26,3.06c0,3.67-1.01,8.21-4.24,11.44C28.93,35.9,24.91,37.65,19.58,37.65z M61.78,26.12c0,6.64-5.1,11.53-11.36,11.53s-11.36-4.89-11.36-11.53c0-6.68,5.1-11.53,11.36-11.53S61.78,19.43,61.78,26.12z M56.8,26.12c0-4.15-2.96-6.99-6.39-6.99c-3.43,0-6.39,2.84-6.39,6.99c0,4.11,2.96,6.99,6.39,6.99C53.84,33.11,56.8,30.22,56.8,26.12z M87.25,26.12c0,6.64-5.1,11.53-11.36,11.53c-6.26,0-11.36-4.89-11.36-11.53c0-6.68,5.1-11.53,11.36-11.53C82.15,14.59,87.25,19.43,87.25,26.12zM82.28,26.12c0-4.15-2.96-6.99-6.39-6.99c-3.43,0-6.39,2.84-6.39,6.99c0,4.11,2.96,6.99,6.39,6.99C79.32,33.11,82.28,30.22,82.28,26.12z M112.09,15.29v20.7c0,8.52-5.02,12.01-10.96,12.01c-5.59,0-8.95-3.76-10.22-6.81l4.41-1.83c0.79,1.88,2.71,4.1,5.81,4.1c3.8,0,6.16-2.36,6.16-6.77v-1.66h-0.18c-1.14,1.4-3.32,2.62-6.07,2.62c-5.76,0-11.05-5.02-11.05-11.49c0-6.51,5.28-11.57,11.05-11.57c2.75,0,4.93,1.22,6.07,2.58h0.18v-1.88H112.09z M107.64,26.16c0-4.06-2.71-7.03-6.16-7.03c-3.49,0-6.42,2.97-6.42,7.03c0,4.02,2.93,6.94,6.42,6.94C104.93,33.11,107.64,30.18,107.64,26.16z M120.97,3.06v33.89h-5.07V3.06H120.97z M140.89,29.92l3.93,2.62c-1.27,1.88-4.32,5.11-9.61,5.11c-6.55,0-11.28-5.07-11.28-11.53c0-6.86,4.77-11.53,10.71-11.53c5.98,0,8.91,4.76,9.87,7.34l0.52,1.31l-15.42,6.38c1.18,2.31,3.01,3.49,5.59,3.49C137.79,33.11,139.58,31.84,140.89,29.92zM128.79,25.77l10.31-4.28c-0.57-1.44-2.27-2.45-4.28-2.45C132.24,19.04,128.66,21.31,128.79,25.77z"></path>
+</svg>Search Central
+        
+  </a>
+</li>
+</ul>
+</span>
+</div>
+</div>
+<div class="devsite-book-nav-wrapper">
+<div class="devsite-mobile-nav-top">
+<ul class="devsite-nav-list">
+<li class="devsite-nav-item">
+<a class="devsite-nav-title gc-analytics-event devsite-nav-has-children devsite-nav-active" href="/search/docs" track-metadata-eventdetail="globalMenu" track-metadata-position="nav" track-name="documentation" track-type="globalNav">
+<span class="devsite-nav-text" tooltip="">
+      Documentation
+   </span>
+<span class="devsite-nav-icon material-icons">
+</span>
+</a>
+<ul class="devsite-nav-responsive-tabs devsite-nav-has-menu">
+<li class="devsite-nav-item">
+<span class="devsite-nav-title" tooltip="" track-name="documentation">
+<span class="devsite-nav-text" menu="Documentation" tooltip="">
+      More
+   </span>
+<span class="devsite-nav-icon material-icons" menu="Documentation">
+</span>
+</span>
+</li>
+</ul>
+</li>
+<li class="devsite-nav-item">
+<a class="devsite-nav-title gc-analytics-event" href="/search/help" track-metadata-eventdetail="globalMenu" track-metadata-position="nav" track-name="support" track-type="globalNav">
+<span class="devsite-nav-text" tooltip="">
+      Support
+   </span>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a class="devsite-nav-title gc-analytics-event" href="/search/blog" track-metadata-eventdetail="globalMenu" track-metadata-position="nav" track-name="blog" track-type="globalNav">
+<span class="devsite-nav-text" tooltip="">
+      Blog
+   </span>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a class="devsite-nav-title gc-analytics-event devsite-nav-has-children" href="/search/news" track-metadata-eventdetail="globalMenu" track-metadata-position="nav" track-name="what's new" track-type="globalNav">
+<span class="devsite-nav-text" tooltip="">
+      What's new
+   </span>
+<span class="devsite-nav-icon material-icons">
+</span>
+</a>
+<ul class="devsite-nav-responsive-tabs devsite-nav-has-menu">
+<li class="devsite-nav-item">
+<span class="devsite-nav-title" tooltip="" track-name="what's new">
+<span class="devsite-nav-text" menu="What's new" tooltip="">
+      More
+   </span>
+<span class="devsite-nav-icon material-icons" menu="What's new">
+</span>
+</span>
+</li>
+</ul>
+</li>
+<li class="devsite-nav-item">
+<a class="devsite-nav-title gc-analytics-event" href="/search/events" track-metadata-eventdetail="globalMenu" track-metadata-position="nav" track-name="events" track-type="globalNav">
+<span class="devsite-nav-text" tooltip="">
+      Events
+   </span>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a class="devsite-nav-title gc-analytics-event" href="/search/case-studies" track-metadata-eventdetail="globalMenu" track-metadata-position="nav" track-name="case studies" track-type="globalNav">
+<span class="devsite-nav-text" tooltip="">
+      Case studies
+   </span>
+</a>
+</li>
+</ul>
+</div>
+<div class="devsite-mobile-nav-bottom">
+<ul class="devsite-nav-list" menu="_book">
+<li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs"><span class="devsite-nav-text" tooltip="">Introduction</span></a></li>
+<li class="devsite-nav-item devsite-nav-expandable"><div class="devsite-expandable-nav">
+<a aria-hidden="true" class="devsite-nav-toggle"></a><div class="devsite-nav-title devsite-nav-title-no-path" role="button" tabindex="0">
+<span class="devsite-nav-text" tooltip="">Search Essentials</span>
+</div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/essentials"><span class="devsite-nav-text" tooltip="">Overview</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/essentials/technical"><span class="devsite-nav-text" tooltip="">Technical requirements</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/essentials/spam-policies"><span class="devsite-nav-text" tooltip="">Spam policies</span></a></li></ul></div></li>
+<li class="devsite-nav-item devsite-nav-expandable devsite-nav-accordion"><div class="devsite-expandable-nav">
+<a aria-hidden="true" class="devsite-nav-toggle"></a><div class="devsite-nav-title devsite-nav-title-no-path" role="button" tabindex="0">
+<span class="devsite-nav-text" tooltip="">SEO fundamentals</span>
+</div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/fundamentals/seo-starter-guide"><span class="devsite-nav-text" tooltip="">SEO Starter Guide</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/fundamentals/how-search-works"><span class="devsite-nav-text" tooltip="">How Google Search works</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/fundamentals/creating-helpful-content"><span class="devsite-nav-text" tooltip="">Creating helpful, reliable, people-first content</span></a></li><li class="devsite-nav-item devsite-nav-expandable"><div class="devsite-expandable-nav">
+<a aria-hidden="true" class="devsite-nav-toggle"></a><div class="devsite-nav-title devsite-nav-title-no-path" role="button" tabindex="0">
+<span class="devsite-nav-text" tooltip="">Generative AI fundamentals</span>
+</div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/fundamentals/ai-optimization-guide"><span class="devsite-nav-text" tooltip="">Optimizing for generative AI</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/fundamentals/using-gen-ai-content"><span class="devsite-nav-text" tooltip="">Guidance on using generative AI</span></a></li></ul></div></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/fundamentals/get-started"><span class="devsite-nav-text" tooltip="">Maintaining your site's SEO</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/fundamentals/get-started-developers"><span class="devsite-nav-text" tooltip="">Developer's guide to Search</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/fundamentals/do-i-need-seo"><span class="devsite-nav-text" tooltip="">Do you need an SEO?</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/fundamentals/third-party-seo"><span class="devsite-nav-text" tooltip="">Guidance on third-party SEO tools and advice</span></a></li></ul></div></li>
+<li class="devsite-nav-item devsite-nav-expandable devsite-nav-accordion"><div class="devsite-expandable-nav">
+<a aria-hidden="true" class="devsite-nav-toggle"></a><div class="devsite-nav-title devsite-nav-title-no-path" role="button" tabindex="0">
+<span class="devsite-nav-text" tooltip="">Crawling and indexing</span>
+</div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/crawling-indexing"><span class="devsite-nav-text" tooltip="">Overview</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/crawling-indexing/indexable-file-types"><span class="devsite-nav-text" tooltip="">File types Google can index</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/crawling-indexing/url-structure"><span class="devsite-nav-text" tooltip="">URL structure</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/crawling-indexing/links-crawlable"><span class="devsite-nav-text" tooltip="">Links</span></a></li><li class="devsite-nav-item devsite-nav-expandable"><div class="devsite-expandable-nav">
+<a aria-hidden="true" class="devsite-nav-toggle"></a><div class="devsite-nav-title devsite-nav-title-no-path" role="button" tabindex="0">
+<span class="devsite-nav-text" tooltip="">Sitemaps</span>
+</div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/crawling-indexing/sitemaps/overview"><span class="devsite-nav-text" tooltip="">Learn about sitemaps</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/crawling-indexing/sitemaps/build-sitemap"><span class="devsite-nav-text" tooltip="">Build and submit a sitemap</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/crawling-indexing/sitemaps/large-sitemaps"><span class="devsite-nav-text" tooltip="">Manage sitemaps with sitemap index file</span></a></li><li class="devsite-nav-item devsite-nav-expandable"><div class="devsite-expandable-nav">
+<a aria-hidden="true" class="devsite-nav-toggle"></a><div class="devsite-nav-title devsite-nav-title-no-path" role="button" tabindex="0">
+<span class="devsite-nav-text" tooltip="">Sitemap extensions</span>
+</div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/crawling-indexing/sitemaps/image-sitemaps"><span class="devsite-nav-text" tooltip="">Image sitemaps</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/crawling-indexing/sitemaps/news-sitemap"><span class="devsite-nav-text" tooltip="">News sitemaps</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/crawling-indexing/sitemaps/video-sitemaps"><span class="devsite-nav-text" tooltip="">Video sitemaps and alternatives</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/crawling-indexing/sitemaps/combine-sitemap-extensions"><span class="devsite-nav-text" tooltip="">Combining sitemap extensions</span></a></li></ul></div></li></ul></div></li><li class="devsite-nav-item devsite-nav-expandable"><div class="devsite-expandable-nav">
+<a aria-hidden="true" class="devsite-nav-toggle"></a><div class="devsite-nav-title devsite-nav-title-no-path" role="button" tabindex="0">
+<span class="devsite-nav-text" tooltip="">Crawler management</span>
+</div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/crawling-indexing/ask-google-to-recrawl"><span class="devsite-nav-text" tooltip="">Ask Google to recrawl your URLs</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/crawling-indexing/troubleshoot-crawling-errors"><span class="devsite-nav-text" tooltip="">Troubleshoot crawl errors</span></a></li><li class="devsite-nav-item devsite-nav-expandable"><div class="devsite-expandable-nav">
+<a aria-hidden="true" class="devsite-nav-toggle"></a><div class="devsite-nav-title devsite-nav-title-no-path" role="button" tabindex="0">
+<span class="devsite-nav-text" tooltip="">Google crawlers</span>
+</div><ul class="devsite-nav-section"><li class="devsite-nav-item devsite-nav-external"><a class="devsite-nav-title" href="/crawling/docs/crawlers-fetchers/overview-google-crawlers"><span class="devsite-nav-text" tooltip="">List of Google crawlers</span><span aria-hidden="true" class="devsite-nav-icon material-icons"></span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/crawling-indexing/googlebot"><span class="devsite-nav-text" tooltip="">Googlebot</span></a></li><li class="devsite-nav-item devsite-nav-external"><a class="devsite-nav-title" href="/crawling/docs/crawlers-fetchers/reduce-crawl-rate"><span class="devsite-nav-text" tooltip="">Reduce the Google crawl rate</span><span aria-hidden="true" class="devsite-nav-icon material-icons"></span></a></li><li class="devsite-nav-item devsite-nav-external"><a class="devsite-nav-title" href="/crawling/docs/crawlers-fetchers/verifying-googlebot"><span class="devsite-nav-text" tooltip="">Verifying Googlebot and other Google crawlers</span><span aria-hidden="true" class="devsite-nav-icon material-icons"></span></a></li></ul></div></li></ul></div></li><li class="devsite-nav-item devsite-nav-expandable"><div class="devsite-expandable-nav">
+<a aria-hidden="true" class="devsite-nav-toggle"></a><div class="devsite-nav-title devsite-nav-title-no-path" role="button" tabindex="0">
+<span class="devsite-nav-text" tooltip="">robots.txt</span>
+</div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/crawling-indexing/robots/intro"><span class="devsite-nav-text" tooltip="">Introduction to robots.txt</span></a></li><li class="devsite-nav-item devsite-nav-external"><a class="devsite-nav-title" href="/crawling/docs/robots-txt/robots-txt-spec"><span class="devsite-nav-text" tooltip="">How Google interprets the robots.txt specification</span><span aria-hidden="true" class="devsite-nav-icon material-icons"></span></a></li></ul></div></li><li class="devsite-nav-item devsite-nav-expandable"><div class="devsite-expandable-nav">
+<a aria-hidden="true" class="devsite-nav-toggle"></a><div class="devsite-nav-title devsite-nav-title-no-path" role="button" tabindex="0">
+<span class="devsite-nav-text" tooltip="">Canonicalization</span>
+</div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/crawling-indexing/canonicalization"><span class="devsite-nav-text" tooltip="">What is URL canonicalization</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/crawling-indexing/consolidate-duplicate-urls"><span class="devsite-nav-text" tooltip="">How to specify a canonical URL with rel="canonical" and other methods</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/crawling-indexing/canonicalization-troubleshooting"><span class="devsite-nav-text" tooltip="">Fix canonicalization issues</span></a></li></ul></div></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/crawling-indexing/mobile/mobile-sites-mobile-first-indexing"><span class="devsite-nav-text" tooltip="">Mobile site and mobile-first indexing</span></a></li><li class="devsite-nav-item devsite-nav-expandable"><div class="devsite-expandable-nav">
+<a aria-hidden="true" class="devsite-nav-toggle"></a><div class="devsite-nav-title devsite-nav-title-no-path" role="button" tabindex="0">
+<span class="devsite-nav-text" tooltip="">AMP</span>
+</div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/crawling-indexing/amp"><span class="devsite-nav-text" tooltip="">About AMP on Google Search</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/crawling-indexing/amp/enhance-amp"><span class="devsite-nav-text" tooltip="">Enhance AMP content</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/crawling-indexing/amp/validate-amp"><span class="devsite-nav-text" tooltip="">Validate AMP content</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/crawling-indexing/amp/remove-amp"><span class="devsite-nav-text" tooltip="">Remove AMP content</span></a></li></ul></div></li><li class="devsite-nav-item devsite-nav-expandable"><div class="devsite-expandable-nav">
+<a aria-hidden="true" class="devsite-nav-toggle"></a><div class="devsite-nav-title devsite-nav-title-no-path" role="button" tabindex="0">
+<span class="devsite-nav-text" tooltip="">JavaScript</span>
+</div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/crawling-indexing/javascript/javascript-seo-basics"><span class="devsite-nav-text" tooltip="">Understand the JavaScript SEO basics</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/crawling-indexing/javascript/fix-search-javascript"><span class="devsite-nav-text" tooltip="">Fix search-related JavaScript problems</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/crawling-indexing/javascript/lazy-loading"><span class="devsite-nav-text" tooltip="">Fix lazy-loaded content</span></a></li><li class="devsite-nav-item devsite-nav-deprecated"><a class="devsite-nav-title" href="/search/docs/crawling-indexing/javascript/dynamic-rendering"><span class="devsite-nav-text" tooltip="">Dynamic rendering as a workaround</span><span aria-hidden="true" class="devsite-nav-icon material-icons"></span></a></li></ul></div></li><li class="devsite-nav-item devsite-nav-expandable"><div class="devsite-expandable-nav">
+<a aria-hidden="true" class="devsite-nav-toggle"></a><div class="devsite-nav-title devsite-nav-title-no-path" role="button" tabindex="0">
+<span class="devsite-nav-text" tooltip="">Page and content metadata</span>
+</div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/crawling-indexing/valid-page-metadata"><span class="devsite-nav-text" tooltip="">Page metadata</span></a></li><li class="devsite-nav-item devsite-nav-expandable"><div class="devsite-expandable-nav">
+<a aria-hidden="true" class="devsite-nav-toggle"></a><div class="devsite-nav-title devsite-nav-title-no-path" role="button" tabindex="0">
+<span class="devsite-nav-text" tooltip="">Meta tags</span>
+</div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/crawling-indexing/special-tags"><span class="devsite-nav-text" tooltip="">Meta tags and HTML attributes that Google supports</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/crawling-indexing/robots-meta-tag"><span class="devsite-nav-text" tooltip="">Robots meta tag, data-nosnippet, and X-Robots-Tag</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/crawling-indexing/block-indexing"><span class="devsite-nav-text" tooltip="">noindex</span></a></li></ul></div></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/crawling-indexing/qualify-outbound-links"><span class="devsite-nav-text" tooltip="">rel attributes</span></a></li></ul></div></li><li class="devsite-nav-item devsite-nav-expandable"><div class="devsite-expandable-nav">
+<a aria-hidden="true" class="devsite-nav-toggle"></a><div class="devsite-nav-title devsite-nav-title-no-path" role="button" tabindex="0">
+<span class="devsite-nav-text" tooltip="">Removals</span>
+</div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/crawling-indexing/control-what-you-share"><span class="devsite-nav-text" tooltip="">Control what you share with Google</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/crawling-indexing/remove-information"><span class="devsite-nav-text" tooltip="">Page removals</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/crawling-indexing/prevent-images-on-your-page"><span class="devsite-nav-text" tooltip="">Image removals</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/crawling-indexing/keep-redacted-information-out"><span class="devsite-nav-text" tooltip="">Redacted information</span></a></li></ul></div></li><li class="devsite-nav-item devsite-nav-expandable"><div class="devsite-expandable-nav">
+<a aria-hidden="true" class="devsite-nav-toggle"></a><div class="devsite-nav-title devsite-nav-title-no-path" role="button" tabindex="0">
+<span class="devsite-nav-text" tooltip="">Site moves and changes</span>
+</div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/crawling-indexing/301-redirects"><span class="devsite-nav-text" tooltip="">Redirects and Google Search</span></a></li><li class="devsite-nav-item devsite-nav-expandable"><div class="devsite-expandable-nav">
+<a aria-hidden="true" class="devsite-nav-toggle"></a><div class="devsite-nav-title devsite-nav-title-no-path" role="button" tabindex="0">
+<span class="devsite-nav-text" tooltip="">Site moves</span>
+</div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/crawling-indexing/site-move-no-url-changes"><span class="devsite-nav-text" tooltip="">Changing your hosting</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/crawling-indexing/site-move-with-url-changes"><span class="devsite-nav-text" tooltip="">Move a site with URL changes</span></a></li></ul></div></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/crawling-indexing/website-testing"><span class="devsite-nav-text" tooltip="">A/B testing</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/crawling-indexing/pause-online-business"><span class="devsite-nav-text" tooltip="">Temporarily pause or disable a website</span></a></li></ul></div></li></ul></div></li>
+<li class="devsite-nav-item devsite-nav-expandable devsite-nav-accordion"><div class="devsite-expandable-nav">
+<a aria-hidden="true" class="devsite-nav-toggle"></a><div class="devsite-nav-title devsite-nav-title-no-path" role="button" tabindex="0">
+<span class="devsite-nav-text" tooltip="">Ranking and search appearance</span>
+</div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance"><span class="devsite-nav-text" tooltip="">Overview</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/ai-features"><span class="devsite-nav-text" tooltip="">AI features</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/publication-dates"><span class="devsite-nav-text" tooltip="">Byline dates</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/favicon-in-search"><span class="devsite-nav-text" tooltip="">Favicons</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/featured-snippets"><span class="devsite-nav-text" tooltip="">Featured snippets</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/flexible-sampling"><span class="devsite-nav-text" tooltip="">Flexible Sampling</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/google-discover"><span class="devsite-nav-text" tooltip="">Google Discover</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/google-images"><span class="devsite-nav-text" tooltip="">Images</span></a></li><li class="devsite-nav-item devsite-nav-expandable"><div class="devsite-expandable-nav">
+<a aria-hidden="true" class="devsite-nav-toggle"></a><div class="devsite-nav-title devsite-nav-title-no-path" role="button" tabindex="0">
+<span class="devsite-nav-text" tooltip="">Local features</span>
+</div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/establish-business-details"><span class="devsite-nav-text" tooltip="">Business details</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/top-places-list"><span class="devsite-nav-text" tooltip="">Top Places List</span></a></li><li class="devsite-nav-item devsite-nav-external"><a class="devsite-nav-title" href="https://support.google.com/webmasters/answer/3035947"><span class="devsite-nav-text" tooltip="">Opting out of local search results</span><span aria-hidden="true" class="devsite-nav-icon material-icons"></span></a></li></ul></div></li><li class="devsite-nav-item devsite-nav-expandable"><div class="devsite-expandable-nav">
+<a aria-hidden="true" class="devsite-nav-toggle"></a><div class="devsite-nav-title devsite-nav-title-no-path" role="button" tabindex="0">
+<span class="devsite-nav-text" tooltip="">Page experience</span>
+</div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/page-experience"><span class="devsite-nav-text" tooltip="">Understanding page experience</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/core-web-vitals"><span class="devsite-nav-text" tooltip="">Core Web Vitals</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/avoid-intrusive-interstitials"><span class="devsite-nav-text" tooltip="">Interstitials and dialogs</span></a></li></ul></div></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/preferred-sources"><span class="devsite-nav-text" tooltip="">Preferred sources</span></a></li><li class="devsite-nav-item devsite-nav-expandable"><div class="devsite-expandable-nav">
+<a aria-hidden="true" class="devsite-nav-toggle"></a><div class="devsite-nav-title devsite-nav-title-no-path" role="button" tabindex="0">
+<span class="devsite-nav-text" tooltip="">Ranking systems</span>
+</div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/ranking-systems-guide"><span class="devsite-nav-text" tooltip="">A guide to Google Search ranking systems</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/reviews-system"><span class="devsite-nav-text" tooltip="">Reviews system</span></a></li></ul></div></li><li class="devsite-nav-item devsite-nav-expandable"><div class="devsite-expandable-nav">
+<a aria-hidden="true" class="devsite-nav-toggle"></a><div class="devsite-nav-title devsite-nav-title-no-path" role="button" tabindex="0">
+<span class="devsite-nav-text" tooltip="">Ranking updates</span>
+</div><ul class="devsite-nav-section"><li class="devsite-nav-item devsite-nav-external"><a class="devsite-nav-title" href="https://status.search.google.com/products/rGHU1u87FJnkP6W2GwMi/history"><span class="devsite-nav-text" tooltip="">List of ranking updates</span><span aria-hidden="true" class="devsite-nav-icon material-icons"></span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/core-updates"><span class="devsite-nav-text" tooltip="">Core updates</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/spam-updates"><span class="devsite-nav-text" tooltip="">Spam updates</span></a></li></ul></div></li><li class="devsite-nav-item devsite-nav-expandable"><div class="devsite-expandable-nav">
+<a aria-hidden="true" class="devsite-nav-toggle"></a><div class="devsite-nav-title devsite-nav-title-no-path" role="button" tabindex="0">
+<span class="devsite-nav-text" tooltip="">Regional differences in Search experience</span>
+</div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/aggregator-features"><span class="devsite-nav-text" tooltip="">Overview</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/aggregator-unit"><span class="devsite-nav-text" tooltip="">Aggregator unit</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/supplier-unit"><span class="devsite-nav-text" tooltip="">Supplier unit</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/ecosystem-carousel"><span class="devsite-nav-text" tooltip="">Ecosystem carousel</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/job-sites"><span class="devsite-nav-text" tooltip="">Job sites features</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/places-sites"><span class="devsite-nav-text" tooltip="">Places sites features</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/south-africa-features"><span class="devsite-nav-text" tooltip="">South Africa features</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/structured-data/carousels-beta"><span class="devsite-nav-text" tooltip="">Structured data carousels (beta)</span></a></li></ul></div></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/search-profiles"><span class="devsite-nav-text" tooltip="">Search profiles</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/site-names"><span class="devsite-nav-text" tooltip="">Site names</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/sitelinks"><span class="devsite-nav-text" tooltip="">Sitelinks</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/snippet"><span class="devsite-nav-text" tooltip="">Snippets</span></a></li><li class="devsite-nav-item devsite-nav-expandable"><div class="devsite-expandable-nav">
+<a aria-hidden="true" class="devsite-nav-toggle"></a><div class="devsite-nav-title devsite-nav-title-no-path" role="button" tabindex="0">
+<span class="devsite-nav-text" tooltip="">Structured data</span>
+</div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/structured-data/intro-structured-data"><span class="devsite-nav-text" tooltip="">Understand how structured data works</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/structured-data/sd-policies"><span class="devsite-nav-text" tooltip="">Structured data general guidelines</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/enriched-search-results"><span class="devsite-nav-text" tooltip="">Enriched search results</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/structured-data/generate-structured-data-with-javascript"><span class="devsite-nav-text" tooltip="">Generate structured data with JavaScript</span></a></li><li class="devsite-nav-item devsite-nav-expandable"><div class="devsite-expandable-nav">
+<a aria-hidden="true" class="devsite-nav-toggle"></a><div class="devsite-nav-title devsite-nav-title-no-path" role="button" tabindex="0">
+<span class="devsite-nav-text" tooltip="">Feature guides</span>
+</div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/structured-data/search-gallery"><span class="devsite-nav-text" tooltip="">All structured data features</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/structured-data/article"><span class="devsite-nav-text" tooltip="">Article</span></a></li><li class="devsite-nav-item devsite-nav-limited"><a class="devsite-nav-title" href="/search/docs/appearance/structured-data/book"><span class="devsite-nav-text" tooltip="">Book actions</span><span aria-hidden="true" class="devsite-nav-icon material-icons"></span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/structured-data/breadcrumb"><span class="devsite-nav-text" tooltip="">Breadcrumb</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/structured-data/carousel"><span class="devsite-nav-text" tooltip="">Carousel</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/structured-data/course"><span class="devsite-nav-text" tooltip="">Course list</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/structured-data/dataset"><span class="devsite-nav-text" tooltip="">Dataset</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/structured-data/discussion-forum"><span class="devsite-nav-text" tooltip="">Discussion forum</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/structured-data/education-qa"><span class="devsite-nav-text" tooltip="">Education Q&amp;A</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/structured-data/employer-rating"><span class="devsite-nav-text" tooltip="">Employer aggregate rating</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/structured-data/factcheck"><span class="devsite-nav-text" tooltip="">Fact check</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/structured-data/event"><span class="devsite-nav-text" tooltip="">Event</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/structured-data/image-license-metadata"><span class="devsite-nav-text" tooltip="">Image metadata</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/structured-data/job-posting"><span class="devsite-nav-text" tooltip="">Job posting</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/structured-data/local-business"><span class="devsite-nav-text" tooltip="">Local business</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/structured-data/math-solvers"><span class="devsite-nav-text" tooltip="">Math solver</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/structured-data/movie"><span class="devsite-nav-text" tooltip="">Movie carousel</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/structured-data/organization"><span class="devsite-nav-text" tooltip="">Organization</span></a></li><li class="devsite-nav-item devsite-nav-expandable"><div class="devsite-expandable-nav">
+<a aria-hidden="true" class="devsite-nav-toggle"></a><div class="devsite-nav-title devsite-nav-title-no-path" role="button" tabindex="0">
+<span class="devsite-nav-text" tooltip="">Shopping</span>
+</div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/structured-data/product"><span class="devsite-nav-text" tooltip="">Overview</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/structured-data/product-snippet"><span class="devsite-nav-text" tooltip="">Product snippet</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/structured-data/merchant-listing"><span class="devsite-nav-text" tooltip="">Merchant listing</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/structured-data/product-variants"><span class="devsite-nav-text" tooltip="">Variants</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/structured-data/loyalty-program"><span class="devsite-nav-text" tooltip="">Loyalty program</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/structured-data/return-policy"><span class="devsite-nav-text" tooltip="">Merchant return policy</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/structured-data/shipping-policy"><span class="devsite-nav-text" tooltip="">Merchant shipping policy</span></a></li></ul></div></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/structured-data/profile-page"><span class="devsite-nav-text" tooltip="">Profile page</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/structured-data/qapage"><span class="devsite-nav-text" tooltip="">Q&amp;A</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/structured-data/recipe"><span class="devsite-nav-text" tooltip="">Recipe</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/structured-data/review-snippet"><span class="devsite-nav-text" tooltip="">Review snippet</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/structured-data/software-app"><span class="devsite-nav-text" tooltip="">Software app</span></a></li><li class="devsite-nav-item devsite-nav-beta"><a class="devsite-nav-title" href="/search/docs/appearance/structured-data/speakable"><span class="devsite-nav-text" tooltip="">Speakable</span><span aria-hidden="true" class="devsite-nav-icon material-icons"></span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/structured-data/paywalled-content"><span class="devsite-nav-text" tooltip="">Subscription and paywalled content</span></a></li><li class="devsite-nav-item devsite-nav-limited"><a class="devsite-nav-title" href="/search/docs/appearance/structured-data/vacation-rental"><span class="devsite-nav-text" tooltip="">Vacation rental</span><span aria-hidden="true" class="devsite-nav-icon material-icons"></span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/structured-data/video"><span class="devsite-nav-text" tooltip="">Video</span></a></li></ul></div></li></ul></div></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/title-link"><span class="devsite-nav-text" tooltip="">Title links</span></a></li><li class="devsite-nav-item devsite-nav-expandable"><div class="devsite-expandable-nav">
+<a aria-hidden="true" class="devsite-nav-toggle"></a><div class="devsite-nav-title devsite-nav-title-no-path" role="button" tabindex="0">
+<span class="devsite-nav-text" tooltip="">Translated features</span>
+</div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/translated-results"><span class="devsite-nav-text" tooltip="">Translated results</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/ad-network-and-translation"><span class="devsite-nav-text" tooltip="">Ad networks and translation-related Google Search features</span></a></li></ul></div></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/video"><span class="devsite-nav-text" tooltip="">Videos</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/visual-elements-gallery"><span class="devsite-nav-text" tooltip="">Visual Elements gallery</span></a></li><li class="devsite-nav-item devsite-nav-expandable"><div class="devsite-expandable-nav">
+<a aria-hidden="true" class="devsite-nav-toggle"></a><div class="devsite-nav-title devsite-nav-title-no-path" role="button" tabindex="0">
+<span class="devsite-nav-text" tooltip="">Web Stories</span>
+</div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/enable-web-stories"><span class="devsite-nav-text" tooltip="">Enable Web Stories on Google</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/web-stories-creation-best-practices"><span class="devsite-nav-text" tooltip="">Best practices for creating Web Stories</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/web-stories-content-policy"><span class="devsite-nav-text" tooltip="">Web Story content policy</span></a></li></ul></div></li><li class="devsite-nav-item devsite-nav-expandable"><div class="devsite-expandable-nav">
+<a aria-hidden="true" class="devsite-nav-toggle"></a><div class="devsite-nav-title devsite-nav-title-no-path" role="button" tabindex="0">
+<span class="devsite-nav-text" tooltip="">Early Adopters Program</span>
+</div><ul class="devsite-nav-section"><li class="devsite-nav-item devsite-nav-beta"><a class="devsite-nav-title" href="/search/docs/appearance/package-tracking"><span class="devsite-nav-text" tooltip="">Package tracking</span><span aria-hidden="true" class="devsite-nav-icon material-icons"></span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/appearance/ugc-fresh-data-program"><span class="devsite-nav-text" tooltip="">UGC Fresh Data</span></a></li></ul></div></li></ul></div></li>
+<li class="devsite-nav-item devsite-nav-expandable devsite-nav-accordion"><div class="devsite-expandable-nav">
+<a aria-hidden="true" class="devsite-nav-toggle"></a><div class="devsite-nav-title devsite-nav-title-no-path" role="button" tabindex="0">
+<span class="devsite-nav-text" tooltip="">Monitoring and debugging</span>
+</div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/monitor-debug/debugging-search-traffic-drops"><span class="devsite-nav-text" tooltip="">Debug drops in Search traffic</span></a></li><li class="devsite-nav-item devsite-nav-expandable"><div class="devsite-expandable-nav">
+<a aria-hidden="true" class="devsite-nav-toggle"></a><div class="devsite-nav-title devsite-nav-title-no-path" role="button" tabindex="0">
+<span class="devsite-nav-text" tooltip="">Monitor with Search Console</span>
+</div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/monitor-debug/search-console-start"><span class="devsite-nav-text" tooltip="">Get started with Search Console</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/monitor-debug/bubble-chart-analysis"><span class="devsite-nav-text" tooltip="">Improve SEO with a bubble chart</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/monitor-debug/google-analytics-search-console"><span class="devsite-nav-text" tooltip="">Using Search Console and Google Analytics data for SEO</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/monitor-debug/analyze-social-video-content"><span class="devsite-nav-text" tooltip="">Analyze social and video platform content</span></a></li></ul></div></li><li class="devsite-nav-item devsite-nav-expandable"><div class="devsite-expandable-nav">
+<a aria-hidden="true" class="devsite-nav-toggle"></a><div class="devsite-nav-title devsite-nav-title-no-path" role="button" tabindex="0">
+<span class="devsite-nav-text" tooltip="">Debug with search operators</span>
+</div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/monitor-debug/search-operators"><span class="devsite-nav-text" tooltip="">Overview</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/monitor-debug/search-operators/all-search-site"><span class="devsite-nav-text" tooltip="">site: search operator</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/monitor-debug/search-operators/image-search"><span class="devsite-nav-text" tooltip="">Google Images search operators</span></a></li></ul></div></li><li class="devsite-nav-item devsite-nav-expandable"><div class="devsite-expandable-nav">
+<a aria-hidden="true" class="devsite-nav-toggle"></a><div class="devsite-nav-title devsite-nav-title-no-path" role="button" tabindex="0">
+<span class="devsite-nav-text" tooltip="">Preventing and monitoring abuse</span>
+</div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/monitor-debug/security"><span class="devsite-nav-text" tooltip="">Overview</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/monitor-debug/prevent-abuse"><span class="devsite-nav-text" tooltip="">Prevent user-generated spam</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/monitor-debug/security/malware"><span class="devsite-nav-text" tooltip="">Malware and unwanted software</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/monitor-debug/security/prevent-malware"><span class="devsite-nav-text" tooltip="">Prevent a malware infection</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/monitor-debug/security/social-engineering"><span class="devsite-nav-text" tooltip="">Social engineering (phishing and deceptive sites)</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/monitor-debug/security/safe-browsing-repeat-offenders"><span class="devsite-nav-text" tooltip="">Google Safe Browsing Repeat Offenders Policy</span></a></li></ul></div></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/monitor-debug/trends-start"><span class="devsite-nav-text" tooltip="">Get started with Google Trends</span></a></li></ul></div></li>
+<li class="devsite-nav-item devsite-nav-expandable devsite-nav-accordion"><div class="devsite-expandable-nav">
+<a aria-hidden="true" class="devsite-nav-toggle"></a><div class="devsite-nav-title devsite-nav-title-no-path" role="button" tabindex="0">
+<span class="devsite-nav-text" tooltip="">Site-specific guides</span>
+</div><ul class="devsite-nav-section"><li class="devsite-nav-item devsite-nav-expandable"><div class="devsite-expandable-nav">
+<a aria-hidden="true" class="devsite-nav-toggle"></a><div class="devsite-nav-title devsite-nav-title-no-path" role="button" tabindex="0">
+<span class="devsite-nav-text" tooltip="">Ecommerce</span>
+</div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/specialty/ecommerce"><span class="devsite-nav-text" tooltip="">Overview</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/specialty/ecommerce/where-ecommerce-data-can-appear-on-google"><span class="devsite-nav-text" tooltip="">Where content can appear</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/specialty/ecommerce/share-your-product-data-with-google"><span class="devsite-nav-text" tooltip="">Share product data</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/specialty/ecommerce/include-structured-data-relevant-to-ecommerce"><span class="devsite-nav-text" tooltip="">Include structured data</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/specialty/ecommerce/how-to-launch-an-ecommerce-website"><span class="devsite-nav-text" tooltip="">Launch a new website</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/specialty/ecommerce/write-high-quality-reviews"><span class="devsite-nav-text" tooltip="">Write high quality reviews</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/specialty/ecommerce/designing-a-url-structure-for-ecommerce-sites"><span class="devsite-nav-text" tooltip="">Design a URL structure</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/specialty/ecommerce/help-google-understand-your-ecommerce-site-structure"><span class="devsite-nav-text" tooltip="">Ecommerce site structure</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/specialty/ecommerce/pagination-and-incremental-page-loading"><span class="devsite-nav-text" tooltip="">Pagination, incremental page loading, and Search</span></a></li></ul></div></li><li class="devsite-nav-item devsite-nav-expandable"><div class="devsite-expandable-nav">
+<a aria-hidden="true" class="devsite-nav-toggle"></a><div class="devsite-nav-title devsite-nav-title-no-path" role="button" tabindex="0">
+<span class="devsite-nav-text" tooltip="">International and multilingual</span>
+</div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/specialty/international"><span class="devsite-nav-text" tooltip="">Overview</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/specialty/international/managing-multi-regional-sites"><span class="devsite-nav-text" tooltip="">Managing multi-regional and multilingual sites</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/specialty/international/localized-versions"><span class="devsite-nav-text" tooltip="">Tell Google about localized versions of your page</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/specialty/international/locale-adaptive-pages"><span class="devsite-nav-text" tooltip="">How Google crawls locale-adaptive pages</span></a></li></ul></div></li><li class="devsite-nav-item devsite-nav-expandable"><div class="devsite-expandable-nav">
+<a aria-hidden="true" class="devsite-nav-toggle"></a><div class="devsite-nav-title devsite-nav-title-no-path" role="button" tabindex="0">
+<span class="devsite-nav-text" tooltip="">Explicit content</span>
+</div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/specialty/explicit/guidelines"><span class="devsite-nav-text" tooltip="">Guidelines for sites with explicit content</span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="/search/docs/specialty/explicit/troubleshooting"><span class="devsite-nav-text" tooltip="">What to do if your site is incorrectly flagged as explicit</span></a></li></ul></div></li></ul></div></li>
+</ul>
+<ul aria-label="Side menu" class="devsite-nav-list" hidden="" menu="Documentation">
+<li class="devsite-nav-item devsite-nav-heading">
+<span class="devsite-nav-title" tooltip="">
+<span class="devsite-nav-text" tooltip="">
+      SEO fundamentals
+   </span>
+</span>
+</li>
+<li class="devsite-nav-item">
+<a class="devsite-nav-title gc-analytics-event" href="/search/docs" track-metadata-eventdetail="globalMenu" track-metadata-position="nav" track-type="navMenu">
+<span class="devsite-nav-text" tooltip="">
+      Introduction
+   </span>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a class="devsite-nav-title gc-analytics-event" href="/search/docs/essentials" track-metadata-eventdetail="globalMenu" track-metadata-position="nav" track-type="navMenu">
+<span class="devsite-nav-text" tooltip="">
+      Search Essentials
+   </span>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a class="devsite-nav-title gc-analytics-event" href="/search/docs/fundamentals/seo-starter-guide" track-metadata-eventdetail="globalMenu" track-metadata-position="nav" track-type="navMenu">
+<span class="devsite-nav-text" tooltip="">
+      SEO Starter Guide
+   </span>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a class="devsite-nav-title gc-analytics-event" href="/search/docs/fundamentals/ai-optimization-guide" track-metadata-eventdetail="globalMenu" track-metadata-position="nav" track-type="navMenu">
+<span class="devsite-nav-text" tooltip="">
+      Optimizing for generative AI search
+   </span>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a class="devsite-nav-title gc-analytics-event" href="/search/docs/fundamentals/how-search-works" track-metadata-eventdetail="globalMenu" track-metadata-position="nav" track-type="navMenu">
+<span class="devsite-nav-text" tooltip="">
+      How Google Search Works
+   </span>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a class="devsite-nav-title gc-analytics-event" href="/search/docs/fundamentals/do-i-need-seo" track-metadata-eventdetail="globalMenu" track-metadata-position="nav" track-type="navMenu">
+<span class="devsite-nav-text" tooltip="">
+      Do you need an SEO?
+   </span>
+</a>
+</li>
+<li class="devsite-nav-item devsite-nav-heading">
+<span class="devsite-nav-title" tooltip="">
+<span class="devsite-nav-text" tooltip="">
+      Crawling and indexing
+   </span>
+</span>
+</li>
+<li class="devsite-nav-item">
+<a class="devsite-nav-title gc-analytics-event" href="/search/docs/crawling-indexing/sitemaps/overview" track-metadata-eventdetail="globalMenu" track-metadata-position="nav" track-type="navMenu">
+<span class="devsite-nav-text" tooltip="">
+      Sitemaps
+   </span>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a class="devsite-nav-title gc-analytics-event" href="/search/docs/crawling-indexing/robots/intro" track-metadata-eventdetail="globalMenu" track-metadata-position="nav" track-type="navMenu">
+<span class="devsite-nav-text" tooltip="">
+      robots.txt
+   </span>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a class="devsite-nav-title gc-analytics-event" href="/search/docs/crawling-indexing/special-tags" track-metadata-eventdetail="globalMenu" track-metadata-position="nav" track-type="navMenu">
+<span class="devsite-nav-text" tooltip="">
+      Meta tags
+   </span>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a class="devsite-nav-title gc-analytics-event" href="/search/docs/crawling-indexing/ask-google-to-recrawl" track-metadata-eventdetail="globalMenu" track-metadata-position="nav" track-type="navMenu">
+<span class="devsite-nav-text" tooltip="">
+      Crawler management
+   </span>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a class="devsite-nav-title gc-analytics-event" href="/search/docs/crawling-indexing/control-what-you-share" track-metadata-eventdetail="globalMenu" track-metadata-position="nav" track-type="navMenu">
+<span class="devsite-nav-text" tooltip="">
+      Removals
+   </span>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a class="devsite-nav-title gc-analytics-event" href="/search/docs/crawling-indexing/consolidate-duplicate-urls" track-metadata-eventdetail="globalMenu" track-metadata-position="nav" track-type="navMenu">
+<span class="devsite-nav-text" tooltip="">
+      Canonicalization
+   </span>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a class="devsite-nav-title gc-analytics-event" href="/search/docs/crawling-indexing/301-redirects" track-metadata-eventdetail="globalMenu" track-metadata-position="nav" track-type="navMenu">
+<span class="devsite-nav-text" tooltip="">
+      Redirects
+   </span>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a class="devsite-nav-title gc-analytics-event" href="/search/docs/crawling-indexing/javascript/javascript-seo-basics" track-metadata-eventdetail="globalMenu" track-metadata-position="nav" track-type="navMenu">
+<span class="devsite-nav-text" tooltip="">
+      JavaScript SEO
+   </span>
+</a>
+</li>
+<li class="devsite-nav-item devsite-nav-heading">
+<span class="devsite-nav-title" tooltip="">
+<span class="devsite-nav-text" tooltip="">
+      Ranking and search appearance
+   </span>
+</span>
+</li>
+<li class="devsite-nav-item">
+<a class="devsite-nav-title gc-analytics-event" href="/search/docs/appearance/visual-elements-gallery" track-metadata-eventdetail="globalMenu" track-metadata-position="nav" track-type="navMenu">
+<span class="devsite-nav-text" tooltip="">
+      Visual Elements gallery
+   </span>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a class="devsite-nav-title gc-analytics-event" href="/search/docs/appearance/title-link" track-metadata-eventdetail="globalMenu" track-metadata-position="nav" track-type="navMenu">
+<span class="devsite-nav-text" tooltip="">
+      Title links
+   </span>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a class="devsite-nav-title gc-analytics-event" href="/search/docs/appearance/snippet" track-metadata-eventdetail="globalMenu" track-metadata-position="nav" track-type="navMenu">
+<span class="devsite-nav-text" tooltip="">
+      Snippets
+   </span>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a class="devsite-nav-title gc-analytics-event" href="/search/docs/appearance/google-images" track-metadata-eventdetail="globalMenu" track-metadata-position="nav" track-type="navMenu">
+<span class="devsite-nav-text" tooltip="">
+      Images
+   </span>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a class="devsite-nav-title gc-analytics-event" href="/search/docs/appearance/video" track-metadata-eventdetail="globalMenu" track-metadata-position="nav" track-type="navMenu">
+<span class="devsite-nav-text" tooltip="">
+      Videos
+   </span>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a class="devsite-nav-title gc-analytics-event" href="/search/docs/appearance/structured-data/search-gallery" track-metadata-eventdetail="globalMenu" track-metadata-position="nav" track-type="navMenu">
+<span class="devsite-nav-text" tooltip="">
+      Structured data
+   </span>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a class="devsite-nav-title gc-analytics-event" href="/search/docs/appearance/favicon-in-search" track-metadata-eventdetail="globalMenu" track-metadata-position="nav" track-type="navMenu">
+<span class="devsite-nav-text" tooltip="">
+      Favicons
+   </span>
+</a>
+</li>
+<li class="devsite-nav-item devsite-nav-heading">
+<span class="devsite-nav-title" tooltip="">
+<span class="devsite-nav-text" tooltip="">
+      Site-specific guides
+   </span>
+</span>
+</li>
+<li class="devsite-nav-item">
+<a class="devsite-nav-title gc-analytics-event" href="/search/docs/specialty/ecommerce" track-metadata-eventdetail="globalMenu" track-metadata-position="nav" track-type="navMenu">
+<span class="devsite-nav-text" tooltip="">
+      Ecommerce
+   </span>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a class="devsite-nav-title gc-analytics-event" href="/search/docs/specialty/international" track-metadata-eventdetail="globalMenu" track-metadata-position="nav" track-type="navMenu">
+<span class="devsite-nav-text" tooltip="">
+      International and multilingual sites
+   </span>
+</a>
+</li>
+<li class="devsite-nav-item devsite-nav-heading">
+<span class="devsite-nav-title" tooltip="">
+<span class="devsite-nav-text" tooltip="">
+      Data analysis
+   </span>
+</span>
+</li>
+<li class="devsite-nav-item">
+<a class="devsite-nav-title gc-analytics-event" href="/search/docs/monitor-debug/debugging-search-traffic-drops" track-metadata-eventdetail="globalMenu" track-metadata-position="nav" track-type="navMenu">
+<span class="devsite-nav-text" tooltip="">
+      Debug traffic drops
+   </span>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a class="devsite-nav-title gc-analytics-event" href="/search/docs/monitor-debug/google-analytics-search-console" track-metadata-eventdetail="globalMenu" track-metadata-position="nav" track-type="navMenu">
+<span class="devsite-nav-text" tooltip="">
+      Using Search Console and Google Analytics data for SEO
+   </span>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a class="devsite-nav-title gc-analytics-event" href="/search/docs/monitor-debug/analyze-social-video-content" track-metadata-eventdetail="globalMenu" track-metadata-position="nav" track-type="navMenu">
+<span class="devsite-nav-text" tooltip="">
+      Analyze social and video platform content
+   </span>
+</a>
+</li>
+</ul>
+<ul aria-label="Side menu" class="devsite-nav-list" hidden="" menu="What's new">
+<li class="devsite-nav-item">
+<a class="devsite-nav-title gc-analytics-event" href="/search/news" track-metadata-eventdetail="globalMenu" track-metadata-position="nav" track-type="navMenu">
+<span class="devsite-nav-text" tooltip="">
+      All updates
+   </span>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a class="devsite-nav-title gc-analytics-event" href="/search/updates" track-metadata-eventdetail="globalMenu" track-metadata-position="nav" track-type="navMenu">
+<span class="devsite-nav-text" tooltip="">
+      Documentation updates
+   </span>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a class="devsite-nav-title gc-analytics-event" href="https://status.search.google.com/products/rGHU1u87FJnkP6W2GwMi/history" track-metadata-eventdetail="globalMenu" track-metadata-position="nav" track-type="navMenu">
+<span class="devsite-nav-text" tooltip="">
+      Ranking updates
+   </span>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a class="devsite-nav-title gc-analytics-event" href="https://www.youtube.com/channel/UCWf2ZlNsCGDS89VBF_awNvA" track-metadata-eventdetail="globalMenu" track-metadata-position="nav" track-type="navMenu">
+<span class="devsite-nav-text" tooltip="">
+      New YouTube videos
+   </span>
+</a>
+</li>
+<li class="devsite-nav-item">
+<a class="devsite-nav-title gc-analytics-event" href="https://pod.link/1512522198" track-metadata-eventdetail="globalMenu" track-metadata-position="nav" track-type="navMenu">
+<span class="devsite-nav-text" tooltip="">
+      Recent podcast episodes
+   </span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+</devsite-book-nav>
+<section id="gc-wrapper">
+<main class="devsite-main-content" has-book-nav="" has-sidebar="" id="main-content" role="main">
+<div class="devsite-sidebar">
+<div class="devsite-sidebar-content">
+<devsite-toc aria-label="On this page" class="devsite-nav" depth="2" role="navigation" scrollbars=""></devsite-toc>
+<devsite-recommendations-sidebar class="nocontent devsite-nav">
+</devsite-recommendations-sidebar>
+</div>
+</div>
+<devsite-content>
+<article class="devsite-article">
+<div class="devsite-article-meta nocontent" role="navigation">
+<ul aria-label="Breadcrumb" class="devsite-breadcrumb-list">
+<li class="devsite-breadcrumb-item">
+<a class="devsite-breadcrumb-link gc-analytics-event" href="https://developers.google.com/" track-metadata-eventdetail="" track-metadata-position="1" track-name="breadcrumb" track-type="globalNav">
+    
+          Home
+        
+  </a>
+</li>
+<li class="devsite-breadcrumb-item">
+<div aria-hidden="true" class="devsite-breadcrumb-guillemet material-icons"></div>
+<a class="devsite-breadcrumb-link gc-analytics-event" href="https://developers.google.com/search" track-metadata-eventdetail="Google Search Central" track-metadata-position="2" track-name="breadcrumb" track-type="globalNav">
+    
+          Search Central
+        
+  </a>
+</li>
+<li class="devsite-breadcrumb-item">
+<div aria-hidden="true" class="devsite-breadcrumb-guillemet material-icons"></div>
+<a class="devsite-breadcrumb-link gc-analytics-event" href="https://developers.google.com/search/docs" track-metadata-eventdetail="Documentation" track-metadata-position="3" track-name="breadcrumb" track-type="globalNav">
+    
+          Documentation
+        
+  </a>
+</li>
+</ul>
+<devsite-thumb-rating position="header">
+</devsite-thumb-rating>
+</div>
+<devsite-feedback bucket="Search Docs" class="nocontent" context="DevSite feedback link" disable-product-feedback="" position="header" product-id="103417" project-icon="https://developers.google.com/static/search/images/google-search-central-logo.svg" project-name="Documentation" project-support-url="https://developers.google.com/search/help" track-metadata-position="header" track-name="sendFeedbackLink" track-type="feedback" version="t-devsite-webserver-20261029-r00-rc00.481474161002368321">
+<button>
+  
+    
+    Send feedback
+  
+  </button>
+</devsite-feedback>
+<devsite-actions hidden="">
+<devsite-llm-tools></devsite-llm-tools></devsite-actions>
+<devsite-toc class="devsite-nav" depth="2" devsite-toc-embedded="">
+</devsite-toc>
+<div class="devsite-article-body clearfix devsite-no-page-title">
+<h1 class="page-title" id="video-videoobject,-clip,-broadcastevent-structured-data" tabindex="-1">Video (<code dir="ltr" translate="no">VideoObject</code>, <code dir="ltr" translate="no">Clip</code>, <code dir="ltr" translate="no">BroadcastEvent</code>) structured data</h1>
+<p>While Google tries to automatically understand details about your video, you can influence the
+  information that's shown in video results, such as the description, thumbnail URL, upload date, and duration, by marking up
+  your video with <a href="#video-object"><code dir="ltr" translate="no">VideoObject</code></a>. Adding video structured data
+  to your <a href="/search/docs/appearance/video#watch-page">watch pages</a> can also make it easier
+  for Google to find your video. Videos can appear in several different places on Google, including
+  the main search results page, Video mode, Google Images, and
+  <a href="/search/docs/appearance/google-discover">Google Discover</a>.</p>
+<img alt="Video content in Google search results, the video tab, and Discover" src="/static/search/docs/images/video-on-google.png"/>
+<p>
+  Based on how you mark up your watch page, your videos may also be eligible for the following
+  specific video features:</p>
+<table class="responsive">
+<th colspan="2"><b>Video features</b></th>
+<tr>
+<td><p>
+<b>LIVE badge</b>: Get a LIVE badge added to your video by marking your video with
+      <a href="#broadcast-event"><code dir="ltr" translate="no">BroadcastEvent</code></a>. The LIVE badge can be applied to
+      any public video that is live-streamed for any length of time. Here are a few examples:</p>
+<ul>
+<li>Sporting events</li>
+<li>Awards shows</li>
+<li>Influencer videos</li>
+<li>Live streaming video games</li>
+</ul>
+<p>
+        Make sure you follow the <a href="#livestream-guidelines">LIVE badge guidelines</a> and use
+        the <a href="/search/apis/indexing-api/v3/quickstart">Indexing API</a> to make sure
+        Google crawls your page at the right time.
+      </p>
+</td>
+<td>
+<img alt="Video with a LIVE badge in search results" src="/static/search/docs/images/video-livestream.png"/>
+</td>
+</tr>
+<tr id="key-moments">
+<td>
+<p>
+<b>Key moments</b>
+</p>
+<p>
+    The key moments feature is a way for users to navigate video segments like chapters in a book,
+    which can help users engage more deeply with your content. Google Search tries to automatically
+    detect the segments in your video and show key moments to users, without any effort on your
+    part. Alternatively, you can tell Google about the important points of your video. We
+    will prioritize key moments set by you, either through structured data or the YouTube description.
+  </p>
+<ul>
+<li><b>If your video is embedded on your web page or you're running a video platform</b>, there are two ways that you can enable key moments:
+      <ul>
+<li><a href="/search/docs/appearance/structured-data/video#clip"><code dir="ltr" translate="no">Clip</code> structured data</a>:
+          Specify the exact start and end time to each segment, and what label to display for each
+          segment. This is supported in all languages where Google Search is available.</li>
+<li><a href="/search/docs/appearance/structured-data/video#seek"><code dir="ltr" translate="no">SeekToAction</code> structured data</a>:
+          Tell Google where timestamps typically go in your URL structure, so that Google can
+          automatically identify key moments and link users to those points within the video. This
+          is supported for the following languages: English, Spanish, Portuguese, Italian, Chinese,
+          French, Japanese, German, Turkish, Korean, Dutch, and Russian.
+        </li>
+</ul>
+</li>
+<li><b>If your video is hosted on YouTube</b>, you can specify the exact timestamps and labels
+       in the video description on YouTube. Check out the
+      <a href="/search/docs/appearance/structured-data/video#best-practices-youtube">best practices for marking timestamps in YouTube descriptions</a>.
+      This is supported in all languages where Google Search is available. If you want to enable
+      Video Chapters on YouTube, follow these
+        <a class="external-link" href="https://support.google.com/youtube/answer/9884579">additional guidelines</a>.
+    </li>
+</ul>
+<p>To opt out of the key moments feature completely (including any efforts Google may make to show
+    key moments automatically for your video), use the
+  <a href="/search/docs/appearance/snippet#nosnippet"><code dir="ltr" translate="no">nosnippet</code></a> <code dir="ltr" translate="no">meta</code> tag.
+  </p>
+</td>
+<td>
+<img alt="Video with key moments in search results" src="/static/search/docs/images/video-key-moments.png"/>
+</td>
+</tr>
+</table>
+<h2 id="add-structured-data" tabindex="-1">
+    How to add structured data
+  </h2>
+<p>
+    Structured data is a standardized format for providing information about a page and classifying the page
+    content. If you're new to structured data, you can learn more about
+    <a href="/search/docs/appearance/structured-data/intro-structured-data">how structured data works</a>.
+    </p>
+<p>
+    Here's an overview of how to build, test, and release structured data.</p>
+<ol>
+<li>Add the <a href="#structured-data-type-definitions">required properties</a>. Based on the
+      format you're using, learn where to <a href="/search/docs/appearance/structured-data/intro-structured-data#format-placement">insert structured data on the page</a>.
+    <aside class="note">
+<b>Using a CMS?</b> It may be easier to use a plugin that's integrated into your CMS.
+      <br/>
+<b>Using JavaScript?</b> Learn how to
+      <a href="/search/docs/appearance/structured-data/generate-structured-data-with-javascript">generate structured data with JavaScript</a>.</aside>
+</li>
+<li>Follow the <a href="#guidelines">guidelines</a>.</li>
+<li>Validate your code using the
+      <a class="external-link" href="https://search.google.com/test/rich-results">Rich Results Test</a>
+      and fix any critical errors. Consider also fixing any non-critical issues that may be flagged
+      in the tool, as they can help improve the quality of your structured data (however, this isn't necessary to be eligible for rich results). </li>
+<li>Deploy a few pages that include your structured data and use the <a class="external-link" href="https://support.google.com/webmasters/answer/9012289">URL Inspection tool</a> to test how Google sees the page. Be sure that your page is
+      accessible to Google and not blocked by a robots.txt file, the <code dir="ltr" translate="no">noindex</code> tag, or
+      login requirements. If the page looks okay, you can
+      <a class="external-link" href="/search/docs/crawling-indexing/ask-google-to-recrawl">ask Google to recrawl your URLs</a>.
+    <aside class="note"><b>Note</b>: Allow time for re-crawling and re-indexing. Remember that it
+      may take several days after publishing a page for Google to find and crawl it.</aside>
+</li>
+<li>To keep Google informed of future changes, we recommend that you
+      <a class="external-link" href="/search/docs/crawling-indexing/sitemaps/build-sitemap">submit a sitemap</a>. You can automate this with the
+      <a class="external-link" href="/webmaster-tools/v1/sitemaps">Search Console Sitemap API</a>.</li>
+</ol>
+<h2 id="examples" tabindex="-1">Examples</h2>
+<h3 id="standard-example" tabindex="-1">
+  Standard video result
+</h3>
+<img alt="Example of standard video search results" class="screenshot" src="/static/search/docs/images/video-search-results.png" width="35%"/>
+<p>Here's an example of a single <a href="#video-object"><code dir="ltr" translate="no">VideoObject</code></a>.</p>
+<section class="kd-tabbed-horz" id="horzTab">
+<article class="selected">
+<header>JSON-LD</header>
+<form action="https://search.google.com/test/rich-results?utm_campaign=devsite&amp;utm_medium=jsonld&amp;utm_source=video" class="gc-analytics-event" method="post" target="_blank"><input type="submit"/><textarea name="code_snippet" style="display:none"></textarea></form>
+<br/>
+<div></div><devsite-code><pre class="devsite-click-to-copy" dir="ltr" is-upgraded="" syntax="Text only" syntax-guessed="" translate="no">&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Introducing the self-driving bicycle in the Netherlands&lt;/title&gt;
+    &lt;script type="application/ld+json"&gt;
+    {
+      "@context": "https://schema.org",
+      "@type": "VideoObject",
+      "name": "Introducing the self-driving bicycle in the Netherlands",
+      "description": "This spring, Google is introducing the self-driving bicycle in Amsterdam, the world's premier cycling city. The Dutch cycle more than any other nation in the world, almost 900 kilometres per year per person, amounting to over 15 billion kilometres annually. The self-driving bicycle enables safe navigation through the city for Amsterdam residents, and furthers Google's ambition to improve urban mobility with technology. Google Netherlands takes enormous pride in the fact that a Dutch team worked on this innovation that will have great impact in their home country.",
+      "thumbnailUrl": [
+        "https://example.com/photos/1x1/photo.jpg",
+        "https://example.com/photos/4x3/photo.jpg",
+        "https://example.com/photos/16x9/photo.jpg"
+       ],
+      "uploadDate": "2024-03-31T08:00:00+08:00",
+      "duration": "PT1M54S",
+      "contentUrl": "https://www.example.com/video/123/file.mp4",
+      "embedUrl": "https://www.example.com/embed/123",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": { "@type": "WatchAction" },
+        "userInteractionCount": 5647018
+      },
+      "creator": {
+        "@type": "Organization",
+        "name": "Google Netherlands",
+        "url": "https://www.example.com"
+      },
+      "regionsAllowed": ["US", "NL"]
+    }
+    &lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</pre></devsite-code>
+</article>
+<article>
+<header>Microdata</header>
+<form action="https://search.google.com/test/rich-results?utm_campaign=devsite&amp;utm_medium=jsonld&amp;utm_source=video" class="gc-analytics-event" method="post" target="_blank"><input type="submit"/><textarea name="code_snippet" style="display:none"></textarea></form>
+<br/>
+<div></div><devsite-code><pre class="devsite-click-to-copy" dir="ltr" is-upgraded="" syntax="Text only" syntax-guessed="" translate="no">&lt;html itemscope itemprop="VideoObject" itemtype="https://schema.org/VideoObject"&gt;
+&lt;head&gt;
+  &lt;title itemprop="name"&gt;Introducing the self-driving bicycle in the Netherlands&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;meta itemprop="uploadDate" content="2024-03-31T08:00:00+08:00" /&gt;
+  &lt;meta itemprop="duration" content="PT1M54S" /&gt;
+  &lt;p itemprop="description"&gt;This spring, Google is introducing the self-driving bicycle in Amsterdam, the world's premier cycling city. The Dutch cycle more than any other nation in the world, almost 900 kilometres per year per person, amounting to over 15 billion kilometres annually. The self-driving bicycle enables safe navigation through the city for Amsterdam residents, and furthers Google's ambition to improve urban mobility with technology. Google Netherlands takes enormous pride in the fact that a Dutch team worked on this innovation that will have great impact in their home country.&lt;/p&gt;
+  &lt;div itemprop="interactionStatistic" itemtype="https://schema.org/InteractionCounter" itemscope&gt;
+    &lt;meta itemprop="userInteractionCount" content="5647018" /&gt;
+    &lt;meta itemprop="interactionType" itemtype="https://schema.org/WatchAction" /&gt;
+  &lt;/div&gt;
+  &lt;span itemprop="creator" itemscope itemtype="https://schema.org/Organization"&gt;
+    &lt;meta itemprop="name" content="Google Netherlands" /&gt;
+    &lt;link itemprop="url" href="https://www.example.com" /&gt;
+  &lt;/span&gt;
+  &lt;link itemprop="embedUrl" href="https://www.example.com/embed/123" /&gt;
+  &lt;meta itemprop="contentUrl" content="https://www.example.com/video/123/file.mp4" /&gt;
+  &lt;meta itemprop="regionsAllowed" content="US" /&gt;
+  &lt;meta itemprop="regionsAllowed" content="NL" /&gt;
+  &lt;meta itemprop="thumbnailUrl" content="https://example.com/photos/1x1/photo.jpg" /&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre></devsite-code>
+</article>
+</section>
+<h3 id="live-example" tabindex="-1">
+  LIVE badge
+</h3>
+<img alt="Example of a video in search results with a LIVE badge" class="screenshot" src="/static/search/docs/images/video-livestream.png" width="35%"/>
+<p>Here's an example of <a href="#video-object"><code dir="ltr" translate="no">VideoObject</code></a> and <a href="#broadcast-event"><code dir="ltr" translate="no">BroadcastEvent</code></a>.</p>
+<section class="kd-tabbed-horz" id="horzTab">
+<article class="selected">
+<header>JSON-LD</header>
+<form action="https://search.google.com/test/rich-results?utm_campaign=devsite&amp;utm_medium=jsonld&amp;utm_source=livestream" class="gc-analytics-event" method="post" target="_blank"><input type="submit"/><textarea name="code_snippet" style="display:none"></textarea></form>
+<br/>
+<div></div><devsite-code><pre class="devsite-click-to-copy" dir="ltr" is-upgraded="" syntax="Text only" syntax-guessed="" translate="no">&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Bald Eagle at the Park - Livestream&lt;/title&gt;
+    &lt;script type="application/ld+json"&gt;
+    {
+      "@context": "https://schema.org",
+      "@type": "VideoObject",
+      "contentURL": "https://example.com/bald-eagle-at-the-park.mp4",
+      "description": "Bald eagle at the park livestream.",
+      "duration": "PT37M14S",
+      "embedUrl": "https://example.com/bald-eagle-at-the-park",
+      "expires": "2024-10-30T14:37:14+00:00",
+      "regionsAllowed": "US",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": { "@type": "WatchAction" },
+        "userInteractionCount": 4756
+      },
+      "name": "Bald eagle nest livestream!",
+      "thumbnailUrl": "https://example.com/bald-eagle-at-the-park",
+      "uploadDate": "2024-10-27T14:00:00+00:00",
+      "publication": [
+        {
+          "@type": "BroadcastEvent",
+          "isLiveBroadcast": true,
+          "startDate": "2024-10-27T14:00:00+00:00",
+          "endDate": "2024-10-27T14:37:14+00:00"
+        },
+        {
+          "@type": "BroadcastEvent",
+          "isLiveBroadcast": true,
+          "startDate": "2024-10-27T18:00:00+00:00",
+          "endDate": "2024-10-27T18:37:14+00:00"
+        }
+      ]
+    }
+    &lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</pre></devsite-code>
+</article>
+<article>
+<header>Microdata</header>
+<form action="https://search.google.com/test/rich-results?utm_campaign=devsite&amp;utm_medium=jsonld&amp;utm_source=video" class="gc-analytics-event" method="post" target="_blank"><input type="submit"/><textarea name="code_snippet" style="display:none"></textarea></form>
+<br/>
+<div></div><devsite-code><pre class="devsite-click-to-copy" dir="ltr" is-upgraded="" syntax="Text only" syntax-guessed="" translate="no">&lt;html itemscope itemprop="VideoObject" itemtype="https://schema.org/VideoObject"&gt;
+&lt;head&gt;
+  &lt;title itemprop="name"&gt;Bald Eagle at the Park - Livestream&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;meta itemprop="uploadDate" content="2024-10-27T14:00:00+00:00" /&gt;
+  &lt;meta itemprop="duration" content="PT37M14S" /&gt;
+  &lt;p itemprop="description"&gt;Bald eagle at the park livestream.&lt;/p&gt;
+  &lt;div itemprop="interactionStatistic" itemtype="https://schema.org/InteractionCounter" itemscope&gt;
+    &lt;meta itemprop="userInteractionCount" content="4756" /&gt;
+    &lt;meta itemprop="interactionType" itemtype="https://schema.org/WatchAction" /&gt;
+  &lt;/div&gt;
+  &lt;link itemprop="embedUrl" href="https://example.com/bald-eagle-at-the-park" /&gt;
+  &lt;meta itemprop="expires" content="2024-10-30T14:37:14+00:00" /&gt;
+  &lt;meta itemprop="contentUrl" content="https://example.com/bald-eagle-at-the-park.mp4" /&gt;
+  &lt;meta itemprop="regionsAllowed" content="US" /&gt;
+  &lt;meta itemprop="thumbnailUrl" content="https://example.com/bald-eagle-at-the-park" /&gt;
+  &lt;div itemprop="publication" itemtype="https://schema.org/BroadcastEvent" itemscope&gt;
+    &lt;meta itemprop="isLiveBroadcast" content="true" /&gt;
+    &lt;meta itemprop="startDate" content="2024-10-27T14:00:00+00:00" /&gt;
+    &lt;meta itemprop="endDate" content="2024-10-27T14:37:14+00:00" /&gt;
+  &lt;/div&gt;
+  &lt;div itemprop="publication" itemtype="https://schema.org/BroadcastEvent" itemscope&gt;
+    &lt;meta itemprop="isLiveBroadcast" content="true" /&gt;
+    &lt;meta itemprop="startDate" content="2024-10-27T18:00:00+00:00" /&gt;
+    &lt;meta itemprop="endDate" content="2024-10-27T18:37:14+00:00" /&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre></devsite-code>
+</article>
+</section>
+<h3 id="clips-example" tabindex="-1">
+<code dir="ltr" translate="no">Clip</code>
+</h3>
+<img alt="Example of a video in search results with key moments" class="screenshot" src="/static/search/docs/images/video-key-moments.png" width="35%"/>
+<p>
+  Here's an example of <a href="#video-object"><code dir="ltr" translate="no">VideoObject</code></a>
+  and <a href="#clip"><code dir="ltr" translate="no">Clip</code></a>.
+</p>
+<section class="kd-tabbed-horz" id="horzTab">
+<article class="selected">
+<header>JSON-LD</header>
+<form action="https://search.google.com/test/rich-results?utm_campaign=devsite&amp;utm_medium=jsonld&amp;utm_source=videosegment" class="gc-analytics-event" method="post" target="_blank"><input type="submit"/><textarea name="code_snippet" style="display:none"></textarea></form>
+<br/>
+<div></div><devsite-code><pre class="devsite-click-to-copy" dir="ltr" is-upgraded="" syntax="Text only" syntax-guessed="" translate="no">&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Cat jumps over the fence&lt;/title&gt;
+    &lt;script type="application/ld+json"&gt;
+    {
+      "@context": "https://schema.org/",
+      "@type": "VideoObject",
+      "name": "Cat video",
+      "duration": "PT10M",
+      "uploadDate": "2024-07-19T08:00:00+08:00",
+      "thumbnailUrl": "https://www.example.com/cat.jpg",
+      "description": "Watch this cat jump over a fence!",
+      "contentUrl": "https://www.example.com/cat_video_full.mp4",
+      "ineligibleRegion": "US",
+      "hasPart": [{
+        "@type": "Clip",
+        "name": "Cat jumps",
+        "startOffset": 30,
+        "endOffset": 45,
+        "url": "https://www.example.com/example?t=30"
+      },
+      {
+        "@type": "Clip",
+        "name": "Cat misses the fence",
+        "startOffset": 111,
+        "endOffset": 150,
+        "url": "https://www.example.com/example?t=111"
+      }]
+    }
+    &lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</pre></devsite-code>
+</article>
+<article>
+<header>Microdata</header>
+<form action="https://search.google.com/test/rich-results?utm_campaign=devsite&amp;utm_medium=jsonld&amp;utm_source=video" class="gc-analytics-event" method="post" target="_blank"><input type="submit"/><textarea name="code_snippet" style="display:none"></textarea></form>
+<br/>
+<div></div><devsite-code><pre class="devsite-click-to-copy" dir="ltr" is-upgraded="" syntax="Text only" syntax-guessed="" translate="no">&lt;html itemscope itemprop="VideoObject" itemtype="https://schema.org/VideoObject"&gt;
+&lt;head&gt;
+  &lt;title itemprop="name"&gt;Cat jumps over the fence&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;meta itemprop="uploadDate" content="2024-07-19" /&gt;
+  &lt;meta itemprop="duration" content="P10M" /&gt;
+  &lt;p itemprop="description"&gt;Watch this cat jump over a fence!&lt;/p&gt;
+  &lt;div itemprop="interactionStatistic" itemtype="https://schema.org/InteractionCounter" itemscope&gt;
+    &lt;meta itemprop="userInteractionCount" content="5647018" /&gt;
+    &lt;meta itemprop="interactionType" itemtype="https://schema.org/WatchAction" /&gt;
+  &lt;/div&gt;
+  &lt;div itemprop="hasPart" itemtype="https://schema.org/Clip" itemscope&gt;
+    &lt;meta itemprop="name" content="Cat jumps" /&gt;
+    &lt;meta itemprop="startOffset" content="30" /&gt;
+    &lt;meta itemprop="endOffset" content="45" /&gt;
+    &lt;meta itemprop="url" content="https://www.example.com/example?t=30" /&gt;
+  &lt;/div&gt;
+  &lt;div itemprop="hasPart" itemtype="https://schema.org/Clip" itemscope&gt;
+    &lt;meta itemprop="name" content="Cat misses the fence" /&gt;
+    &lt;meta itemprop="startOffset" content="111" /&gt;
+    &lt;meta itemprop="endOffset" content="150" /&gt;
+    &lt;meta itemprop="url" content="https://www.example.com/example?t=111" /&gt;
+  &lt;/div&gt;
+  &lt;link itemprop="embedUrl" href="https://www.example.com/embed/123" /&gt;
+  &lt;meta itemprop="contentUrl" content="https://www.example.com/cat_video_full.mp4" /&gt;
+  &lt;meta itemprop="ineligibleRegion" content="US" /&gt;
+  &lt;meta itemprop="thumbnailUrl" content="https://www.example.com/cat.jpg" /&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre></devsite-code>
+</article>
+</section>
+<h3 id="seektoaction" tabindex="-1">
+<code dir="ltr" translate="no">SeekToAction</code>
+</h3>
+<p>
+  Here's an example of a single <a href="#video-object"><code dir="ltr" translate="no">VideoObject</code></a>
+  that includes the <a href="#seek">additional properties</a> needed for <code dir="ltr" translate="no">SeekToAction</code> markup.
+</p>
+<section class="kd-tabbed-horz" id="horzTab">
+<article class="selected">
+<header>JSON-LD</header>
+<form action="https://search.google.com/test/rich-results?utm_campaign=devsite&amp;utm_medium=jsonld&amp;utm_source=seek" class="gc-analytics-event" method="post" target="_blank"><input type="submit"/><textarea name="code_snippet" style="display:none"></textarea></form>
+<br/>
+<div></div><devsite-code><pre class="devsite-click-to-copy" dir="ltr" is-upgraded="" syntax="Text only" syntax-guessed="" translate="no">&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;John Smith (@johnsmith123) on VideoApp: My daily workout! #stayingfit&lt;/title&gt;
+    &lt;script type="application/ld+json"&gt;
+    {
+      "@context": "https://schema.org",
+      "@type": "VideoObject",
+      "potentialAction" : {
+        "@type": "SeekToAction",
+        "target": "https://video.example.com/watch/videoID?t={seek_to_second_number}",
+        "startOffset-input": "required name=seek_to_second_number"
+      },
+      "name": "My daily workout!",
+      "uploadDate": "2024-07-19T08:00:00+08:00",
+      "thumbnailUrl": "https://www.example.com/daily-workout.jpg",
+      "description": "My daily workout!",
+      "embedUrl": "https://example.com/daily-workout"
+    }
+    &lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</pre></devsite-code>
+</article>
+<article>
+<header>Microdata</header>
+<form action="https://search.google.com/test/rich-results?utm_campaign=devsite&amp;utm_medium=jsonld&amp;utm_source=video" class="gc-analytics-event" method="post" target="_blank"><input type="submit"/><textarea name="code_snippet" style="display:none"></textarea></form>
+<br/>
+<div></div><devsite-code><pre class="devsite-click-to-copy" dir="ltr" is-upgraded="" syntax="Text only" syntax-guessed="" translate="no">&lt;html itemscope itemprop="VideoObject" itemtype="https://schema.org/VideoObject"&gt;
+&lt;head&gt;
+  &lt;title itemprop="name"&gt;John Smith (@johnsmith123) on VideoApp: My daily workout! #stayingfit&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;meta itemprop="uploadDate" content="2024-07-19" /&gt;
+  &lt;p itemprop="description"&gt;My daily workout!&lt;/p&gt;
+  &lt;div itemprop="potentialAction" itemtype="https://schema.org/SeekToAction" itemscope&gt;
+    &lt;meta itemprop="target" content="https://video.example.com/watch/videoID?t={seek_to_second_number}" /&gt;
+    &lt;meta itemprop="startOffset-input" content="required name=seek_to_second_number" /&gt;
+  &lt;/div&gt;
+  &lt;link itemprop="embedUrl" href="https://example.com/daily-workout" /&gt;
+  &lt;meta itemprop="thumbnailUrl" content="https://www.example.com/daily-workout.jpg" /&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre></devsite-code>
+</article>
+</section>
+<h2 id="guidelines" tabindex="-1">Guidelines</h2>
+<p>
+  For your video structured data to be eligible for usage in Google Search, you must follow the
+  <a href="/search/docs/essentials">Search Essentials</a>,
+  <a href="/search/docs/appearance/structured-data/sd-policies">general structured data guidelines</a>,
+  and <a href="/search/docs/appearance/video#indexing-criteria">video indexing requirements</a>.
+</p>
+<aside class="warning"><b>Warning:</b> If Google detects that some of the markup on your pages
+  may be using techniques that are outside our structured data guidelines, your site may receive
+  a <a class="external-link" href="https://support.google.com/webmasters/answer/9044175">manual action</a>.</aside>
+<p>In addition, we recommend that you check out these guidelines if they apply to your video content:</p>
+<ul>
+<li><a href="#livestream-guidelines">Livestream guidelines</a></li>
+<li><a href="#clip-guidelines"><code dir="ltr" translate="no">Clip</code> and <code dir="ltr" translate="no">SeekToAction</code> guidelines</a></li>
+<li><a href="#best-practices-youtube">Best practices for marking timestamps on YouTube</a></li>
+</ul>
+<h3 id="livestream-guidelines" tabindex="-1">
+  LIVE badge guidelines
+</h3>
+<p>
+  If you're adding <a href="#broadcast-event"><code dir="ltr" translate="no">BroadcastEvent</code></a> to livestream
+  videos, follow these guidelines:
+</p>
+<ul>
+<li>Don't use vulgar or potentially offensive language in the structured data.</li>
+<li>To make sure Google crawls your livestream video at the right time, use the
+  <a href="/search/apis/indexing-api/v3/quickstart">Indexing API</a>. Call the API for the
+  following events:
+    <ul>
+<li>When the video goes live</li>
+<li>When the video has stopped streaming, and the page's markup has been updated
+        to indicate the <code dir="ltr" translate="no">endDate</code></li>
+<li>Whenever a change has happened in the markup and Google needs to be notified</li>
+</ul>
+<aside class="note">The Indexing API only supports livestream videos.</aside>
+</li>
+</ul>
+<h3 id="best-practices-youtube" tabindex="-1">Best practices for marking timestamps on YouTube</h3>
+<p>
+  If your video is hosted on YouTube, Google Search may automatically enable key moments for your video based
+  on the video description on YouTube, and you may not have to mark specific timestamps in your
+  YouTube description. However, you can tell us more explicitly about the important points in
+  your video and we will prefer that information. The following diagram shows how timestamps and
+  labels in a YouTube video description can appear in search results:</p>
+<img alt="A video in search results with timestamps and labels" src="/static/search/docs/images/video-timestamps-on-youtube.png"/>
+<figcaption><b>1. Label</b>: The name of the clip.<br/><b>2. Timestamp</b>: When a clip starts.</figcaption>
+<p>
+  Keep in mind the following guidelines when formatting timestamps and labels for YouTube descriptions:
+</p>
+<ul>
+<li>Format the timestamp in the following format: <code dir="ltr" translate="no">[hour]:[minute]:[second]</code>. If
+    there's no hour, you don't need to include it.</li>
+<li>Specify the label of the timestamp on the same line as the timestamp.</li>
+<li>Place each timestamp on a new line in the video description.</li>
+<li>Link the timestamp to the specified point in the video.</li>
+<li>Make sure the label contains at least one word.</li>
+<li>List the timestamps in chronological order.</li>
+</ul>
+<p>If you want to enable Video Chapters on YouTube, follow these <a class="external-link" href="https://support.google.com/youtube/answer/9884579">additional guidelines</a>.</p>
+<h3 id="clip-guidelines" tabindex="-1"><code dir="ltr" translate="no">Clip</code> and <code dir="ltr" translate="no">SeekToAction</code> guidelines</h3>
+<p>
+  If you're adding <a href="#clip"><code dir="ltr" translate="no">Clip</code></a> or <a href="#seek"><code dir="ltr" translate="no">SeekToAction</code></a>
+  structured data to mark video segments, follow these guidelines:
+</p>
+<ul>
+<li>The video must have the ability to deep link into some point other than the start
+    point in the video URL. For example, <code dir="ltr" translate="no">https://www.example.com/example?t=30</code> starts
+    30 seconds into a video.</li>
+<li><code dir="ltr" translate="no">VideoObject</code> structured data must be added to a page where users can watch the video. It's
+    a bad user experience to point users to a page where they can't watch the video.</li>
+<li>The total video duration must be a minimum of 30 seconds.</li>
+<li>The video must include the required properties that are listed in the <a href="#video-object"><code dir="ltr" translate="no">VideoObject</code></a> structured data documentation.</li>
+<li><b>For <code dir="ltr" translate="no">Clip</code> structured data only</b>: Make sure that no two clips on the same
+    video defined on the same page share a start time.</li>
+<li><b>For <code dir="ltr" translate="no">SeekToAction</code> structured data only</b>: Google must be able to
+     <a href="/search/docs/appearance/video#allow-fetch">fetch your video content files</a>.</li>
+</ul>
+<h2 id="structured-data-type-definitions" tabindex="-1">Structured data type definitions</h2>
+<p>This section describes the structured data types related to video features in Google Search.
+  You must include the required <a href="#video-object"><code dir="ltr" translate="no">VideoObject</code></a> properties for your
+  markup to be eligible for usage in Google Search. You can also include the
+  recommended properties to add more information about your <code dir="ltr" translate="no">VideoObject</code>, which could provide a better
+  user experience. In addition to <a href="#video-object"><code dir="ltr" translate="no">VideoObject</code></a>, you can add the
+  following data types to enable video enhancements in Google Search:</p>
+<ul>
+<li><b><a href="#broadcast-event"><code dir="ltr" translate="no">BroadcastEvent</code></a></b>: Mark up livestream
+    videos to enable a LIVE badge on your video.</li>
+<li><b><a href="#clip"><code dir="ltr" translate="no">Clip</code></a></b>: Mark important segments in your video to help
+    users quickly navigate to specific points in a video.
+    </li>
+<li><b><a href="#seek"><code dir="ltr" translate="no">SeekToAction</code></a></b>: Enable key moments by indicating how your URL structure
+    works, so that Google can automatically identify key moments and link users to those points within the video.
+    </li>
+</ul>
+<h3 id="video-object" tabindex="-1"><code dir="ltr" translate="no">VideoObject</code></h3>
+<p>The full definition of <code dir="ltr" translate="no">VideoObject</code> is available at
+  <a class="external-link" href="https://schema.org/VideoObject">schema.org/VideoObject</a>.
+  If you don't include the required properties, Google may not be able to extract
+  any information about the video. You can also include the recommended properties to
+  add more information about your content, which could provide a better user experience.
+</p>
+<table class="responsive fixed">
+<colgroup><col width="20%"/></colgroup>
+<thead>
+<tr><th colspan="2">Required properties</th></tr>
+</thead>
+<tbody>
+<tr>
+<td><code dir="ltr" translate="no">name</code></td>
+<td><p><code dir="ltr" translate="no"><a class="external-link" href="https://schema.org/Text">Text</a></code></p>
+<p>The title of the video. Make sure to use unique text in the <code dir="ltr" translate="no">name</code> property
+        for each video on your site.</p></td>
+</tr>
+<tr>
+<td id="thumbnail-url"><code dir="ltr" translate="no">thumbnailUrl</code></td>
+<td><p>Repeated <code dir="ltr" translate="no"><a class="external-link" href="https://schema.org/URL">URL</a></code></p>
+<p>A URL pointing to the video's unique thumbnail image file. Follow the <a href="/search/docs/appearance/video#valid-thumbnail">thumbnail image guidelines</a>.</p>
+</td>
+</tr>
+<tr>
+<td><code dir="ltr" translate="no">uploadDate</code></td>
+<td><p><code dir="ltr" translate="no"><a class="external-link" href="https://schema.org/DateTime">DateTime</a></code></p>
+<p>The date and time the video was first published, in
+          <a class="external-link" href="https://en.wikipedia.org/wiki/ISO_8601">ISO 8601 format</a>.
+          We recommend that you provide timezone information; otherwise, we will default to
+          <a href="/search/docs/crawling-indexing/googlebot#timezone">the timezone used by Googlebot</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="responsive fixed">
+<colgroup><col width="20%"/></colgroup>
+<thead>
+<tr><th colspan="2">Recommended properties</th></tr>
+</thead>
+<tbody>
+<tr id="content-url">
+<td>
+<code dir="ltr" translate="no">contentUrl</code>
+</td>
+<td>
+<p><code dir="ltr" translate="no"><a class="external-link" href="https://schema.org/URL">URL</a></code></p>
+<aside class="note">We recommend that your provide the <code dir="ltr" translate="no">contentUrl</code>
+          property, if possible. This is the most effective way for Google to fetch your video
+          content files. If <code dir="ltr" translate="no">contentUrl</code> isn't available, provide <code dir="ltr" translate="no">embedUrl</code> as an alternative.</aside>
+<p>A URL pointing to the video file's actual content bytes, in one of the
+          <a href="/search/docs/appearance/video#supported-video-files">supported file types</a>.
+          Don't link to the page where the video lives; this must be the
+          URL of the video file's actual content bytes itself.</p>
+<div></div><devsite-code><pre class="devsite-click-to-copy" dir="ltr" is-upgraded="" syntax="Text only" syntax-guessed="" translate="no">"contentUrl": "https://www.example.com/video/123/file.mp4"</pre></devsite-code>
+<p>Make sure to follow our
+          <a href="/search/docs/appearance/video">video best practices</a>.</p>
+<aside class="tip"><b>Tip</b>: You can ensure that only Googlebot accesses your
+            content by using a
+          <a href="/search/docs/crawling-indexing/verifying-googlebot">reverse DNS lookup</a>.
+        </aside>
+</td>
+</tr>
+<tr id="creator">
+<td><code dir="ltr" translate="no">creator</code> (or <code dir="ltr" translate="no">author</code>)</td>
+<td><p><code dir="ltr" translate="no"><a class="external-link" href="https://schema.org/Person">Person</a></code> or
+          <code dir="ltr" translate="no"><a class="external-link" href="https://schema.org/Organization">Organization</a></code></p>
+<p>The person or organization that created or published the video.</p>
+<div></div><devsite-code><pre class="devsite-click-to-copy" dir="ltr" is-upgraded="" syntax="Carbon" syntax-guessed="" translate="no"><span class="devsite-syntax-s">"creator"</span><span class="devsite-syntax-p">:</span><span class="devsite-syntax-w"> </span><span class="devsite-syntax-p">{</span>
+<span class="devsite-syntax-w">  </span><span class="devsite-syntax-s">"@type"</span><span class="devsite-syntax-p">:</span><span class="devsite-syntax-w"> </span><span class="devsite-syntax-s">"Person"</span><span class="devsite-syntax-p">,</span>
+<span class="devsite-syntax-w">  </span><span class="devsite-syntax-s">"name"</span><span class="devsite-syntax-p">:</span><span class="devsite-syntax-w"> </span><span class="devsite-syntax-s">"Jane Doe"</span><span class="devsite-syntax-p">,</span>
+<span class="devsite-syntax-w">  </span><span class="devsite-syntax-s">"url"</span><span class="devsite-syntax-p">:</span><span class="devsite-syntax-w"> </span><span class="devsite-syntax-s">"https://www.example.com/users/janedoe"</span>
+<span class="devsite-syntax-p">}</span></pre></devsite-code>
+</td>
+</tr>
+<tr>
+<td><code dir="ltr" translate="no">creator.name</code> (or <code dir="ltr" translate="no">author.name</code>)</td>
+<td><p><code dir="ltr" translate="no"><a class="external-link" href="https://schema.org/Text">Text</a></code></p>
+<p>The name of the creator or organization. If a person or organization
+        is specified, you must provide either <code dir="ltr" translate="no">name</code> or
+        <code dir="ltr" translate="no">alternateName</code>.</p></td>
+</tr>
+<tr>
+<td><code dir="ltr" translate="no">creator.url</code> (or <code dir="ltr" translate="no">author.url</code>)</td>
+<td><p><code dir="ltr" translate="no"><a class="external-link" href="https://schema.org/URL">URL</a></code></p>
+<p>A link to a web page that uniquely identifies the creator or
+        organization (such as a profile page or homepage).</p></td>
+</tr>
+<tr>
+<td id="description-property"><code dir="ltr" translate="no">description</code></td>
+<td><p><code dir="ltr" translate="no"><a class="external-link" href="https://schema.org/Text">Text</a></code></p>
+<p>The description of the video. Make sure to use unique text in the <code dir="ltr" translate="no">description</code> property
+        for each video on your site. HTML tags are ignored.</p></td>
+</tr>
+<tr>
+<td id="duration-property"><code dir="ltr" translate="no">duration</code></td>
+<td><p><code dir="ltr" translate="no"><a class="external-link" href="https://schema.org/Duration">Duration</a></code></p>
+<p>The duration of the video in
+        <a class="external-link" href="https://en.wikipedia.org/wiki/ISO_8601#Durations">ISO 8601 format</a>.
+        For example, <code dir="ltr" translate="no">PT00H30M5S</code> represents a duration of "thirty minutes and five seconds".</p>
+</td>
+</tr>
+<tr>
+<td>
+<code dir="ltr" translate="no">embedUrl</code>
+</td>
+<td>
+<p><code dir="ltr" translate="no"><a class="external-link" href="https://schema.org/URL">URL</a></code></p>
+<aside class="note">We recommend that your provide the <code dir="ltr" translate="no">contentUrl</code>
+        property, if possible. This is the most effective way for Google to fetch your video
+        content files. If <code dir="ltr" translate="no">contentUrl</code> isn't available, provide <code dir="ltr" translate="no">embedUrl</code> as an alternative.</aside>
+<p>A URL pointing to a player for the specific video. Don't link to the page where the
+          video lives; this must be the URL of the video player itself. Usually this is the information in
+          the <code dir="ltr" translate="no">src</code> attribute of an <code dir="ltr" translate="no">&lt;embed&gt;</code> element.</p>
+<div></div><devsite-code><pre class="devsite-click-to-copy" dir="ltr" is-upgraded="" syntax="Text only" syntax-guessed="" translate="no">"embedUrl": "https://www.example.com/embed/123"</pre></devsite-code>
+<p>Make sure to follow our
+        <a href="/search/docs/appearance/video">Video best practices</a>.</p>
+<aside class="tip"><b>Tip</b>: You can ensure that only Googlebot accesses your
+          content by using a <a href="/search/docs/crawling-indexing/verifying-googlebot">reverse DNS lookup</a>.</aside>
+</td>
+</tr>
+<tr>
+<td id="expires"><code dir="ltr" translate="no">expires</code></td>
+<td><code dir="ltr" translate="no"><a class="external-link" href="https://schema.org/DateTime">DateTime</a></code>
+<p>If applicable, the date and time after which the video will no longer be available, in
+          <a class="external-link" href="https://en.wikipedia.org/wiki/ISO_8601">ISO 8601 format</a>. Don't
+          supply this information if your video does not expire. We recommend that you provide
+          timezone information; otherwise, we will default to
+          <a href="/search/docs/crawling-indexing/googlebot#timezone">the timezone used by Googlebot</a>.</p></td>
+</tr>
+<tr>
+<td>
+<code dir="ltr" translate="no">hasPart</code>
+</td>
+<td>
+<p>If your video has important segments, nest the <a href="#clip">required <code dir="ltr" translate="no">Clip</code> properties</a> in your <code dir="ltr" translate="no">VideoObject</code>. For example:</p>
+<div></div><devsite-code><pre class="devsite-click-to-copy devsite-code-highlight" dir="ltr" is-upgraded="" syntax="Carbon" syntax-guessed="" translate="no">&lt;<span class="devsite-syntax-nx">script</span><span class="devsite-syntax-w"> </span><span class="devsite-syntax-k">type</span><span class="devsite-syntax-p">=</span><span class="devsite-syntax-s">"application/ld+json"</span>&gt;
+<span class="devsite-syntax-p">{</span>
+<span class="devsite-syntax-w">  </span><span class="devsite-syntax-s">"@context"</span><span class="devsite-syntax-p">:</span><span class="devsite-syntax-w"> </span><span class="devsite-syntax-s">"https://schema.org/"</span><span class="devsite-syntax-p">,</span>
+<span class="devsite-syntax-w">  </span><span class="devsite-syntax-s">"@type"</span><span class="devsite-syntax-p">:</span><span class="devsite-syntax-w"> </span><span class="devsite-syntax-s">"VideoObject"</span><span class="devsite-syntax-p">,</span>
+<span class="devsite-syntax-w">  </span><span class="devsite-syntax-s">"name"</span><span class="devsite-syntax-p">:</span><span class="devsite-syntax-w"> </span><span class="devsite-syntax-s">"Cat video"</span><span class="devsite-syntax-p">,</span>
+<span class="devsite-syntax-w">  </span><strong><span class="devsite-syntax-s">"hasPart"</span><span class="devsite-syntax-p">:</span><span class="devsite-syntax-w"> </span><span class="devsite-syntax-p">{</span>
+<span class="devsite-syntax-w">    </span><span class="devsite-syntax-s">"@type"</span><span class="devsite-syntax-p">:</span><span class="devsite-syntax-w"> </span><span class="devsite-syntax-s">"Clip"</span><span class="devsite-syntax-p">,</span>
+<span class="devsite-syntax-w">    </span><span class="devsite-syntax-s">"name"</span><span class="devsite-syntax-p">:</span><span class="devsite-syntax-w"> </span><span class="devsite-syntax-s">"Cat jumps"</span><span class="devsite-syntax-p">,</span>
+<span class="devsite-syntax-w">    </span><span class="devsite-syntax-s">"startOffset"</span><span class="devsite-syntax-p">:</span><span class="devsite-syntax-w"> </span><span class="devsite-syntax-mi">30</span><span class="devsite-syntax-p">,</span>
+<span class="devsite-syntax-w">    </span><span class="devsite-syntax-s">"url"</span><span class="devsite-syntax-p">:</span><span class="devsite-syntax-w"> </span><span class="devsite-syntax-s">"https://www.example.com/example?t=30"</span>
+<span class="devsite-syntax-w">  </span><span class="devsite-syntax-p">}</span></strong>
+<span class="devsite-syntax-p">}</span>
+&lt;<span class="devsite-syntax-o">/</span><span class="devsite-syntax-nx">script</span>&gt;</pre></devsite-code>
+</td>
+</tr>
+<tr>
+<td id="ineligible-region"><code dir="ltr" translate="no">ineligibleRegion</code>
+</td>
+<td><p><code dir="ltr" translate="no"><a class="external-link" href="https://schema.org/Place">Place</a></code></p>
+<p>The region where the video isn't allowed, if applicable. If not specified, then Google assumes the video is
+        allowed everywhere. Specify the countries in
+        <a class="external-link" href="https://en.wikipedia.org/wiki/ISO_3166-1">two- or three-letter ISO 3166-1 format</a>. For
+        multiple values, use multiple country codes (for example, a JSON-LD array or multiple
+        <code dir="ltr" translate="no">meta</code> tags in Microdata).</p>
+<aside class="note">We also support the <a href="#regions-allowed"><code dir="ltr" translate="no">regionsAllowed</code></a>
+          property. Add either <code dir="ltr" translate="no">ineligibleRegion</code> or <code dir="ltr" translate="no">regionsAllowed</code>,
+          whichever makes sense for your site.
+        </aside>
+</td>
+</tr>
+<tr id="interaction-statistic">
+<td><code dir="ltr" translate="no">interactionStatistic</code></td>
+<td>
+<p><code dir="ltr" translate="no"><a class="external-link" href="https://schema.org/InteractionCounter">InteractionCounter</a></code></p>
+<p>User statistics applied to the video, if applicable.</p>
+<div></div><devsite-code><pre class="devsite-click-to-copy" dir="ltr" is-upgraded="" syntax="Carbon" syntax-guessed="" translate="no"><span class="devsite-syntax-s">"interactionStatistic"</span><span class="devsite-syntax-p">:</span><span class="devsite-syntax-w"> </span><span class="devsite-syntax-p">{</span>
+<span class="devsite-syntax-w">  </span><span class="devsite-syntax-s">"@type"</span><span class="devsite-syntax-p">:</span><span class="devsite-syntax-w"> </span><span class="devsite-syntax-s">"InteractionCounter"</span><span class="devsite-syntax-p">,</span>
+<span class="devsite-syntax-w">  </span><span class="devsite-syntax-s">"interactionType"</span><span class="devsite-syntax-p">:</span><span class="devsite-syntax-w"> </span><span class="devsite-syntax-p">{</span>
+<span class="devsite-syntax-w">    </span><span class="devsite-syntax-s">"@type"</span><span class="devsite-syntax-p">:</span><span class="devsite-syntax-w"> </span><span class="devsite-syntax-s">"WatchAction"</span>
+<span class="devsite-syntax-w">  </span><span class="devsite-syntax-p">},</span>
+<span class="devsite-syntax-w">  </span><span class="devsite-syntax-s">"userInteractionCount"</span><span class="devsite-syntax-p">:</span><span class="devsite-syntax-w"> </span><span class="devsite-syntax-mi">12345</span>
+<span class="devsite-syntax-p">}</span></pre></devsite-code>
+<aside class="note">Starting October 2019, we changed our documentation to recommend
+            <code dir="ltr" translate="no">interactionStatistic</code> instead of <code dir="ltr" translate="no">interactionCount</code>. While we continue
+            to support <code dir="ltr" translate="no">interactionCount</code>, we recommend <code dir="ltr" translate="no">interactionStatistic</code>
+            moving forward.</aside>
+</td>
+</tr>
+<tr>
+<td><code dir="ltr" translate="no">interactionStatistic.interactionType</code></td>
+<td><p>Subtype of <code dir="ltr" translate="no"><a class="external-link" href="https://schema.org/Action">Action</a></code></p>
+<p>The type of interaction. Google supports the following <code dir="ltr" translate="no">interactionTypes</code>:</p>
+<ul>
+<li><a class="external-link" href="https://schema.org/WatchAction">https://schema.org/WatchAction</a>:
+            The number of times the video has been watched.</li>
+<li><a class="external-link" href="https://schema.org/LikeAction">https://schema.org/LikeAction</a>:
+            The number of likes or upvotes.</li>
+<li><a class="external-link" href="https://schema.org/CommentAction">https://schema.org/CommentAction</a>:
+            The number of comments.</li>
+<li><a class="external-link" href="https://schema.org/ShareAction">https://schema.org/ShareAction</a>:
+            The number of reshares.</li>
+</ul></td>
+</tr>
+<tr>
+<td><code dir="ltr" translate="no">interactionStatistic.userInteractionCount</code></td>
+<td><p><code dir="ltr" translate="no"><a class="external-link" href="https://schema.org/Integer">Integer</a></code></p>
+<p>The number of times this interaction was performed.</p></td>
+</tr>
+<tr>
+<td>
+<code dir="ltr" translate="no">publication</code>
+</td>
+<td>
+<p>If your video is happening live and you want to be eligible for the LIVE badge, nest
+          the <a href="#broadcast-event"><code dir="ltr" translate="no">BroadcastEvent</code> properties</a> in your
+          <code dir="ltr" translate="no">VideoObject</code>. For example:</p>
+<div></div><devsite-code><pre class="devsite-click-to-copy devsite-code-highlight" dir="ltr" is-upgraded="" syntax="Carbon" syntax-guessed="" translate="no">&lt;<span class="devsite-syntax-nx">script</span><span class="devsite-syntax-w"> </span><span class="devsite-syntax-k">type</span><span class="devsite-syntax-p">=</span><span class="devsite-syntax-s">"application/ld+json"</span>&gt;
+<span class="devsite-syntax-p">{</span>
+<span class="devsite-syntax-w">  </span><span class="devsite-syntax-s">"@context"</span><span class="devsite-syntax-p">:</span><span class="devsite-syntax-w"> </span><span class="devsite-syntax-s">"https://schema.org/"</span><span class="devsite-syntax-p">,</span>
+<span class="devsite-syntax-w">  </span><span class="devsite-syntax-s">"@type"</span><span class="devsite-syntax-p">:</span><span class="devsite-syntax-w"> </span><span class="devsite-syntax-s">"VideoObject"</span><span class="devsite-syntax-p">,</span>
+<span class="devsite-syntax-w">  </span><span class="devsite-syntax-s">"name"</span><span class="devsite-syntax-p">:</span><span class="devsite-syntax-w"> </span><span class="devsite-syntax-s">"Cat video"</span><span class="devsite-syntax-p">,</span>
+<span class="devsite-syntax-w">  </span><strong><span class="devsite-syntax-s">"publication"</span><span class="devsite-syntax-p">:</span><span class="devsite-syntax-w"> </span><span class="devsite-syntax-p">{</span>
+<span class="devsite-syntax-w">    </span><span class="devsite-syntax-s">"@type"</span><span class="devsite-syntax-p">:</span><span class="devsite-syntax-w"> </span><span class="devsite-syntax-s">"BroadcastEvent"</span><span class="devsite-syntax-p">,</span>
+<span class="devsite-syntax-w">    </span><span class="devsite-syntax-s">"name"</span><span class="devsite-syntax-p">:</span><span class="devsite-syntax-w"> </span><span class="devsite-syntax-s">"First scheduled broadcast"</span><span class="devsite-syntax-p">,</span>
+<span class="devsite-syntax-w">    </span><span class="devsite-syntax-s">"isLiveBroadcast"</span><span class="devsite-syntax-p">:</span><span class="devsite-syntax-w"> </span><span class="devsite-syntax-kc">true</span><span class="devsite-syntax-p">,</span>
+<span class="devsite-syntax-w">    </span><span class="devsite-syntax-s">"startDate"</span><span class="devsite-syntax-p">:</span><span class="devsite-syntax-w"> </span><span class="devsite-syntax-s">"2018-10-27T14:00:00+00:00"</span><span class="devsite-syntax-p">,</span>
+<span class="devsite-syntax-w">    </span><span class="devsite-syntax-s">"endDate"</span><span class="devsite-syntax-p">:</span><span class="devsite-syntax-w"> </span><span class="devsite-syntax-s">"2018-10-27T14:37:14+00:00"</span>
+<span class="devsite-syntax-w">  </span><span class="devsite-syntax-p">}</span></strong>
+<span class="devsite-syntax-p">}</span>
+&lt;<span class="devsite-syntax-o">/</span><span class="devsite-syntax-nx">script</span>&gt;</pre></devsite-code>
+</td>
+</tr>
+<tr>
+<td id="regions-allowed"><code dir="ltr" translate="no">regionsAllowed</code>
+</td>
+<td><p><code dir="ltr" translate="no"><a class="external-link" href="https://schema.org/Place">Place</a></code></p>
+<p>The regions where the video is allowed, if applicable. If not specified, then Google assumes the video is
+        allowed everywhere. Specify the countries in
+        <a class="external-link" href="https://en.wikipedia.org/wiki/ISO_3166-1">two- or three-letter ISO 3166-1 format</a>.
+        For multiple values, use multiple country codes (for example, a JSON-LD array or multiple
+        <code dir="ltr" translate="no">meta</code> tags in Microdata).
+      </p>
+<aside class="note">We also support the <a href="#ineligible-region"><code dir="ltr" translate="no">ineligibleRegion</code></a>
+          property. Add either <code dir="ltr" translate="no">ineligibleRegion</code> or <code dir="ltr" translate="no">regionsAllowed</code>,
+          whichever makes sense for your site.
+        </aside>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id="broadcast-event" tabindex="-1"><code dir="ltr" translate="no">BroadcastEvent</code></h3>
+<p>To be eligible for display with a LIVE badge, nest the following
+  properties in your <a href="#video-object">VideoObject</a>. While
+  <code dir="ltr" translate="no">BroadcastEvent</code> properties aren't required, you must add the following properties if you
+  want your video to display with a LIVE badge.</p>
+<p>The full definition of <code dir="ltr" translate="no">BroadcastEvent</code> is available at
+  <a class="external-link" href="https://schema.org/BroadcastEvent">schema.org/BroadcastEvent</a>.</p>
+<table class="responsive fixed">
+<colgroup><col width="20%"/></colgroup>
+<thead>
+<tr><th colspan="2">Required properties</th></tr>
+</thead>
+<tbody>
+<tr>
+<td><code dir="ltr" translate="no">publication</code>
+</td>
+<td><p><code dir="ltr" translate="no"><a class="external-link" href="https://schema.org/BroadcastEvent">BroadcastEvent</a></code></p>
+<p>Describes when the video is to be streamed live. Can be a list or a single instance.</p>
+</td>
+</tr>
+<tr>
+<td><code dir="ltr" translate="no">publication.endDate</code>
+</td>
+<td><p><code dir="ltr" translate="no"><a class="external-link" href="https://schema.org/DateTime">DateTime</a></code></p>
+<p>Time and date of when the livestream ends or is expected to end, in
+          <a class="external-link" href="https://en.wikipedia.org/wiki/ISO_8601">ISO 8601 format</a>.</p>
+<p>It's required to provide the <code dir="ltr" translate="no">endDate</code> once the video has finished and is no
+          longer live. If the expected <code dir="ltr" translate="no">endDate</code> is unknown prior to the livestream
+          starting, we recommend providing an approximate <code dir="ltr" translate="no">endDate</code>.</p>
+<p>If <code dir="ltr" translate="no">endDate</code> is in the past or present, it indicates stream actually ended
+          and is no longer live. If <code dir="ltr" translate="no">endDate</code> is in the future, it indicates stream is
+          scheduled to end at that time.</p>
+</td>
+</tr>
+<tr>
+<td><code dir="ltr" translate="no">publication.isLiveBroadcast</code></td>
+<td><p>Boolean</p>
+<p>
+          Set to <code dir="ltr" translate="no">true</code> if the video is, has been, or will be streamed live.
+        </p>
+</td>
+</tr>
+<tr>
+<td><code dir="ltr" translate="no">publication.startDate</code>
+</td>
+<td><p><code dir="ltr" translate="no"><a class="external-link" href="https://schema.org/DateTime">DateTime</a></code></p>
+<p>Time and date of when the livestream starts or is expected to start, in
+          <a class="external-link" href="https://en.wikipedia.org/wiki/ISO_8601">ISO 8601 format</a>. If
+          <code dir="ltr" translate="no">startDate</code> is in the past or present, it indicates that the stream actually
+          started. If <code dir="ltr" translate="no">startDate</code> is in the future, it indicates stream is
+          scheduled to start at that time.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id="clip" tabindex="-1"><code dir="ltr" translate="no">Clip</code></h3>
+<p>
+  To tell Google what timestamp and label to use for the key moments feature, nest the following properties in your
+  <a href="/search/docs/appearance/structured-data/video#video-object"><code dir="ltr" translate="no">VideoObject</code></a>. While
+  <code dir="ltr" translate="no">Clip</code> properties aren't required, you must add the following properties if you
+  want Google to show the timestamps and labels that you specify for your video, instead of the
+  video segments that Google may automatically show for your video.</p>
+<p>
+  The full definition of <code dir="ltr" translate="no">Clip</code> is
+  available at <a class="external-link" href="https://schema.org/Clip">schema.org/Clip</a>.
+</p>
+<table class="responsive fixed">
+<colgroup><col width="20%"/></colgroup>
+<thead>
+<tr><th colspan="2">Required properties</th></tr>
+</thead>
+<tbody>
+<tr>
+<td><code dir="ltr" translate="no">name</code></td>
+<td><p><code dir="ltr" translate="no"><a class="external-link" href="https://schema.org/Text">Text</a></code></p>
+<p>A descriptive title for the content of the clip.</p></td>
+</tr>
+<tr>
+<td><code dir="ltr" translate="no">startOffset</code></td>
+<td><p><code dir="ltr" translate="no"><a class="external-link" href="https://schema.org/Number">Number</a></code></p>
+<p>The start time of the clip expressed as the number of seconds from the beginning of the
+          work.</p></td>
+</tr>
+<tr>
+<td><code dir="ltr" translate="no">url</code></td>
+<td><p><code dir="ltr" translate="no"><a class="external-link" href="https://schema.org/URL">URL</a></code></p>
+<p>A URL that points to the start time of the clip.</p>
+<p>The clip URL must point to the same URL path as the video with additional query
+          parameters that specify the time. </p>
+<p>For example, the following URL means the video starts at 2:00 minutes:</p>
+<div></div><devsite-code><pre class="devsite-click-to-copy" dir="ltr" is-upgraded="" syntax="Text only" syntax-guessed="" translate="no">"url": "https://www.example.com/example?t=120"</pre></devsite-code>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="responsive fixed">
+<colgroup><col width="20%"/></colgroup>
+<thead>
+<tr><th colspan="2">Recommended properties</th></tr>
+</thead>
+<tbody>
+<tr>
+<td><code dir="ltr" translate="no">endOffset</code></td>
+<td>
+<p><code dir="ltr" translate="no"><a class="external-link" href="https://schema.org/Number">Number</a></code></p>
+<p>The end time of the clip expressed as the number of seconds from the beginning of the
+          work.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id="seek" tabindex="-1"><code dir="ltr" translate="no">SeekToAction</code></h3>
+<p>
+  To tell Google how your URL structure works (so that Google can display key moments
+  that are automatically identified for your video), nest the following properties in your
+  <a href="#video-object"><code dir="ltr" translate="no">VideoObject</code></a>. While
+  <code dir="ltr" translate="no">SeekToAction</code> properties aren't required, you must add the following properties if you
+  want Google to understand how your URL structure works, so Google can link users to a point within the video.</p>
+<aside class="important">If you prefer to identify key moments in a video yourself, instead
+  of letting Google automatically identify key moments, use
+  <a href="#clip"><code dir="ltr" translate="no">Clip</code> markup</a> instead of <code dir="ltr" translate="no">SeekToAction</code>.</aside>
+<p>
+  The full definition of <code dir="ltr" translate="no">SeekToAction</code> is
+  available at <a class="external-link" href="https://schema.org/SeekToAction">schema.org/SeekToAction</a>.
+</p>
+<table class="responsive fixed">
+<colgroup><col width="20%"/></colgroup>
+<thead>
+<tr><th colspan="2">Required properties</th></tr>
+</thead>
+<tbody>
+<tr>
+<td><code dir="ltr" translate="no">potentialAction</code>
+</td>
+<td><p><code dir="ltr" translate="no"><a class="external-link" href="https://schema.org/SeekToAction">SeekToAction</a></code></p>
+<p>Indicates a potential action. Include the following nested properties</p>
+<ul>
+<li><a href="#start-offset-input"><code dir="ltr" translate="no">potentialAction.startOffset-input</code></a></li>
+<li><a href="#target"><code dir="ltr" translate="no">potentialAction.target</code></a></li>
+</ul>
+<p>
+          For example:
+        </p>
+<div></div><devsite-code><pre class="devsite-click-to-copy" dir="ltr" is-upgraded="" syntax="Carbon" syntax-guessed="" translate="no"><span class="devsite-syntax-p">{</span>
+<span class="devsite-syntax-w">  </span><span class="devsite-syntax-s">"@context"</span><span class="devsite-syntax-p">:</span><span class="devsite-syntax-w"> </span><span class="devsite-syntax-s">"https://schema.org"</span><span class="devsite-syntax-p">,</span>
+<span class="devsite-syntax-w">  </span><span class="devsite-syntax-s">"@type"</span><span class="devsite-syntax-p">:</span><span class="devsite-syntax-w"> </span><span class="devsite-syntax-s">"VideoObject"</span><span class="devsite-syntax-p">,</span>
+<span class="devsite-syntax-w">  </span><span class="devsite-syntax-s">"potentialAction"</span><span class="devsite-syntax-w"> </span><span class="devsite-syntax-p">:</span><span class="devsite-syntax-w"> </span><span class="devsite-syntax-p">{</span>
+<span class="devsite-syntax-w">    </span><span class="devsite-syntax-s">"@type"</span><span class="devsite-syntax-p">:</span><span class="devsite-syntax-w"> </span><span class="devsite-syntax-s">"SeekToAction"</span><span class="devsite-syntax-p">,</span>
+<span class="devsite-syntax-w">    </span><span class="devsite-syntax-s">"target"</span><span class="devsite-syntax-p">:</span><span class="devsite-syntax-w"> </span><span class="devsite-syntax-s">"https://video.example.com/watch/videoID?t={seek_to_second_number}"</span><span class="devsite-syntax-p">,</span>
+<span class="devsite-syntax-w">    </span><span class="devsite-syntax-s">"startOffset-input"</span><span class="devsite-syntax-p">:</span><span class="devsite-syntax-w"> </span><span class="devsite-syntax-s">"required name=seek_to_second_number"</span>
+<span class="devsite-syntax-w">  </span><span class="devsite-syntax-p">}</span>
+<span class="devsite-syntax-p">}</span></pre></devsite-code>
+</td>
+</tr>
+<tr>
+<td id="start-offset-input"><code dir="ltr" translate="no">potentialAction.startOffset-input</code>
+</td>
+<td><p><code dir="ltr" translate="no"><a class="external-link" href="https://schema.org/Text">Text</a></code></p>
+<p>The placeholder string that Google will identify as your timestamp structure and then
+          replace with the number of seconds to skip to. Use the following value:</p>
+<div></div><devsite-code><pre class="devsite-click-to-copy devsite-code-highlight" dir="ltr" is-upgraded="" syntax="scdoc" syntax-guessed="" translate="no">"startOffset-input": "<strong>required name=seek_to_second_number</strong>"</pre></devsite-code>
+<p>
+<code dir="ltr" translate="no">startOffset-input</code> is an annotated property. See the
+          <a class="external-link" href="https://schema.org/docs/actions.html#part-4"><code dir="ltr" translate="no">Potential Actions</code></a>
+          page for more information.
+        </p>
+</td>
+</tr>
+<tr>
+<td id="target"><code dir="ltr" translate="no">potentialAction.target</code>
+</td>
+<td><p><code dir="ltr" translate="no"><a class="external-link" href="https://schema.org/EntryPoint">EntryPoint</a></code></p>
+<p>The URL of the page that contains this <code dir="ltr" translate="no">VideoObject</code>, including a placeholder in the URL structure
+          that indicates where Google can insert the number of seconds to skip to in the video.
+          This is how Google understands your URL structure and how you format your timestamps.
+          Replace the timestamp part of the URL with the following placeholder
+          string:</p>
+<div></div><devsite-code><pre class="devsite-click-to-copy" dir="ltr" is-upgraded="" syntax="scdoc" syntax-guessed="" translate="no">{seek_to_second_number}</pre></devsite-code>
+<p>
+          For example, replace the timestamp part of the URL:
+        </p>
+<div></div><devsite-code><pre class="devsite-click-to-copy devsite-code-highlight" dir="ltr" is-upgraded="" syntax="Text only" syntax-guessed="" translate="no">"target": "https://video.example.com/watch/videoID?t=<strong>30</strong>"</pre></devsite-code>
+<p>So that the timestamp now looks like this:</p>
+<div></div><devsite-code><pre class="devsite-click-to-copy devsite-code-highlight" dir="ltr" is-upgraded="" syntax="scdoc" syntax-guessed="" translate="no">"target": "https://video.example.com/watch/videoID?t=<strong>{seek_to_second_number}</strong>"</pre></devsite-code>
+</td>
+</tr>
+</tbody>
+</table>
+<h2 id="monitor" tabindex="-1">Monitor rich results with Search Console</h2>
+<p>
+   Search Console is a tool that helps you monitor how your pages perform in Google Search.
+   You don't have to sign up for Search Console to be included in Google Search results,
+   but it can help you understand and improve how Google sees your site. We
+   recommend checking Search Console in the following cases:
+  <ol>
+<li><a href="#after-deploying">After deploying structured data for the first time</a></li>
+<li><a href="#after-releasing">After releasing new templates or updating your code</a></li>
+<li><a href="#analyzing-periodically">Analyzing traffic periodically</a></li>
+</ol>
+<div class="video-wrapper-full-width">
+<devsite-video video-id="Vmfvf8nG09k"></devsite-video>
+</div>
+<h3 id="after-deploying" tabindex="-1">
+    After deploying structured data for the first time
+  </h3>
+<p>
+    After Google has indexed your pages, look for issues using the relevant
+    <a class="external-link" href="https://support.google.com/webmasters/answer/7552505">Rich result status report</a>.
+    Ideally, there will be an increase of valid items, and no increase in invalid items. If you find issues
+    in your structured data:</p>
+<ol>
+<li><a href="#troubleshooting">Fix the invalid items</a>.</li>
+<li><a class="external-link" href="https://support.google.com/webmasters/answer/9012289#test_live_page">Inspect a live URL</a> to check if the issue persists.</li>
+<li><a class="external-link" href="https://support.google.com/webmasters/answer/13300208">Request validation</a> using the status report.</li>
+</ol>
+<h3 id="after-releasing" tabindex="-1">
+    After releasing new templates or updating your code
+  </h3>
+     When you make significant changes to your website, monitor for increases in structured data invalid items.
+  <ul>
+<li>If you see an <b>increase in invalid items</b>, perhaps you rolled out a new template that doesn't work, or your site interacts with the existing
+    template in a new and bad way.</li>
+<li>If you see a <b>decrease in valid items</b> (not matched by an increase in invalid items), perhaps you are
+      no longer embedding structured data in your pages. Use the <a class="external-link" href="https://support.google.com/webmasters/answer/9012289">
+      URL Inspection tool</a> to learn what is causing the issue.</li>
+</ul>
+<h3 id="analyzing-periodically" tabindex="-1">
+    Analyzing traffic periodically
+  </h3>
+    Analyze your Google Search traffic using the <a class="external-link" href="https://support.google.com/webmasters/answer/7576553">Performance Report</a>.
+      The data will show you how often your page appears as a rich result in Search, how often users click on it and what is
+      the average position you appear on search results. You can also automatically pull these
+      results with the <a class="external-link" href="/webmaster-tools/search-console-api-original/v3/how-tos/search_analytics">Search Console API</a>.
+
+  
+  <h2 id="troubleshooting" tabindex="-1">Troubleshooting</h2>
+<p>
+    If you're having trouble implementing or debugging structured data, here are some resources that
+    may help you.
+  </p>
+<ul>
+<li>If you're using a content management system (CMS) or someone else is taking care of your site,
+      ask them to help you. Make sure to forward any Search Console message that details the issue to them.</li>
+<li>Google does not guarantee that features that consume structured data will show up in search results.
+      For a list of common reasons why Google may not show your content in a rich result, see the
+      <a href="/search/docs/appearance/structured-data/sd-policies">General Structured Data Guidelines</a>.</li>
+<li>You might have an error in your structured data. Check the
+      <a class="external-link" href="https://support.google.com/webmasters/answer/13300873">list of structured data errors</a>
+      and the <a class="external-link" href="https://support.google.com/webmasters/answer/9166415">Unparsable structured data report</a>.</li>
+<li>If you received a structured data manual action against your page, the structured data on
+      the page will be ignored (although the page can still appear in Google Search results). To fix
+      <a class="external-link" href="https://support.google.com/webmasters/answer/9044175#zippy=%2Cstructured-data-issue">structured data issues</a>, use the <a class="external-link" href="https://support.google.com/webmasters/answer/9044175">Manual Actions report</a>.
+    </li>
+<li>Review the <a href="#guidelines">guidelines</a> again to identify if your content isn't compliant
+      with the guidelines. The problem can be caused by either spammy content or spammy markup usage.
+        However, the issue may not be a syntax issue, and so the Rich Results Test won't be able to
+        identify these issues.
+    </li>
+<li>Structured data issues can affect how your site's content appears in search results. Use this
+      <a class="external-link" href="https://support.google.com/webmasters/answer/13300208">Troubleshoot missing rich results / drop in total rich results</a>
+      guide to review a step-by-step approach to identify, fix, and validate these issues in Search Console.</li>
+<li>Allow time for re-crawling and re-indexing. Remember that it may take several days after
+      publishing a page for Google to find and crawl it. For general questions about crawling and indexing, check the
+      <a class="external-link" href="/search/help/crawling-index-faq">Google Search crawling and indexing FAQ</a>.
+    </li>
+<li>Post a question in the <a class="external-link" href="https://support.google.com/webmasters/community">Google Search Central forum</a>.</li>
+</ul>
+<devsite-hats-survey class="nocontent" hats-id="egUfosvgZ0gb2CML1jd0VMoBx2ec" listnr-id="103417"></devsite-hats-survey>
+</p></div>
+<devsite-thumb-rating position="footer">
+</devsite-thumb-rating>
+<devsite-feedback bucket="Search Docs" class="nocontent" context="DevSite feedback link" disable-product-feedback="" position="footer" product-id="103417" project-icon="https://developers.google.com/static/search/images/google-search-central-logo.svg" project-name="Documentation" project-support-url="https://developers.google.com/search/help" track-metadata-position="footer" track-name="sendFeedbackLink" track-type="feedback" version="t-devsite-webserver-20261029-r00-rc00.481474161002368321">
+<button>
+  
+    
+    Send feedback
+  
+  </button>
+</devsite-feedback>
+<div class="devsite-floating-action-buttons"></div></article>
+<devsite-content-footer class="nocontent">
+<p>Except as otherwise noted, the content of this page is licensed under the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 License</a>, and code samples are licensed under the <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache 2.0 License</a>. For details, see the <a href="https://developers.google.com/site-policies">Google Developers Site Policies</a>. Java is a registered trademark of Oracle and/or its affiliates.</p>
+<p>Last updated 2026-09-24 UTC.</p>
+</devsite-content-footer>
+<devsite-notification>
+</devsite-notification>
+<div class="devsite-content-data">
+<template class="devsite-thumb-rating-feedback">
+<devsite-feedback bucket="Search Docs" class="nocontent" context="DevSite feedback link" disable-product-feedback="" position="thumb-rating" product-id="103417" project-icon="https://developers.google.com/static/search/images/google-search-central-logo.svg" project-name="Documentation" project-support-url="https://developers.google.com/search/help" track-metadata-position="thumb-rating" track-name="sendFeedbackLink" track-type="feedback" version="t-devsite-webserver-20261029-r00-rc00.481474161002368321">
+<button>
+  
+    Need to tell us more?
+  
+  </button>
+</devsite-feedback>
+</template>
+<template class="devsite-content-data-template">
+      [[["Easy to understand","easyToUnderstand","thumb-up"],["Solved my problem","solvedMyProblem","thumb-up"],["Other","otherUp","thumb-up"]],[["Missing the information I need","missingTheInformationINeed","thumb-down"],["Too complicated / too many steps","tooComplicatedTooManySteps","thumb-down"],["Out of date","outOfDate","thumb-down"],["Samples / code issue","samplesCodeIssue","thumb-down"],["Other","otherDown","thumb-down"]],["Last updated 2026-09-24 UTC."],[],["Video structured data enhances Google Search visibility using `VideoObject`, `Clip`, and `BroadcastEvent`.  It adds LIVE badges via `BroadcastEvent`, indicating live streams, and allows manual key moment specification with `Clip` (exact timestamps/labels) or `SeekToAction` (URL timestamps). Educational videos utilize Learning Video data. Implementation involves adding required properties, validating, deploying, and requesting recrawling. CMS plugins or JavaScript can generate structured data.  The properties `regionsAllowed` and `ineligibleRegion` define where the video is allowed or not. Monitoring and troubleshooting is handled via Search console.\n"]]
+    </template>
+</div>
+</devsite-content>
+</main>
+<devsite-footer-promos class="devsite-footer">
+<nav aria-label="Promotions" class="devsite-footer-promos nocontent">
+<ul class="devsite-footer-promos-list">
+<li class="devsite-footer-promo">
+<a aria-label="LinkedIn feed for Google Search Central" class="devsite-footer-promo-title gc-analytics-event" href="https://www.linkedin.com/showcase/googlesearchcentral/">
+<picture>
+<img alt="LinkedIn" class="devsite-footer-promo-icon" loading="lazy" src="/static/search/images/li.png"/>
+</picture>
+<span class="devsite-footer-promo-label">
+          LinkedIn
+        </span>
+</a>
+<div class="devsite-footer-promo-description">Join us on LinkedIn</div>
+</li>
+<li class="devsite-footer-promo">
+<a aria-label="Google Search Central YouTube channel" class="devsite-footer-promo-title gc-analytics-event" href="https://www.youtube.com/channel/UCWf2ZlNsCGDS89VBF_awNvA">
+<picture>
+<img alt="YouTube" class="devsite-footer-promo-icon" loading="lazy" src="/static/homepage-assets/images/yt.svg"/>
+</picture>
+<span class="devsite-footer-promo-label">
+          YouTube
+        </span>
+</a>
+<div class="devsite-footer-promo-description">Watch our videos</div>
+</li>
+<li class="devsite-footer-promo">
+<a aria-label="RSS feed for the Search Central Blog" class="devsite-footer-promo-title gc-analytics-event" href="https://feeds.feedburner.com/blogspot/amDG">
+<picture>
+<img alt="Blog" class="devsite-footer-promo-icon" loading="lazy" src="https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/rss_feed/default/24px.svg"/>
+</picture>
+<span class="devsite-footer-promo-label">
+          Blog
+        </span>
+</a>
+<div class="devsite-footer-promo-description">Subscribe to our RSS feed</div>
+</li>
+<li class="devsite-footer-promo">
+<a aria-label="Search Off the Record podcast episodes" class="devsite-footer-promo-title gc-analytics-event" href="https://pod.link/1512522198">
+<picture>
+<img alt="Podcast" class="devsite-footer-promo-icon" loading="lazy" src="/static/search/images/search-off-the-record-podcast-logo.png"/>
+</picture>
+<span class="devsite-footer-promo-label">
+          Podcast
+        </span>
+</a>
+<div class="devsite-footer-promo-description">Listen to Search Off the Record</div>
+</li>
+<li class="devsite-footer-promo">
+<a aria-label="Twitter feed for Google Search Central" class="devsite-footer-promo-title gc-analytics-event" href="https://twitter.com/googlesearchc">
+<picture>
+<img alt="X (Twitter)" class="devsite-footer-promo-icon" loading="lazy" src="/static/homepage-assets/images/x.svg"/>
+</picture>
+<span class="devsite-footer-promo-label">
+          X (Twitter)
+        </span>
+</a>
+<div class="devsite-footer-promo-description">Join us on X (Twitter)</div>
+</li>
+</ul>
+</nav>
+</devsite-footer-promos>
+<devsite-footer-linkboxes class="devsite-footer">
+<nav aria-label="Footer links" class="devsite-footer-linkboxes nocontent">
+<ul class="devsite-footer-linkboxes-list">
+<li class="devsite-footer-linkbox">
+<h3 class="devsite-footer-linkbox-heading no-link">Get support</h3>
+<ul class="devsite-footer-linkbox-list">
+<li class="devsite-footer-linkbox-item">
+<a class="devsite-footer-linkbox-link gc-analytics-event" href="https://support.google.com/webmasters/community">
+            
+          
+            Go to the help forum
+          
+          </a>
+</li>
+<li class="devsite-footer-linkbox-item">
+<a class="devsite-footer-linkbox-link gc-analytics-event" href="/search/help/office-hours">
+            
+          
+            Submit a question for office hours
+          
+          </a>
+</li>
+<li class="devsite-footer-linkbox-item">
+<a class="devsite-footer-linkbox-link gc-analytics-event" href="/search/help/report-quality-issues">
+            
+          
+            Report spam, phishing, or malware
+          
+          </a>
+</li>
+<li class="devsite-footer-linkbox-item">
+<a class="devsite-footer-linkbox-link gc-analytics-event" href="/search/help">
+            
+              
+              
+            
+          
+            More support resources
+          
+          </a>
+</li>
+</ul>
+</li>
+<li class="devsite-footer-linkbox">
+<h3 class="devsite-footer-linkbox-heading no-link">Resources</h3>
+<ul class="devsite-footer-linkbox-list">
+<li class="devsite-footer-linkbox-item">
+<a class="devsite-footer-linkbox-link gc-analytics-event" href="/search/docs/fundamentals/get-on-google">
+            
+          
+            Do you need an SEO?
+          
+          </a>
+</li>
+<li class="devsite-footer-linkbox-item">
+<a class="devsite-footer-linkbox-link gc-analytics-event" href="/search/docs/fundamentals/seo-starter-guide">
+            
+          
+            SEO Starter Guide
+          
+          </a>
+</li>
+<li class="devsite-footer-linkbox-item">
+<a class="devsite-footer-linkbox-link gc-analytics-event" href="https://status.search.google.com">
+            
+          
+            Status of Search systems
+          
+          </a>
+</li>
+<li class="devsite-footer-linkbox-item">
+<a class="devsite-footer-linkbox-link gc-analytics-event" href="https://support.google.com/webmasters">
+            
+          
+            Search Console documentation
+          
+          </a>
+</li>
+<li class="devsite-footer-linkbox-item">
+<a class="devsite-footer-linkbox-link gc-analytics-event" href="/search/case-studies">
+            
+              
+              
+            
+          
+            Case Studies
+          
+          </a>
+</li>
+</ul>
+</li>
+<li class="devsite-footer-linkbox">
+<h3 class="devsite-footer-linkbox-heading no-link">Tools</h3>
+<ul class="devsite-footer-linkbox-list">
+<li class="devsite-footer-linkbox-item">
+<a class="devsite-footer-linkbox-link gc-analytics-event" href="https://search.google.com/search-console">
+            
+          
+            Search Console
+          
+          </a>
+</li>
+<li class="devsite-footer-linkbox-item">
+<a class="devsite-footer-linkbox-link gc-analytics-event" href="https://search.google.com/test/rich-results">
+            
+          
+            Rich Results Test
+          
+          </a>
+</li>
+<li class="devsite-footer-linkbox-item">
+<a class="devsite-footer-linkbox-link gc-analytics-event" href="https://pagespeed.web.dev">
+            
+          
+            PageSpeed Insights
+          
+          </a>
+</li>
+<li class="devsite-footer-linkbox-item">
+<a class="devsite-footer-linkbox-link gc-analytics-event" href="https://search.google.com/test/amp">
+            
+              
+              
+            
+          
+            AMP Test
+          
+          </a>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+</devsite-footer-linkboxes>
+<devsite-footer-utility class="devsite-footer">
+<div class="devsite-footer-utility nocontent">
+<nav aria-label="Other Google Developers websites" class="devsite-footer-sites">
+<a class="devsite-footer-sites-logo-link gc-analytics-event" href="https://developers.google.com/">
+<picture>
+<img alt="Google Developers" class="devsite-footer-sites-logo" loading="lazy" src="https://www.gstatic.com/devrel-devsite/prod/veed85ba0e3651062c793a40796e84fb34afbf8489308d45f92d5448e587e3f03/developers/images/lockup-google-for-developers.svg"/>
+</picture>
+</a>
+<ul class="devsite-footer-sites-list">
+<li class="devsite-footer-sites-item">
+<a class="devsite-footer-sites-link gc-analytics-event" href="//developer.android.com">
+          Android
+        </a>
+</li>
+<li class="devsite-footer-sites-item">
+<a class="devsite-footer-sites-link gc-analytics-event" href="//developer.chrome.com/home">
+          Chrome
+        </a>
+</li>
+<li class="devsite-footer-sites-item">
+<a class="devsite-footer-sites-link gc-analytics-event" href="//firebase.google.com">
+          Firebase
+        </a>
+</li>
+<li class="devsite-footer-sites-item">
+<a class="devsite-footer-sites-link gc-analytics-event" href="//cloud.google.com">
+          Google Cloud Platform
+        </a>
+</li>
+<li class="devsite-footer-sites-item">
+<a class="devsite-footer-sites-link gc-analytics-event" href="//ai.google.dev/">
+          Google AI
+        </a>
+</li>
+<li class="devsite-footer-sites-item">
+<a class="devsite-footer-sites-link gc-analytics-event" href="/products">
+          All products
+        </a>
+</li>
+</ul>
+</nav>
+<nav aria-label="Utility links" class="devsite-footer-utility-links">
+<ul class="devsite-footer-utility-list">
+<li class="devsite-footer-utility-item">
+<a class="devsite-footer-utility-link gc-analytics-event" href="/terms/site-terms">
+          Terms
+        </a>
+</li>
+<li class="devsite-footer-utility-item">
+<a class="devsite-footer-utility-link gc-analytics-event" href="//policies.google.com/privacy">
+          Privacy
+        </a>
+</li>
+<li class="devsite-footer-utility-item glue-cookie-notification-bar-control">
+<a aria-hidden="true" class="devsite-footer-utility-link gc-analytics-event" href="#">
+          Manage cookies
+        </a>
+</li>
+</ul>
+<devsite-language-selector>
+<ul role="presentation">
+<li role="presentation">
+<a lang="en" role="menuitem">English</a>
+</li>
+<li role="presentation">
+<a lang="de" role="menuitem">Deutsch</a>
+</li>
+<li role="presentation">
+<a lang="es" role="menuitem">Español</a>
+</li>
+<li role="presentation">
+<a lang="es_419" role="menuitem">Español – América Latina</a>
+</li>
+<li role="presentation">
+<a lang="fr" role="menuitem">Français</a>
+</li>
+<li role="presentation">
+<a lang="id" role="menuitem">Indonesia</a>
+</li>
+<li role="presentation">
+<a lang="it" role="menuitem">Italiano</a>
+</li>
+<li role="presentation">
+<a lang="pl" role="menuitem">Polski</a>
+</li>
+<li role="presentation">
+<a lang="pt_br" role="menuitem">Português – Brasil</a>
+</li>
+<li role="presentation">
+<a lang="vi" role="menuitem">Tiếng Việt</a>
+</li>
+<li role="presentation">
+<a lang="tr" role="menuitem">Türkçe</a>
+</li>
+<li role="presentation">
+<a lang="ru" role="menuitem">Русский</a>
+</li>
+<li role="presentation">
+<a lang="ar" role="menuitem">العربيّة</a>
+</li>
+<li role="presentation">
+<a lang="hi" role="menuitem">हिंदी</a>
+</li>
+<li role="presentation">
+<a lang="th" role="menuitem">ภาษาไทย</a>
+</li>
+<li role="presentation">
+<a lang="zh_cn" role="menuitem">中文 – 简体</a>
+</li>
+<li role="presentation">
+<a lang="zh_tw" role="menuitem">中文 – 繁體</a>
+</li>
+<li role="presentation">
+<a lang="ja" role="menuitem">日本語</a>
+</li>
+<li role="presentation">
+<a lang="ko" role="menuitem">한국어</a>
+</li>
+</ul>
+</devsite-language-selector>
+</nav>
+</div>
+</devsite-footer-utility>
+<devsite-panel>
+</devsite-panel>
+<devsite-concierge>
+</devsite-concierge>
+</section>
+</section>
+<devsite-sitemask></devsite-sitemask>
+<devsite-snackbar></devsite-snackbar>
+<devsite-tooltip></devsite-tooltip>
+<devsite-heading-link></devsite-heading-link>
+<devsite-analytics>
+
+
+</devsite-analytics>
+<devsite-badger></devsite-badger>
+
+<devsite-a11y-announce></devsite-a11y-announce>
+</body>
+</html>
