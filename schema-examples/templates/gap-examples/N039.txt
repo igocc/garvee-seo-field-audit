@@ -1,0 +1,31 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "【提取：当前页面路由的规范URL；输出类型：URL】#webpage",
+      "url": "【提取：当前页面路由的规范URL；输出类型：URL】",
+      "name": "【提取：CMS中本页实际标题；输出类型：Text】",
+      "hasPart": {
+        "@id": "【提取：当前页面路由的规范URL；输出类型：URL】#video-【提取：CMS中此视频的稳定ID；输出类型：Text】"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "【提取：当前页面路由的规范URL；输出类型：URL】#video-【提取：CMS中此视频的稳定ID；输出类型：Text】",
+      "name": "【提取：视频CMS中该视频的真实标题；输出类型：Text】",
+      "description": "【提取：视频CMS中专门描述此视频内容的简介，不用商品说明代填；输出类型：Text】",
+      "thumbnailUrl": "【提取：该视频实际封面公开图片地址；输出类型：URL】",
+      "uploadDate": "【提取：视频CMS或来源平台记录的首次公开发布时间，带真实时区；不取CDN修改时间或URL参数；输出类型：DateTime】",
+      "duration": "【提取：该视频文件或来源平台的真实播放时长，转换为ISO 8601时长；输出类型：Duration】",
+      "contentUrl": "【提取：该视频公开可抓取的媒体文件本体地址；若仅有第三方播放器则删除本字段并提供embedUrl；输出类型：URL】",
+      "creator": {
+        "@type": "Organization",
+        "name": "【提取：版权或内容主数据确认的真实创作者名称；个人改用Person；输出类型：Text】",
+        "url": "【提取：该创作者的真实公开介绍页；输出类型：URL】"
+      }
+    }
+  ]
+}
+</script>

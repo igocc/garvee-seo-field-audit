@@ -1,5 +1,5 @@
 {
-  "published_at": "2026-11-05T06:12:24.387302+00:00",
+  "published_at": "2026-11-10T05:39:04.358294+00:00",
   "visibility": "public",
   "repository": "https://github.com/igocc/garvee-seo-field-audit",
   "page": "https://igocc.github.io/garvee-seo-field-audit/schema-examples/",
@@ -7,5 +7,15 @@
   "code_bytes_unchanged": true,
   "evidence": "public projections; original hashes retained separately",
   "current_online_receipts": 0,
-  "storefront_deployment": false
+  "storefront_deployment": false,
+  "gap_guidance": {
+    "needs_with_complete_examples": 69,
+    "chinese_value_placeholders": true,
+    "template_validation": "pending real-value binding; no online validation claimed",
+    "current_dom_recheck": {
+      "successful_pages": 26,
+      "blocked_pages": 1,
+      "evidence": "review/gap-live-recheck.json"
+    }
+  }
 }

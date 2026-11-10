@@ -1,0 +1,60 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ItemPage",
+      "@id": "【提取：当前页面路由的规范URL；输出类型：URL】#webpage",
+      "url": "【提取：当前页面路由的规范URL；输出类型：URL】",
+      "name": "【提取：CMS中本页可见标题；输出类型：Text】",
+      "mainEntity": {
+        "@id": "【提取：当前页面路由的规范URL；输出类型：URL】#group"
+      }
+    },
+    {
+      "@type": "ProductGroup",
+      "@id": "【提取：当前页面路由的规范URL；输出类型：URL】#group",
+      "name": "【提取：PIM中真实父商品组名称；输出类型：Text】",
+      "productGroupID": "【提取：PIM中稳定父商品组ID；输出类型：Text】",
+      "variesBy": [
+        "https://schema.org/color",
+        "https://schema.org/size"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "@id": "【提取：PIM中第一个真实变体规范URL；输出类型：URL】#product",
+          "url": "【提取：路由中第一个真实变体规范URL；输出类型：URL】",
+          "name": "【提取：PIM中第一个变体名称；输出类型：Text】",
+          "sku": "【提取：PIM中第一个变体SKU；输出类型：Text】",
+          "color": "【提取：PIM中第一个变体实际颜色；输出类型：Text】",
+          "size": "【提取：PIM中第一个变体实际尺寸及单位；输出类型：Text】",
+          "image": "【提取：第一个变体对应的真实主图；输出类型：URL】",
+          "offers": {
+            "@type": "Offer",
+            "url": "【提取：第一个变体可购买URL；输出类型：URL】",
+            "price": "【提取：价格API中第一个变体当前普通价；输出类型：Number】",
+            "priceCurrency": "【提取：第一个报价的ISO 4217币种；输出类型：Text】"
+          }
+        },
+        {
+          "@type": "Product",
+          "@id": "【提取：PIM中第二个真实变体规范URL；输出类型：URL】#product",
+          "url": "【提取：路由中第二个真实变体规范URL；输出类型：URL】",
+          "name": "【提取：PIM中第二个变体名称；输出类型：Text】",
+          "sku": "【提取：PIM中第二个变体SKU；输出类型：Text】",
+          "color": "【提取：PIM中第二个变体实际颜色；输出类型：Text】",
+          "size": "【提取：PIM中第二个变体实际尺寸及单位；输出类型：Text】",
+          "image": "【提取：第二个变体对应的真实主图；输出类型：URL】",
+          "offers": {
+            "@type": "Offer",
+            "url": "【提取：第二个变体可购买URL；输出类型：URL】",
+            "price": "【提取：价格API中第二个变体当前普通价；输出类型：Number】",
+            "priceCurrency": "【提取：第二个报价的ISO 4217币种；输出类型：Text】"
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>

@@ -1,0 +1,1308 @@
+{
+  "successful_pages": 26,
+  "blocked_pages": 1,
+  "scope": "当前浏览器DOM回读；未逐页独立检查初始HTTP响应，未遍历全部折叠、懒加载和后台数据。",
+  "pages": [
+    {
+      "page": "about-garvee",
+      "url": "https://www.garvee.com/pages/about-garvee",
+      "title": "About GARVEE",
+      "checked_at": "2026-11-10T05:31:26.298Z",
+      "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+      "canonical_in_dom": "https://www.garvee.com/pages/about-garvee",
+      "source_snapshot_sha256": "e13af8b92d5f4b57b3b9b606ce72270bba68802ad50b37d2a4d4c0e0cb2c6d89"
+    },
+    {
+      "page": "accessibility-statement",
+      "url": "https://www.garvee.com/pages/accessibility-statement",
+      "title": "Accessibility Statement - GARVEE",
+      "checked_at": "2026-11-10T05:31:27.702Z",
+      "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+      "canonical_in_dom": "https://www.garvee.com/pages/accessibility-statement",
+      "source_snapshot_sha256": "1dfab294bf2da502e0ae51e10b011e4f6691ec116fa7a7ab3bfe4dc40bf3f8d2"
+    },
+    {
+      "page": "affiliate",
+      "url": "https://www.garvee.com/pages/affiliate",
+      "title": "Affiliate | GARVEE",
+      "checked_at": "2026-11-10T05:31:45.557Z",
+      "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+      "canonical_in_dom": "https://www.garvee.com/pages/affiliate",
+      "source_snapshot_sha256": "81951557ae1608313ec400a8ecba0c65ed8bc0a3cdd782c57d10ae1814f1f3ef"
+    },
+    {
+      "page": "article",
+      "url": "https://www.garvee.com/blogs/buying-guides/everything-you-need-to-know-about-rug-sizes-and-placement",
+      "title": "Everything You Need to Know About Rug Sizes | GARVEE Guide",
+      "checked_at": "2026-11-10T05:31:09.622Z",
+      "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+      "canonical_in_dom": "https://www.garvee.com/blogs/buying-guides/everything-you-need-to-know-about-rug-sizes-and-placement",
+      "source_snapshot_sha256": "cf2946195a4ff90132da08e0ac5fdc6154f7f3218c50009ed299e63287a647ef"
+    },
+    {
+      "page": "blog-list",
+      "url": "https://www.garvee.com/blogs/buying-guides",
+      "title": "Product Buying Guides and Equipment Comparisons - GARVEE",
+      "checked_at": "2026-11-10T05:31:58.785Z",
+      "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+      "canonical_in_dom": "https://www.garvee.com/blogs/buying-guides",
+      "source_snapshot_sha256": "5b758e4caf55ce2c2401359a795efc930272963fbbaec6018b8e8ba7d563b43d"
+    },
+    {
+      "page": "business",
+      "url": "https://www.garvee.com/pages/business",
+      "title": "GARVEE Business - Volume Pricing & Wholesale",
+      "checked_at": "2026-11-10T05:31:44.676Z",
+      "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+      "canonical_in_dom": "https://www.garvee.com/pages/business",
+      "source_snapshot_sha256": "c3c50cf75668d4f3c313bd8ab00816b7df5555bf9569f222398c6a6005968ac4"
+    },
+    {
+      "page": "campaign",
+      "url": "https://www.garvee.com/pages/activity-fall-home-sale",
+      "title": "GARVEE Fall Home Upgrade Sale 2026 - Save $45",
+      "checked_at": "2026-11-10T05:31:46.958Z",
+      "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+      "canonical_in_dom": "https://www.garvee.com/pages/activity-fall-home-sale",
+      "source_snapshot_sha256": "846d07fdea77fad21c2fe91e9047f5a00adbf9a0da814f440323dc4aa1fe90d6"
+    },
+    {
+      "page": "carebox-package-protection",
+      "url": "https://www.garvee.com/pages/carebox-package-protection",
+      "title": "Carebox Package Protection - GARVEE",
+      "checked_at": "2026-11-10T05:31:43.969Z",
+      "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+      "canonical_in_dom": "https://www.garvee.com/pages/carebox-package-protection",
+      "source_snapshot_sha256": "bf4288172ee434d9a98e0b9a93eb620ad4c314bd3b06bb22ac72949128ebaf41"
+    },
+    {
+      "page": "category",
+      "url": "https://www.garvee.com/collections/rugs",
+      "title": "GARVEE Rugs for Living Room, Bedroom, Dining & Patio Decor",
+      "checked_at": "2026-11-10T05:31:08.407Z",
+      "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+      "canonical_in_dom": "https://www.garvee.com/collections/rugs",
+      "source_snapshot_sha256": "4db97625aba5c42c2b1e984d520226a27125f6c64e739c104ab9aa86dc1f3da0"
+    },
+    {
+      "page": "contact",
+      "url": "https://www.garvee.com/pages/contact",
+      "title": "Contact Us | GARVEE",
+      "checked_at": "2026-11-10T05:31:26.955Z",
+      "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+      "canonical_in_dom": "https://www.garvee.com/pages/contact",
+      "source_snapshot_sha256": "e1529d4679e26a8eb4608a8b69cbc3526073c176c8de969597eec2190259dcb7"
+    },
+    {
+      "page": "diy-ideas",
+      "url": "https://www.garvee.com/pages/diy-ideas",
+      "title": "DIY Projects & Tutorials | GARVEE",
+      "checked_at": "2026-11-10T05:31:47.650Z",
+      "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+      "canonical_in_dom": "https://www.garvee.com/pages/diy-ideas",
+      "source_snapshot_sha256": "fc3331d79ddd8d6d04cf450c62ada7c4949fb5efaf64d334e83712d69560be88"
+    },
+    {
+      "page": "extended-service-protection",
+      "url": "https://www.garvee.com/pages/extended-service-protection",
+      "title": "Extended Service Protection | GARVEE",
+      "checked_at": "2026-11-10T05:31:29.661Z",
+      "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+      "canonical_in_dom": "https://www.garvee.com/pages/extended-service-protection",
+      "source_snapshot_sha256": "032985f57f271a2c0204c38e1e012613c407dea7cca4e285f44c5056db892efe"
+    },
+    {
+      "page": "faqs",
+      "url": "https://www.garvee.com/pages/faqs",
+      "title": "Help & FAQs - GARVEE",
+      "checked_at": "2026-11-10T05:27:08.551Z",
+      "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+      "canonical_in_dom": "https://www.garvee.com/pages/faqs",
+      "source_snapshot_sha256": "901ff9bb9e92fa6d84f6840349197815f1feb4795eeacf35daa4ad103090c7b2"
+    },
+    {
+      "page": "help-center",
+      "url": "https://support.garvee.com/",
+      "title": "GARVEE Support | Help Center & Product Manuals",
+      "checked_at": "2026-11-10T05:31:11.861Z",
+      "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+      "canonical_in_dom": null,
+      "source_snapshot_sha256": "a94ac6be94d77f068d89cd1b07dae9fb01fc52bde991be23d455d693bec1fe36"
+    },
+    {
+      "page": "homepage",
+      "url": "https://www.garvee.com/",
+      "title": "GARVEE - Home Improvement, Automotive, Food Service, Power Tools",
+      "checked_at": "2026-11-10T05:31:10.212Z",
+      "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+      "canonical_in_dom": "https://www.garvee.com/",
+      "source_snapshot_sha256": "762e9e3458007ef8a135a1edeed70043e3d0ae63f193355c30b95ded085fabea"
+    },
+    {
+      "page": "influencer-program",
+      "url": "https://www.garvee.com/pages/influencer-program",
+      "title": "Influencer Program | GARVEE",
+      "checked_at": "2026-11-10T05:31:46.242Z",
+      "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+      "canonical_in_dom": "https://www.garvee.com/pages/influencer-program",
+      "source_snapshot_sha256": "6cd24adca530a5462d8390db310bdc1f1694793ad43811f25fb5de71fa47f5f1"
+    },
+    {
+      "page": "mygarvees-rewards",
+      "url": "https://www.garvee.com/pages/mygarvees-rewards",
+      "title": "MyGarvees Rewards Program | GARVEE",
+      "checked_at": "2026-11-10T05:31:28.923Z",
+      "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+      "canonical_in_dom": "https://www.garvee.com/pages/mygarvees-rewards",
+      "source_snapshot_sha256": "436a6627f5fc982850ca8950f848c1696ea2017e1619603faa16dae3e254b272"
+    },
+    {
+      "page": "privacy-policy",
+      "url": "https://www.garvee.com/policies/privacy-policy",
+      "title": "Privacy Policy - GARVEE - GARVEE",
+      "checked_at": "2026-11-10T05:32:00.170Z",
+      "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+      "canonical_in_dom": "https://www.garvee.com/policies/privacy-policy",
+      "source_snapshot_sha256": "4ac0364e28890a40f3cca03fe90c35ae3119476d33acba7f64e2abd1d1d8aae8"
+    },
+    {
+      "page": "product",
+      "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy",
+      "title": "Bordered Rug with Low Pile - Machine Made | GARVEE",
+      "checked_at": "2026-11-10T05:26:12.009Z",
+      "scope": "商品页渲染正文、规格表及滚动后评论区",
+      "canonical_in_dom": "本次未采集此项",
+      "source_snapshot_sha256": "a9a52c5b3f7ef173fcb33b0988ffb4e122b4fbc8dd8a0848440e56b2d6420932"
+    },
+    {
+      "page": "product-reviews",
+      "url": "https://www.garvee.com/pages/product-reviews",
+      "title": "Product Reviews - GARVEE",
+      "checked_at": "2026-11-10T05:31:07.857Z",
+      "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+      "canonical_in_dom": "https://www.garvee.com/pages/product-reviews",
+      "source_snapshot_sha256": "fcef482391c020d6e64537546bd5990c204868a64419d1cd87d44501e28bcea0"
+    },
+    {
+      "page": "refund-policy",
+      "url": "https://www.garvee.com/policies/refund-policy",
+      "title": "Refund Policy - GARVEE - GARVEE",
+      "checked_at": "2026-11-10T05:27:09.182Z",
+      "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+      "canonical_in_dom": "https://www.garvee.com/policies/refund-policy",
+      "source_snapshot_sha256": "c15bff9ee041c7c06223965b380524f0887833a0ba6227783ad5d5e9b49228e5"
+    },
+    {
+      "page": "share-and-win",
+      "url": "https://www.garvee.com/pages/share-and-win",
+      "title": "Share & Win Contest | GARVEE",
+      "checked_at": "2026-11-10T05:27:09.900Z",
+      "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+      "canonical_in_dom": "https://www.garvee.com/pages/share-and-win",
+      "source_snapshot_sha256": "77eadf1b3fda844498eddf13958974bcec60c39784d9598a09c8c7f5fb52c0b0"
+    },
+    {
+      "page": "shipping-policy",
+      "url": "https://www.garvee.com/policies/shipping-policy",
+      "title": "Shipping Policy - GARVEE - GARVEE",
+      "checked_at": "2026-11-10T05:27:07.570Z",
+      "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+      "canonical_in_dom": "https://www.garvee.com/policies/shipping-policy",
+      "source_snapshot_sha256": "6bed83b4570c4662e82d29d74a01979785362e92d79ee349e4121cce281b19e4"
+    },
+    {
+      "page": "terms-of-service",
+      "url": "https://www.garvee.com/policies/terms-of-service",
+      "title": "Terms of Service - GARVEE - GARVEE",
+      "checked_at": "2026-11-10T05:31:59.495Z",
+      "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+      "canonical_in_dom": "https://www.garvee.com/policies/terms-of-service",
+      "source_snapshot_sha256": "927d28e13e1e283574abd4328869af775164887dc849c46a1beb7fc72aa424c1"
+    },
+    {
+      "page": "track-your-order",
+      "url": "https://www.garvee.com/pages/track-your-order",
+      "title": "Track Your Order | GARVEE",
+      "checked_at": "2026-11-10T05:31:28.417Z",
+      "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+      "canonical_in_dom": "https://www.garvee.com/pages/track-your-order",
+      "source_snapshot_sha256": "b3923786a774a5aee9f8e61301d6cb5be31e6f44217ae1410fb948b072a94677"
+    },
+    {
+      "page": "warranty-policy",
+      "url": "https://www.garvee.com/pages/warranty-policy",
+      "title": "Warranty Policy - GARVEE",
+      "checked_at": "2026-11-10T05:32:34.689Z",
+      "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+      "canonical_in_dom": "https://www.garvee.com/pages/warranty-policy",
+      "source_snapshot_sha256": "7b1fb1197974aa64f58e7779c4adfd3a87653f318c98901e0edd88c74133ee85"
+    }
+  ],
+  "blocked": [
+    {
+      "checked_at": "2026-11-10T05:32:33.802Z",
+      "url": "https://www.garvee.com/pages/payments-policy",
+      "title": "403",
+      "status": "403 Forbidden；本次未回查到正文"
+    }
+  ],
+  "findings": [
+    {
+      "need_id": "N001",
+      "page": "product",
+      "status": "历史冲突／当前计数已对齐；口径待核",
+      "reason": "本次商品页首、评论区及JSON-LD均为166条、均分4.77。旧200/166及星级分布4.425属于历史记录；本次未取得可核算当前分布和同口径评价API，不据旧分布断言当前均分冲突。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:26:12.009Z",
+        "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy",
+        "scope": "商品页渲染正文、规格表及滚动后评论区",
+        "excerpts": [
+          "t Rug for Living Room Bedroom Dining Room\n#1 Best Seller\nin Rugs\n4.77\n166 Reviews\n$\n127\n99\nSign in for Member Price: $115.20\nSign In/ Register\nEarn $1.28 (128 points) when you buy this item.\nColor / Si",
+          "sion\tHousewarming\nWater Resistance Level\tWater Resistant\nReviews 4.77\nAverage rating based on 166 reviews\nWrite a review\nAll reviews with images\nSee all photos\nDenise W.\nReviewed on Oct 03, 2026\n\nThis is my second rug",
+          "rks within 72 hours.\nSpecification\nMaterial\t100% Polyester\nWeave Type\tTufted\nPile Height\tLow Pile\nBacking Material\tThermoplastic Rubber (TPR)\nConstruction\tMachine Made\nDesign Style\tTraditional Bor",
+          "fications\n\nBrand\tGARVEE\nSize\t10 x 13 Ft\nMaterial\tPolyester\nWeave Type\tFlat Woven\nItem Weight\t32.4 pounds\nPile Height\tLow Pile\nConstruction Type\tMachine Made\nBack Material Type\tThermoplastic Rubber (TP",
+          "e and overall appearance work well for our room.\n\nSee all 166 reviews\nQuestions and Answers (0)\n$\n127\n99\nIn Stock. Shipping From United States\nEst. Delivery Time: Nov 13 - Nov 15\nIn Stock\n1\nBuy Now\nAdd to Cart\nFree "
+        ],
+        "canonical": null
+      }
+    },
+    {
+      "need_id": "N002",
+      "page": "product",
+      "status": "缺失可信取值",
+      "reason": "未取得独立ratingCount；评论数166不能证明评分总条数。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:26:12.009Z",
+        "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy",
+        "scope": "商品页渲染正文、规格表及滚动后评论区",
+        "excerpts": [
+          "t Rug for Living Room Bedroom Dining Room\n#1 Best Seller\nin Rugs\n4.77\n166 Reviews\n$\n127\n99\nSign in for Member Price: $115.20\nSign In/ Register\nEarn $1.28 (128 points) when you buy this item.\nColor / Si",
+          "sion\tHousewarming\nWater Resistance Level\tWater Resistant\nReviews 4.77\nAverage rating based on 166 reviews\nWrite a review\nAll reviews with images\nSee all photos\nDenise W.\nReviewed on Oct 03, 2026\n\nThis is my second rug",
+          "rks within 72 hours.\nSpecification\nMaterial\t100% Polyester\nWeave Type\tTufted\nPile Height\tLow Pile\nBacking Material\tThermoplastic Rubber (TPR)\nConstruction\tMachine Made\nDesign Style\tTraditional Bor",
+          "fications\n\nBrand\tGARVEE\nSize\t10 x 13 Ft\nMaterial\tPolyester\nWeave Type\tFlat Woven\nItem Weight\t32.4 pounds\nPile Height\tLow Pile\nConstruction Type\tMachine Made\nBack Material Type\tThermoplastic Rubber (TP",
+          "e and overall appearance work well for our room.\n\nSee all 166 reviews\nQuestions and Answers (0)\n$\n127\n99\nIn Stock. Shipping From United States\nEst. Delivery Time: Nov 13 - Nov 15\nIn Stock\n1\nBuy Now\nAdd to Cart\nFree "
+        ],
+        "canonical": null
+      }
+    },
+    {
+      "need_id": "N003",
+      "page": "product",
+      "status": "历史冲突／当前计数已对齐；口径待核",
+      "reason": "本次商品页首、评论区及JSON-LD均为166条、均分4.77。旧200/166及星级分布4.425属于历史记录；本次未取得可核算当前分布和同口径评价API，不据旧分布断言当前均分冲突。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:26:12.009Z",
+        "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy",
+        "scope": "商品页渲染正文、规格表及滚动后评论区",
+        "excerpts": [
+          "t Rug for Living Room Bedroom Dining Room\n#1 Best Seller\nin Rugs\n4.77\n166 Reviews\n$\n127\n99\nSign in for Member Price: $115.20\nSign In/ Register\nEarn $1.28 (128 points) when you buy this item.\nColor / Si",
+          "sion\tHousewarming\nWater Resistance Level\tWater Resistant\nReviews 4.77\nAverage rating based on 166 reviews\nWrite a review\nAll reviews with images\nSee all photos\nDenise W.\nReviewed on Oct 03, 2026\n\nThis is my second rug",
+          "rks within 72 hours.\nSpecification\nMaterial\t100% Polyester\nWeave Type\tTufted\nPile Height\tLow Pile\nBacking Material\tThermoplastic Rubber (TPR)\nConstruction\tMachine Made\nDesign Style\tTraditional Bor",
+          "fications\n\nBrand\tGARVEE\nSize\t10 x 13 Ft\nMaterial\tPolyester\nWeave Type\tFlat Woven\nItem Weight\t32.4 pounds\nPile Height\tLow Pile\nConstruction Type\tMachine Made\nBack Material Type\tThermoplastic Rubber (TP",
+          "e and overall appearance work well for our room.\n\nSee all 166 reviews\nQuestions and Answers (0)\n$\n127\n99\nIn Stock. Shipping From United States\nEst. Delivery Time: Nov 13 - Nov 15\nIn Stock\n1\nBuy Now\nAdd to Cart\nFree "
+        ],
+        "canonical": null
+      }
+    },
+    {
+      "need_id": "N004",
+      "page": "product",
+      "status": "口径待确认",
+      "reason": "页面量表可见，但后台商品或变体范围、审核与汇总快照尚未确认。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:26:12.009Z",
+        "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy",
+        "scope": "商品页渲染正文、规格表及滚动后评论区",
+        "excerpts": [
+          "t Rug for Living Room Bedroom Dining Room\n#1 Best Seller\nin Rugs\n4.77\n166 Reviews\n$\n127\n99\nSign in for Member Price: $115.20\nSign In/ Register\nEarn $1.28 (128 points) when you buy this item.\nColor / Si",
+          "sion\tHousewarming\nWater Resistance Level\tWater Resistant\nReviews 4.77\nAverage rating based on 166 reviews\nWrite a review\nAll reviews with images\nSee all photos\nDenise W.\nReviewed on Oct 03, 2026\n\nThis is my second rug",
+          "rks within 72 hours.\nSpecification\nMaterial\t100% Polyester\nWeave Type\tTufted\nPile Height\tLow Pile\nBacking Material\tThermoplastic Rubber (TPR)\nConstruction\tMachine Made\nDesign Style\tTraditional Bor",
+          "fications\n\nBrand\tGARVEE\nSize\t10 x 13 Ft\nMaterial\tPolyester\nWeave Type\tFlat Woven\nItem Weight\t32.4 pounds\nPile Height\tLow Pile\nConstruction Type\tMachine Made\nBack Material Type\tThermoplastic Rubber (TP",
+          "e and overall appearance work well for our room.\n\nSee all 166 reviews\nQuestions and Answers (0)\n$\n127\n99\nIn Stock. Shipping From United States\nEst. Delivery Time: Nov 13 - Nov 15\nIn Stock\n1\nBuy Now\nAdd to Cart\nFree "
+        ],
+        "canonical": null
+      }
+    },
+    {
+      "need_id": "N005",
+      "page": "product",
+      "status": "业务可选／非Schema字段",
+      "reason": "未取得去重人数；不是结构化数据必填缺陷，也不是ratingCount的同义词。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:26:12.009Z",
+        "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy",
+        "scope": "商品页渲染正文、规格表及滚动后评论区",
+        "excerpts": [
+          "t Rug for Living Room Bedroom Dining Room\n#1 Best Seller\nin Rugs\n4.77\n166 Reviews\n$\n127\n99\nSign in for Member Price: $115.20\nSign In/ Register\nEarn $1.28 (128 points) when you buy this item.\nColor / Si",
+          "sion\tHousewarming\nWater Resistance Level\tWater Resistant\nReviews 4.77\nAverage rating based on 166 reviews\nWrite a review\nAll reviews with images\nSee all photos\nDenise W.\nReviewed on Oct 03, 2026\n\nThis is my second rug",
+          "rks within 72 hours.\nSpecification\nMaterial\t100% Polyester\nWeave Type\tTufted\nPile Height\tLow Pile\nBacking Material\tThermoplastic Rubber (TPR)\nConstruction\tMachine Made\nDesign Style\tTraditional Bor",
+          "fications\n\nBrand\tGARVEE\nSize\t10 x 13 Ft\nMaterial\tPolyester\nWeave Type\tFlat Woven\nItem Weight\t32.4 pounds\nPile Height\tLow Pile\nConstruction Type\tMachine Made\nBack Material Type\tThermoplastic Rubber (TP",
+          "e and overall appearance work well for our room.\n\nSee all 166 reviews\nQuestions and Answers (0)\n$\n127\n99\nIn Stock. Shipping From United States\nEst. Delivery Time: Nov 13 - Nov 15\nIn Stock\n1\nBuy Now\nAdd to Cart\nFree "
+        ],
+        "canonical": null
+      }
+    },
+    {
+      "need_id": "N006",
+      "page": "product",
+      "status": "缺失完整主数据",
+      "reason": "颜色和尺寸选项已存在，尚缺稳定分组、全变体身份及逐变体报价关系。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:26:12.009Z",
+        "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy",
+        "scope": "商品页渲染正文、规格表及滚动后评论区",
+        "excerpts": [
+          "t Rug for Living Room Bedroom Dining Room\n#1 Best Seller\nin Rugs\n4.77\n166 Reviews\n$\n127\n99\nSign in for Member Price: $115.20\nSign In/ Register\nEarn $1.28 (128 points) when you buy this item.\nColor / Si",
+          "sion\tHousewarming\nWater Resistance Level\tWater Resistant\nReviews 4.77\nAverage rating based on 166 reviews\nWrite a review\nAll reviews with images\nSee all photos\nDenise W.\nReviewed on Oct 03, 2026\n\nThis is my second rug",
+          "rks within 72 hours.\nSpecification\nMaterial\t100% Polyester\nWeave Type\tTufted\nPile Height\tLow Pile\nBacking Material\tThermoplastic Rubber (TPR)\nConstruction\tMachine Made\nDesign Style\tTraditional Bor",
+          "fications\n\nBrand\tGARVEE\nSize\t10 x 13 Ft\nMaterial\tPolyester\nWeave Type\tFlat Woven\nItem Weight\t32.4 pounds\nPile Height\tLow Pile\nConstruction Type\tMachine Made\nBack Material Type\tThermoplastic Rubber (TP",
+          "e and overall appearance work well for our room.\n\nSee all 166 reviews\nQuestions and Answers (0)\n$\n127\n99\nIn Stock. Shipping From United States\nEst. Delivery Time: Nov 13 - Nov 15\nIn Stock\n1\nBuy Now\nAdd to Cart\nFree "
+        ],
+        "canonical": null
+      }
+    },
+    {
+      "need_id": "N007",
+      "page": "product",
+      "status": "缺失可信取值／条件适用",
+      "reason": "尚未核实实际GTIN、MPN、状况或限时价格及完整配送模型；无实际分配或限时事实可省略相应字段。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:26:12.009Z",
+        "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy",
+        "scope": "商品页渲染正文、规格表及滚动后评论区",
+        "excerpts": [
+          "t Rug for Living Room Bedroom Dining Room\n#1 Best Seller\nin Rugs\n4.77\n166 Reviews\n$\n127\n99\nSign in for Member Price: $115.20\nSign In/ Register\nEarn $1.28 (128 points) when you buy this item.\nColor / Si",
+          "sion\tHousewarming\nWater Resistance Level\tWater Resistant\nReviews 4.77\nAverage rating based on 166 reviews\nWrite a review\nAll reviews with images\nSee all photos\nDenise W.\nReviewed on Oct 03, 2026\n\nThis is my second rug",
+          "rks within 72 hours.\nSpecification\nMaterial\t100% Polyester\nWeave Type\tTufted\nPile Height\tLow Pile\nBacking Material\tThermoplastic Rubber (TPR)\nConstruction\tMachine Made\nDesign Style\tTraditional Bor",
+          "fications\n\nBrand\tGARVEE\nSize\t10 x 13 Ft\nMaterial\tPolyester\nWeave Type\tFlat Woven\nItem Weight\t32.4 pounds\nPile Height\tLow Pile\nConstruction Type\tMachine Made\nBack Material Type\tThermoplastic Rubber (TP",
+          "e and overall appearance work well for our room.\n\nSee all 166 reviews\nQuestions and Answers (0)\n$\n127\n99\nIn Stock. Shipping From United States\nEst. Delivery Time: Nov 13 - Nov 15\nIn Stock\n1\nBuy Now\nAdd to Cart\nFree "
+        ],
+        "canonical": null
+      }
+    },
+    {
+      "need_id": "N008",
+      "page": "product",
+      "status": "主体关系待确认",
+      "reason": "品牌与平台已知，不足以证明每个报价的合同卖方；先核实交易主体，不用站点名称代填。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:26:12.009Z",
+        "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy",
+        "scope": "商品页渲染正文、规格表及滚动后评论区",
+        "excerpts": [
+          "t Rug for Living Room Bedroom Dining Room\n#1 Best Seller\nin Rugs\n4.77\n166 Reviews\n$\n127\n99\nSign in for Member Price: $115.20\nSign In/ Register\nEarn $1.28 (128 points) when you buy this item.\nColor / Si",
+          "sion\tHousewarming\nWater Resistance Level\tWater Resistant\nReviews 4.77\nAverage rating based on 166 reviews\nWrite a review\nAll reviews with images\nSee all photos\nDenise W.\nReviewed on Oct 03, 2026\n\nThis is my second rug",
+          "rks within 72 hours.\nSpecification\nMaterial\t100% Polyester\nWeave Type\tTufted\nPile Height\tLow Pile\nBacking Material\tThermoplastic Rubber (TPR)\nConstruction\tMachine Made\nDesign Style\tTraditional Bor",
+          "fications\n\nBrand\tGARVEE\nSize\t10 x 13 Ft\nMaterial\tPolyester\nWeave Type\tFlat Woven\nItem Weight\t32.4 pounds\nPile Height\tLow Pile\nConstruction Type\tMachine Made\nBack Material Type\tThermoplastic Rubber (TP",
+          "e and overall appearance work well for our room.\n\nSee all 166 reviews\nQuestions and Answers (0)\n$\n127\n99\nIn Stock. Shipping From United States\nEst. Delivery Time: Nov 13 - Nov 15\nIn Stock\n1\nBuy Now\nAdd to Cart\nFree "
+        ],
+        "canonical": null
+      }
+    },
+    {
+      "need_id": "N009",
+      "page": "campaign",
+      "status": "主体关系待确认",
+      "reason": "品牌与平台已知，不足以证明每个报价的合同卖方；先核实交易主体，不用站点名称代填。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:31:46.958Z",
+        "url": "https://www.garvee.com/pages/activity-fall-home-sale",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [],
+        "canonical": "https://www.garvee.com/pages/activity-fall-home-sale"
+      }
+    },
+    {
+      "need_id": "N010",
+      "page": "product",
+      "status": "历史建议／当前未复测",
+      "reason": "商品名称已有值；历史工具的长度建议不是字段缺失，也未证明当前版本不合法。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:26:12.009Z",
+        "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy",
+        "scope": "商品页渲染正文、规格表及滚动后评论区",
+        "excerpts": [
+          "t Rug for Living Room Bedroom Dining Room\n#1 Best Seller\nin Rugs\n4.77\n166 Reviews\n$\n127\n99\nSign in for Member Price: $115.20\nSign In/ Register\nEarn $1.28 (128 points) when you buy this item.\nColor / Si",
+          "sion\tHousewarming\nWater Resistance Level\tWater Resistant\nReviews 4.77\nAverage rating based on 166 reviews\nWrite a review\nAll reviews with images\nSee all photos\nDenise W.\nReviewed on Oct 03, 2026\n\nThis is my second rug",
+          "rks within 72 hours.\nSpecification\nMaterial\t100% Polyester\nWeave Type\tTufted\nPile Height\tLow Pile\nBacking Material\tThermoplastic Rubber (TPR)\nConstruction\tMachine Made\nDesign Style\tTraditional Bor",
+          "fications\n\nBrand\tGARVEE\nSize\t10 x 13 Ft\nMaterial\tPolyester\nWeave Type\tFlat Woven\nItem Weight\t32.4 pounds\nPile Height\tLow Pile\nConstruction Type\tMachine Made\nBack Material Type\tThermoplastic Rubber (TP",
+          "e and overall appearance work well for our room.\n\nSee all 166 reviews\nQuestions and Answers (0)\n$\n127\n99\nIn Stock. Shipping From United States\nEst. Delivery Time: Nov 13 - Nov 15\nIn Stock\n1\nBuy Now\nAdd to Cart\nFree "
+        ],
+        "canonical": null
+      }
+    },
+    {
+      "need_id": "N011",
+      "page": "campaign",
+      "status": "历史建议／当前未复测",
+      "reason": "商品名称已有值；历史工具的长度建议不是字段缺失，也未证明当前版本不合法。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:31:46.958Z",
+        "url": "https://www.garvee.com/pages/activity-fall-home-sale",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [],
+        "canonical": "https://www.garvee.com/pages/activity-fall-home-sale"
+      }
+    },
+    {
+      "need_id": "N012",
+      "page": "product",
+      "status": "值已存在／资格映射缺失",
+      "reason": "普通价与会员价已有展示，缺该报价对应等级、资格、叠加和有效期映射。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:26:12.009Z",
+        "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy",
+        "scope": "商品页渲染正文、规格表及滚动后评论区",
+        "excerpts": [
+          "t Rug for Living Room Bedroom Dining Room\n#1 Best Seller\nin Rugs\n4.77\n166 Reviews\n$\n127\n99\nSign in for Member Price: $115.20\nSign In/ Register\nEarn $1.28 (128 points) when you buy this item.\nColor / Si",
+          "sion\tHousewarming\nWater Resistance Level\tWater Resistant\nReviews 4.77\nAverage rating based on 166 reviews\nWrite a review\nAll reviews with images\nSee all photos\nDenise W.\nReviewed on Oct 03, 2026\n\nThis is my second rug",
+          "rks within 72 hours.\nSpecification\nMaterial\t100% Polyester\nWeave Type\tTufted\nPile Height\tLow Pile\nBacking Material\tThermoplastic Rubber (TPR)\nConstruction\tMachine Made\nDesign Style\tTraditional Bor",
+          "fications\n\nBrand\tGARVEE\nSize\t10 x 13 Ft\nMaterial\tPolyester\nWeave Type\tFlat Woven\nItem Weight\t32.4 pounds\nPile Height\tLow Pile\nConstruction Type\tMachine Made\nBack Material Type\tThermoplastic Rubber (TP",
+          "e and overall appearance work well for our room.\n\nSee all 166 reviews\nQuestions and Answers (0)\n$\n127\n99\nIn Stock. Shipping From United States\nEst. Delivery Time: Nov 13 - Nov 15\nIn Stock\n1\nBuy Now\nAdd to Cart\nFree "
+        ],
+        "canonical": null
+      }
+    },
+    {
+      "need_id": "N013",
+      "page": "product",
+      "status": "值已存在／计算口径待确认",
+      "reason": "128积分和兑换金额有展示，未核实等级、支付基数与舍入规则。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:26:12.009Z",
+        "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy",
+        "scope": "商品页渲染正文、规格表及滚动后评论区",
+        "excerpts": [
+          "t Rug for Living Room Bedroom Dining Room\n#1 Best Seller\nin Rugs\n4.77\n166 Reviews\n$\n127\n99\nSign in for Member Price: $115.20\nSign In/ Register\nEarn $1.28 (128 points) when you buy this item.\nColor / Si",
+          "sion\tHousewarming\nWater Resistance Level\tWater Resistant\nReviews 4.77\nAverage rating based on 166 reviews\nWrite a review\nAll reviews with images\nSee all photos\nDenise W.\nReviewed on Oct 03, 2026\n\nThis is my second rug",
+          "rks within 72 hours.\nSpecification\nMaterial\t100% Polyester\nWeave Type\tTufted\nPile Height\tLow Pile\nBacking Material\tThermoplastic Rubber (TPR)\nConstruction\tMachine Made\nDesign Style\tTraditional Bor",
+          "fications\n\nBrand\tGARVEE\nSize\t10 x 13 Ft\nMaterial\tPolyester\nWeave Type\tFlat Woven\nItem Weight\t32.4 pounds\nPile Height\tLow Pile\nConstruction Type\tMachine Made\nBack Material Type\tThermoplastic Rubber (TP",
+          "e and overall appearance work well for our room.\n\nSee all 166 reviews\nQuestions and Answers (0)\n$\n127\n99\nIn Stock. Shipping From United States\nEst. Delivery Time: Nov 13 - Nov 15\nIn Stock\n1\nBuy Now\nAdd to Cart\nFree "
+        ],
+        "canonical": null
+      }
+    },
+    {
+      "need_id": "N014",
+      "page": "product",
+      "status": "当前冲突／重量口径待确认",
+      "reason": "本次商品DOM仍同时有Tufted与Flat Woven；32.4 pounds有值但净重或包装范围未核。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:26:12.009Z",
+        "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy",
+        "scope": "商品页渲染正文、规格表及滚动后评论区",
+        "excerpts": [
+          "t Rug for Living Room Bedroom Dining Room\n#1 Best Seller\nin Rugs\n4.77\n166 Reviews\n$\n127\n99\nSign in for Member Price: $115.20\nSign In/ Register\nEarn $1.28 (128 points) when you buy this item.\nColor / Si",
+          "sion\tHousewarming\nWater Resistance Level\tWater Resistant\nReviews 4.77\nAverage rating based on 166 reviews\nWrite a review\nAll reviews with images\nSee all photos\nDenise W.\nReviewed on Oct 03, 2026\n\nThis is my second rug",
+          "rks within 72 hours.\nSpecification\nMaterial\t100% Polyester\nWeave Type\tTufted\nPile Height\tLow Pile\nBacking Material\tThermoplastic Rubber (TPR)\nConstruction\tMachine Made\nDesign Style\tTraditional Bor",
+          "fications\n\nBrand\tGARVEE\nSize\t10 x 13 Ft\nMaterial\tPolyester\nWeave Type\tFlat Woven\nItem Weight\t32.4 pounds\nPile Height\tLow Pile\nConstruction Type\tMachine Made\nBack Material Type\tThermoplastic Rubber (TP",
+          "e and overall appearance work well for our room.\n\nSee all 166 reviews\nQuestions and Answers (0)\n$\n127\n99\nIn Stock. Shipping From United States\nEst. Delivery Time: Nov 13 - Nov 15\nIn Stock\n1\nBuy Now\nAdd to Cart\nFree "
+        ],
+        "canonical": null
+      }
+    },
+    {
+      "need_id": "N015",
+      "page": "product",
+      "status": "归属口径待确认",
+      "reason": "真实评论已存在；各条所属productId或variantId和汇总范围仍需评价源确认。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:26:12.009Z",
+        "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy",
+        "scope": "商品页渲染正文、规格表及滚动后评论区",
+        "excerpts": [
+          "t Rug for Living Room Bedroom Dining Room\n#1 Best Seller\nin Rugs\n4.77\n166 Reviews\n$\n127\n99\nSign in for Member Price: $115.20\nSign In/ Register\nEarn $1.28 (128 points) when you buy this item.\nColor / Si",
+          "sion\tHousewarming\nWater Resistance Level\tWater Resistant\nReviews 4.77\nAverage rating based on 166 reviews\nWrite a review\nAll reviews with images\nSee all photos\nDenise W.\nReviewed on Oct 03, 2026\n\nThis is my second rug",
+          "rks within 72 hours.\nSpecification\nMaterial\t100% Polyester\nWeave Type\tTufted\nPile Height\tLow Pile\nBacking Material\tThermoplastic Rubber (TPR)\nConstruction\tMachine Made\nDesign Style\tTraditional Bor",
+          "fications\n\nBrand\tGARVEE\nSize\t10 x 13 Ft\nMaterial\tPolyester\nWeave Type\tFlat Woven\nItem Weight\t32.4 pounds\nPile Height\tLow Pile\nConstruction Type\tMachine Made\nBack Material Type\tThermoplastic Rubber (TP",
+          "e and overall appearance work well for our room.\n\nSee all 166 reviews\nQuestions and Answers (0)\n$\n127\n99\nIn Stock. Shipping From United States\nEst. Delivery Time: Nov 13 - Nov 15\nIn Stock\n1\nBuy Now\nAdd to Cart\nFree "
+        ],
+        "canonical": null
+      }
+    },
+    {
+      "need_id": "N016",
+      "page": "product",
+      "status": "当前不适用",
+      "reason": "本次商品问答仍为0；没有真实内容时不输出Question，更不能伪造问答。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:26:12.009Z",
+        "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy",
+        "scope": "商品页渲染正文、规格表及滚动后评论区",
+        "excerpts": [
+          "t Rug for Living Room Bedroom Dining Room\n#1 Best Seller\nin Rugs\n4.77\n166 Reviews\n$\n127\n99\nSign in for Member Price: $115.20\nSign In/ Register\nEarn $1.28 (128 points) when you buy this item.\nColor / Si",
+          "sion\tHousewarming\nWater Resistance Level\tWater Resistant\nReviews 4.77\nAverage rating based on 166 reviews\nWrite a review\nAll reviews with images\nSee all photos\nDenise W.\nReviewed on Oct 03, 2026\n\nThis is my second rug",
+          "rks within 72 hours.\nSpecification\nMaterial\t100% Polyester\nWeave Type\tTufted\nPile Height\tLow Pile\nBacking Material\tThermoplastic Rubber (TPR)\nConstruction\tMachine Made\nDesign Style\tTraditional Bor",
+          "fications\n\nBrand\tGARVEE\nSize\t10 x 13 Ft\nMaterial\tPolyester\nWeave Type\tFlat Woven\nItem Weight\t32.4 pounds\nPile Height\tLow Pile\nConstruction Type\tMachine Made\nBack Material Type\tThermoplastic Rubber (TP",
+          "e and overall appearance work well for our room.\n\nSee all 166 reviews\nQuestions and Answers (0)\n$\n127\n99\nIn Stock. Shipping From United States\nEst. Delivery Time: Nov 13 - Nov 15\nIn Stock\n1\nBuy Now\nAdd to Cart\nFree "
+        ],
+        "canonical": null
+      }
+    },
+    {
+      "need_id": "N017",
+      "page": "product-reviews",
+      "status": "页面内容缺失",
+      "reason": "独立评论页历史两次取证仅有标题；本次已挂载DOM正文仍仅见Product Reviews标题及导航，未观察到评论条目。未取得后台评论数据，不能搬入另一商品页评论。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:31:07.857Z",
+        "url": "https://www.garvee.com/pages/product-reviews",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [],
+        "canonical": "https://www.garvee.com/pages/product-reviews"
+      }
+    },
+    {
+      "need_id": "N018",
+      "page": "shipping-policy",
+      "status": "冲突与适用范围待确认／费率数据缺失",
+      "reason": "本次配送政策正文仍同时写Truck 7–10与10–15工作日，属同页未对齐。FAQ仍为2–4、Express仍为3–5，还须确认服务及起算点；费率与例外未取得完整主数据。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:27:07.570Z",
+        "url": "https://www.garvee.com/policies/shipping-policy",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [
+          " Shipping: 3-5 Business Days\n- Truck Shipping (for Overweight Items): 7-10 Business Days\n\n\nShipping Rates\n\nGarvee utilizes UPS, USPS, FedEx, and truck freight lines for order shipments. You will",
+          "logistics delays (Express Shipping: 3-5 Business Days / Truck Shipping10-15 Business Days) for the reasons outlined above, categorizing such cases as \"customer no longer needs the product.\" If a ",
+          " separate from the shipping time.\n\nShipping Time\n\n- Express Shipping: 3-5 Business Days\n- Truck Shipping (for Overweight Items): 7-10 Business Days\n\n\nShipping Rates\n\nGarvee utilizes UPS, USPS, "
+        ],
+        "canonical": "https://www.garvee.com/policies/shipping-policy"
+      }
+    },
+    {
+      "need_id": "N019",
+      "page": "faqs",
+      "status": "冲突与适用范围待确认／费率数据缺失",
+      "reason": "本次配送政策正文仍同时写Truck 7–10与10–15工作日，属同页未对齐。FAQ仍为2–4、Express仍为3–5，还须确认服务及起算点；费率与例外未取得完整主数据。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:27:08.551Z",
+        "url": "https://www.garvee.com/pages/faqs",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [
+          " time?\nWarewhouse processing time 1-2 business days, delivery time is 2-4 business days.\n\nHow do I get tracking information?\nTracking information will be updated on the orders page at the same "
+        ],
+        "canonical": "https://www.garvee.com/pages/faqs"
+      }
+    },
+    {
+      "need_id": "N020",
+      "page": "product",
+      "status": "冲突与适用范围待确认／费率数据缺失",
+      "reason": "本次配送政策正文仍同时写Truck 7–10与10–15工作日，属同页未对齐。FAQ仍为2–4、Express仍为3–5，还须确认服务及起算点；费率与例外未取得完整主数据。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:26:12.009Z",
+        "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy",
+        "scope": "商品页渲染正文、规格表及滚动后评论区",
+        "excerpts": [
+          "t Rug for Living Room Bedroom Dining Room\n#1 Best Seller\nin Rugs\n4.77\n166 Reviews\n$\n127\n99\nSign in for Member Price: $115.20\nSign In/ Register\nEarn $1.28 (128 points) when you buy this item.\nColor / Si",
+          "sion\tHousewarming\nWater Resistance Level\tWater Resistant\nReviews 4.77\nAverage rating based on 166 reviews\nWrite a review\nAll reviews with images\nSee all photos\nDenise W.\nReviewed on Oct 03, 2026\n\nThis is my second rug",
+          "rks within 72 hours.\nSpecification\nMaterial\t100% Polyester\nWeave Type\tTufted\nPile Height\tLow Pile\nBacking Material\tThermoplastic Rubber (TPR)\nConstruction\tMachine Made\nDesign Style\tTraditional Bor",
+          "fications\n\nBrand\tGARVEE\nSize\t10 x 13 Ft\nMaterial\tPolyester\nWeave Type\tFlat Woven\nItem Weight\t32.4 pounds\nPile Height\tLow Pile\nConstruction Type\tMachine Made\nBack Material Type\tThermoplastic Rubber (TP",
+          "e and overall appearance work well for our room.\n\nSee all 166 reviews\nQuestions and Answers (0)\n$\n127\n99\nIn Stock. Shipping From United States\nEst. Delivery Time: Nov 13 - Nov 15\nIn Stock\n1\nBuy Now\nAdd to Cart\nFree "
+        ],
+        "canonical": null
+      }
+    },
+    {
+      "need_id": "N021",
+      "page": "campaign",
+      "status": "冲突与适用范围待确认／费率数据缺失",
+      "reason": "本次配送政策正文仍同时写Truck 7–10与10–15工作日，属同页未对齐。FAQ仍为2–4、Express仍为3–5，还须确认服务及起算点；费率与例外未取得完整主数据。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:31:46.958Z",
+        "url": "https://www.garvee.com/pages/activity-fall-home-sale",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [],
+        "canonical": "https://www.garvee.com/pages/activity-fall-home-sale"
+      }
+    },
+    {
+      "need_id": "N022",
+      "page": "refund-policy",
+      "status": "已有链接方案／明细按需",
+      "reason": "组织级正式退货政策链接已提供；详细国家、窗口、费用和SKU例外属于条件扩展，不应一律标缺失。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:27:09.182Z",
+        "url": "https://www.garvee.com/policies/refund-policy",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [],
+        "canonical": "https://www.garvee.com/policies/refund-policy"
+      }
+    },
+    {
+      "need_id": "N023",
+      "page": "product",
+      "status": "已有链接方案／明细按需",
+      "reason": "组织级正式退货政策链接已提供；详细国家、窗口、费用和SKU例外属于条件扩展，不应一律标缺失。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:26:12.009Z",
+        "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy",
+        "scope": "商品页渲染正文、规格表及滚动后评论区",
+        "excerpts": [
+          "t Rug for Living Room Bedroom Dining Room\n#1 Best Seller\nin Rugs\n4.77\n166 Reviews\n$\n127\n99\nSign in for Member Price: $115.20\nSign In/ Register\nEarn $1.28 (128 points) when you buy this item.\nColor / Si",
+          "sion\tHousewarming\nWater Resistance Level\tWater Resistant\nReviews 4.77\nAverage rating based on 166 reviews\nWrite a review\nAll reviews with images\nSee all photos\nDenise W.\nReviewed on Oct 03, 2026\n\nThis is my second rug",
+          "rks within 72 hours.\nSpecification\nMaterial\t100% Polyester\nWeave Type\tTufted\nPile Height\tLow Pile\nBacking Material\tThermoplastic Rubber (TPR)\nConstruction\tMachine Made\nDesign Style\tTraditional Bor",
+          "fications\n\nBrand\tGARVEE\nSize\t10 x 13 Ft\nMaterial\tPolyester\nWeave Type\tFlat Woven\nItem Weight\t32.4 pounds\nPile Height\tLow Pile\nConstruction Type\tMachine Made\nBack Material Type\tThermoplastic Rubber (TP",
+          "e and overall appearance work well for our room.\n\nSee all 166 reviews\nQuestions and Answers (0)\n$\n127\n99\nIn Stock. Shipping From United States\nEst. Delivery Time: Nov 13 - Nov 15\nIn Stock\n1\nBuy Now\nAdd to Cart\nFree "
+        ],
+        "canonical": null
+      }
+    },
+    {
+      "need_id": "N024",
+      "page": "faqs",
+      "status": "阶段与渠道口径待确认",
+      "reason": "各区间可能分别属于检查、退款发起与渠道到账；未确认起算点前，不能直接判定为同一承诺冲突。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:27:08.551Z",
+        "url": "https://www.garvee.com/pages/faqs",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [
+          " time?\nWarewhouse processing time 1-2 business days, delivery time is 2-4 business days.\n\nHow do I get tracking information?\nTracking information will be updated on the orders page at the same "
+        ],
+        "canonical": "https://www.garvee.com/pages/faqs"
+      }
+    },
+    {
+      "need_id": "N025",
+      "page": "refund-policy",
+      "status": "阶段与渠道口径待确认",
+      "reason": "各区间可能分别属于检查、退款发起与渠道到账；未确认起算点前，不能直接判定为同一承诺冲突。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:27:09.182Z",
+        "url": "https://www.garvee.com/policies/refund-policy",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [],
+        "canonical": "https://www.garvee.com/policies/refund-policy"
+      }
+    },
+    {
+      "need_id": "N026",
+      "page": "mygarvees-rewards",
+      "status": "规则口径缺失",
+      "reason": "等级门槛与积分率有值；积分滚动有效期不等于等级累计或保级周期。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:31:28.923Z",
+        "url": "https://www.garvee.com/pages/mygarvees-rewards",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [],
+        "canonical": "https://www.garvee.com/pages/mygarvees-rewards"
+      }
+    },
+    {
+      "need_id": "N027",
+      "page": "mygarvees-rewards",
+      "status": "值已存在／资格映射缺失",
+      "reason": "普通价与会员价已有展示，缺该报价对应等级、资格、叠加和有效期映射。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:31:28.923Z",
+        "url": "https://www.garvee.com/pages/mygarvees-rewards",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [],
+        "canonical": "https://www.garvee.com/pages/mygarvees-rewards"
+      }
+    },
+    {
+      "need_id": "N028",
+      "page": "extended-service-protection",
+      "status": "计划范围已有／单SKU期限缺失",
+      "reason": "计划额外6–12个月范围有值，不能替代每个SKU实际可申请期限。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:31:29.661Z",
+        "url": "https://www.garvee.com/pages/extended-service-protection",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [],
+        "canonical": "https://www.garvee.com/pages/extended-service-protection"
+      }
+    },
+    {
+      "need_id": "N029",
+      "page": "carebox-package-protection",
+      "status": "履约主体与费率待确认",
+      "reason": "保障介绍已有，实际服务主体、按单报价与责任范围尚未核实。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:31:43.969Z",
+        "url": "https://www.garvee.com/pages/carebox-package-protection",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [],
+        "canonical": "https://www.garvee.com/pages/carebox-package-protection"
+      }
+    },
+    {
+      "need_id": "N030",
+      "page": "share-and-win",
+      "status": "奖励条件未对齐／时间缺失",
+      "reason": "本次同页仍出现投稿30美元、视频入选35美元及推荐最高80美元。投稿与入选奖励条件未统一，推荐属于另一机制；不能把三个数字直接当成同一奖励冲突。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:27:09.900Z",
+        "url": "https://www.garvee.com/pages/share-and-win",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [
+          " about your experiences! Share your story with us, and we'll give you $30 cash for your next purchase. It's simple, fun, and a great way to show off your new GARVEE products\n\nGarvee Awards\n01\nW",
+          " great way to show off your new GARVEE products\n\nGarvee Awards\n01\nWin $35\n\nYou will win $35 cash back for next purchase once your videos are featured\n\n02\nWin Up To $80\n\nRefer to friends and get",
+          "sh back for next purchase once your videos are featured\n\n02\nWin Up To $80\n\nRefer to friends and get the chance to win $80 cash for next purchase\n\nGetting Started\nCAPTURE\n\nHighlight the specific"
+        ],
+        "canonical": "https://www.garvee.com/pages/share-and-win"
+      }
+    },
+    {
+      "need_id": "N031",
+      "page": "campaign",
+      "status": "缺失可信时间／条件适用",
+      "reason": "促销内容已有，但未获得真实起止时间与SKU适用条件；普通促销不等于Event。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:31:46.958Z",
+        "url": "https://www.garvee.com/pages/activity-fall-home-sale",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [],
+        "canonical": "https://www.garvee.com/pages/activity-fall-home-sale"
+      }
+    },
+    {
+      "need_id": "N032",
+      "page": "business",
+      "status": "宣传规则已有／具体报价缺失",
+      "reason": "数量档与最高折扣宣传存在；未取得逐SKU、批准账户和数量区间的真实报价。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:31:44.676Z",
+        "url": "https://www.garvee.com/pages/business",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [],
+        "canonical": "https://www.garvee.com/pages/business"
+      }
+    },
+    {
+      "need_id": "N033",
+      "page": "affiliate",
+      "status": "计划已有／具体结算规则待确认",
+      "reason": "合作计划存在，宣传最高佣金不代表每个伙伴及订单的实际结算条款。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:31:45.557Z",
+        "url": "https://www.garvee.com/pages/affiliate",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [],
+        "canonical": "https://www.garvee.com/pages/affiliate"
+      }
+    },
+    {
+      "need_id": "N034",
+      "page": "influencer-program",
+      "status": "计划已有／具体结算规则待确认",
+      "reason": "合作计划存在，宣传最高佣金不代表每个伙伴及订单的实际结算条款。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:31:46.242Z",
+        "url": "https://www.garvee.com/pages/influencer-program",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [],
+        "canonical": "https://www.garvee.com/pages/influencer-program"
+      }
+    },
+    {
+      "need_id": "N035",
+      "page": "article",
+      "status": "缺失可信作者或修改时间",
+      "reason": "旧元数据作者不等于可见真实署名；没有可靠修改事实时可省略dateModified。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:31:09.622Z",
+        "url": "https://www.garvee.com/blogs/buying-guides/everything-you-need-to-know-about-rug-sizes-and-placement",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [],
+        "canonical": "https://www.garvee.com/blogs/buying-guides/everything-you-need-to-know-about-rug-sizes-and-placement"
+      }
+    },
+    {
+      "need_id": "N036",
+      "page": "article",
+      "status": "缺失可信作者或修改时间",
+      "reason": "旧元数据作者不等于可见真实署名；没有可靠修改事实时可省略dateModified。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:31:09.622Z",
+        "url": "https://www.garvee.com/blogs/buying-guides/everything-you-need-to-know-about-rug-sizes-and-placement",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [],
+        "canonical": "https://www.garvee.com/blogs/buying-guides/everything-you-need-to-know-about-rug-sizes-and-placement"
+      }
+    },
+    {
+      "need_id": "N037",
+      "page": "diy-ideas",
+      "status": "逐篇主数据缺失",
+      "reason": "列表已有文章，缺逐篇作者及修改时间的可信映射；不得用站点名或采集时间代填。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:31:47.650Z",
+        "url": "https://www.garvee.com/pages/diy-ideas",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [],
+        "canonical": "https://www.garvee.com/pages/diy-ideas"
+      }
+    },
+    {
+      "need_id": "N038",
+      "page": "blog-list",
+      "status": "逐篇主数据缺失",
+      "reason": "列表已有文章，缺逐篇作者及修改时间的可信映射；不得用站点名或采集时间代填。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:31:58.785Z",
+        "url": "https://www.garvee.com/blogs/buying-guides",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [],
+        "canonical": "https://www.garvee.com/blogs/buying-guides"
+      }
+    },
+    {
+      "need_id": "N039",
+      "page": "homepage",
+      "status": "缺失可信元数据",
+      "reason": "历史首页轮播已核视频本体、封面和时长，但未取得首次公开发布时间、独立简介与创作者主数据；当前轮播变化不能沿用历史数量。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:31:10.212Z",
+        "url": "https://www.garvee.com/",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [],
+        "canonical": "https://www.garvee.com/"
+      }
+    },
+    {
+      "need_id": "N040",
+      "page": "homepage",
+      "status": "缺失可信元数据",
+      "reason": "历史首页轮播已核视频本体、封面和时长，但未取得首次公开发布时间、独立简介与创作者主数据；当前轮播变化不能沿用历史数量。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:31:10.212Z",
+        "url": "https://www.garvee.com/",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [],
+        "canonical": "https://www.garvee.com/"
+      }
+    },
+    {
+      "need_id": "N041",
+      "page": "homepage",
+      "status": "功能条件不满足／非字段缺失",
+      "reason": "电商首页及正文为主的文章不自动具有专用视频页资格；VideoObject与视频索引资格分别判断。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:31:10.212Z",
+        "url": "https://www.garvee.com/",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [],
+        "canonical": "https://www.garvee.com/"
+      }
+    },
+    {
+      "need_id": "N042",
+      "page": "article",
+      "status": "功能条件不满足／非字段缺失",
+      "reason": "电商首页及正文为主的文章不自动具有专用视频页资格；VideoObject与视频索引资格分别判断。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:31:09.622Z",
+        "url": "https://www.garvee.com/blogs/buying-guides/everything-you-need-to-know-about-rug-sizes-and-placement",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [],
+        "canonical": "https://www.garvee.com/blogs/buying-guides/everything-you-need-to-know-about-rug-sizes-and-placement"
+      }
+    },
+    {
+      "need_id": "N043",
+      "page": "about-garvee",
+      "status": "公开披露已有／独立证明按需",
+      "reason": "组织与客服披露已有；未做注册簿核验不等于页面字段缺失，不同用途的时区不直接构成冲突。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:31:26.298Z",
+        "url": "https://www.garvee.com/pages/about-garvee",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [],
+        "canonical": "https://www.garvee.com/pages/about-garvee"
+      }
+    },
+    {
+      "need_id": "N044",
+      "page": "contact",
+      "status": "公开披露已有／独立证明按需",
+      "reason": "组织与客服披露已有；未做注册簿核验不等于页面字段缺失，不同用途的时区不直接构成冲突。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:31:26.955Z",
+        "url": "https://www.garvee.com/pages/contact",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [],
+        "canonical": "https://www.garvee.com/pages/contact"
+      }
+    },
+    {
+      "need_id": "N045",
+      "page": "accessibility-statement",
+      "status": "声明已有／能力证明缺失",
+      "reason": "目标声明不等于实测合规；缺测试报告时不填未经证明的能力标签。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:31:27.702Z",
+        "url": "https://www.garvee.com/pages/accessibility-statement",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [],
+        "canonical": "https://www.garvee.com/pages/accessibility-statement"
+      }
+    },
+    {
+      "need_id": "N046",
+      "page": "category",
+      "status": "可见组件缺失／目标示例已有",
+      "reason": "历史类目未呈现面包屑；推荐代码已有，实施时须同步真实可见导航。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:31:08.407Z",
+        "url": "https://www.garvee.com/collections/rugs",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [],
+        "canonical": "https://www.garvee.com/collections/rugs"
+      }
+    },
+    {
+      "need_id": "N047",
+      "page": "category",
+      "status": "可选增强／非必填缺失",
+      "reason": "默认主模型已有；只在真实内容存在时添加单区块列表或FAQ，不把全词汇表当必填。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:31:08.407Z",
+        "url": "https://www.garvee.com/collections/rugs",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [],
+        "canonical": "https://www.garvee.com/collections/rugs"
+      }
+    },
+    {
+      "need_id": "N048",
+      "page": "campaign",
+      "status": "快照已有／生产实时绑定",
+      "reason": "历史已加载列表数不是全库或库存；生产值取实际SSR列表数组长度。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:31:46.958Z",
+        "url": "https://www.garvee.com/pages/activity-fall-home-sale",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [],
+        "canonical": "https://www.garvee.com/pages/activity-fall-home-sale"
+      }
+    },
+    {
+      "need_id": "N049",
+      "page": "track-your-order",
+      "status": "当前不适用",
+      "reason": "公共查询表单没有具体订单是正常边界；只在授权订单详情中使用订单和包裹模板。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:31:28.417Z",
+        "url": "https://www.garvee.com/pages/track-your-order",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [],
+        "canonical": "https://www.garvee.com/pages/track-your-order"
+      }
+    },
+    {
+      "need_id": "N050",
+      "page": "help-center",
+      "status": "当前DOM未声明canonical",
+      "reason": "本次浏览器DOM仍未见canonical；不得把JSON-LD的url当成已输出HTML canonical。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:31:11.861Z",
+        "url": "https://support.garvee.com/",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [],
+        "canonical": null
+      }
+    },
+    {
+      "need_id": "N051",
+      "page": "track-your-order",
+      "status": "当前不适用",
+      "reason": "公共查询表单没有具体订单是正常边界；只在授权订单详情中使用订单和包裹模板。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:31:28.417Z",
+        "url": "https://www.garvee.com/pages/track-your-order",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [],
+        "canonical": "https://www.garvee.com/pages/track-your-order"
+      }
+    },
+    {
+      "need_id": "N052",
+      "page": "shipping-policy",
+      "status": "冲突与适用范围待确认／费率数据缺失",
+      "reason": "本次配送政策正文仍同时写Truck 7–10与10–15工作日，属同页未对齐。FAQ仍为2–4、Express仍为3–5，还须确认服务及起算点；费率与例外未取得完整主数据。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:27:07.570Z",
+        "url": "https://www.garvee.com/policies/shipping-policy",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [
+          " Shipping: 3-5 Business Days\n- Truck Shipping (for Overweight Items): 7-10 Business Days\n\n\nShipping Rates\n\nGarvee utilizes UPS, USPS, FedEx, and truck freight lines for order shipments. You will",
+          "logistics delays (Express Shipping: 3-5 Business Days / Truck Shipping10-15 Business Days) for the reasons outlined above, categorizing such cases as \"customer no longer needs the product.\" If a ",
+          " separate from the shipping time.\n\nShipping Time\n\n- Express Shipping: 3-5 Business Days\n- Truck Shipping (for Overweight Items): 7-10 Business Days\n\n\nShipping Rates\n\nGarvee utilizes UPS, USPS, "
+        ],
+        "canonical": "https://www.garvee.com/policies/shipping-policy"
+      }
+    },
+    {
+      "need_id": "N053",
+      "page": "share-and-win",
+      "status": "奖励条件未对齐／时间缺失",
+      "reason": "本次同页仍出现投稿30美元、视频入选35美元及推荐最高80美元。投稿与入选奖励条件未统一，推荐属于另一机制；不能把三个数字直接当成同一奖励冲突。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:27:09.900Z",
+        "url": "https://www.garvee.com/pages/share-and-win",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [
+          " about your experiences! Share your story with us, and we'll give you $30 cash for your next purchase. It's simple, fun, and a great way to show off your new GARVEE products\n\nGarvee Awards\n01\nW",
+          " great way to show off your new GARVEE products\n\nGarvee Awards\n01\nWin $35\n\nYou will win $35 cash back for next purchase once your videos are featured\n\n02\nWin Up To $80\n\nRefer to friends and get",
+          "sh back for next purchase once your videos are featured\n\n02\nWin Up To $80\n\nRefer to friends and get the chance to win $80 cash for next purchase\n\nGetting Started\nCAPTURE\n\nHighlight the specific"
+        ],
+        "canonical": "https://www.garvee.com/pages/share-and-win"
+      }
+    },
+    {
+      "need_id": "N054",
+      "page": "category",
+      "status": "可见组件缺失／目标示例已有",
+      "reason": "历史类目未呈现面包屑；推荐代码已有，实施时须同步真实可见导航。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:31:08.407Z",
+        "url": "https://www.garvee.com/collections/rugs",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [],
+        "canonical": "https://www.garvee.com/collections/rugs"
+      }
+    },
+    {
+      "need_id": "N055",
+      "page": "product",
+      "status": "主体关系待确认",
+      "reason": "品牌与平台已知，不足以证明每个报价的合同卖方；先核实交易主体，不用站点名称代填。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:26:12.009Z",
+        "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy",
+        "scope": "商品页渲染正文、规格表及滚动后评论区",
+        "excerpts": [
+          "t Rug for Living Room Bedroom Dining Room\n#1 Best Seller\nin Rugs\n4.77\n166 Reviews\n$\n127\n99\nSign in for Member Price: $115.20\nSign In/ Register\nEarn $1.28 (128 points) when you buy this item.\nColor / Si",
+          "sion\tHousewarming\nWater Resistance Level\tWater Resistant\nReviews 4.77\nAverage rating based on 166 reviews\nWrite a review\nAll reviews with images\nSee all photos\nDenise W.\nReviewed on Oct 03, 2026\n\nThis is my second rug",
+          "rks within 72 hours.\nSpecification\nMaterial\t100% Polyester\nWeave Type\tTufted\nPile Height\tLow Pile\nBacking Material\tThermoplastic Rubber (TPR)\nConstruction\tMachine Made\nDesign Style\tTraditional Bor",
+          "fications\n\nBrand\tGARVEE\nSize\t10 x 13 Ft\nMaterial\tPolyester\nWeave Type\tFlat Woven\nItem Weight\t32.4 pounds\nPile Height\tLow Pile\nConstruction Type\tMachine Made\nBack Material Type\tThermoplastic Rubber (TP",
+          "e and overall appearance work well for our room.\n\nSee all 166 reviews\nQuestions and Answers (0)\n$\n127\n99\nIn Stock. Shipping From United States\nEst. Delivery Time: Nov 13 - Nov 15\nIn Stock\n1\nBuy Now\nAdd to Cart\nFree "
+        ],
+        "canonical": null
+      }
+    },
+    {
+      "need_id": "N056",
+      "page": "product",
+      "status": "值已存在／资格映射缺失",
+      "reason": "普通价与会员价已有展示，缺该报价对应等级、资格、叠加和有效期映射。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:26:12.009Z",
+        "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy",
+        "scope": "商品页渲染正文、规格表及滚动后评论区",
+        "excerpts": [
+          "t Rug for Living Room Bedroom Dining Room\n#1 Best Seller\nin Rugs\n4.77\n166 Reviews\n$\n127\n99\nSign in for Member Price: $115.20\nSign In/ Register\nEarn $1.28 (128 points) when you buy this item.\nColor / Si",
+          "sion\tHousewarming\nWater Resistance Level\tWater Resistant\nReviews 4.77\nAverage rating based on 166 reviews\nWrite a review\nAll reviews with images\nSee all photos\nDenise W.\nReviewed on Oct 03, 2026\n\nThis is my second rug",
+          "rks within 72 hours.\nSpecification\nMaterial\t100% Polyester\nWeave Type\tTufted\nPile Height\tLow Pile\nBacking Material\tThermoplastic Rubber (TPR)\nConstruction\tMachine Made\nDesign Style\tTraditional Bor",
+          "fications\n\nBrand\tGARVEE\nSize\t10 x 13 Ft\nMaterial\tPolyester\nWeave Type\tFlat Woven\nItem Weight\t32.4 pounds\nPile Height\tLow Pile\nConstruction Type\tMachine Made\nBack Material Type\tThermoplastic Rubber (TP",
+          "e and overall appearance work well for our room.\n\nSee all 166 reviews\nQuestions and Answers (0)\n$\n127\n99\nIn Stock. Shipping From United States\nEst. Delivery Time: Nov 13 - Nov 15\nIn Stock\n1\nBuy Now\nAdd to Cart\nFree "
+        ],
+        "canonical": null
+      }
+    },
+    {
+      "need_id": "N057",
+      "page": "product",
+      "status": "历史冲突／当前计数已对齐；口径待核",
+      "reason": "本次商品页首、评论区及JSON-LD均为166条、均分4.77。旧200/166及星级分布4.425属于历史记录；本次未取得可核算当前分布和同口径评价API，不据旧分布断言当前均分冲突。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:26:12.009Z",
+        "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy",
+        "scope": "商品页渲染正文、规格表及滚动后评论区",
+        "excerpts": [
+          "t Rug for Living Room Bedroom Dining Room\n#1 Best Seller\nin Rugs\n4.77\n166 Reviews\n$\n127\n99\nSign in for Member Price: $115.20\nSign In/ Register\nEarn $1.28 (128 points) when you buy this item.\nColor / Si",
+          "sion\tHousewarming\nWater Resistance Level\tWater Resistant\nReviews 4.77\nAverage rating based on 166 reviews\nWrite a review\nAll reviews with images\nSee all photos\nDenise W.\nReviewed on Oct 03, 2026\n\nThis is my second rug",
+          "rks within 72 hours.\nSpecification\nMaterial\t100% Polyester\nWeave Type\tTufted\nPile Height\tLow Pile\nBacking Material\tThermoplastic Rubber (TPR)\nConstruction\tMachine Made\nDesign Style\tTraditional Bor",
+          "fications\n\nBrand\tGARVEE\nSize\t10 x 13 Ft\nMaterial\tPolyester\nWeave Type\tFlat Woven\nItem Weight\t32.4 pounds\nPile Height\tLow Pile\nConstruction Type\tMachine Made\nBack Material Type\tThermoplastic Rubber (TP",
+          "e and overall appearance work well for our room.\n\nSee all 166 reviews\nQuestions and Answers (0)\n$\n127\n99\nIn Stock. Shipping From United States\nEst. Delivery Time: Nov 13 - Nov 15\nIn Stock\n1\nBuy Now\nAdd to Cart\nFree "
+        ],
+        "canonical": null
+      }
+    },
+    {
+      "need_id": "N058",
+      "page": "product",
+      "status": "缺失完整主数据",
+      "reason": "颜色和尺寸选项已存在，尚缺稳定分组、全变体身份及逐变体报价关系。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:26:12.009Z",
+        "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy",
+        "scope": "商品页渲染正文、规格表及滚动后评论区",
+        "excerpts": [
+          "t Rug for Living Room Bedroom Dining Room\n#1 Best Seller\nin Rugs\n4.77\n166 Reviews\n$\n127\n99\nSign in for Member Price: $115.20\nSign In/ Register\nEarn $1.28 (128 points) when you buy this item.\nColor / Si",
+          "sion\tHousewarming\nWater Resistance Level\tWater Resistant\nReviews 4.77\nAverage rating based on 166 reviews\nWrite a review\nAll reviews with images\nSee all photos\nDenise W.\nReviewed on Oct 03, 2026\n\nThis is my second rug",
+          "rks within 72 hours.\nSpecification\nMaterial\t100% Polyester\nWeave Type\tTufted\nPile Height\tLow Pile\nBacking Material\tThermoplastic Rubber (TPR)\nConstruction\tMachine Made\nDesign Style\tTraditional Bor",
+          "fications\n\nBrand\tGARVEE\nSize\t10 x 13 Ft\nMaterial\tPolyester\nWeave Type\tFlat Woven\nItem Weight\t32.4 pounds\nPile Height\tLow Pile\nConstruction Type\tMachine Made\nBack Material Type\tThermoplastic Rubber (TP",
+          "e and overall appearance work well for our room.\n\nSee all 166 reviews\nQuestions and Answers (0)\n$\n127\n99\nIn Stock. Shipping From United States\nEst. Delivery Time: Nov 13 - Nov 15\nIn Stock\n1\nBuy Now\nAdd to Cart\nFree "
+        ],
+        "canonical": null
+      }
+    },
+    {
+      "need_id": "N059",
+      "page": "product",
+      "status": "缺失可信取值／条件适用",
+      "reason": "尚未核实实际GTIN、MPN、状况或限时价格及完整配送模型；无实际分配或限时事实可省略相应字段。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:26:12.009Z",
+        "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy",
+        "scope": "商品页渲染正文、规格表及滚动后评论区",
+        "excerpts": [
+          "t Rug for Living Room Bedroom Dining Room\n#1 Best Seller\nin Rugs\n4.77\n166 Reviews\n$\n127\n99\nSign in for Member Price: $115.20\nSign In/ Register\nEarn $1.28 (128 points) when you buy this item.\nColor / Si",
+          "sion\tHousewarming\nWater Resistance Level\tWater Resistant\nReviews 4.77\nAverage rating based on 166 reviews\nWrite a review\nAll reviews with images\nSee all photos\nDenise W.\nReviewed on Oct 03, 2026\n\nThis is my second rug",
+          "rks within 72 hours.\nSpecification\nMaterial\t100% Polyester\nWeave Type\tTufted\nPile Height\tLow Pile\nBacking Material\tThermoplastic Rubber (TPR)\nConstruction\tMachine Made\nDesign Style\tTraditional Bor",
+          "fications\n\nBrand\tGARVEE\nSize\t10 x 13 Ft\nMaterial\tPolyester\nWeave Type\tFlat Woven\nItem Weight\t32.4 pounds\nPile Height\tLow Pile\nConstruction Type\tMachine Made\nBack Material Type\tThermoplastic Rubber (TP",
+          "e and overall appearance work well for our room.\n\nSee all 166 reviews\nQuestions and Answers (0)\n$\n127\n99\nIn Stock. Shipping From United States\nEst. Delivery Time: Nov 13 - Nov 15\nIn Stock\n1\nBuy Now\nAdd to Cart\nFree "
+        ],
+        "canonical": null
+      }
+    },
+    {
+      "need_id": "N060",
+      "page": "product",
+      "status": "当前冲突／重量口径待确认",
+      "reason": "本次商品DOM仍同时有Tufted与Flat Woven；32.4 pounds有值但净重或包装范围未核。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:26:12.009Z",
+        "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy",
+        "scope": "商品页渲染正文、规格表及滚动后评论区",
+        "excerpts": [
+          "t Rug for Living Room Bedroom Dining Room\n#1 Best Seller\nin Rugs\n4.77\n166 Reviews\n$\n127\n99\nSign in for Member Price: $115.20\nSign In/ Register\nEarn $1.28 (128 points) when you buy this item.\nColor / Si",
+          "sion\tHousewarming\nWater Resistance Level\tWater Resistant\nReviews 4.77\nAverage rating based on 166 reviews\nWrite a review\nAll reviews with images\nSee all photos\nDenise W.\nReviewed on Oct 03, 2026\n\nThis is my second rug",
+          "rks within 72 hours.\nSpecification\nMaterial\t100% Polyester\nWeave Type\tTufted\nPile Height\tLow Pile\nBacking Material\tThermoplastic Rubber (TPR)\nConstruction\tMachine Made\nDesign Style\tTraditional Bor",
+          "fications\n\nBrand\tGARVEE\nSize\t10 x 13 Ft\nMaterial\tPolyester\nWeave Type\tFlat Woven\nItem Weight\t32.4 pounds\nPile Height\tLow Pile\nConstruction Type\tMachine Made\nBack Material Type\tThermoplastic Rubber (TP",
+          "e and overall appearance work well for our room.\n\nSee all 166 reviews\nQuestions and Answers (0)\n$\n127\n99\nIn Stock. Shipping From United States\nEst. Delivery Time: Nov 13 - Nov 15\nIn Stock\n1\nBuy Now\nAdd to Cart\nFree "
+        ],
+        "canonical": null
+      }
+    },
+    {
+      "need_id": "N061",
+      "page": "product",
+      "status": "当前不适用",
+      "reason": "本次商品问答仍为0；没有真实内容时不输出Question，更不能伪造问答。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:26:12.009Z",
+        "url": "https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy",
+        "scope": "商品页渲染正文、规格表及滚动后评论区",
+        "excerpts": [
+          "t Rug for Living Room Bedroom Dining Room\n#1 Best Seller\nin Rugs\n4.77\n166 Reviews\n$\n127\n99\nSign in for Member Price: $115.20\nSign In/ Register\nEarn $1.28 (128 points) when you buy this item.\nColor / Si",
+          "sion\tHousewarming\nWater Resistance Level\tWater Resistant\nReviews 4.77\nAverage rating based on 166 reviews\nWrite a review\nAll reviews with images\nSee all photos\nDenise W.\nReviewed on Oct 03, 2026\n\nThis is my second rug",
+          "rks within 72 hours.\nSpecification\nMaterial\t100% Polyester\nWeave Type\tTufted\nPile Height\tLow Pile\nBacking Material\tThermoplastic Rubber (TPR)\nConstruction\tMachine Made\nDesign Style\tTraditional Bor",
+          "fications\n\nBrand\tGARVEE\nSize\t10 x 13 Ft\nMaterial\tPolyester\nWeave Type\tFlat Woven\nItem Weight\t32.4 pounds\nPile Height\tLow Pile\nConstruction Type\tMachine Made\nBack Material Type\tThermoplastic Rubber (TP",
+          "e and overall appearance work well for our room.\n\nSee all 166 reviews\nQuestions and Answers (0)\n$\n127\n99\nIn Stock. Shipping From United States\nEst. Delivery Time: Nov 13 - Nov 15\nIn Stock\n1\nBuy Now\nAdd to Cart\nFree "
+        ],
+        "canonical": null
+      }
+    },
+    {
+      "need_id": "N062",
+      "page": "product-reviews",
+      "status": "页面内容缺失",
+      "reason": "独立评论页历史两次取证仅有标题；本次已挂载DOM正文仍仅见Product Reviews标题及导航，未观察到评论条目。未取得后台评论数据，不能搬入另一商品页评论。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:31:07.857Z",
+        "url": "https://www.garvee.com/pages/product-reviews",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [],
+        "canonical": "https://www.garvee.com/pages/product-reviews"
+      }
+    },
+    {
+      "need_id": "N063",
+      "page": "faqs",
+      "status": "冲突与适用范围待确认／费率数据缺失",
+      "reason": "本次配送政策正文仍同时写Truck 7–10与10–15工作日，属同页未对齐。FAQ仍为2–4、Express仍为3–5，还须确认服务及起算点；费率与例外未取得完整主数据。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:27:08.551Z",
+        "url": "https://www.garvee.com/pages/faqs",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [
+          " time?\nWarewhouse processing time 1-2 business days, delivery time is 2-4 business days.\n\nHow do I get tracking information?\nTracking information will be updated on the orders page at the same "
+        ],
+        "canonical": "https://www.garvee.com/pages/faqs"
+      }
+    },
+    {
+      "need_id": "N064",
+      "page": "diy-ideas",
+      "status": "逐篇主数据缺失",
+      "reason": "列表已有文章，缺逐篇作者及修改时间的可信映射；不得用站点名或采集时间代填。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:31:47.650Z",
+        "url": "https://www.garvee.com/pages/diy-ideas",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [],
+        "canonical": "https://www.garvee.com/pages/diy-ideas"
+      }
+    },
+    {
+      "need_id": "N065",
+      "page": "blog-list",
+      "status": "逐篇主数据缺失",
+      "reason": "列表已有文章，缺逐篇作者及修改时间的可信映射；不得用站点名或采集时间代填。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:31:58.785Z",
+        "url": "https://www.garvee.com/blogs/buying-guides",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [],
+        "canonical": "https://www.garvee.com/blogs/buying-guides"
+      }
+    },
+    {
+      "need_id": "N066",
+      "page": "article",
+      "status": "缺失可信作者或修改时间",
+      "reason": "旧元数据作者不等于可见真实署名；没有可靠修改事实时可省略dateModified。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:31:09.622Z",
+        "url": "https://www.garvee.com/blogs/buying-guides/everything-you-need-to-know-about-rug-sizes-and-placement",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [],
+        "canonical": "https://www.garvee.com/blogs/buying-guides/everything-you-need-to-know-about-rug-sizes-and-placement"
+      }
+    },
+    {
+      "need_id": "N067",
+      "page": "campaign",
+      "status": "主体关系待确认",
+      "reason": "品牌与平台已知，不足以证明每个报价的合同卖方；先核实交易主体，不用站点名称代填。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:31:46.958Z",
+        "url": "https://www.garvee.com/pages/activity-fall-home-sale",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [],
+        "canonical": "https://www.garvee.com/pages/activity-fall-home-sale"
+      }
+    },
+    {
+      "need_id": "N068",
+      "page": "campaign",
+      "status": "卡片已有／详情字段缺失可信来源",
+      "reason": "卡片名称、图、链接与快照价格已有；SKU、GTIN、库存和评分须接商品主数据，不能按标题推定。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:31:46.958Z",
+        "url": "https://www.garvee.com/pages/activity-fall-home-sale",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [],
+        "canonical": "https://www.garvee.com/pages/activity-fall-home-sale"
+      }
+    },
+    {
+      "need_id": "N069",
+      "page": "campaign",
+      "status": "缺失可信时间／条件适用",
+      "reason": "促销内容已有，但未获得真实起止时间与SKU适用条件；普通促销不等于Event。",
+      "live_recheck": {
+        "checked_at": "2026-11-10T05:31:46.958Z",
+        "url": "https://www.garvee.com/pages/activity-fall-home-sale",
+        "scope": "当前浏览器正文和已挂载DOM；未展开全部折叠项或遍历全部懒加载组件。未见字段不证明后台无数据。",
+        "excerpts": [],
+        "canonical": "https://www.garvee.com/pages/activity-fall-home-sale"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "【提取：当前页面路由的规范URL；输出类型：URL】#webpage",
+      "url": "【提取：当前页面路由的规范URL；输出类型：URL】",
+      "name": "【提取：该真实奖励活动的可见标题；输出类型：Text】",
+      "description": "【提取：营销系统核准的逐种奖励金额、币种、触发条件、上限、地区、资格和起止时刻及时区；不同奖励分别说明；输出类型：Text】"
+    }
+  ]
+}
+</script>

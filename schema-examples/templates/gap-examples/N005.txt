@@ -1,0 +1,8 @@
+{
+  "scopeType": "【提取：评价系统真实汇总对象类型：商品、商品组或变体；输出类型：Text】",
+  "scopeId": "【提取：同一汇总对象的主数据ID；输出类型：Text】",
+  "snapshotAt": "【提取：评价API快照时间，带真实时区；输出类型：DateTime】",
+  "uniqueReviewerCount": "【提取：按确认的用户ID、匿名记录、审核及导入规则去重后的评价人数；输出类型：Integer】",
+  "deduplicationRule": "【提取：数据团队确认的人数去重规则及时间范围；输出类型：Text】",
+  "schemaOutputPolicy": "去重人数不输出为Schema属性；评分条数与评论条数另从评价API取得"
+}

@@ -1,0 +1,31 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "【提取：该实体官方主页的规范URL；输出类型：URL】#organization",
+      "name": "【提取：真实会员计划运营主体名称；输出类型：Text】",
+      "hasMemberProgram": {
+        "@type": "MemberProgram",
+        "@id": "【提取：当前页面路由的规范URL；输出类型：URL】#program",
+        "name": "【提取：会员系统中真实会员计划名称；输出类型：Text】",
+        "hasTiers": [
+          {
+            "@type": "MemberProgramTier",
+            "@id": "【提取：当前页面路由的规范URL；输出类型：URL】#tier-【提取：该等级稳定ID；输出类型：Text】",
+            "name": "【提取：该等级公开名称；输出类型：Text】",
+            "hasTierBenefit": "https://schema.org/TierBenefitLoyaltyPoints",
+            "hasTierRequirement": "【提取：该等级真实积分门槛、获得方式、累计周期和保级降级条件，不以积分有效期推等级周期；输出类型：Text】",
+            "membershipPointsEarned": {
+              "@type": "QuantitativeValue",
+              "value": "【提取：该等级每一单位消费货币可得积分率；输出类型：Number】",
+              "unitText": "【提取：积分率完整单位，含每消费多少金额及哪种币种；输出类型：Text】"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
+</script>

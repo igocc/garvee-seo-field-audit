@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="【提取：本页实际BCP 47语言代码】">
+<head>
+<meta charset="utf-8">
+<title>【提取：帮助中心真实页面标题】</title>
+<link rel="canonical" href="【提取：当前页面规范URL】">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "【提取：当前页面路由的规范URL；输出类型：URL】#webpage",
+      "url": "【提取：当前页面路由的规范URL；输出类型：URL】",
+      "name": "【提取：帮助中心CMS实际页面标题；输出类型：Text】"
+    }
+  ]
+}
+</script>
+</head>
+<body><main><h1>【提取：本页可见主标题】</h1><p>【提取：本页真实正文】</p></main></body>
+</html>

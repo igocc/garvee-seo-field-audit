@@ -1,0 +1,39 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "OnlineStore",
+      "@id": "【提取：该实体官方主页的规范URL；输出类型：URL】#organization",
+      "url": "【提取：该组织官方主页；输出类型：URL】",
+      "name": "【提取：组织主数据中公开品牌或商家名称；输出类型：Text】",
+      "legalName": "【提取：官方法律披露及法务确认的完整法定名称；输出类型：Text】",
+      "address": {
+        "@type": "PostalAddress",
+        "name": "【提取：该地址真实用途，例如总部，不推为退货点；输出类型：Text】",
+        "streetAddress": "【提取：组织主数据中该实体公开街道及门牌；输出类型：Text】",
+        "addressLocality": "【提取：该地址真实城市；输出类型：Text】",
+        "addressRegion": "【提取：该地址真实州省；输出类型：Text】",
+        "postalCode": "【提取：该地址邮编，保留前导零；输出类型：Text】",
+        "addressCountry": "【提取：该地址国家代码；输出类型：Text】"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "【提取：此渠道实际服务用途；输出类型：Text】",
+          "telephone": "【提取：此用途的公开电话，含国家区号；输出类型：Text】",
+          "hoursAvailable": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "【提取：本渠道服务星期的Schema完整枚举URL；输出类型：URL】"
+            ],
+            "opens": "【提取：本渠道实际开始服务时间；输出类型：Time】",
+            "closes": "【提取：本渠道实际结束服务时间；输出类型：Time】",
+            "description": "【提取：本渠道星期、时间及时区的完整公开说明；输出类型：Text】"
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>

@@ -57,6 +57,13 @@ Google Organization 指南不要求每页完整重复组织。WebSite 网站名�
 `index.html` 按页可搜索、展开完整代码和本页补数表。`页面实现与验收清单.xlsx` 只有一个工作表、27 行、最终确认列真正留空。详细来源、数值、缺口和字典放在支持工作簿/CSV/JSON。`review/baseline/` 是改前留档，不作为本版通过证据。所有重要数据生产中应与正文同源，在首个完整 SSR HTML 输出并动态同步；静态示例中的价格库存不是长期常量。包内 `package-files.json` 提供文件哈希。
 
 
+## 2026-11-10 补数区更新
+
+69项补数要求均有现状判定、字段含义、来源和完整中文取值模板。以 `review/gap-guidance.json`、`review/gap-status.csv` 和 `补数状态与完整模板.xlsx` 为本次补数区入口。模板中的【提取：…】说明取什么、从哪里取、输出何种类型；数值占位用字符串承载说明，接入时必须换为真实Number/Integer，未替换不可上线。它们不计入原28份真实代码的在线验证槽位。
+
+本次26页完成当前DOM回读，支付政策返回403；未遍历全部折叠/懒加载内容，未取得后台主数据。完整范围见 `review/gap-live-recheck.json`。商品当前页首、评论区和JSON-LD均为166条/4.77分，历史200/166计数冲突不再作为当前结论；均分口径仍待API核验，编织规格Tufted/Flat Woven冲突仍存在。历史代码、来源工作簿与上文数值保留其2026-11-04至05快照身份。
+
+
 ## GitHub 公开发布
 
 资料入口：https://igocc.github.io/garvee-seo-field-audit/schema-examples/ 。这是文档与示例公开发布，不是向 GARVEE 官网部署。

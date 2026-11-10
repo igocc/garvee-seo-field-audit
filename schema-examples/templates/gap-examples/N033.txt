@@ -1,0 +1,27 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "【提取：当前页面路由的规范URL；输出类型：URL】#webpage",
+      "url": "【提取：当前页面路由的规范URL；输出类型：URL】",
+      "name": "【提取：CMS中本页可见标题；输出类型：Text】",
+      "mainEntity": {
+        "@id": "【提取：当前页面路由的规范URL；输出类型：URL】#service"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "【提取：当前页面路由的规范URL；输出类型：URL】#service",
+      "name": "【提取：合同或合作系统中该服务或合作计划的真实名称；输出类型：Text】",
+      "provider": {
+        "@type": "Organization",
+        "name": "【提取：合同中实际履约或运营主体名称，不推为保险公司；输出类型：Text】",
+        "url": "【提取：真实服务提供方官网；输出类型：URL】"
+      },
+      "description": "【提取：该合作计划真实佣金比例或金额及币种、合资格订单、归因周期、平台地区与加入条件；输出类型：Text】"
+    }
+  ]
+}
+</script>

@@ -1,0 +1,14 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "【提取：当前页面路由的规范URL；输出类型：URL】#webpage",
+      "url": "【提取：当前页面路由的规范URL；输出类型：URL】",
+      "name": "【提取：CMS中无障碍声明真实标题；输出类型：Text】",
+      "description": "【提取：法务核准的实际无障碍目标与测试范围说明；没有验收报告时不得改成已全面符合；输出类型：Text】"
+    }
+  ]
+}
+</script>

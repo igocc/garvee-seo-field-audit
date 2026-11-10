@@ -1,0 +1,34 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "【提取：当前页面路由的规范URL；输出类型：URL】#webpage",
+      "url": "【提取：当前页面路由的规范URL；输出类型：URL】",
+      "name": "【提取：类目主数据中的本页真实类目名称；输出类型：Text】",
+      "breadcrumb": {
+        "@id": "【提取：当前页面路由的规范URL；输出类型：URL】#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "【提取：当前页面路由的规范URL；输出类型：URL】#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": "【提取：首页在实际导航链中的序号；输出类型：Integer】",
+          "name": "【提取：可见首页导航名称；输出类型：Text】",
+          "item": "【提取：本市场首页规范URL；输出类型：URL】"
+        },
+        {
+          "@type": "ListItem",
+          "position": "【提取：当前类目在实际导航链中的序号；输出类型：Integer】",
+          "name": "【提取：可见类目导航名称；输出类型：Text】",
+          "item": "【提取：当前页面路由的规范URL；输出类型：URL】"
+        }
+      ]
+    }
+  ]
+}
+</script>

@@ -1,0 +1,22 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "FAQPage",
+      "@id": "【提取：当前页面路由的规范URL；输出类型：URL】#webpage",
+      "url": "【提取：当前页面路由的规范URL；输出类型：URL】",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "【提取：本页真实可见的退款时效问题；输出类型：Text】",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "【提取：售后与支付团队统一核准的完整回答：收退货检查、退款发起和各支付渠道到账分别从何时起算、多少工作日及例外；输出类型：Text】"
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>

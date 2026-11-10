@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "【提取：当前页面路由的规范URL；输出类型：URL】#webpage",
+      "url": "【提取：当前页面路由的规范URL；输出类型：URL】",
+      "name": "【提取：CMS中本页可见标题；输出类型：Text】",
+      "mainEntity": {
+        "@id": "【提取：该文章规范URL；输出类型：URL】#article"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "【提取：该文章规范URL；输出类型：URL】#article",
+      "url": "【提取：该文章规范URL；输出类型：URL】",
+      "headline": "【提取：CMS中该文章可见主标题；输出类型：Text】",
+      "image": "【提取：该文章真实主图地址；输出类型：URL】",
+      "author": {
+        "@type": "Person",
+        "name": "【提取：CMS中该文章真实公开署名；若作者为组织则改用Organization；输出类型：Text】",
+        "url": "【提取：该作者真实介绍页，并在正文提供署名链接；输出类型：URL】"
+      },
+      "datePublished": "【提取：CMS中文章首次公开日期，保留来源精度；输出类型：Date或DateTime】",
+      "dateModified": "【提取：CMS中正文最后实际修改日期；没有修改事实则删除本字段；输出类型：Date或DateTime】"
+    }
+  ]
+}
+</script>

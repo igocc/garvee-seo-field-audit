@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Order",
+      "@id": "【提取：受保护订单详情的稳定ID或URL；输出类型：URL】",
+      "orderNumber": "【提取：当前已授权用户真实订单号；输出类型：Text】",
+      "orderStatus": "【提取：订单API真实状态映射到Schema OrderStatus完整枚举URL；输出类型：URL】",
+      "orderedItem": {
+        "@type": "Product",
+        "@id": "【提取：该SKU详情页的规范URL；输出类型：URL】#product",
+        "url": "【提取：该SKU详情页的规范URL；输出类型：URL】",
+        "name": "【提取：PIM中该SKU的真实商品名称，并同步可见标题；输出类型：Text】",
+        "sku": "【提取：PIM中当前选中变体的唯一SKU；输出类型：Text】",
+        "image": "【提取：该SKU主图的公开图片地址；输出类型：URL】"
+      },
+      "orderDelivery": {
+        "@type": "ParcelDelivery",
+        "trackingNumber": "【提取：该订单此真实包裹运单号，仅受保护详情可用；输出类型：Text】",
+        "trackingUrl": "【提取：此包裹实际承运商追踪URL；输出类型：URL】",
+        "provider": {
+          "@type": "Organization",
+          "name": "【提取：此包裹真实承运商名称；输出类型：Text】"
+        }
+      }
+    }
+  ]
+}
+</script>

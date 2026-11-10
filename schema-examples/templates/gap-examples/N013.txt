@@ -1,0 +1,46 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Product",
+      "@id": "【提取：该SKU详情页的规范URL；输出类型：URL】#product",
+      "url": "【提取：该SKU详情页的规范URL；输出类型：URL】",
+      "name": "【提取：PIM中该SKU的真实商品名称，并同步可见标题；输出类型：Text】",
+      "sku": "【提取：PIM中当前选中变体的唯一SKU；输出类型：Text】",
+      "image": "【提取：该SKU主图的公开图片地址；输出类型：URL】",
+      "offers": {
+        "@type": "Offer",
+        "url": "【提取：该SKU详情页的规范URL；输出类型：URL】",
+        "price": "【提取：价格引擎中该SKU当前对公众可支付的普通价，不取会员价或划线价；输出类型：Number】",
+        "priceCurrency": "【提取：同一报价的ISO 4217币种代码；输出类型：Text】",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "【提取：价格引擎中同一SKU对该等级实际可支付的会员价；输出类型：Number】",
+          "priceCurrency": "【提取：该会员报价的ISO 4217币种；输出类型：Text】",
+          "validForMemberTier": {
+            "@id": "【提取：会员系统中该报价适用等级的稳定介绍URL；输出类型：URL】#tier"
+          },
+          "membershipPointsEarned": {
+            "@type": "QuantitativeValue",
+            "value": "【提取：会员系统计算该报价该等级本次实际支付可得的积分，含核准舍入规则；输出类型：Number】",
+            "unitText": "【提取：明确本次购买所得积分的实际单位与计算基数，不混用每单位消费积分率；输出类型：Text】"
+          }
+        }
+      }
+    },
+    {
+      "@type": "MemberProgram",
+      "@id": "【提取：当前页面路由的规范URL；输出类型：URL】#program",
+      "name": "【提取：会员系统中真实计划名称；输出类型：Text】",
+      "hasTiers": {
+        "@type": "MemberProgramTier",
+        "@id": "【提取：会员系统中该报价适用等级的稳定介绍URL；输出类型：URL】#tier",
+        "name": "【提取：该价格实际适用的会员等级名；输出类型：Text】",
+        "hasTierBenefit": "https://schema.org/TierBenefitLoyaltyPrice",
+        "hasTierRequirement": "【提取：会员规则中该等级资格、积分门槛、累计周期、保级降级与叠加条件；输出类型：Text】"
+      }
+    }
+  ]
+}
+</script>

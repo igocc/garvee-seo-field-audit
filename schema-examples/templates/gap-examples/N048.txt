@@ -1,0 +1,41 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "【提取：当前页面路由的规范URL；输出类型：URL】#webpage",
+      "url": "【提取：当前页面路由的规范URL；输出类型：URL】",
+      "name": "【提取：CMS中本页可见标题；输出类型：Text】",
+      "mainEntity": {
+        "@id": "【提取：当前页面路由的规范URL；输出类型：URL】#list"
+      }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "【提取：当前页面路由的规范URL；输出类型：URL】#list",
+      "numberOfItems": "【提取：列表API本次SSR或分页实际输出数组的长度，不取库存或全库总量；输出类型：Integer】",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": "【提取：条目在本次列表中的真实连续序号；输出类型：Integer】",
+          "item": {
+            "@type": "Product",
+            "@id": "【提取：该SKU详情页的规范URL；输出类型：URL】#product",
+            "url": "【提取：该SKU详情页的规范URL；输出类型：URL】",
+            "name": "【提取：PIM中该SKU的真实商品名称，并同步可见标题；输出类型：Text】",
+            "sku": "【提取：PIM中当前选中变体的唯一SKU；输出类型：Text】",
+            "image": "【提取：该SKU主图的公开图片地址；输出类型：URL】",
+            "offers": {
+              "@type": "Offer",
+              "url": "【提取：该SKU详情页的规范URL；输出类型：URL】",
+              "price": "【提取：价格引擎中该SKU当前对公众可支付的普通价，不取会员价或划线价；输出类型：Number】",
+              "priceCurrency": "【提取：同一报价的ISO 4217币种代码；输出类型：Text】"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>

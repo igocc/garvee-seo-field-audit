@@ -1,0 +1,72 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ItemPage",
+      "@id": "【提取：当前页面路由的规范URL；输出类型：URL】#webpage",
+      "url": "【提取：当前页面路由的规范URL；输出类型：URL】",
+      "name": "【提取：CMS中本页可见标题；输出类型：Text】",
+      "mainEntity": {
+        "@id": "【提取：该SKU详情页的规范URL；输出类型：URL】#product"
+      }
+    },
+    {
+      "@type": "Product",
+      "@id": "【提取：该SKU详情页的规范URL；输出类型：URL】#product",
+      "url": "【提取：该SKU详情页的规范URL；输出类型：URL】",
+      "name": "【提取：PIM中该SKU的真实商品名称，并同步可见标题；输出类型：Text】",
+      "sku": "【提取：PIM中当前选中变体的唯一SKU；输出类型：Text】",
+      "image": "【提取：该SKU主图的公开图片地址；输出类型：URL】",
+      "gtin": "【提取：制造商实际分配且校验位合法的GTIN；未分配则删除，不用SKU代填；输出类型：Text】",
+      "mpn": "【提取：制造商真实料号；未分配则删除；输出类型：Text】",
+      "offers": {
+        "@type": "Offer",
+        "url": "【提取：该SKU详情页的规范URL；输出类型：URL】",
+        "price": "【提取：价格引擎中该SKU当前对公众可支付的普通价，不取会员价或划线价；输出类型：Number】",
+        "priceCurrency": "【提取：同一报价的ISO 4217币种代码；输出类型：Text】",
+        "itemCondition": "【提取：PIM已确认且正文同步的新旧状况所对应的Schema OfferItemCondition完整枚举URL；输出类型：URL】",
+        "validFrom": "【提取：活动价格实际开始生效时刻，带时区；没有限时事实则删除；输出类型：DateTime】",
+        "priceValidUntil": "【提取：此SKU此价格实际失效日期；没有截止事实则删除；输出类型：Date】",
+        "validThrough": "【提取：该促销报价实际终止时刻，带真实时区；没有限时事实则删除；输出类型：DateTime】",
+        "description": "【提取：活动系统中该SKU优惠资格、叠加、地区及限时规则，须和页面一致；输出类型：Text】",
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "【提取：物流规则的真实目的国家代码；输出类型：Text】",
+            "addressRegion": "【提取：同一服务真实覆盖州省；多个区域按实际拆分；输出类型：Text】"
+          },
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "【提取：运费引擎按此SKU、地区、服务和门槛实际计算的运费；免费也需有规则证明；输出类型：Number】",
+            "currency": "【提取：该运费的ISO 4217币种；输出类型：Text】"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": "【提取：物流API同一服务备货处理天数下限；输出类型：Number】",
+              "maxValue": "【提取：物流API同一服务备货处理天数上限；输出类型：Number】",
+              "unitCode": "DAY"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": "【提取：物流API同一服务出库后运输天数下限；输出类型：Number】",
+              "maxValue": "【提取：物流API同一服务出库后运输天数上限；输出类型：Number】",
+              "unitCode": "DAY"
+            },
+            "businessDays": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "【提取：物流规则中真实工作日对应的Schema DayOfWeek完整枚举URL；输出类型：URL】"
+              ]
+            },
+            "cutoffTime": "【提取：该服务真实截单时间及适用UTC偏移；输出类型：Time】"
+          }
+        }
+      }
+    }
+  ]
+}
+</script>

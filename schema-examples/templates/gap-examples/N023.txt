@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "OnlineStore",
+      "@id": "【提取：该实体官方主页的规范URL；输出类型：URL】#organization",
+      "name": "【提取：真实承担退货政策的商家名称；输出类型：Text】",
+      "url": "【提取：该商家官网URL；输出类型：URL】",
+      "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "merchantReturnLink": "【提取：已公开且适用的正式退货政策完整URL；输出类型：URL】",
+        "applicableCountry": "【提取：该政策适用的购买目的国家代码；输出类型：Text】",
+        "returnPolicyCountry": "【提取：商品实际寄回国家代码，不一定等于购买目的国；输出类型：Text】",
+        "returnPolicyCategory": "【提取：实际可退窗口政策对应的Schema MerchantReturnEnumeration完整枚举URL；输出类型：URL】",
+        "merchantReturnDays": "【提取：按实际政策起算点允许退货的天数；无限期或不允许退货时按政策类别省略；输出类型：Integer】",
+        "returnMethod": "【提取：实际允许的退回方式对应的Schema ReturnMethodEnumeration完整枚举URL；输出类型：URL】",
+        "returnFees": "【提取：此退货原因和适用范围的费用规则对应的Schema ReturnFeesEnumeration完整枚举URL；输出类型：URL】",
+        "returnShippingFeesAmount": {
+          "@type": "MonetaryAmount",
+          "value": "【提取：此退货原因下固定退货运费金额；若并非固定收费则删除，不猜填；输出类型：Number】",
+          "currency": "【提取：同一固定退货费的ISO 4217币种；输出类型：Text】"
+        },
+        "restockingFee": "【提取：政策中该退货原因对应的补货费百分比；固定金额应改用MonetaryAmount，无此收费则删除；输出类型：Number】",
+        "description": "【提取：真实窗口起算点、按原因收费分支、SKU排除项及实际退货点说明；完整地址从售后源取得，不把总部代填；输出类型：Text】"
+      }
+    }
+  ]
+}
+</script>

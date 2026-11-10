@@ -1,0 +1,58 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ItemPage",
+      "@id": "【提取：当前页面路由的规范URL；输出类型：URL】#webpage",
+      "url": "【提取：当前页面路由的规范URL；输出类型：URL】",
+      "name": "【提取：CMS中本页可见标题；输出类型：Text】",
+      "mainEntity": {
+        "@id": "【提取：该SKU详情页的规范URL；输出类型：URL】#product"
+      }
+    },
+    {
+      "@type": "Product",
+      "@id": "【提取：该SKU详情页的规范URL；输出类型：URL】#product",
+      "url": "【提取：该SKU详情页的规范URL；输出类型：URL】",
+      "name": "【提取：PIM中该SKU的真实商品名称，并同步可见标题；输出类型：Text】",
+      "sku": "【提取：PIM中当前选中变体的唯一SKU；输出类型：Text】",
+      "image": "【提取：该SKU主图的公开图片地址；输出类型：URL】",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "【提取：评价API按相同商品或变体范围、审核和时间口径计算的真实平均分；输出类型：Number】",
+        "ratingCount": "【提取：同一汇总范围内真实评分条数，确认是否含仅打星记录；不是去重人数；输出类型：Integer】",
+        "reviewCount": "【提取：同一汇总范围内真实评论条数；不能把抓取样本条数当总数；输出类型：Integer】",
+        "bestRating": "【提取：评价平台实际量表上限，不是最高已收到分数；输出类型：Number】",
+        "worstRating": "【提取：同一评价量表下限，不是最低已收到分数；输出类型：Number】"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "itemReviewed": {
+            "@id": "【提取：该SKU详情页的规范URL；输出类型：URL】#product"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "【提取：该条评论允许公开的作者显示名；输出类型：Text】"
+          },
+          "datePublished": "【提取：该条评论实际公开发布日期，不取采集日期；输出类型：Date或DateTime】",
+          "reviewBody": "【提取：该条评论可见的原始正文；输出类型：Text】",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "【提取：该条评论自己的星级，不取商品平均分；输出类型：Number】",
+            "bestRating": "【提取：该条评价实际量表上限；输出类型：Number】",
+            "worstRating": "【提取：该条评价实际量表下限；输出类型：Number】"
+          }
+        }
+      ],
+      "offers": {
+        "@type": "Offer",
+        "url": "【提取：该SKU详情页的规范URL；输出类型：URL】",
+        "price": "【提取：价格引擎中该SKU当前对公众可支付的普通价，不取会员价或划线价；输出类型：Number】",
+        "priceCurrency": "【提取：同一报价的ISO 4217币种代码；输出类型：Text】"
+      }
+    }
+  ]
+}
+</script>

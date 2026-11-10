@@ -1,0 +1,42 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ItemPage",
+      "@id": "【提取：当前页面路由的规范URL；输出类型：URL】#webpage",
+      "url": "【提取：当前页面路由的规范URL；输出类型：URL】",
+      "name": "【提取：CMS中本页可见标题；输出类型：Text】",
+      "mainEntity": {
+        "@id": "【提取：该SKU详情页的规范URL；输出类型：URL】#product"
+      }
+    },
+    {
+      "@type": "Product",
+      "@id": "【提取：该SKU详情页的规范URL；输出类型：URL】#product",
+      "url": "【提取：该SKU详情页的规范URL；输出类型：URL】",
+      "name": "【提取：PIM中该SKU的真实商品名称，并同步可见标题；输出类型：Text】",
+      "sku": "【提取：PIM中当前选中变体的唯一SKU；输出类型：Text】",
+      "image": "【提取：该SKU主图的公开图片地址；输出类型：URL】",
+      "offers": {
+        "@type": "Offer",
+        "url": "【提取：该SKU详情页的规范URL；输出类型：URL】",
+        "price": "【提取：该SKU该数量区间对已批准账户实际可支付的每单位价格，与下方priceSpecification同源；输出类型：Number】",
+        "priceCurrency": "【提取：同一报价的ISO 4217币种代码；输出类型：Text】",
+        "eligibleQuantity": {
+          "@type": "QuantitativeValue",
+          "minValue": "【提取：该SKU此批量报价实际起订数量；输出类型：Number】",
+          "maxValue": "【提取：该SKU此报价适用数量上限；无上限则删除；输出类型：Number】",
+          "unitText": "【提取：该SKU报价数量对应的实际单位；输出类型：Text】"
+        },
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "【提取：B2B价格系统中该SKU该数量区间批准账户的真实每单位价格；输出类型：Number】",
+          "priceCurrency": "【提取：该B2B报价ISO 4217币种；输出类型：Text】"
+        },
+        "description": "【提取：B2B系统中批准账户、合资格SKU、运输自提、有效期与叠加条件；输出类型：Text】"
+      }
+    }
+  ]
+}
+</script>

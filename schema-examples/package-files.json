@@ -1,8 +1,8 @@
 [
   {
     "path": "README.md",
-    "bytes": 9896,
-    "sha256": "45cb492b8985b3cfd94e25874620b3154293f428a0609e31aa33b7d88320184c"
+    "bytes": 10845,
+    "sha256": "f6046e60b9fc58b3da3dfa1d46299a137d28ec6c323ebf6ca7583e2de8302de1"
   },
   {
     "path": "code/about-garvee.html",
@@ -427,7 +427,7 @@
   {
     "path": "delivery-manifest.json",
     "bytes": 129882,
-    "sha256": "43cfd4b17c96fd74b8ed1c6df4606ab37f021635ed037294f9ce3be8b47ae099"
+    "sha256": "cc7fe24a809406f0917c9e1693405e927d2d7baf525af4c12890cdd3f044363c"
   },
   {
     "path": "evidence/about-garvee.browser.html",
@@ -1466,8 +1466,8 @@
   },
   {
     "path": "index.html",
-    "bytes": 526345,
-    "sha256": "a70b41d6cf5a4df24c6867e2ffa16ba7738fb8d2dfb902871b774beca1439c3a"
+    "bytes": 788324,
+    "sha256": "49b69259b42cf491d8765f931f3c368115f6ec76797812b08d32fad8fe4f6ee6"
   },
   {
     "path": "initial-inventory.json",
@@ -1511,8 +1511,8 @@
   },
   {
     "path": "publication.json",
-    "bytes": 420,
-    "sha256": "e4d81733157fe17883a03b98d501368b6566ecf9ef7100eb2d19a0527ae05a0c"
+    "bytes": 752,
+    "sha256": "056a14b07f2587c3aae0a75c103d213ffb07c91fbf18075c5ad776694cb5e141"
   },
   {
     "path": "rating-consistency.json",
@@ -1548,6 +1548,21 @@
     "path": "review/field-value-audit.json",
     "bytes": 4279938,
     "sha256": "c382825e51aad647702120e88e8abfa9b450a80fdc31eafb871ee45a3f2be41f"
+  },
+  {
+    "path": "review/gap-guidance.json",
+    "bytes": 291228,
+    "sha256": "460c2c7378a0fc84a3eb91172b94d2d83702bdc5edaa49dd3c4b3ef7a841b436"
+  },
+  {
+    "path": "review/gap-live-recheck.json",
+    "bytes": 88276,
+    "sha256": "4144640fcdb880953a39ee471d7ca30faa87b1d65acf84b74ecef746f1fba5a8"
+  },
+  {
+    "path": "review/gap-status.csv",
+    "bytes": 39492,
+    "sha256": "f189649321e82331eef62c1065c0fe2f75bd3e939b93b1ea3313f711ac335582"
   },
   {
     "path": "review/guide-article.txt",
@@ -1758,6 +1773,351 @@
     "path": "templates/category-list-optional.snippet.html",
     "bytes": 6335,
     "sha256": "084f15a8608558ec818c237070b5a2494c3c9aca455f5e26f8843847009aaa0c"
+  },
+  {
+    "path": "templates/gap-examples/N001.txt",
+    "bytes": 2167,
+    "sha256": "a29e7f4a01273fca310ee5d4b21418c50df42f9027bb65475aacbb8f37574668"
+  },
+  {
+    "path": "templates/gap-examples/N002.txt",
+    "bytes": 2167,
+    "sha256": "a29e7f4a01273fca310ee5d4b21418c50df42f9027bb65475aacbb8f37574668"
+  },
+  {
+    "path": "templates/gap-examples/N003.txt",
+    "bytes": 2167,
+    "sha256": "a29e7f4a01273fca310ee5d4b21418c50df42f9027bb65475aacbb8f37574668"
+  },
+  {
+    "path": "templates/gap-examples/N004.txt",
+    "bytes": 2167,
+    "sha256": "a29e7f4a01273fca310ee5d4b21418c50df42f9027bb65475aacbb8f37574668"
+  },
+  {
+    "path": "templates/gap-examples/N005.txt",
+    "bytes": 696,
+    "sha256": "edc033217fb561e223a73f068e76c4f21ee1422b02d4b4377d23508dff42f91c"
+  },
+  {
+    "path": "templates/gap-examples/N006.txt",
+    "bytes": 3077,
+    "sha256": "9ca5d3efb221244bc144b2c2918b2ecb90c5934025c20158df54094ceafa8df4"
+  },
+  {
+    "path": "templates/gap-examples/N007.txt",
+    "bytes": 1788,
+    "sha256": "f2c03ff41d0ab5c71729023e270738f672407b4dff5a36486cc359835d697934"
+  },
+  {
+    "path": "templates/gap-examples/N008.txt",
+    "bytes": 1931,
+    "sha256": "2e0ba81e2fd169550190a13b037d97652c4d38efbad18fe2ff041087cddc1fed"
+  },
+  {
+    "path": "templates/gap-examples/N009.txt",
+    "bytes": 1931,
+    "sha256": "2e0ba81e2fd169550190a13b037d97652c4d38efbad18fe2ff041087cddc1fed"
+  },
+  {
+    "path": "templates/gap-examples/N010.txt",
+    "bytes": 1393,
+    "sha256": "e06fb9b301b468742ea6ffe55d934ea10785655d8fafeea0a5d11572afb14bca"
+  },
+  {
+    "path": "templates/gap-examples/N011.txt",
+    "bytes": 1393,
+    "sha256": "e06fb9b301b468742ea6ffe55d934ea10785655d8fafeea0a5d11572afb14bca"
+  },
+  {
+    "path": "templates/gap-examples/N012.txt",
+    "bytes": 2189,
+    "sha256": "66a33c7095093a0cccc627120bd2db664b88683b9505418adb6495e6b0c8ce7f"
+  },
+  {
+    "path": "templates/gap-examples/N013.txt",
+    "bytes": 2599,
+    "sha256": "1afd7ef7a232a446d7ac5318c23b330d4cc1a3022c4b5ff6ec1e0d2e3ed8d1d1"
+  },
+  {
+    "path": "templates/gap-examples/N014.txt",
+    "bytes": 1974,
+    "sha256": "113ed68a2b18fc116f2d0004fb301456af75b4f1d42485c89d3570f39e4bc9df"
+  },
+  {
+    "path": "templates/gap-examples/N015.txt",
+    "bytes": 3169,
+    "sha256": "7ff5568881c6124004b35da3d531821cb7980c8a1bdc0b346b3611f7eb306b21"
+  },
+  {
+    "path": "templates/gap-examples/N016.txt",
+    "bytes": 1344,
+    "sha256": "60529df85cec016bb5c3771acfba27ad0841688406edf00df68642f7c01eb626"
+  },
+  {
+    "path": "templates/gap-examples/N017.txt",
+    "bytes": 3175,
+    "sha256": "428eeea61cfc89abd866e242ce13fd1e6fc9db61f54c9bf83e59e9b9d7b04ad4"
+  },
+  {
+    "path": "templates/gap-examples/N018.txt",
+    "bytes": 3300,
+    "sha256": "92ee0d81ca16e57ccdb95781a7f4c547c95a5ee764fbb4ff0ad5c8b2c044a3f2"
+  },
+  {
+    "path": "templates/gap-examples/N019.txt",
+    "bytes": 3300,
+    "sha256": "92ee0d81ca16e57ccdb95781a7f4c547c95a5ee764fbb4ff0ad5c8b2c044a3f2"
+  },
+  {
+    "path": "templates/gap-examples/N020.txt",
+    "bytes": 3300,
+    "sha256": "92ee0d81ca16e57ccdb95781a7f4c547c95a5ee764fbb4ff0ad5c8b2c044a3f2"
+  },
+  {
+    "path": "templates/gap-examples/N021.txt",
+    "bytes": 3300,
+    "sha256": "92ee0d81ca16e57ccdb95781a7f4c547c95a5ee764fbb4ff0ad5c8b2c044a3f2"
+  },
+  {
+    "path": "templates/gap-examples/N022.txt",
+    "bytes": 2205,
+    "sha256": "f1dc0cd94a91b3eaec69ffa41d380bd0f077dc4bf39e293bed7f85baa425a123"
+  },
+  {
+    "path": "templates/gap-examples/N023.txt",
+    "bytes": 2205,
+    "sha256": "f1dc0cd94a91b3eaec69ffa41d380bd0f077dc4bf39e293bed7f85baa425a123"
+  },
+  {
+    "path": "templates/gap-examples/N024.txt",
+    "bytes": 781,
+    "sha256": "5dc304eb212e8eca076997653dadb9de8d0efcea96d6acb09d09917cfb00cde1"
+  },
+  {
+    "path": "templates/gap-examples/N025.txt",
+    "bytes": 781,
+    "sha256": "5dc304eb212e8eca076997653dadb9de8d0efcea96d6acb09d09917cfb00cde1"
+  },
+  {
+    "path": "templates/gap-examples/N026.txt",
+    "bytes": 1535,
+    "sha256": "81a5540f11fd6e29726ae5b17fbb0e1c4cc71dcc280ca5fbe13478c7d2e5a343"
+  },
+  {
+    "path": "templates/gap-examples/N027.txt",
+    "bytes": 2189,
+    "sha256": "66a33c7095093a0cccc627120bd2db664b88683b9505418adb6495e6b0c8ce7f"
+  },
+  {
+    "path": "templates/gap-examples/N028.txt",
+    "bytes": 1868,
+    "sha256": "31971b635851c3f87e7290f3bc947870281b4971e4d84b20b036654e553f7d2c"
+  },
+  {
+    "path": "templates/gap-examples/N029.txt",
+    "bytes": 1538,
+    "sha256": "2f1741a9fd8312ae6ae86da17088e4a90e2aa3150a1105a26a3da8304f36f178"
+  },
+  {
+    "path": "templates/gap-examples/N030.txt",
+    "bytes": 609,
+    "sha256": "899d55bcb3e74776b24ba334bf711ccd7a16051da014193b34b2e5b04ad050fe"
+  },
+  {
+    "path": "templates/gap-examples/N031.txt",
+    "bytes": 1969,
+    "sha256": "ff675287a909473c21171034ee38849c2bec8ec9ecf6bfa3cd3efdb36f62fa16"
+  },
+  {
+    "path": "templates/gap-examples/N032.txt",
+    "bytes": 2282,
+    "sha256": "927899d4c1e033ad447e456ea12abd39e332ffe8a49e78047fc71801bebf86e7"
+  },
+  {
+    "path": "templates/gap-examples/N033.txt",
+    "bytes": 1206,
+    "sha256": "6132f5deb950bbb5e53ec2c5987a9df9156f56ff0f7d76b0a072b42656a2224e"
+  },
+  {
+    "path": "templates/gap-examples/N034.txt",
+    "bytes": 1206,
+    "sha256": "6132f5deb950bbb5e53ec2c5987a9df9156f56ff0f7d76b0a072b42656a2224e"
+  },
+  {
+    "path": "templates/gap-examples/N035.txt",
+    "bytes": 1440,
+    "sha256": "1e141ae875dbefb46db0caec3351ca373bc470f1a46a51b53bf1177ae84a9504"
+  },
+  {
+    "path": "templates/gap-examples/N036.txt",
+    "bytes": 1440,
+    "sha256": "1e141ae875dbefb46db0caec3351ca373bc470f1a46a51b53bf1177ae84a9504"
+  },
+  {
+    "path": "templates/gap-examples/N037.txt",
+    "bytes": 2025,
+    "sha256": "d6cddc539c0908e3a24673806558c56626bf54708ed570d3d4b8496178baf4be"
+  },
+  {
+    "path": "templates/gap-examples/N038.txt",
+    "bytes": 2025,
+    "sha256": "d6cddc539c0908e3a24673806558c56626bf54708ed570d3d4b8496178baf4be"
+  },
+  {
+    "path": "templates/gap-examples/N039.txt",
+    "bytes": 1875,
+    "sha256": "a7651706c75de21bfaa3c0d1031ec97559698ec37b634d4f15435a0d9e1e813b"
+  },
+  {
+    "path": "templates/gap-examples/N040.txt",
+    "bytes": 1875,
+    "sha256": "a7651706c75de21bfaa3c0d1031ec97559698ec37b634d4f15435a0d9e1e813b"
+  },
+  {
+    "path": "templates/gap-examples/N041.txt",
+    "bytes": 1878,
+    "sha256": "0c685d3fd7f4afb9c417ed6144f05d4db049209dc51f6ad96e58dc524aae70c6"
+  },
+  {
+    "path": "templates/gap-examples/N042.txt",
+    "bytes": 1878,
+    "sha256": "0c685d3fd7f4afb9c417ed6144f05d4db049209dc51f6ad96e58dc524aae70c6"
+  },
+  {
+    "path": "templates/gap-examples/N043.txt",
+    "bytes": 2012,
+    "sha256": "99754dfde31fdf9ed2b409a277ceaf24b852e80408ddd923ac2e219e35ec5fdf"
+  },
+  {
+    "path": "templates/gap-examples/N044.txt",
+    "bytes": 2012,
+    "sha256": "99754dfde31fdf9ed2b409a277ceaf24b852e80408ddd923ac2e219e35ec5fdf"
+  },
+  {
+    "path": "templates/gap-examples/N045.txt",
+    "bytes": 573,
+    "sha256": "c729bffca6bf3926d492b2f1a9d83dab69db6113c26493072b9fb8e943cae4ad"
+  },
+  {
+    "path": "templates/gap-examples/N046.txt",
+    "bytes": 1370,
+    "sha256": "7825c5c7b50bc66be0fc7069ae9436db5c2df490f91e0c3c743ee59cd74e119e"
+  },
+  {
+    "path": "templates/gap-examples/N047.txt",
+    "bytes": 2231,
+    "sha256": "77832aead18f94a9e281ec8aec1608c4853c1bd2d8e8544b307d21fc3fb87563"
+  },
+  {
+    "path": "templates/gap-examples/N048.txt",
+    "bytes": 1966,
+    "sha256": "e002c808d54883f22606801d932fcba304c1cb700db255dedf183202e2919493"
+  },
+  {
+    "path": "templates/gap-examples/N049.txt",
+    "bytes": 1426,
+    "sha256": "8e2d0fc13397f74c31c8f487258ebcd73fe630bea3d17c34d587814182c873ed"
+  },
+  {
+    "path": "templates/gap-examples/N050.txt",
+    "bytes": 765,
+    "sha256": "9c298b8bc1a4b0397cd19b8ba4b9ed379d6da3fad1fa8f746b7fa94913e60c51"
+  },
+  {
+    "path": "templates/gap-examples/N051.txt",
+    "bytes": 1426,
+    "sha256": "8e2d0fc13397f74c31c8f487258ebcd73fe630bea3d17c34d587814182c873ed"
+  },
+  {
+    "path": "templates/gap-examples/N052.txt",
+    "bytes": 3300,
+    "sha256": "92ee0d81ca16e57ccdb95781a7f4c547c95a5ee764fbb4ff0ad5c8b2c044a3f2"
+  },
+  {
+    "path": "templates/gap-examples/N053.txt",
+    "bytes": 609,
+    "sha256": "899d55bcb3e74776b24ba334bf711ccd7a16051da014193b34b2e5b04ad050fe"
+  },
+  {
+    "path": "templates/gap-examples/N054.txt",
+    "bytes": 1370,
+    "sha256": "7825c5c7b50bc66be0fc7069ae9436db5c2df490f91e0c3c743ee59cd74e119e"
+  },
+  {
+    "path": "templates/gap-examples/N055.txt",
+    "bytes": 1931,
+    "sha256": "2e0ba81e2fd169550190a13b037d97652c4d38efbad18fe2ff041087cddc1fed"
+  },
+  {
+    "path": "templates/gap-examples/N056.txt",
+    "bytes": 2189,
+    "sha256": "66a33c7095093a0cccc627120bd2db664b88683b9505418adb6495e6b0c8ce7f"
+  },
+  {
+    "path": "templates/gap-examples/N057.txt",
+    "bytes": 2167,
+    "sha256": "a29e7f4a01273fca310ee5d4b21418c50df42f9027bb65475aacbb8f37574668"
+  },
+  {
+    "path": "templates/gap-examples/N058.txt",
+    "bytes": 3077,
+    "sha256": "9ca5d3efb221244bc144b2c2918b2ecb90c5934025c20158df54094ceafa8df4"
+  },
+  {
+    "path": "templates/gap-examples/N059.txt",
+    "bytes": 4271,
+    "sha256": "f9126c110c28fd6ef8cd87e1f93ed9a00498cbf20a76c8b32c769a97903db705"
+  },
+  {
+    "path": "templates/gap-examples/N060.txt",
+    "bytes": 1974,
+    "sha256": "113ed68a2b18fc116f2d0004fb301456af75b4f1d42485c89d3570f39e4bc9df"
+  },
+  {
+    "path": "templates/gap-examples/N061.txt",
+    "bytes": 1344,
+    "sha256": "60529df85cec016bb5c3771acfba27ad0841688406edf00df68642f7c01eb626"
+  },
+  {
+    "path": "templates/gap-examples/N062.txt",
+    "bytes": 3175,
+    "sha256": "428eeea61cfc89abd866e242ce13fd1e6fc9db61f54c9bf83e59e9b9d7b04ad4"
+  },
+  {
+    "path": "templates/gap-examples/N063.txt",
+    "bytes": 3300,
+    "sha256": "92ee0d81ca16e57ccdb95781a7f4c547c95a5ee764fbb4ff0ad5c8b2c044a3f2"
+  },
+  {
+    "path": "templates/gap-examples/N064.txt",
+    "bytes": 2025,
+    "sha256": "d6cddc539c0908e3a24673806558c56626bf54708ed570d3d4b8496178baf4be"
+  },
+  {
+    "path": "templates/gap-examples/N065.txt",
+    "bytes": 2025,
+    "sha256": "d6cddc539c0908e3a24673806558c56626bf54708ed570d3d4b8496178baf4be"
+  },
+  {
+    "path": "templates/gap-examples/N066.txt",
+    "bytes": 1440,
+    "sha256": "1e141ae875dbefb46db0caec3351ca373bc470f1a46a51b53bf1177ae84a9504"
+  },
+  {
+    "path": "templates/gap-examples/N067.txt",
+    "bytes": 1931,
+    "sha256": "2e0ba81e2fd169550190a13b037d97652c4d38efbad18fe2ff041087cddc1fed"
+  },
+  {
+    "path": "templates/gap-examples/N068.txt",
+    "bytes": 2703,
+    "sha256": "3e238ebe8a274d0adb5bff427cdb153d891228bff362cef53a0588ba12175b64"
+  },
+  {
+    "path": "templates/gap-examples/N069.txt",
+    "bytes": 1969,
+    "sha256": "ff675287a909473c21171034ee38849c2bec8ec9ecf6bfa3cd3efdb36f62fa16"
   },
   {
     "path": "templates/product-aggregate-rating.mjs",
@@ -2186,8 +2546,13 @@
   },
   {
     "path": "字段支持映射与Schema全量属性.xlsx",
-    "bytes": 653290,
-    "sha256": "6a2f5ee0ab4daba8fad0a4fce94bf600d0b382a88580fc627241e3829c751e4b"
+    "bytes": 612583,
+    "sha256": "6b1dc41e9c9e5dce8710fbb13a5d71d81f6a8dead3f6af11171ecf23b5e4b01b"
+  },
+  {
+    "path": "补数状态与完整模板.xlsx",
+    "bytes": 34138,
+    "sha256": "c03171617f3fc0e07c0d5dc91faf7fa8d30e06aca5a5ad097cb8a084686af94d"
   },
   {
     "path": "逐页字段数值复查与补数要求.xlsx",
@@ -2196,8 +2561,8 @@
   },
   {
     "path": "页面实现与验收清单.xlsx",
-    "bytes": 16125,
-    "sha256": "ec3fe18815ed3f669a3e49e1279ce6f9871245e5eda94b24e4a45b8881315dc5"
+    "bytes": 14673,
+    "sha256": "d01f3ac2f1f1f262614afec5b8e382de9043b602fa4eff70d844b137047ab40c"
   },
   {
     "path": "页面类型建议与来源.md",

@@ -1,0 +1,32 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "QAPage",
+      "@id": "【提取：当前页面路由的规范URL；输出类型：URL】#webpage",
+      "url": "【提取：当前页面路由的规范URL；输出类型：URL】",
+      "mainEntity": {
+        "@type": "Question",
+        "name": "【提取：该单问题详情页可见的完整问题；输出类型：Text】",
+        "answerCount": "【提取：问答API中该问题实际公开答案总数；输出类型：Integer】",
+        "author": {
+          "@type": "Person",
+          "name": "【提取：该问题作者允许公开的显示名；输出类型：Text】"
+        },
+        "dateCreated": "【提取：该问题真实创建时间；输出类型：DateTime】",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "【提取：该问题实际被接受且可见的完整答案；输出类型：Text】",
+          "author": {
+            "@type": "Person",
+            "name": "【提取：此答案作者公开名；输出类型：Text】"
+          },
+          "dateCreated": "【提取：此答案真实创建时间；输出类型：DateTime】",
+          "url": "【提取：此答案可访问的定位URL；输出类型：URL】"
+        }
+      }
+    }
+  ]
+}
+</script>

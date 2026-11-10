@@ -1,0 +1,33 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "【提取：当前页面路由的规范URL；输出类型：URL】#webpage",
+      "url": "【提取：当前页面路由的规范URL；输出类型：URL】",
+      "name": "【提取：CMS中本页可见标题；输出类型：Text】",
+      "mainEntity": {
+        "@id": "【提取：当前页面路由的规范URL；输出类型：URL】#service"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "【提取：当前页面路由的规范URL；输出类型：URL】#service",
+      "name": "【提取：合同或合作系统中该服务或合作计划的真实名称；输出类型：Text】",
+      "provider": {
+        "@type": "Organization",
+        "name": "【提取：合同中实际履约或运营主体名称，不推为保险公司；输出类型：Text】",
+        "url": "【提取：真实服务提供方官网；输出类型：URL】"
+      },
+      "description": "【提取：该服务完整资格、责任范围、期限、地区和索赔规则；输出类型：Text】",
+      "offers": {
+        "@type": "Offer",
+        "price": "【提取：订单或保障系统中此服务实际报价金额；输出类型：Number】",
+        "priceCurrency": "【提取：同一服务报价币种；输出类型：Text】",
+        "description": "【提取：该报价对应的订单范围、费率条件与有效时间；输出类型：Text】"
+      }
+    }
+  ]
+}
+</script>
