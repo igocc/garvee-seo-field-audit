@@ -427,7 +427,7 @@
   {
     "path": "delivery-manifest.json",
     "bytes": 129882,
-    "sha256": "cc7fe24a809406f0917c9e1693405e927d2d7baf525af4c12890cdd3f044363c"
+    "sha256": "ea4412cd6738f0d13c5bcf5572198525a0eea68f70ab23c9bbd080585b9109d7"
   },
   {
     "path": "evidence/about-garvee.browser.html",
@@ -1466,8 +1466,8 @@
   },
   {
     "path": "index.html",
-    "bytes": 788324,
-    "sha256": "49b69259b42cf491d8765f931f3c368115f6ec76797812b08d32fad8fe4f6ee6"
+    "bytes": 788816,
+    "sha256": "9c94b878cafef7093e6724f6e0fa6122e1c8e8d90abacb6871f5f2b4c7c981cb"
   },
   {
     "path": "initial-inventory.json",
@@ -1512,7 +1512,7 @@
   {
     "path": "publication.json",
     "bytes": 752,
-    "sha256": "056a14b07f2587c3aae0a75c103d213ffb07c91fbf18075c5ad776694cb5e141"
+    "sha256": "e5f4b30c4089ee1cf0eefe18ae184b4968f8d77d5ade104541db5966184f4515"
   },
   {
     "path": "rating-consistency.json",
@@ -1551,8 +1551,8 @@
   },
   {
     "path": "review/gap-guidance.json",
-    "bytes": 291228,
-    "sha256": "460c2c7378a0fc84a3eb91172b94d2d83702bdc5edaa49dd3c4b3ef7a841b436"
+    "bytes": 291720,
+    "sha256": "6ebdd80084f32e7a981f7aa58b54492b659e8c3c89c001b978ab40c8b8b2ca39"
   },
   {
     "path": "review/gap-live-recheck.json",
@@ -1561,8 +1561,8 @@
   },
   {
     "path": "review/gap-status.csv",
-    "bytes": 39492,
-    "sha256": "f189649321e82331eef62c1065c0fe2f75bd3e939b93b1ea3313f711ac335582"
+    "bytes": 39984,
+    "sha256": "5bb7e8d9615cea89df9c2aaf8179975b35fd1c6b80c3652607db5a73cd6a18b3"
   },
   {
     "path": "review/guide-article.txt",
@@ -2546,13 +2546,13 @@
   },
   {
     "path": "字段支持映射与Schema全量属性.xlsx",
-    "bytes": 612583,
-    "sha256": "6b1dc41e9c9e5dce8710fbb13a5d71d81f6a8dead3f6af11171ecf23b5e4b01b"
+    "bytes": 612584,
+    "sha256": "bb674c24b104aca6abc9fef72de57488813babe6bd30f2e28be58a84edd46551"
   },
   {
     "path": "补数状态与完整模板.xlsx",
-    "bytes": 34138,
-    "sha256": "c03171617f3fc0e07c0d5dc91faf7fa8d30e06aca5a5ad097cb8a084686af94d"
+    "bytes": 34181,
+    "sha256": "83515170708cca8e62f44bfc4e9109b8a9d0c06879a3def2306628c3a6d36328"
   },
   {
     "path": "逐页字段数值复查与补数要求.xlsx",
@@ -2561,8 +2561,8 @@
   },
   {
     "path": "页面实现与验收清单.xlsx",
-    "bytes": 14673,
-    "sha256": "d01f3ac2f1f1f262614afec5b8e382de9043b602fa4eff70d844b137047ab40c"
+    "bytes": 14674,
+    "sha256": "7c83f739d9fadbdf0db553b33e935a70a53de569f3c68c6d30dd893e5846a7f0"
   },
   {
     "path": "页面类型建议与来源.md",
