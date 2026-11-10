@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>各页面缺失信息清单</title><style>body{margin:0;background:#f5f7f9;color:#20313e;font:15px/1.7 system-ui,sans-serif}main{max-width:1100px;margin:auto;padding:24px}header,section{background:white;border:1px solid #dce3e8;border-radius:8px;padding:20px;margin-bottom:18px}h1{font-size:26px;margin:0 0 10px}h2{font-size:21px;margin:0 0 8px}p{margin:8px 0}a{color:#00689a;overflow-wrap:anywhere}.note,.url{font-size:13px;color:#53636e}.jump{line-height:2}.table{overflow:auto}table{width:100%;border-collapse:collapse;font-size:14px}td,th{border:1px solid #dce3e8;padding:10px;text-align:left;vertical-align:top}th{background:#f0f4f7}td:first-child{width:25%;font-weight:600}td:last-child{width:20%;color:#53636e}details{margin-top:12px}summary{cursor:pointer;color:#00689a}pre{background:#132c3e;color:#edf7ff;padding:16px;overflow:auto;max-height:560px;font:13px/1.65 monospace}@media(max-width:650px){main{padding:10px}header,section{padding:14px}h1{font-size:23px}table{min-width:650px}}</style></head><body><main><header><h1>各页面缺失信息清单</h1><p>18 类页面，33 项待补信息。取证截至 2026-11-10。</p><p class="note">“未取得”表示缺少可信源数据；条件字段按实际业务补充。代码仅展示待补字段，按稳定实体ID合并；【提取：…】替换为真实值，并转为标明的类型。业务输入JSON用于补数，不直接作为JSON-LD上线。</p><nav class="jump"><a href="#homepage">首页</a> · <a href="#category">类目样本</a> · <a href="#product">商品详情及评论模块</a> · <a href="#product-reviews">独立评论页</a> · <a href="#shipping-policy">页脚：配送政策</a> · <a href="#faqs">官方问答页</a> · <a href="#mygarvees-rewards">页脚：会员积分</a> · <a href="#extended-service-protection">页脚：延长保障</a> · <a href="#carebox-package-protection">页脚：包裹保障</a> · <a href="#share-and-win">页脚：分享有奖</a> · <a href="#campaign">活动／专题页</a> · <a href="#business">页脚：批发业务</a> · <a href="#affiliate">页脚：联盟计划</a> · <a href="#influencer-program">页脚：达人合作</a> · <a href="#article">博客文章</a> · <a href="#diy-ideas">博客首页／内容聚合</a> · <a href="#blog-list">博客列表</a> · <a href="#help-center">页脚：帮助中心</a></nav></header><section id="homepage"><h2>首页</h2><p class="url"><a href="https://www.garvee.com/">https://www.garvee.com/</a></p><div class="table"><table><thead><tr><th>缺失信息</th><th>提供什么／从哪里取</th><th>适用条件</th></tr></thead><tbody><tr><td>视频首次公开时间 · uploadDate</td><td>视频CMS或来源平台的首次公开DateTime及真实时区；逐视频提供。</td><td>视频标记所需</td></tr><tr><td>视频简介、创作者 · description / creator</td><td>视频CMS的独立内容简介、真实创作者及其公开介绍页。</td><td>有真实资料时补</td></tr></tbody></table></div><details><summary>待补视频字段 · 中文取值示例</summary><pre><code>&lt;script type=&quot;application/ld+json&quot;&gt;
+{
+  &quot;@context&quot;: &quot;https://schema.org&quot;,
+  &quot;@graph&quot;: [
+    {
+      &quot;@type&quot;: &quot;VideoObject&quot;,
+      &quot;@id&quot;: &quot;【提取：当前视频稳定实体ID；类型：URL】&quot;,
+      &quot;uploadDate&quot;: &quot;【提取：视频CMS记录的首次公开发布时间，带真实时区；不取CDN时间；类型：DateTime】&quot;,
+      &quot;description&quot;: &quot;【提取：该视频独立内容简介；类型：Text】&quot;,
+      &quot;creator&quot;: {
+        &quot;@type&quot;: &quot;Person&quot;,
+        &quot;name&quot;: &quot;【提取：该视频实际创作者姓名；组织创作则改用Organization；类型：Text】&quot;,
+        &quot;url&quot;: &quot;【提取：创作者真实公开介绍页；类型：URL】&quot;
+      }
+    }
+  ]
+}
+&lt;/script&gt;</code></pre></details></section><section id="category"><h2>类目样本</h2><p class="url"><a href="https://www.garvee.com/collections/rugs">https://www.garvee.com/collections/rugs</a></p><div class="table"><table><thead><tr><th>缺失信息</th><th>提供什么／从哪里取</th><th>适用条件</th></tr></thead><tbody><tr><td>可见面包屑组件</td><td>导航或分类主数据提供真实层级、显示名和规范URL，补到页面正文。</td><td>页面组件缺失</td></tr></tbody></table></div><details><summary>待补页面组件 · 中文取值示例</summary><pre><code>&lt;nav aria-label=&quot;面包屑&quot;&gt;
+  &lt;ol&gt;
+    &lt;li&gt;&lt;a href=&quot;【提取：本市场首页规范URL】&quot;&gt;【提取：可见首页导航名称】&lt;/a&gt;&lt;/li&gt;
+    &lt;li aria-current=&quot;page&quot;&gt;【提取：当前类目真实名称】&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/nav&gt;</code></pre></details></section><section id="product"><h2>商品详情及评论模块</h2><p class="url"><a href="https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy">https://www.garvee.com/products/garvee-washable-area-rugs-10x13-living-pho-16khfwwy</a></p><div class="table"><table><thead><tr><th>缺失信息</th><th>提供什么／从哪里取</th><th>适用条件</th></tr></thead><tbody><tr><td>评价汇总范围与评分总数</td><td>评价API提供商品/变体范围、审核规则、数据快照及独立ratingCount；不拿评论条数代替评分条数。</td><td>评分总数仅在可信且需输出时补</td></tr><tr><td>完整变体关系 · ProductGroup / hasVariant</td><td>PIM提供父组ID、变体SKU、URL、颜色尺寸和逐变体报价关联。</td><td>真实变体模型</td></tr><tr><td>GTIN、MPN及商品状况来源</td><td>制造商/PIM提供实际编码及新旧状况。</td><td>编码实际分配时才补</td></tr><tr><td>真实卖方 · seller</td><td>商品商家主数据提供每个报价的合同卖方名称、稳定ID和URL。</td><td>不能按品牌推定</td></tr><tr><td>会员价的适用等级与积分计算规则</td><td>会员与价格系统提供等级ID、资格、叠加规则、计分基数和舍入方式。</td><td>会员报价适用时</td></tr><tr><td>逐条评论的商品/变体归属</td><td>评价API提供每条reviewId对应的productId、variantId及审核状态。</td><td>用于绑定真实评论</td></tr><tr><td>价格失效日期 · priceValidUntil</td><td>活动或价格系统提供真实截止日期。</td><td>仅真实限时价格</td></tr><tr><td>目的地与运费 · shippingDetails</td><td>运费引擎提供目的国家/州省、服务、门槛、费用及币种。</td><td>详细配送标记适用时</td></tr></tbody></table></div><details><summary>待补结构化字段 · 中文取值示例</summary><pre><code>&lt;script type=&quot;application/ld+json&quot;&gt;
+{
+  &quot;@context&quot;: &quot;https://schema.org&quot;,
+  &quot;@graph&quot;: [
+    {
+      &quot;@type&quot;: &quot;Product&quot;,
+      &quot;@id&quot;: &quot;【提取：当前商品规范URL；类型：URL】#product&quot;,
+      &quot;gtin&quot;: &quot;【提取：制造商实际分配且校验合法的GTIN；未分配则删除；类型：Text】&quot;,
+      &quot;mpn&quot;: &quot;【提取：制造商实际料号；未分配则删除；类型：Text】&quot;,
+      &quot;itemCondition&quot;: &quot;【提取：PIM确认的新旧状况所对应的Schema OfferItemCondition完整枚举URL；类型：URL】&quot;,
+      &quot;offers&quot;: {
+        &quot;@type&quot;: &quot;Offer&quot;,
+        &quot;@id&quot;: &quot;【提取：当前报价稳定实体ID；类型：URL】&quot;,
+        &quot;seller&quot;: {
+          &quot;@type&quot;: &quot;Organization&quot;,
+          &quot;name&quot;: &quot;【提取：该报价真实合同卖方名称；类型：Text】&quot;,
+          &quot;url&quot;: &quot;【提取：真实卖方公开身份页；类型：URL】&quot;
+        },
+        &quot;priceSpecification&quot;: {
+          &quot;@type&quot;: &quot;UnitPriceSpecification&quot;,
+          &quot;validForMemberTier&quot;: {
+            &quot;@id&quot;: &quot;【提取：该会员报价实际适用等级的稳定实体ID；类型：URL】&quot;
+          }
+        },
+        &quot;priceValidUntil&quot;: &quot;【提取：此SKU真实限时价格失效日期；没有限时事实则删除；类型：Date】&quot;,
+        &quot;shippingDetails&quot;: {
+          &quot;@type&quot;: &quot;OfferShippingDetails&quot;,
+          &quot;shippingDestination&quot;: {
+            &quot;@type&quot;: &quot;DefinedRegion&quot;,
+            &quot;addressCountry&quot;: &quot;【提取：物流规则实际覆盖的目的国家代码；类型：Text】&quot;,
+            &quot;addressRegion&quot;: &quot;【提取：同一服务实际覆盖的州省；不同服务或地区分别配置；类型：Text】&quot;
+          },
+          &quot;shippingRate&quot;: {
+            &quot;@type&quot;: &quot;MonetaryAmount&quot;,
+            &quot;value&quot;: &quot;【提取：运费引擎按该SKU、目的地、服务及门槛实际计算的运费；类型：Number】&quot;,
+            &quot;currency&quot;: &quot;【提取：此运费对应的ISO 4217币种；类型：Text】&quot;
+          }
+        }
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;ProductGroup&quot;,
+      &quot;@id&quot;: &quot;【提取：PIM中父商品组稳定URL；类型：URL】#group&quot;,
+      &quot;productGroupID&quot;: &quot;【提取：PIM中稳定父商品组ID；类型：Text】&quot;,
+      &quot;variesBy&quot;: [
+        &quot;https://schema.org/color&quot;,
+        &quot;https://schema.org/size&quot;
+      ],
+      &quot;hasVariant&quot;: [
+        {
+          &quot;@type&quot;: &quot;Product&quot;,
+          &quot;@id&quot;: &quot;【提取：某个实际变体规范URL；类型：URL】#product&quot;,
+          &quot;sku&quot;: &quot;【提取：此变体真实唯一SKU；类型：Text】&quot;,
+          &quot;color&quot;: &quot;【提取：此变体实际颜色；类型：Text】&quot;,
+          &quot;size&quot;: &quot;【提取：此变体实际尺寸及单位；类型：Text】&quot;
+        }
+      ]
+    }
+  ]
+}
+&lt;/script&gt;</code></pre></details><details><summary>待提供的评价、会员与归属数据 · 中文取值示例</summary><pre><code>{
+  &quot;ratingScope&quot;: {
+    &quot;scopeType&quot;: &quot;【提取：评价实际汇总对象类型；类型：Text】&quot;,
+    &quot;scopeId&quot;: &quot;【提取：同一汇总对象ID；类型：Text】&quot;,
+    &quot;moderationRule&quot;: &quot;【提取：评价审核、导入和删除过滤规则；类型：Text】&quot;,
+    &quot;snapshotAt&quot;: &quot;【提取：评价数据快照时间；类型：DateTime】&quot;,
+    &quot;ratingCount&quot;: &quot;【提取：同范围真实评分条数；无法独立提供则省略，不从评论条数推算；类型：Integer】&quot;
+  },
+  &quot;memberPriceEligibility&quot;: {
+    &quot;tierId&quot;: &quot;【提取：该会员报价真实适用等级ID；类型：Text】&quot;,
+    &quot;eligibility&quot;: &quot;【提取：会员资格与优惠叠加条件；类型：Text】&quot;,
+    &quot;pointsCalculationBase&quot;: &quot;【提取：积分按何种实际支付金额计算；类型：Text】&quot;,
+    &quot;pointsRoundingRule&quot;: &quot;【提取：实际积分舍入及兑换规则；类型：Text】&quot;
+  },
+  &quot;reviewBinding&quot;: [
+    {
+      &quot;reviewId&quot;: &quot;【提取：评价API中实际评论ID；类型：Text】&quot;,
+      &quot;productId&quot;: &quot;【提取：该评论所属商品ID；类型：Text】&quot;,
+      &quot;variantId&quot;: &quot;【提取：该评论所属变体ID；不按变体统计时按真实口径处理；类型：Text】&quot;,
+      &quot;moderationStatus&quot;: &quot;【提取：该评论审核状态；类型：Text】&quot;
+    }
+  ]
+}</code></pre></details></section><section id="product-reviews"><h2>独立评论页</h2><p class="url"><a href="https://www.garvee.com/pages/product-reviews">https://www.garvee.com/pages/product-reviews</a></p><div class="table"><table><thead><tr><th>缺失信息</th><th>提供什么／从哪里取</th><th>适用条件</th></tr></thead><tbody><tr><td>本页真实评论模块及评论数据</td><td>评价系统和页面开发提供本页逐条评论、所评商品、公开作者、正文、日期、星级及同范围汇总。</td><td>先恢复本页可见评论</td></tr></tbody></table></div><details><summary>待补评论数据 · 中文取值示例</summary><pre><code>{
+  &quot;reviews&quot;: [
+    {
+      &quot;reviewId&quot;: &quot;【提取：本页实际评论ID；类型：Text】&quot;,
+      &quot;productId&quot;: &quot;【提取：此评论实际所评商品ID；类型：Text】&quot;,
+      &quot;authorDisplayName&quot;: &quot;【提取：作者允许公开的显示名；类型：Text】&quot;,
+      &quot;reviewBody&quot;: &quot;【提取：该条评论真实正文；类型：Text】&quot;,
+      &quot;datePublished&quot;: &quot;【提取：该评论真实公开日期；类型：Date或DateTime】&quot;,
+      &quot;ratingValue&quot;: &quot;【提取：该条评论真实星级；类型：Number】&quot;,
+      &quot;bestRating&quot;: &quot;【提取：实际量表上限；类型：Number】&quot;,
+      &quot;worstRating&quot;: &quot;【提取：实际量表下限；类型：Number】&quot;
+    }
+  ],
+  &quot;aggregationScope&quot;: &quot;【提取：本页评论所属商品与汇总范围；多商品不得混成同一商品评分；类型：Text】&quot;
+}</code></pre></details></section><section id="shipping-policy"><h2>页脚：配送政策</h2><p class="url"><a href="https://www.garvee.com/policies/shipping-policy">https://www.garvee.com/policies/shipping-policy</a></p><div class="table"><table><thead><tr><th>缺失信息</th><th>提供什么／从哪里取</th><th>适用条件</th></tr></thead><tbody><tr><td>完整配送适用条件与费率</td><td>物流/运费引擎提供目的国家和州省、邮编限制、服务级别、运费门槛、费用及币种。</td><td>详细配送数据适用时</td></tr></tbody></table></div><details><summary>待提供的配送规则 · 中文取值示例</summary><pre><code>{
+  &quot;shippingRules&quot;: [
+    {
+      &quot;serviceId&quot;: &quot;【提取：实际配送服务ID；类型：Text】&quot;,
+      &quot;destinationCountry&quot;: &quot;【提取：真实目的国家代码；类型：Text】&quot;,
+      &quot;destinationRegions&quot;: [
+        &quot;【提取：该服务实际覆盖州省；类型：Text】&quot;
+      ],
+      &quot;postalCodeRules&quot;: &quot;【提取：真实邮编覆盖及排除规则；类型：Text】&quot;,
+      &quot;freeShippingThreshold&quot;: &quot;【提取：实际免运门槛及其币种；无门槛优惠则按真实规则处理；类型：Text】&quot;,
+      &quot;shippingRate&quot;: &quot;【提取：此目的地、服务和门槛条件下的实际运费；类型：Number】&quot;,
+      &quot;currency&quot;: &quot;【提取：此运费的ISO 4217币种；类型：Text】&quot;
+    }
+  ]
+}</code></pre></details></section><section id="faqs"><h2>官方问答页</h2><p class="url"><a href="https://www.garvee.com/pages/faqs">https://www.garvee.com/pages/faqs</a></p><div class="table"><table><thead><tr><th>缺失信息</th><th>提供什么／从哪里取</th><th>适用条件</th></tr></thead><tbody><tr><td>完整配送适用条件与费率</td><td>物流/运费引擎提供目的国家和州省、邮编限制、服务级别、运费门槛、费用及币种。</td><td>详细配送数据适用时</td></tr></tbody></table></div><details><summary>待提供的配送规则 · 中文取值示例</summary><pre><code>{
+  &quot;shippingRules&quot;: [
+    {
+      &quot;serviceId&quot;: &quot;【提取：实际配送服务ID；类型：Text】&quot;,
+      &quot;destinationCountry&quot;: &quot;【提取：真实目的国家代码；类型：Text】&quot;,
+      &quot;destinationRegions&quot;: [
+        &quot;【提取：该服务实际覆盖州省；类型：Text】&quot;
+      ],
+      &quot;postalCodeRules&quot;: &quot;【提取：真实邮编覆盖及排除规则；类型：Text】&quot;,
+      &quot;freeShippingThreshold&quot;: &quot;【提取：实际免运门槛及其币种；无门槛优惠则按真实规则处理；类型：Text】&quot;,
+      &quot;shippingRate&quot;: &quot;【提取：此目的地、服务和门槛条件下的实际运费；类型：Number】&quot;,
+      &quot;currency&quot;: &quot;【提取：此运费的ISO 4217币种；类型：Text】&quot;
+    }
+  ]
+}</code></pre></details></section><section id="mygarvees-rewards"><h2>页脚：会员积分</h2><p class="url"><a href="https://www.garvee.com/pages/mygarvees-rewards">https://www.garvee.com/pages/mygarvees-rewards</a></p><div class="table"><table><thead><tr><th>缺失信息</th><th>提供什么／从哪里取</th><th>适用条件</th></tr></thead><tbody><tr><td>等级累计、保级及降级周期</td><td>会员系统提供等级积分的累计周期、保级、降级及到期规则。</td><td>不以积分有效期推等级周期</td></tr><tr><td>等级与具体报价的映射</td><td>会员/价格系统提供tierId、适用SKU/报价、叠加条件及有效时间。</td><td>等级优惠价适用时</td></tr></tbody></table></div><details><summary>待提供的会员规则 · 中文取值示例</summary><pre><code>{
+  &quot;tierRules&quot;: [
+    {
+      &quot;tierId&quot;: &quot;【提取：实际会员等级稳定ID；类型：Text】&quot;,
+      &quot;qualificationPeriod&quot;: &quot;【提取：等级积分实际累计周期与起算点；类型：Text】&quot;,
+      &quot;renewalRule&quot;: &quot;【提取：实际保级条件；类型：Text】&quot;,
+      &quot;downgradeRule&quot;: &quot;【提取：实际降级和到期规则；类型：Text】&quot;,
+      &quot;eligibleOffers&quot;: [
+        {
+          &quot;sku&quot;: &quot;【提取：实际适用SKU；类型：Text】&quot;,
+          &quot;offerId&quot;: &quot;【提取：该等级对应真实报价ID；类型：Text】&quot;,
+          &quot;stackingRule&quot;: &quot;【提取：真实叠加规则；类型：Text】&quot;,
+          &quot;validFrom&quot;: &quot;【提取：实际生效时间；无时间限制按真实规则处理；类型：DateTime】&quot;,
+          &quot;validThrough&quot;: &quot;【提取：实际失效时间；无限期则省略；类型：DateTime】&quot;
+        }
+      ]
+    }
+  ]
+}</code></pre></details></section><section id="extended-service-protection"><h2>页脚：延长保障</h2><p class="url"><a href="https://www.garvee.com/pages/extended-service-protection">https://www.garvee.com/pages/extended-service-protection</a></p><div class="table"><table><thead><tr><th>缺失信息</th><th>提供什么／从哪里取</th><th>适用条件</th></tr></thead><tbody><tr><td>单SKU实际延保期限及资格</td><td>延保履约系统提供每个SKU的实际期限、起算点、注册截止日、排除项及提供方。</td><td>不能用计划范围替代单SKU期限</td></tr></tbody></table></div><details><summary>待补单SKU延保字段 · 中文取值示例</summary><pre><code>&lt;script type=&quot;application/ld+json&quot;&gt;
+{
+  &quot;@context&quot;: &quot;https://schema.org&quot;,
+  &quot;@graph&quot;: [
+    {
+      &quot;@type&quot;: &quot;Offer&quot;,
+      &quot;@id&quot;: &quot;【提取：该SKU报价稳定实体ID；类型：URL】&quot;,
+      &quot;warranty&quot;: {
+        &quot;@type&quot;: &quot;WarrantyPromise&quot;,
+        &quot;durationOfWarranty&quot;: {
+          &quot;@type&quot;: &quot;QuantitativeValue&quot;,
+          &quot;value&quot;: &quot;【提取：履约系统确认该SKU的实际延保月数；类型：Number】&quot;,
+          &quot;unitCode&quot;: &quot;MON&quot;
+        },
+        &quot;description&quot;: &quot;【提取：该SKU延保起算点、资格、注册截止日、排除项及实际提供方；类型：Text】&quot;
+      }
+    }
+  ]
+}
+&lt;/script&gt;</code></pre></details></section><section id="carebox-package-protection"><h2>页脚：包裹保障</h2><p class="url"><a href="https://www.garvee.com/pages/carebox-package-protection">https://www.garvee.com/pages/carebox-package-protection</a></p><div class="table"><table><thead><tr><th>缺失信息</th><th>提供什么／从哪里取</th><th>适用条件</th></tr></thead><tbody><tr><td>实际履约主体及按单保障报价</td><td>合同/保障与订单系统提供实际主体、订单报价、责任范围、保障和报案期限。</td><td>具体保障报价适用时</td></tr></tbody></table></div><details><summary>待补保障字段 · 中文取值示例</summary><pre><code>&lt;script type=&quot;application/ld+json&quot;&gt;
+{
+  &quot;@context&quot;: &quot;https://schema.org&quot;,
+  &quot;@graph&quot;: [
+    {
+      &quot;@type&quot;: &quot;Service&quot;,
+      &quot;@id&quot;: &quot;【提取：该保障服务稳定实体ID；类型：URL】&quot;,
+      &quot;provider&quot;: {
+        &quot;@type&quot;: &quot;Organization&quot;,
+        &quot;name&quot;: &quot;【提取：合同中实际履约主体名称；类型：Text】&quot;,
+        &quot;url&quot;: &quot;【提取：该主体真实公开身份页；类型：URL】&quot;
+      },
+      &quot;offers&quot;: {
+        &quot;@type&quot;: &quot;Offer&quot;,
+        &quot;price&quot;: &quot;【提取：此订单实际保障服务报价；类型：Number】&quot;,
+        &quot;priceCurrency&quot;: &quot;【提取：该报价币种；类型：Text】&quot;,
+        &quot;description&quot;: &quot;【提取：该报价责任范围、资格、保障期限及报案规则；类型：Text】&quot;
+      }
+    }
+  ]
+}
+&lt;/script&gt;</code></pre></details></section><section id="share-and-win"><h2>页脚：分享有奖</h2><p class="url"><a href="https://www.garvee.com/pages/share-and-win">https://www.garvee.com/pages/share-and-win</a></p><div class="table"><table><thead><tr><th>缺失信息</th><th>提供什么／从哪里取</th><th>适用条件</th></tr></thead><tbody><tr><td>逐种奖励的完整适用规则与起止时间</td><td>营销规则系统提供每种奖励的触发条件、资格、地区、叠加关系、起止时间及时区。</td><td>按各奖励机制分别提供</td></tr></tbody></table></div><details><summary>待提供的奖励条件 · 中文取值示例</summary><pre><code>{
+  &quot;rewardRules&quot;: [
+    {
+      &quot;rewardId&quot;: &quot;【提取：该奖励机制稳定ID；类型：Text】&quot;,
+      &quot;trigger&quot;: &quot;【提取：该奖励真实触发及审核条件；类型：Text】&quot;,
+      &quot;eligibility&quot;: &quot;【提取：适用用户、地区及资格；类型：Text】&quot;,
+      &quot;stackingRule&quot;: &quot;【提取：与其他奖励的实际叠加或排斥关系；类型：Text】&quot;,
+      &quot;validFrom&quot;: &quot;【提取：实际开始时间，带时区；无限时事实则省略；类型：DateTime】&quot;,
+      &quot;validThrough&quot;: &quot;【提取：实际结束时间，带时区；无限时事实则省略；类型：DateTime】&quot;
+    }
+  ]
+}</code></pre></details></section><section id="campaign"><h2>活动／专题页</h2><p class="url"><a href="https://www.garvee.com/pages/activity-fall-home-sale">https://www.garvee.com/pages/activity-fall-home-sale</a></p><div class="table"><table><thead><tr><th>缺失信息</th><th>提供什么／从哪里取</th><th>适用条件</th></tr></thead><tbody><tr><td>逐商品实际卖方</td><td>商品商家主数据提供每个报价对应的真实合同卖方。</td><td>按报价分别绑定</td></tr><tr><td>卡片与商品身份、库存和可信评分的映射</td><td>商品/库存/评价API提供卡片URL对应SKU、实际已分配GTIN、库存及可信评分来源。</td><td>实际需输出的字段才补</td></tr><tr><td>优惠资格和真实截止时间</td><td>活动/价格系统提供逐SKU资格、叠加条件、实际起止时间。</td><td>真实限时或优惠适用时</td></tr><tr><td>配送目的地与费率</td><td>运费引擎提供逐商品目的地区域、服务、费用、币种及门槛。</td><td>详细配送数据适用时</td></tr></tbody></table></div><details><summary>待提供的逐商品补数 · 中文取值示例</summary><pre><code>{
+  &quot;campaignProducts&quot;: [
+    {
+      &quot;productUrl&quot;: &quot;【提取：卡片对应真实商品规范URL；类型：URL】&quot;,
+      &quot;sku&quot;: &quot;【提取：商品源返回的真实SKU；类型：Text】&quot;,
+      &quot;gtin&quot;: &quot;【提取：制造商实际分配GTIN；未分配则省略；类型：Text】&quot;,
+      &quot;sellerId&quot;: &quot;【提取：此报价真实合同卖方ID；类型：Text】&quot;,
+      &quot;availability&quot;: &quot;【提取：同一SKU、同一快照的真实库存状态；类型：Text】&quot;,
+      &quot;verifiedRatingSource&quot;: &quot;【提取：同范围可信评价API记录；未核准则不输出评分；类型：Text】&quot;,
+      &quot;eligibility&quot;: &quot;【提取：活动实际SKU资格及优惠叠加条件；类型：Text】&quot;,
+      &quot;validFrom&quot;: &quot;【提取：该优惠实际开始时间，带时区；无此条件则省略；类型：DateTime】&quot;,
+      &quot;validThrough&quot;: &quot;【提取：该优惠实际结束时间，带时区；无此条件则省略；类型：DateTime】&quot;,
+      &quot;shippingRuleId&quot;: &quot;【提取：此商品对应真实目的地和费率规则ID；类型：Text】&quot;
+    }
+  ]
+}</code></pre></details></section><section id="business"><h2>页脚：批发业务</h2><p class="url"><a href="https://www.garvee.com/pages/business">https://www.garvee.com/pages/business</a></p><div class="table"><table><thead><tr><th>缺失信息</th><th>提供什么／从哪里取</th><th>适用条件</th></tr></thead><tbody><tr><td>批准账户下的逐SKU批量报价</td><td>B2B系统提供账户资格、SKU、数量范围、实际单价/币种、运输方式及有效期。</td><td>具体批量报价适用时</td></tr></tbody></table></div><details><summary>待补批量报价字段 · 中文取值示例</summary><pre><code>&lt;script type=&quot;application/ld+json&quot;&gt;
+{
+  &quot;@context&quot;: &quot;https://schema.org&quot;,
+  &quot;@graph&quot;: [
+    {
+      &quot;@type&quot;: &quot;Offer&quot;,
+      &quot;@id&quot;: &quot;【提取：真实B2B报价稳定实体ID；类型：URL】&quot;,
+      &quot;price&quot;: &quot;【提取：此SKU、数量档与批准账户实际每单位成交报价；类型：Number】&quot;,
+      &quot;priceCurrency&quot;: &quot;【提取：此报价币种；类型：Text】&quot;,
+      &quot;eligibleQuantity&quot;: {
+        &quot;@type&quot;: &quot;QuantitativeValue&quot;,
+        &quot;minValue&quot;: &quot;【提取：该报价实际起订数量；类型：Number】&quot;,
+        &quot;maxValue&quot;: &quot;【提取：该报价实际适用数量上限；无上限则删除；类型：Number】&quot;,
+        &quot;unitText&quot;: &quot;【提取：真实数量单位；类型：Text】&quot;
+      },
+      &quot;description&quot;: &quot;【提取：批准账户、合资格SKU、运输自提、有效期及叠加条件；类型：Text】&quot;
+    }
+  ]
+}
+&lt;/script&gt;</code></pre></details></section><section id="affiliate"><h2>页脚：联盟计划</h2><p class="url"><a href="https://www.garvee.com/pages/affiliate">https://www.garvee.com/pages/affiliate</a></p><div class="table"><table><thead><tr><th>缺失信息</th><th>提供什么／从哪里取</th><th>适用条件</th></tr></thead><tbody><tr><td>实际佣金结算与归因规则</td><td>合作平台提供实际比例或金额、合资格订单、归因周期、平台、地区和加入条件。</td><td>需披露具体商业条款时</td></tr></tbody></table></div><details><summary>待提供的结算规则 · 中文取值示例</summary><pre><code>{
+  &quot;commissionRules&quot;: [
+    {
+      &quot;partnerScope&quot;: &quot;【提取：此规则适用伙伴或计划范围；类型：Text】&quot;,
+      &quot;commission&quot;: &quot;【提取：实际佣金比例，或固定金额及币种；区分计算方式；类型：Text】&quot;,
+      &quot;eligibleOrders&quot;: &quot;【提取：实际合资格订单范围与排除项；类型：Text】&quot;,
+      &quot;attributionWindow&quot;: &quot;【提取：实际归因周期及单位；类型：Text】&quot;,
+      &quot;platform&quot;: &quot;【提取：真实结算平台；类型：Text】&quot;,
+      &quot;regions&quot;: &quot;【提取：实际适用地区；类型：Text】&quot;,
+      &quot;eligibility&quot;: &quot;【提取：实际加入资格；类型：Text】&quot;
+    }
+  ]
+}</code></pre></details></section><section id="influencer-program"><h2>页脚：达人合作</h2><p class="url"><a href="https://www.garvee.com/pages/influencer-program">https://www.garvee.com/pages/influencer-program</a></p><div class="table"><table><thead><tr><th>缺失信息</th><th>提供什么／从哪里取</th><th>适用条件</th></tr></thead><tbody><tr><td>实际佣金结算与归因规则</td><td>合作平台提供实际比例或金额、合资格订单、归因周期、平台、地区和加入条件。</td><td>需披露具体商业条款时</td></tr></tbody></table></div><details><summary>待提供的结算规则 · 中文取值示例</summary><pre><code>{
+  &quot;commissionRules&quot;: [
+    {
+      &quot;partnerScope&quot;: &quot;【提取：此规则适用伙伴或计划范围；类型：Text】&quot;,
+      &quot;commission&quot;: &quot;【提取：实际佣金比例，或固定金额及币种；区分计算方式；类型：Text】&quot;,
+      &quot;eligibleOrders&quot;: &quot;【提取：实际合资格订单范围与排除项；类型：Text】&quot;,
+      &quot;attributionWindow&quot;: &quot;【提取：实际归因周期及单位；类型：Text】&quot;,
+      &quot;platform&quot;: &quot;【提取：真实结算平台；类型：Text】&quot;,
+      &quot;regions&quot;: &quot;【提取：实际适用地区；类型：Text】&quot;,
+      &quot;eligibility&quot;: &quot;【提取：实际加入资格；类型：Text】&quot;
+    }
+  ]
+}</code></pre></details></section><section id="article"><h2>博客文章</h2><p class="url"><a href="https://www.garvee.com/blogs/buying-guides/everything-you-need-to-know-about-rug-sizes-and-placement">https://www.garvee.com/blogs/buying-guides/everything-you-need-to-know-about-rug-sizes-and-placement</a></p><div class="table"><table><thead><tr><th>缺失信息</th><th>提供什么／从哪里取</th><th>适用条件</th></tr></thead><tbody><tr><td>真实作者及介绍页</td><td>CMS按文章ID返回真实署名、Person/Organization角色和介绍页，并同步公开署名。</td><td>逐篇绑定</td></tr><tr><td>实际修改时间 · dateModified</td><td>CMS提供该篇正文最后实际修改日期或DateTime，保留来源精度。</td><td>确有修改事实时；未知可省略</td></tr></tbody></table></div><details><summary>待补文章字段；列表按文章逐条绑定 · 中文取值示例</summary><pre><code>&lt;script type=&quot;application/ld+json&quot;&gt;
+{
+  &quot;@context&quot;: &quot;https://schema.org&quot;,
+  &quot;@graph&quot;: [
+    {
+      &quot;@type&quot;: &quot;BlogPosting&quot;,
+      &quot;@id&quot;: &quot;【提取：该篇文章规范URL；类型：URL】#article&quot;,
+      &quot;author&quot;: {
+        &quot;@type&quot;: &quot;Person&quot;,
+        &quot;name&quot;: &quot;【提取：CMS中该篇文章真实公开署名；组织作者改用Organization；类型：Text】&quot;,
+        &quot;url&quot;: &quot;【提取：该作者真实公开介绍页；类型：URL】&quot;
+      },
+      &quot;dateModified&quot;: &quot;【提取：CMS中该篇正文最后实际修改日期；没有修改事实则删除；类型：Date或DateTime】&quot;
+    }
+  ]
+}
+&lt;/script&gt;</code></pre></details></section><section id="diy-ideas"><h2>博客首页／内容聚合</h2><p class="url"><a href="https://www.garvee.com/pages/diy-ideas">https://www.garvee.com/pages/diy-ideas</a></p><div class="table"><table><thead><tr><th>缺失信息</th><th>提供什么／从哪里取</th><th>适用条件</th></tr></thead><tbody><tr><td>真实作者及介绍页</td><td>CMS按文章ID返回真实署名、Person/Organization角色和介绍页，并同步公开署名。</td><td>逐篇绑定</td></tr><tr><td>实际修改时间 · dateModified</td><td>CMS提供该篇正文最后实际修改日期或DateTime，保留来源精度。</td><td>确有修改事实时；未知可省略</td></tr></tbody></table></div><details><summary>待补文章字段；列表按文章逐条绑定 · 中文取值示例</summary><pre><code>&lt;script type=&quot;application/ld+json&quot;&gt;
+{
+  &quot;@context&quot;: &quot;https://schema.org&quot;,
+  &quot;@graph&quot;: [
+    {
+      &quot;@type&quot;: &quot;BlogPosting&quot;,
+      &quot;@id&quot;: &quot;【提取：该篇文章规范URL；类型：URL】#article&quot;,
+      &quot;author&quot;: {
+        &quot;@type&quot;: &quot;Person&quot;,
+        &quot;name&quot;: &quot;【提取：CMS中该篇文章真实公开署名；组织作者改用Organization；类型：Text】&quot;,
+        &quot;url&quot;: &quot;【提取：该作者真实公开介绍页；类型：URL】&quot;
+      },
+      &quot;dateModified&quot;: &quot;【提取：CMS中该篇正文最后实际修改日期；没有修改事实则删除；类型：Date或DateTime】&quot;
+    }
+  ]
+}
+&lt;/script&gt;</code></pre></details></section><section id="blog-list"><h2>博客列表</h2><p class="url"><a href="https://www.garvee.com/blogs/buying-guides">https://www.garvee.com/blogs/buying-guides</a></p><div class="table"><table><thead><tr><th>缺失信息</th><th>提供什么／从哪里取</th><th>适用条件</th></tr></thead><tbody><tr><td>真实作者及介绍页</td><td>CMS按文章ID返回真实署名、Person/Organization角色和介绍页，并同步公开署名。</td><td>逐篇绑定</td></tr><tr><td>实际修改时间 · dateModified</td><td>CMS提供该篇正文最后实际修改日期或DateTime，保留来源精度。</td><td>确有修改事实时；未知可省略</td></tr></tbody></table></div><details><summary>待补文章字段；列表按文章逐条绑定 · 中文取值示例</summary><pre><code>&lt;script type=&quot;application/ld+json&quot;&gt;
+{
+  &quot;@context&quot;: &quot;https://schema.org&quot;,
+  &quot;@graph&quot;: [
+    {
+      &quot;@type&quot;: &quot;BlogPosting&quot;,
+      &quot;@id&quot;: &quot;【提取：该篇文章规范URL；类型：URL】#article&quot;,
+      &quot;author&quot;: {
+        &quot;@type&quot;: &quot;Person&quot;,
+        &quot;name&quot;: &quot;【提取：CMS中该篇文章真实公开署名；组织作者改用Organization；类型：Text】&quot;,
+        &quot;url&quot;: &quot;【提取：该作者真实公开介绍页；类型：URL】&quot;
+      },
+      &quot;dateModified&quot;: &quot;【提取：CMS中该篇正文最后实际修改日期；没有修改事实则删除；类型：Date或DateTime】&quot;
+    }
+  ]
+}
+&lt;/script&gt;</code></pre></details></section><section id="help-center"><h2>页脚：帮助中心</h2><p class="url"><a href="https://support.garvee.com/">https://support.garvee.com/</a></p><div class="table"><table><thead><tr><th>缺失信息</th><th>提供什么／从哪里取</th><th>适用条件</th></tr></thead><tbody><tr><td>HTML canonical标签</td><td>页面开发从规范路由取得当前帮助中心首页URL，实际输出到HTML head。</td><td>本次DOM未声明</td></tr></tbody></table></div><details><summary>待补head标签 · 中文取值示例</summary><pre><code>&lt;link rel=&quot;canonical&quot; href=&quot;【提取：帮助中心当前页面真实规范URL】&quot;&gt;</code></pre></details></section></main></body></html>
